@@ -5,15 +5,17 @@
       "date": "2026-08-03",
       "digest_path": "digests/2026/08/2026-08-03.md",
       "data_path": "data/2026/08/2026-08-03.json",
-      "generated_at": "2026-08-03T11:10:00+08:00",
-      "item_count": 7,
+      "generated_at": "2026-08-03T16:08:00+08:00",
+      "item_count": 10,
+      "ai_radar_count": 3,
       "categories": [
         "climate-environment",
         "culture",
         "economy",
         "markets",
         "politics",
-        "science"
+        "science",
+        "technology"
       ],
       "regions": [
         "Asia",

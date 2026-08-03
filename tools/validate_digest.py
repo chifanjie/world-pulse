@@ -24,7 +24,15 @@ ALLOWED_CATEGORIES = {
     "culture",
 }
 ALLOWED_CONFIDENCE = {"high", "medium", "low"}
-ALLOWED_SOURCE_TYPES = {"primary", "wire", "regional-media", "research"}
+ALLOWED_SOURCE_TYPES = {
+    "primary",
+    "wire",
+    "regional-media",
+    "research",
+    "code",
+    "model-card",
+    "community-index",
+}
 
 
 def _nonempty_string(value: Any) -> bool:
@@ -36,6 +44,16 @@ def _is_web_url(value: Any) -> bool:
         return False
     parsed = urlparse(value)
     return parsed.scheme in {"http", "https"} and bool(parsed.netloc)
+
+
+def _is_zoned_iso_timestamp(value: Any) -> bool:
+    if not _nonempty_string(value):
+        return False
+    try:
+        timestamp = datetime.fromisoformat(value.replace("Z", "+00:00"))
+    except ValueError:
+        return False
+    return timestamp.tzinfo is not None
 
 
 def _load_json(path: Path) -> tuple[dict[str, Any] | None, list[str]]:
@@ -116,6 +134,7 @@ def validate_file(path: Path, root: Path = ROOT) -> list[str]:
         errors.append("items should contain at least five independently sourced events")
 
     seen_ids: set[str] = set()
+    items_by_id: dict[str, dict[str, Any]] = {}
     for index, item in enumerate(items):
         prefix = f"items[{index}]"
         if not isinstance(item, dict):
@@ -129,6 +148,7 @@ def validate_file(path: Path, root: Path = ROOT) -> list[str]:
             errors.append(f"{prefix}.id is duplicated: {event_id}")
         else:
             seen_ids.add(event_id)
+            items_by_id[event_id] = item
             if digest_text and f"<!-- event:{event_id} -->" not in digest_text:
                 errors.append(f"digest is missing marker for event {event_id}")
 
@@ -171,6 +191,73 @@ def validate_file(path: Path, root: Path = ROOT) -> list[str]:
                     f"{source_prefix}.source_type must be one of "
                     f"{sorted(ALLOWED_SOURCE_TYPES)}"
                 )
+
+    ai_radar = data.get("ai_radar")
+    if not isinstance(ai_radar, dict):
+        errors.append("ai_radar must be an object")
+    else:
+        radar_ids = ai_radar.get("item_ids")
+        if not isinstance(radar_ids, list) or not 2 <= len(radar_ids) <= 4:
+            errors.append("ai_radar.item_ids must contain two to four event IDs")
+        elif not all(_nonempty_string(event_id) for event_id in radar_ids):
+            errors.append("ai_radar.item_ids must contain non-empty strings")
+        else:
+            if len(set(radar_ids)) != len(radar_ids):
+                errors.append("ai_radar.item_ids must not contain duplicates")
+            missing_ids = sorted(set(radar_ids) - seen_ids)
+            if missing_ids:
+                errors.append(
+                    "ai_radar.item_ids reference missing events: " + ", ".join(missing_ids)
+                )
+            for event_id in radar_ids:
+                item = items_by_id.get(event_id)
+                if item is None:
+                    continue
+                prefix = f"AI item {event_id}"
+                if item.get("section") != "ai-frontier":
+                    errors.append(f"{prefix} must use section 'ai-frontier'")
+                ai = item.get("ai")
+                if not isinstance(ai, dict):
+                    errors.append(f"{prefix}.ai must be an object")
+                    continue
+                for field in (
+                    "kind",
+                    "artifact_date",
+                    "artifact_status",
+                    "technical_takeaway",
+                    "evidence_level",
+                ):
+                    if not _nonempty_string(ai.get(field)):
+                        errors.append(f"{prefix}.ai.{field} must be a non-empty string")
+                topics = ai.get("topics")
+                if not isinstance(topics, list) or not topics or not all(
+                    _nonempty_string(topic) for topic in topics
+                ):
+                    errors.append(f"{prefix}.ai.topics must be a non-empty string array")
+                heat = ai.get("heat")
+                if not isinstance(heat, dict):
+                    errors.append(f"{prefix}.ai.heat must be an object")
+                    continue
+                if not _nonempty_string(heat.get("label")):
+                    errors.append(f"{prefix}.ai.heat.label must be a non-empty string")
+                if not _is_zoned_iso_timestamp(heat.get("as_of")):
+                    errors.append(f"{prefix}.ai.heat.as_of must be a zoned ISO timestamp")
+                signals = heat.get("signals")
+                if not isinstance(signals, list) or not signals:
+                    errors.append(f"{prefix}.ai.heat.signals must be a non-empty array")
+                    continue
+                for signal_index, signal in enumerate(signals):
+                    signal_prefix = f"{prefix}.ai.heat.signals[{signal_index}]"
+                    if not isinstance(signal, dict):
+                        errors.append(f"{signal_prefix} must be an object")
+                        continue
+                    for field in ("platform", "observation"):
+                        if not _nonempty_string(signal.get(field)):
+                            errors.append(f"{signal_prefix}.{field} must be a non-empty string")
+                    if not _is_web_url(signal.get("url")):
+                        errors.append(f"{signal_prefix}.url must be an HTTP(S) URL")
+        if not _is_zoned_iso_timestamp(ai_radar.get("selection_as_of")):
+            errors.append("ai_radar.selection_as_of must be a zoned ISO timestamp")
 
     return errors
 

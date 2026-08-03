@@ -1,10 +1,205 @@
 {
   "date": "2026-08-03",
   "timezone": "Asia/Shanghai",
-  "generated_at": "2026-08-03T11:10:00+08:00",
-  "overview": "美伊外交降级预期同时影响能源与市场；美日协调干预汇率；中国贸易政策分歧、东亚汛情、日全食准备和 AI 艺术争议构成当天的跨领域脉络。",
+  "generated_at": "2026-08-03T16:08:00+08:00",
+  "overview": "美伊外交降级预期同时影响能源与市场；美日协调干预汇率；中国贸易政策分歧、东亚汛情和日全食准备构成全球脉络。AI 前沿聚焦 Astra 数学研究、Qwen-UI-Agent 与超大 MoE 模型的本地推理基础设施。",
   "digest_path": "digests/2026/08/2026-08-03.md",
+  "ai_radar": {
+    "selection_as_of": "2026-08-03T16:08:00+08:00",
+    "news_window_hours": 72,
+    "paper_window_days": 7,
+    "item_ids": [
+      "openai-astra-math",
+      "qwen-ui-agent",
+      "waste-v0-6-3"
+    ],
+    "paper_heat_snapshot": {
+      "provider": "Hugging Face Daily Papers",
+      "page_date": "2026-08-03",
+      "metric": "community votes displayed on the page",
+      "caveat": "Platform attention is not peer review or independent replication.",
+      "entries": [
+        {
+          "rank": 1,
+          "title": "AskChem: Claim-Centered Infrastructure for Chemistry Literature Synthesis",
+          "value": 293,
+          "url": "https://huggingface.co/papers/2607.28618"
+        },
+        {
+          "rank": 2,
+          "title": "Qwen-UI-Agent Technical Report",
+          "value": 290,
+          "url": "https://huggingface.co/papers/2607.28227"
+        },
+        {
+          "rank": 3,
+          "title": "Metis: Memory Foundation Model",
+          "value": 260,
+          "url": "https://huggingface.co/papers/2607.26760"
+        }
+      ]
+    }
+  },
   "items": [
+    {
+      "id": "openai-astra-math",
+      "section": "ai-frontier",
+      "category": "science",
+      "regions": ["Global", "North America"],
+      "title": "OpenAI 公布 Astra 生成的十项数学与理论计算机成果",
+      "summary": "OpenAI 称其下一代主要模型 Astra 的内部版本为十个长期开放问题生成了证明或实质性进展，并将论证形式化为 Lean 证书。",
+      "why_it_matters": "如果外部审查成立，这将显示前沿模型开始从解题工具转向能够参与开放数学研究的系统。",
+      "uncertainty": "结果、成本和研究贡献由 OpenAI 自报，刚发布不久，仍需各领域专家独立检查原创性、假设和研究意义。",
+      "confidence": "medium",
+      "ai": {
+        "kind": "model-research",
+        "topics": ["mathematics", "formal-verification", "scientific-discovery"],
+        "artifact_date": "2026-08-01",
+        "artifact_status": "official-publication",
+        "technical_takeaway": "模型生成数学论证，人类整理手稿，并由模型输出可检查的 Lean 形式化证书。",
+        "evidence_level": "primary-material-with-formal-artifacts",
+        "code_url": "https://github.com/openai/ten-proofs",
+        "heat": {
+          "label": "major-official-release",
+          "as_of": "2026-08-03T16:08:00+08:00",
+          "signals": [
+            {
+              "platform": "OpenAI",
+              "observation": "公布十项开放问题结果、论文和推理材料",
+              "url": "https://openai.com/index/ten-advances-in-mathematics/"
+            },
+            {
+              "platform": "GitHub",
+              "observation": "公开 Lean 证明证书，允许外部逐步检查",
+              "url": "https://github.com/openai/ten-proofs"
+            }
+          ]
+        }
+      },
+      "sources": [
+        {
+          "publisher": "OpenAI",
+          "title": "Ten advances in mathematics and theoretical computer science",
+          "url": "https://openai.com/index/ten-advances-in-mathematics/",
+          "published_at": "2026-08-01",
+          "source_type": "primary"
+        },
+        {
+          "publisher": "OpenAI",
+          "title": "Ten advances in mathematics and theoretical computer science (paper)",
+          "url": "https://cdn.openai.com/pdf/ten-proofs-oai.pdf",
+          "published_at": "2026-08-01",
+          "source_type": "research"
+        },
+        {
+          "publisher": "OpenAI",
+          "title": "ten-proofs Lean certificates",
+          "url": "https://github.com/openai/ten-proofs",
+          "published_at": "2026-08-01",
+          "source_type": "code"
+        }
+      ]
+    },
+    {
+      "id": "qwen-ui-agent",
+      "section": "ai-frontier",
+      "category": "technology",
+      "regions": ["Asia", "Global"],
+      "title": "Qwen-UI-Agent 把 GUI、命令行和长任务训练统一起来",
+      "summary": "Qwen-UI-Agent 提出覆盖手机、电脑、网页与 DeepSearch 的统一 GUI 智能体，并结合 GUI/CLI 动作、数据飞轮和长轨迹在线强化学习。",
+      "why_it_matters": "该方向试图把智能体从单网页演示推进到跨设备、跨平台的真实长流程执行。",
+      "uncertainty": "论文是未经同行评审的预印本，性能数字由作者自报，真实权限控制、隐私和长期可靠性仍需独立复现。",
+      "confidence": "medium",
+      "ai": {
+        "kind": "paper",
+        "topics": ["gui-agents", "computer-use", "reinforcement-learning"],
+        "artifact_date": "2026-07-30",
+        "artifact_status": "preprint",
+        "technical_takeaway": "统一 GUI 与 CLI 动作，训练超过 100 步的轨迹，并使用超过 10,000 个并发环境加速在线强化学习 rollout。",
+        "evidence_level": "preprint-author-benchmarks",
+        "paper_id": "arXiv:2607.28227",
+        "heat": {
+          "label": "platform-trending",
+          "as_of": "2026-08-03T16:08:00+08:00",
+          "window_days": 7,
+          "signals": [
+            {
+              "platform": "Hugging Face Daily Papers",
+              "observation": "当日页面显示 290 票，排名第二",
+              "url": "https://huggingface.co/papers/2607.28227"
+            }
+          ]
+        }
+      },
+      "sources": [
+        {
+          "publisher": "arXiv",
+          "title": "Qwen-UI-Agent Technical Report: Toward Next-Generation Real-World Centric Foundation GUI Agents",
+          "url": "https://arxiv.org/abs/2607.28227",
+          "published_at": "2026-07-30",
+          "source_type": "research"
+        },
+        {
+          "publisher": "Hugging Face Daily Papers",
+          "title": "Qwen-UI-Agent paper page",
+          "url": "https://huggingface.co/papers/2607.28227",
+          "published_at": "accessed 2026-08-03T16:08:00+08:00",
+          "source_type": "community-index"
+        }
+      ]
+    },
+    {
+      "id": "waste-v0-6-3",
+      "section": "ai-frontier",
+      "category": "technology",
+      "regions": ["Global"],
+      "title": "WASTE v0.6.3 改进超大 MoE 模型的 NVMe 流式推理",
+      "summary": "WASTE v0.6.3 改进容器内存预算、转换任务线程控制和缓存测量，让从 NVMe 按需流式读取混合专家权重的本地推理路线更稳健。",
+      "why_it_matters": "该项目展示了把模型共享主干留在 RAM、仅从高速存储读取激活专家的路线，使远大于内存容量的完整 MoE 模型可以在消费级设备上运行。",
+      "uncertainty": "Kimi K3 转换容器仍约 982 GB，64 GB 只是作者所称的实用内存下限，0.45–0.62 token/s 性能来自特定 M5 Pro 设备且尚无独立复现，格式和 API 也仍可能变化。",
+      "confidence": "medium",
+      "ai": {
+        "kind": "open-source-infrastructure",
+        "topics": ["local-inference", "mixture-of-experts", "nvme-streaming"],
+        "artifact_date": "2026-08-03",
+        "artifact_status": "open-source-release",
+        "technical_takeaway": "共享主干常驻内存，激活的专家权重按需从 NVMe 读取；v0.6.3 重点修正容器预算、线程膨胀和测量一致性。",
+        "evidence_level": "official-release-with-author-benchmarks",
+        "code_url": "https://github.com/sqliteai/waste",
+        "heat": {
+          "label": "same-day-open-source-release",
+          "as_of": "2026-08-03T16:08:00+08:00",
+          "signals": [
+            {
+              "platform": "GitHub Releases",
+              "observation": "v0.6.3 于 8 月 3 日 06:33 UTC 发布",
+              "url": "https://github.com/sqliteai/waste/releases/tag/v0.6.3"
+            },
+            {
+              "platform": "GitHub",
+              "observation": "截至核验时仓库显示 1,281 stars、101 forks",
+              "url": "https://github.com/sqliteai/waste"
+            }
+          ]
+        }
+      },
+      "sources": [
+        {
+          "publisher": "sqliteai/waste",
+          "title": "WASTE v0.6.3 release notes",
+          "url": "https://github.com/sqliteai/waste/releases/tag/v0.6.3",
+          "published_at": "2026-08-03T06:33:00Z",
+          "source_type": "code"
+        },
+        {
+          "publisher": "sqliteai/waste",
+          "title": "WASTE — Weight-Aware Streaming Tensor Engine",
+          "url": "https://github.com/sqliteai/waste",
+          "published_at": "accessed 2026-08-03T16:08:00+08:00",
+          "source_type": "code"
+        }
+      ]
+    },
     {
       "id": "iran-talks-monday",
       "category": "politics",

@@ -48,6 +48,27 @@ class ToolTests(unittest.TestCase):
                     ],
                 }
             )
+            if index < 3:
+                items[-1]["section"] = "ai-frontier"
+                items[-1]["ai"] = {
+                    "kind": "paper",
+                    "topics": ["evaluation"],
+                    "artifact_date": "2026-08-03",
+                    "artifact_status": "preprint",
+                    "technical_takeaway": "A concrete technical result.",
+                    "evidence_level": "primary-material",
+                    "heat": {
+                        "label": "platform-trending",
+                        "as_of": "2026-08-03T21:30:00+08:00",
+                        "signals": [
+                            {
+                                "platform": "Example",
+                                "observation": "Ranked in a dated list.",
+                                "url": f"{source_url}?id={index}",
+                            }
+                        ],
+                    },
+                }
         digest.write_text("\n".join(markers), encoding="utf-8")
 
         data_file = root / "data" / "2026" / "08" / "2026-08-03.json"
@@ -60,6 +81,10 @@ class ToolTests(unittest.TestCase):
                     "generated_at": "2026-08-03T21:30:00+08:00",
                     "overview": "A valid daily overview.",
                     "digest_path": "digests/2026/08/2026-08-03.md",
+                    "ai_radar": {
+                        "selection_as_of": "2026-08-03T21:30:00+08:00",
+                        "item_ids": ["event-0", "event-1", "event-2"],
+                    },
                     "items": items,
                 }
             ),
@@ -85,6 +110,20 @@ class ToolTests(unittest.TestCase):
             self.assertTrue(any("duplicated" in error for error in errors))
             self.assertTrue(any("HTTP(S)" in error for error in errors))
 
+    def test_ai_radar_requires_structured_metadata(self) -> None:
+        with tempfile.TemporaryDirectory() as temporary:
+            root = Path(temporary)
+            data_file = self.make_valid_fixture(root)
+            payload = json.loads(data_file.read_text(encoding="utf-8"))
+            del payload["items"][0]["section"]
+            payload["items"][1]["ai"]["heat"]["as_of"] = "not-a-timestamp"
+            payload["ai_radar"]["item_ids"][2] = payload["ai_radar"]["item_ids"][1]
+            data_file.write_text(json.dumps(payload), encoding="utf-8")
+            errors = validate_file(data_file, root)
+            self.assertTrue(any("section 'ai-frontier'" in error for error in errors))
+            self.assertTrue(any("zoned ISO timestamp" in error for error in errors))
+            self.assertTrue(any("must not contain duplicates" in error for error in errors))
+
     def test_index_collects_daily_metadata(self) -> None:
         with tempfile.TemporaryDirectory() as temporary:
             root = Path(temporary)
@@ -92,6 +131,7 @@ class ToolTests(unittest.TestCase):
             entries = collect_entries(root)
             self.assertEqual(entries[0]["date"], "2026-08-03")
             self.assertEqual(entries[0]["item_count"], 5)
+            self.assertEqual(entries[0]["ai_radar_count"], 3)
 
     def test_plan_is_deterministic_with_history(self) -> None:
         day = date(2026, 8, 9)

@@ -37,6 +37,7 @@ def collect_entries(root: Path = ROOT) -> list[dict[str, Any]]:
                 "data_path": path.relative_to(root).as_posix(),
                 "generated_at": data["generated_at"],
                 "item_count": len(items),
+                "ai_radar_count": len(data.get("ai_radar", {}).get("item_ids", [])),
                 "categories": categories,
                 "regions": regions,
             }

@@ -10,6 +10,23 @@
     "culture"
   ],
   "target_story_range": [6, 10],
+  "ai_radar": {
+    "target_items": 3,
+    "minimum_items": 2,
+    "maximum_items": 4,
+    "news_window_hours": 72,
+    "paper_window_days": 7,
+    "dedupe_lookback_days": 14,
+    "same_organization_limit": 1,
+    "slots": [
+      "model-or-product",
+      "frontier-paper",
+      "safety-infrastructure-or-open-source"
+    ],
+    "require_primary_source": true,
+    "require_heat_evidence": true,
+    "label_preprints": true
+  },
   "activity_weights": {
     "1": 44,
     "2": 34,
