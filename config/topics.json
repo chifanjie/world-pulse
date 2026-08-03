@@ -1,0 +1,15 @@
+{
+  "categories": [
+    "politics",
+    "economy",
+    "markets",
+    "technology",
+    "science",
+    "climate-environment",
+    "health-society",
+    "culture"
+  ],
+  "target_story_range": [6, 10],
+  "timezone": "Asia/Shanghai",
+  "editorial_version": "1.0"
+}
