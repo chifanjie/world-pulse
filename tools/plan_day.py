@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Create a deterministic editorial plan without prescribing commit counts."""
+"""Create an irregular, history-aware editorial activity plan."""
 
 from __future__ import annotations
 
@@ -20,36 +20,123 @@ CATEGORIES = [
     "culture",
 ]
 
+ACTIVITY_WEIGHTS = ((1, 44), (2, 34), (3, 17), (4, 5))
+EXTRA_CANDIDATES = [
+    "deep-dive",
+    "source-diversity-check",
+    "context-timeline",
+    "small-data-view",
+    "methodology-maintenance",
+]
+
 
 def parse_date(value: str) -> date:
     return datetime.strptime(value, "%Y-%m-%d").date()
 
 
-def build_plan(day: date, last_lab: date | None = None) -> dict[str, object]:
-    digest = hashlib.sha256(f"world-pulse/v1|{day.isoformat()}".encode()).digest()
+def parse_counts(value: str) -> list[int]:
+    if not value.strip():
+        return []
+    counts = [int(part) for part in value.split(",")]
+    if any(count < 0 or count > 20 for count in counts):
+        raise argparse.ArgumentTypeError("recent counts must be between 0 and 20")
+    return counts
+
+
+def weighted_activity(sample: int) -> int:
+    bucket = sample % 100
+    cumulative = 0
+    for activity, weight in ACTIVITY_WEIGHTS:
+        cumulative += weight
+        if bucket < cumulative:
+            return activity
+    return 1
+
+
+def adjust_activity(sampled: int, recent_counts: list[int], nudge: int) -> int:
+    """Break obvious streaks while retaining a quiet-day bias."""
+    recent = recent_counts[-14:]
+    activity = sampled
+
+    if len(recent) >= 3 and recent[-3:] == [activity] * 3:
+        alternatives = [count for count in (1, 2, 3, 4) if count != activity]
+        activity = alternatives[nudge % len(alternatives)]
+
+    if len(recent) >= 4 and all(count <= 1 for count in recent[-4:]):
+        activity = max(activity, 2)
+
+    if len(recent) >= 5 and sum(recent[-5:]) >= 13:
+        activity = min(activity, 2)
+
+    if len(recent) >= 14 and recent[-7:] == recent[-14:-7]:
+        activity = 2 if activity == 1 else 1
+
+    return activity
+
+
+def irregular_gap(anchor: date, label: str, minimum: int, maximum: int) -> int:
+    digest = hashlib.sha256(f"world-pulse/{label}|{anchor.isoformat()}".encode()).digest()
+    return minimum + digest[0] % (maximum - minimum + 1)
+
+
+def build_plan(
+    day: date,
+    last_lab: date | None = None,
+    last_review: date | None = None,
+    recent_counts: list[int] | None = None,
+) -> dict[str, object]:
+    recent = list(recent_counts or [])[-14:]
+    history = ",".join(str(count) for count in recent)
+    digest = hashlib.sha256(
+        f"world-pulse/v2|{day.isoformat()}|{history}".encode()
+    ).digest()
     story_count = 6 + digest[0] % 5
-    lead_category = CATEGORIES[day.toordinal() % len(CATEGORIES)]
+    lead_category = CATEGORIES[digest[1] % len(CATEGORIES)]
     deep_dives = 1 + digest[1] % 2
+
+    activity_cap = adjust_activity(weighted_activity(digest[2]), recent, digest[3])
 
     lab_due = False
     lab_gap_days: int | None = None
     if last_lab is not None:
-        lab_seed = hashlib.sha256(
-            f"world-pulse/lab|{last_lab.isoformat()}".encode()
-        ).digest()
-        lab_gap_days = 10 + lab_seed[0] % 9
+        lab_gap_days = irregular_gap(last_lab, "lab", 9, 21)
         lab_due = (day - last_lab).days >= lab_gap_days
+
+    review_due = False
+    review_gap_days: int | None = None
+    if last_review is not None:
+        review_gap_days = irregular_gap(last_review, "review", 5, 10)
+        review_due = (day - last_review).days >= review_gap_days
+
+    required_extras: list[str] = []
+    if review_due:
+        required_extras.append("rolling-review")
+    if lab_due:
+        required_extras.append("tested-lab")
+    activity_cap = max(activity_cap, min(4, 1 + len(required_extras)))
+
+    rotated = EXTRA_CANDIDATES[digest[4] % len(EXTRA_CANDIDATES) :] + EXTRA_CANDIDATES[
+        : digest[4] % len(EXTRA_CANDIDATES)
+    ]
+    candidates = required_extras + [item for item in rotated if item not in required_extras]
+    candidates = candidates[: max(0, activity_cap - 1)]
 
     return {
         "date": day.isoformat(),
         "target_story_count": story_count,
         "lead_category": lead_category,
         "deep_dive_count": deep_dives,
-        "chart_candidate": day.weekday() == 2,
-        "weekly_review": day.weekday() == 6,
+        "activity_cap": activity_cap,
+        "recent_activity": recent,
+        "candidate_extras": candidates,
+        "review_due": review_due,
+        "review_gap_days": review_gap_days,
         "lab_due": lab_due,
         "lab_gap_days": lab_gap_days,
-        "note": "Extra work is optional and must represent an independently useful result.",
+        "note": (
+            "The cap is not a quota. Drop any extra that cannot become an independently "
+            "useful, tested result; never create filler or empty commits."
+        ),
     }
 
 
@@ -57,8 +144,16 @@ def main(argv: list[str] | None = None) -> int:
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument("--date", type=parse_date, default=date.today())
     parser.add_argument("--last-lab", type=parse_date)
+    parser.add_argument("--last-review", type=parse_date)
+    parser.add_argument("--recent-counts", type=parse_counts, default=[])
     args = parser.parse_args(argv)
-    print(json.dumps(build_plan(args.date, args.last_lab), ensure_ascii=False, indent=2))
+    print(
+        json.dumps(
+            build_plan(args.date, args.last_lab, args.last_review, args.recent_counts),
+            ensure_ascii=False,
+            indent=2,
+        )
+    )
     return 0
 
 

@@ -7,7 +7,7 @@ from datetime import date
 from pathlib import Path
 
 from tools.build_index import collect_entries
-from tools.plan_day import build_plan
+from tools.plan_day import adjust_activity, build_plan, irregular_gap
 from tools.validate_digest import validate_file
 
 
@@ -87,10 +87,29 @@ class ToolTests(unittest.TestCase):
             self.assertEqual(entries[0]["date"], "2026-08-03")
             self.assertEqual(entries[0]["item_count"], 5)
 
-    def test_plan_is_deterministic_and_marks_sunday(self) -> None:
+    def test_plan_is_deterministic_with_history(self) -> None:
         day = date(2026, 8, 9)
-        self.assertEqual(build_plan(day), build_plan(day))
-        self.assertTrue(build_plan(day)["weekly_review"])
+        recent = [1, 2, 1, 3, 1, 2]
+        self.assertEqual(
+            build_plan(day, recent_counts=recent),
+            build_plan(day, recent_counts=recent),
+        )
+
+    def test_plan_varies_without_weekday_rules(self) -> None:
+        caps = {
+            build_plan(date(2026, 8, day))["activity_cap"] for day in range(1, 29)
+        }
+        self.assertGreaterEqual(len(caps), 3)
+
+    def test_activity_breaks_long_streaks(self) -> None:
+        self.assertNotEqual(adjust_activity(1, [1, 1, 1], 0), 1)
+        self.assertGreaterEqual(adjust_activity(1, [1, 1, 1, 1], 0), 2)
+
+    def test_irregular_gaps_stay_in_bounds(self) -> None:
+        for day in range(1, 20):
+            gap = irregular_gap(date(2026, 7, day), "lab", 9, 21)
+            self.assertGreaterEqual(gap, 9)
+            self.assertLessEqual(gap, 21)
 
 
 if __name__ == "__main__":

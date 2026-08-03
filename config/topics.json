@@ -10,6 +10,14 @@
     "culture"
   ],
   "target_story_range": [6, 10],
+  "activity_weights": {
+    "1": 44,
+    "2": 34,
+    "3": 17,
+    "4": 5
+  },
+  "review_gap_days": [5, 10],
+  "lab_gap_days": [9, 21],
   "timezone": "Asia/Shanghai",
-  "editorial_version": "1.0"
+  "editorial_version": "1.1"
 }
