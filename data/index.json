@@ -1,0 +1,28 @@
+{
+  "version": 1,
+  "entries": [
+    {
+      "date": "2026-08-03",
+      "digest_path": "digests/2026/08/2026-08-03.md",
+      "data_path": "data/2026/08/2026-08-03.json",
+      "generated_at": "2026-08-03T11:10:00+08:00",
+      "item_count": 7,
+      "categories": [
+        "climate-environment",
+        "culture",
+        "economy",
+        "markets",
+        "politics",
+        "science"
+      ],
+      "regions": [
+        "Asia",
+        "Europe",
+        "Global",
+        "Middle East",
+        "North America",
+        "North Atlantic"
+      ]
+    }
+  ]
+}

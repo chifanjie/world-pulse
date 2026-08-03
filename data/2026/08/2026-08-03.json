@@ -1,0 +1,156 @@
+{
+  "date": "2026-08-03",
+  "timezone": "Asia/Shanghai",
+  "generated_at": "2026-08-03T11:10:00+08:00",
+  "overview": "美伊外交降级预期同时影响能源与市场；美日协调干预汇率；中国贸易政策分歧、东亚汛情、日全食准备和 AI 艺术争议构成当天的跨领域脉络。",
+  "digest_path": "digests/2026/08/2026-08-03.md",
+  "items": [
+    {
+      "id": "iran-talks-monday",
+      "category": "politics",
+      "regions": ["Middle East", "North America"],
+      "title": "美方称伊朗谈判周一启动，具体安排仍不透明",
+      "summary": "美国总统特朗普称与伊朗的谈判将在周一开始，但未说明地点、参加者或期限；相关外交接触仍在继续。",
+      "why_it_matters": "谈判关系到地区冲突、伊朗核问题以及霍尔木兹海峡的稳定通行。",
+      "uncertainty": "伊朗是否接受美方描述的框架尚未得到完整确认，过去的暂停打击也未自动带来持久降级。",
+      "confidence": "medium",
+      "sources": [
+        {
+          "publisher": "Reuters",
+          "title": "Trump says Iran talks to take place on Monday, sets no deadline for deal",
+          "url": "https://www.reuters.com/world/asia-pacific/trump-says-iran-talks-take-place-monday-sets-no-deadline-deal-2026-08-02/",
+          "published_at": "2026-08-03",
+          "source_type": "wire"
+        },
+        {
+          "publisher": "Associated Press",
+          "title": "Trump frequently announces he’s halting strikes in Iran. But they keep happening",
+          "url": "https://apnews.com/article/trump-iran-war-us-canceled-strikes-670f077d2cf5de7614cfce4ad40e4aaa",
+          "published_at": "2026-08-02T16:09:00-04:00",
+          "source_type": "wire"
+        }
+      ]
+    },
+    {
+      "id": "oil-prices-retreat",
+      "category": "economy",
+      "regions": ["Global", "Middle East"],
+      "title": "降级预期推动油价早盘回落约 4 美元",
+      "summary": "布伦特和 WTI 原油期货在周一亚洲早盘均下跌约 4 美元，此前两项合约在 7 月累计上涨超过 20%。",
+      "why_it_matters": "能源价格会经由运输、制造与通胀传导到全球经济。",
+      "uncertainty": "外交谈判、海峡通行和实际供应均未稳定，价格可能因新事件快速反转。",
+      "confidence": "high",
+      "sources": [
+        {
+          "publisher": "Reuters",
+          "title": "Oil tumbles as Trump cancels attack on Iran to reach nuclear deal",
+          "url": "https://www.reuters.com/business/energy/oil-tumbles-trump-cancels-attack-iran-reach-nuclear-deal-2026-08-03/",
+          "published_at": "2026-08-03",
+          "source_type": "wire"
+        }
+      ]
+    },
+    {
+      "id": "japan-us-yen-intervention",
+      "category": "markets",
+      "regions": ["Asia", "North America"],
+      "title": "日本确认与美国协调干预日元市场",
+      "summary": "日本财务省确认与美国协调买入日元，以应对近期的过度波动和无序走势。",
+      "why_it_matters": "跨国协调干预会同时影响汇率、债券、进口成本和央行政策预期。",
+      "uncertainty": "干预规模、持续时间及其能否改变由利差等基本面驱动的趋势尚不明确。",
+      "confidence": "high",
+      "sources": [
+        {
+          "publisher": "Reuters",
+          "title": "Japan confirms joint FX intervention with U.S., says won't hesitate for more",
+          "url": "https://www.reuters.com/world/asia-pacific/japan-confirms-joint-fx-intervention-with-us-says-wont-hesitate-more-2026-08-02/",
+          "published_at": "2026-08-03",
+          "source_type": "wire"
+        }
+      ]
+    },
+    {
+      "id": "china-trade-policy-lines",
+      "category": "economy",
+      "regions": ["Asia", "Europe", "North America"],
+      "title": "欧美贸易磋商前，中国更集中地为产业政策辩护",
+      "summary": "中国近期官方和政策表态强调产业政策连续性，并反驳西方关于产能过剩和消费不足的批评。",
+      "why_it_matters": "结构性分歧可能继续影响关税、先进制造、稀土及全球供应链布局。",
+      "uncertainty": "所谓划定政策边界主要是分析人士的解读，具体变化仍要以后续政策与谈判文本验证。",
+      "confidence": "medium",
+      "sources": [
+        {
+          "publisher": "Reuters",
+          "title": "China draws 'red lines' around its economic model ahead of EU, US trade talks",
+          "url": "https://www.reuters.com/world/china/china-draws-red-lines-around-its-economic-model-ahead-eu-us-trade-talks-2026-08-02/",
+          "published_at": "2026-08-03",
+          "source_type": "wire"
+        }
+      ]
+    },
+    {
+      "id": "gansu-floods-landslides",
+      "category": "climate-environment",
+      "regions": ["Asia"],
+      "title": "甘肃暴雨洪灾伤亡上升，次生灾害风险延续",
+      "summary": "Reuters 转引新华社称，甘肃定西渭源县 7 月 26 日的山洪已造成 25 人死亡、23 人受伤。",
+      "why_it_matters": "持续强降雨会让救援、基础设施和地质灾害风险相互叠加。",
+      "uncertainty": "伤亡和转移数字可能继续调整，单次灾害不能单独证明长期气候因果。",
+      "confidence": "medium",
+      "sources": [
+        {
+          "publisher": "Reuters",
+          "title": "Landslide death toll rises in China's Gansu Province as heavy rains continue",
+          "url": "https://www.reuters.com/business/environment/landslide-death-toll-rises-chinas-gansu-province-heavy-rains-continue-2026-08-02/",
+          "published_at": "2026-08-02",
+          "source_type": "wire"
+        }
+      ]
+    },
+    {
+      "id": "august-total-solar-eclipse",
+      "category": "science",
+      "regions": ["Europe", "North America", "North Atlantic"],
+      "title": "8 月 12 日日全食进入观测准备期",
+      "summary": "8 月 12 日日全食的全食带将经过格陵兰、冰岛、俄罗斯北部、北大西洋、西班牙和葡萄牙一小角。",
+      "why_it_matters": "日全食既是公众科学事件，也为研究太阳日冕和短时变暗对大气的影响提供机会。",
+      "uncertainty": "观测条件取决于天气；除全食短暂阶段外，直视太阳必须使用合格滤镜。",
+      "confidence": "high",
+      "sources": [
+        {
+          "publisher": "NASA",
+          "title": "Total Solar Eclipse on August 12, 2026",
+          "url": "https://science.nasa.gov/eclipses/future-eclipses/total-solar-eclipse-on-august-12-2026/",
+          "published_at": "accessed 2026-08-03",
+          "source_type": "primary"
+        },
+        {
+          "publisher": "Associated Press",
+          "title": "What will happen during this month’s solar eclipse?",
+          "url": "https://apnews.com/video/what-will-happen-during-this-months-solar-eclipse-dcf55f490d294f35838c39bb405fee0d",
+          "published_at": "2026-08-02T20:18:00-04:00",
+          "source_type": "wire"
+        }
+      ]
+    },
+    {
+      "id": "ai-wagner-staging",
+      "category": "culture",
+      "regions": ["Europe"],
+      "title": "AI 舞台投影在拜罗伊特音乐节引发争议",
+      "summary": "拜罗伊特音乐节在《诸神的黄昏》中使用 AI 辅助投影，策展团队在谢幕时遭遇嘘声，表演者和指挥则获得掌声。",
+      "why_it_matters": "事件凸显生成式技术进入传统艺术后，素材选择、创作分工与审美责任需要更透明。",
+      "uncertainty": "单场观众反应不能代表更广泛公众，也不能判断 AI 艺术的长期接受度。",
+      "confidence": "high",
+      "sources": [
+        {
+          "publisher": "Associated Press",
+          "title": "AI-assisted staging draws boos at the Richard Wagner festival in Germany",
+          "url": "https://apnews.com/article/germany-bayreuth-wagner-festival-ai-f4300cdc0be195dabdadfa6d2ab4254c",
+          "published_at": "2026-08-02T20:12:00-04:00",
+          "source_type": "wire"
+        }
+      ]
+    }
+  ]
+}
