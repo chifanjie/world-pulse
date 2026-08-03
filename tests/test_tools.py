@@ -7,7 +7,13 @@ from datetime import date
 from pathlib import Path
 
 from tools.build_index import collect_entries
-from tools.plan_day import adjust_activity, build_plan, irregular_gap
+from tools.github_palette import analyze_calendar
+from tools.plan_day import (
+    adjust_activity,
+    build_plan,
+    choose_color_level,
+    irregular_gap,
+)
 from tools.validate_digest import validate_file
 
 
@@ -110,6 +116,54 @@ class ToolTests(unittest.TestCase):
             gap = irregular_gap(date(2026, 7, day), "lab", 9, 21)
             self.assertGreaterEqual(gap, 9)
             self.assertLessEqual(gap, 21)
+
+    def test_color_target_never_auto_selects_darkest(self) -> None:
+        levels = {
+            choose_color_level(sample, lab_due=True, review_due=True)
+            for sample in range(100)
+        }
+        self.assertNotIn("FOURTH_QUARTILE", levels)
+        self.assertIn("SECOND_QUARTILE", levels)
+        self.assertIn("THIRD_QUARTILE", levels)
+
+    def test_palette_uses_live_observed_ranges(self) -> None:
+        fixture = {
+            "totalContributions": 100,
+            "colors": ["#1", "#2", "#3", "#4"],
+            "weeks": [
+                {
+                    "contributionDays": [
+                        {
+                            "date": "2026-08-01",
+                            "contributionCount": 4,
+                            "contributionLevel": "FIRST_QUARTILE",
+                            "color": "#1",
+                        },
+                        {
+                            "date": "2026-08-02",
+                            "contributionCount": 24,
+                            "contributionLevel": "SECOND_QUARTILE",
+                            "color": "#2",
+                        },
+                        {
+                            "date": "2026-08-03",
+                            "contributionCount": 44,
+                            "contributionLevel": "THIRD_QUARTILE",
+                            "color": "#3",
+                        },
+                        {
+                            "date": "2026-08-04",
+                            "contributionCount": 81,
+                            "contributionLevel": "FOURTH_QUARTILE",
+                            "color": "#4",
+                        },
+                    ]
+                }
+            ],
+        }
+        result = analyze_calendar(fixture, "2026-08-03")
+        self.assertEqual(result["target_values"], [4, 24, 44, 81])
+        self.assertEqual(result["today"]["contributionLevel"], "THIRD_QUARTILE")
 
 
 if __name__ == "__main__":

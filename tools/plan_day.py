@@ -28,6 +28,12 @@ EXTRA_CANDIDATES = [
     "small-data-view",
     "methodology-maintenance",
 ]
+COLOR_LEVELS = [
+    "FIRST_QUARTILE",
+    "SECOND_QUARTILE",
+    "THIRD_QUARTILE",
+    "FOURTH_QUARTILE",
+]
 
 
 def parse_date(value: str) -> date:
@@ -41,6 +47,15 @@ def parse_counts(value: str) -> list[int]:
     if any(count < 0 or count > 20 for count in counts):
         raise argparse.ArgumentTypeError("recent counts must be between 0 and 20")
     return counts
+
+
+def parse_color_targets(value: str) -> list[int]:
+    targets = [int(part) for part in value.split(",")]
+    if len(targets) != 4 or any(target < 1 for target in targets):
+        raise argparse.ArgumentTypeError("color targets must contain four positive counts")
+    if targets != sorted(targets):
+        raise argparse.ArgumentTypeError("color targets must be in ascending order")
+    return targets
 
 
 def weighted_activity(sample: int) -> int:
@@ -79,11 +94,25 @@ def irregular_gap(anchor: date, label: str, minimum: int, maximum: int) -> int:
     return minimum + digest[0] % (maximum - minimum + 1)
 
 
+def choose_color_level(sample: int, lab_due: bool, review_due: bool) -> str:
+    """Reserve visibly darker levels for genuine project-sized work."""
+    roll = sample % 100
+    if lab_due:
+        if roll < 8:
+            return "THIRD_QUARTILE"
+        if roll < 78:
+            return "SECOND_QUARTILE"
+    elif review_due and roll < 20:
+        return "SECOND_QUARTILE"
+    return "FIRST_QUARTILE"
+
+
 def build_plan(
     day: date,
     last_lab: date | None = None,
     last_review: date | None = None,
     recent_counts: list[int] | None = None,
+    color_targets: list[int] | None = None,
 ) -> dict[str, object]:
     recent = list(recent_counts or [])[-14:]
     history = ",".join(str(count) for count in recent)
@@ -121,6 +150,11 @@ def build_plan(
     candidates = required_extras + [item for item in rotated if item not in required_extras]
     candidates = candidates[: max(0, activity_cap - 1)]
 
+    color_level = choose_color_level(digest[5], lab_due, review_due)
+    color_target = None
+    if color_targets:
+        color_target = color_targets[COLOR_LEVELS.index(color_level)]
+
     return {
         "date": day.isoformat(),
         "target_story_count": story_count,
@@ -133,9 +167,13 @@ def build_plan(
         "review_gap_days": review_gap_days,
         "lab_due": lab_due,
         "lab_gap_days": lab_gap_days,
+        "desired_color_level": color_level,
+        "target_total_contributions": color_target,
+        "auto_target_darkest": False,
         "note": (
-            "The cap is not a quota. Drop any extra that cannot become an independently "
-            "useful, tested result; never create filler or empty commits."
+            "Activity and color targets are ceilings, not quotas. A darker target may "
+            "only be pursued through independently useful, tested project work; never "
+            "create filler or empty commits."
         ),
     }
 
@@ -146,10 +184,17 @@ def main(argv: list[str] | None = None) -> int:
     parser.add_argument("--last-lab", type=parse_date)
     parser.add_argument("--last-review", type=parse_date)
     parser.add_argument("--recent-counts", type=parse_counts, default=[])
+    parser.add_argument("--color-targets", type=parse_color_targets)
     args = parser.parse_args(argv)
     print(
         json.dumps(
-            build_plan(args.date, args.last_lab, args.last_review, args.recent_counts),
+            build_plan(
+                args.date,
+                args.last_lab,
+                args.last_review,
+                args.recent_counts,
+                args.color_targets,
+            ),
             ensure_ascii=False,
             indent=2,
         )

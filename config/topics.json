@@ -18,6 +18,17 @@
   },
   "review_gap_days": [5, 10],
   "lab_gap_days": [9, 21],
+  "color_strategy": {
+    "normal_days": "FIRST_QUARTILE",
+    "lab_day_weights": {
+      "FIRST_QUARTILE": 22,
+      "SECOND_QUARTILE": 70,
+      "THIRD_QUARTILE": 8,
+      "FOURTH_QUARTILE": 0
+    },
+    "auto_target_darkest": false,
+    "refresh_from_github_each_run": true
+  },
   "timezone": "Asia/Shanghai",
   "editorial_version": "1.1"
 }
