@@ -2,6 +2,33 @@
   "version": 1,
   "entries": [
     {
+      "date": "2026-08-05",
+      "digest_path": "digests/2026/08/2026-08-05.md",
+      "data_path": "data/2026/08/2026-08-05.json",
+      "generated_at": "2026-08-05T09:15:00+08:00",
+      "item_count": 10,
+      "ai_radar_count": 3,
+      "categories": [
+        "climate-environment",
+        "economy",
+        "health-society",
+        "politics",
+        "science",
+        "technology"
+      ],
+      "regions": [
+        "Africa",
+        "Asia",
+        "Black Sea",
+        "Europe",
+        "Global",
+        "Middle East",
+        "North America",
+        "South America",
+        "Space"
+      ]
+    },
+    {
       "date": "2026-08-03",
       "digest_path": "digests/2026/08/2026-08-03.md",
       "data_path": "data/2026/08/2026-08-03.json",

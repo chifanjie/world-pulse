@@ -1,0 +1,398 @@
+{
+  "date": "2026-08-05",
+  "timezone": "Asia/Shanghai",
+  "generated_at": "2026-08-05T09:15:00+08:00",
+  "overview": "霍尔木兹海峡谈判、刚果（金）埃博拉疫情、黑海商船安全和全球关税诉讼构成风险主线；强厄尔尼诺、亚马孙跨境执法和太阳风暴预测显示气候与科学系统的应对进展。AI 前沿聚焦端侧小模型、长任务智能体状态管理和可审计运行时。",
+  "digest_path": "digests/2026/08/2026-08-05.md",
+  "ai_radar": {
+    "selection_as_of": "2026-08-05T09:15:00+08:00",
+    "news_window_hours": 72,
+    "paper_window_days": 7,
+    "item_ids": [
+      "lfm2-5-2-6b",
+      "longhorizon-harness",
+      "cloudflare-computer-preview"
+    ],
+    "paper_heat_snapshot": {
+      "provider": "Hugging Face Daily Papers",
+      "page_date": "2026-08-04",
+      "metric": "community votes displayed on the page",
+      "caveat": "Platform attention is not peer review or independent replication.",
+      "entries": [
+        {
+          "rank": 1,
+          "title": "SwanTale: Unified Multi-Speaker Speech and Audio Generation for Instruct and Zero-Shot Tasks",
+          "value": 140,
+          "url": "https://huggingface.co/papers/2608.02023"
+        },
+        {
+          "rank": 2,
+          "title": "LongHorizon-Harness: Advancing Long-Horizon Agents for Real-World Tasks",
+          "value": 127,
+          "url": "https://huggingface.co/papers/2608.01964"
+        },
+        {
+          "rank": 3,
+          "title": "DAPD: Dual-Anchored Policy Distillation",
+          "value": 55,
+          "url": "https://huggingface.co/papers/2608.01735"
+        }
+      ]
+    }
+  },
+  "items": [
+    {
+      "id": "lfm2-5-2-6b",
+      "section": "ai-frontier",
+      "category": "technology",
+      "regions": ["Global", "North America"],
+      "title": "LFM2.5-2.6B 把长上下文智能体压到端侧规模",
+      "summary": "Liquid AI 发布 2.69B 参数、131,072 token 上下文的 LFM2.5-2.6B，并公开基础版与后训练权重。",
+      "why_it_matters": "它把长上下文、工具使用和多步任务放入手机及个人电脑可承载的模型尺寸，为低延迟、少数据外传的本地智能体提供新选项。",
+      "uncertainty": "性能和基准均由发布方自报，尚无独立复测；模型卡不推荐智能体编程和知识密集任务，许可证对年收入达到 1,000 万美元的实体设有商业使用限制。",
+      "confidence": "medium",
+      "ai": {
+        "kind": "open-weight-model",
+        "topics": ["small-language-models", "on-device-ai", "tool-use", "long-context"],
+        "artifact_date": "2026-08-04",
+        "artifact_status": "open-weight-model-release",
+        "technical_takeaway": "约 34 万亿 token 预训练后，以监督微调、教师专门化、多域 on-policy 蒸馏和智能体强化学习构建 128K 上下文端侧模型。",
+        "evidence_level": "official-model-card-and-author-benchmarks",
+        "model_url": "https://huggingface.co/LiquidAI/LFM2.5-2.6B",
+        "heat": {
+          "label": "same-day-release-with-platform-uptake",
+          "as_of": "2026-08-05T09:15:00+08:00",
+          "signals": [
+            {
+              "platform": "Liquid AI",
+              "observation": "8 月 4 日发布模型说明、架构和评测设置",
+              "url": "https://www.liquid.ai/blog/lfm2-5-2-6b"
+            },
+            {
+              "platform": "Hugging Face",
+              "observation": "截止快照模型页显示近月 47,393 次下载",
+              "url": "https://huggingface.co/LiquidAI/LFM2.5-2.6B"
+            }
+          ]
+        }
+      },
+      "sources": [
+        {
+          "publisher": "Liquid AI",
+          "title": "LFM2.5-2.6B: Deploy Agents Everywhere",
+          "url": "https://www.liquid.ai/blog/lfm2-5-2-6b",
+          "published_at": "2026-08-04",
+          "source_type": "primary"
+        },
+        {
+          "publisher": "Liquid AI / Hugging Face",
+          "title": "LiquidAI/LFM2.5-2.6B model card",
+          "url": "https://huggingface.co/LiquidAI/LFM2.5-2.6B",
+          "published_at": "2026-08-04",
+          "source_type": "model-card"
+        },
+        {
+          "publisher": "Liquid AI / Hugging Face",
+          "title": "LFM Open License v1.0",
+          "url": "https://huggingface.co/LiquidAI/LFM2.5-2.6B/blob/main/LICENSE",
+          "published_at": "accessed 2026-08-05T09:15:00+08:00",
+          "source_type": "model-card"
+        }
+      ]
+    },
+    {
+      "id": "longhorizon-harness",
+      "section": "ai-frontier",
+      "category": "science",
+      "regions": ["Asia", "Global"],
+      "title": "LongHorizon-Harness 用“管理—执行—审计”重构长任务智能体",
+      "summary": "LongHorizon-Harness 将任务状态移出执行上下文，并以管理者、执行者和只读审计者组成的循环推进可验证状态。",
+      "why_it_matters": "它显示长任务可靠性不只依赖更强模型，也可通过显式状态、独立环境核验和可恢复执行来提升。",
+      "uncertainty": "论文尚未同行评审且结果为作者自报；不同任务的 token 成本差异很大，OSWorld 2.0 的一项配置由 28.9K 增至 104K。",
+      "confidence": "medium",
+      "ai": {
+        "kind": "paper",
+        "topics": ["long-horizon-agents", "computer-use", "state-management", "verification"],
+        "artifact_date": "2026-08-03",
+        "artifact_status": "preprint-with-code",
+        "technical_takeaway": "仅让独立审计验证的环境事实进入持久任务状态，并为每个子任务提供新上下文，减少上下文腐化与错误自评的传播。",
+        "evidence_level": "preprint-with-open-code-and-author-benchmarks",
+        "paper_id": "arXiv:2608.01964",
+        "code_url": "https://github.com/AMAP-ML/LongHorizon-Harness",
+        "heat": {
+          "label": "platform-trending-with-open-code",
+          "as_of": "2026-08-05T09:15:00+08:00",
+          "signals": [
+            {
+              "platform": "Hugging Face Daily Papers",
+              "observation": "8 月 4 日页面显示 127 票，排名第二",
+              "url": "https://huggingface.co/papers/2608.01964"
+            },
+            {
+              "platform": "GitHub",
+              "observation": "公开框架代码与评测复现目录",
+              "url": "https://github.com/AMAP-ML/LongHorizon-Harness"
+            }
+          ]
+        }
+      },
+      "sources": [
+        {
+          "publisher": "arXiv",
+          "title": "LongHorizon-Harness: Advancing Long-Horizon Agents for Real-World Tasks",
+          "url": "https://arxiv.org/abs/2608.01964",
+          "published_at": "2026-08-03T09:32:21Z",
+          "source_type": "research"
+        },
+        {
+          "publisher": "AMAP-ML",
+          "title": "LongHorizon-Harness source code",
+          "url": "https://github.com/AMAP-ML/LongHorizon-Harness",
+          "published_at": "2026-08-03",
+          "source_type": "code"
+        },
+        {
+          "publisher": "Hugging Face Daily Papers",
+          "title": "LongHorizon-Harness paper page",
+          "url": "https://huggingface.co/papers/2608.01964",
+          "published_at": "accessed 2026-08-05T09:15:00+08:00",
+          "source_type": "community-index"
+        }
+      ]
+    },
+    {
+      "id": "cloudflare-computer-preview",
+      "section": "ai-frontier",
+      "category": "technology",
+      "regions": ["North America", "Global"],
+      "title": "Cloudflare Computer 为智能体提供跨隔离区与容器的持久工作区",
+      "summary": "Cloudflare 开源早期预览 @cloudflare/computer，以 SQLite 保存权威文件状态，并让同一工作区在 isolate 与 Linux 容器之间选择执行后端。",
+      "why_it_matters": "它把持久状态、运行时选择、审计和权限门控合并为一个智能体工作区抽象，可减少所有步骤都启动完整容器的需求。",
+      "uncertainty": "项目明确不适合生产、API 不稳定且文档含前瞻规格；方案依赖 Cloudflare 平台，容器使用比例目标与性能仍待真实负载验证。",
+      "confidence": "medium",
+      "ai": {
+        "kind": "open-source-infrastructure",
+        "topics": ["agent-runtime", "sandboxing", "virtual-filesystem", "auditing"],
+        "artifact_date": "2026-08-03",
+        "artifact_status": "preview-open-source-release",
+        "technical_takeaway": "以 Durable Object 和 SQLite 保存单一权威文件状态，再由统一 exec 接口把任务路由到 isolate shell、JavaScript 或 FUSE 挂载的完整容器。",
+        "evidence_level": "official-preview-with-open-code",
+        "code_url": "https://github.com/cloudflare/computer",
+        "heat": {
+          "label": "rapid-github-attention",
+          "as_of": "2026-08-05T09:15:00+08:00",
+          "signals": [
+            {
+              "platform": "Cloudflare Blog",
+              "observation": "官方发布早期预览和架构说明",
+              "url": "https://blog.cloudflare.com/cloudflare-computer/"
+            },
+            {
+              "platform": "GitHub",
+              "observation": "截止快照约 1.1k stars、约 50 forks",
+              "url": "https://github.com/cloudflare/computer"
+            }
+          ]
+        }
+      },
+      "sources": [
+        {
+          "publisher": "Cloudflare",
+          "title": "Introducing an early preview of @cloudflare/computer",
+          "url": "https://blog.cloudflare.com/cloudflare-computer/",
+          "published_at": "2026-08-03T13:15:24Z",
+          "source_type": "primary"
+        },
+        {
+          "publisher": "Cloudflare",
+          "title": "cloudflare/computer",
+          "url": "https://github.com/cloudflare/computer",
+          "published_at": "2026-08-03",
+          "source_type": "code"
+        }
+      ]
+    },
+    {
+      "id": "hormuz-oman-deal-progress",
+      "category": "politics",
+      "regions": ["Middle East", "Global"],
+      "title": "伊朗与阿曼推进霍尔木兹海峡重开方案",
+      "summary": "伊朗与阿曼确认正讨论安全进出霍尔木兹海峡的航道，地区调停方称谈判取得进展，但控制、收费和封锁条件未定。",
+      "why_it_matters": "战前全球约五分之一贸易石油和天然气经此通行，稳定重开会影响能源、航运保险、化肥、通胀与地区降级。",
+      "uncertainty": "航道控制与收费等核心条款来自匿名消息人士，美国反对由伊朗审批或收费，谈判期间商船安全风险仍在。",
+      "confidence": "medium",
+      "sources": [
+        {
+          "publisher": "Associated Press",
+          "title": "Iran and Oman make progress on a deal to reopen the Strait of Hormuz, officials say",
+          "url": "https://apnews.com/article/iran-us-war-strait-hormuz-oman-diplomacy-6587f90f2ab5beec373ce5fabf637541",
+          "published_at": "2026-08-04T16:17:23Z",
+          "source_type": "wire"
+        },
+        {
+          "publisher": "Reuters",
+          "title": "Qatar says mediators make progress in efforts to end US-Iran war",
+          "url": "https://www.reuters.com/world/middle-east/status-us-iran-talks-uncertain-ship-struck-hormuz-2026-08-04/",
+          "published_at": "2026-08-04",
+          "source_type": "wire"
+        }
+      ]
+    },
+    {
+      "id": "drc-ebola-1700",
+      "category": "health-society",
+      "regions": ["Africa"],
+      "title": "刚果（金）Bundibugyo 型埃博拉死亡超过 1,700",
+      "summary": "刚果（金）政府最新数据经 AP 报道为 3,802 例、1,707 人死亡，疫情中心 Ituri 的社区传播仍快于接触者追踪。",
+      "why_it_matters": "冲突、人口流动、医护感染和卫生资源不足相互叠加，增加未发现传播与跨境输入风险。",
+      "uncertainty": "冲突区存在漏报，扩大检测和积压样本入库也会改变曲线；病源与疫情峰值仍不明确。",
+      "confidence": "medium",
+      "sources": [
+        {
+          "publisher": "Associated Press",
+          "title": "Ebola kills 1,700 in eastern Congo as the fastest-growing outbreak surges",
+          "url": "https://apnews.com/article/congo-ebola-ituri-19ec34982849f2799f226bfa6ae04c96",
+          "published_at": "2026-08-04T09:22:00Z",
+          "source_type": "wire"
+        },
+        {
+          "publisher": "World Health Organization",
+          "title": "Ebola outbreak — DRC 2026",
+          "url": "https://www.who.int/emergencies/situations/ebola-outbreak---drc-2026",
+          "published_at": "accessed 2026-08-05T09:15:00+08:00",
+          "source_type": "primary"
+        },
+        {
+          "publisher": "World Health Organization",
+          "title": "Ebola disease caused by Bundibugyo virus, Democratic Republic of the Congo & Uganda",
+          "url": "https://www.who.int/emergencies/disease-outbreak-news/item/2026-DON613",
+          "published_at": "2026-07-17",
+          "source_type": "primary"
+        }
+      ]
+    },
+    {
+      "id": "black-sea-cargo-drone",
+      "category": "politics",
+      "regions": ["Europe", "Black Sea"],
+      "title": "无人机击中黑海货船，三名船员重伤",
+      "summary": "土耳其海事部门称，从新罗西斯克驶往萨姆松的货船 Nadezhda 遭无人机袭击，22 人撤离，其中三人重伤。",
+      "why_it_matters": "黑海承担粮食、化肥和能源运输，袭击外溢至商船会推高人员、保险与绕航成本并增加误判风险。",
+      "uncertainty": "没有可靠证据确认袭击方，也不清楚该船是否为预定目标；交战双方的其他伤亡和拦截数字难以独立核验。",
+      "confidence": "medium",
+      "sources": [
+        {
+          "publisher": "Reuters",
+          "title": "Three hurt in drone attack on cargo ship near Russia's Novorossiysk",
+          "url": "https://www.reuters.com/world/three-crew-injured-cargo-ship-hit-by-drone-attack-near-russias-novorossiysk-2026-08-04/",
+          "published_at": "2026-08-04",
+          "source_type": "wire"
+        },
+        {
+          "publisher": "Associated Press",
+          "title": "Russia and Ukraine trade drone attacks with 5 killed in each country",
+          "url": "https://apnews.com/article/russia-ukraine-war-beach-drone-222d8755b524c231faa8fd6de10f38ef",
+          "published_at": "2026-08-04T09:26:17Z",
+          "source_type": "wire"
+        }
+      ]
+    },
+    {
+      "id": "us-section-301-lawsuit",
+      "category": "economy",
+      "regions": ["North America", "Global"],
+      "title": "美国 25 个州起诉新一轮全球关税",
+      "summary": "25 个美国州起诉联邦政府，挑战针对 60 个经济体、税率多为 10% 或 12.5% 的 Section 301 关税。",
+      "why_it_matters": "关税会影响进口成本与供应链，并测试总统能否使用 Section 301 同时对大量经济体采取广泛措施。",
+      "uncertainty": "案件刚立案，禁令、退款和最终税率未定；白宫的强迫劳动依据与各州的越权指控均属待审法律立场。",
+      "confidence": "high",
+      "sources": [
+        {
+          "publisher": "Associated Press",
+          "title": "25 states sue over Trump's new tariffs, calling them 'pretext' to replace his old ones",
+          "url": "https://apnews.com/article/tariffs-25-supreme-court-import-taxes-120895adbee7ae06157cd5f4bf5c7583",
+          "published_at": "2026-08-03T20:25:13Z",
+          "source_type": "wire"
+        },
+        {
+          "publisher": "The White House",
+          "title": "Actions by the United States in the Investigations under Section 301 of the Trade Act of 1974",
+          "url": "https://www.whitehouse.gov/presidential-actions/2026/07/actions-by-the-united-states-in-the-investigations-under-section-301-of-the-trade-act-of-1974-of-the-acts-policies-and-practices-of-60-economies-related-to-the-failure-of-each-economy-to-impose-and/",
+          "published_at": "2026-07-23",
+          "source_type": "primary"
+        }
+      ]
+    },
+    {
+      "id": "strong-el-nino-2026",
+      "category": "climate-environment",
+      "regions": ["Global"],
+      "title": "强厄尔尼诺增强，未来数月气候风险上升",
+      "summary": "WMO 确认强厄尔尼诺持续增强并预计主导 8–10 月气候格局，部分科学家同时上调 2026 年刷新高温纪录的可能性。",
+      "why_it_matters": "厄尔尼诺与长期人为变暖、异常温暖海洋叠加，会影响农业、水资源、健康、灾害应对和能源需求。",
+      "uncertainty": "峰值强度、时间和年度温度排名仍是模型预测；影响存在显著地区差异，今年夏季事件也不能全部归因于厄尔尼诺。",
+      "confidence": "medium",
+      "sources": [
+        {
+          "publisher": "Associated Press",
+          "title": "This summer isn't breaking heat records — yet. Wait until El Nino kicks in, scientists say",
+          "url": "https://apnews.com/article/warming-heat-climate-change-summer-el-nino-ffd31dd358a894667c63f4c0a21cd677",
+          "published_at": "2026-08-04T16:57:31Z",
+          "source_type": "wire"
+        },
+        {
+          "publisher": "World Meteorological Organization",
+          "title": "El Niño / La Niña Phenomena",
+          "url": "https://public.wmo.int/themes/el-nino-la-nina-phenomena",
+          "published_at": "updated 2026-07-31",
+          "source_type": "primary"
+        }
+      ]
+    },
+    {
+      "id": "amazon-green-shield",
+      "category": "climate-environment",
+      "regions": ["South America"],
+      "title": "五个亚马孙国家联合打击环境犯罪",
+      "summary": "五国在 Green Shield 2026 行动中动员逾 3,600 名警员，报告 839 人被捕，并查扣木材、矿产和救助野生动物。",
+      "why_it_matters": "跨国同步执法有助于打击共用资金与运输网络的非法采矿、伐木、野生动物贸易和土地侵占。",
+      "uncertainty": "汇总结果主要来自执法机关自报，逮捕不等于定罪，查扣规模也不能直接证明长期犯罪率或排放已经下降。",
+      "confidence": "medium",
+      "sources": [
+        {
+          "publisher": "Associated Press",
+          "title": "Five Amazon countries arrest hundreds in major crackdown on environmental crime",
+          "url": "https://apnews.com/article/amazon-environmental-crime-wildlife-trafficking-police-colombia-uae-e2687c95a1f9281d0fe1b94b02a6177b",
+          "published_at": "2026-08-04T17:59:44Z",
+          "source_type": "wire"
+        },
+        {
+          "publisher": "Policía Nacional de Colombia",
+          "title": "Operación Green Shield permitió la recuperación de 22 ejemplares de fauna silvestre en Montería",
+          "url": "https://www.policia.gov.co/noticia/operacion-green-shield-permitio-recuperacion-22-ejemplares-fauna-silvestre-en-monteria",
+          "published_at": "2026-07-22",
+          "source_type": "primary"
+        }
+      ]
+    },
+    {
+      "id": "punch-solar-storm-forecast",
+      "category": "science",
+      "regions": ["Global", "Space"],
+      "title": "NASA PUNCH 首次测试将太阳风暴到达误差缩至 30 分钟",
+      "summary": "PUNCH 连续图像驱动的模型在一次历史日冕物质抛射回溯测试中，把到达地球的预测误差缩小到约 30 分钟。",
+      "why_it_matters": "更准确的到达时间可帮助电网、卫星和载人航天任务安排保护措施，也能改善太阳等离子体传播研究。",
+      "uncertainty": "这只是单次历史事件的概念验证，尚未投入业务；结果在会议报告后仍由 Space Weather 审稿。",
+      "confidence": "medium",
+      "sources": [
+        {
+          "publisher": "NASA",
+          "title": "NASA's PUNCH Sharpens Solar Storm Forecasting in First Test",
+          "url": "https://science.nasa.gov/science-research/heliophysics/nasas-punch-sharpens-solar-storm-forecasting-in-first-test/",
+          "published_at": "2026-08-04",
+          "source_type": "primary"
+        }
+      ]
+    }
+  ]
+}
