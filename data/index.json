@@ -2,6 +2,44 @@
   "version": 1,
   "entries": [
     {
+      "date": "2026-08-06",
+      "digest_path": "digests/2026/08/2026-08-06.md",
+      "data_path": "data/2026/08/2026-08-06.json",
+      "generated_at": "2026-08-06T13:47:09+08:00",
+      "item_count": 13,
+      "ai_radar_count": 3,
+      "categories": [
+        "climate-environment",
+        "culture",
+        "economy",
+        "health-society",
+        "markets",
+        "politics",
+        "science",
+        "technology"
+      ],
+      "regions": [
+        "Africa",
+        "Asia",
+        "Brazil",
+        "Europe",
+        "Global",
+        "India",
+        "Israel",
+        "Japan",
+        "Lebanon",
+        "Middle East",
+        "North America",
+        "South Africa",
+        "South America",
+        "Southeast Asia",
+        "Southern Africa",
+        "Space",
+        "Ukraine",
+        "United States"
+      ]
+    },
+    {
       "date": "2026-08-05",
       "digest_path": "digests/2026/08/2026-08-05.md",
       "data_path": "data/2026/08/2026-08-05.json",

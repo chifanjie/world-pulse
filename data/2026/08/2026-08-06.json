@@ -1,0 +1,435 @@
+{
+  "date": "2026-08-06",
+  "timezone": "Asia/Shanghai",
+  "generated_at": "2026-08-06T13:47:09+08:00",
+  "overview": "欧洲热浪与低水位同时挤压电力、航运和消防系统，黎以停火后的首次以军死亡又令撤军谈判提前结束；基辅空袭、缅泰重新接触、南非推动大陆移民治理与广岛核裁军呼吁构成政治社会主线。印度和巴西央行作出不同利率选择，美国批准首款季节性 mRNA 流感疫苗，太阳望远镜则直接捕捉到磁化等离子体混合。AI 前沿聚焦可调用搜索与绘图的统一模型、开放权重音视频生成和情境化安全扫描。",
+  "digest_path": "digests/2026/08/2026-08-06.md",
+  "ai_radar": {
+    "selection_as_of": "2026-08-06T13:47:09+08:00",
+    "news_window_hours": 72,
+    "paper_window_days": 7,
+    "item_ids": [
+      "toolartist-agentic-image",
+      "minimax-h3",
+      "garak-0-16-0"
+    ]
+  },
+  "items": [
+    {
+      "id": "toolartist-agentic-image",
+      "section": "ai-frontier",
+      "category": "science",
+      "regions": ["Asia", "Global"],
+      "title": "ToolArtist 把搜索、推理与绘图放进同一个多模态策略",
+      "summary": "ToolArtist 让统一多模态模型自行决定何时推理、文本或图像搜索以及原生绘图，并公开训练代码与约 7,000 条工具轨迹数据。",
+      "why_it_matters": "它把外部知识检索从固定流水线变成模型可学习的动作，为需要实时世界知识的图像生成提供一条较可复现的智能体后训练路径。",
+      "uncertainty": "论文尚未同行评审，结果与奖励含模型裁判；完整训练依赖八张 GPU、搜索和绘图 API，尚未看到训练后权重，仓库根许可证状态也不清晰。",
+      "confidence": "medium",
+      "ai": {
+        "kind": "paper",
+        "topics": ["unified-multimodal-models", "agentic-image-generation", "tool-use", "reinforcement-learning"],
+        "artifact_date": "2026-08-05",
+        "artifact_status": "preprint-with-code-and-training-data-no-trained-weights",
+        "technical_takeaway": "先以约 7,000 条搜索、推理与绘图轨迹做监督微调，再用 RAD-GRPO 以意图忠实度和最终图像质量共同奖励整条工具调用轨迹。",
+        "evidence_level": "preprint-with-open-code-data-and-author-benchmarks",
+        "paper_id": "arXiv:2608.04436",
+        "code_url": "https://github.com/bubble65/EMU-Agentic-PostTrain",
+        "heat": {
+          "label": "hugging-face-daily-papers-platform-leader",
+          "as_of": "2026-08-06T12:15:25+08:00",
+          "signals": [
+            {
+              "platform": "Hugging Face Daily Papers",
+              "observation": "当日页面 20 篇中排名第一，显示 29 票；这是单一平台关注度，不代表同行评审",
+              "url": "https://huggingface.co/papers/2608.04436"
+            },
+            {
+              "platform": "GitHub",
+              "observation": "公开训练流水线，截止快照显示 7 stars",
+              "url": "https://github.com/bubble65/EMU-Agentic-PostTrain"
+            }
+          ]
+        }
+      },
+      "sources": [
+        {
+          "publisher": "arXiv",
+          "title": "ToolArtist: Agentic Image Generation with Unified Tool Use",
+          "url": "https://arxiv.org/abs/2608.04436",
+          "published_at": "2026-08-05",
+          "source_type": "research"
+        },
+        {
+          "publisher": "bubble65",
+          "title": "EMU-Agentic-PostTrain source code",
+          "url": "https://github.com/bubble65/EMU-Agentic-PostTrain",
+          "published_at": "2026-08-05",
+          "source_type": "code"
+        },
+        {
+          "publisher": "bubble65 / Hugging Face",
+          "title": "EMU-Agentic-PostTrain-Data",
+          "url": "https://huggingface.co/datasets/bubble65/EMU-Agentic-PostTrain-Data",
+          "published_at": "2026-08-05",
+          "source_type": "research"
+        },
+        {
+          "publisher": "Hugging Face Daily Papers",
+          "title": "ToolArtist paper page",
+          "url": "https://huggingface.co/papers/2608.04436",
+          "published_at": "accessed 2026-08-06T12:15:25+08:00",
+          "source_type": "community-index"
+        }
+      ]
+    },
+    {
+      "id": "minimax-h3",
+      "section": "ai-frontier",
+      "category": "technology",
+      "regions": ["Asia", "Global"],
+      "title": "MiniMax H3 开放 33B 单流音视频生成权重",
+      "summary": "MiniMax H3 以 33B 稠密单流 Transformer 联合建模文本、图像、视频和双声道音频，并开放两类 768p 本地生成权重与代码。",
+      "why_it_matters": "它把参考图像、视频、音频与同步立体声生成收进同一可本地部署框架，并很快获得多套推理和工作流生态接入。",
+      "uncertainty": "H3-Context-IR、2K 再生成和训练时稀疏注意力仍未开放；官方示例需四张 GPU，许可不是 Apache/MIT，质量与厂商自报能力尚无独立复测。",
+      "confidence": "medium",
+      "ai": {
+        "kind": "open-weight-model",
+        "topics": ["multimodal-generation", "video-generation", "audio-generation", "open-weights"],
+        "artifact_date": "2026-08-04",
+        "artifact_status": "partial-open-weight-system-release",
+        "technical_takeaway": "33B 单流 Transformer 配合 3D MM-RoPE、独立视觉与音频 VAE，联合预测视频和 32 kHz 双声道音频 latent；本地权重覆盖 FL2VA 与 Ref2VA 两类 768p 任务。",
+        "evidence_level": "official-model-card-code-and-ecosystem-integration",
+        "model_url": "https://huggingface.co/MiniMaxAI/MiniMax-H3",
+        "code_url": "https://github.com/MiniMax-AI/MiniMax-H3",
+        "heat": {
+          "label": "multi-platform-release-uptake",
+          "as_of": "2026-08-06T12:15:32+08:00",
+          "signals": [
+            {
+              "platform": "Hugging Face",
+              "observation": "模型页显示 2,535 likes、过去约 30 天 10,841 downloads；下载量不等于独立复现",
+              "url": "https://huggingface.co/MiniMaxAI/MiniMax-H3"
+            },
+            {
+              "platform": "GitHub",
+              "observation": "官方仓库截止快照显示 234 stars、16 forks",
+              "url": "https://github.com/MiniMax-AI/MiniMax-H3"
+            },
+            {
+              "platform": "ComfyUI",
+              "observation": "v0.30.0 发布说明列出原生 MiniMax H3 支持与工作流",
+              "url": "https://github.com/Comfy-Org/ComfyUI/releases/tag/v0.30.0"
+            }
+          ]
+        }
+      },
+      "sources": [
+        {
+          "publisher": "MiniMax / Hugging Face",
+          "title": "MiniMax-H3 model card and weights",
+          "url": "https://huggingface.co/MiniMaxAI/MiniMax-H3",
+          "published_at": "2026-08-04",
+          "source_type": "model-card"
+        },
+        {
+          "publisher": "MiniMax",
+          "title": "MiniMax-H3 source code",
+          "url": "https://github.com/MiniMax-AI/MiniMax-H3",
+          "published_at": "2026-08-04",
+          "source_type": "code"
+        },
+        {
+          "publisher": "ComfyUI",
+          "title": "ComfyUI v0.30.0 release",
+          "url": "https://github.com/Comfy-Org/ComfyUI/releases/tag/v0.30.0",
+          "published_at": "2026-08-05",
+          "source_type": "code"
+        }
+      ]
+    },
+    {
+      "id": "garak-0-16-0",
+      "section": "ai-frontier",
+      "category": "technology",
+      "regions": ["North America", "Global"],
+      "title": "garak 0.16.0 为红队扫描加入技术—意图上下文",
+      "summary": "NVIDIA garak 0.16.0 新增 technique 与 intent 标注、IntentProbe 和矩阵报告，并补入自适应攻击、Anthropic 生成器及多项检测加固。",
+      "why_it_matters": "安全扫描可以从笼统地运行攻击集合，向按真实用户上下文、攻击技术和目标意图解释结果迈进，更便于映射具体部署政策。",
+      "uncertainty": "官方称这是首轮实现，policy 目前主要是参考定义，既有 probes 大多未改变；配置和报告格式有破坏性变更，扫描通过也不等于系统安全。",
+      "confidence": "high",
+      "ai": {
+        "kind": "open-source-safety-tool",
+        "topics": ["ai-safety", "red-teaming", "evaluation", "context-aware-scanning"],
+        "artifact_date": "2026-08-05",
+        "artifact_status": "stable-github-and-pypi-release",
+        "technical_takeaway": "以 technique、intent 和用户上下文组织 probes 与报告，新增 technique-intent matrix、IntentProbe、自适应攻击以及统一的 probe、buff 与 intent 选择语法。",
+        "evidence_level": "official-release-code-package-and-migration-notes",
+        "code_url": "https://github.com/NVIDIA/garak",
+        "heat": {
+          "label": "established-tool-with-active-release",
+          "as_of": "2026-08-06T12:15:32+08:00",
+          "signals": [
+            {
+              "platform": "GitHub",
+              "observation": "仓库截止快照显示 8,710 stars、1,146 forks",
+              "url": "https://github.com/NVIDIA/garak"
+            },
+            {
+              "platform": "PyPI Stats",
+              "observation": "整个 garak 包近 1 日 2,798、7 日 16,029、30 日 76,324 次下载；可能含 CI，不能视为 0.16.0 独立用户数",
+              "url": "https://pypistats.org/packages/garak"
+            }
+          ]
+        }
+      },
+      "sources": [
+        {
+          "publisher": "NVIDIA",
+          "title": "garak v0.16.0 release notes",
+          "url": "https://github.com/NVIDIA/garak/releases/tag/v0.16.0",
+          "published_at": "2026-08-05T03:03:00+08:00",
+          "source_type": "code"
+        },
+        {
+          "publisher": "NVIDIA",
+          "title": "garak source code",
+          "url": "https://github.com/NVIDIA/garak",
+          "published_at": "accessed 2026-08-06T12:15:32+08:00",
+          "source_type": "code"
+        },
+        {
+          "publisher": "PyPI",
+          "title": "garak package",
+          "url": "https://pypi.org/project/garak/",
+          "published_at": "2026-08-05",
+          "source_type": "code"
+        }
+      ]
+    },
+    {
+      "id": "europe-heat-danube-rhine",
+      "category": "climate-environment",
+      "regions": ["Europe"],
+      "title": "欧洲热浪与低水位同时挤压电力和航运",
+      "summary": "奥地利气温升至 41.2°C 新纪录；多瑙河低水位迫使匈牙利核电站大幅停运、斯洛文尼亚机组降载，莱茵河货运也受限。",
+      "why_it_matters": "同一轮高温与干旱正在把公共健康、消防、电网、核电冷却、内河物流和农业风险连接起来，局部冲击可能沿供应链扩散。",
+      "uncertainty": "热浪持续时间、降雨恢复和电力进口能力仍会改变影响；单次极端天气的具体归因需要专门研究，初步纪录也可能修订。",
+      "confidence": "medium",
+      "sources": [
+        {
+          "publisher": "Reuters",
+          "title": "Austria hits record temperature, Hungary curbs power use as Europe feels the heat",
+          "url": "https://www.reuters.com/business/environment/albanian-firefighters-battle-blazes-southern-eastern-europe-feels-heat-2026-08-05/",
+          "published_at": "2026-08-05",
+          "source_type": "wire"
+        }
+      ]
+    },
+    {
+      "id": "lebanon-truce-escalation",
+      "category": "politics",
+      "regions": ["Middle East", "Lebanon", "Israel"],
+      "title": "黎以停火后首次出现以军死亡，罗马谈判提前结束",
+      "summary": "以军称两名士兵在黎巴嫩南部战斗中死亡、四人重伤，是六月停火实施后的首批以军死亡；黎巴嫩卫生部称以军空袭另致一死十二伤。",
+      "why_it_matters": "地面升级与撤军、黎军接管及真主党解除武装谈判同日发生，可能动摇脆弱停火并重新扩大地区冲突。",
+      "uncertainty": "真主党尚未回应，交火如何开始仍不清楚；罗马会谈因地面事件提前结束，是否以及何时恢复尚未确定。",
+      "confidence": "medium",
+      "sources": [
+        {
+          "publisher": "Associated Press",
+          "title": "2 soldiers killed in Lebanon in the first Israeli deaths since June truce with Hezbollah",
+          "url": "https://apnews.com/article/c94313277641ce409718d0a2e7ae2cd2",
+          "published_at": "2026-08-06T04:19:56Z",
+          "source_type": "wire"
+        }
+      ]
+    },
+    {
+      "id": "kyiv-barrage-air-defense",
+      "category": "politics",
+      "regions": ["Europe", "Ukraine"],
+      "title": "基辅地区空袭致 17 人死亡，防空缺口再度暴露",
+      "summary": "乌克兰总统称俄罗斯对基辅及周边的导弹和无人机袭击造成 17 人死亡、数十人受伤；乌方称当夜来袭导弹均未被拦截。",
+      "why_it_matters": "连续弹道导弹袭击与拦截弹短缺正在削弱大城市民防能力，也会影响盟友在不同战区之间分配防空库存的压力。",
+      "uncertainty": "伤亡仍可能更新；乌方称主要受损者为民用企业，俄国防部称目标具有军事联系，现有报道无法独立判定每个目标属性。",
+      "confidence": "medium",
+      "sources": [
+        {
+          "publisher": "Associated Press",
+          "title": "Russian barrage in Ukraine's capital region kills 17 as air defenses fall short",
+          "url": "https://apnews.com/article/64f8e53f9650d4104bb7375361abd990",
+          "published_at": "2026-08-05T05:49:40Z",
+          "source_type": "wire"
+        }
+      ]
+    },
+    {
+      "id": "myanmar-thailand-reengagement",
+      "category": "politics",
+      "regions": ["Asia", "Southeast Asia"],
+      "title": "缅甸军政府领导人访泰，曼谷试探“校准式重新接触”",
+      "summary": "缅甸总统兼军方领导人敏昂莱到访泰国并会见总理阿努廷，双方还参加商务论坛；泰方称接触旨在推动停滞的东盟和平方案。",
+      "why_it_matters": "这是东盟成员在缅甸领导人仍被排除于峰会之外时的一次重要接触，可能影响区域外交、边境安全、能源和贸易。",
+      "uncertainty": "访问本身不等于东盟恢复其席位或冲突降级；分析人士警告接触与政治背书之间界线很窄，缅甸境内攻击仍在升级。",
+      "confidence": "medium",
+      "sources": [
+        {
+          "publisher": "Reuters",
+          "title": "Myanmar president visits Thailand on quest for legitimacy as Bangkok backs engagement",
+          "url": "https://www.reuters.com/world/asia-pacific/myanmar-president-visits-thailand-quest-legitimacy-bangkok-backs-engagement-2026-08-05/",
+          "published_at": "2026-08-06",
+          "source_type": "wire"
+        }
+      ]
+    },
+    {
+      "id": "south-africa-migration-dialogue",
+      "category": "health-society",
+      "regions": ["Africa", "South Africa", "Southern Africa"],
+      "title": "南非推动把移民争议提升到非盟和南共体议程",
+      "summary": "南非计划在本月南部非洲发展共同体峰会讨论移民，并主张由非盟处理全大陆推拉因素；政府称六月至七月约 6.8 万人被遣返或自愿回国。",
+      "why_it_matters": "国内反移民抗议、暴力指控和邻国外交摩擦正在转化为区域治理问题，牵涉劳动力流动、人权、边境管理和经济机会。",
+      "uncertainty": "6.8 万人中强制遣返与自愿回国的具体构成不清楚；非盟此前拒绝单列南非局势，是否接受更广议程及任何执行机制均未确定。",
+      "confidence": "high",
+      "sources": [
+        {
+          "publisher": "Associated Press",
+          "title": "South Africa pushes for Africa migration talks after violent internal protests and Ceuta crisis",
+          "url": "https://apnews.com/article/2cd29b78a94636ec67b8fc8c6683b9fe",
+          "published_at": "2026-08-05T12:05:57Z",
+          "source_type": "wire"
+        },
+        {
+          "publisher": "South African Department of International Relations and Cooperation",
+          "title": "DIRCO reaffirms commitment to continental dialogue on migration",
+          "url": "https://dirco.gov.za/dirco-reaffirms-commitment-to-pan-african-solidarity-rule-of-law-and-continental-dialogue-on-migration-following-ecowas-communique/",
+          "published_at": "2026-07-23",
+          "source_type": "primary"
+        }
+      ]
+    },
+    {
+      "id": "hiroshima-81st-anniversary",
+      "category": "culture",
+      "regions": ["Asia", "Japan", "Global"],
+      "title": "广岛纪念原爆 81 周年，市长再批核威慑竞赛",
+      "summary": "广岛在 8 时 15 分默哀并举行和平纪念仪式；市长松井一实把当下战争与核威慑扩张并置，呼吁各国重新转向裁军。",
+      "why_it_matters": "幸存者平均年龄已超过 86 岁，亲历证词正在快速减少；日本依赖美国核保护伞且未加入《禁止核武器条约》，使记忆政治与安全政策的张力更加突出。",
+      "uncertainty": "纪念宣言没有约束力，也未改变日本条约立场；核武国家和盟友是否会把象征性呼吁转化为风险降低措施仍未知。",
+      "confidence": "high",
+      "sources": [
+        {
+          "publisher": "Associated Press",
+          "title": "Hiroshima marks 81st atomic bomb anniversary as mayor deplores the pursuit of nuclear weapons",
+          "url": "https://apnews.com/article/1d0af8bb88ad9ccd8958f751937ec6b0",
+          "published_at": "2026-08-06T03:15:00Z",
+          "source_type": "wire"
+        },
+        {
+          "publisher": "City of Hiroshima",
+          "title": "Announcement regarding the 2026 Peace Memorial Ceremony",
+          "url": "https://www.city.hiroshima.lg.jp/english/peace/1029871/1049999.html",
+          "published_at": "accessed 2026-08-06T13:47:09+08:00",
+          "source_type": "primary"
+        }
+      ]
+    },
+    {
+      "id": "rbi-rate-hold-2026-08",
+      "category": "economy",
+      "regions": ["Asia", "India"],
+      "title": "印度央行维持 5.25% 回购利率，等待通胀信号更清晰",
+      "summary": "印度央行货币政策委员会一致维持政策回购利率 5.25% 和中性立场，并把 2026/27 财年 GDP 与 CPI 通胀预测分别列为 6.7% 和 5.0%。",
+      "why_it_matters": "暂停降息反映增长韧性与通胀回升风险之间的权衡，会影响印度借贷成本、债券、卢比和区域资本流向。",
+      "uncertainty": "季风、厄尔尼诺、地缘政治和贸易条件都可能令食品与能源价格偏离预测；中性立场没有承诺下一次行动方向。",
+      "confidence": "high",
+      "sources": [
+        {
+          "publisher": "Reserve Bank of India",
+          "title": "Resolution of the Monetary Policy Committee, August 3 to 5, 2026",
+          "url": "https://rbi.org.in/Scripts/BS_PressReleaseDisplay.aspx?prid=63287",
+          "published_at": "2026-08-05",
+          "source_type": "primary"
+        }
+      ]
+    },
+    {
+      "id": "brazil-selic-14",
+      "category": "markets",
+      "regions": ["South America", "Brazil"],
+      "title": "巴西央行小幅降息，将 Selic 下调至 14.00%",
+      "summary": "巴西央行第 280 次 Copom 会议把 Selic 目标利率下调 25 个基点至 14.00%；官方仍认为总体通胀高于目标区间上限。",
+      "why_it_matters": "在高实际利率和通胀仍偏高的背景下启动谨慎下调，会影响巴西信贷、汇率、债券定价和拉美货币政策预期。",
+      "uncertainty": "央行参考情景仍预计 2026 年通胀 5.1%、2027 年 3.8%；后续降息速度取决于预期锚定、汇率、财政和外部冲击。",
+      "confidence": "high",
+      "sources": [
+        {
+          "publisher": "Banco Central do Brasil",
+          "title": "Copom reduces the Selic rate to 14.00% p.a. — 280th Meeting",
+          "url": "https://www.bcb.gov.br/en/monetarypolicy/copomstatements",
+          "published_at": "2026-08-05",
+          "source_type": "primary"
+        },
+        {
+          "publisher": "Banco Central do Brasil",
+          "title": "History of interest rates — 280th meeting",
+          "url": "https://www.bcb.gov.br/en/monetarypolicy/interestrates",
+          "published_at": "2026-08-05",
+          "source_type": "primary"
+        }
+      ]
+    },
+    {
+      "id": "mflusiva-fda-approval",
+      "category": "health-society",
+      "regions": ["North America", "United States"],
+      "title": "美国批准首款季节性 mRNA 流感疫苗",
+      "summary": "FDA 批准 Moderna 的 mFlusiva 用于 50 岁及以上成人：50 至 64 岁为传统批准，65 岁及以上为加速批准并要求确认性研究。",
+      "why_it_matters": "这是季节性流感疫苗首次采用获批 mRNA 平台，理论上可加快毒株更新，并为呼吸道联合疫苗继续验证制造与免疫路径。",
+      "uncertainty": "26.6% 相对效力来自与标准剂量疫苗比较的单个流感季；高龄组批准依赖免疫原性替代终点，脆弱和免疫抑制人群证据有限，四期试验仍需确认获益。",
+      "confidence": "medium",
+      "sources": [
+        {
+          "publisher": "Reuters",
+          "title": "US FDA approves first mRNA flu shot from Moderna",
+          "url": "https://www.reuters.com/business/healthcare-pharmaceuticals/us-fda-approves-first-mrna-flu-shot-moderna-2026-08-06/",
+          "published_at": "2026-08-05",
+          "source_type": "wire"
+        },
+        {
+          "publisher": "U.S. Food and Drug Administration",
+          "title": "FDA briefing document for mFlusiva (mRNA-1010)",
+          "url": "https://www.fda.gov/media/193130/download",
+          "published_at": "2026-06-18",
+          "source_type": "primary"
+        }
+      ]
+    },
+    {
+      "id": "solar-khi-dkist",
+      "category": "science",
+      "regions": ["Global", "Space"],
+      "title": "太阳望远镜直接捕捉到普遍存在的磁化剪切涡旋",
+      "summary": "Daniel K. Inouye 太阳望远镜的超高分辨率观测显示，太阳光球磁通结构边缘普遍出现 Kelvin–Helmholtz 不稳定性，并与数值模拟相符。",
+      "why_it_matters": "这些细小涡旋可搬运质量、能量、动量和磁通，为解释太阳等离子体混合及能量如何向外层大气传递提供直接观测约束。",
+      "uncertainty": "研究展示的是光球局部过程，不能直接转化为太阳风暴业务预报；不同磁场和高度下的普遍性仍需更多观测检验。",
+      "confidence": "high",
+      "sources": [
+        {
+          "publisher": "Nature",
+          "title": "Ubiquitous Kelvin–Helmholtz instabilities driving plasma mixing on the Sun",
+          "url": "https://www.nature.com/articles/s41586-026-10871-3",
+          "published_at": "2026-08-05",
+          "source_type": "research"
+        },
+        {
+          "publisher": "Associated Press",
+          "title": "Powerful new solar telescope captures the sun's surface in finest detail yet",
+          "url": "https://apnews.com/article/sun-surface-solar-telescope-kelvin-helmholtz-instability-32eb28c17e8c4005dad9a5b51dd3eb2a",
+          "published_at": "2026-08-05T15:03:00Z",
+          "source_type": "wire"
+        }
+      ]
+    }
+  ]
+}
