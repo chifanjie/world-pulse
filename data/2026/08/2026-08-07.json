@@ -1,0 +1,443 @@
+{
+  "date": "2026-08-07",
+  "timezone": "Asia/Shanghai",
+  "generated_at": "2026-08-07T11:18:10+08:00",
+  "overview": "加拿大与美国的关税谈判继续恶化，墨西哥 Ayotzinapa 案出现十余年来级别最高的官员追责之一；台湾强化持续作战演练，乌干达批准为加沙稳定部队出兵，以色列则罕见起诉涉嫌杀害巴勒斯坦活动人士的定居者。刚果（金）沿刚果河隔离近 200 名潜在接触者，加拿大山火快速归因、韩国探月器拍到人造撞月痕迹，以及 Meta 儿童安全判决构成健康、气候、科学与科技治理主线。AI 前沿聚焦检索失败驱动的多模态推理、可按自然语言政策切换的安全分类器和 DSpark 本地推测解码。",
+  "digest_path": "digests/2026/08/2026-08-07.md",
+  "ai_radar": {
+    "selection_as_of": "2026-08-07T11:18:10+08:00",
+    "news_window_hours": 72,
+    "paper_window_days": 7,
+    "item_ids": [
+      "unime-r1-retrieval-cot",
+      "shieldstral-1-0-3b",
+      "unsloth-dspark-deepseek-v4"
+    ]
+  },
+  "items": [
+    {
+      "id": "unime-r1-retrieval-cot",
+      "section": "ai-frontier",
+      "category": "science",
+      "regions": ["Asia", "Global"],
+      "title": "UniME-R1 让多模态检索从真实失败候选中生成推理",
+      "summary": "UniME-R1 先检查首轮检索真正混淆的候选，再决定直接重排，或生成检索中心的思维链后重新搜索全库，并开放代码、权重与预计算数据。",
+      "why_it_matters": "它把多模态检索中的推理从泛化的查询解释，改成针对具体失败的诊断，同时复用预编码候选索引，尝试在可扩展性与推理增益之间取得平衡。",
+      "uncertainty": "论文是未同行评审的 v1 预印本，成绩均为作者自报；完整从原始样本重建离线强化学习数据的脚本仍有缺口，训练约需八张 80GB GPU，路由策略也未达到作者给出的理想上限。",
+      "confidence": "medium",
+      "ai": {
+        "kind": "paper",
+        "topics": ["multimodal-retrieval", "retrieval-centric-cot", "hard-negative-mining", "reinforcement-learning"],
+        "artifact_date": "2026-08-06",
+        "artifact_status": "arXiv v1 preprint with code, weights and data released",
+        "technical_takeaway": "用首次检索的真实失败候选驱动 RC-CoT，并在直接重排和全库重检之间自适应路由；双模式嵌入器让两条路径复用同一候选索引。",
+        "evidence_level": "primary-preprint-with-code-weights-data-and-author-benchmarks",
+        "paper_id": "arXiv:2608.06060",
+        "code_url": "https://github.com/deepglint/UniME-R1",
+        "heat": {
+          "label": "hugging-face-daily-papers-platform-attention",
+          "as_of": "2026-08-07T11:13:57+08:00",
+          "signals": [
+            {
+              "platform": "Hugging Face Daily Papers",
+              "observation": "页面显示 21 个 upvotes，处于当日平台内较靠前位置；票数不代表同行评审或复现",
+              "url": "https://huggingface.co/papers/2608.06060"
+            },
+            {
+              "platform": "GitHub",
+              "observation": "官方仓库发布初期显示 3 stars；样本很小，只能说明代码已开始被发现",
+              "url": "https://github.com/deepglint/UniME-R1"
+            }
+          ]
+        }
+      },
+      "sources": [
+        {
+          "publisher": "arXiv",
+          "title": "Learning from Failures: Retrieval-Centric CoT via Hard Negatives for Unified Multimodal Retrieval",
+          "url": "https://arxiv.org/abs/2608.06060",
+          "published_at": "2026-08-06",
+          "source_type": "research"
+        },
+        {
+          "publisher": "DeepGlint",
+          "title": "UniME-R1 source code",
+          "url": "https://github.com/deepglint/UniME-R1",
+          "published_at": "2026-08-06",
+          "source_type": "code"
+        },
+        {
+          "publisher": "DeepGlint / Hugging Face",
+          "title": "UniME-R1-2B model weights",
+          "url": "https://huggingface.co/DeepGlint-AI/UniME-R1-2B",
+          "published_at": "2026-08-06",
+          "source_type": "model-card"
+        },
+        {
+          "publisher": "DeepGlint / Hugging Face",
+          "title": "UniME-R1 training and evaluation data",
+          "url": "https://huggingface.co/datasets/DeepGlint-AI/UniME-R1",
+          "published_at": "2026-08-06",
+          "source_type": "research"
+        },
+        {
+          "publisher": "Hugging Face Daily Papers",
+          "title": "UniME-R1 paper page",
+          "url": "https://huggingface.co/papers/2608.06060",
+          "published_at": "accessed 2026-08-07T11:13:57+08:00",
+          "source_type": "community-index"
+        }
+      ]
+    },
+    {
+      "id": "shieldstral-1-0-3b",
+      "section": "ai-frontier",
+      "category": "technology",
+      "regions": ["Europe", "Global"],
+      "title": "Shieldstral 用自然语言政策统一文本与图像安全审核",
+      "summary": "Mistral 开放 3B 参数 Shieldstral 权重：部署者在推理时用自然语言写安全政策，模型以一次前向计算为文本、图像或图文内容给出 yes/no 概率。",
+      "why_it_matters": "同一检查点可随产品、受众和场景切换政策，而不必为每套分类体系重新训练；3B 规模和 Apache-2.0 许可也降低了本地部署门槛。",
+      "uncertainty": "多模态 F1 为 Mistral 自报结果，阈值、缺失样本和对手推理设置并不完全一致；训练只覆盖到 32k，跨语言与跨领域可靠性不均，合成安全数据、混淆输入和超长文本仍可能降低效果。",
+      "confidence": "medium",
+      "ai": {
+        "kind": "open-weight-safety-model",
+        "topics": ["multimodal-safety", "content-moderation", "policy-adaptation", "open-weights"],
+        "artifact_date": "2026-08-04",
+        "artifact_status": "official Apache-2.0 open-weight release with model card and technical report",
+        "technical_takeaway": "把审核表述成含 Instruct、Query 和 Document 的二元问答，只读取 yes/no logits 并校准为连续分数，从而在推理时更换文本或图像政策。",
+        "evidence_level": "official-model-card-report-and-vendor-benchmarks-no-independent-reproduction",
+        "paper_id": "arXiv:2607.25857",
+        "model_url": "https://huggingface.co/mistralai/Shieldstral-1.0-3B",
+        "heat": {
+          "label": "hugging-face-model-page-attention",
+          "as_of": "2026-08-07T11:14:00+08:00",
+          "signals": [
+            {
+              "platform": "Hugging Face",
+              "observation": "官方模型页显示 165 likes、1,511 downloads；这些是平台采用信号，不验证安全效果",
+              "url": "https://huggingface.co/mistralai/Shieldstral-1.0-3B"
+            }
+          ]
+        }
+      },
+      "sources": [
+        {
+          "publisher": "Mistral AI",
+          "title": "Introducing Shieldstral",
+          "url": "https://mistral.ai/news/shieldstral/",
+          "published_at": "2026-08-04",
+          "source_type": "primary"
+        },
+        {
+          "publisher": "Mistral AI / Hugging Face",
+          "title": "Shieldstral 1.0 3B model card and weights",
+          "url": "https://huggingface.co/mistralai/Shieldstral-1.0-3B",
+          "published_at": "updated 2026-08-05",
+          "source_type": "model-card"
+        },
+        {
+          "publisher": "arXiv",
+          "title": "Shieldstral: A Policy-Adaptive Multimodal Safety Classifier",
+          "url": "https://arxiv.org/abs/2607.25857",
+          "published_at": "2026-07-31",
+          "source_type": "research"
+        }
+      ]
+    },
+    {
+      "id": "unsloth-dspark-deepseek-v4",
+      "section": "ai-frontier",
+      "category": "technology",
+      "regions": ["North America", "Global"],
+      "title": "Unsloth 为 DeepSeek-V4-Flash 接入可选 DSpark 推测解码",
+      "summary": "Unsloth 为 DeepSeek-V4-Flash-0731 的 GGUF 加入约 11GB 的 DSpark drafter sidecar，并给出 llama.cpp 用法、兼容窗口、原始测量数据和 Unsloth Studio 自动接入。",
+      "why_it_matters": "它把模型官方自带的 drafter 变成本地推理可直接选择的组件，在生成占主导的单请求场景中可能显著提高解码速度，同时不改变主模型量化文件。",
+      "uncertainty": "1.84–1.91 倍加速均为 Unsloth 在特定 B200、Q4、贪婪解码配置下自测；四路并发只约 1.10 倍，CPU 大量卸载时可能变慢，并需避开损坏的 llama.cpp 构建区间。已知问题还可能让贪婪输出与未启用推测解码时不完全一致。",
+      "confidence": "medium",
+      "ai": {
+        "kind": "inference-tooling",
+        "topics": ["speculative-decoding", "local-inference", "gguf", "llama-cpp"],
+        "artifact_date": "2026-08-06",
+        "artifact_status": "official integration, sidecar files, documentation and raw vendor measurements released",
+        "technical_takeaway": "把 DeepSeek-V4-Flash-0731 的 DSpark drafter 提取为 Q8_0 或 BF16 sidecar，供 llama.cpp 在主模型验证下并行草拟最多五个 token；实测最佳 draft depth 为三。",
+        "evidence_level": "official-code-artifacts-and-vendor-benchmarks-with-explicit-reproduction-data",
+        "code_url": "https://huggingface.co/unsloth/DeepSeek-V4-Flash-0731-GGUF/tree/main/dspark",
+        "heat": {
+          "label": "hugging-face-repository-attention",
+          "as_of": "2026-08-07T11:14:00+08:00",
+          "signals": [
+            {
+              "platform": "Hugging Face",
+              "observation": "整个 GGUF 仓库显示 555 likes、145,105 downloads；仓库先于 DSpark 集成存在，数字不能解释为 DSpark 独立采用量",
+              "url": "https://huggingface.co/unsloth/DeepSeek-V4-Flash-0731-GGUF"
+            }
+          ]
+        }
+      },
+      "sources": [
+        {
+          "publisher": "Unsloth / Hugging Face",
+          "title": "DSpark speculative decoding drafters for DeepSeek-V4-Flash-0731",
+          "url": "https://huggingface.co/unsloth/DeepSeek-V4-Flash-0731-GGUF/blob/main/dspark/README.md",
+          "published_at": "2026-08-06",
+          "source_type": "code"
+        },
+        {
+          "publisher": "Unsloth",
+          "title": "DeepSeek-V4 local inference and DSpark guide",
+          "url": "https://unsloth.ai/docs/models/deepseek-v4#dspark-speculative-decoding",
+          "published_at": "updated 2026-08-06",
+          "source_type": "primary"
+        },
+        {
+          "publisher": "Unsloth / Hugging Face",
+          "title": "DSpark raw benchmark measurements",
+          "url": "https://huggingface.co/datasets/danielhanchen/minimax-2.7-analysis/tree/main/dspark_deepseek_v4_flash_0731_2026_08_06",
+          "published_at": "2026-08-06",
+          "source_type": "research"
+        },
+        {
+          "publisher": "Unsloth / Hugging Face",
+          "title": "DeepSeek-V4-Flash-0731 GGUF repository",
+          "url": "https://huggingface.co/unsloth/DeepSeek-V4-Flash-0731-GGUF",
+          "published_at": "updated 2026-08-06",
+          "source_type": "model-card"
+        }
+      ]
+    },
+    {
+      "id": "canada-us-tariff-talks",
+      "category": "economy",
+      "regions": ["North America", "Canada", "United States"],
+      "title": "加美关税谈判转趋激烈，8 月 19 日期限逼近",
+      "summary": "加拿大总理卡尼称与美国的谈判已变得激烈，但加方团队仍在华盛顿；美国已对加拿大钢、铝和汽车征税，并威胁从 8 月 19 日起对更多指定商品加征 50% 关税。",
+      "why_it_matters": "加拿大是美国最大贸易伙伴之一，关税若扩大，会通过汽车、金属和食品供应链传导到企业成本、就业与消费者价格，也会加深北美政治摩擦。",
+      "uncertainty": "双方仍在谈判，生效前可能出现豁免、延后或调整；产业迁移、报复措施和通胀的实际幅度尚无法从政治表态推断。",
+      "confidence": "high",
+      "sources": [
+        {
+          "publisher": "Associated Press",
+          "title": "Carney says US trade talks are 'nasty' after Trump criticizes Canada's leadership",
+          "url": "https://apnews.com/article/b56647b4a3c66b76c57a48386559ec18",
+          "published_at": "2026-08-06T19:58:59Z",
+          "source_type": "wire"
+        },
+        {
+          "publisher": "The White House",
+          "title": "Imposing additional duties to offset Canadian discrimination with respect to dairy",
+          "url": "https://www.whitehouse.gov/presidential-actions/2026/07/imposing-additional-duties-to-offset-canadian-discrimination-against-the-commerce-of-the-united-states-with-respect-to-dairy/",
+          "published_at": "2026-07",
+          "source_type": "primary"
+        }
+      ]
+    },
+    {
+      "id": "ayotzinapa-aguirre-arrest",
+      "category": "politics",
+      "regions": ["North America", "Mexico", "Latin America"],
+      "title": "Ayotzinapa 案时任州长因涉嫌隐匿证据被捕",
+      "summary": "墨西哥联邦检方逮捕 2014 年 43 名师范生失踪时的格雷罗州州长 Ángel Aguirre，指控其下令隐匿可能帮助确定学生下落的监控证据。",
+      "why_it_matters": "这是该案十余年来级别最高的官员追责之一，可能重新打开对州级政府掩盖行为、地方安全部门与犯罪组织勾连的司法审查。",
+      "uncertainty": "逮捕和检方陈述不是定罪；证人证词、录像保管链、指令来源及 Aguirre 的个人责任仍须在法院接受质证，家属一方也称事前未获通知。",
+      "confidence": "high",
+      "sources": [
+        {
+          "publisher": "Associated Press",
+          "title": "More than a decade after 43 students vanished in Mexico, ex-governor arrested, accused of cover-up",
+          "url": "https://apnews.com/article/2f2a03e36b20207fb8d3d8f168c10515",
+          "published_at": "2026-08-06T20:18:30Z",
+          "source_type": "wire"
+        },
+        {
+          "publisher": "El País",
+          "title": "Detenido Ángel Aguirre por ocultar evidencia del caso Ayotzinapa",
+          "url": "https://elpais.com/mexico/2026-08-06/detenido-angel-aguirre-exgobernador-de-guerrero-por-ocultar-evidencia-del-caso-ayotzinapa.html",
+          "published_at": "2026-08-06",
+          "source_type": "regional-media"
+        }
+      ]
+    },
+    {
+      "id": "drc-ebola-boat-monitoring-update",
+      "category": "health-society",
+      "regions": ["Africa", "Democratic Republic of the Congo"],
+      "title": "更新：刚果（金）在金沙萨附近监测近 200 名船客",
+      "summary": "一名曾乘坐刚果河客船、约三周前在蒙加拉省下船的旅客出现埃博拉样症状并死亡，卫生部门因此在金沙萨附近隔离和监测近 200 名船客；首都尚无确诊病例。",
+      "why_it_matters": "这是 8 月 5 日已记录疫情后的实质传播风险更新：刚果河客运连接多个省份，若死者检测阳性，追踪难度和向高流动性地区扩散的风险都会上升。",
+      "uncertainty": "死者实验室结果尚未公布，不能写成埃博拉已经传入金沙萨；AP 引述的最新病例数与 WHO 较早通报统计时点不同，也不宜直接比较。",
+      "confidence": "medium",
+      "sources": [
+        {
+          "publisher": "Associated Press",
+          "title": "Congo monitors 200 boat passengers near Kinshasa after a traveler dies with Ebola-like symptoms",
+          "url": "https://apnews.com/article/1de45c3ecedabb974dce0b176f0dcc3f",
+          "published_at": "2026-08-06T08:57:26Z",
+          "source_type": "wire"
+        },
+        {
+          "publisher": "World Health Organization",
+          "title": "Disease Outbreak News: Ebola virus disease – Democratic Republic of the Congo",
+          "url": "https://www.who.int/emergencies/disease-outbreak-news/item/2026-DON613",
+          "published_at": "2026-07-17",
+          "source_type": "primary"
+        }
+      ]
+    },
+    {
+      "id": "taiwan-han-kuang-42",
+      "category": "politics",
+      "regions": ["Asia", "Taiwan", "East Asia"],
+      "title": "台湾汉光演习转向持续作战、分散指挥与社会韧性",
+      "summary": "汉光 42 号实兵演习从 8 月 5 日持续至 14 日，模拟灰色地带骚扰升级至封锁和登陆，并把通信受阻、城镇韧性、关键基础设施与美军式任务复述纳入演练。",
+      "why_it_matters": "重点从武器展示转向 24 小时持续行动、失联条件下的基层决策和民防配合，反映台湾应对力量不对称与潜在封锁的准备方式正在变化。",
+      "uncertainty": "演习方案不能证明冲突迫近；所谓与美国更深对齐是 AP 与受访专家的分析，不是台湾官方宣布的同盟或共同作战安排。",
+      "confidence": "high",
+      "sources": [
+        {
+          "publisher": "Associated Press",
+          "title": "Taiwan's military drills suggest deeper alignment with the US",
+          "url": "https://apnews.com/article/283f26ae2757166fcd3542471f927f00",
+          "published_at": "2026-08-06T09:41:48Z",
+          "source_type": "wire"
+        },
+        {
+          "publisher": "Taiwan Ministry of National Defense",
+          "title": "Han Kuang 42 exercise plan",
+          "url": "https://www.mnd.gov.tw/news/pressrelease/87171",
+          "published_at": "2026",
+          "source_type": "primary"
+        },
+        {
+          "publisher": "All-out Defense Mobilization Agency",
+          "title": "2026 urban resilience and air-raid exercise arrangements",
+          "url": "https://adma.mnd.gov.tw/uniten/100003/8111",
+          "published_at": "2026",
+          "source_type": "primary"
+        }
+      ]
+    },
+    {
+      "id": "uganda-gaza-stabilization-force",
+      "category": "politics",
+      "regions": ["Africa", "Uganda", "Middle East", "Gaza"],
+      "title": "乌干达议会批准为加沙国际稳定部队出兵",
+      "summary": "乌干达防长提出的动议获得议会批准，允许向拟议中的加沙国际稳定部队部署军人；这是该国首次公开确认愿意参与任务。",
+      "why_it_matters": "加沙战后安全安排开始从外交框架进入具体兵力承诺阶段，乌干达长期海外部署经验也可能使非洲国家成为该任务的重要兵源。",
+      "uncertainty": "人数、日期、交战规则、指挥链和是否存在交换条件均未公布；议会授权不等于已经部署，以色列对整体安排仍表达安全疑虑。",
+      "confidence": "medium",
+      "sources": [
+        {
+          "publisher": "Associated Press",
+          "title": "Uganda approves sending troops for international force in Gaza",
+          "url": "https://apnews.com/article/2363467ec800644552f8be5a1b84f8f4",
+          "published_at": "2026-08-06T14:27:21Z",
+          "source_type": "wire"
+        }
+      ]
+    },
+    {
+      "id": "canada-wildfire-attribution-2026",
+      "category": "climate-environment",
+      "regions": ["North America", "Canada"],
+      "title": "快速归因研究称变暖使加拿大危险火险天气概率约翻倍",
+      "summary": "World Weather Attribution 分析认为，人为变暖使西北地区和安大略相关火险天气出现概率约增加至两倍；三百多万公顷已在本季烧毁，烟霾影响跨越美加边界。",
+      "why_it_matters": "研究为山火资源配置、原住民社区疏散、跨境空气质量与长期森林适应政策提供量化依据，也把争论从单一管理失误扩展到气候风险。",
+      "uncertainty": "这是尚未同行评审的快速归因，评估对象是热、干、湿度和风共同形成的火险天气，而不是断言每一次点火或全部过火面积都由气候变化造成。",
+      "confidence": "medium",
+      "sources": [
+        {
+          "publisher": "World Weather Attribution",
+          "title": "Climate change means extreme fire seasons in Canada are here to stay",
+          "url": "https://www.worldweatherattribution.org/climate-change-canada-wildfires-2026/",
+          "published_at": "2026-08-06",
+          "source_type": "research"
+        },
+        {
+          "publisher": "Associated Press",
+          "title": "Climate change created conditions for Canada fires, scientists say",
+          "url": "https://apnews.com/article/99389ce431e3f4c8821218e2134d6ada",
+          "published_at": "2026-08-06T04:01:34Z",
+          "source_type": "wire"
+        }
+      ]
+    },
+    {
+      "id": "danuri-falcon9-moon-impact",
+      "category": "science",
+      "regions": ["Asia", "South Korea", "Global", "Space"],
+      "title": "韩国 Danuri 公布废弃火箭撞月前后图像",
+      "summary": "韩国探月器 Danuri 拍到废弃 Falcon 9 上面级 8 月 5 日撞月后的暗色新撞击区，并与撞击前影像形成首批对照；NASA 月球勘测轨道器计划继续复拍。",
+      "why_it_matters": "已知质量、速度和撞击时刻的人造撞击可作为月壤喷射和小型撞击坑形成的自然实验，也展示多国月球轨道器协同观测突发事件的能力。",
+      "uncertainty": "首批影像只能确认表面变化；坑径、喷射物分布和动力学仍需更高分辨率图像与后续分析，不能从颜色变暗直接推断全部物理过程。",
+      "confidence": "high",
+      "sources": [
+        {
+          "publisher": "Associated Press",
+          "title": "South Korean satellite captures before and after views of SpaceX rocket's moon crash",
+          "url": "https://apnews.com/article/61dc5c43f671623622960013e06aeeb1",
+          "published_at": "2026-08-06T19:46:36Z",
+          "source_type": "wire"
+        },
+        {
+          "publisher": "Korea Aerospace Research Institute",
+          "title": "Danuri lunar image gallery",
+          "url": "https://www.kari.re.kr/eng/83/img/S/MOON",
+          "published_at": "updated 2026-08-06",
+          "source_type": "primary"
+        },
+        {
+          "publisher": "arXiv",
+          "title": "Observing the 2026 Falcon 9 lunar impact",
+          "url": "https://arxiv.org/abs/2607.14625",
+          "published_at": "2026-07-20",
+          "source_type": "research"
+        }
+      ]
+    },
+    {
+      "id": "new-mexico-meta-remedy",
+      "category": "technology",
+      "regions": ["North America", "United States"],
+      "title": "新墨西哥法院要求 Meta 再投入 5.67 亿美元处理儿童伤害",
+      "summary": "法院在儿童安全诉讼的救济阶段判令 Meta 支付 5.67 亿美元，其中约 4.2 亿美元用于青少年治疗，其余用于预防、筛查和五年计划；此前陪审团已判 3.75 亿美元民事罚款。",
+      "why_it_matters": "判决把平台设计、年龄识别、默认隐私和儿童心理健康从倡议转化为可执行救济，可能成为美国各州针对社交平台责任诉讼的重要参照。",
+      "uncertainty": "Meta 表示将继续抗辩，资金规模、整改范围和最终执行可能因上诉变化；法院也因联邦儿童隐私法限制，没有直接命令平台向 13 岁以下儿童收集额外身份资料。",
+      "confidence": "high",
+      "sources": [
+        {
+          "publisher": "Associated Press",
+          "title": "Court orders Instagram and Facebook's Meta to pay $567M to address kids' mental health online",
+          "url": "https://apnews.com/article/21b425faf745d0f736b310ebd8bc6b89",
+          "published_at": "2026-08-06T23:36:13Z",
+          "source_type": "wire"
+        },
+        {
+          "publisher": "New Mexico Department of Justice",
+          "title": "Statement on final judgment in State of New Mexico v. Meta",
+          "url": "https://nmdoj.gov/press-release/statement-from-attorney-general-raul-torrez-on-final-judgment-in-state-of-new-mexico-v-meta/",
+          "published_at": "2026-08-06",
+          "source_type": "primary"
+        }
+      ]
+    },
+    {
+      "id": "israel-settler-indictment-hathaleen",
+      "category": "politics",
+      "regions": ["Middle East", "Israel", "West Bank"],
+      "title": "以色列检方罕见起诉涉嫌杀害巴勒斯坦活动人士的定居者",
+      "summary": "以色列检方以鲁莽杀人、持械侵入和破坏财产等罪名起诉定居者 Yinon Levi，案件涉及 2025 年巴勒斯坦活动人士 Awdah Hathaleen 遇害。",
+      "why_it_matters": "在约旦河西岸定居者暴力案件很少进入正式审判的背景下，起诉为受害者家属追责提供司法入口，也将检验执法是否会发生持续变化。",
+      "uncertainty": "被告否认指控并主张自卫，案件尚未定罪；所谓 2023 年 10 月以来首例来自以色列人权组织 B'Tselem 的统计，应视为有来源限定的判断。",
+      "confidence": "medium",
+      "sources": [
+        {
+          "publisher": "Associated Press",
+          "title": "Israeli prosecutors charge settler with killing Palestinian activist in rare indictment",
+          "url": "https://apnews.com/article/58e246abe5bda4d075bc61d31b7ffdfb",
+          "published_at": "2026-08-06T10:03:12Z",
+          "source_type": "wire"
+        }
+      ]
+    }
+  ]
+}
