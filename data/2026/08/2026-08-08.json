@@ -1,0 +1,471 @@
+{
+  "date": "2026-08-08",
+  "timezone": "Asia/Shanghai",
+  "generated_at": "2026-08-08T11:17:58+08:00",
+  "overview": "沙特、土耳其和巴基斯坦签署互防协议，美国就业显著转弱、中国贸易仍保持两位数增长，哥伦比亚新政府则提出逆转油气政策。参议院对俄制裁、FAA 737 MAX 检查、泰国校园枪击、冲绳台风、美国沙门氏菌疫情和肯尼亚大象死亡调查构成安全、治理、健康与环境主线。AI 前沿聚焦 KVAE 多模态 tokenizer、Meta Muse 编码代理和 Prime Intellect 多代理强化学习工具链。",
+  "digest_path": "digests/2026/08/2026-08-08.md",
+  "ai_radar": {
+    "selection_as_of": "2026-08-08T11:17:58+08:00",
+    "news_window_hours": 72,
+    "paper_window_days": 7,
+    "item_ids": [
+      "kvae-multimodal-tokenizers",
+      "muse-spark-1-2-code",
+      "prime-rl-verifiers-multi-agent"
+    ]
+  },
+  "items": [
+    {
+      "id": "kvae-multimodal-tokenizers",
+      "section": "ai-frontier",
+      "category": "science",
+      "regions": ["Europe", "Global"],
+      "title": "KVAE 用一套连续 tokenizer 覆盖音频、图像与视频",
+      "summary": "Kandinsky 团队首次以统一技术报告整理音频、图像和视频连续 tokenizer，并开放推理、评测代码及多模态权重。",
+      "why_it_matters": "统一接口让研究者更容易比较压缩率、因果缓存和生成质量，也为跨模态生成管线复用工程组件提供基础。",
+      "uncertainty": "论文尚未同行评审，指标均为作者自报；图像版并非所有指标领先，CDS 相关性只来自小样本配置，训练代码与完整数据也未公开。",
+      "confidence": "medium",
+      "ai": {
+        "kind": "paper-and-open-weight-multimodal-tokenizers",
+        "topics": ["multimodal-generation", "vae", "audio-tokenizer", "video-tokenizer"],
+        "artifact_date": "2026-08-06T17:34:00+08:00",
+        "artifact_status": "arXiv v1 with unified inference and evaluation code plus audio, image and video weights; training code and complete training data not found",
+        "technical_takeaway": "音频版以 50 Hz、64 通道潜变量压缩 48 kHz 信号；视频版提供时间 4 倍、空间 8×8 或 16×16 的因果压缩，并用潜空间 Correlation Decay Slope 辅助选择扩散模型 tokenizer。",
+        "evidence_level": "primary-preprint-with-weights-and-inference-evaluation-code-no-independent-reproduction",
+        "paper_id": "arXiv:2608.05798",
+        "code_url": "https://github.com/kandinskylab/kvae",
+        "heat": {
+          "label": "early-hugging-face-and-github-platform-attention",
+          "as_of": "2026-08-08T11:07:31+08:00",
+          "signals": [
+            {
+              "platform": "Hugging Face Daily Papers",
+              "observation": "页面显示 11 个 upvotes；票数只代表该平台关注，不代表同行评审或复现",
+              "url": "https://huggingface.co/papers/2608.05798"
+            },
+            {
+              "platform": "GitHub",
+              "observation": "统一仓库显示 48 stars、1 fork；属于发布初期的累计关注",
+              "url": "https://github.com/kandinskylab/kvae"
+            }
+          ]
+        }
+      },
+      "sources": [
+        {
+          "publisher": "arXiv",
+          "title": "KVAE: A Family of Versatile Continuous Tokenizers for Multimodal Generation",
+          "url": "https://arxiv.org/abs/2608.05798",
+          "published_at": "2026-08-06",
+          "source_type": "research"
+        },
+        {
+          "publisher": "Kandinsky Lab",
+          "title": "KVAE unified repository",
+          "url": "https://github.com/kandinskylab/kvae",
+          "published_at": "2026-08-06",
+          "source_type": "code"
+        },
+        {
+          "publisher": "Kandinsky Lab / Hugging Face",
+          "title": "KVAE-Audio model card and weights",
+          "url": "https://huggingface.co/kandinskylab/KVAE-Audio",
+          "published_at": "accessed 2026-08-08T11:07:31+08:00",
+          "source_type": "model-card"
+        },
+        {
+          "publisher": "Kandinsky Lab / Hugging Face",
+          "title": "KVAE-3D-2.0-t4s8 model card and weights",
+          "url": "https://huggingface.co/kandinskylab/KVAE-3D-2.0-t4s8",
+          "published_at": "accessed 2026-08-08T11:07:31+08:00",
+          "source_type": "model-card"
+        },
+        {
+          "publisher": "Hugging Face Daily Papers",
+          "title": "KVAE paper page",
+          "url": "https://huggingface.co/papers/2608.05798",
+          "published_at": "accessed 2026-08-08T11:07:31+08:00",
+          "source_type": "community-index"
+        }
+      ]
+    },
+    {
+      "id": "muse-spark-1-2-code",
+      "section": "ai-frontier",
+      "category": "technology",
+      "regions": ["North America", "Global"],
+      "title": "Meta 用 Muse Spark 1.2 与 Muse Code 处理长时编码任务",
+      "summary": "Meta 发布闭源编码模型 Muse Spark 1.2 和配套终端代理 Muse Code，主打长上下文、后台代理、并行子代理、隔离 worktree 与崩溃续跑。",
+      "why_it_matters": "若长时状态保存和子代理隔离在真实仓库中稳定，编码代理可从短补丁走向可恢复、持续数小时甚至更久的工程任务。",
+      "uncertainty": "基准与长时实验均由 Meta 自报，部分版本对照使用不同代理 harness；无开放权重，真实仓库稳定性、Windows 支持和数据边界仍待独立验证。",
+      "confidence": "medium",
+      "ai": {
+        "kind": "closed-coding-model-and-terminal-agent",
+        "topics": ["coding-agent", "long-context", "parallel-subagents", "software-engineering"],
+        "artifact_date": "2026-08-05",
+        "artifact_status": "official closed model API and beta terminal agent release; no open weights or open model license",
+        "technical_takeaway": "Muse Code 以后台代理、按需并行子代理、隔离 worktree、事件日志和崩溃恢复承载约百万 token 上下文的 Spark 1.2，并用上一代模型生成与筛选高难编码环境形成后训练闭环。",
+        "evidence_level": "official-vendor-technical-post-and-vendor-benchmarks-no-open-weights-or-independent-reproduction",
+        "model_url": "https://developer.meta.com/ai/resources/blog/build-with-muse-code/",
+        "heat": {
+          "label": "aggregator-platform-attention",
+          "as_of": "2026-08-08T11:14:00+08:00",
+          "signals": [
+            {
+              "platform": "HuggingNews",
+              "observation": "聚合页面显示 20 个相关帖子、12 位作者；这是站内聚合信号，不能代表全网热度或模型质量",
+              "url": "https://huggingnews.com/ai/meta-launches-muse-spark-12-ai-model-with-040-task-cost-to-rank-fourth-i-ac277f22"
+            }
+          ]
+        }
+      },
+      "sources": [
+        {
+          "publisher": "Meta AI Developers",
+          "title": "Meet Muse Spark 1.2 and Muse Code",
+          "url": "https://developer.meta.com/ai/resources/blog/build-with-muse-code/",
+          "published_at": "2026-08-05",
+          "source_type": "primary"
+        },
+        {
+          "publisher": "HuggingNews",
+          "title": "Muse Spark 1.2 attention snapshot",
+          "url": "https://huggingnews.com/ai/meta-launches-muse-spark-12-ai-model-with-040-task-cost-to-rank-fourth-i-ac277f22",
+          "published_at": "accessed 2026-08-08T11:14:00+08:00",
+          "source_type": "community-index"
+        }
+      ]
+    },
+    {
+      "id": "prime-rl-verifiers-multi-agent",
+      "section": "ai-frontier",
+      "category": "technology",
+      "regions": ["North America", "Global"],
+      "title": "prime-rl 与 verifiers 把多代理交互接入开源强化学习训练",
+      "summary": "Prime Intellect 同步发布 verifiers v0.3.0 与 prime-rl v0.8.0，把逐轮多代理环境、可恢复编码 harness、角色基线和分层 GRPO 接入同一训练栈。",
+      "why_it_matters": "开放的环境、代理、评判和训练协议让研究者更容易复现代理如何轮流行动并获得奖励，而不只比较最终答案。",
+      "uncertainty": "multi-agent 仍是单策略训练，版本包含大量破坏性迁移；新 GPU 与通信路径缺少独立稳定性和端到端性能数据。",
+      "confidence": "medium",
+      "ai": {
+        "kind": "open-source-training-and-evaluation-infrastructure",
+        "topics": ["multi-agent-rl", "agent-environments", "grpo", "distributed-training"],
+        "artifact_date": "2026-08-08T01:08:23+08:00",
+        "artifact_status": "verifiers v0.3.0 under MIT and prime-rl v0.8.0 under Apache-2.0 with source and release notes available",
+        "technical_takeaway": "verifiers 用 Episode、Agent、Env 与逐轮交错定义多代理环境；prime-rl 以角色 EMA 基线 RAE、Hierarchical GRPO 及 trainer-to-vLLM 权重同步训练同一策略扮演多个角色。",
+        "evidence_level": "official-open-source-releases-with-code-and-changelogs-no-new-end-to-end-benchmark",
+        "code_url": "https://github.com/PrimeIntellect-ai/prime-rl/releases/tag/v0.8.0",
+        "heat": {
+          "label": "cumulative-github-and-aggregator-attention",
+          "as_of": "2026-08-08T11:14:00+08:00",
+          "signals": [
+            {
+              "platform": "GitHub",
+              "observation": "prime-rl 仓库累计显示 1,844 stars、382 forks；并非本次版本的 24 小时增量",
+              "url": "https://github.com/PrimeIntellect-ai/prime-rl/releases/tag/v0.8.0"
+            },
+            {
+              "platform": "GitHub",
+              "observation": "verifiers 仓库累计显示 4,468 stars、631 forks；累计值不验证新版性能",
+              "url": "https://github.com/PrimeIntellect-ai/verifiers/releases/tag/v0.3.0"
+            },
+            {
+              "platform": "HuggingNews",
+              "observation": "聚合页面显示 12 个帖子、5 位作者，可视为开发者圈的早期讨论信号",
+              "url": "https://huggingnews.com/ai/prime-intellect-launches-multi-agent-training-capability-in-rl-versions-e83a1630"
+            }
+          ]
+        }
+      },
+      "sources": [
+        {
+          "publisher": "Prime Intellect / GitHub",
+          "title": "verifiers v0.3.0",
+          "url": "https://github.com/PrimeIntellect-ai/verifiers/releases/tag/v0.3.0",
+          "published_at": "2026-08-08T01:08:23+08:00",
+          "source_type": "code"
+        },
+        {
+          "publisher": "Prime Intellect / GitHub",
+          "title": "prime-rl v0.8.0",
+          "url": "https://github.com/PrimeIntellect-ai/prime-rl/releases/tag/v0.8.0",
+          "published_at": "2026-08-08T01:21:02+08:00",
+          "source_type": "code"
+        },
+        {
+          "publisher": "HuggingNews",
+          "title": "Prime Intellect multi-agent training attention snapshot",
+          "url": "https://huggingnews.com/ai/prime-intellect-launches-multi-agent-training-capability-in-rl-versions-e83a1630",
+          "published_at": "accessed 2026-08-08T11:14:00+08:00",
+          "source_type": "community-index"
+        }
+      ]
+    },
+    {
+      "id": "thailand-nonthaburi-school-shooting",
+      "category": "health-society",
+      "regions": ["Asia", "Thailand"],
+      "title": "泰国 14 岁学生在学校及家中杀死至少 7 人",
+      "summary": "暖武里府一名 14 岁学生枪杀 5 名教职员并涉嫌此前杀死祖父母，随后自杀；医院报告 23 人受伤，其中 10 人危重。",
+      "why_it_matters": "事件再次暴露合法登记枪械的家庭保管、校园危机识别和未成年人心理支持问题。",
+      "uncertainty": "动机、枪械取得过程和事发前风险信号仍在调查；早期伤亡数字曾有冲突，伤员情况可能继续变化。",
+      "confidence": "high",
+      "sources": [
+        {
+          "publisher": "Associated Press",
+          "title": "Student kills at least 7 people at a high school and a home outside Bangkok",
+          "url": "https://apnews.com/article/thailand-nonthaburi-school-shooting-7939000dbad098198a9fc77169028762",
+          "published_at": "2026-08-07T04:08:11Z",
+          "source_type": "wire"
+        },
+        {
+          "publisher": "Reuters",
+          "title": "From his quiet home to a shooting spree at school: Thai teenager's deadly rampage",
+          "url": "https://www.reuters.com/world/asia-pacific/his-quiet-home-shooting-spree-school-thai-teenagers-deadly-rampage-2026-08-07/",
+          "published_at": "2026-08-07",
+          "source_type": "wire"
+        }
+      ]
+    },
+    {
+      "id": "mecca-joint-defense-agreement",
+      "category": "politics",
+      "regions": ["Middle East", "South Asia", "Europe", "Saudi Arabia", "Türkiye", "Pakistan"],
+      "title": "沙特、土耳其和巴基斯坦签署麦加联合防务协议",
+      "summary": "三国规定对其中一国的武装攻击视为对三国的攻击，并提出加强集体威慑、国防工业与反恐合作。",
+      "why_it_matters": "协议把沙特、核国家巴基斯坦和北约成员土耳其连接进同一安全框架，可能改变中东与南亚的防务合作。",
+      "uncertainty": "完整条约、启动机制、联合指挥、部队承诺和北约兼容性均未公开，也不能推断巴基斯坦已经提供核保护伞。",
+      "confidence": "high",
+      "sources": [
+        {
+          "publisher": "Associated Press",
+          "title": "Saudi Arabia, Turkey and Pakistan have signed a key defense agreement",
+          "url": "https://apnews.com/article/saudi-arabia-turkey-pakistan-defense-agreement-58048d4a100befd4d2c18e0cbae58b7c",
+          "published_at": "2026-08-07T09:52:18Z",
+          "source_type": "wire"
+        },
+        {
+          "publisher": "Associated Press",
+          "title": "Turkey, Pakistan and Saudi Arabia sign a mutual defense deal, and other Middle East news",
+          "url": "https://apnews.com/article/mideast-news-roundup-iran-saudi-pakistan-turkey-aug-7-2026-d2ddfe7ce02c7814420b9029158ed57c",
+          "published_at": "2026-08-07T11:31:07Z",
+          "source_type": "wire"
+        }
+      ]
+    },
+    {
+      "id": "colombia-energy-policy-shift",
+      "category": "politics",
+      "regions": ["Latin America", "Colombia"],
+      "title": "哥伦比亚新总统就职并提出逆转油气政策",
+      "summary": "Abelardo de la Espriella 在卡利就任总统，承诺恢复油气勘探、重振 Ecopetrol 并在技术和环境标准下允许水力压裂。",
+      "why_it_matters": "路线明显偏离前任的油气与反压裂政策，可能改变财政、能源转型、安全策略并延续拉美政治右转。",
+      "uncertainty": "具体许可证、环保评估、公司治理调整以及国会和法院约束尚未展开，目前仍是政策承诺。",
+      "confidence": "high",
+      "sources": [
+        {
+          "publisher": "Associated Press",
+          "title": "Colombia's new president signals energy policy shift, backs oil and gas",
+          "url": "https://apnews.com/article/colombia-president-espriella-environment-oil-gas-fracking-ecopetrol-4d4e23b739ca82f6b5b736228b4d988f",
+          "published_at": "2026-08-08T00:57:24Z",
+          "source_type": "wire"
+        },
+        {
+          "publisher": "Associated Press",
+          "title": "Colombia's new president takes office in ceremony in Cali",
+          "url": "https://apnews.com/article/colombia-inauguration-de-la-espriella-president-cali-bogota-petro-6a062df06d20e440ba0e4f7ee7587af6",
+          "published_at": "2026-08-07T12:53:16Z",
+          "source_type": "wire"
+        }
+      ]
+    },
+    {
+      "id": "us-july-jobs-2026",
+      "category": "economy",
+      "regions": ["North America", "United States", "Global"],
+      "title": "美国 7 月非农就业减少 2.3 万，前两月再下修 10.3 万",
+      "summary": "美国非农就业减少 23,000，5、6 月合计下修 103,000；失业率为 4.1%，劳动参与率降至 61.4%。",
+      "why_it_matters": "就业动能转弱会影响家庭收入、企业招聘、美联储利率判断以及全球股债市场定价。",
+      "uncertainty": "BLS 把主要指标描述为变化不大，学校就业可能受季节调整影响，数据还会修订，单月结果不能确定衰退或利率路径。",
+      "confidence": "high",
+      "sources": [
+        {
+          "publisher": "U.S. Bureau of Labor Statistics",
+          "title": "The Employment Situation — July 2026",
+          "url": "https://www.bls.gov/news.release/empsit.nr0.htm",
+          "published_at": "2026-08-07T08:30:00-04:00",
+          "source_type": "primary"
+        },
+        {
+          "publisher": "Associated Press",
+          "title": "U.S. jobs report analysis",
+          "url": "https://apnews.com/article/economy-jobs-trump-unemployment-rate-jobseekers-9c2d147c14bc428458be5a1e83e54957",
+          "published_at": "2026-08-07",
+          "source_type": "wire"
+        },
+        {
+          "publisher": "Associated Press",
+          "title": "Stocks rise and Treasury yields fall after the jobs report",
+          "url": "https://apnews.com/article/stocks-markets-rates-iran-9636095906bbb689a1f612bce9a07343",
+          "published_at": "2026-08-07",
+          "source_type": "wire"
+        }
+      ]
+    },
+    {
+      "id": "china-july-trade-2026",
+      "category": "economy",
+      "regions": ["Asia", "China", "Global"],
+      "title": "中国 7 月进出口继续高增长，贸易顺差收窄",
+      "summary": "7 月出口同比增长近 24%，进口增长 27.5%，贸易顺差从 1,256 亿美元缩至 1,125 亿美元。",
+      "why_it_matters": "数据反映电子、绿色技术与汽车需求仍支撑中国外贸，并会传导至亚洲供应链、航运和大宗商品需求。",
+      "uncertainty": "台风扰动、基数和发运时点可能放大单月变化；关税、技术限制和补贴争议对后续订单的影响仍待观察。",
+      "confidence": "high",
+      "sources": [
+        {
+          "publisher": "Associated Press",
+          "title": "China's July exports and imports maintain strong growth",
+          "url": "https://apnews.com/article/china-trade-exports-imports-iran-oil-8bd433d388d143ba2d37a10aefdc5629",
+          "published_at": "2026-08-07",
+          "source_type": "wire"
+        }
+      ]
+    },
+    {
+      "id": "us-senate-russia-sanctions-2026",
+      "category": "politics",
+      "regions": ["North America", "Europe", "Russia", "Asia", "Global"],
+      "title": "美国参议院 86 比 11 通过大规模对俄制裁法案",
+      "summary": "法案拟制裁俄政府、金融、能源和影子船队，并授权总统向俄罗斯油气最大的五个买家征收关税。",
+      "why_it_matters": "若最终成法，制裁压力将延伸至第三国贸易，影响中国、印度、全球油气、航运和美国贸易关系。",
+      "uncertainty": "众议院尚未处理，议员对总统关税权仍有分歧；最终条文、豁免和执行对象可能变化。",
+      "confidence": "high",
+      "sources": [
+        {
+          "publisher": "Associated Press",
+          "title": "Senate passes Russia sanctions package",
+          "url": "https://apnews.com/article/senate-russia-sanctions-graham-tariffs-8d37498c3f27d96cae7da147250ebe9f",
+          "published_at": "2026-08-07",
+          "source_type": "wire"
+        },
+        {
+          "publisher": "Office of U.S. Senator Katie Britt",
+          "title": "Senators announce agreement on Russia and Iran sanctions legislation",
+          "url": "https://www.britt.senate.gov/news/press-releases/u-s-senators-katie-britt-richard-blumenthal-darline-graham-jeanne-shaheen-jim-risch-roger-wicker-announce-agreement-to-move-forward-on-major-sanctions-legislation-host-meeting-with-president-z/",
+          "published_at": "2026-07-28",
+          "source_type": "primary"
+        }
+      ]
+    },
+    {
+      "id": "faa-737-max-bear-strap-inspections",
+      "category": "technology",
+      "regions": ["North America", "United States", "Global"],
+      "title": "FAA 要求 471 架 737 MAX 做预防性结构裂纹检查",
+      "summary": "最终规则要求部分 737-8、737-9 和 737-8200 检查前部舱门附近 bear strap 及已有修理处机身蒙皮，9 月 10 日生效。",
+      "why_it_matters": "预防性指令覆盖数百架主力窄体客机，其执行会检验波音和监管方的持续适航管理。",
+      "uncertainty": "相关 MAX 尚未发现同类裂纹，指令不是停飞令；真实缺陷率、检查工作量和维修需求须等检查完成。",
+      "confidence": "high",
+      "sources": [
+        {
+          "publisher": "Associated Press",
+          "title": "FAA orders crack inspections for hundreds of Boeing 737 Max jets",
+          "url": "https://apnews.com/article/boeing-737-max-crack-inspections-faa-f9d4c01a70c760f82520f09ea91137ac",
+          "published_at": "2026-08-07T16:03:42Z",
+          "source_type": "wire"
+        },
+        {
+          "publisher": "Federal Aviation Administration",
+          "title": "Boeing 737 MAX Reading Room",
+          "url": "https://www.faa.gov/foia/electronic_reading_room/boeing_reading_room",
+          "published_at": "accessed 2026-08-08",
+          "source_type": "primary"
+        }
+      ]
+    },
+    {
+      "id": "typhoon-dolphin-okinawa",
+      "category": "climate-environment",
+      "regions": ["Asia", "Japan", "Okinawa", "China"],
+      "title": "台风海豚影响冲绳，那霸机场全面停航",
+      "summary": "台风经过日本南部岛屿，那霸机场取消当天全部进出航班，约 240 人进入避难所，初报 3 人轻伤。",
+      "why_it_matters": "冲绳是日本南部关键航空、旅游和军事交通节点，全面停航影响区域流动，后续路径也关系东海沿岸防灾。",
+      "uncertainty": "路径、降雨、海浪和中国登陆强度仍会变化，初期无重大伤亡不等于最终损失轻微。",
+      "confidence": "high",
+      "sources": [
+        {
+          "publisher": "Associated Press",
+          "title": "Typhoon Dolphin hits Japan's Okinawa islands",
+          "url": "https://apnews.com/article/japan-okinawa-china-storm-typhoon-dolphin-a04335196cfec80187102030b4fafcd4",
+          "published_at": "2026-08-07",
+          "source_type": "wire"
+        },
+        {
+          "publisher": "Japan Meteorological Agency",
+          "title": "Typhoon information",
+          "url": "https://www.jma.go.jp/bosai/information/typhoon.html",
+          "published_at": "accessed 2026-08-08T11:17:58+08:00",
+          "source_type": "primary"
+        }
+      ]
+    },
+    {
+      "id": "us-jalapeno-salmonella-2026",
+      "category": "health-society",
+      "regions": ["North America", "United States", "Mexico"],
+      "title": "美国 27 州沙门氏菌疫情追溯至墨西哥辣椒供应链",
+      "summary": "至少 345 人感染、36 人住院且暂无死亡，涉事哈拉佩尼奥辣椒来自墨西哥种植者并由 Coast Citrus Distributors 输美。",
+      "why_it_matters": "疫情牵涉多家连锁餐饮供应链，暴露跨境生鲜在种植、包装、进口和集中配送之间的追溯风险。",
+      "uncertainty": "污染环节、是否进入零售渠道和最终病例数仍在调查；相关餐厅已移除产品，不能视所有门店为持续暴露点。",
+      "confidence": "high",
+      "sources": [
+        {
+          "publisher": "Associated Press",
+          "title": "Jalapeños linked to a U.S. salmonella outbreak are tracked to Mexico",
+          "url": "https://apnews.com/article/jalapenos-salmonella-chipotle-qdoba-335dffe4980a7063b1deccc2bf8390b2",
+          "published_at": "2026-08-06T15:52:56Z",
+          "source_type": "wire"
+        },
+        {
+          "publisher": "U.S. Food and Drug Administration",
+          "title": "Investigations of Foodborne Illness Outbreaks",
+          "url": "https://www.fda.gov/food/outbreaks-foodborne-illness/investigations-foodborne-illness-outbreaks",
+          "published_at": "updated 2026-08-05",
+          "source_type": "primary"
+        },
+        {
+          "publisher": "U.S. Centers for Disease Control and Prevention",
+          "title": "Salmonella outbreak investigations",
+          "url": "https://www.cdc.gov/salmonella/outbreaks/index.html",
+          "published_at": "updated 2026-08-05",
+          "source_type": "primary"
+        }
+      ]
+    },
+    {
+      "id": "amboseli-elephant-cyanide-investigation",
+      "category": "climate-environment",
+      "regions": ["Africa", "Kenya", "Amboseli"],
+      "title": "肯尼亚 16 头大象死亡，氰化物来源仍待追查",
+      "summary": "野生动物局把死亡数更新为 16 头，初检发现氰化物且胃中有番茄；监管机构正调查化学品使用、储存和环境污染。",
+      "why_it_matters": "安博塞利周边农业与野生动物共享空间，高毒物质若进入环境可能威胁多个物种并加剧人象冲突。",
+      "uncertainty": "氰化物浓度、污染路径和来源尚未确认，不能写成蓄意投毒，也不能归咎于当地农户或某个农场。",
+      "confidence": "medium",
+      "sources": [
+        {
+          "publisher": "Associated Press",
+          "title": "Farmers in Kenya dispute that cyanide poisoning could have killed 16 elephants",
+          "url": "https://apnews.com/article/kenya-amboseli-elephants-dead-cyanide-farms-0b2af9a859cf4bb6d0d60413dceb1026",
+          "published_at": "2026-08-07T04:17:02Z",
+          "source_type": "wire"
+        },
+        {
+          "publisher": "Kenya Wildlife Service",
+          "title": "Amboseli National Park",
+          "url": "https://kws.go.ke/park/amboseli-national-park/",
+          "published_at": "accessed 2026-08-08",
+          "source_type": "primary"
+        }
+      ]
+    }
+  ]
+}
