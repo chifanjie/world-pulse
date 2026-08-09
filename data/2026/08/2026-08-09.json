@@ -1,0 +1,483 @@
+{
+  "date": "2026-08-09",
+  "timezone": "Asia/Shanghai",
+  "generated_at": "2026-08-09T13:22:23+08:00",
+  "overview": "伊朗为重开霍尔木兹海峡提出更高条件，塞尔维亚接待泽连斯基；卑诗省山火、台风海豚与米德湖新低凸显多地气候风险；美国推动弹药扩产，非洲推进太阳能本地制造；AI 雷达关注机器人未来视觉潜变量、开放权重稀疏 MoE 与编码代理安全更新。",
+  "digest_path": "digests/2026/08/2026-08-09.md",
+  "ai_radar": {
+    "selection_as_of": "2026-08-09T13:14:50+08:00",
+    "item_ids": [
+      "w2-vla-future-wrist-latents",
+      "ling-3-flash-evaluation-update",
+      "claude-code-2-1-224-security-enterprise"
+    ]
+  },
+  "items": [
+    {
+      "id": "w2-vla-future-wrist-latents",
+      "section": "ai-frontier",
+      "category": "science",
+      "regions": ["Global"],
+      "title": "W²-VLA 用未来腕部视觉潜变量约束机器人动作",
+      "summary": "W²-VLA 冻结 V-JEPA2.1 编码腕部历史，再预测未来腕部潜变量并连接 Qwen3-VL 与 DiT 动作头；推理时不生成文本思维链。",
+      "why_it_matters": "把局部未来状态直接压缩进动作条件，可能为具身系统提供比显式长文本规划更低延迟的闭环控制路径。",
+      "uncertainty": "论文尚未同行评审或独立复现；真实测试只有三个任务，OOD 类型较窄，LIBERO 已接近饱和。",
+      "confidence": "medium",
+      "ai": {
+        "kind": "paper",
+        "topics": ["robotics", "vision-language-action", "world-model", "latent-reasoning"],
+        "artifact_date": "2026-08-05T19:48:47Z",
+        "artifact_status": "arXiv v1; training and evaluation code, datasets, CoT labels and checkpoints released",
+        "technical_takeaway": "通过预测未来腕部视觉潜变量，把任务相关的局部未来状态压缩进 VLA 动作条件；推理时不生成文本 CoT。",
+        "evidence_level": "primary paper plus public code, data and weights; author-reported results; not independently reproduced",
+        "paper_id": "arXiv:2608.05369",
+        "code_url": "https://github.com/yyyyu120/W2-VLA",
+        "heat": {
+          "label": "two-platform early attention; not validation",
+          "as_of": "2026-08-09T13:09:23+08:00",
+          "signals": [
+            {
+              "platform": "Hugging Face Daily Papers",
+              "observation": "20 upvotes",
+              "url": "https://huggingface.co/papers/2608.05369"
+            },
+            {
+              "platform": "GitHub",
+              "observation": "18 stars and 1 fork",
+              "url": "https://github.com/yyyyu120/W2-VLA"
+            }
+          ]
+        }
+      },
+      "sources": [
+        {
+          "publisher": "arXiv",
+          "title": "World-to-Wrist: Task-Conditioned Future Wrist Modeling for Fine-Grained Robot Manipulation",
+          "url": "https://arxiv.org/abs/2608.05369",
+          "published_at": "2026-08-05T19:48:47Z",
+          "source_type": "research"
+        },
+        {
+          "publisher": "GitHub",
+          "title": "W2-VLA official code repository",
+          "url": "https://github.com/yyyyu120/W2-VLA",
+          "published_at": "accessed 2026-08-09T13:09:23+08:00",
+          "source_type": "code"
+        },
+        {
+          "publisher": "Hugging Face",
+          "title": "W2-VLA Training Data",
+          "url": "https://huggingface.co/datasets/yuuu94/W2-VLA-Training-Data",
+          "published_at": "accessed 2026-08-09T13:09:23+08:00",
+          "source_type": "research"
+        },
+        {
+          "publisher": "Hugging Face",
+          "title": "W2-VLA checkpoints",
+          "url": "https://huggingface.co/yuuu94/W2-VLA",
+          "published_at": "accessed 2026-08-09T13:09:23+08:00",
+          "source_type": "model-card"
+        },
+        {
+          "publisher": "Hugging Face",
+          "title": "Daily Papers page for arXiv:2608.05369",
+          "url": "https://huggingface.co/papers/2608.05369",
+          "published_at": "accessed 2026-08-09T13:09:23+08:00",
+          "source_type": "community-index"
+        }
+      ]
+    },
+    {
+      "id": "ling-3-flash-evaluation-update",
+      "section": "ai-frontier",
+      "category": "technology",
+      "regions": ["Asia", "China", "Global"],
+      "title": "Ling-3.0-flash 补齐评测并开放 124B 稀疏 MoE 权重",
+      "summary": "inclusionAI 的 124B 总参数、约 5.1B 激活参数稀疏 MoE 模型开放 BF16/FP8 权重，并在 8 月 6 日补入编码、工具调用和长上下文评测。",
+      "why_it_matters": "开放权重让研究者可以检查专家路由、长上下文和编码能力，而不只依赖闭源 API。",
+      "uncertainty": "基准均为厂商自报，部分使用定制提示、内部 harness 或外部 judge；部署仍需多张大显存 GPU，缺完整技术报告和独立复现。",
+      "confidence": "medium",
+      "ai": {
+        "kind": "model",
+        "topics": ["mixture-of-experts", "long-context", "coding", "tool-use", "open-weights"],
+        "artifact_date": "2026-08-06T15:09:42Z",
+        "artifact_status": "BF16 and FP8 weights public under MIT; model card evaluation expanded on August 6",
+        "technical_takeaway": "以 124B 总参数、约 5.1B 激活的稀疏 MoE 组合 KDA 与 gated-MLA，并分阶段把训练上下文扩展至 256K。",
+        "evidence_level": "official model card and weights; vendor-reported benchmarks; no independent reproduction",
+        "model_url": "https://huggingface.co/inclusionAI/Ling-3.0-flash",
+        "heat": {
+          "label": "high within Hugging Face only; single-platform signal",
+          "as_of": "2026-08-09T13:14:50+08:00",
+          "signals": [
+            {
+              "platform": "Hugging Face model API",
+              "observation": "225 likes and 4,189 recent-month downloads",
+              "url": "https://huggingface.co/api/models/inclusionAI/Ling-3.0-flash"
+            },
+            {
+              "platform": "Hugging Face trending",
+              "observation": "approximately rank 13 in the platform top 100 snapshot",
+              "url": "https://huggingface.co/inclusionAI/Ling-3.0-flash"
+            }
+          ]
+        }
+      },
+      "sources": [
+        {
+          "publisher": "inclusionAI / Hugging Face",
+          "title": "Ling-3.0-flash model card and BF16 weights",
+          "url": "https://huggingface.co/inclusionAI/Ling-3.0-flash",
+          "published_at": "2026-08-02T16:18:49Z",
+          "source_type": "model-card"
+        },
+        {
+          "publisher": "inclusionAI / Hugging Face",
+          "title": "Ling-3.0-flash evaluation update commit",
+          "url": "https://huggingface.co/inclusionAI/Ling-3.0-flash/commit/ecde16176a497adaff7419ff4de59da603c4edaa",
+          "published_at": "2026-08-06T15:09:42Z",
+          "source_type": "model-card"
+        },
+        {
+          "publisher": "inclusionAI / Hugging Face",
+          "title": "Ling-3.0-flash FP8 weights",
+          "url": "https://huggingface.co/inclusionAI/Ling-3.0-flash-fp8",
+          "published_at": "accessed 2026-08-09T13:14:50+08:00",
+          "source_type": "model-card"
+        },
+        {
+          "publisher": "Hugging Face",
+          "title": "Ling-3.0-flash model API snapshot",
+          "url": "https://huggingface.co/api/models/inclusionAI/Ling-3.0-flash",
+          "published_at": "accessed 2026-08-09T13:14:50+08:00",
+          "source_type": "community-index"
+        }
+      ]
+    },
+    {
+      "id": "claude-code-2-1-224-security-enterprise",
+      "section": "ai-frontier",
+      "category": "technology",
+      "regions": ["Global"],
+      "title": "Claude Code 2.1.224–226 加入自托管 runner 并修补隔离边界",
+      "summary": "Claude Code v2.1.224 增加 Team/Enterprise 自托管 runner、跨机器消息、插件 SHA-256 固定和结构化凭据防护，随后 v2.1.225 继续补充功能并修复，v2.1.226 改善可靠性。",
+      "why_it_matters": "更新直接覆盖编码代理的关键风险面：企业执行边界、插件完整性、项目隔离和最小凭据暴露。",
+      "uncertainty": "部分能力受套餐、操作系统和 TLS 配置限制；公开仓库适用商业条款，安全修复尚缺独立审计，主版本后迅速再发两个版本。",
+      "confidence": "medium",
+      "ai": {
+        "kind": "tooling-security-release",
+        "topics": ["coding-agent", "enterprise-deployment", "sandboxing", "credential-security", "plugins"],
+        "artifact_date": "2026-08-07T04:00:59Z",
+        "artifact_status": "v2.1.224 feature and security release followed by v2.1.225 feature additions and fixes and v2.1.226 reliability fixes; commercial terms",
+        "technical_takeaway": "通过自托管 runner、跨机器消息、插件哈希固定和结构化凭据处理，强化代理在企业环境中的执行与秘密隔离边界。",
+        "evidence_level": "official release notes and public repository; no performance benchmark or independent security audit",
+        "code_url": "https://github.com/anthropics/claude-code",
+        "heat": {
+          "label": "two independent platform attention signals; cumulative metrics",
+          "as_of": "2026-08-09T13:14:50+08:00",
+          "signals": [
+            {
+              "platform": "GitHub",
+              "observation": "140,745 stars and 22,631 forks, cumulative",
+              "url": "https://github.com/anthropics/claude-code"
+            },
+            {
+              "platform": "npm",
+              "observation": "11,969,010 downloads from 2026-08-02 through 2026-08-08",
+              "url": "https://api.npmjs.org/downloads/point/2026-08-02:2026-08-08/%40anthropic-ai%2Fclaude-code"
+            }
+          ]
+        }
+      },
+      "sources": [
+        {
+          "publisher": "Anthropic / GitHub",
+          "title": "Claude Code v2.1.224",
+          "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.224",
+          "published_at": "2026-08-07T04:00:59Z",
+          "source_type": "code"
+        },
+        {
+          "publisher": "Anthropic / GitHub",
+          "title": "Claude Code v2.1.225",
+          "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.225",
+          "published_at": "2026-08-08T01:09:26Z",
+          "source_type": "code"
+        },
+        {
+          "publisher": "Anthropic / GitHub",
+          "title": "Claude Code v2.1.226",
+          "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.226",
+          "published_at": "2026-08-08T02:48:05Z",
+          "source_type": "code"
+        },
+        {
+          "publisher": "Anthropic / GitHub",
+          "title": "Claude Code repository",
+          "url": "https://github.com/anthropics/claude-code",
+          "published_at": "accessed 2026-08-09T13:14:50+08:00",
+          "source_type": "code"
+        },
+        {
+          "publisher": "npm",
+          "title": "Claude Code seven-day download snapshot",
+          "url": "https://api.npmjs.org/downloads/point/2026-08-02:2026-08-08/%40anthropic-ai%2Fclaude-code",
+          "published_at": "accessed 2026-08-09T13:14:50+08:00",
+          "source_type": "community-index"
+        }
+      ]
+    },
+    {
+      "id": "iran-hormuz-new-demands",
+      "category": "politics",
+      "regions": ["Middle East", "Iran", "United Arab Emirates", "Oman", "Global"],
+      "title": "伊朗为重开霍尔木兹海峡提出新的高门槛条件",
+      "summary": "伊朗把停止威胁、永久结束战争、撤军、赔偿、制裁放松和资产解冻等列为重开海峡条件；阿联酋同时指称一艘 ADNOC 船只遭伊朗导弹击中。",
+      "why_it_matters": "条件从通航安排扩展至战争与制裁议题，会提高谈判复杂度并维持全球能源、航运和保险风险。",
+      "uncertainty": "美国尚未回应，阿曼所称临时安排仍可能变化；船只受袭责任、损伤及两则海事通报是否指同一船尚未独立确认。",
+      "confidence": "medium",
+      "sources": [
+        {
+          "publisher": "Associated Press",
+          "title": "Iran makes new strait demands, the UAE says a ship was targeted and other Middle East news",
+          "url": "https://apnews.com/article/yemen-houthis-turkey-kurdish-peace-mideast-roundup-aug-8-2026-feb75871fb82c44b3f7fd0ee02bb24b4",
+          "published_at": "2026-08-08T10:41:37Z",
+          "source_type": "wire"
+        },
+        {
+          "publisher": "Reuters",
+          "title": "Iran says a deal on the Strait of Hormuz is close but not enough to open the waterway",
+          "url": "https://www.reuters.com/world/middle-east/iran-says-deal-strait-hormuz-is-close-not-enough-open-waterway-2026-08-08/",
+          "published_at": "2026-08-08",
+          "source_type": "wire"
+        },
+        {
+          "publisher": "Reuters",
+          "title": "UAE says Iran attacked an ADNOC vessel in the Strait of Hormuz",
+          "url": "https://www.reuters.com/world/middle-east/uae-says-iran-attacked-adnoc-vessel-with-missile-strait-hormuz-2026-08-08/",
+          "published_at": "2026-08-08",
+          "source_type": "wire"
+        }
+      ]
+    },
+    {
+      "id": "zelensky-serbia-kyiv-strikes",
+      "category": "politics",
+      "regions": ["Europe", "Ukraine", "Serbia", "Russia"],
+      "title": "泽连斯基首次正式访问塞尔维亚，俄袭基辅地区致 4 人死亡",
+      "summary": "泽连斯基在贝尔格莱德与武契奇讨论欧盟入盟、双边关系和合作；同一夜俄军袭击基辅及周边，造成 4 人死亡。",
+      "why_it_matters": "访问显示塞尔维亚在欧盟道路、对俄关系和支持乌克兰领土完整之间继续调整外交空间。",
+      "uncertainty": "塞尔维亚未宣布加入对俄制裁或改变军事支持政策，合作也尚未形成具体协议；伤亡和损失可能更新。",
+      "confidence": "medium",
+      "sources": [
+        {
+          "publisher": "Associated Press",
+          "title": "Zelenskyy visits Moscow-friendly Serbia as Russian attacks on Kyiv region kill 4",
+          "url": "https://apnews.com/article/492d334e26b5485dbf74d7ae9c9d33ce",
+          "published_at": "2026-08-08T08:12:27Z",
+          "source_type": "wire"
+        }
+      ]
+    },
+    {
+      "id": "british-columbia-wildfire-emergency",
+      "category": "climate-environment",
+      "regions": ["North America", "Canada", "British Columbia"],
+      "title": "卑诗省山火进入紧急状态，逾 2 万人撤离",
+      "summary": "奥肯那根湖沿岸山火迫使 Summerland 和 Peachland 周边逾 2 万人撤离；全省 100 多起山火中接近一半失控。",
+      "why_it_matters": "紧急状态、广泛撤离与房屋损失把持续干旱和高温大风转化为即时公共安全、交通与物流冲击。",
+      "uncertainty": "重大结构损失尚无法评估，一宗可能死亡仍在调查；火线、风向和撤离范围会快速变化。",
+      "confidence": "high",
+      "sources": [
+        {
+          "publisher": "Associated Press",
+          "title": "Wildfires force 20,000 to flee as British Columbia declares state of emergency",
+          "url": "https://apnews.com/article/wildfire-canada-evacuation-british-columbia-okanagan-61002c95f641a4060b78195b016fbea3",
+          "published_at": "2026-08-08T14:39:56Z",
+          "source_type": "wire"
+        },
+        {
+          "publisher": "Government of British Columbia",
+          "title": "EmergencyInfoBC",
+          "url": "https://www.emergencyinfobc.gov.bc.ca/",
+          "published_at": "accessed 2026-08-09T13:22:23+08:00",
+          "source_type": "primary"
+        },
+        {
+          "publisher": "BC Wildfire Service",
+          "title": "Wildfire situation map",
+          "url": "https://wildfiresituation.nrs.gov.bc.ca/map",
+          "published_at": "accessed 2026-08-09T13:22:23+08:00",
+          "source_type": "primary"
+        }
+      ]
+    },
+    {
+      "id": "pentagon-weapons-production-push",
+      "category": "politics",
+      "regions": ["North America", "United States", "Middle East"],
+      "title": "美国国防部要求军工企业在 21 天内提交加速生产方案",
+      "summary": "国防部副部长要求企业提交更快交付或扩大关键能力产量的方案；五角大楼确认工作属实，并称工业基础现代化早于当前伊朗战争。",
+      "why_it_matters": "弹药生产周期和上游材料瓶颈影响高强度冲突补库、盟友供货、未来预算和企业扩产投资。",
+      "uncertainty": "备忘录只是征集方案，不等于产能已提高；库存数字主要来自智库估算，国防预算请求仍受国会争议影响。",
+      "confidence": "high",
+      "sources": [
+        {
+          "publisher": "Associated Press",
+          "title": "Pentagon pushes defense companies to boost weapons production after concerns of depleted stocks",
+          "url": "https://apnews.com/article/iran-war-weapons-stockpile-pentagon-defense-industry-c98e042bfd0fd22cd97d15b1fffa322c",
+          "published_at": "2026-08-09T02:00:37Z",
+          "source_type": "wire"
+        },
+        {
+          "publisher": "U.S. Department of Defense",
+          "title": "FY2026 Defense Production Act Purchases industrial-base background",
+          "url": "https://comptroller.defense.gov/Portals/45/Documents/defbudget/FY2026/budget_justification/pdfs/02_Procurement/PROC_DPAP_PB_2026.pdf",
+          "published_at": "2025-06",
+          "source_type": "primary"
+        }
+      ]
+    },
+    {
+      "id": "africa-domestic-solar-manufacturing",
+      "category": "economy",
+      "regions": ["Africa", "China", "Ethiopia", "South Africa", "Morocco", "Nigeria"],
+      "title": "非洲主要经济体加速太阳能本地制造，但关键供应仍依赖中国",
+      "summary": "埃塞俄比亚、南非、摩洛哥和尼日利亚推进太阳能制造；南非 Eskom 计划 1 吉瓦设施，尼日利亚本地组件产能据行业估计增至约 300 MW。",
+      "why_it_matters": "本地制造可增加就业、税收和维修能力并降低单一进口渠道风险，但中国上游规模仍决定价格与供应速度。",
+      "uncertainty": "多数数字来自企业计划和行业估算，不等同已投产能力；融资、电网、技术转移和本地零部件比例仍是约束。",
+      "confidence": "medium",
+      "sources": [
+        {
+          "publisher": "Associated Press",
+          "title": "Africa wants more homegrown solar to boost self-reliance, but China's shadow remains",
+          "url": "https://apnews.com/article/renewable-energy-africa-asia-solar-312fa17cdbfcb434843a7f990f1580b7",
+          "published_at": "2026-08-08T06:12:07Z",
+          "source_type": "wire"
+        },
+        {
+          "publisher": "ODI Global",
+          "title": "China's evolving role in Africa's energy transition",
+          "url": "https://odi.org/en/publications/chinas-evolving-role-in-africas-energy-transition/",
+          "published_at": "2025-03",
+          "source_type": "research"
+        }
+      ]
+    },
+    {
+      "id": "typhoon-dolphin-china-update",
+      "category": "climate-environment",
+      "regions": ["Asia", "China", "Taiwan", "East China Sea"],
+      "title": "更新：台风海豚逼近中国东部，上海取消逾 1,300 架次航班",
+      "summary": "上海两座机场取消逾 1,300 架次航班；浙江台州约 39 万人、上海风险区域逾 3 万人被转移，部分地区预报降雨 200–400 毫米。",
+      "why_it_matters": "上海航空枢纽、浙江港口和东部制造业集中，停航、渡运暂停与洪涝滑坡风险会影响人员安全、物流和供应链。",
+      "uncertainty": "登陆位置、强度、累计雨量和损失仍会变化；转移人数与航班取消数字只是截稿时快照。",
+      "confidence": "high",
+      "sources": [
+        {
+          "publisher": "Associated Press",
+          "title": "Shanghai cancels 1,300 flights as China prepares for Typhoon Dolphin",
+          "url": "https://apnews.com/article/typhoon-dolphin-d40f4d49b0d89935366f360f1f13afd8",
+          "published_at": "2026-08-09T03:49:52Z",
+          "source_type": "wire"
+        }
+      ]
+    },
+    {
+      "id": "lake-mead-record-low-2026",
+      "category": "climate-environment",
+      "regions": ["North America", "United States", "Mexico", "Colorado River Basin"],
+      "title": "米德湖降至蓄水以来最低水位",
+      "summary": "米德湖 8 月 7 日降至海拔 1,040.4 英尺，略低于 2022 年纪录，是约 90 年前蓄水以来最低。",
+      "why_it_matters": "科罗拉多河支撑七州、部落和墨西哥约 4,000 万人的用水，并关系农业、工业、生态和水电。",
+      "uncertainty": "日水位会变化且数据可修订；联邦短期方案不能替代七州尚未达成的长期分配协议，也不能由单次纪录直接推定削减幅度。",
+      "confidence": "high",
+      "sources": [
+        {
+          "publisher": "Associated Press",
+          "title": "Lake Mead hits historic low water level as Colorado River struggles",
+          "url": "https://apnews.com/article/colorado-river-lake-mead-record-low-fa402842e76ed624f71360f467b2579d",
+          "published_at": "2026-08-08T14:01:41Z",
+          "source_type": "wire"
+        },
+        {
+          "publisher": "U.S. Bureau of Reclamation",
+          "title": "Hoover Dam and Lake Mead last seven days daily operations",
+          "url": "https://www.usbr.gov/lc/region/g4000/riverops/HOVR_FB_LastSevenDays_Daily.html",
+          "published_at": "accessed 2026-08-09T13:22:23+08:00",
+          "source_type": "primary"
+        }
+      ]
+    },
+    {
+      "id": "bulgaria-drone-gas-pipeline",
+      "category": "politics",
+      "regions": ["Europe", "Bulgaria", "Romania", "Ukraine", "NATO"],
+      "title": "无人机越过罗马尼亚后在保加利亚天然气管道附近爆炸",
+      "summary": "无人机从罗马尼亚方向进入保加利亚并在跨巴尔干天然气管道附近爆炸，未造成人员伤亡或设施损坏。",
+      "why_it_matters": "爆炸靠近跨境能源设施，且两国均为北约成员，凸显低空监视、反无人机能力和关键基础设施防护缺口。",
+      "uncertainty": "保加利亚称残骸可能为乌克兰使用的 Maya 诱饵并初判事故，但机型、发射方、航迹和责任尚无完整取证报告。",
+      "confidence": "medium",
+      "sources": [
+        {
+          "publisher": "Associated Press",
+          "title": "A drone likely from Ukraine explodes in Bulgaria near a gas pipeline",
+          "url": "https://apnews.com/article/bulgaria-romania-drone-explosion-gas-pipeline-427dcc0875f5e416dadfee0c022f1cb4",
+          "published_at": "2026-08-08T11:09:21Z",
+          "source_type": "wire"
+        }
+      ]
+    },
+    {
+      "id": "spain-italy-schengen-checks",
+      "category": "politics",
+      "regions": ["Europe", "Spain", "Italy", "Morocco", "European Union"],
+      "title": "西班牙与意大利因休达移民争端互设边境检查",
+      "summary": "西班牙开始在巴塞罗那机场随机检查意大利旅客，以回应意大利自 8 月 1 日对来自西班牙的海空旅客实施检查。",
+      "why_it_matters": "两个申根成员国以报复方式恢复内部检查，会增加交通摩擦并把外部边境危机转化为欧盟内部的流动与责任分担争议。",
+      "uncertainty": "措施的持续时间及欧盟对必要性和适度性的判断未知；休达到达与死亡数字来自快速事件中的官方统计，可能继续修订。",
+      "confidence": "high",
+      "sources": [
+        {
+          "publisher": "Associated Press",
+          "title": "Spain imposes border checks on Italian travelers in tit-for-tat move over Ceuta migrants row",
+          "url": "https://apnews.com/article/spain-italy-ceuta-migrants-schengen-border-controls-f3fc82cadf7dce39d553126a47d61fd7",
+          "published_at": "2026-08-08T12:53:50Z",
+          "source_type": "wire"
+        },
+        {
+          "publisher": "European Commission",
+          "title": "Temporary reintroduction of border control",
+          "url": "https://home-affairs.ec.europa.eu/policies/schengen/schengen-area/temporary-reintroduction-border-control_en",
+          "published_at": "accessed 2026-08-09T13:22:23+08:00",
+          "source_type": "primary"
+        }
+      ]
+    },
+    {
+      "id": "south-africa-womens-march-70",
+      "category": "culture",
+      "regions": ["Africa", "South Africa"],
+      "title": "南非纪念妇女反通行证大游行 70 周年",
+      "summary": "南非纪念 1956 年约 2 万名不同族群妇女前往联合大厦、反对把种族隔离通行证制度扩展至妇女的历史行动。",
+      "why_it_matters": "这场游行是反种族隔离运动的重要节点，也为讨论当代性别暴力、贫困和机会不平等提供公共记忆框架。",
+      "uncertainty": "纪念活动不等于政策结果；相关承诺仍需后续预算、执法和可衡量成效检验。",
+      "confidence": "high",
+      "sources": [
+        {
+          "publisher": "Associated Press",
+          "title": "70 years after South Africa's women challenged apartheid, some say their freedom isn't complete",
+          "url": "https://apnews.com/article/south-africa-women-anniversary-apartheid-democracy-protest-0c0ee7d109eaaf8094570da7258acd85",
+          "published_at": "2026-08-08T04:04:10Z",
+          "source_type": "wire"
+        },
+        {
+          "publisher": "South African Government",
+          "title": "Launch of the 70 Years Commemoration of the 1956 Women's March",
+          "url": "https://www.gov.za/news/media-advisories/government-activities/minister-sindisiwe-chikunga-launches-70-years",
+          "published_at": "2026-05-29",
+          "source_type": "primary"
+        }
+      ]
+    }
+  ]
+}
