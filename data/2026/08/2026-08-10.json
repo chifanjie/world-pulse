@@ -1,0 +1,436 @@
+{
+  "date": "2026-08-10",
+  "timezone": "Asia/Shanghai",
+  "generated_at": "2026-08-10T09:16:29+08:00",
+  "overview": "以色列拒绝新版加沙路线图，叙俄基地安排与俄乌跨境袭击牵动地区安全；塞浦路斯推进东地中海天然气、印尼山火与美国创伤弧菌警报凸显环境和公共卫生压力。AI 雷达关注 EnvACE、SGLang 0.5.17 与 Managed Deep Agents。",
+  "digest_path": "digests/2026/08/2026-08-10.md",
+  "ai_radar": {
+    "selection_as_of": "2026-08-10T09:12:00+08:00",
+    "item_ids": [
+      "envace-world-rehearsal-agent-rl",
+      "sglang-0-5-17-inference-infrastructure",
+      "langchain-managed-deep-agents-public-beta"
+    ]
+  },
+  "items": [
+    {
+      "id": "envace-world-rehearsal-agent-rl",
+      "section": "ai-frontier",
+      "category": "science",
+      "regions": ["Global"],
+      "title": "EnvACE 用世界排演替代训练时的外部环境交互",
+      "summary": "EnvACE 让一个共享策略先生成工具调用，再扮演环境产生响应，并以 role-wise GRPO 联合训练；测试时可先私有排演再执行真实动作。",
+      "why_it_matters": "若自生成响应足够准确，智能体训练可减少对昂贵可执行环境与独立模拟器的依赖，并在真实调用前比较多个方案。",
+      "uncertainty": "实验集中于 8B 工具交互任务，自生成响应可能累积错误；参考训练需 16 张 H20 和独立 judge，权重与训练数据尚未发布，结果未独立复现。",
+      "confidence": "medium",
+      "ai": {
+        "kind": "research-paper-and-code-release",
+        "topics": ["agentic-rl", "tool-use", "world-model", "test-time-rehearsal"],
+        "artifact_date": "2026-08-06T15:54:36Z",
+        "artifact_status": "arXiv v1 with an Apache-2.0 initial code commit dated 2026-08-08T21:10:22Z; model weights and training data not yet published",
+        "technical_takeaway": "单一策略用 Act/Rehearse 两个角色与分角色 GRPO 基线学习动作—环境响应关系，并在执行前把多条排演压缩为记忆。",
+        "evidence_level": "preprint plus runnable training and evaluation code; author-reported results, no peer review or independent replication",
+        "paper_id": "arXiv:2608.06197",
+        "code_url": "https://github.com/Within-yao/EnvACE",
+        "heat": {
+          "label": "two early platform signals",
+          "as_of": "2026-08-10T09:07:00+08:00",
+          "signals": [
+            {
+              "platform": "Hugging Face Daily Papers",
+              "observation": "38 upvotes",
+              "url": "https://huggingface.co/papers/2608.06197"
+            },
+            {
+              "platform": "GitHub",
+              "observation": "16 stars and 1 fork",
+              "url": "https://github.com/Within-yao/EnvACE"
+            }
+          ]
+        }
+      },
+      "sources": [
+        {
+          "publisher": "arXiv",
+          "title": "EnvACE: Internalizing Environment Dynamics via World Rehearsal for Agentic Reinforcement Learning",
+          "url": "https://arxiv.org/abs/2608.06197",
+          "published_at": "2026-08-06T15:54:36Z",
+          "source_type": "research"
+        },
+        {
+          "publisher": "EnvACE authors / GitHub",
+          "title": "EnvACE initial code commit, recipes and tests",
+          "url": "https://github.com/Within-yao/EnvACE",
+          "published_at": "2026-08-08T21:10:22Z",
+          "source_type": "code"
+        },
+        {
+          "publisher": "Hugging Face",
+          "title": "EnvACE paper page and attention snapshot",
+          "url": "https://huggingface.co/papers/2608.06197",
+          "published_at": "accessed 2026-08-10T09:07:00+08:00",
+          "source_type": "community-index"
+        }
+      ]
+    },
+    {
+      "id": "sglang-0-5-17-inference-infrastructure",
+      "section": "ai-frontier",
+      "category": "technology",
+      "regions": ["Global"],
+      "title": "SGLang 0.5.17 引入多线程 Rust 前端、DWDP 与会话感知缓存",
+      "summary": "SGLang v0.5.17 初步迁移多线程 Rust 前端，加入 DCP 通信后端、MoE 预填充 DWDP 和适配智能体/RL rollout 的 session-reference-aware Unified Radix Cache。",
+      "why_it_matters": "新版同时处理网络入口、GPU 间 MoE 通信和长会话缓存三个 serving 瓶颈，可能改善大模型与智能体工作负载的吞吐和状态复用。",
+      "uncertainty": "DWDP 仍为 early development；维护方跑分只覆盖 4×B200、gpt-oss-120b 和特定 prefill 负载，release 也包含兼容性变化与已知限制。",
+      "confidence": "medium",
+      "ai": {
+        "kind": "open-source-inference-infrastructure-release",
+        "topics": ["llm-serving", "moe", "context-parallelism", "radix-cache", "agent-rollout"],
+        "artifact_date": "2026-08-08T00:19:16Z",
+        "artifact_status": "SGLang v0.5.17 public release under Apache-2.0 with source and build artifacts",
+        "technical_takeaway": "Rust 前端降低 host 路径复杂度，DWDP 以权重预取替代 MoE token all-to-all，稳定 session_id 则防止活跃会话前缀被误回收。",
+        "evidence_level": "official release and public source; performance numbers are maintainer-reported on a narrow hardware and workload setup",
+        "code_url": "https://github.com/sgl-project/sglang",
+        "heat": {
+          "label": "two package or repository counters; the PyPI spike is not independently attributable to human adoption or v0.5.17",
+          "as_of": "2026-08-10T09:12:00+08:00",
+          "signals": [
+            {
+              "platform": "GitHub",
+              "observation": "31,588 stars and 7,763 forks, cumulative",
+              "url": "https://github.com/sgl-project/sglang"
+            },
+            {
+              "platform": "PyPI Stats",
+              "observation": "approximately 212.25 million downloads in the previous seven-day snapshot; may include automation and dependencies",
+              "url": "https://pypistats.org/api/packages/sglang/recent"
+            }
+          ]
+        }
+      },
+      "sources": [
+        {
+          "publisher": "SGLang / GitHub",
+          "title": "SGLang v0.5.17 release",
+          "url": "https://github.com/sgl-project/sglang/releases/tag/v0.5.17",
+          "published_at": "2026-08-08T00:19:16Z",
+          "source_type": "code"
+        },
+        {
+          "publisher": "SGLang / GitHub",
+          "title": "SGLang repository",
+          "url": "https://github.com/sgl-project/sglang",
+          "published_at": "accessed 2026-08-10T09:12:00+08:00",
+          "source_type": "code"
+        },
+        {
+          "publisher": "PyPI Stats",
+          "title": "SGLang recent download snapshot",
+          "url": "https://pypistats.org/api/packages/sglang/recent",
+          "published_at": "accessed 2026-08-10T09:12:00+08:00",
+          "source_type": "community-index"
+        }
+      ]
+    },
+    {
+      "id": "langchain-managed-deep-agents-public-beta",
+      "section": "ai-frontier",
+      "category": "technology",
+      "regions": ["Global", "United States"],
+      "title": "LangChain 将 Managed Deep Agents 开放公测",
+      "summary": "Managed Deep Agents Public Beta 提供代码优先的 Python/TypeScript 工作流，并由 LangSmith 托管 durable execution、checkpointing、记忆、沙箱、渠道入口和评测。",
+      "why_it_matters": "它把长时智能体常见的暂停恢复、工作文件、上下文、子代理、人工审批和生产部署组合成统一生命周期。",
+      "uncertainty": "公测仅在 LangSmith Cloud 美国区域且 CLI 优先；身份和凭据能力仍基础，托管 runtime 不可完整自托管复现，也没有性能或可靠性基准。",
+      "confidence": "medium",
+      "ai": {
+        "kind": "managed-agent-platform-public-beta",
+        "topics": ["agents", "durable-execution", "sandboxing", "memory", "evaluation", "channels"],
+        "artifact_date": "2026-08-07T17:01:00Z",
+        "artifact_status": "public beta for a commercial LangSmith managed runtime with an MIT-licensed open-source Deep Agents harness",
+        "technical_takeaway": "mda 工具链把代码项目编译并部署到带 checkpoint、持久化、沙箱、记忆和 channel 身份边界的托管运行时。",
+        "evidence_level": "official product announcement and public harness; no benchmark and managed server components are not independently reproducible",
+        "code_url": "https://github.com/langchain-ai/deepagents",
+        "heat": {
+          "label": "two ecosystem attention signals; not specific to beta quality",
+          "as_of": "2026-08-10T09:12:00+08:00",
+          "signals": [
+            {
+              "platform": "GitHub",
+              "observation": "27,556 stars and 3,847 forks, cumulative",
+              "url": "https://github.com/langchain-ai/deepagents"
+            },
+            {
+              "platform": "PyPI Stats",
+              "observation": "approximately 1.44 million downloads in the previous seven-day snapshot",
+              "url": "https://pypistats.org/api/packages/deepagents/recent"
+            }
+          ]
+        }
+      },
+      "sources": [
+        {
+          "publisher": "LangChain",
+          "title": "Managed Deep Agents is now in Public Beta",
+          "url": "https://www.langchain.com/blog/managed-deep-agents-is-now-in-public-beta",
+          "published_at": "2026-08-07T17:01:00Z",
+          "source_type": "primary"
+        },
+        {
+          "publisher": "LangChain / GitHub",
+          "title": "Deep Agents open-source harness",
+          "url": "https://github.com/langchain-ai/deepagents",
+          "published_at": "accessed 2026-08-10T09:12:00+08:00",
+          "source_type": "code"
+        },
+        {
+          "publisher": "PyPI Stats",
+          "title": "Deep Agents recent download snapshot",
+          "url": "https://pypistats.org/api/packages/deepagents/recent",
+          "published_at": "accessed 2026-08-10T09:12:00+08:00",
+          "source_type": "community-index"
+        }
+      ]
+    },
+    {
+      "id": "israel-rejects-new-gaza-plan",
+      "category": "politics",
+      "regions": ["Middle East", "Israel", "Palestinian Territories", "United States"],
+      "title": "以色列拒绝美国新版加沙路线图",
+      "summary": "内塔尼亚胡称新版加沙方案不可接受，并表示哈马斯真正解除武装前以军不会从现有控制区撤离。",
+      "why_it_matters": "撤军与解除武装的先后顺序是停火核心障碍，公开拒绝会迫使美国和斡旋方重写条款，并延长加沙人道与安全风险。",
+      "uncertainty": "方案全文、哈马斯与斡旋方正式立场尚未全部公开；拒绝是否转化为替代文本、停火能否维持仍未知。",
+      "confidence": "high",
+      "sources": [
+        {
+          "publisher": "Associated Press",
+          "title": "Israel rejects Trump's new Gaza plan",
+          "url": "https://apnews.com/article/6c5aa0c5debcca3fa36316a8b0b67400",
+          "published_at": "2026-08-09T07:29:35Z",
+          "source_type": "wire"
+        },
+        {
+          "publisher": "Reuters",
+          "title": "Netanyahu says Trump's new Gaza plan is unacceptable",
+          "url": "https://www.reuters.com/world/middle-east/netanyahu-says-trumps-new-gaza-plan-is-unacceptable-2026-08-09/",
+          "published_at": "2026-08-09T19:24:00Z",
+          "source_type": "wire"
+        }
+      ]
+    },
+    {
+      "id": "hormuz-oman-deal-final-stage-update",
+      "category": "markets",
+      "regions": ["Middle East", "Iran", "Oman", "United States", "Global"],
+      "title": "更新：伊朗称霍尔木兹安排进入最后阶段，实际开放仍未落地",
+      "summary": "伊朗称经阿曼斡旋的安排进入最后阶段，但仍把重开海峡与美国行动和政治安全要求挂钩；亚洲早盘油价走高。",
+      "why_it_matters": "协议接近与尚未开放并存，使全球能源、航运和保险市场继续承担谈判破裂或执行延迟风险。",
+      "uncertainty": "主要是伊朗方面的进度表述；协议文本、美国是否接受、通航机制和恢复日期均未确认，油价也受多重因素影响。",
+      "confidence": "medium",
+      "sources": [
+        {
+          "publisher": "Reuters",
+          "title": "Iran says Oman deal is in final stages and the US must act to open Hormuz",
+          "url": "https://www.reuters.com/world/middle-east/iran-says-oman-deal-final-stages-us-must-act-open-hormuz-2026-08-09/",
+          "published_at": "2026-08-09T18:55:00Z",
+          "source_type": "wire"
+        },
+        {
+          "publisher": "Reuters",
+          "title": "Asia stocks edge higher and oil rises amid Gulf confusion",
+          "url": "https://www.reuters.com/markets/asia-stocks-edge-higher-oil-up-amid-gulf-confusion-2026-08-10/",
+          "published_at": "2026-08-09T23:19:00Z",
+          "source_type": "wire"
+        }
+      ]
+    },
+    {
+      "id": "syria-russia-bases-joint-centers",
+      "category": "politics",
+      "regions": ["Middle East", "Syria", "Russia", "Eastern Mediterranean"],
+      "title": "叙利亚宣布俄军不再单独控制两处关键基地",
+      "summary": "叙方称俄罗斯不再单独控制赫迈米姆空军基地和塔尔图斯商业泊位，民事管理权交还叙方，军事设施拟改为联合训练中心。",
+      "why_it_matters": "若按叙方所述实施，俄罗斯在东地中海的军事法律地位、后勤方式和影响力都将发生变化。",
+      "uncertainty": "法律文本、撤控时间表、兵力规模和港口管理细节未公开，俄方尚未确认完整安排。",
+      "confidence": "medium",
+      "sources": [
+        {
+          "publisher": "Associated Press",
+          "title": "Syria says Russia will cede sole control of key bases",
+          "url": "https://apnews.com/article/2ade8e8a7da23eae4a90c8070f002a86",
+          "published_at": "2026-08-09T14:07:00Z",
+          "source_type": "wire"
+        },
+        {
+          "publisher": "Reuters",
+          "title": "Syria and Russia reach deal on Tartous and Hmeimim after 18 months of talks",
+          "url": "https://www.reuters.com/world/middle-east/syria-russia-reach-deal-future-tartous-hmeimim-bases-after-18-months-talks-2026-08-09/",
+          "published_at": "2026-08-09T14:07:00Z",
+          "source_type": "wire"
+        }
+      ]
+    },
+    {
+      "id": "russia-ukraine-cross-border-strikes-aug9",
+      "category": "politics",
+      "regions": ["Europe", "Ukraine", "Russia"],
+      "title": "俄乌互报跨境致命袭击，平民伤亡继续上升",
+      "summary": "俄方称乌克兰无人机在别尔哥罗德造成 6 人死亡；乌方称俄导弹在哈尔科夫造成至少 2 人死亡、13 人受伤，敖德萨港也遭袭。",
+      "why_it_matters": "纵深攻击持续触及城市住宅和港口，增加平民伤亡、基础设施中断与报复升级风险。",
+      "uncertainty": "数字分别来自交战方及地方官员，可能继续更新；目标性质、武器残骸与完整损失仍难独立核实。",
+      "confidence": "medium",
+      "sources": [
+        {
+          "publisher": "Associated Press",
+          "title": "Russia and Ukraine trade deadly drone and missile strikes",
+          "url": "https://apnews.com/article/4f1dd5120278884bf36ce85efe84e5d9",
+          "published_at": "2026-08-09T10:45:30Z",
+          "source_type": "wire"
+        },
+        {
+          "publisher": "Reuters",
+          "title": "Six die in Ukrainian drone attack on Belgorod, Russian authorities say",
+          "url": "https://www.reuters.com/world/europe/six-die-ukrainian-drone-attack-belgorod-russian-authorities-say-2026-08-09/",
+          "published_at": "2026-08-09T20:38:00Z",
+          "source_type": "wire"
+        }
+      ]
+    },
+    {
+      "id": "myanmar-rejects-asean-suu-kyi-call",
+      "category": "politics",
+      "regions": ["Asia", "Myanmar", "ASEAN"],
+      "title": "缅甸军方政府拒绝东盟无条件释放昂山素季的呼吁",
+      "summary": "缅甸军方政府表示会与菲律宾籍东盟特使合作，但拒绝无条件释放昂山素季，并质疑明年继续特使轨道的必要性。",
+      "why_it_matters": "这直接检验东盟五点共识和轮值主席斡旋机制能否持续，也影响政治对话与人道接触。",
+      "uncertainty": "新加坡是否延续特使机制、昂山素季健康和羁押条件、红十字探视能否常态化均未知；军方的选举合法性主张存在争议。",
+      "confidence": "medium",
+      "sources": [
+        {
+          "publisher": "Associated Press",
+          "title": "Myanmar rejects ASEAN call for unconditional release of Aung San Suu Kyi",
+          "url": "https://apnews.com/article/b7431e4cc290d883b4a67a174242e6eb",
+          "published_at": "2026-08-09T07:06:00Z",
+          "source_type": "wire"
+        },
+        {
+          "publisher": "Myanmar Ministry of Foreign Affairs",
+          "title": "Press statement on the ASEAN Five-Point Consensus",
+          "url": "https://www.mofa.gov.mm/en/press-statement-on-the-asean-five-point-statement-known-as-the-asean-five-point-consensus-23-7-2026-nay-pyi-taw/",
+          "published_at": "2026-07-23",
+          "source_type": "primary"
+        }
+      ]
+    },
+    {
+      "id": "cyprus-cronos-gas-europe-2028",
+      "category": "economy",
+      "regions": ["Europe", "Cyprus", "Egypt", "Eastern Mediterranean"],
+      "title": "塞浦路斯称 Cronos 气田最早 2028 年向欧洲供气",
+      "summary": "塞浦路斯称 Cronos 气田以 2028 年上半年供气为目标，拟经管线接入埃及 Zohr 设施并由 Damietta LNG 出口。",
+      "why_it_matters": "复用埃及设施可为欧盟增加东地中海天然气来源，并改变塞浦路斯、埃及与欧洲之间的能源投资关系。",
+      "uncertainty": "2028 年是工程目标而非已实现产量；海底管线、处理能力、价格、融资与地缘摩擦都可能影响进度。",
+      "confidence": "high",
+      "sources": [
+        {
+          "publisher": "Associated Press",
+          "title": "Cyprus eyes 2028 gas exports to Europe from the Cronos field",
+          "url": "https://apnews.com/article/eb6bc94433c6374d17d3ec54db5becb3",
+          "published_at": "2026-08-09T15:51:00Z",
+          "source_type": "wire"
+        },
+        {
+          "publisher": "Eni",
+          "title": "Eni announces final investment decision for Cyprus Cronos project",
+          "url": "https://www.eni.com/en-IT/media/press-release/2026/07/eni-announces-final-investment-decision-cyprus-cronos-project.html",
+          "published_at": "2026-07-28T06:00:00Z",
+          "source_type": "primary"
+        }
+      ]
+    },
+    {
+      "id": "nigeria-rescues-33-zamfara-travelers",
+      "category": "health-society",
+      "regions": ["Africa", "Nigeria", "Zamfara State"],
+      "title": "尼日利亚军方称救出扎姆法拉州全部 33 名被绑旅客",
+      "summary": "尼日利亚军方称部队在 Tsafe 地区救出前一日遭绑架的 33 名旅客，并继续追捕绑匪。",
+      "why_it_matters": "救援是对西北部绑架经济与军方快速反应能力的最新检验，但不能据此推断地区安全已结构性改善。",
+      "uncertainty": "结果主要来自军方声明，尚缺独立现场核验；伤亡、赎金、绑匪组织与行动细节均未完全公开。",
+      "confidence": "medium",
+      "sources": [
+        {
+          "publisher": "Associated Press",
+          "title": "Nigerian military says all 33 abducted travelers were rescued",
+          "url": "https://apnews.com/article/3e294ac3739dcc213594a40160b490c7",
+          "published_at": "2026-08-09T16:11:00Z",
+          "source_type": "wire"
+        }
+      ]
+    },
+    {
+      "id": "gulf-coast-vibrio-vulnificus-2026",
+      "category": "health-society",
+      "regions": ["North America", "United States", "Louisiana", "Florida"],
+      "title": "美国墨西哥湾沿岸创伤弧菌病例引发公共卫生警报",
+      "summary": "路易斯安那州报告 9 例、5 人死亡，佛罗里达州报告 14 例、2 人死亡；感染通常与伤口接触温暖沿海水体或食用受污染生贝类有关。",
+      "why_it_matters": "感染虽少见却可能迅速恶化，公开州级数据有助于高风险人群采取常规预防并及时就医。",
+      "uncertainty": "绝对病例数仍小且年度波动大，不能由两个州的短期数字推断全国长期趋势或直接归因单一气候事件。",
+      "confidence": "high",
+      "sources": [
+        {
+          "publisher": "Associated Press",
+          "title": "Gulf Coast states warn about deadly Vibrio vulnificus infections",
+          "url": "https://apnews.com/article/e062a1a834ebd6f05ff79ae352b041e2",
+          "published_at": "2026-08-09T16:09:00Z",
+          "source_type": "wire"
+        },
+        {
+          "publisher": "U.S. Centers for Disease Control and Prevention",
+          "title": "About Vibrio vulnificus infection",
+          "url": "https://www.cdc.gov/vibrio/about/about-vibrio-vulnificus.html",
+          "published_at": "accessed 2026-08-10T09:00:00+08:00",
+          "source_type": "primary"
+        },
+        {
+          "publisher": "Louisiana Department of Health",
+          "title": "Vibrio update for August 2026",
+          "url": "https://ldh.la.gov/news/vibrio-update-aug26",
+          "published_at": "2026-08",
+          "source_type": "primary"
+        },
+        {
+          "publisher": "Florida Department of Health",
+          "title": "Vibrio infections annual statistics",
+          "url": "https://www.floridahealth.gov/diseases-and-conditions/disease/vibrio-infections/",
+          "published_at": "updated 2026-08-06T09:15:00-04:00",
+          "source_type": "primary"
+        }
+      ]
+    },
+    {
+      "id": "mount-bromo-wildfire-closure",
+      "category": "climate-environment",
+      "regions": ["Asia", "Indonesia", "East Java"],
+      "title": "印尼因山火扩大关闭布罗莫火山全部入口",
+      "summary": "布罗莫—腾格里—塞梅鲁国家公园在旱季山火扩大后关闭通往布罗莫火山的全部入口，强风和干燥条件增加灭火难度。",
+      "why_it_matters": "全面封闭降低游客进入火线风险，但也影响保护区生态、社区生计、交通和旅游。",
+      "uncertainty": "起火原因、最终过火面积、人员与设施损失、重开时间均未定，滚动报道中的面积数字仍可能变化。",
+      "confidence": "medium",
+      "sources": [
+        {
+          "publisher": "Reuters",
+          "title": "Indonesia closes all access to Mount Bromo as wildfire expands",
+          "url": "https://www.reuters.com/business/environment/indonesia-closes-all-access-mount-bromo-wildfire-expands-2026-08-09/",
+          "published_at": "2026-08-09T02:30:00Z",
+          "source_type": "wire"
+        },
+        {
+          "publisher": "Associated Press",
+          "title": "Mount Bromo access closed as wildfire spreads",
+          "url": "https://apnews.com/article/e60f3937398d722e69354799f662687c",
+          "published_at": "2026-08-09T07:10:20Z",
+          "source_type": "wire"
+        }
+      ]
+    }
+  ]
+}
