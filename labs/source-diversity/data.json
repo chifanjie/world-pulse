@@ -1,0 +1,3864 @@
+{
+  "built_from": "data/index.json",
+  "counts": {
+    "ai_events": 24,
+    "digests": 8,
+    "events": 94,
+    "single_source_events": 19,
+    "source_links": 209,
+    "unique_source_urls": 207,
+    "world_events": 70,
+    "zero_source_events": 0
+  },
+  "date_range": {
+    "end": "2026-08-11",
+    "start": "2026-08-03"
+  },
+  "dates": [
+    {
+      "ai_event_count": 3,
+      "date": "2026-08-11",
+      "event_count": 11,
+      "single_source_events": 1,
+      "source_links": 24,
+      "world_event_count": 8
+    },
+    {
+      "ai_event_count": 3,
+      "date": "2026-08-10",
+      "event_count": 12,
+      "single_source_events": 1,
+      "source_links": 28,
+      "world_event_count": 9
+    },
+    {
+      "ai_event_count": 3,
+      "date": "2026-08-09",
+      "event_count": 13,
+      "single_source_events": 3,
+      "source_links": 33,
+      "world_event_count": 10
+    },
+    {
+      "ai_event_count": 3,
+      "date": "2026-08-08",
+      "event_count": 13,
+      "single_source_events": 1,
+      "source_links": 31,
+      "world_event_count": 10
+    },
+    {
+      "ai_event_count": 3,
+      "date": "2026-08-07",
+      "event_count": 12,
+      "single_source_events": 2,
+      "source_links": 30,
+      "world_event_count": 9
+    },
+    {
+      "ai_event_count": 3,
+      "date": "2026-08-06",
+      "event_count": 13,
+      "single_source_events": 5,
+      "source_links": 25,
+      "world_event_count": 10
+    },
+    {
+      "ai_event_count": 3,
+      "date": "2026-08-05",
+      "event_count": 10,
+      "single_source_events": 1,
+      "source_links": 22,
+      "world_event_count": 7
+    },
+    {
+      "ai_event_count": 3,
+      "date": "2026-08-03",
+      "event_count": 10,
+      "single_source_events": 5,
+      "source_links": 16,
+      "world_event_count": 7
+    }
+  ],
+  "events": [
+    {
+      "category": "technology",
+      "confidence": "medium",
+      "date": "2026-08-11",
+      "id": "meta-muse-glimmer-30b-local-agent-model",
+      "regions": [
+        "Global",
+        "United States"
+      ],
+      "section": "ai",
+      "single_source": false,
+      "source_count": 4,
+      "sources": [
+        {
+          "published_at": "repository created 2026-08-09T17:51:35Z",
+          "publisher": "Meta / Hugging Face",
+          "source_type": "model-card",
+          "title": "Muse Glimmer-30B official model card and weights",
+          "url": "https://huggingface.co/meta-models/Muse-Glimmer-30B"
+        },
+        {
+          "published_at": "accessed 2026-08-11T11:10:00+08:00",
+          "publisher": "Meta / Hugging Face",
+          "source_type": "primary",
+          "title": "Muse Glimmer Usage Policy",
+          "url": "https://huggingface.co/meta-models/Muse-Glimmer-30B/blob/main/USAGE_POLICY.md"
+        },
+        {
+          "published_at": "accessed 2026-08-11T11:10:00+08:00",
+          "publisher": "Meta AI Research",
+          "source_type": "research",
+          "title": "Muse Glimmer methodology report",
+          "url": "https://research.meta.ai/static/muse-glimmer-methodology"
+        },
+        {
+          "published_at": "2026-08-10T10:49:15Z",
+          "publisher": "Ollama / GitHub",
+          "source_type": "code",
+          "title": "Ollama v0.32.7 with initial Muse Glimmer support",
+          "url": "https://github.com/ollama/ollama/releases/tag/v0.32.7"
+        }
+      ],
+      "title": "Meta Muse Glimmer-30B 面向本地多模态智能体开放权重"
+    },
+    {
+      "category": "science",
+      "confidence": "medium",
+      "date": "2026-08-11",
+      "id": "swe-bench-promax-refactoring-benchmark",
+      "regions": [
+        "Global"
+      ],
+      "section": "ai",
+      "single_source": false,
+      "source_count": 3,
+      "sources": [
+        {
+          "published_at": "2026-08-10T16:23:19Z",
+          "publisher": "arXiv",
+          "source_type": "research",
+          "title": "SWE-Bench ProMax: Benchmarking Agents on Large-Scale Multilingual Code Refactoring",
+          "url": "https://arxiv.org/abs/2608.09802"
+        },
+        {
+          "published_at": "accessed 2026-08-11T11:07:00+08:00",
+          "publisher": "Hugging Face",
+          "source_type": "community-index",
+          "title": "SWE-Bench ProMax paper attention snapshot",
+          "url": "https://huggingface.co/papers/2608.09802"
+        },
+        {
+          "published_at": "accessed 2026-08-11T11:07:00+08:00",
+          "publisher": "SWE-Bench ProMax authors / Hugging Face",
+          "source_type": "research",
+          "title": "SWE-Bench ProMax public dataset",
+          "url": "https://huggingface.co/datasets/swe-bench-promax/SWE-Bench-ProMax"
+        }
+      ],
+      "title": "SWE-Bench ProMax 把编码代理推向大型跨文件重构"
+    },
+    {
+      "category": "technology",
+      "confidence": "medium",
+      "date": "2026-08-11",
+      "id": "vllm-0-27-0-serving-resilience-kernels",
+      "regions": [
+        "Global"
+      ],
+      "section": "ai",
+      "single_source": false,
+      "source_count": 2,
+      "sources": [
+        {
+          "published_at": "accessed 2026-08-11T11:10:00+08:00",
+          "publisher": "vLLM / GitHub",
+          "source_type": "code",
+          "title": "vLLM repository",
+          "url": "https://github.com/vllm-project/vllm"
+        },
+        {
+          "published_at": "2026-08-10T21:18:11Z",
+          "publisher": "vLLM / GitHub",
+          "source_type": "code",
+          "title": "vLLM v0.27.0 release",
+          "url": "https://github.com/vllm-project/vllm/releases/tag/v0.27.0"
+        }
+      ],
+      "title": "vLLM 0.27.0 扩展推理解耦、容错控制面与新硬件路径"
+    },
+    {
+      "category": "climate-environment",
+      "confidence": "high",
+      "date": "2026-08-11",
+      "id": "assam-flood-death-toll-100",
+      "regions": [
+        "Asia",
+        "Assam",
+        "India"
+      ],
+      "section": "world",
+      "single_source": false,
+      "source_count": 2,
+      "sources": [
+        {
+          "published_at": "accessed 2026-08-11T11:15:00+08:00",
+          "publisher": "Assam State Disaster Management Authority",
+          "source_type": "primary",
+          "title": "Assam daily flood situation reports",
+          "url": "https://asdma.assam.gov.in/information-services/assam-flood-report"
+        },
+        {
+          "published_at": "2026-08-10T08:31:38Z",
+          "publisher": "Associated Press",
+          "source_type": "wire",
+          "title": "Flood death toll in India's Assam reaches 100",
+          "url": "https://apnews.com/article/7bc402002a9159d828f220914fd9fb21"
+        }
+      ],
+      "title": "印度阿萨姆邦洪灾死亡数升至 100"
+    },
+    {
+      "category": "technology",
+      "confidence": "high",
+      "date": "2026-08-11",
+      "id": "china-zhongxing-4b-launch-failure",
+      "regions": [
+        "Asia",
+        "China"
+      ],
+      "section": "world",
+      "single_source": true,
+      "source_count": 1,
+      "sources": [
+        {
+          "published_at": "2026-08-10T16:53:34Z",
+          "publisher": "Associated Press",
+          "source_type": "wire",
+          "title": "China reports failure of a rocket carrying a communications satellite",
+          "url": "https://apnews.com/article/af78d7b606773e759d2cbd42d16091ec"
+        }
+      ],
+      "title": "中国中星 4B 发射任务报告飞行异常"
+    },
+    {
+      "category": "climate-environment",
+      "confidence": "high",
+      "date": "2026-08-11",
+      "id": "colombia-western-earthquake-aug10",
+      "regions": [
+        "Colombia",
+        "Ecuador",
+        "Latin America",
+        "Panama"
+      ],
+      "section": "world",
+      "single_source": false,
+      "source_count": 2,
+      "sources": [
+        {
+          "published_at": "2026-08-10T13:09:00Z",
+          "publisher": "Associated Press",
+          "source_type": "wire",
+          "title": "Powerful earthquake in western Colombia kills at least 111",
+          "url": "https://apnews.com/article/26fd40f93272d834fced47a4a673edc9"
+        },
+        {
+          "published_at": "accessed 2026-08-11T11:15:00+08:00",
+          "publisher": "Servicio Geologico Colombiano",
+          "source_type": "primary",
+          "title": "Colombian Geological Service earthquake catalog",
+          "url": "https://sgc.gov.co/catalogo"
+        }
+      ],
+      "title": "哥伦比亚西部 7.4 级地震至少造成 111 人死亡"
+    },
+    {
+      "category": "health-society",
+      "confidence": "medium",
+      "date": "2026-08-11",
+      "id": "drc-ebola-february-origin-update",
+      "regions": [
+        "Africa",
+        "Democratic Republic of the Congo",
+        "Uganda"
+      ],
+      "section": "world",
+      "single_source": false,
+      "source_count": 2,
+      "sources": [
+        {
+          "published_at": "2026-08-10T21:23:00+08:00",
+          "publisher": "Associated Press",
+          "source_type": "wire",
+          "title": "Sequencing shows Congo Ebola outbreak began months earlier",
+          "url": "https://apnews.com/article/c4f179c021836ee2c9319e660010452a"
+        },
+        {
+          "published_at": "updated through 2026-08-10",
+          "publisher": "World Health Organization",
+          "source_type": "primary",
+          "title": "Ebola outbreak - Democratic Republic of the Congo, 2026",
+          "url": "https://www.who.int/emergencies/situations/ebola-outbreak---drc-2026"
+        }
+      ],
+      "title": "更新：基因组分析将刚果（金）埃博拉暴发起点前推至 2 月"
+    },
+    {
+      "category": "politics",
+      "confidence": "high",
+      "date": "2026-08-11",
+      "id": "russia-yabloko-ballot-removal",
+      "regions": [
+        "Europe",
+        "Russia"
+      ],
+      "section": "world",
+      "single_source": false,
+      "source_count": 2,
+      "sources": [
+        {
+          "published_at": "2026-08-10T17:42:48Z",
+          "publisher": "Associated Press",
+          "source_type": "wire",
+          "title": "Russian court bars Yabloko from parliamentary ballot",
+          "url": "https://apnews.com/article/fffdd68de22ad70cebc81e5aa308202c"
+        },
+        {
+          "published_at": "accessed 2026-08-11T11:15:00+08:00",
+          "publisher": "Yabloko",
+          "source_type": "primary",
+          "title": "Russian Democratic Party Yabloko official English site",
+          "url": "https://eng.yabloko.ru/"
+        }
+      ],
+      "title": "俄罗斯最高法院撤销 Yabloko 的国家杜马选举登记"
+    },
+    {
+      "category": "politics",
+      "confidence": "high",
+      "date": "2026-08-11",
+      "id": "turkey-conditional-pkk-law",
+      "regions": [
+        "Europe",
+        "Iraq",
+        "Middle East",
+        "Syria",
+        "Turkey"
+      ],
+      "section": "world",
+      "single_source": false,
+      "source_count": 2,
+      "sources": [
+        {
+          "published_at": "2026-08-10T16:52:00+08:00",
+          "publisher": "Associated Press",
+          "source_type": "wire",
+          "title": "Turkey approves conditional pardon-like law for PKK members",
+          "url": "https://apnews.com/article/a9addfb69c8126f1d661d4f37ef74827"
+        },
+        {
+          "published_at": "accessed 2026-08-11T11:15:00+08:00",
+          "publisher": "Grand National Assembly of Turkey",
+          "source_type": "primary",
+          "title": "Turkish Parliament laws database",
+          "url": "https://www.tbmm.gov.tr/yasama/kanunlar"
+        }
+      ],
+      "title": "土耳其议会通过 PKK 成员条件性法案，生效仍取决于全面缴械"
+    },
+    {
+      "category": "health-society",
+      "confidence": "high",
+      "date": "2026-08-11",
+      "id": "us-child-vaccine-spacing-order",
+      "regions": [
+        "North America",
+        "United States"
+      ],
+      "section": "world",
+      "single_source": false,
+      "source_count": 2,
+      "sources": [
+        {
+          "published_at": "2026-02-06",
+          "publisher": "American Academy of Pediatrics / HealthyChildren.org",
+          "source_type": "primary",
+          "title": "AAP recommended childhood and adolescent immunization schedule for 2026",
+          "url": "https://www.healthychildren.org/English/news/Pages/AAPs-recommended-childhood-and-adolescent-immunization-schedule-for-2026.aspx"
+        },
+        {
+          "published_at": "2026-08-10T18:44:37Z",
+          "publisher": "Associated Press",
+          "source_type": "wire",
+          "title": "Trump signs order calling for spacing out childhood vaccines",
+          "url": "https://apnews.com/article/d10f81f221c4ae9f5b2f83dd0ee98b29"
+        }
+      ],
+      "title": "美国签令要求重审儿童疫苗接种间隔与拆分 MMR 路径"
+    },
+    {
+      "category": "climate-environment",
+      "confidence": "high",
+      "date": "2026-08-11",
+      "id": "us-july-2026-hottest-month",
+      "regions": [
+        "North America",
+        "United States"
+      ],
+      "section": "world",
+      "single_source": false,
+      "source_count": 2,
+      "sources": [
+        {
+          "published_at": "2026-08-10T17:49:00Z",
+          "publisher": "Associated Press",
+          "source_type": "wire",
+          "title": "July was the hottest month on record for the contiguous United States",
+          "url": "https://apnews.com/article/4a9d612281485356103631f0f09b61af"
+        },
+        {
+          "published_at": "2026-08-10",
+          "publisher": "NOAA National Centers for Environmental Information",
+          "source_type": "primary",
+          "title": "National climate report for July 2026",
+          "url": "https://www.ncei.noaa.gov/access/monitoring/monthly-report/national/202607"
+        }
+      ],
+      "title": "美国本土 48 州经历有记录以来最热月份"
+    },
+    {
+      "category": "science",
+      "confidence": "medium",
+      "date": "2026-08-10",
+      "id": "envace-world-rehearsal-agent-rl",
+      "regions": [
+        "Global"
+      ],
+      "section": "ai",
+      "single_source": false,
+      "source_count": 3,
+      "sources": [
+        {
+          "published_at": "2026-08-06T15:54:36Z",
+          "publisher": "arXiv",
+          "source_type": "research",
+          "title": "EnvACE: Internalizing Environment Dynamics via World Rehearsal for Agentic Reinforcement Learning",
+          "url": "https://arxiv.org/abs/2608.06197"
+        },
+        {
+          "published_at": "2026-08-08T21:10:22Z",
+          "publisher": "EnvACE authors / GitHub",
+          "source_type": "code",
+          "title": "EnvACE initial code commit, recipes and tests",
+          "url": "https://github.com/Within-yao/EnvACE"
+        },
+        {
+          "published_at": "accessed 2026-08-10T09:07:00+08:00",
+          "publisher": "Hugging Face",
+          "source_type": "community-index",
+          "title": "EnvACE paper page and attention snapshot",
+          "url": "https://huggingface.co/papers/2608.06197"
+        }
+      ],
+      "title": "EnvACE 用世界排演替代训练时的外部环境交互"
+    },
+    {
+      "category": "technology",
+      "confidence": "medium",
+      "date": "2026-08-10",
+      "id": "langchain-managed-deep-agents-public-beta",
+      "regions": [
+        "Global",
+        "United States"
+      ],
+      "section": "ai",
+      "single_source": false,
+      "source_count": 3,
+      "sources": [
+        {
+          "published_at": "2026-08-07T17:01:00Z",
+          "publisher": "LangChain",
+          "source_type": "primary",
+          "title": "Managed Deep Agents is now in Public Beta",
+          "url": "https://www.langchain.com/blog/managed-deep-agents-is-now-in-public-beta"
+        },
+        {
+          "published_at": "accessed 2026-08-10T09:12:00+08:00",
+          "publisher": "LangChain / GitHub",
+          "source_type": "code",
+          "title": "Deep Agents open-source harness",
+          "url": "https://github.com/langchain-ai/deepagents"
+        },
+        {
+          "published_at": "accessed 2026-08-10T09:12:00+08:00",
+          "publisher": "PyPI Stats",
+          "source_type": "community-index",
+          "title": "Deep Agents recent download snapshot",
+          "url": "https://pypistats.org/api/packages/deepagents/recent"
+        }
+      ],
+      "title": "LangChain 将 Managed Deep Agents 开放公测"
+    },
+    {
+      "category": "technology",
+      "confidence": "medium",
+      "date": "2026-08-10",
+      "id": "sglang-0-5-17-inference-infrastructure",
+      "regions": [
+        "Global"
+      ],
+      "section": "ai",
+      "single_source": false,
+      "source_count": 3,
+      "sources": [
+        {
+          "published_at": "accessed 2026-08-10T09:12:00+08:00",
+          "publisher": "PyPI Stats",
+          "source_type": "community-index",
+          "title": "SGLang recent download snapshot",
+          "url": "https://pypistats.org/api/packages/sglang/recent"
+        },
+        {
+          "published_at": "accessed 2026-08-10T09:12:00+08:00",
+          "publisher": "SGLang / GitHub",
+          "source_type": "code",
+          "title": "SGLang repository",
+          "url": "https://github.com/sgl-project/sglang"
+        },
+        {
+          "published_at": "2026-08-08T00:19:16Z",
+          "publisher": "SGLang / GitHub",
+          "source_type": "code",
+          "title": "SGLang v0.5.17 release",
+          "url": "https://github.com/sgl-project/sglang/releases/tag/v0.5.17"
+        }
+      ],
+      "title": "SGLang 0.5.17 引入多线程 Rust 前端、DWDP 与会话感知缓存"
+    },
+    {
+      "category": "economy",
+      "confidence": "high",
+      "date": "2026-08-10",
+      "id": "cyprus-cronos-gas-europe-2028",
+      "regions": [
+        "Cyprus",
+        "Eastern Mediterranean",
+        "Egypt",
+        "Europe"
+      ],
+      "section": "world",
+      "single_source": false,
+      "source_count": 2,
+      "sources": [
+        {
+          "published_at": "2026-08-09T15:51:00Z",
+          "publisher": "Associated Press",
+          "source_type": "wire",
+          "title": "Cyprus eyes 2028 gas exports to Europe from the Cronos field",
+          "url": "https://apnews.com/article/eb6bc94433c6374d17d3ec54db5becb3"
+        },
+        {
+          "published_at": "2026-07-28T06:00:00Z",
+          "publisher": "Eni",
+          "source_type": "primary",
+          "title": "Eni announces final investment decision for Cyprus Cronos project",
+          "url": "https://www.eni.com/en-IT/media/press-release/2026/07/eni-announces-final-investment-decision-cyprus-cronos-project.html"
+        }
+      ],
+      "title": "塞浦路斯称 Cronos 气田最早 2028 年向欧洲供气"
+    },
+    {
+      "category": "health-society",
+      "confidence": "high",
+      "date": "2026-08-10",
+      "id": "gulf-coast-vibrio-vulnificus-2026",
+      "regions": [
+        "Florida",
+        "Louisiana",
+        "North America",
+        "United States"
+      ],
+      "section": "world",
+      "single_source": false,
+      "source_count": 4,
+      "sources": [
+        {
+          "published_at": "2026-08-09T16:09:00Z",
+          "publisher": "Associated Press",
+          "source_type": "wire",
+          "title": "Gulf Coast states warn about deadly Vibrio vulnificus infections",
+          "url": "https://apnews.com/article/e062a1a834ebd6f05ff79ae352b041e2"
+        },
+        {
+          "published_at": "updated 2026-08-06T09:15:00-04:00",
+          "publisher": "Florida Department of Health",
+          "source_type": "primary",
+          "title": "Vibrio infections annual statistics",
+          "url": "https://www.floridahealth.gov/diseases-and-conditions/disease/vibrio-infections/"
+        },
+        {
+          "published_at": "2026-08",
+          "publisher": "Louisiana Department of Health",
+          "source_type": "primary",
+          "title": "Vibrio update for August 2026",
+          "url": "https://ldh.la.gov/news/vibrio-update-aug26"
+        },
+        {
+          "published_at": "accessed 2026-08-10T09:00:00+08:00",
+          "publisher": "U.S. Centers for Disease Control and Prevention",
+          "source_type": "primary",
+          "title": "About Vibrio vulnificus infection",
+          "url": "https://www.cdc.gov/vibrio/about/about-vibrio-vulnificus.html"
+        }
+      ],
+      "title": "美国墨西哥湾沿岸创伤弧菌病例引发公共卫生警报"
+    },
+    {
+      "category": "markets",
+      "confidence": "medium",
+      "date": "2026-08-10",
+      "id": "hormuz-oman-deal-final-stage-update",
+      "regions": [
+        "Global",
+        "Iran",
+        "Middle East",
+        "Oman",
+        "United States"
+      ],
+      "section": "world",
+      "single_source": false,
+      "source_count": 2,
+      "sources": [
+        {
+          "published_at": "2026-08-09T23:19:00Z",
+          "publisher": "Reuters",
+          "source_type": "wire",
+          "title": "Asia stocks edge higher and oil rises amid Gulf confusion",
+          "url": "https://www.reuters.com/markets/asia-stocks-edge-higher-oil-up-amid-gulf-confusion-2026-08-10/"
+        },
+        {
+          "published_at": "2026-08-09T18:55:00Z",
+          "publisher": "Reuters",
+          "source_type": "wire",
+          "title": "Iran says Oman deal is in final stages and the US must act to open Hormuz",
+          "url": "https://www.reuters.com/world/middle-east/iran-says-oman-deal-final-stages-us-must-act-open-hormuz-2026-08-09/"
+        }
+      ],
+      "title": "更新：伊朗称霍尔木兹安排进入最后阶段，实际开放仍未落地"
+    },
+    {
+      "category": "politics",
+      "confidence": "high",
+      "date": "2026-08-10",
+      "id": "israel-rejects-new-gaza-plan",
+      "regions": [
+        "Israel",
+        "Middle East",
+        "Palestinian Territories",
+        "United States"
+      ],
+      "section": "world",
+      "single_source": false,
+      "source_count": 2,
+      "sources": [
+        {
+          "published_at": "2026-08-09T07:29:35Z",
+          "publisher": "Associated Press",
+          "source_type": "wire",
+          "title": "Israel rejects Trump's new Gaza plan",
+          "url": "https://apnews.com/article/6c5aa0c5debcca3fa36316a8b0b67400"
+        },
+        {
+          "published_at": "2026-08-09T19:24:00Z",
+          "publisher": "Reuters",
+          "source_type": "wire",
+          "title": "Netanyahu says Trump's new Gaza plan is unacceptable",
+          "url": "https://www.reuters.com/world/middle-east/netanyahu-says-trumps-new-gaza-plan-is-unacceptable-2026-08-09/"
+        }
+      ],
+      "title": "以色列拒绝美国新版加沙路线图"
+    },
+    {
+      "category": "climate-environment",
+      "confidence": "medium",
+      "date": "2026-08-10",
+      "id": "mount-bromo-wildfire-closure",
+      "regions": [
+        "Asia",
+        "East Java",
+        "Indonesia"
+      ],
+      "section": "world",
+      "single_source": false,
+      "source_count": 2,
+      "sources": [
+        {
+          "published_at": "2026-08-09T07:10:20Z",
+          "publisher": "Associated Press",
+          "source_type": "wire",
+          "title": "Mount Bromo access closed as wildfire spreads",
+          "url": "https://apnews.com/article/e60f3937398d722e69354799f662687c"
+        },
+        {
+          "published_at": "2026-08-09T02:30:00Z",
+          "publisher": "Reuters",
+          "source_type": "wire",
+          "title": "Indonesia closes all access to Mount Bromo as wildfire expands",
+          "url": "https://www.reuters.com/business/environment/indonesia-closes-all-access-mount-bromo-wildfire-expands-2026-08-09/"
+        }
+      ],
+      "title": "印尼因山火扩大关闭布罗莫火山全部入口"
+    },
+    {
+      "category": "politics",
+      "confidence": "medium",
+      "date": "2026-08-10",
+      "id": "myanmar-rejects-asean-suu-kyi-call",
+      "regions": [
+        "ASEAN",
+        "Asia",
+        "Myanmar"
+      ],
+      "section": "world",
+      "single_source": false,
+      "source_count": 2,
+      "sources": [
+        {
+          "published_at": "2026-08-09T07:06:00Z",
+          "publisher": "Associated Press",
+          "source_type": "wire",
+          "title": "Myanmar rejects ASEAN call for unconditional release of Aung San Suu Kyi",
+          "url": "https://apnews.com/article/b7431e4cc290d883b4a67a174242e6eb"
+        },
+        {
+          "published_at": "2026-07-23",
+          "publisher": "Myanmar Ministry of Foreign Affairs",
+          "source_type": "primary",
+          "title": "Press statement on the ASEAN Five-Point Consensus",
+          "url": "https://www.mofa.gov.mm/en/press-statement-on-the-asean-five-point-statement-known-as-the-asean-five-point-consensus-23-7-2026-nay-pyi-taw/"
+        }
+      ],
+      "title": "缅甸军方政府拒绝东盟无条件释放昂山素季的呼吁"
+    },
+    {
+      "category": "health-society",
+      "confidence": "medium",
+      "date": "2026-08-10",
+      "id": "nigeria-rescues-33-zamfara-travelers",
+      "regions": [
+        "Africa",
+        "Nigeria",
+        "Zamfara State"
+      ],
+      "section": "world",
+      "single_source": true,
+      "source_count": 1,
+      "sources": [
+        {
+          "published_at": "2026-08-09T16:11:00Z",
+          "publisher": "Associated Press",
+          "source_type": "wire",
+          "title": "Nigerian military says all 33 abducted travelers were rescued",
+          "url": "https://apnews.com/article/3e294ac3739dcc213594a40160b490c7"
+        }
+      ],
+      "title": "尼日利亚军方称救出扎姆法拉州全部 33 名被绑旅客"
+    },
+    {
+      "category": "politics",
+      "confidence": "medium",
+      "date": "2026-08-10",
+      "id": "russia-ukraine-cross-border-strikes-aug9",
+      "regions": [
+        "Europe",
+        "Russia",
+        "Ukraine"
+      ],
+      "section": "world",
+      "single_source": false,
+      "source_count": 2,
+      "sources": [
+        {
+          "published_at": "2026-08-09T10:45:30Z",
+          "publisher": "Associated Press",
+          "source_type": "wire",
+          "title": "Russia and Ukraine trade deadly drone and missile strikes",
+          "url": "https://apnews.com/article/4f1dd5120278884bf36ce85efe84e5d9"
+        },
+        {
+          "published_at": "2026-08-09T20:38:00Z",
+          "publisher": "Reuters",
+          "source_type": "wire",
+          "title": "Six die in Ukrainian drone attack on Belgorod, Russian authorities say",
+          "url": "https://www.reuters.com/world/europe/six-die-ukrainian-drone-attack-belgorod-russian-authorities-say-2026-08-09/"
+        }
+      ],
+      "title": "俄乌互报跨境致命袭击，平民伤亡继续上升"
+    },
+    {
+      "category": "politics",
+      "confidence": "medium",
+      "date": "2026-08-10",
+      "id": "syria-russia-bases-joint-centers",
+      "regions": [
+        "Eastern Mediterranean",
+        "Middle East",
+        "Russia",
+        "Syria"
+      ],
+      "section": "world",
+      "single_source": false,
+      "source_count": 2,
+      "sources": [
+        {
+          "published_at": "2026-08-09T14:07:00Z",
+          "publisher": "Associated Press",
+          "source_type": "wire",
+          "title": "Syria says Russia will cede sole control of key bases",
+          "url": "https://apnews.com/article/2ade8e8a7da23eae4a90c8070f002a86"
+        },
+        {
+          "published_at": "2026-08-09T14:07:00Z",
+          "publisher": "Reuters",
+          "source_type": "wire",
+          "title": "Syria and Russia reach deal on Tartous and Hmeimim after 18 months of talks",
+          "url": "https://www.reuters.com/world/middle-east/syria-russia-reach-deal-future-tartous-hmeimim-bases-after-18-months-talks-2026-08-09/"
+        }
+      ],
+      "title": "叙利亚宣布俄军不再单独控制两处关键基地"
+    },
+    {
+      "category": "technology",
+      "confidence": "medium",
+      "date": "2026-08-09",
+      "id": "claude-code-2-1-224-security-enterprise",
+      "regions": [
+        "Global"
+      ],
+      "section": "ai",
+      "single_source": false,
+      "source_count": 5,
+      "sources": [
+        {
+          "published_at": "accessed 2026-08-09T13:14:50+08:00",
+          "publisher": "Anthropic / GitHub",
+          "source_type": "code",
+          "title": "Claude Code repository",
+          "url": "https://github.com/anthropics/claude-code"
+        },
+        {
+          "published_at": "2026-08-07T04:00:59Z",
+          "publisher": "Anthropic / GitHub",
+          "source_type": "code",
+          "title": "Claude Code v2.1.224",
+          "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.224"
+        },
+        {
+          "published_at": "2026-08-08T01:09:26Z",
+          "publisher": "Anthropic / GitHub",
+          "source_type": "code",
+          "title": "Claude Code v2.1.225",
+          "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.225"
+        },
+        {
+          "published_at": "2026-08-08T02:48:05Z",
+          "publisher": "Anthropic / GitHub",
+          "source_type": "code",
+          "title": "Claude Code v2.1.226",
+          "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.226"
+        },
+        {
+          "published_at": "accessed 2026-08-09T13:14:50+08:00",
+          "publisher": "npm",
+          "source_type": "community-index",
+          "title": "Claude Code seven-day download snapshot",
+          "url": "https://api.npmjs.org/downloads/point/2026-08-02:2026-08-08/%40anthropic-ai%2Fclaude-code"
+        }
+      ],
+      "title": "Claude Code 2.1.224–226 加入自托管 runner 并修补隔离边界"
+    },
+    {
+      "category": "technology",
+      "confidence": "medium",
+      "date": "2026-08-09",
+      "id": "ling-3-flash-evaluation-update",
+      "regions": [
+        "Asia",
+        "China",
+        "Global"
+      ],
+      "section": "ai",
+      "single_source": false,
+      "source_count": 4,
+      "sources": [
+        {
+          "published_at": "accessed 2026-08-09T13:14:50+08:00",
+          "publisher": "Hugging Face",
+          "source_type": "community-index",
+          "title": "Ling-3.0-flash model API snapshot",
+          "url": "https://huggingface.co/api/models/inclusionAI/Ling-3.0-flash"
+        },
+        {
+          "published_at": "2026-08-02T16:18:49Z",
+          "publisher": "inclusionAI / Hugging Face",
+          "source_type": "model-card",
+          "title": "Ling-3.0-flash model card and BF16 weights",
+          "url": "https://huggingface.co/inclusionAI/Ling-3.0-flash"
+        },
+        {
+          "published_at": "accessed 2026-08-09T13:14:50+08:00",
+          "publisher": "inclusionAI / Hugging Face",
+          "source_type": "model-card",
+          "title": "Ling-3.0-flash FP8 weights",
+          "url": "https://huggingface.co/inclusionAI/Ling-3.0-flash-fp8"
+        },
+        {
+          "published_at": "2026-08-06T15:09:42Z",
+          "publisher": "inclusionAI / Hugging Face",
+          "source_type": "model-card",
+          "title": "Ling-3.0-flash evaluation update commit",
+          "url": "https://huggingface.co/inclusionAI/Ling-3.0-flash/commit/ecde16176a497adaff7419ff4de59da603c4edaa"
+        }
+      ],
+      "title": "Ling-3.0-flash 补齐评测并开放 124B 稀疏 MoE 权重"
+    },
+    {
+      "category": "science",
+      "confidence": "medium",
+      "date": "2026-08-09",
+      "id": "w2-vla-future-wrist-latents",
+      "regions": [
+        "Global"
+      ],
+      "section": "ai",
+      "single_source": false,
+      "source_count": 5,
+      "sources": [
+        {
+          "published_at": "2026-08-05T19:48:47Z",
+          "publisher": "arXiv",
+          "source_type": "research",
+          "title": "World-to-Wrist: Task-Conditioned Future Wrist Modeling for Fine-Grained Robot Manipulation",
+          "url": "https://arxiv.org/abs/2608.05369"
+        },
+        {
+          "published_at": "accessed 2026-08-09T13:09:23+08:00",
+          "publisher": "GitHub",
+          "source_type": "code",
+          "title": "W2-VLA official code repository",
+          "url": "https://github.com/yyyyu120/W2-VLA"
+        },
+        {
+          "published_at": "accessed 2026-08-09T13:09:23+08:00",
+          "publisher": "Hugging Face",
+          "source_type": "community-index",
+          "title": "Daily Papers page for arXiv:2608.05369",
+          "url": "https://huggingface.co/papers/2608.05369"
+        },
+        {
+          "published_at": "accessed 2026-08-09T13:09:23+08:00",
+          "publisher": "Hugging Face",
+          "source_type": "model-card",
+          "title": "W2-VLA checkpoints",
+          "url": "https://huggingface.co/yuuu94/W2-VLA"
+        },
+        {
+          "published_at": "accessed 2026-08-09T13:09:23+08:00",
+          "publisher": "Hugging Face",
+          "source_type": "research",
+          "title": "W2-VLA Training Data",
+          "url": "https://huggingface.co/datasets/yuuu94/W2-VLA-Training-Data"
+        }
+      ],
+      "title": "W²-VLA 用未来腕部视觉潜变量约束机器人动作"
+    },
+    {
+      "category": "economy",
+      "confidence": "medium",
+      "date": "2026-08-09",
+      "id": "africa-domestic-solar-manufacturing",
+      "regions": [
+        "Africa",
+        "China",
+        "Ethiopia",
+        "Morocco",
+        "Nigeria",
+        "South Africa"
+      ],
+      "section": "world",
+      "single_source": false,
+      "source_count": 2,
+      "sources": [
+        {
+          "published_at": "2026-08-08T06:12:07Z",
+          "publisher": "Associated Press",
+          "source_type": "wire",
+          "title": "Africa wants more homegrown solar to boost self-reliance, but China's shadow remains",
+          "url": "https://apnews.com/article/renewable-energy-africa-asia-solar-312fa17cdbfcb434843a7f990f1580b7"
+        },
+        {
+          "published_at": "2025-03",
+          "publisher": "ODI Global",
+          "source_type": "research",
+          "title": "China's evolving role in Africa's energy transition",
+          "url": "https://odi.org/en/publications/chinas-evolving-role-in-africas-energy-transition/"
+        }
+      ],
+      "title": "非洲主要经济体加速太阳能本地制造，但关键供应仍依赖中国"
+    },
+    {
+      "category": "climate-environment",
+      "confidence": "high",
+      "date": "2026-08-09",
+      "id": "british-columbia-wildfire-emergency",
+      "regions": [
+        "British Columbia",
+        "Canada",
+        "North America"
+      ],
+      "section": "world",
+      "single_source": false,
+      "source_count": 3,
+      "sources": [
+        {
+          "published_at": "2026-08-08T14:39:56Z",
+          "publisher": "Associated Press",
+          "source_type": "wire",
+          "title": "Wildfires force 20,000 to flee as British Columbia declares state of emergency",
+          "url": "https://apnews.com/article/wildfire-canada-evacuation-british-columbia-okanagan-61002c95f641a4060b78195b016fbea3"
+        },
+        {
+          "published_at": "accessed 2026-08-09T13:22:23+08:00",
+          "publisher": "BC Wildfire Service",
+          "source_type": "primary",
+          "title": "Wildfire situation map",
+          "url": "https://wildfiresituation.nrs.gov.bc.ca/map"
+        },
+        {
+          "published_at": "accessed 2026-08-09T13:22:23+08:00",
+          "publisher": "Government of British Columbia",
+          "source_type": "primary",
+          "title": "EmergencyInfoBC",
+          "url": "https://www.emergencyinfobc.gov.bc.ca/"
+        }
+      ],
+      "title": "卑诗省山火进入紧急状态，逾 2 万人撤离"
+    },
+    {
+      "category": "politics",
+      "confidence": "medium",
+      "date": "2026-08-09",
+      "id": "bulgaria-drone-gas-pipeline",
+      "regions": [
+        "Bulgaria",
+        "Europe",
+        "NATO",
+        "Romania",
+        "Ukraine"
+      ],
+      "section": "world",
+      "single_source": true,
+      "source_count": 1,
+      "sources": [
+        {
+          "published_at": "2026-08-08T11:09:21Z",
+          "publisher": "Associated Press",
+          "source_type": "wire",
+          "title": "A drone likely from Ukraine explodes in Bulgaria near a gas pipeline",
+          "url": "https://apnews.com/article/bulgaria-romania-drone-explosion-gas-pipeline-427dcc0875f5e416dadfee0c022f1cb4"
+        }
+      ],
+      "title": "无人机越过罗马尼亚后在保加利亚天然气管道附近爆炸"
+    },
+    {
+      "category": "politics",
+      "confidence": "medium",
+      "date": "2026-08-09",
+      "id": "iran-hormuz-new-demands",
+      "regions": [
+        "Global",
+        "Iran",
+        "Middle East",
+        "Oman",
+        "United Arab Emirates"
+      ],
+      "section": "world",
+      "single_source": false,
+      "source_count": 3,
+      "sources": [
+        {
+          "published_at": "2026-08-08T10:41:37Z",
+          "publisher": "Associated Press",
+          "source_type": "wire",
+          "title": "Iran makes new strait demands, the UAE says a ship was targeted and other Middle East news",
+          "url": "https://apnews.com/article/yemen-houthis-turkey-kurdish-peace-mideast-roundup-aug-8-2026-feb75871fb82c44b3f7fd0ee02bb24b4"
+        },
+        {
+          "published_at": "2026-08-08",
+          "publisher": "Reuters",
+          "source_type": "wire",
+          "title": "Iran says a deal on the Strait of Hormuz is close but not enough to open the waterway",
+          "url": "https://www.reuters.com/world/middle-east/iran-says-deal-strait-hormuz-is-close-not-enough-open-waterway-2026-08-08/"
+        },
+        {
+          "published_at": "2026-08-08",
+          "publisher": "Reuters",
+          "source_type": "wire",
+          "title": "UAE says Iran attacked an ADNOC vessel in the Strait of Hormuz",
+          "url": "https://www.reuters.com/world/middle-east/uae-says-iran-attacked-adnoc-vessel-with-missile-strait-hormuz-2026-08-08/"
+        }
+      ],
+      "title": "伊朗为重开霍尔木兹海峡提出新的高门槛条件"
+    },
+    {
+      "category": "climate-environment",
+      "confidence": "high",
+      "date": "2026-08-09",
+      "id": "lake-mead-record-low-2026",
+      "regions": [
+        "Colorado River Basin",
+        "Mexico",
+        "North America",
+        "United States"
+      ],
+      "section": "world",
+      "single_source": false,
+      "source_count": 2,
+      "sources": [
+        {
+          "published_at": "2026-08-08T14:01:41Z",
+          "publisher": "Associated Press",
+          "source_type": "wire",
+          "title": "Lake Mead hits historic low water level as Colorado River struggles",
+          "url": "https://apnews.com/article/colorado-river-lake-mead-record-low-fa402842e76ed624f71360f467b2579d"
+        },
+        {
+          "published_at": "accessed 2026-08-09T13:22:23+08:00",
+          "publisher": "U.S. Bureau of Reclamation",
+          "source_type": "primary",
+          "title": "Hoover Dam and Lake Mead last seven days daily operations",
+          "url": "https://www.usbr.gov/lc/region/g4000/riverops/HOVR_FB_LastSevenDays_Daily.html"
+        }
+      ],
+      "title": "米德湖降至蓄水以来最低水位"
+    },
+    {
+      "category": "politics",
+      "confidence": "high",
+      "date": "2026-08-09",
+      "id": "pentagon-weapons-production-push",
+      "regions": [
+        "Middle East",
+        "North America",
+        "United States"
+      ],
+      "section": "world",
+      "single_source": false,
+      "source_count": 2,
+      "sources": [
+        {
+          "published_at": "2026-08-09T02:00:37Z",
+          "publisher": "Associated Press",
+          "source_type": "wire",
+          "title": "Pentagon pushes defense companies to boost weapons production after concerns of depleted stocks",
+          "url": "https://apnews.com/article/iran-war-weapons-stockpile-pentagon-defense-industry-c98e042bfd0fd22cd97d15b1fffa322c"
+        },
+        {
+          "published_at": "2025-06",
+          "publisher": "U.S. Department of Defense",
+          "source_type": "primary",
+          "title": "FY2026 Defense Production Act Purchases industrial-base background",
+          "url": "https://comptroller.defense.gov/Portals/45/Documents/defbudget/FY2026/budget_justification/pdfs/02_Procurement/PROC_DPAP_PB_2026.pdf"
+        }
+      ],
+      "title": "美国国防部要求军工企业在 21 天内提交加速生产方案"
+    },
+    {
+      "category": "culture",
+      "confidence": "high",
+      "date": "2026-08-09",
+      "id": "south-africa-womens-march-70",
+      "regions": [
+        "Africa",
+        "South Africa"
+      ],
+      "section": "world",
+      "single_source": false,
+      "source_count": 2,
+      "sources": [
+        {
+          "published_at": "2026-08-08T04:04:10Z",
+          "publisher": "Associated Press",
+          "source_type": "wire",
+          "title": "70 years after South Africa's women challenged apartheid, some say their freedom isn't complete",
+          "url": "https://apnews.com/article/south-africa-women-anniversary-apartheid-democracy-protest-0c0ee7d109eaaf8094570da7258acd85"
+        },
+        {
+          "published_at": "2026-05-29",
+          "publisher": "South African Government",
+          "source_type": "primary",
+          "title": "Launch of the 70 Years Commemoration of the 1956 Women's March",
+          "url": "https://www.gov.za/news/media-advisories/government-activities/minister-sindisiwe-chikunga-launches-70-years"
+        }
+      ],
+      "title": "南非纪念妇女反通行证大游行 70 周年"
+    },
+    {
+      "category": "politics",
+      "confidence": "high",
+      "date": "2026-08-09",
+      "id": "spain-italy-schengen-checks",
+      "regions": [
+        "Europe",
+        "European Union",
+        "Italy",
+        "Morocco",
+        "Spain"
+      ],
+      "section": "world",
+      "single_source": false,
+      "source_count": 2,
+      "sources": [
+        {
+          "published_at": "2026-08-08T12:53:50Z",
+          "publisher": "Associated Press",
+          "source_type": "wire",
+          "title": "Spain imposes border checks on Italian travelers in tit-for-tat move over Ceuta migrants row",
+          "url": "https://apnews.com/article/spain-italy-ceuta-migrants-schengen-border-controls-f3fc82cadf7dce39d553126a47d61fd7"
+        },
+        {
+          "published_at": "accessed 2026-08-09T13:22:23+08:00",
+          "publisher": "European Commission",
+          "source_type": "primary",
+          "title": "Temporary reintroduction of border control",
+          "url": "https://home-affairs.ec.europa.eu/policies/schengen/schengen-area/temporary-reintroduction-border-control_en"
+        }
+      ],
+      "title": "西班牙与意大利因休达移民争端互设边境检查"
+    },
+    {
+      "category": "climate-environment",
+      "confidence": "high",
+      "date": "2026-08-09",
+      "id": "typhoon-dolphin-china-update",
+      "regions": [
+        "Asia",
+        "China",
+        "East China Sea",
+        "Taiwan"
+      ],
+      "section": "world",
+      "single_source": true,
+      "source_count": 1,
+      "sources": [
+        {
+          "published_at": "2026-08-09T03:49:52Z",
+          "publisher": "Associated Press",
+          "source_type": "wire",
+          "title": "Shanghai cancels 1,300 flights as China prepares for Typhoon Dolphin",
+          "url": "https://apnews.com/article/typhoon-dolphin-d40f4d49b0d89935366f360f1f13afd8"
+        }
+      ],
+      "title": "更新：台风海豚逼近中国东部，上海取消逾 1,300 架次航班"
+    },
+    {
+      "category": "politics",
+      "confidence": "medium",
+      "date": "2026-08-09",
+      "id": "zelensky-serbia-kyiv-strikes",
+      "regions": [
+        "Europe",
+        "Russia",
+        "Serbia",
+        "Ukraine"
+      ],
+      "section": "world",
+      "single_source": true,
+      "source_count": 1,
+      "sources": [
+        {
+          "published_at": "2026-08-08T08:12:27Z",
+          "publisher": "Associated Press",
+          "source_type": "wire",
+          "title": "Zelenskyy visits Moscow-friendly Serbia as Russian attacks on Kyiv region kill 4",
+          "url": "https://apnews.com/article/492d334e26b5485dbf74d7ae9c9d33ce"
+        }
+      ],
+      "title": "泽连斯基首次正式访问塞尔维亚，俄袭基辅地区致 4 人死亡"
+    },
+    {
+      "category": "science",
+      "confidence": "medium",
+      "date": "2026-08-08",
+      "id": "kvae-multimodal-tokenizers",
+      "regions": [
+        "Europe",
+        "Global"
+      ],
+      "section": "ai",
+      "single_source": false,
+      "source_count": 5,
+      "sources": [
+        {
+          "published_at": "2026-08-06",
+          "publisher": "arXiv",
+          "source_type": "research",
+          "title": "KVAE: A Family of Versatile Continuous Tokenizers for Multimodal Generation",
+          "url": "https://arxiv.org/abs/2608.05798"
+        },
+        {
+          "published_at": "accessed 2026-08-08T11:07:31+08:00",
+          "publisher": "Hugging Face Daily Papers",
+          "source_type": "community-index",
+          "title": "KVAE paper page",
+          "url": "https://huggingface.co/papers/2608.05798"
+        },
+        {
+          "published_at": "2026-08-06",
+          "publisher": "Kandinsky Lab",
+          "source_type": "code",
+          "title": "KVAE unified repository",
+          "url": "https://github.com/kandinskylab/kvae"
+        },
+        {
+          "published_at": "accessed 2026-08-08T11:07:31+08:00",
+          "publisher": "Kandinsky Lab / Hugging Face",
+          "source_type": "model-card",
+          "title": "KVAE-3D-2.0-t4s8 model card and weights",
+          "url": "https://huggingface.co/kandinskylab/KVAE-3D-2.0-t4s8"
+        },
+        {
+          "published_at": "accessed 2026-08-08T11:07:31+08:00",
+          "publisher": "Kandinsky Lab / Hugging Face",
+          "source_type": "model-card",
+          "title": "KVAE-Audio model card and weights",
+          "url": "https://huggingface.co/kandinskylab/KVAE-Audio"
+        }
+      ],
+      "title": "KVAE 用一套连续 tokenizer 覆盖音频、图像与视频"
+    },
+    {
+      "category": "technology",
+      "confidence": "medium",
+      "date": "2026-08-08",
+      "id": "muse-spark-1-2-code",
+      "regions": [
+        "Global",
+        "North America"
+      ],
+      "section": "ai",
+      "single_source": false,
+      "source_count": 2,
+      "sources": [
+        {
+          "published_at": "accessed 2026-08-08T11:14:00+08:00",
+          "publisher": "HuggingNews",
+          "source_type": "community-index",
+          "title": "Muse Spark 1.2 attention snapshot",
+          "url": "https://huggingnews.com/ai/meta-launches-muse-spark-12-ai-model-with-040-task-cost-to-rank-fourth-i-ac277f22"
+        },
+        {
+          "published_at": "2026-08-05",
+          "publisher": "Meta AI Developers",
+          "source_type": "primary",
+          "title": "Meet Muse Spark 1.2 and Muse Code",
+          "url": "https://developer.meta.com/ai/resources/blog/build-with-muse-code/"
+        }
+      ],
+      "title": "Meta 用 Muse Spark 1.2 与 Muse Code 处理长时编码任务"
+    },
+    {
+      "category": "technology",
+      "confidence": "medium",
+      "date": "2026-08-08",
+      "id": "prime-rl-verifiers-multi-agent",
+      "regions": [
+        "Global",
+        "North America"
+      ],
+      "section": "ai",
+      "single_source": false,
+      "source_count": 3,
+      "sources": [
+        {
+          "published_at": "accessed 2026-08-08T11:14:00+08:00",
+          "publisher": "HuggingNews",
+          "source_type": "community-index",
+          "title": "Prime Intellect multi-agent training attention snapshot",
+          "url": "https://huggingnews.com/ai/prime-intellect-launches-multi-agent-training-capability-in-rl-versions-e83a1630"
+        },
+        {
+          "published_at": "2026-08-08T01:21:02+08:00",
+          "publisher": "Prime Intellect / GitHub",
+          "source_type": "code",
+          "title": "prime-rl v0.8.0",
+          "url": "https://github.com/PrimeIntellect-ai/prime-rl/releases/tag/v0.8.0"
+        },
+        {
+          "published_at": "2026-08-08T01:08:23+08:00",
+          "publisher": "Prime Intellect / GitHub",
+          "source_type": "code",
+          "title": "verifiers v0.3.0",
+          "url": "https://github.com/PrimeIntellect-ai/verifiers/releases/tag/v0.3.0"
+        }
+      ],
+      "title": "prime-rl 与 verifiers 把多代理交互接入开源强化学习训练"
+    },
+    {
+      "category": "climate-environment",
+      "confidence": "medium",
+      "date": "2026-08-08",
+      "id": "amboseli-elephant-cyanide-investigation",
+      "regions": [
+        "Africa",
+        "Amboseli",
+        "Kenya"
+      ],
+      "section": "world",
+      "single_source": false,
+      "source_count": 2,
+      "sources": [
+        {
+          "published_at": "2026-08-07T04:17:02Z",
+          "publisher": "Associated Press",
+          "source_type": "wire",
+          "title": "Farmers in Kenya dispute that cyanide poisoning could have killed 16 elephants",
+          "url": "https://apnews.com/article/kenya-amboseli-elephants-dead-cyanide-farms-0b2af9a859cf4bb6d0d60413dceb1026"
+        },
+        {
+          "published_at": "accessed 2026-08-08",
+          "publisher": "Kenya Wildlife Service",
+          "source_type": "primary",
+          "title": "Amboseli National Park",
+          "url": "https://kws.go.ke/park/amboseli-national-park/"
+        }
+      ],
+      "title": "肯尼亚 16 头大象死亡，氰化物来源仍待追查"
+    },
+    {
+      "category": "economy",
+      "confidence": "high",
+      "date": "2026-08-08",
+      "id": "china-july-trade-2026",
+      "regions": [
+        "Asia",
+        "China",
+        "Global"
+      ],
+      "section": "world",
+      "single_source": true,
+      "source_count": 1,
+      "sources": [
+        {
+          "published_at": "2026-08-07",
+          "publisher": "Associated Press",
+          "source_type": "wire",
+          "title": "China's July exports and imports maintain strong growth",
+          "url": "https://apnews.com/article/china-trade-exports-imports-iran-oil-8bd433d388d143ba2d37a10aefdc5629"
+        }
+      ],
+      "title": "中国 7 月进出口继续高增长，贸易顺差收窄"
+    },
+    {
+      "category": "politics",
+      "confidence": "high",
+      "date": "2026-08-08",
+      "id": "colombia-energy-policy-shift",
+      "regions": [
+        "Colombia",
+        "Latin America"
+      ],
+      "section": "world",
+      "single_source": false,
+      "source_count": 2,
+      "sources": [
+        {
+          "published_at": "2026-08-07T12:53:16Z",
+          "publisher": "Associated Press",
+          "source_type": "wire",
+          "title": "Colombia's new president takes office in ceremony in Cali",
+          "url": "https://apnews.com/article/colombia-inauguration-de-la-espriella-president-cali-bogota-petro-6a062df06d20e440ba0e4f7ee7587af6"
+        },
+        {
+          "published_at": "2026-08-08T00:57:24Z",
+          "publisher": "Associated Press",
+          "source_type": "wire",
+          "title": "Colombia's new president signals energy policy shift, backs oil and gas",
+          "url": "https://apnews.com/article/colombia-president-espriella-environment-oil-gas-fracking-ecopetrol-4d4e23b739ca82f6b5b736228b4d988f"
+        }
+      ],
+      "title": "哥伦比亚新总统就职并提出逆转油气政策"
+    },
+    {
+      "category": "technology",
+      "confidence": "high",
+      "date": "2026-08-08",
+      "id": "faa-737-max-bear-strap-inspections",
+      "regions": [
+        "Global",
+        "North America",
+        "United States"
+      ],
+      "section": "world",
+      "single_source": false,
+      "source_count": 2,
+      "sources": [
+        {
+          "published_at": "2026-08-07T16:03:42Z",
+          "publisher": "Associated Press",
+          "source_type": "wire",
+          "title": "FAA orders crack inspections for hundreds of Boeing 737 Max jets",
+          "url": "https://apnews.com/article/boeing-737-max-crack-inspections-faa-f9d4c01a70c760f82520f09ea91137ac"
+        },
+        {
+          "published_at": "accessed 2026-08-08",
+          "publisher": "Federal Aviation Administration",
+          "source_type": "primary",
+          "title": "Boeing 737 MAX Reading Room",
+          "url": "https://www.faa.gov/foia/electronic_reading_room/boeing_reading_room"
+        }
+      ],
+      "title": "FAA 要求 471 架 737 MAX 做预防性结构裂纹检查"
+    },
+    {
+      "category": "politics",
+      "confidence": "high",
+      "date": "2026-08-08",
+      "id": "mecca-joint-defense-agreement",
+      "regions": [
+        "Europe",
+        "Middle East",
+        "Pakistan",
+        "Saudi Arabia",
+        "South Asia",
+        "Türkiye"
+      ],
+      "section": "world",
+      "single_source": false,
+      "source_count": 2,
+      "sources": [
+        {
+          "published_at": "2026-08-07T11:31:07Z",
+          "publisher": "Associated Press",
+          "source_type": "wire",
+          "title": "Turkey, Pakistan and Saudi Arabia sign a mutual defense deal, and other Middle East news",
+          "url": "https://apnews.com/article/mideast-news-roundup-iran-saudi-pakistan-turkey-aug-7-2026-d2ddfe7ce02c7814420b9029158ed57c"
+        },
+        {
+          "published_at": "2026-08-07T09:52:18Z",
+          "publisher": "Associated Press",
+          "source_type": "wire",
+          "title": "Saudi Arabia, Turkey and Pakistan have signed a key defense agreement",
+          "url": "https://apnews.com/article/saudi-arabia-turkey-pakistan-defense-agreement-58048d4a100befd4d2c18e0cbae58b7c"
+        }
+      ],
+      "title": "沙特、土耳其和巴基斯坦签署麦加联合防务协议"
+    },
+    {
+      "category": "health-society",
+      "confidence": "high",
+      "date": "2026-08-08",
+      "id": "thailand-nonthaburi-school-shooting",
+      "regions": [
+        "Asia",
+        "Thailand"
+      ],
+      "section": "world",
+      "single_source": false,
+      "source_count": 2,
+      "sources": [
+        {
+          "published_at": "2026-08-07T04:08:11Z",
+          "publisher": "Associated Press",
+          "source_type": "wire",
+          "title": "Student kills at least 7 people at a high school and a home outside Bangkok",
+          "url": "https://apnews.com/article/thailand-nonthaburi-school-shooting-7939000dbad098198a9fc77169028762"
+        },
+        {
+          "published_at": "2026-08-07",
+          "publisher": "Reuters",
+          "source_type": "wire",
+          "title": "From his quiet home to a shooting spree at school: Thai teenager's deadly rampage",
+          "url": "https://www.reuters.com/world/asia-pacific/his-quiet-home-shooting-spree-school-thai-teenagers-deadly-rampage-2026-08-07/"
+        }
+      ],
+      "title": "泰国 14 岁学生在学校及家中杀死至少 7 人"
+    },
+    {
+      "category": "climate-environment",
+      "confidence": "high",
+      "date": "2026-08-08",
+      "id": "typhoon-dolphin-okinawa",
+      "regions": [
+        "Asia",
+        "China",
+        "Japan",
+        "Okinawa"
+      ],
+      "section": "world",
+      "single_source": false,
+      "source_count": 2,
+      "sources": [
+        {
+          "published_at": "2026-08-07",
+          "publisher": "Associated Press",
+          "source_type": "wire",
+          "title": "Typhoon Dolphin hits Japan's Okinawa islands",
+          "url": "https://apnews.com/article/japan-okinawa-china-storm-typhoon-dolphin-a04335196cfec80187102030b4fafcd4"
+        },
+        {
+          "published_at": "accessed 2026-08-08T11:17:58+08:00",
+          "publisher": "Japan Meteorological Agency",
+          "source_type": "primary",
+          "title": "Typhoon information",
+          "url": "https://www.jma.go.jp/bosai/information/typhoon.html"
+        }
+      ],
+      "title": "台风海豚影响冲绳，那霸机场全面停航"
+    },
+    {
+      "category": "health-society",
+      "confidence": "high",
+      "date": "2026-08-08",
+      "id": "us-jalapeno-salmonella-2026",
+      "regions": [
+        "Mexico",
+        "North America",
+        "United States"
+      ],
+      "section": "world",
+      "single_source": false,
+      "source_count": 3,
+      "sources": [
+        {
+          "published_at": "2026-08-06T15:52:56Z",
+          "publisher": "Associated Press",
+          "source_type": "wire",
+          "title": "Jalapeños linked to a U.S. salmonella outbreak are tracked to Mexico",
+          "url": "https://apnews.com/article/jalapenos-salmonella-chipotle-qdoba-335dffe4980a7063b1deccc2bf8390b2"
+        },
+        {
+          "published_at": "updated 2026-08-05",
+          "publisher": "U.S. Centers for Disease Control and Prevention",
+          "source_type": "primary",
+          "title": "Salmonella outbreak investigations",
+          "url": "https://www.cdc.gov/salmonella/outbreaks/index.html"
+        },
+        {
+          "published_at": "updated 2026-08-05",
+          "publisher": "U.S. Food and Drug Administration",
+          "source_type": "primary",
+          "title": "Investigations of Foodborne Illness Outbreaks",
+          "url": "https://www.fda.gov/food/outbreaks-foodborne-illness/investigations-foodborne-illness-outbreaks"
+        }
+      ],
+      "title": "美国 27 州沙门氏菌疫情追溯至墨西哥辣椒供应链"
+    },
+    {
+      "category": "economy",
+      "confidence": "high",
+      "date": "2026-08-08",
+      "id": "us-july-jobs-2026",
+      "regions": [
+        "Global",
+        "North America",
+        "United States"
+      ],
+      "section": "world",
+      "single_source": false,
+      "source_count": 3,
+      "sources": [
+        {
+          "published_at": "2026-08-07",
+          "publisher": "Associated Press",
+          "source_type": "wire",
+          "title": "U.S. jobs report analysis",
+          "url": "https://apnews.com/article/economy-jobs-trump-unemployment-rate-jobseekers-9c2d147c14bc428458be5a1e83e54957"
+        },
+        {
+          "published_at": "2026-08-07",
+          "publisher": "Associated Press",
+          "source_type": "wire",
+          "title": "Stocks rise and Treasury yields fall after the jobs report",
+          "url": "https://apnews.com/article/stocks-markets-rates-iran-9636095906bbb689a1f612bce9a07343"
+        },
+        {
+          "published_at": "2026-08-07T08:30:00-04:00",
+          "publisher": "U.S. Bureau of Labor Statistics",
+          "source_type": "primary",
+          "title": "The Employment Situation — July 2026",
+          "url": "https://www.bls.gov/news.release/empsit.nr0.htm"
+        }
+      ],
+      "title": "美国 7 月非农就业减少 2.3 万，前两月再下修 10.3 万"
+    },
+    {
+      "category": "politics",
+      "confidence": "high",
+      "date": "2026-08-08",
+      "id": "us-senate-russia-sanctions-2026",
+      "regions": [
+        "Asia",
+        "Europe",
+        "Global",
+        "North America",
+        "Russia"
+      ],
+      "section": "world",
+      "single_source": false,
+      "source_count": 2,
+      "sources": [
+        {
+          "published_at": "2026-08-07",
+          "publisher": "Associated Press",
+          "source_type": "wire",
+          "title": "Senate passes Russia sanctions package",
+          "url": "https://apnews.com/article/senate-russia-sanctions-graham-tariffs-8d37498c3f27d96cae7da147250ebe9f"
+        },
+        {
+          "published_at": "2026-07-28",
+          "publisher": "Office of U.S. Senator Katie Britt",
+          "source_type": "primary",
+          "title": "Senators announce agreement on Russia and Iran sanctions legislation",
+          "url": "https://www.britt.senate.gov/news/press-releases/u-s-senators-katie-britt-richard-blumenthal-darline-graham-jeanne-shaheen-jim-risch-roger-wicker-announce-agreement-to-move-forward-on-major-sanctions-legislation-host-meeting-with-president-z/"
+        }
+      ],
+      "title": "美国参议院 86 比 11 通过大规模对俄制裁法案"
+    },
+    {
+      "category": "technology",
+      "confidence": "medium",
+      "date": "2026-08-07",
+      "id": "shieldstral-1-0-3b",
+      "regions": [
+        "Europe",
+        "Global"
+      ],
+      "section": "ai",
+      "single_source": false,
+      "source_count": 3,
+      "sources": [
+        {
+          "published_at": "2026-07-31",
+          "publisher": "arXiv",
+          "source_type": "research",
+          "title": "Shieldstral: A Policy-Adaptive Multimodal Safety Classifier",
+          "url": "https://arxiv.org/abs/2607.25857"
+        },
+        {
+          "published_at": "2026-08-04",
+          "publisher": "Mistral AI",
+          "source_type": "primary",
+          "title": "Introducing Shieldstral",
+          "url": "https://mistral.ai/news/shieldstral/"
+        },
+        {
+          "published_at": "updated 2026-08-05",
+          "publisher": "Mistral AI / Hugging Face",
+          "source_type": "model-card",
+          "title": "Shieldstral 1.0 3B model card and weights",
+          "url": "https://huggingface.co/mistralai/Shieldstral-1.0-3B"
+        }
+      ],
+      "title": "Shieldstral 用自然语言政策统一文本与图像安全审核"
+    },
+    {
+      "category": "science",
+      "confidence": "medium",
+      "date": "2026-08-07",
+      "id": "unime-r1-retrieval-cot",
+      "regions": [
+        "Asia",
+        "Global"
+      ],
+      "section": "ai",
+      "single_source": false,
+      "source_count": 5,
+      "sources": [
+        {
+          "published_at": "2026-08-06",
+          "publisher": "arXiv",
+          "source_type": "research",
+          "title": "Learning from Failures: Retrieval-Centric CoT via Hard Negatives for Unified Multimodal Retrieval",
+          "url": "https://arxiv.org/abs/2608.06060"
+        },
+        {
+          "published_at": "2026-08-06",
+          "publisher": "DeepGlint",
+          "source_type": "code",
+          "title": "UniME-R1 source code",
+          "url": "https://github.com/deepglint/UniME-R1"
+        },
+        {
+          "published_at": "2026-08-06",
+          "publisher": "DeepGlint / Hugging Face",
+          "source_type": "model-card",
+          "title": "UniME-R1-2B model weights",
+          "url": "https://huggingface.co/DeepGlint-AI/UniME-R1-2B"
+        },
+        {
+          "published_at": "2026-08-06",
+          "publisher": "DeepGlint / Hugging Face",
+          "source_type": "research",
+          "title": "UniME-R1 training and evaluation data",
+          "url": "https://huggingface.co/datasets/DeepGlint-AI/UniME-R1"
+        },
+        {
+          "published_at": "accessed 2026-08-07T11:13:57+08:00",
+          "publisher": "Hugging Face Daily Papers",
+          "source_type": "community-index",
+          "title": "UniME-R1 paper page",
+          "url": "https://huggingface.co/papers/2608.06060"
+        }
+      ],
+      "title": "UniME-R1 让多模态检索从真实失败候选中生成推理"
+    },
+    {
+      "category": "technology",
+      "confidence": "medium",
+      "date": "2026-08-07",
+      "id": "unsloth-dspark-deepseek-v4",
+      "regions": [
+        "Global",
+        "North America"
+      ],
+      "section": "ai",
+      "single_source": false,
+      "source_count": 4,
+      "sources": [
+        {
+          "published_at": "updated 2026-08-06",
+          "publisher": "Unsloth",
+          "source_type": "primary",
+          "title": "DeepSeek-V4 local inference and DSpark guide",
+          "url": "https://unsloth.ai/docs/models/deepseek-v4#dspark-speculative-decoding"
+        },
+        {
+          "published_at": "2026-08-06",
+          "publisher": "Unsloth / Hugging Face",
+          "source_type": "code",
+          "title": "DSpark speculative decoding drafters for DeepSeek-V4-Flash-0731",
+          "url": "https://huggingface.co/unsloth/DeepSeek-V4-Flash-0731-GGUF/blob/main/dspark/README.md"
+        },
+        {
+          "published_at": "updated 2026-08-06",
+          "publisher": "Unsloth / Hugging Face",
+          "source_type": "model-card",
+          "title": "DeepSeek-V4-Flash-0731 GGUF repository",
+          "url": "https://huggingface.co/unsloth/DeepSeek-V4-Flash-0731-GGUF"
+        },
+        {
+          "published_at": "2026-08-06",
+          "publisher": "Unsloth / Hugging Face",
+          "source_type": "research",
+          "title": "DSpark raw benchmark measurements",
+          "url": "https://huggingface.co/datasets/danielhanchen/minimax-2.7-analysis/tree/main/dspark_deepseek_v4_flash_0731_2026_08_06"
+        }
+      ],
+      "title": "Unsloth 为 DeepSeek-V4-Flash 接入可选 DSpark 推测解码"
+    },
+    {
+      "category": "politics",
+      "confidence": "high",
+      "date": "2026-08-07",
+      "id": "ayotzinapa-aguirre-arrest",
+      "regions": [
+        "Latin America",
+        "Mexico",
+        "North America"
+      ],
+      "section": "world",
+      "single_source": false,
+      "source_count": 2,
+      "sources": [
+        {
+          "published_at": "2026-08-06T20:18:30Z",
+          "publisher": "Associated Press",
+          "source_type": "wire",
+          "title": "More than a decade after 43 students vanished in Mexico, ex-governor arrested, accused of cover-up",
+          "url": "https://apnews.com/article/2f2a03e36b20207fb8d3d8f168c10515"
+        },
+        {
+          "published_at": "2026-08-06",
+          "publisher": "El País",
+          "source_type": "regional-media",
+          "title": "Detenido Ángel Aguirre por ocultar evidencia del caso Ayotzinapa",
+          "url": "https://elpais.com/mexico/2026-08-06/detenido-angel-aguirre-exgobernador-de-guerrero-por-ocultar-evidencia-del-caso-ayotzinapa.html"
+        }
+      ],
+      "title": "Ayotzinapa 案时任州长因涉嫌隐匿证据被捕"
+    },
+    {
+      "category": "economy",
+      "confidence": "high",
+      "date": "2026-08-07",
+      "id": "canada-us-tariff-talks",
+      "regions": [
+        "Canada",
+        "North America",
+        "United States"
+      ],
+      "section": "world",
+      "single_source": false,
+      "source_count": 2,
+      "sources": [
+        {
+          "published_at": "2026-08-06T19:58:59Z",
+          "publisher": "Associated Press",
+          "source_type": "wire",
+          "title": "Carney says US trade talks are 'nasty' after Trump criticizes Canada's leadership",
+          "url": "https://apnews.com/article/b56647b4a3c66b76c57a48386559ec18"
+        },
+        {
+          "published_at": "2026-07",
+          "publisher": "The White House",
+          "source_type": "primary",
+          "title": "Imposing additional duties to offset Canadian discrimination with respect to dairy",
+          "url": "https://www.whitehouse.gov/presidential-actions/2026/07/imposing-additional-duties-to-offset-canadian-discrimination-against-the-commerce-of-the-united-states-with-respect-to-dairy/"
+        }
+      ],
+      "title": "加美关税谈判转趋激烈，8 月 19 日期限逼近"
+    },
+    {
+      "category": "climate-environment",
+      "confidence": "medium",
+      "date": "2026-08-07",
+      "id": "canada-wildfire-attribution-2026",
+      "regions": [
+        "Canada",
+        "North America"
+      ],
+      "section": "world",
+      "single_source": false,
+      "source_count": 2,
+      "sources": [
+        {
+          "published_at": "2026-08-06T04:01:34Z",
+          "publisher": "Associated Press",
+          "source_type": "wire",
+          "title": "Climate change created conditions for Canada fires, scientists say",
+          "url": "https://apnews.com/article/99389ce431e3f4c8821218e2134d6ada"
+        },
+        {
+          "published_at": "2026-08-06",
+          "publisher": "World Weather Attribution",
+          "source_type": "research",
+          "title": "Climate change means extreme fire seasons in Canada are here to stay",
+          "url": "https://www.worldweatherattribution.org/climate-change-canada-wildfires-2026/"
+        }
+      ],
+      "title": "快速归因研究称变暖使加拿大危险火险天气概率约翻倍"
+    },
+    {
+      "category": "science",
+      "confidence": "high",
+      "date": "2026-08-07",
+      "id": "danuri-falcon9-moon-impact",
+      "regions": [
+        "Asia",
+        "Global",
+        "South Korea",
+        "Space"
+      ],
+      "section": "world",
+      "single_source": false,
+      "source_count": 3,
+      "sources": [
+        {
+          "published_at": "2026-07-20",
+          "publisher": "arXiv",
+          "source_type": "research",
+          "title": "Observing the 2026 Falcon 9 lunar impact",
+          "url": "https://arxiv.org/abs/2607.14625"
+        },
+        {
+          "published_at": "2026-08-06T19:46:36Z",
+          "publisher": "Associated Press",
+          "source_type": "wire",
+          "title": "South Korean satellite captures before and after views of SpaceX rocket's moon crash",
+          "url": "https://apnews.com/article/61dc5c43f671623622960013e06aeeb1"
+        },
+        {
+          "published_at": "updated 2026-08-06",
+          "publisher": "Korea Aerospace Research Institute",
+          "source_type": "primary",
+          "title": "Danuri lunar image gallery",
+          "url": "https://www.kari.re.kr/eng/83/img/S/MOON"
+        }
+      ],
+      "title": "韩国 Danuri 公布废弃火箭撞月前后图像"
+    },
+    {
+      "category": "health-society",
+      "confidence": "medium",
+      "date": "2026-08-07",
+      "id": "drc-ebola-boat-monitoring-update",
+      "regions": [
+        "Africa",
+        "Democratic Republic of the Congo"
+      ],
+      "section": "world",
+      "single_source": false,
+      "source_count": 2,
+      "sources": [
+        {
+          "published_at": "2026-08-06T08:57:26Z",
+          "publisher": "Associated Press",
+          "source_type": "wire",
+          "title": "Congo monitors 200 boat passengers near Kinshasa after a traveler dies with Ebola-like symptoms",
+          "url": "https://apnews.com/article/1de45c3ecedabb974dce0b176f0dcc3f"
+        },
+        {
+          "published_at": "2026-07-17",
+          "publisher": "World Health Organization",
+          "source_type": "primary",
+          "title": "Disease Outbreak News: Ebola virus disease – Democratic Republic of the Congo",
+          "url": "https://www.who.int/emergencies/disease-outbreak-news/item/2026-DON613"
+        }
+      ],
+      "title": "更新：刚果（金）在金沙萨附近监测近 200 名船客"
+    },
+    {
+      "category": "politics",
+      "confidence": "medium",
+      "date": "2026-08-07",
+      "id": "israel-settler-indictment-hathaleen",
+      "regions": [
+        "Israel",
+        "Middle East",
+        "West Bank"
+      ],
+      "section": "world",
+      "single_source": true,
+      "source_count": 1,
+      "sources": [
+        {
+          "published_at": "2026-08-06T10:03:12Z",
+          "publisher": "Associated Press",
+          "source_type": "wire",
+          "title": "Israeli prosecutors charge settler with killing Palestinian activist in rare indictment",
+          "url": "https://apnews.com/article/58e246abe5bda4d075bc61d31b7ffdfb"
+        }
+      ],
+      "title": "以色列检方罕见起诉涉嫌杀害巴勒斯坦活动人士的定居者"
+    },
+    {
+      "category": "technology",
+      "confidence": "high",
+      "date": "2026-08-07",
+      "id": "new-mexico-meta-remedy",
+      "regions": [
+        "North America",
+        "United States"
+      ],
+      "section": "world",
+      "single_source": false,
+      "source_count": 2,
+      "sources": [
+        {
+          "published_at": "2026-08-06T23:36:13Z",
+          "publisher": "Associated Press",
+          "source_type": "wire",
+          "title": "Court orders Instagram and Facebook's Meta to pay $567M to address kids' mental health online",
+          "url": "https://apnews.com/article/21b425faf745d0f736b310ebd8bc6b89"
+        },
+        {
+          "published_at": "2026-08-06",
+          "publisher": "New Mexico Department of Justice",
+          "source_type": "primary",
+          "title": "Statement on final judgment in State of New Mexico v. Meta",
+          "url": "https://nmdoj.gov/press-release/statement-from-attorney-general-raul-torrez-on-final-judgment-in-state-of-new-mexico-v-meta/"
+        }
+      ],
+      "title": "新墨西哥法院要求 Meta 再投入 5.67 亿美元处理儿童伤害"
+    },
+    {
+      "category": "politics",
+      "confidence": "high",
+      "date": "2026-08-07",
+      "id": "taiwan-han-kuang-42",
+      "regions": [
+        "Asia",
+        "East Asia",
+        "Taiwan"
+      ],
+      "section": "world",
+      "single_source": false,
+      "source_count": 3,
+      "sources": [
+        {
+          "published_at": "2026",
+          "publisher": "All-out Defense Mobilization Agency",
+          "source_type": "primary",
+          "title": "2026 urban resilience and air-raid exercise arrangements",
+          "url": "https://adma.mnd.gov.tw/uniten/100003/8111"
+        },
+        {
+          "published_at": "2026-08-06T09:41:48Z",
+          "publisher": "Associated Press",
+          "source_type": "wire",
+          "title": "Taiwan's military drills suggest deeper alignment with the US",
+          "url": "https://apnews.com/article/283f26ae2757166fcd3542471f927f00"
+        },
+        {
+          "published_at": "2026",
+          "publisher": "Taiwan Ministry of National Defense",
+          "source_type": "primary",
+          "title": "Han Kuang 42 exercise plan",
+          "url": "https://www.mnd.gov.tw/news/pressrelease/87171"
+        }
+      ],
+      "title": "台湾汉光演习转向持续作战、分散指挥与社会韧性"
+    },
+    {
+      "category": "politics",
+      "confidence": "medium",
+      "date": "2026-08-07",
+      "id": "uganda-gaza-stabilization-force",
+      "regions": [
+        "Africa",
+        "Gaza",
+        "Middle East",
+        "Uganda"
+      ],
+      "section": "world",
+      "single_source": true,
+      "source_count": 1,
+      "sources": [
+        {
+          "published_at": "2026-08-06T14:27:21Z",
+          "publisher": "Associated Press",
+          "source_type": "wire",
+          "title": "Uganda approves sending troops for international force in Gaza",
+          "url": "https://apnews.com/article/2363467ec800644552f8be5a1b84f8f4"
+        }
+      ],
+      "title": "乌干达议会批准为加沙国际稳定部队出兵"
+    },
+    {
+      "category": "technology",
+      "confidence": "high",
+      "date": "2026-08-06",
+      "id": "garak-0-16-0",
+      "regions": [
+        "Global",
+        "North America"
+      ],
+      "section": "ai",
+      "single_source": false,
+      "source_count": 3,
+      "sources": [
+        {
+          "published_at": "accessed 2026-08-06T12:15:32+08:00",
+          "publisher": "NVIDIA",
+          "source_type": "code",
+          "title": "garak source code",
+          "url": "https://github.com/NVIDIA/garak"
+        },
+        {
+          "published_at": "2026-08-05T03:03:00+08:00",
+          "publisher": "NVIDIA",
+          "source_type": "code",
+          "title": "garak v0.16.0 release notes",
+          "url": "https://github.com/NVIDIA/garak/releases/tag/v0.16.0"
+        },
+        {
+          "published_at": "2026-08-05",
+          "publisher": "PyPI",
+          "source_type": "code",
+          "title": "garak package",
+          "url": "https://pypi.org/project/garak/"
+        }
+      ],
+      "title": "garak 0.16.0 为红队扫描加入技术—意图上下文"
+    },
+    {
+      "category": "technology",
+      "confidence": "medium",
+      "date": "2026-08-06",
+      "id": "minimax-h3",
+      "regions": [
+        "Asia",
+        "Global"
+      ],
+      "section": "ai",
+      "single_source": false,
+      "source_count": 3,
+      "sources": [
+        {
+          "published_at": "2026-08-05",
+          "publisher": "ComfyUI",
+          "source_type": "code",
+          "title": "ComfyUI v0.30.0 release",
+          "url": "https://github.com/Comfy-Org/ComfyUI/releases/tag/v0.30.0"
+        },
+        {
+          "published_at": "2026-08-04",
+          "publisher": "MiniMax",
+          "source_type": "code",
+          "title": "MiniMax-H3 source code",
+          "url": "https://github.com/MiniMax-AI/MiniMax-H3"
+        },
+        {
+          "published_at": "2026-08-04",
+          "publisher": "MiniMax / Hugging Face",
+          "source_type": "model-card",
+          "title": "MiniMax-H3 model card and weights",
+          "url": "https://huggingface.co/MiniMaxAI/MiniMax-H3"
+        }
+      ],
+      "title": "MiniMax H3 开放 33B 单流音视频生成权重"
+    },
+    {
+      "category": "science",
+      "confidence": "medium",
+      "date": "2026-08-06",
+      "id": "toolartist-agentic-image",
+      "regions": [
+        "Asia",
+        "Global"
+      ],
+      "section": "ai",
+      "single_source": false,
+      "source_count": 4,
+      "sources": [
+        {
+          "published_at": "2026-08-05",
+          "publisher": "arXiv",
+          "source_type": "research",
+          "title": "ToolArtist: Agentic Image Generation with Unified Tool Use",
+          "url": "https://arxiv.org/abs/2608.04436"
+        },
+        {
+          "published_at": "2026-08-05",
+          "publisher": "bubble65",
+          "source_type": "code",
+          "title": "EMU-Agentic-PostTrain source code",
+          "url": "https://github.com/bubble65/EMU-Agentic-PostTrain"
+        },
+        {
+          "published_at": "2026-08-05",
+          "publisher": "bubble65 / Hugging Face",
+          "source_type": "research",
+          "title": "EMU-Agentic-PostTrain-Data",
+          "url": "https://huggingface.co/datasets/bubble65/EMU-Agentic-PostTrain-Data"
+        },
+        {
+          "published_at": "accessed 2026-08-06T12:15:25+08:00",
+          "publisher": "Hugging Face Daily Papers",
+          "source_type": "community-index",
+          "title": "ToolArtist paper page",
+          "url": "https://huggingface.co/papers/2608.04436"
+        }
+      ],
+      "title": "ToolArtist 把搜索、推理与绘图放进同一个多模态策略"
+    },
+    {
+      "category": "markets",
+      "confidence": "high",
+      "date": "2026-08-06",
+      "id": "brazil-selic-14",
+      "regions": [
+        "Brazil",
+        "South America"
+      ],
+      "section": "world",
+      "single_source": false,
+      "source_count": 2,
+      "sources": [
+        {
+          "published_at": "2026-08-05",
+          "publisher": "Banco Central do Brasil",
+          "source_type": "primary",
+          "title": "Copom reduces the Selic rate to 14.00% p.a. — 280th Meeting",
+          "url": "https://www.bcb.gov.br/en/monetarypolicy/copomstatements"
+        },
+        {
+          "published_at": "2026-08-05",
+          "publisher": "Banco Central do Brasil",
+          "source_type": "primary",
+          "title": "History of interest rates — 280th meeting",
+          "url": "https://www.bcb.gov.br/en/monetarypolicy/interestrates"
+        }
+      ],
+      "title": "巴西央行小幅降息，将 Selic 下调至 14.00%"
+    },
+    {
+      "category": "climate-environment",
+      "confidence": "medium",
+      "date": "2026-08-06",
+      "id": "europe-heat-danube-rhine",
+      "regions": [
+        "Europe"
+      ],
+      "section": "world",
+      "single_source": true,
+      "source_count": 1,
+      "sources": [
+        {
+          "published_at": "2026-08-05",
+          "publisher": "Reuters",
+          "source_type": "wire",
+          "title": "Austria hits record temperature, Hungary curbs power use as Europe feels the heat",
+          "url": "https://www.reuters.com/business/environment/albanian-firefighters-battle-blazes-southern-eastern-europe-feels-heat-2026-08-05/"
+        }
+      ],
+      "title": "欧洲热浪与低水位同时挤压电力和航运"
+    },
+    {
+      "category": "culture",
+      "confidence": "high",
+      "date": "2026-08-06",
+      "id": "hiroshima-81st-anniversary",
+      "regions": [
+        "Asia",
+        "Global",
+        "Japan"
+      ],
+      "section": "world",
+      "single_source": false,
+      "source_count": 2,
+      "sources": [
+        {
+          "published_at": "2026-08-06T03:15:00Z",
+          "publisher": "Associated Press",
+          "source_type": "wire",
+          "title": "Hiroshima marks 81st atomic bomb anniversary as mayor deplores the pursuit of nuclear weapons",
+          "url": "https://apnews.com/article/1d0af8bb88ad9ccd8958f751937ec6b0"
+        },
+        {
+          "published_at": "accessed 2026-08-06T13:47:09+08:00",
+          "publisher": "City of Hiroshima",
+          "source_type": "primary",
+          "title": "Announcement regarding the 2026 Peace Memorial Ceremony",
+          "url": "https://www.city.hiroshima.lg.jp/english/peace/1029871/1049999.html"
+        }
+      ],
+      "title": "广岛纪念原爆 81 周年，市长再批核威慑竞赛"
+    },
+    {
+      "category": "politics",
+      "confidence": "medium",
+      "date": "2026-08-06",
+      "id": "kyiv-barrage-air-defense",
+      "regions": [
+        "Europe",
+        "Ukraine"
+      ],
+      "section": "world",
+      "single_source": true,
+      "source_count": 1,
+      "sources": [
+        {
+          "published_at": "2026-08-05T05:49:40Z",
+          "publisher": "Associated Press",
+          "source_type": "wire",
+          "title": "Russian barrage in Ukraine's capital region kills 17 as air defenses fall short",
+          "url": "https://apnews.com/article/64f8e53f9650d4104bb7375361abd990"
+        }
+      ],
+      "title": "基辅地区空袭致 17 人死亡，防空缺口再度暴露"
+    },
+    {
+      "category": "politics",
+      "confidence": "medium",
+      "date": "2026-08-06",
+      "id": "lebanon-truce-escalation",
+      "regions": [
+        "Israel",
+        "Lebanon",
+        "Middle East"
+      ],
+      "section": "world",
+      "single_source": true,
+      "source_count": 1,
+      "sources": [
+        {
+          "published_at": "2026-08-06T04:19:56Z",
+          "publisher": "Associated Press",
+          "source_type": "wire",
+          "title": "2 soldiers killed in Lebanon in the first Israeli deaths since June truce with Hezbollah",
+          "url": "https://apnews.com/article/c94313277641ce409718d0a2e7ae2cd2"
+        }
+      ],
+      "title": "黎以停火后首次出现以军死亡，罗马谈判提前结束"
+    },
+    {
+      "category": "health-society",
+      "confidence": "medium",
+      "date": "2026-08-06",
+      "id": "mflusiva-fda-approval",
+      "regions": [
+        "North America",
+        "United States"
+      ],
+      "section": "world",
+      "single_source": false,
+      "source_count": 2,
+      "sources": [
+        {
+          "published_at": "2026-08-05",
+          "publisher": "Reuters",
+          "source_type": "wire",
+          "title": "US FDA approves first mRNA flu shot from Moderna",
+          "url": "https://www.reuters.com/business/healthcare-pharmaceuticals/us-fda-approves-first-mrna-flu-shot-moderna-2026-08-06/"
+        },
+        {
+          "published_at": "2026-06-18",
+          "publisher": "U.S. Food and Drug Administration",
+          "source_type": "primary",
+          "title": "FDA briefing document for mFlusiva (mRNA-1010)",
+          "url": "https://www.fda.gov/media/193130/download"
+        }
+      ],
+      "title": "美国批准首款季节性 mRNA 流感疫苗"
+    },
+    {
+      "category": "politics",
+      "confidence": "medium",
+      "date": "2026-08-06",
+      "id": "myanmar-thailand-reengagement",
+      "regions": [
+        "Asia",
+        "Southeast Asia"
+      ],
+      "section": "world",
+      "single_source": true,
+      "source_count": 1,
+      "sources": [
+        {
+          "published_at": "2026-08-06",
+          "publisher": "Reuters",
+          "source_type": "wire",
+          "title": "Myanmar president visits Thailand on quest for legitimacy as Bangkok backs engagement",
+          "url": "https://www.reuters.com/world/asia-pacific/myanmar-president-visits-thailand-quest-legitimacy-bangkok-backs-engagement-2026-08-05/"
+        }
+      ],
+      "title": "缅甸军政府领导人访泰，曼谷试探“校准式重新接触”"
+    },
+    {
+      "category": "economy",
+      "confidence": "high",
+      "date": "2026-08-06",
+      "id": "rbi-rate-hold-2026-08",
+      "regions": [
+        "Asia",
+        "India"
+      ],
+      "section": "world",
+      "single_source": true,
+      "source_count": 1,
+      "sources": [
+        {
+          "published_at": "2026-08-05",
+          "publisher": "Reserve Bank of India",
+          "source_type": "primary",
+          "title": "Resolution of the Monetary Policy Committee, August 3 to 5, 2026",
+          "url": "https://rbi.org.in/Scripts/BS_PressReleaseDisplay.aspx?prid=63287"
+        }
+      ],
+      "title": "印度央行维持 5.25% 回购利率，等待通胀信号更清晰"
+    },
+    {
+      "category": "science",
+      "confidence": "high",
+      "date": "2026-08-06",
+      "id": "solar-khi-dkist",
+      "regions": [
+        "Global",
+        "Space"
+      ],
+      "section": "world",
+      "single_source": false,
+      "source_count": 2,
+      "sources": [
+        {
+          "published_at": "2026-08-05T15:03:00Z",
+          "publisher": "Associated Press",
+          "source_type": "wire",
+          "title": "Powerful new solar telescope captures the sun's surface in finest detail yet",
+          "url": "https://apnews.com/article/sun-surface-solar-telescope-kelvin-helmholtz-instability-32eb28c17e8c4005dad9a5b51dd3eb2a"
+        },
+        {
+          "published_at": "2026-08-05",
+          "publisher": "Nature",
+          "source_type": "research",
+          "title": "Ubiquitous Kelvin–Helmholtz instabilities driving plasma mixing on the Sun",
+          "url": "https://www.nature.com/articles/s41586-026-10871-3"
+        }
+      ],
+      "title": "太阳望远镜直接捕捉到普遍存在的磁化剪切涡旋"
+    },
+    {
+      "category": "health-society",
+      "confidence": "high",
+      "date": "2026-08-06",
+      "id": "south-africa-migration-dialogue",
+      "regions": [
+        "Africa",
+        "South Africa",
+        "Southern Africa"
+      ],
+      "section": "world",
+      "single_source": false,
+      "source_count": 2,
+      "sources": [
+        {
+          "published_at": "2026-08-05T12:05:57Z",
+          "publisher": "Associated Press",
+          "source_type": "wire",
+          "title": "South Africa pushes for Africa migration talks after violent internal protests and Ceuta crisis",
+          "url": "https://apnews.com/article/2cd29b78a94636ec67b8fc8c6683b9fe"
+        },
+        {
+          "published_at": "2026-07-23",
+          "publisher": "South African Department of International Relations and Cooperation",
+          "source_type": "primary",
+          "title": "DIRCO reaffirms commitment to continental dialogue on migration",
+          "url": "https://dirco.gov.za/dirco-reaffirms-commitment-to-pan-african-solidarity-rule-of-law-and-continental-dialogue-on-migration-following-ecowas-communique/"
+        }
+      ],
+      "title": "南非推动把移民争议提升到非盟和南共体议程"
+    },
+    {
+      "category": "technology",
+      "confidence": "medium",
+      "date": "2026-08-05",
+      "id": "cloudflare-computer-preview",
+      "regions": [
+        "Global",
+        "North America"
+      ],
+      "section": "ai",
+      "single_source": false,
+      "source_count": 2,
+      "sources": [
+        {
+          "published_at": "2026-08-03",
+          "publisher": "Cloudflare",
+          "source_type": "code",
+          "title": "cloudflare/computer",
+          "url": "https://github.com/cloudflare/computer"
+        },
+        {
+          "published_at": "2026-08-03T13:15:24Z",
+          "publisher": "Cloudflare",
+          "source_type": "primary",
+          "title": "Introducing an early preview of @cloudflare/computer",
+          "url": "https://blog.cloudflare.com/cloudflare-computer/"
+        }
+      ],
+      "title": "Cloudflare Computer 为智能体提供跨隔离区与容器的持久工作区"
+    },
+    {
+      "category": "technology",
+      "confidence": "medium",
+      "date": "2026-08-05",
+      "id": "lfm2-5-2-6b",
+      "regions": [
+        "Global",
+        "North America"
+      ],
+      "section": "ai",
+      "single_source": false,
+      "source_count": 3,
+      "sources": [
+        {
+          "published_at": "2026-08-04",
+          "publisher": "Liquid AI",
+          "source_type": "primary",
+          "title": "LFM2.5-2.6B: Deploy Agents Everywhere",
+          "url": "https://www.liquid.ai/blog/lfm2-5-2-6b"
+        },
+        {
+          "published_at": "2026-08-04",
+          "publisher": "Liquid AI / Hugging Face",
+          "source_type": "model-card",
+          "title": "LiquidAI/LFM2.5-2.6B model card",
+          "url": "https://huggingface.co/LiquidAI/LFM2.5-2.6B"
+        },
+        {
+          "published_at": "accessed 2026-08-05T09:15:00+08:00",
+          "publisher": "Liquid AI / Hugging Face",
+          "source_type": "model-card",
+          "title": "LFM Open License v1.0",
+          "url": "https://huggingface.co/LiquidAI/LFM2.5-2.6B/blob/main/LICENSE"
+        }
+      ],
+      "title": "LFM2.5-2.6B 把长上下文智能体压到端侧规模"
+    },
+    {
+      "category": "science",
+      "confidence": "medium",
+      "date": "2026-08-05",
+      "id": "longhorizon-harness",
+      "regions": [
+        "Asia",
+        "Global"
+      ],
+      "section": "ai",
+      "single_source": false,
+      "source_count": 3,
+      "sources": [
+        {
+          "published_at": "2026-08-03",
+          "publisher": "AMAP-ML",
+          "source_type": "code",
+          "title": "LongHorizon-Harness source code",
+          "url": "https://github.com/AMAP-ML/LongHorizon-Harness"
+        },
+        {
+          "published_at": "2026-08-03T09:32:21Z",
+          "publisher": "arXiv",
+          "source_type": "research",
+          "title": "LongHorizon-Harness: Advancing Long-Horizon Agents for Real-World Tasks",
+          "url": "https://arxiv.org/abs/2608.01964"
+        },
+        {
+          "published_at": "accessed 2026-08-05T09:15:00+08:00",
+          "publisher": "Hugging Face Daily Papers",
+          "source_type": "community-index",
+          "title": "LongHorizon-Harness paper page",
+          "url": "https://huggingface.co/papers/2608.01964"
+        }
+      ],
+      "title": "LongHorizon-Harness 用“管理—执行—审计”重构长任务智能体"
+    },
+    {
+      "category": "climate-environment",
+      "confidence": "medium",
+      "date": "2026-08-05",
+      "id": "amazon-green-shield",
+      "regions": [
+        "South America"
+      ],
+      "section": "world",
+      "single_source": false,
+      "source_count": 2,
+      "sources": [
+        {
+          "published_at": "2026-08-04T17:59:44Z",
+          "publisher": "Associated Press",
+          "source_type": "wire",
+          "title": "Five Amazon countries arrest hundreds in major crackdown on environmental crime",
+          "url": "https://apnews.com/article/amazon-environmental-crime-wildlife-trafficking-police-colombia-uae-e2687c95a1f9281d0fe1b94b02a6177b"
+        },
+        {
+          "published_at": "2026-07-22",
+          "publisher": "Policía Nacional de Colombia",
+          "source_type": "primary",
+          "title": "Operación Green Shield permitió la recuperación de 22 ejemplares de fauna silvestre en Montería",
+          "url": "https://www.policia.gov.co/noticia/operacion-green-shield-permitio-recuperacion-22-ejemplares-fauna-silvestre-en-monteria"
+        }
+      ],
+      "title": "五个亚马孙国家联合打击环境犯罪"
+    },
+    {
+      "category": "politics",
+      "confidence": "medium",
+      "date": "2026-08-05",
+      "id": "black-sea-cargo-drone",
+      "regions": [
+        "Black Sea",
+        "Europe"
+      ],
+      "section": "world",
+      "single_source": false,
+      "source_count": 2,
+      "sources": [
+        {
+          "published_at": "2026-08-04T09:26:17Z",
+          "publisher": "Associated Press",
+          "source_type": "wire",
+          "title": "Russia and Ukraine trade drone attacks with 5 killed in each country",
+          "url": "https://apnews.com/article/russia-ukraine-war-beach-drone-222d8755b524c231faa8fd6de10f38ef"
+        },
+        {
+          "published_at": "2026-08-04",
+          "publisher": "Reuters",
+          "source_type": "wire",
+          "title": "Three hurt in drone attack on cargo ship near Russia's Novorossiysk",
+          "url": "https://www.reuters.com/world/three-crew-injured-cargo-ship-hit-by-drone-attack-near-russias-novorossiysk-2026-08-04/"
+        }
+      ],
+      "title": "无人机击中黑海货船，三名船员重伤"
+    },
+    {
+      "category": "health-society",
+      "confidence": "medium",
+      "date": "2026-08-05",
+      "id": "drc-ebola-1700",
+      "regions": [
+        "Africa"
+      ],
+      "section": "world",
+      "single_source": false,
+      "source_count": 3,
+      "sources": [
+        {
+          "published_at": "2026-08-04T09:22:00Z",
+          "publisher": "Associated Press",
+          "source_type": "wire",
+          "title": "Ebola kills 1,700 in eastern Congo as the fastest-growing outbreak surges",
+          "url": "https://apnews.com/article/congo-ebola-ituri-19ec34982849f2799f226bfa6ae04c96"
+        },
+        {
+          "published_at": "2026-07-17",
+          "publisher": "World Health Organization",
+          "source_type": "primary",
+          "title": "Ebola disease caused by Bundibugyo virus, Democratic Republic of the Congo & Uganda",
+          "url": "https://www.who.int/emergencies/disease-outbreak-news/item/2026-DON613"
+        },
+        {
+          "published_at": "accessed 2026-08-05T09:15:00+08:00",
+          "publisher": "World Health Organization",
+          "source_type": "primary",
+          "title": "Ebola outbreak — DRC 2026",
+          "url": "https://www.who.int/emergencies/situations/ebola-outbreak---drc-2026"
+        }
+      ],
+      "title": "刚果（金）Bundibugyo 型埃博拉死亡超过 1,700"
+    },
+    {
+      "category": "politics",
+      "confidence": "medium",
+      "date": "2026-08-05",
+      "id": "hormuz-oman-deal-progress",
+      "regions": [
+        "Global",
+        "Middle East"
+      ],
+      "section": "world",
+      "single_source": false,
+      "source_count": 2,
+      "sources": [
+        {
+          "published_at": "2026-08-04T16:17:23Z",
+          "publisher": "Associated Press",
+          "source_type": "wire",
+          "title": "Iran and Oman make progress on a deal to reopen the Strait of Hormuz, officials say",
+          "url": "https://apnews.com/article/iran-us-war-strait-hormuz-oman-diplomacy-6587f90f2ab5beec373ce5fabf637541"
+        },
+        {
+          "published_at": "2026-08-04",
+          "publisher": "Reuters",
+          "source_type": "wire",
+          "title": "Qatar says mediators make progress in efforts to end US-Iran war",
+          "url": "https://www.reuters.com/world/middle-east/status-us-iran-talks-uncertain-ship-struck-hormuz-2026-08-04/"
+        }
+      ],
+      "title": "伊朗与阿曼推进霍尔木兹海峡重开方案"
+    },
+    {
+      "category": "science",
+      "confidence": "medium",
+      "date": "2026-08-05",
+      "id": "punch-solar-storm-forecast",
+      "regions": [
+        "Global",
+        "Space"
+      ],
+      "section": "world",
+      "single_source": true,
+      "source_count": 1,
+      "sources": [
+        {
+          "published_at": "2026-08-04",
+          "publisher": "NASA",
+          "source_type": "primary",
+          "title": "NASA's PUNCH Sharpens Solar Storm Forecasting in First Test",
+          "url": "https://science.nasa.gov/science-research/heliophysics/nasas-punch-sharpens-solar-storm-forecasting-in-first-test/"
+        }
+      ],
+      "title": "NASA PUNCH 首次测试将太阳风暴到达误差缩至 30 分钟"
+    },
+    {
+      "category": "climate-environment",
+      "confidence": "medium",
+      "date": "2026-08-05",
+      "id": "strong-el-nino-2026",
+      "regions": [
+        "Global"
+      ],
+      "section": "world",
+      "single_source": false,
+      "source_count": 2,
+      "sources": [
+        {
+          "published_at": "2026-08-04T16:57:31Z",
+          "publisher": "Associated Press",
+          "source_type": "wire",
+          "title": "This summer isn't breaking heat records — yet. Wait until El Nino kicks in, scientists say",
+          "url": "https://apnews.com/article/warming-heat-climate-change-summer-el-nino-ffd31dd358a894667c63f4c0a21cd677"
+        },
+        {
+          "published_at": "updated 2026-07-31",
+          "publisher": "World Meteorological Organization",
+          "source_type": "primary",
+          "title": "El Niño / La Niña Phenomena",
+          "url": "https://public.wmo.int/themes/el-nino-la-nina-phenomena"
+        }
+      ],
+      "title": "强厄尔尼诺增强，未来数月气候风险上升"
+    },
+    {
+      "category": "economy",
+      "confidence": "high",
+      "date": "2026-08-05",
+      "id": "us-section-301-lawsuit",
+      "regions": [
+        "Global",
+        "North America"
+      ],
+      "section": "world",
+      "single_source": false,
+      "source_count": 2,
+      "sources": [
+        {
+          "published_at": "2026-08-03T20:25:13Z",
+          "publisher": "Associated Press",
+          "source_type": "wire",
+          "title": "25 states sue over Trump's new tariffs, calling them 'pretext' to replace his old ones",
+          "url": "https://apnews.com/article/tariffs-25-supreme-court-import-taxes-120895adbee7ae06157cd5f4bf5c7583"
+        },
+        {
+          "published_at": "2026-07-23",
+          "publisher": "The White House",
+          "source_type": "primary",
+          "title": "Actions by the United States in the Investigations under Section 301 of the Trade Act of 1974",
+          "url": "https://www.whitehouse.gov/presidential-actions/2026/07/actions-by-the-united-states-in-the-investigations-under-section-301-of-the-trade-act-of-1974-of-the-acts-policies-and-practices-of-60-economies-related-to-the-failure-of-each-economy-to-impose-and/"
+        }
+      ],
+      "title": "美国 25 个州起诉新一轮全球关税"
+    },
+    {
+      "category": "science",
+      "confidence": "medium",
+      "date": "2026-08-03",
+      "id": "openai-astra-math",
+      "regions": [
+        "Global",
+        "North America"
+      ],
+      "section": "ai",
+      "single_source": false,
+      "source_count": 3,
+      "sources": [
+        {
+          "published_at": "2026-08-01",
+          "publisher": "OpenAI",
+          "source_type": "code",
+          "title": "ten-proofs Lean certificates",
+          "url": "https://github.com/openai/ten-proofs"
+        },
+        {
+          "published_at": "2026-08-01",
+          "publisher": "OpenAI",
+          "source_type": "primary",
+          "title": "Ten advances in mathematics and theoretical computer science",
+          "url": "https://openai.com/index/ten-advances-in-mathematics/"
+        },
+        {
+          "published_at": "2026-08-01",
+          "publisher": "OpenAI",
+          "source_type": "research",
+          "title": "Ten advances in mathematics and theoretical computer science (paper)",
+          "url": "https://cdn.openai.com/pdf/ten-proofs-oai.pdf"
+        }
+      ],
+      "title": "OpenAI 公布 Astra 生成的十项数学与理论计算机成果"
+    },
+    {
+      "category": "technology",
+      "confidence": "medium",
+      "date": "2026-08-03",
+      "id": "qwen-ui-agent",
+      "regions": [
+        "Asia",
+        "Global"
+      ],
+      "section": "ai",
+      "single_source": false,
+      "source_count": 2,
+      "sources": [
+        {
+          "published_at": "2026-07-30",
+          "publisher": "arXiv",
+          "source_type": "research",
+          "title": "Qwen-UI-Agent Technical Report: Toward Next-Generation Real-World Centric Foundation GUI Agents",
+          "url": "https://arxiv.org/abs/2607.28227"
+        },
+        {
+          "published_at": "accessed 2026-08-03T16:08:00+08:00",
+          "publisher": "Hugging Face Daily Papers",
+          "source_type": "community-index",
+          "title": "Qwen-UI-Agent paper page",
+          "url": "https://huggingface.co/papers/2607.28227"
+        }
+      ],
+      "title": "Qwen-UI-Agent 把 GUI、命令行和长任务训练统一起来"
+    },
+    {
+      "category": "technology",
+      "confidence": "medium",
+      "date": "2026-08-03",
+      "id": "waste-v0-6-3",
+      "regions": [
+        "Global"
+      ],
+      "section": "ai",
+      "single_source": false,
+      "source_count": 2,
+      "sources": [
+        {
+          "published_at": "accessed 2026-08-03T16:08:00+08:00",
+          "publisher": "sqliteai/waste",
+          "source_type": "code",
+          "title": "WASTE — Weight-Aware Streaming Tensor Engine",
+          "url": "https://github.com/sqliteai/waste"
+        },
+        {
+          "published_at": "2026-08-03T06:33:00Z",
+          "publisher": "sqliteai/waste",
+          "source_type": "code",
+          "title": "WASTE v0.6.3 release notes",
+          "url": "https://github.com/sqliteai/waste/releases/tag/v0.6.3"
+        }
+      ],
+      "title": "WASTE v0.6.3 改进超大 MoE 模型的 NVMe 流式推理"
+    },
+    {
+      "category": "culture",
+      "confidence": "high",
+      "date": "2026-08-03",
+      "id": "ai-wagner-staging",
+      "regions": [
+        "Europe"
+      ],
+      "section": "world",
+      "single_source": true,
+      "source_count": 1,
+      "sources": [
+        {
+          "published_at": "2026-08-02T20:12:00-04:00",
+          "publisher": "Associated Press",
+          "source_type": "wire",
+          "title": "AI-assisted staging draws boos at the Richard Wagner festival in Germany",
+          "url": "https://apnews.com/article/germany-bayreuth-wagner-festival-ai-f4300cdc0be195dabdadfa6d2ab4254c"
+        }
+      ],
+      "title": "AI 舞台投影在拜罗伊特音乐节引发争议"
+    },
+    {
+      "category": "science",
+      "confidence": "high",
+      "date": "2026-08-03",
+      "id": "august-total-solar-eclipse",
+      "regions": [
+        "Europe",
+        "North America",
+        "North Atlantic"
+      ],
+      "section": "world",
+      "single_source": false,
+      "source_count": 2,
+      "sources": [
+        {
+          "published_at": "2026-08-02T20:18:00-04:00",
+          "publisher": "Associated Press",
+          "source_type": "wire",
+          "title": "What will happen during this month’s solar eclipse?",
+          "url": "https://apnews.com/video/what-will-happen-during-this-months-solar-eclipse-dcf55f490d294f35838c39bb405fee0d"
+        },
+        {
+          "published_at": "accessed 2026-08-03",
+          "publisher": "NASA",
+          "source_type": "primary",
+          "title": "Total Solar Eclipse on August 12, 2026",
+          "url": "https://science.nasa.gov/eclipses/future-eclipses/total-solar-eclipse-on-august-12-2026/"
+        }
+      ],
+      "title": "8 月 12 日日全食进入观测准备期"
+    },
+    {
+      "category": "economy",
+      "confidence": "medium",
+      "date": "2026-08-03",
+      "id": "china-trade-policy-lines",
+      "regions": [
+        "Asia",
+        "Europe",
+        "North America"
+      ],
+      "section": "world",
+      "single_source": true,
+      "source_count": 1,
+      "sources": [
+        {
+          "published_at": "2026-08-03",
+          "publisher": "Reuters",
+          "source_type": "wire",
+          "title": "China draws 'red lines' around its economic model ahead of EU, US trade talks",
+          "url": "https://www.reuters.com/world/china/china-draws-red-lines-around-its-economic-model-ahead-eu-us-trade-talks-2026-08-02/"
+        }
+      ],
+      "title": "欧美贸易磋商前，中国更集中地为产业政策辩护"
+    },
+    {
+      "category": "climate-environment",
+      "confidence": "medium",
+      "date": "2026-08-03",
+      "id": "gansu-floods-landslides",
+      "regions": [
+        "Asia"
+      ],
+      "section": "world",
+      "single_source": true,
+      "source_count": 1,
+      "sources": [
+        {
+          "published_at": "2026-08-02",
+          "publisher": "Reuters",
+          "source_type": "wire",
+          "title": "Landslide death toll rises in China's Gansu Province as heavy rains continue",
+          "url": "https://www.reuters.com/business/environment/landslide-death-toll-rises-chinas-gansu-province-heavy-rains-continue-2026-08-02/"
+        }
+      ],
+      "title": "甘肃暴雨洪灾伤亡上升，次生灾害风险延续"
+    },
+    {
+      "category": "politics",
+      "confidence": "medium",
+      "date": "2026-08-03",
+      "id": "iran-talks-monday",
+      "regions": [
+        "Middle East",
+        "North America"
+      ],
+      "section": "world",
+      "single_source": false,
+      "source_count": 2,
+      "sources": [
+        {
+          "published_at": "2026-08-02T16:09:00-04:00",
+          "publisher": "Associated Press",
+          "source_type": "wire",
+          "title": "Trump frequently announces he’s halting strikes in Iran. But they keep happening",
+          "url": "https://apnews.com/article/trump-iran-war-us-canceled-strikes-670f077d2cf5de7614cfce4ad40e4aaa"
+        },
+        {
+          "published_at": "2026-08-03",
+          "publisher": "Reuters",
+          "source_type": "wire",
+          "title": "Trump says Iran talks to take place on Monday, sets no deadline for deal",
+          "url": "https://www.reuters.com/world/asia-pacific/trump-says-iran-talks-take-place-monday-sets-no-deadline-deal-2026-08-02/"
+        }
+      ],
+      "title": "美方称伊朗谈判周一启动，具体安排仍不透明"
+    },
+    {
+      "category": "markets",
+      "confidence": "high",
+      "date": "2026-08-03",
+      "id": "japan-us-yen-intervention",
+      "regions": [
+        "Asia",
+        "North America"
+      ],
+      "section": "world",
+      "single_source": true,
+      "source_count": 1,
+      "sources": [
+        {
+          "published_at": "2026-08-03",
+          "publisher": "Reuters",
+          "source_type": "wire",
+          "title": "Japan confirms joint FX intervention with U.S., says won't hesitate for more",
+          "url": "https://www.reuters.com/world/asia-pacific/japan-confirms-joint-fx-intervention-with-us-says-wont-hesitate-more-2026-08-02/"
+        }
+      ],
+      "title": "日本确认与美国协调干预日元市场"
+    },
+    {
+      "category": "economy",
+      "confidence": "high",
+      "date": "2026-08-03",
+      "id": "oil-prices-retreat",
+      "regions": [
+        "Global",
+        "Middle East"
+      ],
+      "section": "world",
+      "single_source": true,
+      "source_count": 1,
+      "sources": [
+        {
+          "published_at": "2026-08-03",
+          "publisher": "Reuters",
+          "source_type": "wire",
+          "title": "Oil tumbles as Trump cancels attack on Iran to reach nuclear deal",
+          "url": "https://www.reuters.com/business/energy/oil-tumbles-trump-cancels-attack-iran-reach-nuclear-deal-2026-08-03/"
+        }
+      ],
+      "title": "降级预期推动油价早盘回落约 4 美元"
+    }
+  ],
+  "latest_digest_generated_at": "2026-08-11T11:15:36+08:00",
+  "publishers": [
+    {
+      "event_count": 59,
+      "name": "Associated Press",
+      "source_links": 62
+    },
+    {
+      "event_count": 17,
+      "name": "Reuters",
+      "source_links": 19
+    },
+    {
+      "event_count": 10,
+      "name": "arXiv",
+      "source_links": 10
+    },
+    {
+      "event_count": 4,
+      "name": "Hugging Face",
+      "source_links": 6
+    },
+    {
+      "event_count": 5,
+      "name": "Hugging Face Daily Papers",
+      "source_links": 5
+    },
+    {
+      "event_count": 1,
+      "name": "Anthropic / GitHub",
+      "source_links": 4
+    },
+    {
+      "event_count": 3,
+      "name": "World Health Organization",
+      "source_links": 4
+    },
+    {
+      "event_count": 1,
+      "name": "inclusionAI / Hugging Face",
+      "source_links": 3
+    },
+    {
+      "event_count": 1,
+      "name": "OpenAI",
+      "source_links": 3
+    },
+    {
+      "event_count": 1,
+      "name": "Unsloth / Hugging Face",
+      "source_links": 3
+    },
+    {
+      "event_count": 1,
+      "name": "Banco Central do Brasil",
+      "source_links": 2
+    },
+    {
+      "event_count": 1,
+      "name": "Cloudflare",
+      "source_links": 2
+    },
+    {
+      "event_count": 1,
+      "name": "DeepGlint / Hugging Face",
+      "source_links": 2
+    },
+    {
+      "event_count": 2,
+      "name": "HuggingNews",
+      "source_links": 2
+    },
+    {
+      "event_count": 1,
+      "name": "Kandinsky Lab / Hugging Face",
+      "source_links": 2
+    },
+    {
+      "event_count": 1,
+      "name": "Liquid AI / Hugging Face",
+      "source_links": 2
+    },
+    {
+      "event_count": 1,
+      "name": "Meta / Hugging Face",
+      "source_links": 2
+    },
+    {
+      "event_count": 2,
+      "name": "NASA",
+      "source_links": 2
+    },
+    {
+      "event_count": 1,
+      "name": "NVIDIA",
+      "source_links": 2
+    },
+    {
+      "event_count": 1,
+      "name": "Prime Intellect / GitHub",
+      "source_links": 2
+    },
+    {
+      "event_count": 2,
+      "name": "PyPI Stats",
+      "source_links": 2
+    },
+    {
+      "event_count": 1,
+      "name": "SGLang / GitHub",
+      "source_links": 2
+    },
+    {
+      "event_count": 1,
+      "name": "sqliteai/waste",
+      "source_links": 2
+    },
+    {
+      "event_count": 2,
+      "name": "The White House",
+      "source_links": 2
+    },
+    {
+      "event_count": 2,
+      "name": "U.S. Centers for Disease Control and Prevention",
+      "source_links": 2
+    },
+    {
+      "event_count": 2,
+      "name": "U.S. Food and Drug Administration",
+      "source_links": 2
+    },
+    {
+      "event_count": 1,
+      "name": "vLLM / GitHub",
+      "source_links": 2
+    },
+    {
+      "event_count": 1,
+      "name": "All-out Defense Mobilization Agency",
+      "source_links": 1
+    },
+    {
+      "event_count": 1,
+      "name": "AMAP-ML",
+      "source_links": 1
+    },
+    {
+      "event_count": 1,
+      "name": "American Academy of Pediatrics / HealthyChildren.org",
+      "source_links": 1
+    },
+    {
+      "event_count": 1,
+      "name": "Assam State Disaster Management Authority",
+      "source_links": 1
+    },
+    {
+      "event_count": 1,
+      "name": "BC Wildfire Service",
+      "source_links": 1
+    },
+    {
+      "event_count": 1,
+      "name": "bubble65",
+      "source_links": 1
+    },
+    {
+      "event_count": 1,
+      "name": "bubble65 / Hugging Face",
+      "source_links": 1
+    },
+    {
+      "event_count": 1,
+      "name": "City of Hiroshima",
+      "source_links": 1
+    },
+    {
+      "event_count": 1,
+      "name": "ComfyUI",
+      "source_links": 1
+    },
+    {
+      "event_count": 1,
+      "name": "DeepGlint",
+      "source_links": 1
+    },
+    {
+      "event_count": 1,
+      "name": "El País",
+      "source_links": 1
+    },
+    {
+      "event_count": 1,
+      "name": "Eni",
+      "source_links": 1
+    },
+    {
+      "event_count": 1,
+      "name": "EnvACE authors / GitHub",
+      "source_links": 1
+    },
+    {
+      "event_count": 1,
+      "name": "European Commission",
+      "source_links": 1
+    },
+    {
+      "event_count": 1,
+      "name": "Federal Aviation Administration",
+      "source_links": 1
+    },
+    {
+      "event_count": 1,
+      "name": "Florida Department of Health",
+      "source_links": 1
+    },
+    {
+      "event_count": 1,
+      "name": "GitHub",
+      "source_links": 1
+    },
+    {
+      "event_count": 1,
+      "name": "Government of British Columbia",
+      "source_links": 1
+    },
+    {
+      "event_count": 1,
+      "name": "Grand National Assembly of Turkey",
+      "source_links": 1
+    },
+    {
+      "event_count": 1,
+      "name": "Japan Meteorological Agency",
+      "source_links": 1
+    },
+    {
+      "event_count": 1,
+      "name": "Kandinsky Lab",
+      "source_links": 1
+    },
+    {
+      "event_count": 1,
+      "name": "Kenya Wildlife Service",
+      "source_links": 1
+    },
+    {
+      "event_count": 1,
+      "name": "Korea Aerospace Research Institute",
+      "source_links": 1
+    },
+    {
+      "event_count": 1,
+      "name": "LangChain",
+      "source_links": 1
+    },
+    {
+      "event_count": 1,
+      "name": "LangChain / GitHub",
+      "source_links": 1
+    },
+    {
+      "event_count": 1,
+      "name": "Liquid AI",
+      "source_links": 1
+    },
+    {
+      "event_count": 1,
+      "name": "Louisiana Department of Health",
+      "source_links": 1
+    },
+    {
+      "event_count": 1,
+      "name": "Meta AI Developers",
+      "source_links": 1
+    },
+    {
+      "event_count": 1,
+      "name": "Meta AI Research",
+      "source_links": 1
+    },
+    {
+      "event_count": 1,
+      "name": "MiniMax",
+      "source_links": 1
+    },
+    {
+      "event_count": 1,
+      "name": "MiniMax / Hugging Face",
+      "source_links": 1
+    },
+    {
+      "event_count": 1,
+      "name": "Mistral AI",
+      "source_links": 1
+    },
+    {
+      "event_count": 1,
+      "name": "Mistral AI / Hugging Face",
+      "source_links": 1
+    },
+    {
+      "event_count": 1,
+      "name": "Myanmar Ministry of Foreign Affairs",
+      "source_links": 1
+    },
+    {
+      "event_count": 1,
+      "name": "Nature",
+      "source_links": 1
+    },
+    {
+      "event_count": 1,
+      "name": "New Mexico Department of Justice",
+      "source_links": 1
+    },
+    {
+      "event_count": 1,
+      "name": "NOAA National Centers for Environmental Information",
+      "source_links": 1
+    },
+    {
+      "event_count": 1,
+      "name": "npm",
+      "source_links": 1
+    },
+    {
+      "event_count": 1,
+      "name": "ODI Global",
+      "source_links": 1
+    },
+    {
+      "event_count": 1,
+      "name": "Office of U.S. Senator Katie Britt",
+      "source_links": 1
+    },
+    {
+      "event_count": 1,
+      "name": "Ollama / GitHub",
+      "source_links": 1
+    },
+    {
+      "event_count": 1,
+      "name": "Policía Nacional de Colombia",
+      "source_links": 1
+    },
+    {
+      "event_count": 1,
+      "name": "PyPI",
+      "source_links": 1
+    },
+    {
+      "event_count": 1,
+      "name": "Reserve Bank of India",
+      "source_links": 1
+    },
+    {
+      "event_count": 1,
+      "name": "Servicio Geologico Colombiano",
+      "source_links": 1
+    },
+    {
+      "event_count": 1,
+      "name": "South African Department of International Relations and Cooperation",
+      "source_links": 1
+    },
+    {
+      "event_count": 1,
+      "name": "South African Government",
+      "source_links": 1
+    },
+    {
+      "event_count": 1,
+      "name": "SWE-Bench ProMax authors / Hugging Face",
+      "source_links": 1
+    },
+    {
+      "event_count": 1,
+      "name": "Taiwan Ministry of National Defense",
+      "source_links": 1
+    },
+    {
+      "event_count": 1,
+      "name": "U.S. Bureau of Labor Statistics",
+      "source_links": 1
+    },
+    {
+      "event_count": 1,
+      "name": "U.S. Bureau of Reclamation",
+      "source_links": 1
+    },
+    {
+      "event_count": 1,
+      "name": "U.S. Department of Defense",
+      "source_links": 1
+    },
+    {
+      "event_count": 1,
+      "name": "Unsloth",
+      "source_links": 1
+    },
+    {
+      "event_count": 1,
+      "name": "World Meteorological Organization",
+      "source_links": 1
+    },
+    {
+      "event_count": 1,
+      "name": "World Weather Attribution",
+      "source_links": 1
+    },
+    {
+      "event_count": 1,
+      "name": "Yabloko",
+      "source_links": 1
+    }
+  ],
+  "regions": [
+    {
+      "event_count": 38,
+      "name": "Global"
+    },
+    {
+      "event_count": 27,
+      "name": "North America"
+    },
+    {
+      "event_count": 23,
+      "name": "Asia"
+    },
+    {
+      "event_count": 17,
+      "name": "Europe"
+    },
+    {
+      "event_count": 15,
+      "name": "United States"
+    },
+    {
+      "event_count": 13,
+      "name": "Middle East"
+    },
+    {
+      "event_count": 9,
+      "name": "Africa"
+    },
+    {
+      "event_count": 6,
+      "name": "China"
+    },
+    {
+      "event_count": 5,
+      "name": "Russia"
+    },
+    {
+      "event_count": 4,
+      "name": "Ukraine"
+    },
+    {
+      "event_count": 3,
+      "name": "Canada"
+    },
+    {
+      "event_count": 3,
+      "name": "Israel"
+    },
+    {
+      "event_count": 3,
+      "name": "Latin America"
+    },
+    {
+      "event_count": 3,
+      "name": "Mexico"
+    },
+    {
+      "event_count": 3,
+      "name": "South Africa"
+    },
+    {
+      "event_count": 3,
+      "name": "Space"
+    },
+    {
+      "event_count": 2,
+      "name": "Colombia"
+    },
+    {
+      "event_count": 2,
+      "name": "Democratic Republic of the Congo"
+    },
+    {
+      "event_count": 2,
+      "name": "Eastern Mediterranean"
+    },
+    {
+      "event_count": 2,
+      "name": "India"
+    },
+    {
+      "event_count": 2,
+      "name": "Iran"
+    },
+    {
+      "event_count": 2,
+      "name": "Japan"
+    },
+    {
+      "event_count": 2,
+      "name": "Morocco"
+    },
+    {
+      "event_count": 2,
+      "name": "Nigeria"
+    },
+    {
+      "event_count": 2,
+      "name": "Oman"
+    },
+    {
+      "event_count": 2,
+      "name": "South America"
+    },
+    {
+      "event_count": 2,
+      "name": "Syria"
+    },
+    {
+      "event_count": 2,
+      "name": "Taiwan"
+    },
+    {
+      "event_count": 2,
+      "name": "Uganda"
+    },
+    {
+      "event_count": 1,
+      "name": "Amboseli"
+    },
+    {
+      "event_count": 1,
+      "name": "ASEAN"
+    },
+    {
+      "event_count": 1,
+      "name": "Assam"
+    },
+    {
+      "event_count": 1,
+      "name": "Black Sea"
+    },
+    {
+      "event_count": 1,
+      "name": "Brazil"
+    },
+    {
+      "event_count": 1,
+      "name": "British Columbia"
+    },
+    {
+      "event_count": 1,
+      "name": "Bulgaria"
+    },
+    {
+      "event_count": 1,
+      "name": "Colorado River Basin"
+    },
+    {
+      "event_count": 1,
+      "name": "Cyprus"
+    },
+    {
+      "event_count": 1,
+      "name": "East Asia"
+    },
+    {
+      "event_count": 1,
+      "name": "East China Sea"
+    },
+    {
+      "event_count": 1,
+      "name": "East Java"
+    },
+    {
+      "event_count": 1,
+      "name": "Ecuador"
+    },
+    {
+      "event_count": 1,
+      "name": "Egypt"
+    },
+    {
+      "event_count": 1,
+      "name": "Ethiopia"
+    },
+    {
+      "event_count": 1,
+      "name": "European Union"
+    },
+    {
+      "event_count": 1,
+      "name": "Florida"
+    },
+    {
+      "event_count": 1,
+      "name": "Gaza"
+    },
+    {
+      "event_count": 1,
+      "name": "Indonesia"
+    },
+    {
+      "event_count": 1,
+      "name": "Iraq"
+    },
+    {
+      "event_count": 1,
+      "name": "Italy"
+    },
+    {
+      "event_count": 1,
+      "name": "Kenya"
+    },
+    {
+      "event_count": 1,
+      "name": "Lebanon"
+    },
+    {
+      "event_count": 1,
+      "name": "Louisiana"
+    },
+    {
+      "event_count": 1,
+      "name": "Myanmar"
+    },
+    {
+      "event_count": 1,
+      "name": "NATO"
+    },
+    {
+      "event_count": 1,
+      "name": "North Atlantic"
+    },
+    {
+      "event_count": 1,
+      "name": "Okinawa"
+    },
+    {
+      "event_count": 1,
+      "name": "Pakistan"
+    },
+    {
+      "event_count": 1,
+      "name": "Palestinian Territories"
+    },
+    {
+      "event_count": 1,
+      "name": "Panama"
+    },
+    {
+      "event_count": 1,
+      "name": "Romania"
+    },
+    {
+      "event_count": 1,
+      "name": "Saudi Arabia"
+    },
+    {
+      "event_count": 1,
+      "name": "Serbia"
+    },
+    {
+      "event_count": 1,
+      "name": "South Asia"
+    },
+    {
+      "event_count": 1,
+      "name": "South Korea"
+    },
+    {
+      "event_count": 1,
+      "name": "Southeast Asia"
+    },
+    {
+      "event_count": 1,
+      "name": "Southern Africa"
+    },
+    {
+      "event_count": 1,
+      "name": "Spain"
+    },
+    {
+      "event_count": 1,
+      "name": "Thailand"
+    },
+    {
+      "event_count": 1,
+      "name": "Turkey"
+    },
+    {
+      "event_count": 1,
+      "name": "Türkiye"
+    },
+    {
+      "event_count": 1,
+      "name": "United Arab Emirates"
+    },
+    {
+      "event_count": 1,
+      "name": "West Bank"
+    },
+    {
+      "event_count": 1,
+      "name": "Zamfara State"
+    }
+  ],
+  "schema_version": 1,
+  "source_types": [
+    {
+      "event_count": 67,
+      "name": "wire",
+      "source_links": 81
+    },
+    {
+      "event_count": 45,
+      "name": "primary",
+      "source_links": 52
+    },
+    {
+      "event_count": 18,
+      "name": "code",
+      "source_links": 28
+    },
+    {
+      "event_count": 16,
+      "name": "research",
+      "source_links": 20
+    },
+    {
+      "event_count": 14,
+      "name": "community-index",
+      "source_links": 14
+    },
+    {
+      "event_count": 9,
+      "name": "model-card",
+      "source_links": 13
+    },
+    {
+      "event_count": 1,
+      "name": "regional-media",
+      "source_links": 1
+    }
+  ]
+}

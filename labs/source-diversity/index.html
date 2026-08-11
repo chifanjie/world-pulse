@@ -1,0 +1,246 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta
+      name="description"
+      content="World Pulse 来源多样性审计台：按日期、栏目和来源类型检查地区与发布者覆盖。"
+    >
+    <title>来源航图 · World Pulse</title>
+    <link
+      rel="icon"
+      href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='10' fill='%231b2426'/%3E%3Cpath d='M14 42 29 14l7 17 14-9-14 28-7-17z' fill='%23f26b38'/%3E%3C/svg%3E"
+    >
+    <link rel="stylesheet" href="styles.css">
+    <script src="app.js" defer></script>
+  </head>
+  <body>
+    <a class="skip-link" href="#main-content">跳到主要内容</a>
+
+    <header class="masthead">
+      <div class="masthead__rule" aria-hidden="true"></div>
+      <div class="masthead__inner">
+        <a class="wordmark" href="../../README.md" aria-label="返回 World Pulse 项目首页">
+          <span class="wordmark__edition">World Pulse</span>
+          <span class="wordmark__desk">Source Desk · 01</span>
+        </a>
+        <div class="masthead__status" aria-label="实验状态">
+          <span class="signal-dot" aria-hidden="true"></span>
+          静态审计快照
+        </div>
+      </div>
+    </header>
+
+    <main id="main-content">
+      <section class="hero" aria-labelledby="page-title">
+        <div class="hero__copy">
+          <p class="eyebrow">Editorial cartography / 编辑部地图台</p>
+          <h1 id="page-title">来源航图</h1>
+          <p class="hero__lede">
+            把日报背后的来源摊开在同一张桌面上：哪里被看见，谁提供证据，哪些事件仍只有一条来源。
+          </p>
+          <dl class="dateline" aria-label="数据快照信息">
+            <div>
+              <dt>覆盖区间</dt>
+              <dd id="snapshot-range">读取中</dd>
+            </div>
+            <div>
+              <dt>最新日报生成</dt>
+              <dd id="snapshot-generated">读取中</dd>
+            </div>
+            <div>
+              <dt>数据版本</dt>
+              <dd id="snapshot-version">—</dd>
+            </div>
+          </dl>
+        </div>
+
+        <div class="hero__plot" aria-hidden="true">
+          <div class="compass">
+            <span class="compass__north">N</span>
+            <span class="compass__needle"></span>
+            <span class="compass__ring compass__ring--one"></span>
+            <span class="compass__ring compass__ring--two"></span>
+          </div>
+          <span class="plot-note plot-note--one">VERIFY</span>
+          <span class="plot-note plot-note--two">TRACE / COMPARE</span>
+        </div>
+      </section>
+
+      <section class="control-deck" aria-labelledby="filter-heading">
+        <div class="section-heading section-heading--compact">
+          <div>
+            <p class="section-index">01 / Scope</p>
+            <h2 id="filter-heading">调整观察范围</h2>
+          </div>
+          <p class="section-note">所有视图与 CSV 会同步采用当前筛选。</p>
+        </div>
+
+        <form id="filters" class="filters">
+          <label class="field">
+            <span>日报日期</span>
+            <select id="date-filter" name="date">
+              <option value="all">全部日期</option>
+            </select>
+          </label>
+
+          <label class="field">
+            <span>内容分区</span>
+            <select id="section-filter" name="section">
+              <option value="all">世界事件 + AI</option>
+              <option value="world">仅世界事件</option>
+              <option value="ai">仅 AI 前沿雷达</option>
+            </select>
+          </label>
+
+          <label class="field">
+            <span>来源类型</span>
+            <select id="source-type-filter" name="sourceType">
+              <option value="all">全部来源类型</option>
+            </select>
+          </label>
+
+          <div class="filter-actions">
+            <button class="button button--quiet" type="reset">重置</button>
+            <button class="button button--signal" id="export-csv" type="button" disabled>
+              导出当前 CSV
+            </button>
+          </div>
+        </form>
+
+        <p id="result-status" class="result-status" role="status" aria-live="polite">
+          正在读取审计数据…
+        </p>
+        <p id="load-error" class="load-error" role="alert" hidden></p>
+      </section>
+
+      <section class="signal-strip" aria-labelledby="overview-heading">
+        <div class="section-heading section-heading--inverted">
+          <div>
+            <p class="section-index">02 / Signals</p>
+            <h2 id="overview-heading">当前视野</h2>
+          </div>
+          <p class="section-note">计数来自去重后的事件与来源链接。</p>
+        </div>
+
+        <div class="metrics">
+          <article class="metric">
+            <p class="metric__label">事件</p>
+            <p class="metric__value" id="metric-events">—</p>
+            <p class="metric__foot">符合当前条件</p>
+          </article>
+          <article class="metric">
+            <p class="metric__label">来源链接</p>
+            <p class="metric__value" id="metric-links">—</p>
+            <p class="metric__foot">按事件内 URL 去重</p>
+          </article>
+          <article class="metric">
+            <p class="metric__label">发布者</p>
+            <p class="metric__value" id="metric-publishers">—</p>
+            <p class="metric__foot">当前可见的独立名称</p>
+          </article>
+          <article class="metric metric--alert">
+            <p class="metric__label">单一来源事件</p>
+            <p class="metric__value" id="metric-single">—</p>
+            <p class="metric__foot">按原始日报判定</p>
+          </article>
+        </div>
+      </section>
+
+      <section class="analysis-grid" aria-labelledby="coverage-heading">
+        <div class="section-heading analysis-grid__heading">
+          <div>
+            <p class="section-index">03 / Coverage</p>
+            <h2 id="coverage-heading">覆盖与构成</h2>
+          </div>
+          <p class="section-note">条长是当前筛选内的相对值，数字为绝对计数。</p>
+        </div>
+
+        <article class="chart-panel chart-panel--wide" aria-labelledby="region-heading">
+          <header class="panel-heading">
+            <div>
+              <p class="panel-kicker">Map ledger</p>
+              <h3 id="region-heading">地区覆盖</h3>
+            </div>
+            <span class="panel-unit">事件数</span>
+          </header>
+          <ol id="region-chart" class="bar-chart" aria-label="按事件数排列的地区覆盖"></ol>
+        </article>
+
+        <article class="chart-panel" aria-labelledby="publisher-heading">
+          <header class="panel-heading">
+            <div>
+              <p class="panel-kicker">Who speaks</p>
+              <h3 id="publisher-heading">发布者分布</h3>
+            </div>
+            <span class="panel-unit">链接数</span>
+          </header>
+          <ol id="publisher-chart" class="bar-chart bar-chart--compact" aria-label="按来源链接数排列的发布者"></ol>
+        </article>
+
+        <article class="chart-panel" aria-labelledby="type-heading">
+          <header class="panel-heading">
+            <div>
+              <p class="panel-kicker">Evidence form</p>
+              <h3 id="type-heading">来源类型</h3>
+            </div>
+            <span class="panel-unit">链接数</span>
+          </header>
+          <ol id="type-chart" class="bar-chart bar-chart--compact" aria-label="按来源链接数排列的来源类型"></ol>
+        </article>
+      </section>
+
+      <section class="watchlist" aria-labelledby="watchlist-heading">
+        <div class="watchlist__marker" aria-hidden="true">!</div>
+        <div class="watchlist__body">
+          <div class="section-heading section-heading--compact">
+            <div>
+              <p class="section-index">04 / Watch</p>
+              <h2 id="watchlist-heading">单一来源事件</h2>
+            </div>
+            <p class="section-note" id="single-source-note">
+              这里表示日报仅记录一条来源，并不自动等同于事实有误。
+            </p>
+          </div>
+          <ol id="single-source-list" class="watchlist__list"></ol>
+        </div>
+      </section>
+
+      <section class="audit" aria-labelledby="audit-heading">
+        <div class="section-heading">
+          <div>
+            <p class="section-index">05 / Audit trail</p>
+            <h2 id="audit-heading">可审计明细</h2>
+          </div>
+          <p class="section-note">逐条打开原始链接，核对标题、日期与证据类型。</p>
+        </div>
+
+        <div class="table-wrap" tabindex="0" role="region" aria-label="来源审计明细表，可横向滚动">
+          <table>
+            <caption class="sr-only">当前筛选条件下的 World Pulse 事件与来源明细</caption>
+            <thead>
+              <tr>
+                <th scope="col">日期 / 分区</th>
+                <th scope="col">事件</th>
+                <th scope="col">地区</th>
+                <th scope="col">来源链</th>
+                <th scope="col">置信度</th>
+              </tr>
+            </thead>
+            <tbody id="audit-rows"></tbody>
+          </table>
+        </div>
+      </section>
+
+      <noscript>
+        <p class="noscript">此审计台需要 JavaScript 读取本地生成的 data.json。</p>
+      </noscript>
+    </main>
+
+    <footer class="footer">
+      <p><strong>World Pulse Lab 01</strong> · 来源数量不是可靠性的替代指标。</p>
+      <p><a href="README.md">阅读数据口径与限制</a></p>
+    </footer>
+  </body>
+</html>
