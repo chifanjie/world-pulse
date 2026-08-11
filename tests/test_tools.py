@@ -243,6 +243,55 @@ class ToolTests(unittest.TestCase):
         self.assertEqual(plan["target_total_contributions"], 1)
         self.assertFalse(plan["color_target_reachable"])
 
+    def test_missing_planned_units_leave_color_reachability_unknown(self) -> None:
+        with patch(
+            "tools.plan_day.choose_color_level", return_value="SECOND_QUARTILE"
+        ):
+            plan = build_plan(
+                date(2026, 8, 12),
+                project_start=date(2026, 8, 3),
+                color_targets=[1, 24, 44, 81],
+                today_contributions=23,
+            )
+
+        self.assertEqual(plan["aspirational_color_level"], "SECOND_QUARTILE")
+        self.assertEqual(plan["aspirational_target_total_contributions"], 24)
+        self.assertIsNone(plan["planned_atomic_units"])
+        self.assertIsNone(plan["reachability_planned_atomic_units"])
+        self.assertIsNone(plan["reachable_total_contributions"])
+        self.assertIsNone(plan["achievable_color_level"])
+        self.assertIsNone(plan["desired_color_level"])
+        self.assertIsNone(plan["target_total_contributions"])
+        self.assertIsNone(plan["color_target_reachable"])
+        self.assertIsNone(plan["remaining_contributions_to_target"])
+        self.assertEqual(plan["remaining_contributions_to_aspirational_target"], 1)
+        self.assertIsNone(plan["planned_atomic_units_limited_by_activity_cap"])
+
+    def test_completed_atomic_units_reduce_remaining_activity_capacity(self) -> None:
+        with patch(
+            "tools.plan_day.choose_color_level", return_value="SECOND_QUARTILE"
+        ):
+            plan = build_plan(
+                date(2026, 8, 12),
+                project_start=date(2026, 8, 3),
+                color_targets=[1, 24, 44, 81],
+                today_contributions=22,
+                completed_atomic_units=1,
+                planned_atomic_units=2,
+            )
+
+        self.assertEqual(plan["activity_cap"], 2)
+        self.assertEqual(plan["completed_atomic_units"], 1)
+        self.assertEqual(plan["remaining_activity_capacity"], 1)
+        self.assertEqual(plan["reachability_planned_atomic_units"], 1)
+        self.assertEqual(plan["reachable_total_contributions"], 23)
+        self.assertTrue(plan["planned_atomic_units_limited_by_activity_cap"])
+        self.assertFalse(plan["color_target_reachable"])
+
+    def test_completed_atomic_units_must_be_non_negative(self) -> None:
+        with self.assertRaisesRegex(ValueError, "completed_atomic_units"):
+            build_plan(date(2026, 8, 12), completed_atomic_units=-1)
+
     def test_existing_contributions_reduce_remaining_color_work(self) -> None:
         with patch(
             "tools.plan_day.choose_color_level", return_value="SECOND_QUARTILE"
@@ -277,6 +326,8 @@ class ToolTests(unittest.TestCase):
                     "1,24,44,81",
                     "--today-contributions",
                     "3",
+                    "--completed-atomic-units",
+                    "1",
                     "--planned-atomic-units",
                     "2",
                 ]
@@ -287,6 +338,10 @@ class ToolTests(unittest.TestCase):
         self.assertEqual(payload["project_start"], "2026-08-03")
         self.assertEqual(payload["review_anchor_source"], "project-start")
         self.assertEqual(payload["today_contributions"], 3)
+        self.assertEqual(payload["completed_atomic_units"], 1)
+        self.assertEqual(
+            payload["remaining_activity_capacity"], payload["activity_cap"] - 1
+        )
         self.assertEqual(payload["planned_atomic_units"], 2)
         self.assertEqual(payload["recent_activity"], [1, 0, 1])
 

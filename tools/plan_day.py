@@ -142,11 +142,14 @@ def build_plan(
     project_start: date | None = None,
     today_contributions: int = 0,
     planned_atomic_units: int | None = None,
+    completed_atomic_units: int = 0,
 ) -> dict[str, object]:
     if today_contributions < 0:
         raise ValueError("today_contributions must be non-negative")
     if planned_atomic_units is not None and planned_atomic_units < 0:
         raise ValueError("planned_atomic_units must be non-negative")
+    if completed_atomic_units < 0:
+        raise ValueError("completed_atomic_units must be non-negative")
 
     recent = list(recent_counts or [])[-14:]
     history = ",".join(str(count) for count in recent)
@@ -202,32 +205,39 @@ def build_plan(
     aspirational_color_target = None
     achievable_color_level = None
     achievable_color_target = None
-    desired_color_level = aspirational_color_level
+    desired_color_level = None
     color_target = None
     color_target_reachable = None
 
+    remaining_activity_capacity = max(0, activity_cap - completed_atomic_units)
     reachability_atomic_units = (
-        activity_cap
+        None
         if planned_atomic_units is None
-        else min(planned_atomic_units, activity_cap)
+        else min(planned_atomic_units, remaining_activity_capacity)
     )
-    reachable_total_contributions = today_contributions + reachability_atomic_units
+    reachable_total_contributions = (
+        None
+        if reachability_atomic_units is None
+        else today_contributions + reachability_atomic_units
+    )
 
     if color_targets:
         aspirational_color_target = color_targets[
             COLOR_LEVELS.index(aspirational_color_level)
         ]
-        achievable_color_level, achievable_color_target = highest_reachable_color(
-            reachable_total_contributions, color_targets
-        )
-        color_target_reachable = (
-            reachable_total_contributions >= aspirational_color_target
-        )
-        if color_target_reachable:
-            color_target = aspirational_color_target
-        else:
-            desired_color_level = achievable_color_level or "NONE"
-            color_target = achievable_color_target
+        if reachable_total_contributions is not None:
+            achievable_color_level, achievable_color_target = highest_reachable_color(
+                reachable_total_contributions, color_targets
+            )
+            color_target_reachable = (
+                reachable_total_contributions >= aspirational_color_target
+            )
+            if color_target_reachable:
+                desired_color_level = aspirational_color_level
+                color_target = aspirational_color_target
+            else:
+                desired_color_level = achievable_color_level or "NONE"
+                color_target = achievable_color_target
 
     remaining_contributions_to_target = (
         None
@@ -260,10 +270,15 @@ def build_plan(
         "lab_gap_days": lab_gap_days,
         "lab_due_date": lab_due_date.isoformat() if lab_due_date else None,
         "today_contributions": today_contributions,
+        "completed_atomic_units": completed_atomic_units,
+        "remaining_activity_capacity": remaining_activity_capacity,
+        "activity_cap_already_exceeded": completed_atomic_units > activity_cap,
         "planned_atomic_units": planned_atomic_units,
         "reachability_planned_atomic_units": reachability_atomic_units,
         "planned_atomic_units_limited_by_activity_cap": (
-            planned_atomic_units is not None and planned_atomic_units > activity_cap
+            None
+            if planned_atomic_units is None
+            else planned_atomic_units > remaining_activity_capacity
         ),
         "reachable_total_contributions": reachable_total_contributions,
         "aspirational_color_level": aspirational_color_level,
@@ -280,8 +295,9 @@ def build_plan(
         "auto_target_darkest": False,
         "note": (
             "Activity and color targets are ceilings, not quotas. A darker target may "
-            "only be pursued through independently useful, tested project work; never "
-            "create filler or empty commits."
+            "only be pursued through independently useful, tested project work. Color "
+            "reachability remains unknown until planned atomic units are explicit; "
+            "never create filler or empty commits."
         ),
     }
 
@@ -297,6 +313,9 @@ def main(argv: list[str] | None = None) -> int:
     parser.add_argument(
         "--today-contributions", type=parse_nonnegative_int, default=0
     )
+    parser.add_argument(
+        "--completed-atomic-units", type=parse_nonnegative_int, default=0
+    )
     parser.add_argument("--planned-atomic-units", type=parse_nonnegative_int)
     args = parser.parse_args(argv)
     print(
@@ -310,6 +329,7 @@ def main(argv: list[str] | None = None) -> int:
                 project_start=args.project_start,
                 today_contributions=args.today_contributions,
                 planned_atomic_units=args.planned_atomic_units,
+                completed_atomic_units=args.completed_atomic_units,
             ),
             ensure_ascii=False,
             indent=2,
