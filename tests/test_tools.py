@@ -1,10 +1,13 @@
 from __future__ import annotations
 
+import io
 import json
 import tempfile
 import unittest
+from contextlib import redirect_stdout
 from datetime import date
 from pathlib import Path
+from unittest.mock import patch
 
 from tools.build_index import collect_entries
 from tools.github_palette import analyze_calendar
@@ -13,6 +16,7 @@ from tools.plan_day import (
     build_plan,
     choose_color_level,
     irregular_gap,
+    main as plan_day_main,
 )
 from tools.validate_digest import validate_file
 
@@ -156,6 +160,135 @@ class ToolTests(unittest.TestCase):
             gap = irregular_gap(date(2026, 7, day), "lab", 9, 21)
             self.assertGreaterEqual(gap, 9)
             self.assertLessEqual(gap, 21)
+
+    def test_project_start_bootstraps_first_review_and_lab(self) -> None:
+        project_start = date(2026, 8, 3)
+        review_due_date = project_start.replace(day=12)
+        lab_due_date = project_start.replace(day=14)
+
+        before_lab = build_plan(
+            review_due_date,
+            project_start=project_start,
+        )
+        self.assertEqual(before_lab["review_anchor"], "2026-08-03")
+        self.assertEqual(before_lab["review_anchor_source"], "project-start")
+        self.assertEqual(before_lab["review_due_date"], "2026-08-12")
+        self.assertTrue(before_lab["review_due"])
+        self.assertEqual(before_lab["lab_anchor"], "2026-08-03")
+        self.assertEqual(before_lab["lab_anchor_source"], "project-start")
+        self.assertEqual(before_lab["lab_due_date"], "2026-08-14")
+        self.assertFalse(before_lab["lab_due"])
+
+        on_lab_due_date = build_plan(
+            lab_due_date,
+            project_start=project_start,
+        )
+        self.assertTrue(on_lab_due_date["review_due"])
+        self.assertTrue(on_lab_due_date["lab_due"])
+        self.assertEqual(
+            on_lab_due_date["candidate_extras"][:2],
+            ["rolling-review", "tested-lab"],
+        )
+
+    def test_last_artifact_dates_take_priority_over_project_start(self) -> None:
+        project_start = date(2026, 8, 3)
+        last_review = date(2026, 8, 10)
+        last_lab = date(2026, 8, 9)
+        plan = build_plan(
+            date(2026, 8, 11),
+            project_start=project_start,
+            last_review=last_review,
+            last_lab=last_lab,
+        )
+
+        self.assertEqual(plan["review_anchor"], "2026-08-10")
+        self.assertEqual(plan["review_anchor_source"], "last-review")
+        self.assertEqual(
+            plan["review_due_date"],
+            date.fromordinal(
+                last_review.toordinal()
+                + irregular_gap(last_review, "review", 5, 10)
+            ).isoformat(),
+        )
+        self.assertEqual(plan["lab_anchor"], "2026-08-09")
+        self.assertEqual(plan["lab_anchor_source"], "last-lab")
+        self.assertEqual(
+            plan["lab_due_date"],
+            date.fromordinal(
+                last_lab.toordinal() + irregular_gap(last_lab, "lab", 9, 21)
+            ).isoformat(),
+        )
+
+    def test_unreachable_color_target_is_downgraded(self) -> None:
+        with patch(
+            "tools.plan_day.choose_color_level", return_value="SECOND_QUARTILE"
+        ):
+            plan = build_plan(
+                date(2026, 8, 12),
+                project_start=date(2026, 8, 3),
+                color_targets=[1, 24, 44, 81],
+                today_contributions=0,
+                planned_atomic_units=4,
+            )
+
+        self.assertEqual(plan["aspirational_color_level"], "SECOND_QUARTILE")
+        self.assertEqual(plan["aspirational_target_total_contributions"], 24)
+        self.assertEqual(
+            plan["reachability_planned_atomic_units"], plan["activity_cap"]
+        )
+        self.assertEqual(plan["reachable_total_contributions"], plan["activity_cap"])
+        self.assertTrue(plan["planned_atomic_units_limited_by_activity_cap"])
+        self.assertEqual(plan["achievable_color_level"], "FIRST_QUARTILE")
+        self.assertEqual(plan["desired_color_level"], "FIRST_QUARTILE")
+        self.assertEqual(plan["target_total_contributions"], 1)
+        self.assertFalse(plan["color_target_reachable"])
+
+    def test_existing_contributions_reduce_remaining_color_work(self) -> None:
+        with patch(
+            "tools.plan_day.choose_color_level", return_value="SECOND_QUARTILE"
+        ):
+            plan = build_plan(
+                date(2026, 8, 12),
+                project_start=date(2026, 8, 3),
+                color_targets=[1, 24, 44, 81],
+                today_contributions=23,
+                planned_atomic_units=1,
+            )
+
+        self.assertEqual(plan["reachable_total_contributions"], 24)
+        self.assertEqual(plan["achievable_color_level"], "SECOND_QUARTILE")
+        self.assertEqual(plan["desired_color_level"], "SECOND_QUARTILE")
+        self.assertEqual(plan["target_total_contributions"], 24)
+        self.assertEqual(plan["remaining_contributions_to_target"], 1)
+        self.assertTrue(plan["color_target_reachable"])
+
+    def test_plan_day_cli_accepts_new_planning_inputs(self) -> None:
+        output = io.StringIO()
+        with redirect_stdout(output):
+            result = plan_day_main(
+                [
+                    "--date",
+                    "2026-08-12",
+                    "--project-start",
+                    "2026-08-03",
+                    "--recent-counts",
+                    "1,0,1",
+                    "--color-targets",
+                    "1,24,44,81",
+                    "--today-contributions",
+                    "3",
+                    "--planned-atomic-units",
+                    "2",
+                ]
+            )
+
+        payload = json.loads(output.getvalue())
+        self.assertEqual(result, 0)
+        self.assertEqual(payload["project_start"], "2026-08-03")
+        self.assertEqual(payload["review_anchor_source"], "project-start")
+        self.assertEqual(payload["today_contributions"], 3)
+        self.assertEqual(payload["planned_atomic_units"], 2)
+        self.assertEqual(payload["recent_activity"], [1, 0, 1])
 
     def test_color_target_never_auto_selects_darkest(self) -> None:
         levels = {
