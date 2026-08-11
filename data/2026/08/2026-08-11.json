@@ -1,0 +1,387 @@
+{
+  "date": "2026-08-11",
+  "timezone": "Asia/Shanghai",
+  "generated_at": "2026-08-11T11:15:36+08:00",
+  "overview": "哥伦比亚西部强震、阿萨姆洪灾与美国破纪录高温凸显灾害和气候压力；土耳其 PKK 条件性法案、俄罗斯选举排除与美国疫苗令牵动政治和公共卫生。AI 雷达关注 SWE-Bench ProMax、Muse Glimmer-30B 与 vLLM 0.27.0。",
+  "digest_path": "digests/2026/08/2026-08-11.md",
+  "ai_radar": {
+    "selection_as_of": "2026-08-11T11:10:00+08:00",
+    "item_ids": [
+      "swe-bench-promax-refactoring-benchmark",
+      "meta-muse-glimmer-30b-local-agent-model",
+      "vllm-0-27-0-serving-resilience-kernels"
+    ]
+  },
+  "items": [
+    {
+      "id": "swe-bench-promax-refactoring-benchmark",
+      "section": "ai-frontier",
+      "category": "science",
+      "regions": ["Global"],
+      "title": "SWE-Bench ProMax 把编码代理推向大型跨文件重构",
+      "summary": "SWE-Bench ProMax 发布 170 个专家策展的大型重构任务，覆盖 70 个真实仓库、七种语言，并统一代理步数和成本上限。",
+      "why_it_matters": "它把评测从局部修补推进到规格理解、跨模块协调与测试保持，更接近真实软件维护中的大型改动。",
+      "uncertainty": "数据集只有 170 例且许可未声明；公开 gold patch 可能造成未来训练污染，测试外行为、策展质量与作者自报结果仍待独立审计。",
+      "confidence": "medium",
+      "ai": {
+        "kind": "research-paper-and-public-dataset",
+        "topics": ["coding-agents", "software-engineering", "benchmark", "code-refactoring"],
+        "artifact_date": "2026-08-10T16:23:19Z",
+        "artifact_status": "COLM 2026 paper with a public non-gated dataset; dataset card does not state a license",
+        "technical_takeaway": "以专家重写规格、人工审计测试和隔离环境构成 170 个多语言大型重构任务，并揭示当前结果对 agent scaffold 的显著敏感性。",
+        "evidence_level": "primary paper and public dataset; benchmark results are author-reported and not independently replicated",
+        "paper_id": "arXiv:2608.09802",
+        "dataset_url": "https://huggingface.co/datasets/swe-bench-promax/SWE-Bench-ProMax",
+        "heat": {
+          "label": "one platform-level early attention signal; not evidence of benchmark validity",
+          "as_of": "2026-08-11T11:07:00+08:00",
+          "signals": [
+            {
+              "platform": "Hugging Face Papers",
+              "observation": "25 upvotes; the new dataset counters were still near empty and may lag",
+              "url": "https://huggingface.co/papers/2608.09802"
+            }
+          ]
+        }
+      },
+      "sources": [
+        {
+          "publisher": "arXiv",
+          "title": "SWE-Bench ProMax: Benchmarking Agents on Large-Scale Multilingual Code Refactoring",
+          "url": "https://arxiv.org/abs/2608.09802",
+          "published_at": "2026-08-10T16:23:19Z",
+          "source_type": "research"
+        },
+        {
+          "publisher": "SWE-Bench ProMax authors / Hugging Face",
+          "title": "SWE-Bench ProMax public dataset",
+          "url": "https://huggingface.co/datasets/swe-bench-promax/SWE-Bench-ProMax",
+          "published_at": "accessed 2026-08-11T11:07:00+08:00",
+          "source_type": "research"
+        },
+        {
+          "publisher": "Hugging Face",
+          "title": "SWE-Bench ProMax paper attention snapshot",
+          "url": "https://huggingface.co/papers/2608.09802",
+          "published_at": "accessed 2026-08-11T11:07:00+08:00",
+          "source_type": "community-index"
+        }
+      ]
+    },
+    {
+      "id": "meta-muse-glimmer-30b-local-agent-model",
+      "section": "ai-frontier",
+      "category": "technology",
+      "regions": ["Global", "United States"],
+      "title": "Meta Muse Glimmer-30B 面向本地多模态智能体开放权重",
+      "summary": "Meta 发布总计约 29.6B 参数（其中视觉编码器约 1.8B）的 Muse Glimmer-30B、两种 4-bit 量化版本与 DFlash drafter，面向图像、工具调用和本地代理工作负载。",
+      "why_it_matters": "不同内存档位、视觉输入和投机解码支持可降低本地多模态智能体的部署门槛，并为开放权重 agent 模型增加新的强基线。",
+      "uncertainty": "性能和安全表均为 Meta 自评；完整训练代码与数据未发布，Apache-2.0 artifacts 另受 Usage Policy 约束，多语言、量化边缘任务和真实工具安全仍待独立验证。",
+      "confidence": "medium",
+      "ai": {
+        "kind": "open-weight-multimodal-agent-model-release",
+        "topics": ["multimodal-agents", "tool-use", "local-inference", "speculative-decoding", "quantization"],
+        "artifact_date": "2026-08-09T17:51:35Z",
+        "artifact_status": "official non-gated Hugging Face repository with Apache-2.0 artifacts and a separate additional usage policy; training code and full data not released",
+        "technical_takeaway": "模型总计约 29.6B 参数，其中约 1.8B 为视觉编码器；其余稠密文本解码器结合 131K+ 上下文、两种 4-bit K-Quant 与每轮提出 16-token block 的 DFlash drafter。",
+        "evidence_level": "official model card, downloadable weights and methodology report; all benchmark and safety results are vendor-reported",
+        "code_url": "https://huggingface.co/meta-models/Muse-Glimmer-30B",
+        "heat": {
+          "label": "strong early attention on two platforms; counters do not show quality or independent reproduction",
+          "as_of": "2026-08-11T11:10:00+08:00",
+          "signals": [
+            {
+              "platform": "Hugging Face",
+              "observation": "772 likes and 4 Spaces; download counter was still zero, with its reporting scope and latency unknown",
+              "url": "https://huggingface.co/meta-models/Muse-Glimmer-30B"
+            },
+            {
+              "platform": "GitHub / Ollama",
+              "observation": "Ollama v0.32.7 release with initial model support had 34 reactions",
+              "url": "https://github.com/ollama/ollama/releases/tag/v0.32.7"
+            }
+          ]
+        }
+      },
+      "sources": [
+        {
+          "publisher": "Meta / Hugging Face",
+          "title": "Muse Glimmer-30B official model card and weights",
+          "url": "https://huggingface.co/meta-models/Muse-Glimmer-30B",
+          "published_at": "repository created 2026-08-09T17:51:35Z",
+          "source_type": "model-card"
+        },
+        {
+          "publisher": "Meta AI Research",
+          "title": "Muse Glimmer methodology report",
+          "url": "https://research.meta.ai/static/muse-glimmer-methodology",
+          "published_at": "accessed 2026-08-11T11:10:00+08:00",
+          "source_type": "research"
+        },
+        {
+          "publisher": "Ollama / GitHub",
+          "title": "Ollama v0.32.7 with initial Muse Glimmer support",
+          "url": "https://github.com/ollama/ollama/releases/tag/v0.32.7",
+          "published_at": "2026-08-10T10:49:15Z",
+          "source_type": "code"
+        },
+        {
+          "publisher": "Meta / Hugging Face",
+          "title": "Muse Glimmer Usage Policy",
+          "url": "https://huggingface.co/meta-models/Muse-Glimmer-30B/blob/main/USAGE_POLICY.md",
+          "published_at": "accessed 2026-08-11T11:10:00+08:00",
+          "source_type": "primary"
+        }
+      ]
+    },
+    {
+      "id": "vllm-0-27-0-serving-resilience-kernels",
+      "section": "ai-frontier",
+      "category": "technology",
+      "regions": ["Global"],
+      "title": "vLLM 0.27.0 扩展推理解耦、容错控制面与新硬件路径",
+      "summary": "vLLM 0.27.0 升级核心编译栈，并加入简化容错、异构 prefill/decode 解耦、Rust gRPC 控制面、KV 二级存储和新 GPU 支持。",
+      "why_it_matters": "新版同时处理长上下文推理的首请求编译、弹性并行、KV 搬运和多硬件部署，为大规模 serving 提供更完整的控制与数据路径。",
+      "uncertainty": "PyTorch 2.13 属破坏性环境变化，容错仍是简化实现；维护者性能数字来自不同 PR 和窄路径，不能相加或外推为整版统一提速。",
+      "confidence": "medium",
+      "ai": {
+        "kind": "open-source-inference-infrastructure-release",
+        "topics": ["llm-serving", "prefill-decode-disaggregation", "elastic-parallelism", "kv-cache", "gpu-kernels"],
+        "artifact_date": "2026-08-10T21:18:11Z",
+        "artifact_status": "vLLM v0.27.0 public Apache-2.0 release with source, build and test materials",
+        "technical_takeaway": "在 PyTorch 2.13 与 Triton 3.7.1 上扩展 SM100 kernel、JIT warmup、DP+EP 容错、异构 P/D block size、Rust 控制面与通用 P2P KV 二级层。",
+        "evidence_level": "official release and public source; performance numbers are maintainer-reported across separate pull requests and hardware paths",
+        "code_url": "https://github.com/vllm-project/vllm",
+        "heat": {
+          "label": "high cumulative attention within GitHub; early release reactions are not an adoption or stability measure",
+          "as_of": "2026-08-11T11:10:00+08:00",
+          "signals": [
+            {
+              "platform": "GitHub",
+              "observation": "88,717 stars and 20,519 forks cumulatively; the six-hour-old release had 10 reactions",
+              "url": "https://github.com/vllm-project/vllm/releases/tag/v0.27.0"
+            }
+          ]
+        }
+      },
+      "sources": [
+        {
+          "publisher": "vLLM / GitHub",
+          "title": "vLLM v0.27.0 release",
+          "url": "https://github.com/vllm-project/vllm/releases/tag/v0.27.0",
+          "published_at": "2026-08-10T21:18:11Z",
+          "source_type": "code"
+        },
+        {
+          "publisher": "vLLM / GitHub",
+          "title": "vLLM repository",
+          "url": "https://github.com/vllm-project/vllm",
+          "published_at": "accessed 2026-08-11T11:10:00+08:00",
+          "source_type": "code"
+        }
+      ]
+    },
+    {
+      "id": "colombia-western-earthquake-aug10",
+      "category": "climate-environment",
+      "regions": ["Latin America", "Colombia", "Ecuador", "Panama"],
+      "title": "哥伦比亚西部 7.4 级地震至少造成 111 人死亡",
+      "summary": "哥伦比亚西部发生 7.4 级地震，截至截稿至少 111 人死亡、87 人受伤，约 1,600 栋建筑受损。",
+      "why_it_matters": "这是哥伦比亚本世纪有记录以来最强地震，偏远乔科省通信与交通中断会拖慢搜救、医疗转运和损失核查。",
+      "uncertainty": "被困与失联人数、余震、山体滑坡和乔科最终损失仍可能上修，死亡分区也待官方统一。",
+      "confidence": "high",
+      "sources": [
+        {
+          "publisher": "Associated Press",
+          "title": "Powerful earthquake in western Colombia kills at least 111",
+          "url": "https://apnews.com/article/26fd40f93272d834fced47a4a673edc9",
+          "published_at": "2026-08-10T13:09:00Z",
+          "updated_at": "2026-08-11",
+          "source_type": "wire"
+        },
+        {
+          "publisher": "Servicio Geologico Colombiano",
+          "title": "Colombian Geological Service earthquake catalog",
+          "url": "https://sgc.gov.co/catalogo",
+          "published_at": "accessed 2026-08-11T11:15:00+08:00",
+          "source_type": "primary"
+        }
+      ]
+    },
+    {
+      "id": "turkey-conditional-pkk-law",
+      "category": "politics",
+      "regions": ["Europe", "Middle East", "Turkey", "Iraq", "Syria"],
+      "title": "土耳其议会通过 PKK 成员条件性法案，生效仍取决于全面缴械",
+      "summary": "土耳其议会以 468 票对 88 票通过面向数千名 PKK 成员的条件性法律路径，须确认组织解散并交出全部武器后才生效。",
+      "why_it_matters": "法案是结束 40 多年冲突的一项重要制度性步骤，并可能影响土耳其国内政治及伊拉克、叙利亚的库尔德安全安排。",
+      "uncertainty": "核验标准、实际缴械程度、PKK 是否接受和 Öcalan 的地位未定；通过法案不等于赦免已经执行。",
+      "confidence": "high",
+      "sources": [
+        {
+          "publisher": "Associated Press",
+          "title": "Turkey approves conditional pardon-like law for PKK members",
+          "url": "https://apnews.com/article/a9addfb69c8126f1d661d4f37ef74827",
+          "published_at": "2026-08-10T16:52:00+08:00",
+          "source_type": "wire"
+        },
+        {
+          "publisher": "Grand National Assembly of Turkey",
+          "title": "Turkish Parliament laws database",
+          "url": "https://www.tbmm.gov.tr/yasama/kanunlar",
+          "published_at": "accessed 2026-08-11T11:15:00+08:00",
+          "source_type": "primary"
+        }
+      ]
+    },
+    {
+      "id": "us-child-vaccine-spacing-order",
+      "category": "health-society",
+      "regions": ["North America", "United States"],
+      "title": "美国签令要求重审儿童疫苗接种间隔与拆分 MMR 路径",
+      "summary": "特朗普签令主张尽可能分开就诊接种儿童疫苗，并规划将 MMR 拆成单病种针；美国目前没有儿童用拆分 MMR。",
+      "why_it_matters": "在麻疹暴发和接种率下降背景下，联邦建议、支付与供应政策改变可能影响接种时机、公众信任和易感窗口。",
+      "uncertainty": "联邦指令不等于州学校规定已改变；监管、诉讼、厂商开发和保险路径未定，医学团体仍建议按循证日程及时接种。",
+      "confidence": "high",
+      "sources": [
+        {
+          "publisher": "Associated Press",
+          "title": "Trump signs order calling for spacing out childhood vaccines",
+          "url": "https://apnews.com/article/d10f81f221c4ae9f5b2f83dd0ee98b29",
+          "published_at": "2026-08-10T18:44:37Z",
+          "source_type": "wire"
+        },
+        {
+          "publisher": "American Academy of Pediatrics / HealthyChildren.org",
+          "title": "AAP recommended childhood and adolescent immunization schedule for 2026",
+          "url": "https://www.healthychildren.org/English/news/Pages/AAPs-recommended-childhood-and-adolescent-immunization-schedule-for-2026.aspx",
+          "published_at": "2026-02-06",
+          "source_type": "primary"
+        }
+      ]
+    },
+    {
+      "id": "russia-yabloko-ballot-removal",
+      "category": "politics",
+      "regions": ["Europe", "Russia"],
+      "title": "俄罗斯最高法院撤销 Yabloko 的国家杜马选举登记",
+      "summary": "俄罗斯最高法院撤销 Yabloko 参加 9 月国家杜马选举的登记；AP 将其描述为已登记政党中唯一公开反对对乌军事行动者。",
+      "why_it_matters": "判决进一步缩小俄罗斯全国选举中可见的反战表达和制度化政治竞争空间。",
+      "uncertainty": "Yabloko 表示将上诉；完整判决理由、上诉结果和选民反应未定，“唯一”只限 AP 对已登记政党的描述。",
+      "confidence": "high",
+      "sources": [
+        {
+          "publisher": "Associated Press",
+          "title": "Russian court bars Yabloko from parliamentary ballot",
+          "url": "https://apnews.com/article/fffdd68de22ad70cebc81e5aa308202c",
+          "published_at": "2026-08-10T17:42:48Z",
+          "source_type": "wire"
+        },
+        {
+          "publisher": "Yabloko",
+          "title": "Russian Democratic Party Yabloko official English site",
+          "url": "https://eng.yabloko.ru/",
+          "published_at": "accessed 2026-08-11T11:15:00+08:00",
+          "source_type": "primary"
+        }
+      ]
+    },
+    {
+      "id": "assam-flood-death-toll-100",
+      "category": "climate-environment",
+      "regions": ["Asia", "India", "Assam"],
+      "title": "印度阿萨姆邦洪灾死亡数升至 100",
+      "summary": "阿萨姆邦洪灾死亡数升至 100，近 30 万人一度进入政府营地，7 月以来超过 70 万人流离失所。",
+      "why_it_matters": "洪水持续冲击住房、农业、交通和公共卫生，已构成一场重大区域性人道灾害。",
+      "uncertainty": "水位、死亡数、牲畜与基础设施损失仍在变化；气候变化可作为风险背景，但不能由单场洪灾直接定量归因。",
+      "confidence": "high",
+      "sources": [
+        {
+          "publisher": "Associated Press",
+          "title": "Flood death toll in India's Assam reaches 100",
+          "url": "https://apnews.com/article/7bc402002a9159d828f220914fd9fb21",
+          "published_at": "2026-08-10T08:31:38Z",
+          "source_type": "wire"
+        },
+        {
+          "publisher": "Assam State Disaster Management Authority",
+          "title": "Assam daily flood situation reports",
+          "url": "https://asdma.assam.gov.in/information-services/assam-flood-report",
+          "published_at": "accessed 2026-08-11T11:15:00+08:00",
+          "source_type": "primary"
+        }
+      ]
+    },
+    {
+      "id": "us-july-2026-hottest-month",
+      "category": "climate-environment",
+      "regions": ["North America", "United States"],
+      "title": "美国本土 48 州经历有记录以来最热月份",
+      "summary": "美国本土 48 州 2026 年 7 月平均温度达 76.89°F，比 1936 年旧纪录高约 0.125°F，成为 1895 年以来最热月份。",
+      "why_it_matters": "夜间降温不足会加重健康、睡眠和电力系统压力，全国同时偏热也抬高农业、干旱与野火风险。",
+      "uncertainty": "月度值可能小幅修订，单月纪录不能外推为全年纪录，也不能把每个局地极端归因于单一因素。",
+      "confidence": "high",
+      "sources": [
+        {
+          "publisher": "Associated Press",
+          "title": "July was the hottest month on record for the contiguous United States",
+          "url": "https://apnews.com/article/4a9d612281485356103631f0f09b61af",
+          "published_at": "2026-08-10T17:49:00Z",
+          "source_type": "wire"
+        },
+        {
+          "publisher": "NOAA National Centers for Environmental Information",
+          "title": "National climate report for July 2026",
+          "url": "https://www.ncei.noaa.gov/access/monitoring/monthly-report/national/202607",
+          "published_at": "2026-08-10",
+          "source_type": "primary"
+        }
+      ]
+    },
+    {
+      "id": "drc-ebola-february-origin-update",
+      "category": "health-society",
+      "regions": ["Africa", "Democratic Republic of the Congo", "Uganda"],
+      "title": "更新：基因组分析将刚果（金）埃博拉暴发起点前推至 2 月",
+      "summary": "WHO 称基因测序显示 Bundibugyo 型埃博拉暴发可能始于 2 月；最新政府数据约 4,200 例确诊、超过 1,900 人死亡。",
+      "why_it_matters": "起点前移揭示约三个月的早期误诊、检测与接触追踪缺口，而该型病毒目前没有获批疫苗或特异治疗。",
+      "uncertainty": "2 月起点是测序推断而非已识别首例；病例、死亡与未监测接触链比例仍快速变化，后续可能修订。",
+      "confidence": "medium",
+      "sources": [
+        {
+          "publisher": "Associated Press",
+          "title": "Sequencing shows Congo Ebola outbreak began months earlier",
+          "url": "https://apnews.com/article/c4f179c021836ee2c9319e660010452a",
+          "published_at": "2026-08-10T21:23:00+08:00",
+          "source_type": "wire"
+        },
+        {
+          "publisher": "World Health Organization",
+          "title": "Ebola outbreak - Democratic Republic of the Congo, 2026",
+          "url": "https://www.who.int/emergencies/situations/ebola-outbreak---drc-2026",
+          "published_at": "updated through 2026-08-10",
+          "source_type": "primary"
+        }
+      ]
+    },
+    {
+      "id": "china-zhongxing-4b-launch-failure",
+      "category": "technology",
+      "regions": ["Asia", "China"],
+      "title": "中国中星 4B 发射任务报告飞行异常",
+      "summary": "长征七号甲搭载中星 4B 从文昌升空后报告飞行异常、任务失败，这是该型号自 2020 年首飞失败以来首次公开报告的失败。",
+      "why_it_matters": "失败影响通信卫星部署节奏，并为高密度发射计划中的型号可靠性和质量控制提供新的审查点。",
+      "uncertainty": "异常阶段、载荷与残骸状态、调查时间表和具体技术原因均未公布，现阶段不能作故障归因。",
+      "confidence": "high",
+      "sources": [
+        {
+          "publisher": "Associated Press",
+          "title": "China reports failure of a rocket carrying a communications satellite",
+          "url": "https://apnews.com/article/af78d7b606773e759d2cbd42d16091ec",
+          "published_at": "2026-08-10T16:53:34Z",
+          "source_type": "wire"
+        }
+      ]
+    }
+  ]
+}
