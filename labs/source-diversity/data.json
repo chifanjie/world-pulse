@@ -1,20 +1,28 @@
 {
   "built_from": "data/index.json",
   "counts": {
-    "ai_events": 24,
-    "digests": 8,
-    "events": 94,
-    "single_source_events": 19,
-    "source_links": 209,
-    "unique_source_urls": 207,
-    "world_events": 70,
+    "ai_events": 27,
+    "digests": 9,
+    "events": 103,
+    "single_source_events": 22,
+    "source_links": 226,
+    "unique_source_urls": 223,
+    "world_events": 76,
     "zero_source_events": 0
   },
   "date_range": {
-    "end": "2026-08-11",
+    "end": "2026-08-12",
     "start": "2026-08-03"
   },
   "dates": [
+    {
+      "ai_event_count": 3,
+      "date": "2026-08-12",
+      "event_count": 9,
+      "single_source_events": 3,
+      "source_links": 17,
+      "world_event_count": 6
+    },
     {
       "ai_event_count": 3,
       "date": "2026-08-11",
@@ -81,6 +89,270 @@
     }
   ],
   "events": [
+    {
+      "category": "science",
+      "confidence": "medium",
+      "date": "2026-08-12",
+      "id": "bdh-cq-recurrent-latent-reasoning",
+      "regions": [
+        "Global"
+      ],
+      "section": "ai",
+      "single_source": false,
+      "source_count": 3,
+      "sources": [
+        {
+          "published_at": "2026-08-10T17:39:16Z",
+          "publisher": "arXiv",
+          "source_type": "research",
+          "title": "BDH-CQ: In-Context Learning with Recurrent Latent Reasoning",
+          "url": "https://arxiv.org/abs/2608.09888"
+        },
+        {
+          "published_at": "accessed 2026-08-12T09:32:00+08:00",
+          "publisher": "Hugging Face",
+          "source_type": "community-index",
+          "title": "BDH-CQ paper attention snapshot",
+          "url": "https://huggingface.co/papers/2608.09888"
+        },
+        {
+          "published_at": "accessed 2026-08-12T09:32:00+08:00",
+          "publisher": "Pathway / GitHub",
+          "source_type": "code",
+          "title": "ARC-AGI-1 Task Generator",
+          "url": "https://github.com/pathwaycom/arc-task-gen"
+        }
+      ],
+      "title": "BDH-CQ 用 150M 参数探索循环潜变量推理"
+    },
+    {
+      "category": "technology",
+      "confidence": "medium",
+      "date": "2026-08-12",
+      "id": "nvidia-nemotron-3-5-lightning-30b-a3b",
+      "regions": [
+        "Global",
+        "United States"
+      ],
+      "section": "ai",
+      "single_source": false,
+      "source_count": 3,
+      "sources": [
+        {
+          "published_at": "GA 2026-08-11",
+          "publisher": "NVIDIA / Hugging Face",
+          "source_type": "model-card",
+          "title": "NVIDIA Nemotron 3.5 Lightning 30B-A3B BF16 model card",
+          "url": "https://huggingface.co/nvidia/NVIDIA-Nemotron-3.5-Lightning-30B-A3B-BF16"
+        },
+        {
+          "published_at": "GA 2026-08-11",
+          "publisher": "NVIDIA / Hugging Face",
+          "source_type": "model-card",
+          "title": "NVIDIA Nemotron 3.5 Lightning 30B-A3B NVFP4",
+          "url": "https://huggingface.co/nvidia/NVIDIA-Nemotron-3.5-Lightning-30B-A3B-NVFP4"
+        },
+        {
+          "published_at": "accessed 2026-08-12T09:30:00+08:00",
+          "publisher": "NVIDIA NeMo / GitHub",
+          "source_type": "code",
+          "title": "Nemotron 3.5 Lightning evaluation reproducibility recipes",
+          "url": "https://github.com/NVIDIA-NeMo/Gym/blob/main/nemotron_recipes/lightning-3.5/reproducibility.md"
+        }
+      ],
+      "title": "Nemotron 3.5 Lightning 以 30B 总参、3B 激活面向长上下文推理"
+    },
+    {
+      "category": "technology",
+      "confidence": "medium",
+      "date": "2026-08-12",
+      "id": "openai-agents-sdk-python-0-20-0",
+      "regions": [
+        "Global",
+        "United States"
+      ],
+      "section": "ai",
+      "single_source": false,
+      "source_count": 2,
+      "sources": [
+        {
+          "published_at": "accessed 2026-08-12T09:30:00+08:00",
+          "publisher": "OpenAI / GitHub",
+          "source_type": "code",
+          "title": "OpenAI Agents SDK Python repository",
+          "url": "https://github.com/openai/openai-agents-python"
+        },
+        {
+          "published_at": "2026-08-11T03:12:00Z",
+          "publisher": "OpenAI / GitHub",
+          "source_type": "code",
+          "title": "OpenAI Agents SDK Python v0.20.0 release",
+          "url": "https://github.com/openai/openai-agents-python/releases/tag/v0.20.0"
+        }
+      ],
+      "title": "OpenAI Agents SDK Python 0.20.0 强化恢复状态、MCP 兼容与沙箱凭据边界"
+    },
+    {
+      "category": "health-society",
+      "confidence": "high",
+      "date": "2026-08-12",
+      "id": "australia-census-gender-sexual-orientation-2026",
+      "regions": [
+        "Australia",
+        "Oceania"
+      ],
+      "section": "world",
+      "single_source": false,
+      "source_count": 2,
+      "sources": [
+        {
+          "published_at": "2026-08-11T08:35:00+08:00",
+          "publisher": "Associated Press",
+          "source_type": "wire",
+          "title": "Australia census asks new gender and sexual orientation questions",
+          "url": "https://apnews.com/article/a442c949e0570a0b0c2a310269228e34"
+        },
+        {
+          "published_at": "2026-07-28",
+          "publisher": "Australian Bureau of Statistics",
+          "source_type": "primary",
+          "title": "Clarification on new Census questions",
+          "url": "https://www.abs.gov.au/census/census-media-hub/releases-and-statements/on-the-record/280726-clarification-new-census-questions"
+        }
+      ],
+      "title": "澳大利亚人口普查首次纳入性取向与性别问题"
+    },
+    {
+      "category": "climate-environment",
+      "confidence": "high",
+      "date": "2026-08-12",
+      "id": "colombia-earthquake-toll-update-aug11",
+      "regions": [
+        "Colombia",
+        "Latin America"
+      ],
+      "section": "world",
+      "single_source": false,
+      "source_count": 2,
+      "sources": [
+        {
+          "published_at": "2026-08-11T12:24:00+08:00",
+          "publisher": "Associated Press",
+          "source_type": "wire",
+          "title": "Colombia earthquake toll rises to at least 181",
+          "url": "https://apnews.com/article/e6afe31239c0deae34ab944014464399"
+        },
+        {
+          "published_at": "accessed 2026-08-12T09:40:00+08:00",
+          "publisher": "Servicio Geologico Colombiano",
+          "source_type": "primary",
+          "title": "Colombian Geological Service earthquake catalog",
+          "url": "https://sgc.gov.co/catalogo"
+        }
+      ],
+      "title": "更新：哥伦比亚强震死亡数升至至少 181 人"
+    },
+    {
+      "category": "climate-environment",
+      "confidence": "medium",
+      "date": "2026-08-12",
+      "id": "italy-franciacorta-early-grape-harvest-heat",
+      "regions": [
+        "Europe",
+        "Italy"
+      ],
+      "section": "world",
+      "single_source": true,
+      "source_count": 1,
+      "sources": [
+        {
+          "published_at": "2026-08-11T12:25:00+08:00",
+          "publisher": "Associated Press",
+          "source_type": "wire",
+          "title": "Extreme heat brings an unusually early Italian wine harvest",
+          "url": "https://apnews.com/article/fd8e3845479332fe1baff824a3fcbd61"
+        }
+      ],
+      "title": "极端高温迫使意大利 Franciacorta 葡萄提前约 10 天采收"
+    },
+    {
+      "category": "economy",
+      "confidence": "high",
+      "date": "2026-08-12",
+      "id": "rba-holds-cash-rate-4-35-aug11",
+      "regions": [
+        "Australia",
+        "Oceania"
+      ],
+      "section": "world",
+      "single_source": false,
+      "source_count": 2,
+      "sources": [
+        {
+          "published_at": "updated 2026-08-11",
+          "publisher": "Reserve Bank of Australia",
+          "source_type": "primary",
+          "title": "Cash rate target overview",
+          "url": "https://www.rba.gov.au/cash-rate-target-overview.html"
+        },
+        {
+          "published_at": "2026-08-11T14:30:00+10:00",
+          "publisher": "Reserve Bank of Australia",
+          "source_type": "primary",
+          "title": "Statement by the Monetary Policy Board: Monetary Policy Decision",
+          "url": "https://www.rba.gov.au/media-releases/2026/mr-26-19.html"
+        }
+      ],
+      "title": "澳大利亚央行一致决定维持现金利率 4.35%"
+    },
+    {
+      "category": "politics",
+      "confidence": "high",
+      "date": "2026-08-12",
+      "id": "russia-strikes-ukraine-civilians-aug11",
+      "regions": [
+        "Europe",
+        "Russia",
+        "Ukraine"
+      ],
+      "section": "world",
+      "single_source": true,
+      "source_count": 1,
+      "sources": [
+        {
+          "published_at": "2026-08-11T16:41:00+08:00",
+          "publisher": "Associated Press",
+          "source_type": "wire",
+          "title": "Russian strikes kill at least 10 civilians in Ukraine",
+          "url": "https://apnews.com/article/7aff38d17dd195e63b7c55fc5a008c22"
+        }
+      ],
+      "title": "俄军新一轮袭击造成乌克兰至少 10 名平民死亡"
+    },
+    {
+      "category": "technology",
+      "confidence": "medium",
+      "date": "2026-08-12",
+      "id": "vietnam-vinspace-spacex-2027-launch",
+      "regions": [
+        "Asia",
+        "United States",
+        "Vietnam"
+      ],
+      "section": "world",
+      "single_source": true,
+      "source_count": 1,
+      "sources": [
+        {
+          "published_at": "2026-08-11T13:21:00+08:00",
+          "publisher": "Associated Press",
+          "source_type": "wire",
+          "title": "Vietnam's VinSpace signs SpaceX launch contract",
+          "url": "https://apnews.com/article/100b2afad4ad42fdffdca3a6c7cbfa7a"
+        }
+      ],
+      "title": "越南 VinSpace 签约 SpaceX，计划 2027 年发射首批卫星"
+    },
     {
       "category": "technology",
       "confidence": "medium",
@@ -3107,12 +3379,12 @@
       "title": "降级预期推动油价早盘回落约 4 美元"
     }
   ],
-  "latest_digest_generated_at": "2026-08-11T11:15:36+08:00",
+  "latest_digest_generated_at": "2026-08-12T09:40:00+08:00",
   "publishers": [
     {
-      "event_count": 59,
+      "event_count": 64,
       "name": "Associated Press",
-      "source_links": 62
+      "source_links": 67
     },
     {
       "event_count": 17,
@@ -3120,14 +3392,14 @@
       "source_links": 19
     },
     {
-      "event_count": 10,
+      "event_count": 11,
       "name": "arXiv",
-      "source_links": 10
+      "source_links": 11
     },
     {
-      "event_count": 4,
+      "event_count": 5,
       "name": "Hugging Face",
-      "source_links": 6
+      "source_links": 7
     },
     {
       "event_count": 5,
@@ -3206,12 +3478,32 @@
     },
     {
       "event_count": 1,
+      "name": "NVIDIA / Hugging Face",
+      "source_links": 2
+    },
+    {
+      "event_count": 1,
+      "name": "OpenAI / GitHub",
+      "source_links": 2
+    },
+    {
+      "event_count": 1,
       "name": "Prime Intellect / GitHub",
       "source_links": 2
     },
     {
       "event_count": 2,
       "name": "PyPI Stats",
+      "source_links": 2
+    },
+    {
+      "event_count": 1,
+      "name": "Reserve Bank of Australia",
+      "source_links": 2
+    },
+    {
+      "event_count": 2,
+      "name": "Servicio Geologico Colombiano",
       "source_links": 2
     },
     {
@@ -3262,6 +3554,11 @@
     {
       "event_count": 1,
       "name": "Assam State Disaster Management Authority",
+      "source_links": 1
+    },
+    {
+      "event_count": 1,
+      "name": "Australian Bureau of Statistics",
       "source_links": 1
     },
     {
@@ -3436,6 +3733,11 @@
     },
     {
       "event_count": 1,
+      "name": "NVIDIA NeMo / GitHub",
+      "source_links": 1
+    },
+    {
+      "event_count": 1,
       "name": "ODI Global",
       "source_links": 1
     },
@@ -3451,6 +3753,11 @@
     },
     {
       "event_count": 1,
+      "name": "Pathway / GitHub",
+      "source_links": 1
+    },
+    {
+      "event_count": 1,
       "name": "Policía Nacional de Colombia",
       "source_links": 1
     },
@@ -3462,11 +3769,6 @@
     {
       "event_count": 1,
       "name": "Reserve Bank of India",
-      "source_links": 1
-    },
-    {
-      "event_count": 1,
-      "name": "Servicio Geologico Colombiano",
       "source_links": 1
     },
     {
@@ -3527,7 +3829,7 @@
   ],
   "regions": [
     {
-      "event_count": 38,
+      "event_count": 41,
       "name": "Global"
     },
     {
@@ -3535,15 +3837,15 @@
       "name": "North America"
     },
     {
-      "event_count": 23,
+      "event_count": 24,
       "name": "Asia"
     },
     {
-      "event_count": 17,
+      "event_count": 19,
       "name": "Europe"
     },
     {
-      "event_count": 15,
+      "event_count": 18,
       "name": "United States"
     },
     {
@@ -3559,12 +3861,16 @@
       "name": "China"
     },
     {
-      "event_count": 5,
+      "event_count": 6,
       "name": "Russia"
     },
     {
-      "event_count": 4,
+      "event_count": 5,
       "name": "Ukraine"
+    },
+    {
+      "event_count": 4,
+      "name": "Latin America"
     },
     {
       "event_count": 3,
@@ -3572,11 +3878,11 @@
     },
     {
       "event_count": 3,
-      "name": "Israel"
+      "name": "Colombia"
     },
     {
       "event_count": 3,
-      "name": "Latin America"
+      "name": "Israel"
     },
     {
       "event_count": 3,
@@ -3592,7 +3898,7 @@
     },
     {
       "event_count": 2,
-      "name": "Colombia"
+      "name": "Australia"
     },
     {
       "event_count": 2,
@@ -3612,6 +3918,10 @@
     },
     {
       "event_count": 2,
+      "name": "Italy"
+    },
+    {
+      "event_count": 2,
       "name": "Japan"
     },
     {
@@ -3621,6 +3931,10 @@
     {
       "event_count": 2,
       "name": "Nigeria"
+    },
+    {
+      "event_count": 2,
+      "name": "Oceania"
     },
     {
       "event_count": 2,
@@ -3724,10 +4038,6 @@
     },
     {
       "event_count": 1,
-      "name": "Italy"
-    },
-    {
-      "event_count": 1,
       "name": "Kenya"
     },
     {
@@ -3816,6 +4126,10 @@
     },
     {
       "event_count": 1,
+      "name": "Vietnam"
+    },
+    {
+      "event_count": 1,
       "name": "West Bank"
     },
     {
@@ -3826,34 +4140,34 @@
   "schema_version": 1,
   "source_types": [
     {
-      "event_count": 67,
+      "event_count": 72,
       "name": "wire",
-      "source_links": 81
+      "source_links": 86
     },
     {
-      "event_count": 45,
+      "event_count": 48,
       "name": "primary",
-      "source_links": 52
+      "source_links": 56
     },
     {
-      "event_count": 18,
+      "event_count": 21,
       "name": "code",
-      "source_links": 28
+      "source_links": 32
     },
     {
-      "event_count": 16,
+      "event_count": 17,
       "name": "research",
-      "source_links": 20
+      "source_links": 21
     },
     {
-      "event_count": 14,
+      "event_count": 15,
       "name": "community-index",
-      "source_links": 14
+      "source_links": 15
     },
     {
-      "event_count": 9,
+      "event_count": 10,
       "name": "model-card",
-      "source_links": 13
+      "source_links": 15
     },
     {
       "event_count": 1,
