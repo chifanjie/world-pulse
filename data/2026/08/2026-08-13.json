@@ -1,0 +1,375 @@
+{
+  "date": "2026-08-13",
+  "timezone": "Asia/Shanghai",
+  "generated_at": "2026-08-13T09:18:00+08:00",
+  "overview": "联合国机制推进缅甸严重国际罪行证据链，美国通胀放缓但能源压力仍高；AI 雷达关注推理轨迹安全、Pydantic AI 修复与小型视觉模型。",
+  "digest_path": "digests/2026/08/2026-08-13.md",
+  "ai_radar": {
+    "selection_as_of": "2026-08-13T09:08:00+08:00",
+    "item_ids": [
+      "reasoning-trace-api-leak-disclosure",
+      "pydantic-ai-web-ui-origin-fix",
+      "cohere-north-micro-vision-instruct"
+    ]
+  },
+  "items": [
+    {
+      "id": "reasoning-trace-api-leak-disclosure",
+      "section": "ai-frontier",
+      "category": "technology",
+      "regions": ["Global"],
+      "title": "安全研究披露专有模型推理块曾可被跨上下文滥用",
+      "summary": "研究者称，部分模型 API 的加密或签名推理块当时可跨上下文复用，并可能被兼容模型诱导转录。",
+      "why_it_matters": "它揭示了可回传但不可读的状态若缺少用户、会话、模型与前序消息绑定，仍可能成为隐私和注入边界。",
+      "uncertainty": "研究尚未同行评审、没有明文真值或独立复现；实验针对七月初 API，作者称供应商披露后已采取缓解措施。",
+      "confidence": "medium",
+      "ai": {
+        "kind": "security-preprint-and-responsible-disclosure",
+        "topics": ["encrypted-reasoning", "API-security", "privacy", "prompt-injection", "anti-distillation"],
+        "artifact_date": "2026-08-10T17:24:50Z",
+        "artifact_status": "arXiv preprint not peer reviewed, CC BY 4.0; no exploit code or sensitive dataset released; vendors reportedly mitigated after disclosure",
+        "technical_takeaway": "客户端可回传的推理块需要绑定用户、会话、模型和消息链，否则封装本身可能被跨上下文复用。",
+        "evidence_level": "primary non-peer-reviewed preprint with cross-provider experiments and a responsible-disclosure account; author-reported, no independent replication and current exploitability not established",
+        "paper_id": "arXiv:2608.09867",
+        "heat": {
+          "label": "higher attention within Hugging Face Papers only; not evidence of validity or current exploitability",
+          "as_of": "2026-08-13T09:08:00+08:00",
+          "signals": [
+            {
+              "platform": "Hugging Face Papers",
+              "observation": "86 upvotes and 3 comments",
+              "url": "https://huggingface.co/papers/2608.09867"
+            }
+          ]
+        }
+      },
+      "sources": [
+        {
+          "publisher": "arXiv",
+          "title": "Stealing Reasoning Traces from Proprietary LLM APIs",
+          "url": "https://arxiv.org/abs/2608.09867",
+          "published_at": "2026-08-10T17:24:50Z",
+          "source_type": "research"
+        },
+        {
+          "publisher": "arXiv",
+          "title": "Stealing Reasoning Traces from Proprietary LLM APIs - HTML",
+          "url": "https://arxiv.org/html/2608.09867v1",
+          "published_at": "2026-08-10T17:24:50Z",
+          "source_type": "research"
+        },
+        {
+          "publisher": "Hugging Face",
+          "title": "Stealing Reasoning Traces paper attention snapshot",
+          "url": "https://huggingface.co/papers/2608.09867",
+          "published_at": "accessed 2026-08-13T09:08:00+08:00",
+          "source_type": "community-index"
+        }
+      ]
+    },
+    {
+      "id": "pydantic-ai-web-ui-origin-fix",
+      "section": "ai-frontier",
+      "category": "technology",
+      "regions": ["Global"],
+      "title": "Pydantic AI 修补本地 Agent Web UI 的高危跨源请求漏洞",
+      "summary": "Pydantic AI 2.28.0 和 1.107.4 强制聊天端点使用 JSON，以阻断恶意网页跨源触发本地 agent。",
+      "why_it_matters": "漏洞可能让网页借本地 agent 的工具和凭据产生未预期副作用，说明 loopback 与客户端审批不足以构成服务端安全边界。",
+      "uncertainty": "利用要求本地 Web UI 正在运行且用户访问恶意页面；升级可能要求自定义客户端补充 JSON header，尚无独立专项审计。",
+      "confidence": "high",
+      "ai": {
+        "kind": "open-source-agent-framework-security-fix",
+        "topics": ["agents", "browser-security", "localhost", "tool-approval", "CSRF"],
+        "artifact_date": "2026-08-12T04:02:43Z",
+        "artifact_status": "official GitHub security advisory with patched MIT releases 1.107.4 and 2.28.0 and a public fix",
+        "technical_takeaway": "服务端在解析请求和运行 agent 前强制 application/json，使恶意网页无法用免预检普通请求触发本地工具。",
+        "evidence_level": "official advisory, affected-version ranges and public patch; no version-specific independent security audit",
+        "code_url": "https://github.com/pydantic/pydantic-ai/pull/7382",
+        "heat": {
+          "label": "large cumulative GitHub ecosystem; version-specific discussion remained limited",
+          "as_of": "2026-08-13T09:08:00+08:00",
+          "signals": [
+            {
+              "platform": "GitHub",
+              "observation": "repository had about 19,256 stars and 2,510 forks cumulatively",
+              "url": "https://github.com/pydantic/pydantic-ai/security/advisories/GHSA-h4xc-3qfq-jf93"
+            }
+          ]
+        }
+      },
+      "sources": [
+        {
+          "publisher": "Pydantic / GitHub",
+          "title": "GHSA-h4xc-3qfq-jf93: Agent Web UI missing request origin validation",
+          "url": "https://github.com/pydantic/pydantic-ai/security/advisories/GHSA-h4xc-3qfq-jf93",
+          "published_at": "2026-08-12T04:02:43Z",
+          "source_type": "code"
+        },
+        {
+          "publisher": "Pydantic / GitHub",
+          "title": "Pydantic AI v2.28.0",
+          "url": "https://github.com/pydantic/pydantic-ai/releases/tag/v2.28.0",
+          "published_at": "2026-08-12T02:04:43Z",
+          "source_type": "code"
+        },
+        {
+          "publisher": "Pydantic / GitHub",
+          "title": "Require JSON content type in chat endpoint",
+          "url": "https://github.com/pydantic/pydantic-ai/pull/7382",
+          "published_at": "2026-08-12",
+          "source_type": "code"
+        }
+      ]
+    },
+    {
+      "id": "cohere-north-micro-vision-instruct",
+      "section": "ai-frontier",
+      "category": "technology",
+      "regions": ["Global", "North America"],
+      "title": "Cohere 发布 2.4B 开放权重视觉语言模型 North Micro Vision",
+      "summary": "North Micro Vision Instruct 结合约 2B 语言模型与 400M 原生分辨率视觉编码器，面向 OCR、文档和视觉定位。",
+      "why_it_matters": "较小规模、开放权重与微调配方为本地多模态文档处理提供了新的可部署基线。",
+      "uncertainty": "指标均为厂商自评；多模态只训练验证到 8K，数学、代码、工具调用和安全能力有限，未见独立复现。",
+      "confidence": "medium",
+      "ai": {
+        "kind": "open-weight-vision-language-model-release",
+        "topics": ["vision-language", "OCR", "document-understanding", "grounding", "native-resolution"],
+        "artifact_date": "2026-08-12T16:00:58Z",
+        "artifact_status": "official technical article published at artifact_date, with an Apache-2.0 model card, downloadable BF16 weights and public fine-tuning recipes; the model repository itself was created earlier",
+        "technical_takeaway": "2.4B 模型用原生分辨率视觉编码器和多层视觉表示注入早期语言层，在较小规模上覆盖文档、图表与定位任务。",
+        "evidence_level": "official model card, weights and fine-tuning recipe; all benchmarks are vendor-reported and not independently reproduced",
+        "code_url": "https://github.com/NVIDIA-NeMo/Automodel/tree/main/examples/vlm_finetune/cohere_micro_vision",
+        "heat": {
+          "label": "early attention within Hugging Face only; not evidence of adoption or independent reproduction",
+          "as_of": "2026-08-13T09:08:00+08:00",
+          "signals": [
+            {
+              "platform": "Hugging Face",
+              "observation": "model page showed 56 likes and 98 downloads",
+              "url": "https://huggingface.co/CohereLabs/North-Micro-Vision-Instruct"
+            }
+          ]
+        }
+      },
+      "sources": [
+        {
+          "publisher": "Cohere / Hugging Face",
+          "title": "North-Micro-Vision-Instruct model card",
+          "url": "https://huggingface.co/CohereLabs/North-Micro-Vision-Instruct",
+          "published_at": "updated 2026-08-12T17:46:00Z",
+          "source_type": "model-card"
+        },
+        {
+          "publisher": "Cohere / Hugging Face",
+          "title": "Meet North Micro Vision Instruct",
+          "url": "https://huggingface.co/blog/CohereLabs/meet-north-micro-vision-instruct",
+          "published_at": "2026-08-12T16:00:58Z",
+          "source_type": "model-card"
+        },
+        {
+          "publisher": "NVIDIA NeMo / GitHub",
+          "title": "Cohere Micro Vision fine-tuning recipe",
+          "url": "https://github.com/NVIDIA-NeMo/Automodel/tree/main/examples/vlm_finetune/cohere_micro_vision",
+          "published_at": "accessed 2026-08-13T09:08:00+08:00",
+          "source_type": "code"
+        }
+      ]
+    },
+    {
+      "id": "myanmar-iimm-annual-report-2026",
+      "category": "politics",
+      "regions": ["Asia", "Myanmar"],
+      "title": "联合国机制称缅甸严重国际罪行继续升级，并推进指挥链识别",
+      "summary": "联合国调查机制称，缅军及多个武装团体所涉严重国际罪行继续升级，并已识别部分空袭部队与指挥链。",
+      "why_it_matters": "从事件记录推进到单位和指挥链识别，可为国际及国内司法程序提供更可用的证据链。",
+      "uncertainty": "调查结论依赖大量非公开材料，不等同法院裁判；具体责任人尚未公开，现场核验持续受限。",
+      "confidence": "high",
+      "sources": [
+        {
+          "publisher": "Independent Investigative Mechanism for Myanmar",
+          "title": "Myanmar Mechanism investigations reveal deliberate attacks on civilians",
+          "url": "https://iimm.un.org/en/myanmar-mechanism-investigations-reveal-deliberate-attacks-civilians-myanmar-military-annual-report",
+          "published_at": "2026-08-11",
+          "source_type": "primary"
+        },
+        {
+          "publisher": "Independent Investigative Mechanism for Myanmar",
+          "title": "2026 IIMM Annual Report",
+          "url": "https://iimm.un.org/sites/default/files/2026/08/2026%20IIMM%20Annual%20Report.pdf",
+          "published_at": "2026-08-11",
+          "source_type": "primary"
+        },
+        {
+          "publisher": "Associated Press",
+          "title": "UN investigators trace deliberate attacks on civilians in Myanmar",
+          "url": "https://apnews.com/article/cf48f831f4f67dc422d01d08d12587d0",
+          "published_at": "2026-08-11T22:48:00+08:00",
+          "source_type": "wire"
+        }
+      ]
+    },
+    {
+      "id": "north-korea-ballistic-missile-aug12",
+      "category": "politics",
+      "regions": ["Asia", "Korean Peninsula", "Japan"],
+      "title": "朝鲜六天内第二次试射弹道导弹",
+      "summary": "韩方称朝鲜从元山附近发射一枚飞行超过 700 公里的弹道导弹；日方估算约 690 公里并称其落在专属经济区外。",
+      "why_it_matters": "发射临近韩美年度军演，提高东北亚误判与军备互动风险。",
+      "uncertainty": "弹种和性能仍在分析，没有损害报告；针对军演的动机尚未获朝鲜确认。",
+      "confidence": "high",
+      "sources": [
+        {
+          "publisher": "Associated Press",
+          "title": "North Korea launches another missile toward sea",
+          "url": "https://apnews.com/article/3622cedfdba8216224f6137dea5f0cb9",
+          "published_at": "2026-08-12T05:36:02+08:00",
+          "source_type": "wire"
+        },
+        {
+          "publisher": "Ministry of Defense of Japan",
+          "title": "North Korean missile launch announcement, August 12, 2026",
+          "url": "https://www.mod.go.jp/j/press/news/2026/08/12d.html",
+          "published_at": "2026-08-12T05:59:00+09:00",
+          "source_type": "primary"
+        }
+      ]
+    },
+    {
+      "id": "us-july-cpi-2026",
+      "category": "economy",
+      "regions": ["North America", "United States"],
+      "title": "美国 7 月 CPI 同比放缓至 3.4%，能源价格仍高",
+      "summary": "美国 7 月 CPI 环比上涨 0.1%、同比上涨 3.4%，核心 CPI 同比 2.5%，能源同比上涨 14.7%。",
+      "why_it_matters": "数据会影响美联储利率判断、债券收益率与全球风险资产，同时显示能源冲击仍在侵蚀购买力。",
+      "uncertainty": "单月数据不能确认趋势，季调值可能修订，油价、关税和投资成本的持续性仍不确定。",
+      "confidence": "high",
+      "sources": [
+        {
+          "publisher": "U.S. Bureau of Labor Statistics",
+          "title": "Consumer Price Index Summary - July 2026",
+          "url": "https://www.bls.gov/news.release/cpi.nr0.htm",
+          "published_at": "2026-08-12T08:30:00-04:00",
+          "source_type": "primary"
+        },
+        {
+          "publisher": "Associated Press",
+          "title": "Inflation cools but prices remain elevated",
+          "url": "https://apnews.com/article/150e179a6c6b3182ba05cedf0188394b",
+          "published_at": "2026-08-12T05:07:54+08:00",
+          "source_type": "wire"
+        }
+      ]
+    },
+    {
+      "id": "zimbabwe-lake-kariba-ferry-aug12",
+      "category": "health-society",
+      "regions": ["Africa", "Zimbabwe"],
+      "title": "津巴布韦卡里巴湖渡轮倾覆死亡数升至至少 44 人",
+      "summary": "政府机构运营的渡轮在卡里巴湖倾覆，至少 44 人死亡、77 人获救，核载 90 人但最终登船人数不明。",
+      "why_it_matters": "重大群死群伤暴露公共渡运的清单、超载控制、气象判断与救援能力问题。",
+      "uncertainty": "最终登船数、失踪数和确切原因未定；153 人在船是单一幸存船员说法。",
+      "confidence": "high",
+      "sources": [
+        {
+          "publisher": "Associated Press",
+          "title": "A ferry capsizes on Zimbabwe's Lake Kariba",
+          "url": "https://apnews.com/article/2fb66e523bc8c1b09cd3e046e98459af",
+          "published_at": "2026-08-11",
+          "source_type": "wire"
+        },
+        {
+          "publisher": "Associated Press",
+          "title": "Survivors describe overloaded ferry disaster",
+          "url": "https://apnews.com/article/9e18737fb13970ce3b458a466a0dfbe3",
+          "published_at": "2026-08-12T19:55:00+08:00",
+          "source_type": "wire"
+        }
+      ]
+    },
+    {
+      "id": "libya-zawiya-substation-drone-strike",
+      "category": "politics",
+      "regions": ["Africa", "Libya"],
+      "title": "利比亚扎维耶变电站遭无人机袭击后完全烧毁",
+      "summary": "利比亚国营电力公司称，扎维耶变电站遭无人机袭击后完全烧毁并退出运行。",
+      "why_it_matters": "袭击把武装对抗风险从石油出口延伸至民生电网和主要能源枢纽。",
+      "uncertainty": "无人认领袭击，攻击者、动机、停电范围和修复时间均未知。",
+      "confidence": "medium",
+      "sources": [
+        {
+          "publisher": "Associated Press",
+          "title": "Drone strike torches Zawiya substation",
+          "url": "https://apnews.com/article/9865eb3d8e6b805f226aa13f913c7f73",
+          "published_at": "2026-08-12T16:39:22+08:00",
+          "source_type": "wire"
+        },
+        {
+          "publisher": "Associated Press",
+          "title": "Earlier strikes hit Zawiya oil facilities",
+          "url": "https://apnews.com/article/b7bd01d829f0f032aef463dbd5b94ae7",
+          "published_at": "2026-08-11T17:04:09+08:00",
+          "source_type": "wire"
+        }
+      ]
+    },
+    {
+      "id": "zambia-general-election-2026",
+      "category": "politics",
+      "regions": ["Africa", "Zambia"],
+      "title": "赞比亚大选即将开始，债务与关键矿产路线接受检验",
+      "summary": "赞比亚将在当地 06:00 开始总统、议会和地方选举，登记选民 8,786,300 人；截至截稿投票尚未开始。",
+      "why_it_matters": "结果将检验债务重组的政治支持，并影响铜产量扩张及中美关键矿产投资。",
+      "uncertainty": "投票和结果尚未发生；竞选空间与程序透明性的相反说法需分别归因。",
+      "confidence": "high",
+      "sources": [
+        {
+          "publisher": "Electoral Commission of Zambia",
+          "title": "2026 general election information",
+          "url": "https://www.elections.org.zm/",
+          "published_at": "accessed 2026-08-13T09:18:00+08:00",
+          "source_type": "primary"
+        },
+        {
+          "publisher": "Associated Press",
+          "title": "Zambia election guide",
+          "url": "https://apnews.com/article/6aa3902c21a9caa57ca6b715093fde87",
+          "published_at": "2026-08-12T10:42:46+08:00",
+          "source_type": "wire"
+        }
+      ]
+    },
+    {
+      "id": "august-2026-total-solar-eclipse-occurs",
+      "category": "science",
+      "regions": ["Europe", "North Atlantic"],
+      "title": "更新：北大西洋至伊比利亚日全食发生，NASA 曾安排高空观测",
+      "summary": "日全食横跨俄罗斯北部、格陵兰、冰岛与伊比利亚；NASA 此前计划以 WB-57 飞机和科学气球开展观测。",
+      "why_it_matters": "罕见天象提供研究日冕快速变化和短时变暗影响大气过程的观测窗口。",
+      "uncertainty": "NASA 尚未确认任务是否全部按计划执行，实验结果也未发布；本条只确认相较 8 月 3 日预告的实质发生更新。",
+      "confidence": "high",
+      "sources": [
+        {
+          "publisher": "NASA",
+          "title": "Total Solar Eclipse on August 12, 2026",
+          "url": "https://science.nasa.gov/eclipses/future-eclipses/total-solar-eclipse-on-august-12-2026/",
+          "published_at": "updated 2026-07-27",
+          "source_type": "primary"
+        },
+        {
+          "publisher": "NASA",
+          "title": "NASA Science Soars During August Total Solar Eclipse",
+          "url": "https://science.nasa.gov/science-research/heliophysics/nasa-science-soars-during-august-total-solar-eclipse/",
+          "published_at": "updated 2026-07-28",
+          "source_type": "primary"
+        },
+        {
+          "publisher": "Associated Press",
+          "title": "Total solar eclipse crosses the North Atlantic",
+          "url": "https://apnews.com/article/4748323b3df8272d546683cc1dbc1d15",
+          "published_at": "2026-08-12T16:04:47+08:00; updated after totality",
+          "source_type": "wire"
+        }
+      ]
+    }
+  ]
+}

@@ -2,6 +2,36 @@
   "version": 1,
   "entries": [
     {
+      "date": "2026-08-13",
+      "digest_path": "digests/2026/08/2026-08-13.md",
+      "data_path": "data/2026/08/2026-08-13.json",
+      "generated_at": "2026-08-13T09:18:00+08:00",
+      "item_count": 10,
+      "ai_radar_count": 3,
+      "categories": [
+        "economy",
+        "health-society",
+        "politics",
+        "science",
+        "technology"
+      ],
+      "regions": [
+        "Africa",
+        "Asia",
+        "Europe",
+        "Global",
+        "Japan",
+        "Korean Peninsula",
+        "Libya",
+        "Myanmar",
+        "North America",
+        "North Atlantic",
+        "United States",
+        "Zambia",
+        "Zimbabwe"
+      ]
+    },
+    {
       "date": "2026-08-12",
       "digest_path": "digests/2026/08/2026-08-12.md",
       "data_path": "data/2026/08/2026-08-12.json",
