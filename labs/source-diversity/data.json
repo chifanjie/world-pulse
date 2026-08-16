@@ -1,20 +1,28 @@
 {
   "built_from": "data/index.json",
   "counts": {
-    "ai_events": 30,
-    "digests": 10,
-    "events": 113,
-    "single_source_events": 22,
-    "source_links": 251,
-    "unique_source_urls": 247,
-    "world_events": 83,
+    "ai_events": 33,
+    "digests": 11,
+    "events": 124,
+    "single_source_events": 24,
+    "source_links": 279,
+    "unique_source_urls": 274,
+    "world_events": 91,
     "zero_source_events": 0
   },
   "date_range": {
-    "end": "2026-08-13",
+    "end": "2026-08-16",
     "start": "2026-08-03"
   },
   "dates": [
+    {
+      "ai_event_count": 3,
+      "date": "2026-08-16",
+      "event_count": 11,
+      "single_source_events": 2,
+      "source_links": 28,
+      "world_event_count": 8
+    },
     {
       "ai_event_count": 3,
       "date": "2026-08-13",
@@ -97,6 +105,383 @@
     }
   ],
   "events": [
+    {
+      "category": "science",
+      "confidence": "medium",
+      "date": "2026-08-16",
+      "id": "alaya-evoke-endless-world-video",
+      "regions": [
+        "Global"
+      ],
+      "section": "ai",
+      "single_source": false,
+      "source_count": 6,
+      "sources": [
+        {
+          "published_at": "accessed 2026-08-16T12:12:37+08:00",
+          "publisher": "AlayaLab",
+          "source_type": "code",
+          "title": "EVOKE code repository",
+          "url": "https://github.com/AlayaLab/Evoke"
+        },
+        {
+          "published_at": "accessed 2026-08-16T12:12:37+08:00",
+          "publisher": "AlayaLab",
+          "source_type": "model-card",
+          "title": "EVOKE public model weights",
+          "url": "https://huggingface.co/SII-YuanyangYin/Evoke"
+        },
+        {
+          "published_at": "accessed 2026-08-16T12:12:37+08:00",
+          "publisher": "AlayaLab",
+          "source_type": "research",
+          "title": "EVOKE project page",
+          "url": "https://evoke-world.github.io/Evoke/"
+        },
+        {
+          "published_at": "2026-08-13T17:57:00Z",
+          "publisher": "arXiv",
+          "source_type": "research",
+          "title": "Alaya-EVOKE: From Linear-Scaling Supervision to Endless World",
+          "url": "https://arxiv.org/abs/2608.13546"
+        },
+        {
+          "published_at": "2026-08-13T17:57:00Z",
+          "publisher": "arXiv",
+          "source_type": "research",
+          "title": "Alaya-EVOKE paper HTML",
+          "url": "https://arxiv.org/html/2608.13546"
+        },
+        {
+          "published_at": "accessed 2026-08-16T12:12:37+08:00",
+          "publisher": "Hugging Face",
+          "source_type": "community-index",
+          "title": "Alaya-EVOKE paper attention snapshot",
+          "url": "https://huggingface.co/papers/2608.13546"
+        }
+      ],
+      "title": "Alaya-EVOKE 以外置世界状态延长交互式视频的一致性"
+    },
+    {
+      "category": "technology",
+      "confidence": "high",
+      "date": "2026-08-16",
+      "id": "openai-agents-sdk-python-0-21-0",
+      "regions": [
+        "Global"
+      ],
+      "section": "ai",
+      "single_source": false,
+      "source_count": 3,
+      "sources": [
+        {
+          "published_at": "accessed 2026-08-16T12:20:00+08:00",
+          "publisher": "OpenAI",
+          "source_type": "code",
+          "title": "OpenAI Agents SDK Python repository",
+          "url": "https://github.com/openai/openai-agents-python"
+        },
+        {
+          "published_at": "2026-08-15T02:49:37Z",
+          "publisher": "OpenAI",
+          "source_type": "code",
+          "title": "OpenAI Agents SDK Python v0.21.0 MIT license",
+          "url": "https://github.com/openai/openai-agents-python/blob/v0.21.0/LICENSE"
+        },
+        {
+          "published_at": "2026-08-15T02:49:37Z",
+          "publisher": "OpenAI",
+          "source_type": "code",
+          "title": "OpenAI Agents SDK Python v0.21.0 release",
+          "url": "https://github.com/openai/openai-agents-python/releases/tag/v0.21.0"
+        }
+      ],
+      "title": "更新：Agents SDK 0.21.0 增加无需供应商请求的确定性测试接口"
+    },
+    {
+      "category": "technology",
+      "confidence": "medium",
+      "date": "2026-08-16",
+      "id": "qwen3-8-27b-open-weights",
+      "regions": [
+        "Asia",
+        "China",
+        "Global"
+      ],
+      "section": "ai",
+      "single_source": false,
+      "source_count": 5,
+      "sources": [
+        {
+          "published_at": "2026-08-14T15:00:00Z official release date",
+          "publisher": "Qwen",
+          "source_type": "model-card",
+          "title": "Qwen3.8-27B official model card and BF16 weights",
+          "url": "https://huggingface.co/Qwen/Qwen3.8-27B"
+        },
+        {
+          "published_at": "repository created 2026-08-13T08:01:58Z; last modified 2026-08-14T14:44:41Z",
+          "publisher": "Qwen",
+          "source_type": "model-card",
+          "title": "Qwen3.8-27B FP8 official model card and weights",
+          "url": "https://huggingface.co/Qwen/Qwen3.8-27B-FP8"
+        },
+        {
+          "published_at": "2026-08-14T15:00:00Z",
+          "publisher": "Qwen",
+          "source_type": "model-card",
+          "title": "Qwen3.8-27B model card revision containing official release date",
+          "url": "https://huggingface.co/Qwen/Qwen3.8-27B/blob/9206f8d9b8d22bdbfda813b512ffc9f8d9cefece/README.md"
+        },
+        {
+          "published_at": "accessed 2026-08-16T12:27:31+08:00",
+          "publisher": "Qwen",
+          "source_type": "model-card",
+          "title": "Qwen3.8-27B Apache-2.0 license",
+          "url": "https://huggingface.co/Qwen/Qwen3.8-27B/blob/main/LICENSE"
+        },
+        {
+          "published_at": "accessed 2026-08-16T12:27:31+08:00",
+          "publisher": "Qwen",
+          "source_type": "model-card",
+          "title": "Qwen3.8-27B exact model configuration",
+          "url": "https://huggingface.co/Qwen/Qwen3.8-27B/blob/main/config.json"
+        }
+      ],
+      "title": "Qwen3.8-27B 开放 27B 稠密视觉语言模型权重"
+    },
+    {
+      "category": "economy",
+      "confidence": "high",
+      "date": "2026-08-16",
+      "id": "brazil-us-tariff-reciprocity-process",
+      "regions": [
+        "Brazil",
+        "Latin America",
+        "United States"
+      ],
+      "section": "world",
+      "single_source": false,
+      "source_count": 2,
+      "sources": [
+        {
+          "published_at": "2026-08-14T17:52:36Z; updated 2026-08-15T17:46:46Z",
+          "publisher": "Associated Press",
+          "source_type": "wire",
+          "title": "Brazil starts reciprocity process over US tariffs",
+          "url": "https://apnews.com/article/brazil-lula-reciprocity-us-tariffs-1d00c49488ea803e05c17980f10a250d"
+        },
+        {
+          "published_at": "2026-07",
+          "publisher": "Brazil Ministry of Development, Industry, Trade and Services",
+          "source_type": "primary",
+          "title": "Scope of United States tariff measures on Brazilian exports",
+          "url": "https://www.gov.br/mdic/pt-br/assuntos/noticias/2026-periodo-eleitoral/julho/alcance-das-medidas-tarifarias-dos-estados-unidos-sobre-exportacoes-brasileiras"
+        }
+      ],
+      "title": "巴西启动针对美国关税的经济互惠程序"
+    },
+    {
+      "category": "politics",
+      "confidence": "high",
+      "date": "2026-08-16",
+      "id": "france-under15-social-media-ban-struck-down",
+      "regions": [
+        "Europe",
+        "France"
+      ],
+      "section": "world",
+      "single_source": false,
+      "source_count": 2,
+      "sources": [
+        {
+          "published_at": "2026-08-14T15:31:42Z",
+          "publisher": "Associated Press",
+          "source_type": "wire",
+          "title": "France's top court strikes down under-15 social media ban",
+          "url": "https://apnews.com/article/france-paris-macron-internet-social-media-ban-a4e96488d1eb913c7a039eb5e4fc1e18"
+        },
+        {
+          "published_at": "2026-08-14",
+          "publisher": "Conseil constitutionnel",
+          "source_type": "primary",
+          "title": "Decision no. 2026-911 DC",
+          "url": "https://www.conseil-constitutionnel.fr/decision/2026/2026911DC.htm"
+        }
+      ],
+      "title": "法国宪法委员会否决 15 岁以下社交媒体全面禁令"
+    },
+    {
+      "category": "climate-environment",
+      "confidence": "high",
+      "date": "2026-08-16",
+      "id": "hurricane-lala-hawaii-big-island",
+      "regions": [
+        "Hawaii",
+        "North America",
+        "United States"
+      ],
+      "section": "world",
+      "single_source": false,
+      "source_count": 2,
+      "sources": [
+        {
+          "published_at": "2026-08-15T12:55:25Z; updated 2026-08-16T03:17:44Z",
+          "publisher": "Associated Press",
+          "source_type": "wire",
+          "title": "Hurricane Lala approaches Hawaii's Big Island",
+          "url": "https://apnews.com/article/hawaii-tropical-storm-lala-hurricane-0c3d63c8a87943cdf8d57c530a7ed9d0"
+        },
+        {
+          "published_at": "2026-08-16T03:00:00Z",
+          "publisher": "National Hurricane Center and Central Pacific Hurricane Center",
+          "source_type": "primary",
+          "title": "Hurricane Lala Public Advisory Number 15",
+          "url": "https://www.nhc.noaa.gov/archive/2026/cp01/cp012026.public.015.shtml"
+        }
+      ],
+      "title": "飓风 Lala 眼墙擦过夏威夷大岛南部"
+    },
+    {
+      "category": "climate-environment",
+      "confidence": "high",
+      "date": "2026-08-16",
+      "id": "indonesia-flores-m7-7-earthquake",
+      "regions": [
+        "Asia",
+        "Flores",
+        "Indonesia"
+      ],
+      "section": "world",
+      "single_source": false,
+      "source_count": 2,
+      "sources": [
+        {
+          "published_at": "updated 2026-08-16T02:48:46Z",
+          "publisher": "Associated Press",
+          "source_type": "wire",
+          "title": "Rescuers search after Flores earthquake and landslides",
+          "url": "https://apnews.com/article/indonesia-flores-earthquake-landslide-bf1d024bdec7727094f8dc73d7dd5e34"
+        },
+        {
+          "published_at": "2026-08-14T21:58:21Z",
+          "publisher": "U.S. Geological Survey",
+          "source_type": "primary",
+          "title": "M 7.7 - 68 km NNW of Ende, Indonesia",
+          "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tkt2"
+        }
+      ],
+      "title": "印尼弗洛勒斯岛附近 7.7 级地震造成至少 47 人死亡"
+    },
+    {
+      "category": "politics",
+      "confidence": "medium",
+      "date": "2026-08-16",
+      "id": "southern-lebanon-strikes-aug15",
+      "regions": [
+        "Israel",
+        "Lebanon",
+        "Middle East"
+      ],
+      "section": "world",
+      "single_source": true,
+      "source_count": 1,
+      "sources": [
+        {
+          "published_at": "2026-08-15T06:00:10Z; updated 2026-08-15T17:45:53Z",
+          "publisher": "Associated Press",
+          "source_type": "wire",
+          "title": "Israeli strikes kill at least 11 in southern Lebanon",
+          "url": "https://apnews.com/article/southern-lebanon-israel-strike-hezbollah-iran-ansar-1124fd2bd0b7ed76b0e97683dddbcaad"
+        }
+      ],
+      "title": "以色列空袭黎巴嫩南部造成至少 11 人死亡"
+    },
+    {
+      "category": "politics",
+      "confidence": "medium",
+      "date": "2026-08-16",
+      "id": "uss-george-washington-middle-east-redeployment",
+      "regions": [
+        "Asia-Pacific",
+        "Middle East",
+        "United States"
+      ],
+      "section": "world",
+      "single_source": false,
+      "source_count": 2,
+      "sources": [
+        {
+          "published_at": "2026-08-15T12:37:01Z; updated 2026-08-16T03:18:20Z",
+          "publisher": "Associated Press",
+          "source_type": "wire",
+          "title": "US plans to move its last Western Pacific carrier to the Middle East",
+          "url": "https://apnews.com/article/aircraft-carriers-trump-china-pacific-iran-war-87cfb838de8c13464fa3cab1840ad87d"
+        },
+        {
+          "published_at": "accessed 2026-08-16T12:20:00+08:00",
+          "publisher": "United States Navy",
+          "source_type": "primary",
+          "title": "USS George Washington CVN-73 background",
+          "url": "https://www.airpac.navy.mil/Organization/USS-George-Washington-CVN-73/About-Us/"
+        }
+      ],
+      "title": "美军正将西太平洋最后一艘航母调往中东"
+    },
+    {
+      "category": "politics",
+      "confidence": "medium",
+      "date": "2026-08-16",
+      "id": "venezuela-131-detainee-release-announcement",
+      "regions": [
+        "Latin America",
+        "United States",
+        "Venezuela"
+      ],
+      "section": "world",
+      "single_source": false,
+      "source_count": 2,
+      "sources": [
+        {
+          "published_at": "2026-08-15T02:10:10Z",
+          "publisher": "Associated Press",
+          "source_type": "wire",
+          "title": "Venezuela announces release of 131 detainees",
+          "url": "https://apnews.com/article/venezuela-estados-unidos-liberan-opositortes-ley-amnistia-7e9df936213feab6a25c33d89394cff2"
+        },
+        {
+          "published_at": "2026-08-14",
+          "publisher": "El País",
+          "source_type": "regional-media",
+          "title": "Foro Penal verifies part of Venezuela's announced releases",
+          "url": "https://elpais.com/america/2026-08-14/el-chavismo-anuncia-131-excarcelaciones-en-medio-del-dialogo-con-la-oposicion-venezolana.html"
+        }
+      ],
+      "title": "委内瑞拉宣布释放 131 名政治被拘押者，独立核实仍不完整"
+    },
+    {
+      "category": "health-society",
+      "confidence": "high",
+      "date": "2026-08-16",
+      "id": "zimbabwe-ferry-death-toll-72-update",
+      "regions": [
+        "Africa",
+        "Zimbabwe"
+      ],
+      "section": "world",
+      "single_source": true,
+      "source_count": 1,
+      "sources": [
+        {
+          "published_at": "2026-08-15T16:50:33Z; updated 2026-08-15T19:33:33Z",
+          "publisher": "Associated Press",
+          "source_type": "wire",
+          "title": "Zimbabwe ferry death toll rises to 72",
+          "url": "https://apnews.com/article/zimbabwe-ferry-capsize-death-toll-rises-children-8c45f83769ef978a64899d851911e8c7"
+        }
+      ],
+      "title": "更新：津巴布韦卡里巴湖渡轮事故死亡数升至 72 人"
+    },
     {
       "category": "technology",
       "confidence": "medium",
@@ -3721,12 +4106,12 @@
       "title": "降级预期推动油价早盘回落约 4 美元"
     }
   ],
-  "latest_digest_generated_at": "2026-08-13T09:18:00+08:00",
+  "latest_digest_generated_at": "2026-08-16T12:36:00+08:00",
   "publishers": [
     {
-      "event_count": 71,
+      "event_count": 79,
       "name": "Associated Press",
-      "source_links": 76
+      "source_links": 84
     },
     {
       "event_count": 17,
@@ -3734,18 +4119,28 @@
       "source_links": 19
     },
     {
-      "event_count": 12,
+      "event_count": 13,
       "name": "arXiv",
-      "source_links": 13
+      "source_links": 15
     },
     {
-      "event_count": 6,
+      "event_count": 7,
       "name": "Hugging Face",
-      "source_links": 8
+      "source_links": 9
+    },
+    {
+      "event_count": 2,
+      "name": "OpenAI",
+      "source_links": 6
     },
     {
       "event_count": 5,
       "name": "Hugging Face Daily Papers",
+      "source_links": 5
+    },
+    {
+      "event_count": 1,
+      "name": "Qwen",
       "source_links": 5
     },
     {
@@ -3765,12 +4160,12 @@
     },
     {
       "event_count": 1,
-      "name": "inclusionAI / Hugging Face",
+      "name": "AlayaLab",
       "source_links": 3
     },
     {
       "event_count": 1,
-      "name": "OpenAI",
+      "name": "inclusionAI / Hugging Face",
       "source_links": 3
     },
     {
@@ -3801,6 +4196,11 @@
     {
       "event_count": 1,
       "name": "DeepGlint / Hugging Face",
+      "source_links": 2
+    },
+    {
+      "event_count": 2,
+      "name": "El País",
       "source_links": 2
     },
     {
@@ -3935,6 +4335,11 @@
     },
     {
       "event_count": 1,
+      "name": "Brazil Ministry of Development, Industry, Trade and Services",
+      "source_links": 1
+    },
+    {
+      "event_count": 1,
       "name": "bubble65",
       "source_links": 1
     },
@@ -3955,12 +4360,12 @@
     },
     {
       "event_count": 1,
-      "name": "DeepGlint",
+      "name": "Conseil constitutionnel",
       "source_links": 1
     },
     {
       "event_count": 1,
-      "name": "El País",
+      "name": "DeepGlint",
       "source_links": 1
     },
     {
@@ -4090,6 +4495,11 @@
     },
     {
       "event_count": 1,
+      "name": "National Hurricane Center and Central Pacific Hurricane Center",
+      "source_links": 1
+    },
+    {
+      "event_count": 1,
       "name": "Nature",
       "source_links": 1
     },
@@ -4175,6 +4585,16 @@
     },
     {
       "event_count": 1,
+      "name": "U.S. Geological Survey",
+      "source_links": 1
+    },
+    {
+      "event_count": 1,
+      "name": "United States Navy",
+      "source_links": 1
+    },
+    {
+      "event_count": 1,
       "name": "Unsloth",
       "source_links": 1
     },
@@ -4196,36 +4616,40 @@
   ],
   "regions": [
     {
-      "event_count": 44,
+      "event_count": 47,
       "name": "Global"
     },
     {
-      "event_count": 29,
+      "event_count": 30,
       "name": "North America"
     },
     {
-      "event_count": 26,
+      "event_count": 28,
       "name": "Asia"
     },
     {
-      "event_count": 20,
-      "name": "Europe"
-    },
-    {
-      "event_count": 19,
+      "event_count": 23,
       "name": "United States"
     },
     {
-      "event_count": 13,
+      "event_count": 21,
+      "name": "Europe"
+    },
+    {
+      "event_count": 15,
       "name": "Middle East"
     },
     {
-      "event_count": 12,
+      "event_count": 13,
       "name": "Africa"
     },
     {
-      "event_count": 6,
+      "event_count": 7,
       "name": "China"
+    },
+    {
+      "event_count": 6,
+      "name": "Latin America"
     },
     {
       "event_count": 6,
@@ -4237,7 +4661,7 @@
     },
     {
       "event_count": 4,
-      "name": "Latin America"
+      "name": "Israel"
     },
     {
       "event_count": 3,
@@ -4246,10 +4670,6 @@
     {
       "event_count": 3,
       "name": "Colombia"
-    },
-    {
-      "event_count": 3,
-      "name": "Israel"
     },
     {
       "event_count": 3,
@@ -4273,6 +4693,10 @@
     },
     {
       "event_count": 2,
+      "name": "Brazil"
+    },
+    {
+      "event_count": 2,
       "name": "Democratic Republic of the Congo"
     },
     {
@@ -4285,11 +4709,19 @@
     },
     {
       "event_count": 2,
+      "name": "Indonesia"
+    },
+    {
+      "event_count": 2,
       "name": "Iran"
     },
     {
       "event_count": 2,
       "name": "Italy"
+    },
+    {
+      "event_count": 2,
+      "name": "Lebanon"
     },
     {
       "event_count": 2,
@@ -4332,6 +4764,10 @@
       "name": "Uganda"
     },
     {
+      "event_count": 2,
+      "name": "Zimbabwe"
+    },
+    {
       "event_count": 1,
       "name": "Amboseli"
     },
@@ -4341,15 +4777,15 @@
     },
     {
       "event_count": 1,
+      "name": "Asia-Pacific"
+    },
+    {
+      "event_count": 1,
       "name": "Assam"
     },
     {
       "event_count": 1,
       "name": "Black Sea"
-    },
-    {
-      "event_count": 1,
-      "name": "Brazil"
     },
     {
       "event_count": 1,
@@ -4397,7 +4833,15 @@
     },
     {
       "event_count": 1,
+      "name": "Flores"
+    },
+    {
+      "event_count": 1,
       "name": "Florida"
+    },
+    {
+      "event_count": 1,
+      "name": "France"
     },
     {
       "event_count": 1,
@@ -4405,7 +4849,7 @@
     },
     {
       "event_count": 1,
-      "name": "Indonesia"
+      "name": "Hawaii"
     },
     {
       "event_count": 1,
@@ -4418,10 +4862,6 @@
     {
       "event_count": 1,
       "name": "Korean Peninsula"
-    },
-    {
-      "event_count": 1,
-      "name": "Lebanon"
     },
     {
       "event_count": 1,
@@ -4501,6 +4941,10 @@
     },
     {
       "event_count": 1,
+      "name": "Venezuela"
+    },
+    {
+      "event_count": 1,
       "name": "Vietnam"
     },
     {
@@ -4514,48 +4958,44 @@
     {
       "event_count": 1,
       "name": "Zamfara State"
-    },
-    {
-      "event_count": 1,
-      "name": "Zimbabwe"
     }
   ],
   "schema_version": 1,
   "source_types": [
     {
-      "event_count": 79,
+      "event_count": 87,
       "name": "wire",
-      "source_links": 95
+      "source_links": 103
     },
     {
-      "event_count": 53,
+      "event_count": 58,
       "name": "primary",
-      "source_links": 63
+      "source_links": 68
     },
     {
-      "event_count": 23,
+      "event_count": 25,
       "name": "code",
-      "source_links": 36
+      "source_links": 40
     },
     {
-      "event_count": 18,
+      "event_count": 19,
       "name": "research",
+      "source_links": 26
+    },
+    {
+      "event_count": 13,
+      "name": "model-card",
       "source_links": 23
     },
     {
-      "event_count": 11,
-      "name": "model-card",
+      "event_count": 17,
+      "name": "community-index",
       "source_links": 17
     },
     {
-      "event_count": 16,
-      "name": "community-index",
-      "source_links": 16
-    },
-    {
-      "event_count": 1,
+      "event_count": 2,
       "name": "regional-media",
-      "source_links": 1
+      "source_links": 2
     }
   ]
 }

@@ -1,0 +1,419 @@
+{
+  "date": "2026-08-16",
+  "timezone": "Asia/Shanghai",
+  "generated_at": "2026-08-16T12:36:00+08:00",
+  "overview": "印尼弗洛勒斯强震救援持续，黎巴嫩停火再受高伤亡空袭冲击；AI 雷达关注 EVOKE 长视频世界状态、Qwen3.8-27B 与 Agents SDK 确定性测试。",
+  "digest_path": "digests/2026/08/2026-08-16.md",
+  "ai_radar": {
+    "selection_as_of": "2026-08-16T12:36:00+08:00",
+    "item_ids": [
+      "alaya-evoke-endless-world-video",
+      "qwen3-8-27b-open-weights",
+      "openai-agents-sdk-python-0-21-0"
+    ]
+  },
+  "items": [
+    {
+      "id": "alaya-evoke-endless-world-video",
+      "section": "ai-frontier",
+      "category": "science",
+      "regions": ["Global"],
+      "title": "Alaya-EVOKE 以外置世界状态延长交互式视频的一致性",
+      "summary": "EVOKE 以可读写和淘汰的几何 world-state bank 承载持久状态，并把长时 teacher 蒸馏为三步视频生成 student。",
+      "why_it_matters": "外置状态为交互式长视频提供了不同于无限扩展注意力上下文的工程路径。",
+      "uncertainty": "预印本尚未同行评审，完整训练含未公开内部视频；性能为作者自报，长时评测配置将状态库限制为约 90 秒的已观察几何，且未见独立复现。",
+      "confidence": "medium",
+      "ai": {
+        "kind": "research-preprint-open-code-and-weights",
+        "topics": ["world-models", "long-video", "state-bank", "diffusion-distillation", "interactive-generation"],
+        "artifact_date": "2026-08-13T17:57:00Z",
+        "artifact_status": "arXiv preprint not peer reviewed, with Apache-2.0 code and public non-gated weights; full retraining data are not public",
+        "technical_takeaway": "按相机位姿索引的外置几何状态库可以把长时一致性从去噪器上下文中分离，再用分布匹配蒸馏为低步数生成器。",
+        "evidence_level": "primary non-peer-reviewed preprint plus public code and weights; author-reported benchmarks, no independent replication and incomplete training-data reproducibility",
+        "paper_id": "arXiv:2608.13546",
+        "code_url": "https://github.com/AlayaLab/Evoke",
+        "heat": {
+          "label": "highest within the August 14 Hugging Face Daily Papers list and early cross-platform attention; not evidence of validity or reproduction",
+          "as_of": "2026-08-16T12:12:37+08:00",
+          "signals": [
+            {
+              "platform": "Hugging Face Papers",
+              "observation": "111 upvotes and 2 comments; highest within the August 14 daily list",
+              "url": "https://huggingface.co/papers/2608.13546"
+            },
+            {
+              "platform": "GitHub",
+              "observation": "57 stars and 4 forks for the code repository",
+              "url": "https://github.com/AlayaLab/Evoke"
+            }
+          ]
+        }
+      },
+      "sources": [
+        {
+          "publisher": "arXiv",
+          "title": "Alaya-EVOKE: From Linear-Scaling Supervision to Endless World",
+          "url": "https://arxiv.org/abs/2608.13546",
+          "published_at": "2026-08-13T17:57:00Z",
+          "source_type": "research"
+        },
+        {
+          "publisher": "arXiv",
+          "title": "Alaya-EVOKE paper HTML",
+          "url": "https://arxiv.org/html/2608.13546",
+          "published_at": "2026-08-13T17:57:00Z",
+          "source_type": "research"
+        },
+        {
+          "publisher": "AlayaLab",
+          "title": "EVOKE code repository",
+          "url": "https://github.com/AlayaLab/Evoke",
+          "published_at": "accessed 2026-08-16T12:12:37+08:00",
+          "source_type": "code"
+        },
+        {
+          "publisher": "AlayaLab",
+          "title": "EVOKE public model weights",
+          "url": "https://huggingface.co/SII-YuanyangYin/Evoke",
+          "published_at": "accessed 2026-08-16T12:12:37+08:00",
+          "source_type": "model-card"
+        },
+        {
+          "publisher": "AlayaLab",
+          "title": "EVOKE project page",
+          "url": "https://evoke-world.github.io/Evoke/",
+          "published_at": "accessed 2026-08-16T12:12:37+08:00",
+          "source_type": "research"
+        },
+        {
+          "publisher": "Hugging Face",
+          "title": "Alaya-EVOKE paper attention snapshot",
+          "url": "https://huggingface.co/papers/2608.13546",
+          "published_at": "accessed 2026-08-16T12:12:37+08:00",
+          "source_type": "community-index"
+        }
+      ]
+    },
+    {
+      "id": "qwen3-8-27b-open-weights",
+      "section": "ai-frontier",
+      "category": "technology",
+      "regions": ["Global", "Asia", "China"],
+      "title": "Qwen3.8-27B 开放 27B 稠密视觉语言模型权重",
+      "summary": "Qwen3.8-27B 采用 Gated DeltaNet 与 Gated Attention 交替的 27B 稠密多模态主干，并公开 BF16 与 FP8 权重。",
+      "why_it_matters": "模型把原生视觉、长上下文和智能体编码能力带到可自行部署的 27B 尺度。",
+      "uncertainty": "100 万上下文为扩展配置；训练数据、安全报告和污染检查披露有限，基准均为厂商自评。",
+      "confidence": "medium",
+      "ai": {
+        "kind": "open-weight-multimodal-model",
+        "topics": ["vision-language", "agentic-coding", "long-context", "gated-deltanet", "local-inference"],
+        "artifact_date": "2026-08-14T15:00:00Z",
+        "artifact_status": "official release metadata dated August 14, with public non-gated Apache-2.0 BF16 and FP8 weights; weight commits predate the stated public release",
+        "technical_takeaway": "64 层主干由 16 组构成，每组精确包含 3 层 Gated DeltaNet 和 1 层 Gated Attention，在约 27.8B 稠密多模态模型中兼顾长上下文成本、视觉输入和工具型任务。",
+        "evidence_level": "official model cards and downloadable weights with vendor-reported benchmarks; no complete training-data or system-safety report and no independent benchmark replication",
+        "code_url": "https://huggingface.co/Qwen/Qwen3.8-27B",
+        "heat": {
+          "label": "strong early attention within Hugging Face; counters are platform signals and cannot be summed into users or adoption",
+          "as_of": "2026-08-16T12:19:00+08:00",
+          "signals": [
+            {
+              "platform": "Hugging Face",
+              "observation": "official BF16 page showed 9,861 likes and 91,917 downloads",
+              "url": "https://huggingface.co/Qwen/Qwen3.8-27B"
+            },
+            {
+              "platform": "Hugging Face",
+              "observation": "official FP8 page showed 437 likes and 123,157 downloads",
+              "url": "https://huggingface.co/Qwen/Qwen3.8-27B-FP8"
+            }
+          ]
+        }
+      },
+      "sources": [
+        {
+          "publisher": "Qwen",
+          "title": "Qwen3.8-27B official model card and BF16 weights",
+          "url": "https://huggingface.co/Qwen/Qwen3.8-27B",
+          "published_at": "2026-08-14T15:00:00Z official release date",
+          "source_type": "model-card"
+        },
+        {
+          "publisher": "Qwen",
+          "title": "Qwen3.8-27B model card revision containing official release date",
+          "url": "https://huggingface.co/Qwen/Qwen3.8-27B/blob/9206f8d9b8d22bdbfda813b512ffc9f8d9cefece/README.md",
+          "published_at": "2026-08-14T15:00:00Z",
+          "source_type": "model-card"
+        },
+        {
+          "publisher": "Qwen",
+          "title": "Qwen3.8-27B FP8 official model card and weights",
+          "url": "https://huggingface.co/Qwen/Qwen3.8-27B-FP8",
+          "published_at": "repository created 2026-08-13T08:01:58Z; last modified 2026-08-14T14:44:41Z",
+          "source_type": "model-card"
+        },
+        {
+          "publisher": "Qwen",
+          "title": "Qwen3.8-27B exact model configuration",
+          "url": "https://huggingface.co/Qwen/Qwen3.8-27B/blob/main/config.json",
+          "published_at": "accessed 2026-08-16T12:27:31+08:00",
+          "source_type": "model-card"
+        },
+        {
+          "publisher": "Qwen",
+          "title": "Qwen3.8-27B Apache-2.0 license",
+          "url": "https://huggingface.co/Qwen/Qwen3.8-27B/blob/main/LICENSE",
+          "published_at": "accessed 2026-08-16T12:27:31+08:00",
+          "source_type": "model-card"
+        }
+      ]
+    },
+    {
+      "id": "openai-agents-sdk-python-0-21-0",
+      "section": "ai-frontier",
+      "category": "technology",
+      "regions": ["Global"],
+      "title": "更新：Agents SDK 0.21.0 增加无需供应商请求的确定性测试接口",
+      "summary": "Agents SDK 0.21.0 新增 Agent、Sandbox、Realtime 与 Voice 的 scripted testing API，并兼容 OpenAI Python SDK v3、迁移到 HTTPX2。",
+      "why_it_matters": "供应商中立的确定性测试接口能让智能体状态、工具调用和流事件进入可重复的 CI 回归测试。",
+      "uncertainty": "测试替身不能替代真实模型和权限的端到端验证；OpenAI Python SDK v3 与 HTTPX2 迁移仍需对自定义 transport 回归。",
+      "confidence": "high",
+      "ai": {
+        "kind": "open-source-agent-sdk-testing-release",
+        "topics": ["agents", "deterministic-testing", "sandbox", "realtime", "MCP"],
+        "artifact_date": "2026-08-15T02:49:37Z",
+        "artifact_status": "official release whose referenced commit is GitHub Verified, with MIT source; substantial update from v0.20.0 through new provider-neutral testing APIs and OpenAI Python SDK v3 compatibility",
+        "technical_takeaway": "scripted model and runtime surfaces separate SDK orchestration tests from live provider requests while hardening state snapshots, approvals and MCP lifecycle isolation.",
+        "evidence_level": "official release with a GitHub-verified referenced commit and public MIT source; no release-specific independent production evaluation or performance benchmark",
+        "code_url": "https://github.com/openai/openai-agents-python",
+        "heat": {
+          "label": "early release with limited version-specific reactions; repository scale is not evidence of v0.21.0 adoption",
+          "as_of": "2026-08-16T12:20:00+08:00",
+          "signals": [
+            {
+              "platform": "GitHub",
+              "observation": "release page showed 1 reaction shortly after publication",
+              "url": "https://github.com/openai/openai-agents-python/releases/tag/v0.21.0"
+            }
+          ]
+        }
+      },
+      "sources": [
+        {
+          "publisher": "OpenAI",
+          "title": "OpenAI Agents SDK Python v0.21.0 release",
+          "url": "https://github.com/openai/openai-agents-python/releases/tag/v0.21.0",
+          "published_at": "2026-08-15T02:49:37Z",
+          "source_type": "code"
+        },
+        {
+          "publisher": "OpenAI",
+          "title": "OpenAI Agents SDK Python repository",
+          "url": "https://github.com/openai/openai-agents-python",
+          "published_at": "accessed 2026-08-16T12:20:00+08:00",
+          "source_type": "code"
+        },
+        {
+          "publisher": "OpenAI",
+          "title": "OpenAI Agents SDK Python v0.21.0 MIT license",
+          "url": "https://github.com/openai/openai-agents-python/blob/v0.21.0/LICENSE",
+          "published_at": "2026-08-15T02:49:37Z",
+          "source_type": "code"
+        }
+      ]
+    },
+    {
+      "id": "indonesia-flores-m7-7-earthquake",
+      "category": "climate-environment",
+      "regions": ["Asia", "Indonesia", "Flores"],
+      "title": "印尼弗洛勒斯岛附近 7.7 级地震造成至少 47 人死亡",
+      "summary": "弗洛勒斯岛附近发生 7.7 级浅源地震，至少 47 人死亡、100 多人受伤，约 5,000 人临时安置。",
+      "why_it_matters": "浅源强震与偏远山区、滑坡叠加，使六县搜救和住房、公共设施损失持续扩大。",
+      "uncertainty": "死亡和失联数字仍可能上修，本期采用 AP 转述的 BNPB 较保守口径。",
+      "confidence": "high",
+      "sources": [
+        {
+          "publisher": "U.S. Geological Survey",
+          "title": "M 7.7 - 68 km NNW of Ende, Indonesia",
+          "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tkt2",
+          "published_at": "2026-08-14T21:58:21Z",
+          "source_type": "primary"
+        },
+        {
+          "publisher": "Associated Press",
+          "title": "Rescuers search after Flores earthquake and landslides",
+          "url": "https://apnews.com/article/indonesia-flores-earthquake-landslide-bf1d024bdec7727094f8dc73d7dd5e34",
+          "published_at": "updated 2026-08-16T02:48:46Z",
+          "source_type": "wire"
+        }
+      ]
+    },
+    {
+      "id": "southern-lebanon-strikes-aug15",
+      "category": "politics",
+      "regions": ["Middle East", "Lebanon", "Israel"],
+      "title": "以色列空袭黎巴嫩南部造成至少 11 人死亡",
+      "summary": "黎方称 Ansar 与 Deir al-Zahrani 两处袭击合计至少 11 人死亡、19 人受伤；以军称行动回应爆炸无人机袭击。",
+      "why_it_matters": "这是 6 月 20 日停火以来最致命的一天，使地区重新进入持续升级循环的风险上升。",
+      "uncertainty": "最初无人机责任、死者军民身份和目标性质尚未独立厘清。",
+      "confidence": "medium",
+      "sources": [
+        {
+          "publisher": "Associated Press",
+          "title": "Israeli strikes kill at least 11 in southern Lebanon",
+          "url": "https://apnews.com/article/southern-lebanon-israel-strike-hezbollah-iran-ansar-1124fd2bd0b7ed76b0e97683dddbcaad",
+          "published_at": "2026-08-15T06:00:10Z; updated 2026-08-15T17:45:53Z",
+          "source_type": "wire"
+        }
+      ]
+    },
+    {
+      "id": "uss-george-washington-middle-east-redeployment",
+      "category": "politics",
+      "regions": ["Asia-Pacific", "Middle East", "United States"],
+      "title": "美军正将西太平洋最后一艘航母调往中东",
+      "summary": "AP 称“乔治·华盛顿”号正驶离西太平洋、前往中东，预计接替“亚伯拉罕·林肯”号。",
+      "why_it_matters": "调动显示中东行动挤压美国印太兵力，牵动对华威慑和盟友安抚。",
+      "uncertainty": "五角大楼未公布完整调动命令、抵达时间与替代兵力，后续安排仍可能调整。",
+      "confidence": "medium",
+      "sources": [
+        {
+          "publisher": "Associated Press",
+          "title": "US plans to move its last Western Pacific carrier to the Middle East",
+          "url": "https://apnews.com/article/aircraft-carriers-trump-china-pacific-iran-war-87cfb838de8c13464fa3cab1840ad87d",
+          "published_at": "2026-08-15T12:37:01Z; updated 2026-08-16T03:18:20Z",
+          "source_type": "wire"
+        },
+        {
+          "publisher": "United States Navy",
+          "title": "USS George Washington CVN-73 background",
+          "url": "https://www.airpac.navy.mil/Organization/USS-George-Washington-CVN-73/About-Us/",
+          "published_at": "accessed 2026-08-16T12:20:00+08:00",
+          "source_type": "primary"
+        }
+      ]
+    },
+    {
+      "id": "venezuela-131-detainee-release-announcement",
+      "category": "politics",
+      "regions": ["Latin America", "Venezuela", "United States"],
+      "title": "委内瑞拉宣布释放 131 名政治被拘押者，独立核实仍不完整",
+      "summary": "委内瑞拉政府称法院同意释放 131 人，但 Foro Penal 截至周六上午只独立核实 72 人。",
+      "why_it_matters": "若持续落实，这可能成为美方推动对话和国内政治缓和的信号。",
+      "uncertainty": "131 人尚未全部独立确认，部分为附条件释放而非撤案。",
+      "confidence": "medium",
+      "sources": [
+        {
+          "publisher": "Associated Press",
+          "title": "Venezuela announces release of 131 detainees",
+          "url": "https://apnews.com/article/venezuela-estados-unidos-liberan-opositortes-ley-amnistia-7e9df936213feab6a25c33d89394cff2",
+          "published_at": "2026-08-15T02:10:10Z",
+          "source_type": "wire"
+        },
+        {
+          "publisher": "El País",
+          "title": "Foro Penal verifies part of Venezuela's announced releases",
+          "url": "https://elpais.com/america/2026-08-14/el-chavismo-anuncia-131-excarcelaciones-en-medio-del-dialogo-con-la-oposicion-venezolana.html",
+          "published_at": "2026-08-14",
+          "source_type": "regional-media"
+        }
+      ]
+    },
+    {
+      "id": "brazil-us-tariff-reciprocity-process",
+      "category": "economy",
+      "regions": ["Latin America", "Brazil", "United States"],
+      "title": "巴西启动针对美国关税的经济互惠程序",
+      "summary": "巴西依据互惠法启动程序回应美国新增关税，同时寻求磋商；具体反制清单尚未决定。",
+      "why_it_matters": "美巴贸易摩擦由政治表态进入制度化评估阶段，可能影响供应链和巴西选举经济议题。",
+      "uncertainty": "启动机制不等于已实施报复，具体商品、税率、时点和磋商结果未定。",
+      "confidence": "high",
+      "sources": [
+        {
+          "publisher": "Associated Press",
+          "title": "Brazil starts reciprocity process over US tariffs",
+          "url": "https://apnews.com/article/brazil-lula-reciprocity-us-tariffs-1d00c49488ea803e05c17980f10a250d",
+          "published_at": "2026-08-14T17:52:36Z; updated 2026-08-15T17:46:46Z",
+          "source_type": "wire"
+        },
+        {
+          "publisher": "Brazil Ministry of Development, Industry, Trade and Services",
+          "title": "Scope of United States tariff measures on Brazilian exports",
+          "url": "https://www.gov.br/mdic/pt-br/assuntos/noticias/2026-periodo-eleitoral/julho/alcance-das-medidas-tarifarias-dos-estados-unidos-sobre-exportacoes-brasileiras",
+          "published_at": "2026-07",
+          "source_type": "primary"
+        }
+      ]
+    },
+    {
+      "id": "zimbabwe-ferry-death-toll-72-update",
+      "category": "health-society",
+      "regions": ["Africa", "Zimbabwe"],
+      "title": "更新：津巴布韦卡里巴湖渡轮事故死亡数升至 72 人",
+      "summary": "最新死亡数 72 人，较本项目此前记录的 44 人增加 28 人；警方称从此前 46 人基础上又发现 26 具遗体。",
+      "why_it_matters": "大幅上修的死亡数进一步暴露载客清单、超载监管和公共渡运安全问题。",
+      "uncertainty": "最终登船和失踪人数未确认，153 人只是估计上限，事故原因仍在调查。",
+      "confidence": "high",
+      "sources": [
+        {
+          "publisher": "Associated Press",
+          "title": "Zimbabwe ferry death toll rises to 72",
+          "url": "https://apnews.com/article/zimbabwe-ferry-capsize-death-toll-rises-children-8c45f83769ef978a64899d851911e8c7",
+          "published_at": "2026-08-15T16:50:33Z; updated 2026-08-15T19:33:33Z",
+          "source_type": "wire"
+        }
+      ]
+    },
+    {
+      "id": "france-under15-social-media-ban-struck-down",
+      "category": "politics",
+      "regions": ["Europe", "France"],
+      "title": "法国宪法委员会否决 15 岁以下社交媒体全面禁令",
+      "summary": "法国宪法委员会认定全面禁令与普遍年龄核验对表达、通信自由和隐私构成不成比例限制。",
+      "why_it_matters": "裁决为欧洲儿童网络保护、年龄核验与基本权利的边界提供重要判例。",
+      "uncertainty": "政府将如何重拟范围更窄、数据保护更强的方案尚未确定。",
+      "confidence": "high",
+      "sources": [
+        {
+          "publisher": "Conseil constitutionnel",
+          "title": "Decision no. 2026-911 DC",
+          "url": "https://www.conseil-constitutionnel.fr/decision/2026/2026911DC.htm",
+          "published_at": "2026-08-14",
+          "source_type": "primary"
+        },
+        {
+          "publisher": "Associated Press",
+          "title": "France's top court strikes down under-15 social media ban",
+          "url": "https://apnews.com/article/france-paris-macron-internet-social-media-ban-a4e96488d1eb913c7a039eb5e4fc1e18",
+          "published_at": "2026-08-14T15:31:42Z",
+          "source_type": "wire"
+        }
+      ]
+    },
+    {
+      "id": "hurricane-lala-hawaii-big-island",
+      "category": "climate-environment",
+      "regions": ["North America", "United States", "Hawaii"],
+      "title": "飓风 Lala 眼墙擦过夏威夷大岛南部",
+      "summary": "第 15 号公报显示一级飓风 Lala 的眼墙正擦过夏威夷大岛南部，最大持续风速约 80 mph。",
+      "why_it_matters": "这可能成为大岛约 155 年来首次遭飓风直接影响，山洪、滑坡和电网风险突出。",
+      "uncertainty": "路径、强度、是否登陆、最终降雨与停电范围仍在变化；停电比例只是报道时点快照。",
+      "confidence": "high",
+      "sources": [
+        {
+          "publisher": "National Hurricane Center and Central Pacific Hurricane Center",
+          "title": "Hurricane Lala Public Advisory Number 15",
+          "url": "https://www.nhc.noaa.gov/archive/2026/cp01/cp012026.public.015.shtml",
+          "published_at": "2026-08-16T03:00:00Z",
+          "source_type": "primary"
+        },
+        {
+          "publisher": "Associated Press",
+          "title": "Hurricane Lala approaches Hawaii's Big Island",
+          "url": "https://apnews.com/article/hawaii-tropical-storm-lala-hurricane-0c3d63c8a87943cdf8d57c530a7ed9d0",
+          "published_at": "2026-08-15T12:55:25Z; updated 2026-08-16T03:17:44Z",
+          "source_type": "wire"
+        }
+      ]
+    }
+  ]
+}
