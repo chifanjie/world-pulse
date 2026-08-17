@@ -1,0 +1,370 @@
+{
+  "date": "2026-08-17",
+  "timezone": "Asia/Shanghai",
+  "generated_at": "2026-08-17T09:15:31+08:00",
+  "overview": "Trump 下令大幅缩减本周美韩联合军演，俄方报告乌克兰发动大规模无人机袭俄；AI 雷达关注 AutoDesign 元 harness、LiteLLM 镜像验证与 Claude Code 执行边界。",
+  "digest_path": "digests/2026/08/2026-08-17.md",
+  "ai_radar": {
+    "selection_as_of": "2026-08-17T09:15:31+08:00",
+    "item_ids": [
+      "autodesign-meta-harness-agentic-design",
+      "litellm-1-97-0-supply-chain-guardrails",
+      "claude-code-2-1-233-resource-security-update"
+    ]
+  },
+  "items": [
+    {
+      "id": "autodesign-meta-harness-agentic-design",
+      "section": "ai-frontier",
+      "category": "science",
+      "regions": ["Global"],
+      "title": "AutoDesign 用元 harness 优化长链设计智能体",
+      "summary": "AutoDesign 固定底层模型，以 rollout、评估、单组件修改和开发集门控反复优化长链设计 harness。",
+      "why_it_matters": "把优化对象上移到多角色、工具与验证流程本身，为智能体工作流提供可审计的迭代单元。",
+      "uncertainty": "预印本尚未同行评审，主要验证限于海报；自动评测与人偏好仅中等相关，元数据不含论文 PDF，商业 API 与第三方许可限制完整复现。",
+      "confidence": "medium",
+      "ai": {
+        "kind": "research-preprint-open-code-and-benchmark-metadata",
+        "topics": ["agentic-design", "meta-optimization", "harness", "visual-evaluation", "workflow-search"],
+        "artifact_date": "2026-08-13T17:59:57Z",
+        "artifact_status": "CC BY 4.0 arXiv preprint not peer reviewed; MIT code repository created 2026-08-14T02:38:45Z and public non-gated metadata-only benchmark datasets",
+        "technical_takeaway": "外层优化器只接受训练集改善且独立开发集不退化的单组件 harness 修改，使固定模型的长链设计流程可递归优化。",
+        "evidence_level": "primary non-peer-reviewed preprint plus public code and metadata-only benchmark; author-reported results, commercial model dependencies and no independent replication",
+        "paper_id": "arXiv:2608.13560",
+        "code_url": "https://github.com/Yaxin9Luo/AutoDesign",
+        "heat": {
+          "label": "early attention on Hugging Face Papers and GitHub; not evidence of validity or independent reproduction",
+          "as_of": "2026-08-17T09:12:00+08:00",
+          "signals": [
+            {
+              "platform": "Hugging Face Papers",
+              "observation": "43 upvotes and 3 comments",
+              "url": "https://huggingface.co/papers/2608.13560"
+            },
+            {
+              "platform": "GitHub",
+              "observation": "60 stars and 5 forks for the code repository",
+              "url": "https://github.com/Yaxin9Luo/AutoDesign"
+            }
+          ]
+        }
+      },
+      "sources": [
+        {
+          "publisher": "arXiv",
+          "title": "AutoDesign: Meta-Harness Optimization for Long-Horizon Agentic Design",
+          "url": "https://arxiv.org/abs/2608.13560",
+          "published_at": "2026-08-13T17:59:57Z",
+          "source_type": "research"
+        },
+        {
+          "publisher": "AutoDesign authors",
+          "title": "AutoDesign code repository and MIT license",
+          "url": "https://github.com/Yaxin9Luo/AutoDesign",
+          "published_at": "repository created 2026-08-14T02:38:45Z; accessed 2026-08-17T09:12:00+08:00",
+          "source_type": "code"
+        },
+        {
+          "publisher": "AutoDesign authors",
+          "title": "AutoDesign third-party license notices",
+          "url": "https://github.com/Yaxin9Luo/AutoDesign/blob/main/THIRD_PARTY_NOTICES.md",
+          "published_at": "accessed 2026-08-17T09:12:00+08:00",
+          "source_type": "code"
+        },
+        {
+          "publisher": "AutoDesign authors",
+          "title": "PosterBench metadata-only dataset",
+          "url": "https://huggingface.co/datasets/YaxinLuo/PosterBench",
+          "published_at": "accessed 2026-08-17T09:12:00+08:00",
+          "source_type": "research"
+        },
+        {
+          "publisher": "AutoDesign authors",
+          "title": "PosterBench-mini metadata-only dataset",
+          "url": "https://huggingface.co/datasets/YaxinLuo/PosterBench-mini",
+          "published_at": "accessed 2026-08-17T09:12:00+08:00",
+          "source_type": "research"
+        },
+        {
+          "publisher": "Hugging Face",
+          "title": "AutoDesign paper attention snapshot",
+          "url": "https://huggingface.co/papers/2608.13560",
+          "published_at": "accessed 2026-08-17T09:12:00+08:00",
+          "source_type": "community-index"
+        }
+      ]
+    },
+    {
+      "id": "litellm-1-97-0-supply-chain-guardrails",
+      "section": "ai-frontier",
+      "category": "technology",
+      "regions": ["Global"],
+      "title": "LiteLLM 1.97.0 增加发布镜像验证并扩展跨协议防护",
+      "summary": "LiteLLM 1.97.0 为 release 镜像提供 cosign 验证，并把 guardrail 与脱敏修复覆盖到更多供应商、MCP 和流式路径。",
+      "why_it_matters": "AI 网关横跨镜像供应链、协议转换、工具结果和观测日志，验证与策略覆盖需要同时闭合这些边界。",
+      "uncertainty": "综合 release 变更面大且没有版本专项独立安全审计或性能基准；生产环境仍需按实际供应商和工具拓扑回归，enterprise 目录另有许可。",
+      "confidence": "high",
+      "ai": {
+        "kind": "open-source-ai-gateway-security-release",
+        "topics": ["model-gateway", "supply-chain", "cosign", "guardrails", "MCP", "credential-redaction"],
+        "artifact_date": "2026-08-16T02:51:04Z",
+        "artifact_status": "official v1.97.0 release with public source and diff; repository core is MIT while enterprise/ has separate licensing",
+        "technical_takeaway": "固定 commit 中的 cosign 公钥让 release 镜像可验证，同时 guardrail、凭据脱敏和权限约束覆盖更多协议与工具结果路径。",
+        "evidence_level": "official release and publicly auditable source diff; no version-specific independent security audit or benchmark",
+        "code_url": "https://github.com/BerriAI/litellm/releases/tag/v1.97.0",
+        "heat": {
+          "label": "large cumulative GitHub ecosystem, but no attributable v1.97.0 adoption signal",
+          "as_of": "2026-08-17T09:08:00+08:00",
+          "signals": [
+            {
+              "platform": "GitHub",
+              "observation": "repository showed 56,482 stars and 10,636 forks cumulatively; release-specific reactions were not available",
+              "url": "https://github.com/BerriAI/litellm"
+            }
+          ]
+        }
+      },
+      "sources": [
+        {
+          "publisher": "LiteLLM",
+          "title": "LiteLLM v1.97.0 release",
+          "url": "https://github.com/BerriAI/litellm/releases/tag/v1.97.0",
+          "published_at": "2026-08-16T02:51:04Z",
+          "source_type": "code"
+        },
+        {
+          "publisher": "LiteLLM",
+          "title": "LiteLLM source repository",
+          "url": "https://github.com/BerriAI/litellm",
+          "published_at": "accessed 2026-08-17T09:08:00+08:00",
+          "source_type": "code"
+        },
+        {
+          "publisher": "LiteLLM",
+          "title": "LiteLLM v1.97.0 license boundaries",
+          "url": "https://github.com/BerriAI/litellm/blob/v1.97.0/LICENSE",
+          "published_at": "accessed 2026-08-17T09:08:00+08:00",
+          "source_type": "code"
+        }
+      ]
+    },
+    {
+      "id": "claude-code-2-1-233-resource-security-update",
+      "section": "ai-frontier",
+      "category": "technology",
+      "regions": ["Global", "North America", "United States"],
+      "title": "更新：Claude Code 2.1.233 收紧资源、凭据与 MCP 重连边界",
+      "summary": "Claude Code 2.1.233 增加 Linux Bash memory cgroup 上限，并修复 Windows UNC 校验与 MCP v2 重连问题。",
+      "why_it_matters": "本地编码智能体同时接触 shell、文件系统、网络凭据和长驻连接，资源与路径规范化是关键执行边界。",
+      "uncertainty": "产品不是开源软件，修复不能从完整源码独立复核；没有 CVE、CVSS 或专项性能测试，Linux 内存限制还需主动开启。",
+      "confidence": "medium",
+      "ai": {
+        "kind": "commercial-coding-agent-release-security-update",
+        "topics": ["coding-agent", "resource-limits", "windows-credentials", "MCP", "self-hosted-runner"],
+        "artifact_date": "2026-08-14T22:20:57Z",
+        "artifact_status": "official v2.1.233 release under Anthropic commercial terms; not open source and no CVE or CVSS published",
+        "technical_takeaway": "可选 Linux memory cgroup、Windows NT device-prefix 校验修复和 MCP v2 重连修复共同收紧本地智能体的执行与连接边界。",
+        "evidence_level": "official release notes and commercial license; full product source unavailable for independent audit and no independent version-specific testing",
+        "code_url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.233",
+        "heat": {
+          "label": "some version-specific GitHub reactions within a large cumulative repository; neither proves adoption or fix quality",
+          "as_of": "2026-08-17T09:08:00+08:00",
+          "signals": [
+            {
+              "platform": "GitHub",
+              "observation": "v2.1.233 release showed 39 reactions",
+              "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.233"
+            },
+            {
+              "platform": "GitHub",
+              "observation": "repository showed 141,660 stars and 22,740 forks cumulatively",
+              "url": "https://github.com/anthropics/claude-code"
+            }
+          ]
+        }
+      },
+      "sources": [
+        {
+          "publisher": "Anthropic",
+          "title": "Claude Code v2.1.233 release",
+          "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.233",
+          "published_at": "2026-08-14T22:20:57Z",
+          "source_type": "code"
+        },
+        {
+          "publisher": "Anthropic",
+          "title": "Claude Code v2.1.233 commercial license",
+          "url": "https://github.com/anthropics/claude-code/blob/v2.1.233/LICENSE.md",
+          "published_at": "accessed 2026-08-17T09:08:00+08:00",
+          "source_type": "code"
+        }
+      ]
+    },
+    {
+      "id": "trump-scales-back-us-rok-drills",
+      "category": "politics",
+      "regions": ["Asia", "South Korea", "North Korea", "United States"],
+      "title": "Trump 下令大幅缩减本周美韩联合军演",
+      "summary": "Trump 下令五角大楼大幅缩减本周开始、原计划持续 11 天且约 18,000 名韩国军人参加的联合演习。",
+      "why_it_matters": "临近开演才改变规模，会影响半岛威慑、美韩战备和盟友对美国安全承诺的判断。",
+      "uncertainty": "具体缩减科目、兵力和执行方式尚未公布，政治理由也不等于军事效果已经评估完成。",
+      "confidence": "medium",
+      "sources": [
+        {
+          "publisher": "Associated Press",
+          "title": "Trump orders Pentagon to scale back joint exercises with South Korea",
+          "url": "https://apnews.com/article/korea-trump-military-exercises-ae21e0af5ea16f0a74e9a176b3cc2136",
+          "published_at": "published 2026-08-16T21:37:00Z; updated 2026-08-17T00:06:00Z",
+          "source_type": "wire"
+        }
+      ]
+    },
+    {
+      "id": "kushner-meets-hamas-chief-egypt",
+      "category": "politics",
+      "regions": ["Middle East", "Egypt", "Israel", "Gaza"],
+      "title": "更新：Kushner 在埃及与哈马斯领导人会谈，试图挽救加沙路线图",
+      "summary": "Kushner 与哈马斯领导人 Khalil al-Hayya 会谈逾两小时，讨论挽救 15 点加沙路线图，但会后没有协议。",
+      "why_it_matters": "这是本项目 8 月 10 日记录以方拒绝路线图后的实质外交更新，美国特使与哈马斯高层直接接触显示斡旋方正尝试跨越谈判僵局。",
+      "uncertainty": "会议细节主要由匿名地区官员和哈马斯官员提供，以色列是否接受路线图及各方是否落实条件仍不确定。",
+      "confidence": "medium",
+      "sources": [
+        {
+          "publisher": "Associated Press",
+          "title": "Kushner meets Hamas chief in Egypt over Gaza plan",
+          "url": "https://apnews.com/article/gaza-ceasefire-kushner-netanyahu-hamas-palestinians-israel-321e254af26a0fff1b3ec2b8c00412a2",
+          "published_at": "published 2026-08-16T17:39:00Z; updated 2026-08-16T20:24:00Z",
+          "source_type": "wire"
+        },
+        {
+          "publisher": "Axios",
+          "title": "Kushner met Hamas leaders in Egypt over Gaza plan",
+          "url": "https://www.axios.com/2026/08/16/kushner-hamas-gaza-disarmament-egypt-israel",
+          "published_at": "2026-08-16T20:13:00Z",
+          "source_type": "regional-media"
+        }
+      ]
+    },
+    {
+      "id": "ukraine-mass-drone-strike-russia",
+      "category": "politics",
+      "regions": ["Europe", "Ukraine", "Russia"],
+      "title": "俄方称乌克兰发动战争以来规模最大之一的无人机袭俄行动",
+      "summary": "俄国防部称一夜间击落 822 架乌克兰无人机，莫斯科市长称约 600 架飞向首都；俄地方官员称境内至少 6 人死亡。",
+      "why_it_matters": "大规模远程打击继续把战争压力延伸到后方城市、防空系统和民用基础设施。",
+      "uncertainty": "无人机数量和拦截结果均为俄方说法，无法独立核实；双方伤亡与损失仍可能更新。",
+      "confidence": "medium",
+      "sources": [
+        {
+          "publisher": "Associated Press",
+          "title": "Ukraine launches one of its largest aerial attacks of the war",
+          "url": "https://apnews.com/article/russia-ukraine-war-01294bf8744282086e8f76c8130e16ba",
+          "published_at": "published 2026-08-16T07:42:00Z; updated 2026-08-16T18:04:00Z",
+          "source_type": "wire"
+        }
+      ]
+    },
+    {
+      "id": "belgium-greece-wildfires",
+      "category": "climate-environment",
+      "regions": ["Europe", "Belgium", "Greece"],
+      "title": "比利时与希腊野火造成大范围疏散和死亡",
+      "summary": "比利时高沼地约 30 平方公里被烧、约 600 人疏散；希腊萨拉米斯岛火灾造成 2 人死亡、约 500 人撤离。",
+      "why_it_matters": "跨境支援和海岛撤离显示欧洲火季正在同时考验保护区、旅游地和区域应急资源。",
+      "uncertainty": "火场面积、损失和起火原因仍在变化，单次事件也不能独立量化气候变化因果。",
+      "confidence": "high",
+      "sources": [
+        {
+          "publisher": "Associated Press",
+          "title": "Wildfires force evacuations in Belgium and Greece",
+          "url": "https://apnews.com/article/europe-wildfires-belgium-66c6fb6801f5574fde2dfc07a610a4cb",
+          "published_at": "published 2026-08-16T08:48:00Z; updated 2026-08-16T19:17:00Z",
+          "source_type": "wire"
+        }
+      ]
+    },
+    {
+      "id": "colombia-quake-toll-tariff-appeal",
+      "category": "climate-environment",
+      "regions": ["Latin America", "Colombia", "United States"],
+      "title": "更新：哥伦比亚地震死亡数升至 289，总统请求美国暂缓关税",
+      "summary": "官方死亡数升至 289，另有 143 人失踪、3,937 人受伤；总统请求美国暂缓较高关税以支持重建。",
+      "why_it_matters": "灾害规模和重建压力显著扩大，贸易政策也开始与人道恢复直接交织。",
+      "uncertainty": "官方与民间失踪者数据库口径不同，不能相加；最终伤亡、核损和美国关税决定仍未确定。",
+      "confidence": "high",
+      "sources": [
+        {
+          "publisher": "Associated Press",
+          "title": "Colombia quake toll rises as president seeks tariff relief",
+          "url": "https://apnews.com/article/colombia-earthquake-abelardo-de-la-espriella-trump-d5472db0c7b2f929b43a4c190dc0d41b",
+          "published_at": "published 2026-08-16T16:57:00Z; updated 2026-08-16T19:30:00Z",
+          "source_type": "wire"
+        }
+      ]
+    },
+    {
+      "id": "hungary-polish-tour-bus-crash",
+      "category": "health-society",
+      "regions": ["Europe", "Hungary", "Poland"],
+      "title": "匈牙利一辆波兰游客巴士翻覆，造成 12 人死亡",
+      "summary": "一辆载有 57 名波兰游客和 2 名司机的巴士在匈牙利 M3 高速驶离路面翻覆，造成 12 人死亡、至少 10 人重伤。",
+      "why_it_matters": "跨境游客群死群伤事故将触发对驾驶时长、车辆运营和道路安全的联合调查。",
+      "uncertainty": "司机可能入睡只是初步调查方向，车辆状况、行车记录和刑事责任仍待确定。",
+      "confidence": "high",
+      "sources": [
+        {
+          "publisher": "Associated Press",
+          "title": "Polish tourist bus crash in Hungary kills 12",
+          "url": "https://apnews.com/article/hungary-tourist-bus-crash-poland-5d7ea3649f0af2dab9b45a08671f79b7",
+          "published_at": "published 2026-08-16T07:11:00Z; updated 2026-08-16T08:20:00Z",
+          "source_type": "wire"
+        }
+      ]
+    },
+    {
+      "id": "lala-hawaii-damage-update",
+      "category": "climate-environment",
+      "regions": ["North America", "United States", "Hawaii"],
+      "title": "更新：Lala 未登陆但给夏威夷大岛带来近 1 米局地降雨",
+      "summary": "Lala 减弱为热带风暴但给大岛带来近 1 米局地降雨，官员称约 100 栋房屋被冲离地基。",
+      "why_it_matters": "是否正式登陆不能代表实际损失轻重，极端降雨仍可造成长期住房与基础设施影响。",
+      "uncertainty": "约 100 栋是阶段估计，一宗车辆死亡是否由风暴导致尚未确认，最终损失仍待评估。",
+      "confidence": "high",
+      "sources": [
+        {
+          "publisher": "Associated Press",
+          "title": "Lala weakens after drenching Hawaii's Big Island",
+          "url": "https://apnews.com/article/hawaii-lala-hurricane-tropical-damage-a9fafe9ffc24572c671d1b43414c0ac2",
+          "published_at": "published 2026-08-16T12:56:00Z; updated 2026-08-16T23:42:00Z",
+          "source_type": "wire"
+        }
+      ]
+    },
+    {
+      "id": "brazil-presidential-campaign-kickoff",
+      "category": "politics",
+      "regions": ["Latin America", "Brazil"],
+      "title": "巴西两名主要总统候选人正式启动竞选",
+      "summary": "Lula 与 Flávio Bolsonaro 周日分别举行大型集会，正式启动预计胶着的 10 月总统竞选。",
+      "why_it_matters": "选举将决定巴西经济、亚马孙政策、对美关系与地区外交的下一阶段方向。",
+      "uncertainty": "支持率、联盟、司法争议与竞选承诺仍可能快速变化，正式开跑不代表最终候选格局已经锁定。",
+      "confidence": "high",
+      "sources": [
+        {
+          "publisher": "Associated Press",
+          "title": "Brazil's leading presidential candidates launch campaigns",
+          "url": "https://apnews.com/article/8f4ad67b107cb05736f450f67198b190",
+          "published_at": "published 2026-08-16T17:02:00Z; updated 2026-08-16T18:21:00Z",
+          "source_type": "wire"
+        },
+        {
+          "publisher": "Tribunal Superior Eleitoral",
+          "title": "Brazil election calendar",
+          "url": "https://www.tse.jus.br/eleicoes/calendario-eleitoral/",
+          "published_at": "accessed 2026-08-17T09:11:25+08:00",
+          "source_type": "primary"
+        }
+      ]
+    }
+  ]
+}
