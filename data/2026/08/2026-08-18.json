@@ -1,0 +1,419 @@
+{
+  "date": "2026-08-18",
+  "timezone": "Asia/Shanghai",
+  "generated_at": "2026-08-18T09:31:07+08:00",
+  "overview": "刚果（金）埃博拉死亡数超过该国此前纪录，日本二季度增长放缓；AI 雷达关注 Mobius 知识—推理解耦、EVIE 视觉检索与 Agents SDK 沙箱边界。",
+  "digest_path": "digests/2026/08/2026-08-18.md",
+  "ai_radar": {
+    "selection_as_of": "2026-08-18T09:16:08+08:00",
+    "item_ids": [
+      "intern-s2-mobius-decoupled-knowledge-reasoning",
+      "tencent-evie-preview-4-5b-visual-retrieval",
+      "openai-agents-sdk-0-21-1-sandbox-controls-update"
+    ]
+  },
+  "items": [
+    {
+      "id": "intern-s2-mobius-decoupled-knowledge-reasoning",
+      "section": "ai-frontier",
+      "category": "science",
+      "regions": ["Global", "Asia", "China"],
+      "title": "Intern-S2-Mobius 用共享 Memory 解耦知识存储与推理计算",
+      "summary": "新技术报告以全局共享 FFN Memory 和多个自注意力 Reasoner 拆开知识存储与推理计算，并系统说明已有 35B 开放权重模型。",
+      "why_it_matters": "若作者结果可复现，这种结构可能把模型存储的知识与推理时长从固定层堆栈中部分解耦。",
+      "uncertainty": "预印本尚未同行评审，训练数据和完整配方未公开；接近 4 倍加速主要来自更短输出，缺少统一硬件上的机制隔离与独立复现。",
+      "confidence": "medium",
+      "ai": {
+        "kind": "research-preprint-with-open-weights",
+        "topics": ["model-architecture", "knowledge-reasoning-decoupling", "latent-reasoning", "inference-efficiency", "open-weights"],
+        "artifact_date": "2026-08-14T13:21:49Z",
+        "artifact_status": "CC BY 4.0 arXiv preprint not peer reviewed; Apache-2.0 BF16 model weights and remote code were uploaded before the report, while the companion GitHub repository has no top-level license",
+        "technical_takeaway": "把逐层 FFN 知识存储改为全局共享 Memory，让多个自注意力 Reasoner 以隐藏状态循环查询与组合知识。",
+        "evidence_level": "primary non-peer-reviewed technical report plus public BF16 weights and remote code; author-reported training and efficiency results with no independent replication",
+        "paper_id": "arXiv:2608.14290",
+        "code_url": "https://github.com/InternLM/Intern-S2-Mobius",
+        "heat": {
+          "label": "early attention on the Hugging Face model page and GitHub; not evidence of validity or independent reproduction",
+          "as_of": "2026-08-18T09:15:00+08:00",
+          "signals": [
+            {
+              "platform": "Hugging Face",
+              "observation": "model page showed about 55 likes and 1,149 downloads",
+              "url": "https://huggingface.co/internlm/Intern-S2-Mobius"
+            },
+            {
+              "platform": "GitHub",
+              "observation": "companion repository showed about 47 stars and 0 forks",
+              "url": "https://github.com/InternLM/Intern-S2-Mobius"
+            }
+          ]
+        }
+      },
+      "sources": [
+        {
+          "publisher": "arXiv",
+          "title": "Intern-S2-Mobius: Foundation Model with Decoupled Knowledge and Reasoning",
+          "url": "https://arxiv.org/abs/2608.14290",
+          "published_at": "2026-08-14T13:21:49Z",
+          "source_type": "research"
+        },
+        {
+          "publisher": "arXiv",
+          "title": "Intern-S2-Mobius paper HTML",
+          "url": "https://arxiv.org/html/2608.14290",
+          "published_at": "accessed 2026-08-18T09:15:00+08:00",
+          "source_type": "research"
+        },
+        {
+          "publisher": "InternLM",
+          "title": "Intern-S2-Mobius model card and BF16 weights",
+          "url": "https://huggingface.co/internlm/Intern-S2-Mobius",
+          "published_at": "model uploaded before report; accessed 2026-08-18T09:15:00+08:00",
+          "source_type": "model-card"
+        },
+        {
+          "publisher": "InternLM",
+          "title": "Intern-S2-Mobius model license",
+          "url": "https://huggingface.co/internlm/Intern-S2-Mobius/blob/main/LICENSE",
+          "published_at": "accessed 2026-08-18T09:15:00+08:00",
+          "source_type": "model-card"
+        },
+        {
+          "publisher": "InternLM",
+          "title": "Intern-S2-Mobius companion repository",
+          "url": "https://github.com/InternLM/Intern-S2-Mobius",
+          "published_at": "accessed 2026-08-18T09:15:00+08:00",
+          "source_type": "code"
+        }
+      ]
+    },
+    {
+      "id": "tencent-evie-preview-4-5b-visual-retrieval",
+      "section": "ai-frontier",
+      "category": "technology",
+      "regions": ["Global", "Asia", "China"],
+      "title": "腾讯 EVIE 用原生 128 维多向量做视觉文档晚交互检索",
+      "summary": "EVIE-Preview-4.5B 把查询与文档图像映射为每 token 128 维多向量，以 MaxSim 晚交互执行多语言视觉文档检索。",
+      "why_it_matters": "较窄的 token 向量有望降低晚交互检索的单向量存储和计算成本，同时保留版面、图表与表格信息。",
+      "uncertainty": "preview 版的榜单均为团队自评；没有训练代码、数据明细或完整配方，依赖未完全锁定，128 维也不能直接等同总索引压缩比。",
+      "confidence": "medium",
+      "ai": {
+        "kind": "open-weight-visual-document-retrieval-model",
+        "topics": ["visual-document-retrieval", "late-interaction", "multilingual", "multi-vector", "document-understanding"],
+        "artifact_date": "2026-08-17T11:53:54Z",
+        "artifact_status": "preview release with downloadable BF16 weights, model card, inference and public-evaluation scripts; Tencent-published code, parameters and weights state Apache-2.0 while third-party components retain their own licenses",
+        "technical_takeaway": "Qwen3.5-4B 混合线性与全注意力骨干输出原生 128 维 token 多向量，再用 ColBERT/ColPali MaxSim 做查询—页面晚交互。",
+        "evidence_level": "official model card, weights and public benchmark replay scripts; vendor-reported results, no training code or independent replication",
+        "code_url": "https://github.com/Tencent/EVIE-Preview-4.5B",
+        "heat": {
+          "label": "very early and weak Hugging Face and GitHub signals; too new to infer adoption",
+          "as_of": "2026-08-18T09:11:44+08:00",
+          "signals": [
+            {
+              "platform": "Hugging Face",
+              "observation": "model page showed 26 likes and 0 downloads",
+              "url": "https://huggingface.co/tencent/EVIE-Preview-4.5B"
+            },
+            {
+              "platform": "GitHub",
+              "observation": "official repository showed 10 stars and 0 forks",
+              "url": "https://github.com/Tencent/EVIE-Preview-4.5B"
+            }
+          ]
+        }
+      },
+      "sources": [
+        {
+          "publisher": "Tencent",
+          "title": "EVIE-Preview-4.5B model card and weights",
+          "url": "https://huggingface.co/tencent/EVIE-Preview-4.5B",
+          "published_at": "repository created 2026-08-17T11:53:54Z; accessed 2026-08-18T09:11:44+08:00",
+          "source_type": "model-card"
+        },
+        {
+          "publisher": "Tencent",
+          "title": "EVIE-Preview-4.5B source and evaluation scripts",
+          "url": "https://github.com/Tencent/EVIE-Preview-4.5B",
+          "published_at": "repository created 2026-08-17T11:39:46Z; accessed 2026-08-18T09:11:44+08:00",
+          "source_type": "code"
+        },
+        {
+          "publisher": "Tencent",
+          "title": "EVIE Apache-2.0 and third-party license boundaries",
+          "url": "https://huggingface.co/tencent/EVIE-Preview-4.5B/blob/main/LICENSE.txt",
+          "published_at": "accessed 2026-08-18T09:11:44+08:00",
+          "source_type": "model-card"
+        }
+      ]
+    },
+    {
+      "id": "openai-agents-sdk-0-21-1-sandbox-controls-update",
+      "section": "ai-frontier",
+      "category": "technology",
+      "regions": ["Global", "North America", "United States"],
+      "title": "更新：OpenAI Agents SDK 0.21.1 增加调用超时与沙箱隔离控制",
+      "summary": "Python SDK 0.21.1 新增模型调用超时、run-scoped 工作目录与 Docker 禁网选项，并修复 exact-call 审批和多项沙箱边界。",
+      "why_it_matters": "显式的时间、文件与网络隔离，加上精确调用审批，可减少智能体卡死、跨运行污染和工具权限漂移。",
+      "uncertainty": "这是 0.21.0 后的连续实质更新；控制项仍需在真实 provider 和工具拓扑中回归，公开源码与测试也不能替代独立安全审计。",
+      "confidence": "high",
+      "ai": {
+        "kind": "open-source-agent-sdk-sandbox-and-reliability-update",
+        "topics": ["agents-sdk", "sandbox", "network-isolation", "tool-approval", "timeouts", "runtime-reliability"],
+        "artifact_date": "2026-08-16T22:28:55Z",
+        "artifact_status": "official MIT-licensed v0.21.1 release with public source, pull requests, tests and version diff",
+        "technical_takeaway": "模型调用超时、run-scoped 沙箱目录和 Docker 禁网把时间、文件与网络边界显式化，exact-call approval 修复则把授权绑定到具体工具调用。",
+        "evidence_level": "official release and publicly auditable MIT source, pull requests and tests; no independent version-specific security audit or end-to-end benchmark",
+        "code_url": "https://github.com/openai/openai-agents-python/releases/tag/v0.21.1",
+        "heat": {
+          "label": "large cumulative GitHub ecosystem, not an attributable v0.21.1 adoption or effectiveness signal",
+          "as_of": "2026-08-18T09:15:00+08:00",
+          "signals": [
+            {
+              "platform": "GitHub",
+              "observation": "repository showed 28,724 stars and 4,525 forks cumulatively",
+              "url": "https://github.com/openai/openai-agents-python"
+            }
+          ]
+        }
+      },
+      "sources": [
+        {
+          "publisher": "OpenAI",
+          "title": "OpenAI Agents SDK Python v0.21.1 release",
+          "url": "https://github.com/openai/openai-agents-python/releases/tag/v0.21.1",
+          "published_at": "2026-08-16T22:28:55Z",
+          "source_type": "code"
+        },
+        {
+          "publisher": "OpenAI",
+          "title": "OpenAI Agents SDK v0.21.0 to v0.21.1 diff",
+          "url": "https://github.com/openai/openai-agents-python/compare/v0.21.0...v0.21.1",
+          "published_at": "accessed 2026-08-18T09:15:00+08:00",
+          "source_type": "code"
+        },
+        {
+          "publisher": "OpenAI",
+          "title": "OpenAI Agents SDK v0.21.1 MIT license",
+          "url": "https://github.com/openai/openai-agents-python/blob/v0.21.1/LICENSE",
+          "published_at": "accessed 2026-08-18T09:15:00+08:00",
+          "source_type": "code"
+        }
+      ]
+    },
+    {
+      "id": "drc-ebola-death-toll-2325-update",
+      "category": "health-society",
+      "regions": ["Africa", "Democratic Republic of the Congo"],
+      "title": "更新：刚果（金）埃博拉死亡数升至 2,325，超过该国此前纪录",
+      "summary": "刚果（金）卫生部 8 月 15 日疫情日报记录累计 4,945 例、2,325 人死亡，过去 24 小时新增 101 例和 53 例确认死亡，其中 33 例为社区死亡、20 例发生在治疗中心。",
+      "why_it_matters": "本轮疫情的病例数和死亡数都已超过该国此前纪录，且已扩至六省、缺少获批疫苗和治疗。",
+      "uncertainty": "最新数字是快速变化的政府阶段数据；WHO 较早通报只交叉确认当时的增长趋势与地域扩散，不替代本次数字。",
+      "confidence": "high",
+      "sources": [
+        {
+          "publisher": "Ministry of Public Health, Hygiene and Social Welfare of the Democratic Republic of the Congo",
+          "title": "SitRep MVEBDB No. 092 - 15 August 2026",
+          "url": "https://administration.sante.gouv.cd/wp-content/uploads/2026/08/SitRep_MVEBDB_092_15_08_2026.pdf",
+          "published_at": "2026-08-15",
+          "source_type": "primary"
+        },
+        {
+          "publisher": "Associated Press",
+          "title": "Congo’s fast-moving Ebola outbreak becomes the country's deadliest",
+          "url": "https://apnews.com/article/d4a5aac8a82a35144ebfe9de96bef7d2",
+          "published_at": "published 2026-08-17T13:23:53Z; updated 2026-08-17T21:40:35Z",
+          "source_type": "wire"
+        },
+        {
+          "publisher": "World Health Organization",
+          "title": "Ebola disease caused by Bundibugyo virus - Democratic Republic of the Congo",
+          "url": "https://www.who.int/emergencies/disease-outbreak-news/item/2026-DON614",
+          "published_at": "2026-08-01",
+          "source_type": "primary"
+        }
+      ]
+    },
+    {
+      "id": "indonesia-flores-earthquake-toll-68-update",
+      "category": "climate-environment",
+      "regions": ["Asia", "Indonesia"],
+      "title": "更新：印尼弗洛勒斯地震死亡数升至 68，约 19,000 人流离失所",
+      "summary": "灾害部门称地震已造成至少 68 人死亡、213 人受伤，4,500 余所住宅受损，约 19,000 人进入临时安置点。",
+      "why_it_matters": "相较本项目 8 月 16 日记录，伤亡、安置和公共设施损失都显著上修，人道响应将持续。",
+      "uncertainty": "搜救、余震和核损仍在进行，数字会变化；偏远社区的道路、饮水、医疗和住房覆盖仍不清楚。",
+      "confidence": "high",
+      "sources": [
+        {
+          "publisher": "Associated Press",
+          "title": "Thousands in Indonesia await aid after quake kills 68",
+          "url": "https://apnews.com/article/ec45607ccc22d9df2d5cfe4ab82d33eb",
+          "published_at": "published 2026-08-17T04:11:45Z; updated 2026-08-17T19:33:36Z",
+          "source_type": "wire"
+        },
+        {
+          "publisher": "U.S. Geological Survey",
+          "title": "M 7.7 Flores earthquake event page",
+          "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tkt2",
+          "published_at": "event time 2026-08-14T21:58:21Z; accessed 2026-08-18T09:14:00+08:00",
+          "source_type": "primary"
+        }
+      ]
+    },
+    {
+      "id": "russia-shlosberg-sentence-yabloko-appeal",
+      "category": "politics",
+      "regions": ["Europe", "Russia"],
+      "title": "更新：俄反战政治人物 Shlosberg 被判 11 年 1 个月监禁",
+      "summary": "俄罗斯法院以贬损军队和传播军队虚假信息等罪名判 Lev Shlosberg 11 年 1 个月监禁，亚博卢党称将上诉。",
+      "why_it_matters": "刑事判决与同日维持的选举排除相互叠加，进一步压缩俄罗斯境内公开反战与有组织竞选空间。",
+      "uncertainty": "罪名和审判独立性受到被告、政党及人权组织质疑；上诉结果和选举期间其他案件仍未确定。",
+      "confidence": "medium",
+      "sources": [
+        {
+          "publisher": "Associated Press",
+          "title": "Russian court jails a Kremlin critic for 11 years for opposing the war in Ukraine",
+          "url": "https://apnews.com/article/f2ee368fce4d835e1f1d107c807b3b1a",
+          "published_at": "published 2026-08-17T14:35:55Z; updated 2026-08-17T16:47:08Z",
+          "source_type": "wire"
+        }
+      ]
+    },
+    {
+      "id": "ukraine-naftogaz-13-strikes-week",
+      "category": "politics",
+      "regions": ["Europe", "Ukraine", "Russia"],
+      "title": "Naftogaz 称乌克兰油气设施一周遭 13 轮俄方袭击",
+      "summary": "Naftogaz 称其设施一周遭 13 轮无人机和导弹袭击，2026 年以来累计 293 轮，部分设施停运并损失产量。",
+      "why_it_matters": "冬季前持续打击油气生产和储运会削弱乌克兰供暖与电力系统的缓冲能力。",
+      "uncertainty": "次数、归因与损毁主要来自交战方国企，缺少独立资产审计；实际产能损失和修复时长不明。",
+      "confidence": "medium",
+      "sources": [
+        {
+          "publisher": "Associated Press",
+          "title": "Repeated Russian attacks cause serious damage to Ukraine energy facilities",
+          "url": "https://apnews.com/article/8cec7f6dacd1bc0508b8365d62e0d436",
+          "published_at": "published 2026-08-17T11:12:59Z; updated 2026-08-17T16:53:49Z",
+          "source_type": "wire"
+        },
+        {
+          "publisher": "Naftogaz Group",
+          "title": "Russia attacked Naftogaz Group facilities 13 times in one week",
+          "url": "https://www.naftogaz.com/en/news/russia-attacked-naftogaz-group-facilities-13-times-in-one-week",
+          "published_at": "2026-08-17T09:00:00",
+          "source_type": "primary"
+        }
+      ]
+    },
+    {
+      "id": "iran-oman-hormuz-route-understanding",
+      "category": "politics",
+      "regions": ["Middle East", "Iran", "Oman"],
+      "title": "更新：伊朗称与阿曼就霍尔木兹航线图形成理解，尚非最终协议",
+      "summary": "伊朗外交部称双方已就船舶通行航线图形成理解并正拟联合声明，但阿曼尚未同步发布最终文本。",
+      "why_it_matters": "若技术安排落地，可能为战前承载约五分之一全球海运石油的水道提供阶段性复航路径。",
+      "uncertainty": "联合声明、执行机制、船舶安全和实际复航均未确认，不能写成协议已签或海峡已开放。",
+      "confidence": "medium",
+      "sources": [
+        {
+          "publisher": "Associated Press",
+          "title": "Trump threatens Oman as it works on Strait of Hormuz deal with Iran",
+          "url": "https://apnews.com/article/53ae10812e472a4e5bb228b9f318a5fc",
+          "published_at": "published 2026-08-17T09:37:56Z; updated 2026-08-17T19:51:44Z",
+          "source_type": "wire"
+        }
+      ]
+    },
+    {
+      "id": "japan-q2-gdp-2026-first-estimate",
+      "category": "economy",
+      "regions": ["Asia", "Japan"],
+      "title": "日本二季度实际 GDP 初值环比增长 0.3%，折年增长 1.1%",
+      "summary": "日本内阁府初值显示二季度实际 GDP 季调环比增长 0.3%、折年增长 1.1%，出口环比增长 0.5%。",
+      "why_it_matters": "主要经济体在能源进口成本与贸易不确定性下仍为正增长，但增速较一季度放缓。",
+      "uncertainty": "这是第一次初步估算，9 月 8 日二次初值可能修订；单季增长不能确认全年趋势。",
+      "confidence": "high",
+      "sources": [
+        {
+          "publisher": "Cabinet Office, Government of Japan",
+          "title": "Quarterly Estimates of GDP for April-June 2026, First Preliminary",
+          "url": "https://www.esri.cao.go.jp/en/sna/data/sokuhou/files/2026/qe262/pdf/gaiyou2621_e.pdf",
+          "published_at": "2026-08-17T08:50:00+09:00",
+          "source_type": "primary"
+        },
+        {
+          "publisher": "Associated Press",
+          "title": "Japan's economy grows at 1.1% rate",
+          "url": "https://apnews.com/article/3a57e1f5b16ea7ef41660ca0915abba7",
+          "published_at": "2026-08-17T02:39:58Z",
+          "source_type": "wire"
+        }
+      ]
+    },
+    {
+      "id": "brazil-amapa-offshore-hydrocarbon-find",
+      "category": "climate-environment",
+      "regions": ["Latin America", "Brazil"],
+      "title": "巴西阿马帕外海勘探井发现油气显示，Lula 支持继续勘探",
+      "summary": "Petrobras 称阿马帕州海岸约 175 公里外、亚马孙河口盆地 FZA-M-59 区块的 Morpho 勘探井发现含油气层段，Lula 随后把北部沿海石油称为发展筹码。",
+      "why_it_matters": "发现把能源收入、区域发展、气候承诺以及亚马孙河口盆地与阿马帕外海生态、传统社区权利的冲突推到竞选议程前台。",
+      "uncertainty": "当前只是油气显示，不是已探明或商业可采储量；评估、许可、诉讼、溢油风险和商业可行性都未定。",
+      "confidence": "medium",
+      "sources": [
+        {
+          "publisher": "Associated Press",
+          "title": "Brazil's Lula backs oil drilling near Amazon after Petrobras discovery",
+          "url": "https://apnews.com/article/9ad1dd2eb5a7932c2738c904fcaa73cc",
+          "published_at": "2026-08-17T23:20:55Z",
+          "source_type": "wire"
+        },
+        {
+          "publisher": "Petrobras",
+          "title": "Petrobras discovers hydrocarbons in ultra-deep waters off the coast of Amapa",
+          "url": "https://agencia.petrobras.com.br/w/negocio/petrobras-descobre-hidrocarbonetos-em-%C3%A1guas-ultra-profundas-na-costa-do-amap%C3%A1",
+          "published_at": "2026-08-14",
+          "source_type": "primary"
+        },
+        {
+          "publisher": "Petrobras",
+          "title": "President Magda Chambriard leads visit to NS-42 rig in the Equatorial Margin",
+          "url": "https://agencia.petrobras.com.br/w/negocio/presidente-magda-chambriard-conduz-visita-%C3%A0-sonda-ns-42-na-margem-equatorial",
+          "published_at": "2026-08-17",
+          "source_type": "primary"
+        }
+      ]
+    },
+    {
+      "id": "lake-powell-record-low-2026",
+      "category": "climate-environment",
+      "regions": ["North America", "United States"],
+      "title": "Lake Powell 水位降至纪录低点，距离水电停机线约 30 英尺",
+      "summary": "美国垦务局每日数据记录水位 8 月 15 日降至海拔 3,519.91 英尺、刷新纪录，16 日进一步降至 3,519.80 英尺。",
+      "why_it_matters": "Lake Powell 与 Lake Mead 支撑美国西部供水、农业、生态与水电，同步低位压缩七州和逾 4,000 万人的缓冲。",
+      "uncertainty": "水位会随径流、调度和用水变化，纪录低点不等于水电立即停产；长期分水方案仍未达成。",
+      "confidence": "high",
+      "sources": [
+        {
+          "publisher": "Associated Press",
+          "title": "Record low levels at Lake Powell threaten water and electricity supply",
+          "url": "https://apnews.com/article/6a5e0706635222ba4dd364d705a39f8e",
+          "published_at": "2026-08-16T21:18:27Z",
+          "source_type": "wire"
+        },
+        {
+          "publisher": "U.S. Bureau of Reclamation",
+          "title": "Lake Powell daily historic reservoir data",
+          "url": "https://www.usbr.gov/rsvrWater/table/HistoricTable.html?bypass=4167&cinflw=1792&datatype=Daily%20Data&elev=1928&endDate=18-Aug-2026&evopar=1774&prel=1862&rele=1872&reservoirtype=Reservoir&siteID=919&siteName=LAKE%20POWELL&spill=4166&startDate=12-Aug-2026&stor=1719&uinflw=1851",
+          "published_at": "accessed 2026-08-18T09:31:00+08:00",
+          "source_type": "primary"
+        },
+        {
+          "publisher": "U.S. Bureau of Reclamation",
+          "title": "Bureau of Reclamation awards contracts to protect Glen Canyon Dam power generation",
+          "url": "https://www.usbr.gov/newsroom/news-release/5326",
+          "published_at": "2026-04-17",
+          "source_type": "primary"
+        }
+      ]
+    }
+  ]
+}

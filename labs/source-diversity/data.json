@@ -1,20 +1,28 @@
 {
   "built_from": "data/index.json",
   "counts": {
-    "ai_events": 36,
-    "digests": 12,
-    "events": 135,
-    "single_source_events": 30,
-    "source_links": 300,
-    "unique_source_urls": 295,
-    "world_events": 99,
+    "ai_events": 39,
+    "digests": 13,
+    "events": 146,
+    "single_source_events": 32,
+    "source_links": 328,
+    "unique_source_urls": 322,
+    "world_events": 107,
     "zero_source_events": 0
   },
   "date_range": {
-    "end": "2026-08-17",
+    "end": "2026-08-18",
     "start": "2026-08-03"
   },
   "dates": [
+    {
+      "ai_event_count": 3,
+      "date": "2026-08-18",
+      "event_count": 11,
+      "single_source_events": 2,
+      "source_links": 28,
+      "world_event_count": 8
+    },
     {
       "ai_event_count": 3,
       "date": "2026-08-17",
@@ -113,6 +121,383 @@
     }
   ],
   "events": [
+    {
+      "category": "science",
+      "confidence": "medium",
+      "date": "2026-08-18",
+      "id": "intern-s2-mobius-decoupled-knowledge-reasoning",
+      "regions": [
+        "Asia",
+        "China",
+        "Global"
+      ],
+      "section": "ai",
+      "single_source": false,
+      "source_count": 5,
+      "sources": [
+        {
+          "published_at": "2026-08-14T13:21:49Z",
+          "publisher": "arXiv",
+          "source_type": "research",
+          "title": "Intern-S2-Mobius: Foundation Model with Decoupled Knowledge and Reasoning",
+          "url": "https://arxiv.org/abs/2608.14290"
+        },
+        {
+          "published_at": "accessed 2026-08-18T09:15:00+08:00",
+          "publisher": "arXiv",
+          "source_type": "research",
+          "title": "Intern-S2-Mobius paper HTML",
+          "url": "https://arxiv.org/html/2608.14290"
+        },
+        {
+          "published_at": "accessed 2026-08-18T09:15:00+08:00",
+          "publisher": "InternLM",
+          "source_type": "code",
+          "title": "Intern-S2-Mobius companion repository",
+          "url": "https://github.com/InternLM/Intern-S2-Mobius"
+        },
+        {
+          "published_at": "model uploaded before report; accessed 2026-08-18T09:15:00+08:00",
+          "publisher": "InternLM",
+          "source_type": "model-card",
+          "title": "Intern-S2-Mobius model card and BF16 weights",
+          "url": "https://huggingface.co/internlm/Intern-S2-Mobius"
+        },
+        {
+          "published_at": "accessed 2026-08-18T09:15:00+08:00",
+          "publisher": "InternLM",
+          "source_type": "model-card",
+          "title": "Intern-S2-Mobius model license",
+          "url": "https://huggingface.co/internlm/Intern-S2-Mobius/blob/main/LICENSE"
+        }
+      ],
+      "title": "Intern-S2-Mobius 用共享 Memory 解耦知识存储与推理计算"
+    },
+    {
+      "category": "technology",
+      "confidence": "high",
+      "date": "2026-08-18",
+      "id": "openai-agents-sdk-0-21-1-sandbox-controls-update",
+      "regions": [
+        "Global",
+        "North America",
+        "United States"
+      ],
+      "section": "ai",
+      "single_source": false,
+      "source_count": 3,
+      "sources": [
+        {
+          "published_at": "accessed 2026-08-18T09:15:00+08:00",
+          "publisher": "OpenAI",
+          "source_type": "code",
+          "title": "OpenAI Agents SDK v0.21.1 MIT license",
+          "url": "https://github.com/openai/openai-agents-python/blob/v0.21.1/LICENSE"
+        },
+        {
+          "published_at": "accessed 2026-08-18T09:15:00+08:00",
+          "publisher": "OpenAI",
+          "source_type": "code",
+          "title": "OpenAI Agents SDK v0.21.0 to v0.21.1 diff",
+          "url": "https://github.com/openai/openai-agents-python/compare/v0.21.0...v0.21.1"
+        },
+        {
+          "published_at": "2026-08-16T22:28:55Z",
+          "publisher": "OpenAI",
+          "source_type": "code",
+          "title": "OpenAI Agents SDK Python v0.21.1 release",
+          "url": "https://github.com/openai/openai-agents-python/releases/tag/v0.21.1"
+        }
+      ],
+      "title": "更新：OpenAI Agents SDK 0.21.1 增加调用超时与沙箱隔离控制"
+    },
+    {
+      "category": "technology",
+      "confidence": "medium",
+      "date": "2026-08-18",
+      "id": "tencent-evie-preview-4-5b-visual-retrieval",
+      "regions": [
+        "Asia",
+        "China",
+        "Global"
+      ],
+      "section": "ai",
+      "single_source": false,
+      "source_count": 3,
+      "sources": [
+        {
+          "published_at": "repository created 2026-08-17T11:39:46Z; accessed 2026-08-18T09:11:44+08:00",
+          "publisher": "Tencent",
+          "source_type": "code",
+          "title": "EVIE-Preview-4.5B source and evaluation scripts",
+          "url": "https://github.com/Tencent/EVIE-Preview-4.5B"
+        },
+        {
+          "published_at": "repository created 2026-08-17T11:53:54Z; accessed 2026-08-18T09:11:44+08:00",
+          "publisher": "Tencent",
+          "source_type": "model-card",
+          "title": "EVIE-Preview-4.5B model card and weights",
+          "url": "https://huggingface.co/tencent/EVIE-Preview-4.5B"
+        },
+        {
+          "published_at": "accessed 2026-08-18T09:11:44+08:00",
+          "publisher": "Tencent",
+          "source_type": "model-card",
+          "title": "EVIE Apache-2.0 and third-party license boundaries",
+          "url": "https://huggingface.co/tencent/EVIE-Preview-4.5B/blob/main/LICENSE.txt"
+        }
+      ],
+      "title": "腾讯 EVIE 用原生 128 维多向量做视觉文档晚交互检索"
+    },
+    {
+      "category": "climate-environment",
+      "confidence": "medium",
+      "date": "2026-08-18",
+      "id": "brazil-amapa-offshore-hydrocarbon-find",
+      "regions": [
+        "Brazil",
+        "Latin America"
+      ],
+      "section": "world",
+      "single_source": false,
+      "source_count": 3,
+      "sources": [
+        {
+          "published_at": "2026-08-17T23:20:55Z",
+          "publisher": "Associated Press",
+          "source_type": "wire",
+          "title": "Brazil's Lula backs oil drilling near Amazon after Petrobras discovery",
+          "url": "https://apnews.com/article/9ad1dd2eb5a7932c2738c904fcaa73cc"
+        },
+        {
+          "published_at": "2026-08-14",
+          "publisher": "Petrobras",
+          "source_type": "primary",
+          "title": "Petrobras discovers hydrocarbons in ultra-deep waters off the coast of Amapa",
+          "url": "https://agencia.petrobras.com.br/w/negocio/petrobras-descobre-hidrocarbonetos-em-%C3%A1guas-ultra-profundas-na-costa-do-amap%C3%A1"
+        },
+        {
+          "published_at": "2026-08-17",
+          "publisher": "Petrobras",
+          "source_type": "primary",
+          "title": "President Magda Chambriard leads visit to NS-42 rig in the Equatorial Margin",
+          "url": "https://agencia.petrobras.com.br/w/negocio/presidente-magda-chambriard-conduz-visita-%C3%A0-sonda-ns-42-na-margem-equatorial"
+        }
+      ],
+      "title": "巴西阿马帕外海勘探井发现油气显示，Lula 支持继续勘探"
+    },
+    {
+      "category": "health-society",
+      "confidence": "high",
+      "date": "2026-08-18",
+      "id": "drc-ebola-death-toll-2325-update",
+      "regions": [
+        "Africa",
+        "Democratic Republic of the Congo"
+      ],
+      "section": "world",
+      "single_source": false,
+      "source_count": 3,
+      "sources": [
+        {
+          "published_at": "published 2026-08-17T13:23:53Z; updated 2026-08-17T21:40:35Z",
+          "publisher": "Associated Press",
+          "source_type": "wire",
+          "title": "Congo’s fast-moving Ebola outbreak becomes the country's deadliest",
+          "url": "https://apnews.com/article/d4a5aac8a82a35144ebfe9de96bef7d2"
+        },
+        {
+          "published_at": "2026-08-15",
+          "publisher": "Ministry of Public Health, Hygiene and Social Welfare of the Democratic Republic of the Congo",
+          "source_type": "primary",
+          "title": "SitRep MVEBDB No. 092 - 15 August 2026",
+          "url": "https://administration.sante.gouv.cd/wp-content/uploads/2026/08/SitRep_MVEBDB_092_15_08_2026.pdf"
+        },
+        {
+          "published_at": "2026-08-01",
+          "publisher": "World Health Organization",
+          "source_type": "primary",
+          "title": "Ebola disease caused by Bundibugyo virus - Democratic Republic of the Congo",
+          "url": "https://www.who.int/emergencies/disease-outbreak-news/item/2026-DON614"
+        }
+      ],
+      "title": "更新：刚果（金）埃博拉死亡数升至 2,325，超过该国此前纪录"
+    },
+    {
+      "category": "climate-environment",
+      "confidence": "high",
+      "date": "2026-08-18",
+      "id": "indonesia-flores-earthquake-toll-68-update",
+      "regions": [
+        "Asia",
+        "Indonesia"
+      ],
+      "section": "world",
+      "single_source": false,
+      "source_count": 2,
+      "sources": [
+        {
+          "published_at": "published 2026-08-17T04:11:45Z; updated 2026-08-17T19:33:36Z",
+          "publisher": "Associated Press",
+          "source_type": "wire",
+          "title": "Thousands in Indonesia await aid after quake kills 68",
+          "url": "https://apnews.com/article/ec45607ccc22d9df2d5cfe4ab82d33eb"
+        },
+        {
+          "published_at": "event time 2026-08-14T21:58:21Z; accessed 2026-08-18T09:14:00+08:00",
+          "publisher": "U.S. Geological Survey",
+          "source_type": "primary",
+          "title": "M 7.7 Flores earthquake event page",
+          "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tkt2"
+        }
+      ],
+      "title": "更新：印尼弗洛勒斯地震死亡数升至 68，约 19,000 人流离失所"
+    },
+    {
+      "category": "politics",
+      "confidence": "medium",
+      "date": "2026-08-18",
+      "id": "iran-oman-hormuz-route-understanding",
+      "regions": [
+        "Iran",
+        "Middle East",
+        "Oman"
+      ],
+      "section": "world",
+      "single_source": true,
+      "source_count": 1,
+      "sources": [
+        {
+          "published_at": "published 2026-08-17T09:37:56Z; updated 2026-08-17T19:51:44Z",
+          "publisher": "Associated Press",
+          "source_type": "wire",
+          "title": "Trump threatens Oman as it works on Strait of Hormuz deal with Iran",
+          "url": "https://apnews.com/article/53ae10812e472a4e5bb228b9f318a5fc"
+        }
+      ],
+      "title": "更新：伊朗称与阿曼就霍尔木兹航线图形成理解，尚非最终协议"
+    },
+    {
+      "category": "economy",
+      "confidence": "high",
+      "date": "2026-08-18",
+      "id": "japan-q2-gdp-2026-first-estimate",
+      "regions": [
+        "Asia",
+        "Japan"
+      ],
+      "section": "world",
+      "single_source": false,
+      "source_count": 2,
+      "sources": [
+        {
+          "published_at": "2026-08-17T02:39:58Z",
+          "publisher": "Associated Press",
+          "source_type": "wire",
+          "title": "Japan's economy grows at 1.1% rate",
+          "url": "https://apnews.com/article/3a57e1f5b16ea7ef41660ca0915abba7"
+        },
+        {
+          "published_at": "2026-08-17T08:50:00+09:00",
+          "publisher": "Cabinet Office, Government of Japan",
+          "source_type": "primary",
+          "title": "Quarterly Estimates of GDP for April-June 2026, First Preliminary",
+          "url": "https://www.esri.cao.go.jp/en/sna/data/sokuhou/files/2026/qe262/pdf/gaiyou2621_e.pdf"
+        }
+      ],
+      "title": "日本二季度实际 GDP 初值环比增长 0.3%，折年增长 1.1%"
+    },
+    {
+      "category": "climate-environment",
+      "confidence": "high",
+      "date": "2026-08-18",
+      "id": "lake-powell-record-low-2026",
+      "regions": [
+        "North America",
+        "United States"
+      ],
+      "section": "world",
+      "single_source": false,
+      "source_count": 3,
+      "sources": [
+        {
+          "published_at": "2026-08-16T21:18:27Z",
+          "publisher": "Associated Press",
+          "source_type": "wire",
+          "title": "Record low levels at Lake Powell threaten water and electricity supply",
+          "url": "https://apnews.com/article/6a5e0706635222ba4dd364d705a39f8e"
+        },
+        {
+          "published_at": "2026-04-17",
+          "publisher": "U.S. Bureau of Reclamation",
+          "source_type": "primary",
+          "title": "Bureau of Reclamation awards contracts to protect Glen Canyon Dam power generation",
+          "url": "https://www.usbr.gov/newsroom/news-release/5326"
+        },
+        {
+          "published_at": "accessed 2026-08-18T09:31:00+08:00",
+          "publisher": "U.S. Bureau of Reclamation",
+          "source_type": "primary",
+          "title": "Lake Powell daily historic reservoir data",
+          "url": "https://www.usbr.gov/rsvrWater/table/HistoricTable.html?bypass=4167&cinflw=1792&datatype=Daily%20Data&elev=1928&endDate=18-Aug-2026&evopar=1774&prel=1862&rele=1872&reservoirtype=Reservoir&siteID=919&siteName=LAKE%20POWELL&spill=4166&startDate=12-Aug-2026&stor=1719&uinflw=1851"
+        }
+      ],
+      "title": "Lake Powell 水位降至纪录低点，距离水电停机线约 30 英尺"
+    },
+    {
+      "category": "politics",
+      "confidence": "medium",
+      "date": "2026-08-18",
+      "id": "russia-shlosberg-sentence-yabloko-appeal",
+      "regions": [
+        "Europe",
+        "Russia"
+      ],
+      "section": "world",
+      "single_source": true,
+      "source_count": 1,
+      "sources": [
+        {
+          "published_at": "published 2026-08-17T14:35:55Z; updated 2026-08-17T16:47:08Z",
+          "publisher": "Associated Press",
+          "source_type": "wire",
+          "title": "Russian court jails a Kremlin critic for 11 years for opposing the war in Ukraine",
+          "url": "https://apnews.com/article/f2ee368fce4d835e1f1d107c807b3b1a"
+        }
+      ],
+      "title": "更新：俄反战政治人物 Shlosberg 被判 11 年 1 个月监禁"
+    },
+    {
+      "category": "politics",
+      "confidence": "medium",
+      "date": "2026-08-18",
+      "id": "ukraine-naftogaz-13-strikes-week",
+      "regions": [
+        "Europe",
+        "Russia",
+        "Ukraine"
+      ],
+      "section": "world",
+      "single_source": false,
+      "source_count": 2,
+      "sources": [
+        {
+          "published_at": "published 2026-08-17T11:12:59Z; updated 2026-08-17T16:53:49Z",
+          "publisher": "Associated Press",
+          "source_type": "wire",
+          "title": "Repeated Russian attacks cause serious damage to Ukraine energy facilities",
+          "url": "https://apnews.com/article/8cec7f6dacd1bc0508b8365d62e0d436"
+        },
+        {
+          "published_at": "2026-08-17T09:00:00",
+          "publisher": "Naftogaz Group",
+          "source_type": "primary",
+          "title": "Russia attacked Naftogaz Group facilities 13 times in one week",
+          "url": "https://www.naftogaz.com/en/news/russia-attacked-naftogaz-group-facilities-13-times-in-one-week"
+        }
+      ],
+      "title": "Naftogaz 称乌克兰油气设施一周遭 13 轮俄方袭击"
+    },
     {
       "category": "science",
       "confidence": "medium",
@@ -4445,12 +4830,12 @@
       "title": "降级预期推动油价早盘回落约 4 美元"
     }
   ],
-  "latest_digest_generated_at": "2026-08-17T09:15:31+08:00",
+  "latest_digest_generated_at": "2026-08-18T09:31:07+08:00",
   "publishers": [
     {
-      "event_count": 87,
+      "event_count": 95,
       "name": "Associated Press",
-      "source_links": 92
+      "source_links": 100
     },
     {
       "event_count": 17,
@@ -4458,9 +4843,9 @@
       "source_links": 19
     },
     {
-      "event_count": 14,
+      "event_count": 15,
       "name": "arXiv",
-      "source_links": 16
+      "source_links": 18
     },
     {
       "event_count": 8,
@@ -4468,9 +4853,9 @@
       "source_links": 10
     },
     {
-      "event_count": 2,
+      "event_count": 3,
       "name": "OpenAI",
-      "source_links": 6
+      "source_links": 9
     },
     {
       "event_count": 5,
@@ -4480,6 +4865,11 @@
     {
       "event_count": 1,
       "name": "Qwen",
+      "source_links": 5
+    },
+    {
+      "event_count": 4,
+      "name": "World Health Organization",
       "source_links": 5
     },
     {
@@ -4498,11 +4888,6 @@
       "source_links": 4
     },
     {
-      "event_count": 3,
-      "name": "World Health Organization",
-      "source_links": 4
-    },
-    {
       "event_count": 1,
       "name": "AlayaLab",
       "source_links": 3
@@ -4514,12 +4899,27 @@
     },
     {
       "event_count": 1,
+      "name": "InternLM",
+      "source_links": 3
+    },
+    {
+      "event_count": 1,
       "name": "LiteLLM",
       "source_links": 3
     },
     {
       "event_count": 1,
       "name": "Pydantic / GitHub",
+      "source_links": 3
+    },
+    {
+      "event_count": 1,
+      "name": "Tencent",
+      "source_links": 3
+    },
+    {
+      "event_count": 2,
+      "name": "U.S. Bureau of Reclamation",
       "source_links": 3
     },
     {
@@ -4604,6 +5004,11 @@
     },
     {
       "event_count": 1,
+      "name": "Petrobras",
+      "source_links": 2
+    },
+    {
+      "event_count": 1,
       "name": "Prime Intellect / GitHub",
       "source_links": 2
     },
@@ -4650,6 +5055,11 @@
     {
       "event_count": 2,
       "name": "U.S. Food and Drug Administration",
+      "source_links": 2
+    },
+    {
+      "event_count": 2,
+      "name": "U.S. Geological Survey",
       "source_links": 2
     },
     {
@@ -4705,6 +5115,11 @@
     {
       "event_count": 1,
       "name": "bubble65 / Hugging Face",
+      "source_links": 1
+    },
+    {
+      "event_count": 1,
+      "name": "Cabinet Office, Government of Japan",
       "source_links": 1
     },
     {
@@ -4839,6 +5254,11 @@
     },
     {
       "event_count": 1,
+      "name": "Ministry of Public Health, Hygiene and Social Welfare of the Democratic Republic of the Congo",
+      "source_links": 1
+    },
+    {
+      "event_count": 1,
       "name": "Mistral AI",
       "source_links": 1
     },
@@ -4850,6 +5270,11 @@
     {
       "event_count": 1,
       "name": "Myanmar Ministry of Foreign Affairs",
+      "source_links": 1
+    },
+    {
+      "event_count": 1,
+      "name": "Naftogaz Group",
       "source_links": 1
     },
     {
@@ -4939,17 +5364,7 @@
     },
     {
       "event_count": 1,
-      "name": "U.S. Bureau of Reclamation",
-      "source_links": 1
-    },
-    {
-      "event_count": 1,
       "name": "U.S. Department of Defense",
-      "source_links": 1
-    },
-    {
-      "event_count": 1,
-      "name": "U.S. Geological Survey",
       "source_links": 1
     },
     {
@@ -4980,47 +5395,47 @@
   ],
   "regions": [
     {
-      "event_count": 50,
+      "event_count": 53,
       "name": "Global"
     },
     {
-      "event_count": 32,
+      "event_count": 34,
       "name": "North America"
     },
     {
-      "event_count": 29,
+      "event_count": 33,
       "name": "Asia"
     },
     {
-      "event_count": 27,
+      "event_count": 29,
       "name": "United States"
     },
     {
-      "event_count": 24,
+      "event_count": 26,
       "name": "Europe"
     },
     {
-      "event_count": 16,
+      "event_count": 17,
       "name": "Middle East"
     },
     {
-      "event_count": 13,
+      "event_count": 14,
       "name": "Africa"
     },
     {
-      "event_count": 8,
-      "name": "Latin America"
-    },
-    {
-      "event_count": 7,
+      "event_count": 9,
       "name": "China"
     },
     {
-      "event_count": 7,
+      "event_count": 9,
+      "name": "Latin America"
+    },
+    {
+      "event_count": 9,
       "name": "Russia"
     },
     {
-      "event_count": 6,
+      "event_count": 7,
       "name": "Ukraine"
     },
     {
@@ -5029,11 +5444,15 @@
     },
     {
       "event_count": 4,
+      "name": "Brazil"
+    },
+    {
+      "event_count": 4,
       "name": "Colombia"
     },
     {
-      "event_count": 3,
-      "name": "Brazil"
+      "event_count": 4,
+      "name": "Japan"
     },
     {
       "event_count": 3,
@@ -5041,11 +5460,23 @@
     },
     {
       "event_count": 3,
-      "name": "Japan"
+      "name": "Democratic Republic of the Congo"
+    },
+    {
+      "event_count": 3,
+      "name": "Indonesia"
+    },
+    {
+      "event_count": 3,
+      "name": "Iran"
     },
     {
       "event_count": 3,
       "name": "Mexico"
+    },
+    {
+      "event_count": 3,
+      "name": "Oman"
     },
     {
       "event_count": 3,
@@ -5058,10 +5489,6 @@
     {
       "event_count": 2,
       "name": "Australia"
-    },
-    {
-      "event_count": 2,
-      "name": "Democratic Republic of the Congo"
     },
     {
       "event_count": 2,
@@ -5082,14 +5509,6 @@
     {
       "event_count": 2,
       "name": "India"
-    },
-    {
-      "event_count": 2,
-      "name": "Indonesia"
-    },
-    {
-      "event_count": 2,
-      "name": "Iran"
     },
     {
       "event_count": 2,
@@ -5118,10 +5537,6 @@
     {
       "event_count": 2,
       "name": "Oceania"
-    },
-    {
-      "event_count": 2,
-      "name": "Oman"
     },
     {
       "event_count": 2,
@@ -5347,29 +5762,29 @@
   "schema_version": 1,
   "source_types": [
     {
-      "event_count": 95,
+      "event_count": 103,
       "name": "wire",
-      "source_links": 111
+      "source_links": 119
     },
     {
-      "event_count": 59,
+      "event_count": 65,
       "name": "primary",
-      "source_links": 69
+      "source_links": 78
     },
     {
-      "event_count": 28,
+      "event_count": 31,
       "name": "code",
-      "source_links": 47
+      "source_links": 52
     },
     {
-      "event_count": 20,
+      "event_count": 21,
       "name": "research",
-      "source_links": 29
+      "source_links": 31
     },
     {
-      "event_count": 13,
+      "event_count": 15,
       "name": "model-card",
-      "source_links": 23
+      "source_links": 27
     },
     {
       "event_count": 18,

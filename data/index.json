@@ -2,6 +2,41 @@
   "version": 1,
   "entries": [
     {
+      "date": "2026-08-18",
+      "digest_path": "digests/2026/08/2026-08-18.md",
+      "data_path": "data/2026/08/2026-08-18.json",
+      "generated_at": "2026-08-18T09:31:07+08:00",
+      "item_count": 11,
+      "ai_radar_count": 3,
+      "categories": [
+        "climate-environment",
+        "economy",
+        "health-society",
+        "politics",
+        "science",
+        "technology"
+      ],
+      "regions": [
+        "Africa",
+        "Asia",
+        "Brazil",
+        "China",
+        "Democratic Republic of the Congo",
+        "Europe",
+        "Global",
+        "Indonesia",
+        "Iran",
+        "Japan",
+        "Latin America",
+        "Middle East",
+        "North America",
+        "Oman",
+        "Russia",
+        "Ukraine",
+        "United States"
+      ]
+    },
+    {
       "date": "2026-08-17",
       "digest_path": "digests/2026/08/2026-08-17.md",
       "data_path": "data/2026/08/2026-08-17.json",
