@@ -1,20 +1,28 @@
 {
   "built_from": "data/index.json",
   "counts": {
-    "ai_events": 39,
-    "digests": 13,
-    "events": 146,
-    "single_source_events": 32,
-    "source_links": 328,
-    "unique_source_urls": 322,
-    "world_events": 107,
+    "ai_events": 42,
+    "digests": 14,
+    "events": 156,
+    "single_source_events": 38,
+    "source_links": 344,
+    "unique_source_urls": 338,
+    "world_events": 114,
     "zero_source_events": 0
   },
   "date_range": {
-    "end": "2026-08-18",
+    "end": "2026-08-19",
     "start": "2026-08-03"
   },
   "dates": [
+    {
+      "ai_event_count": 3,
+      "date": "2026-08-19",
+      "event_count": 10,
+      "single_source_events": 6,
+      "source_links": 16,
+      "world_event_count": 7
+    },
     {
       "ai_event_count": 3,
       "date": "2026-08-18",
@@ -121,6 +129,280 @@
     }
   ],
   "events": [
+    {
+      "category": "technology",
+      "confidence": "medium",
+      "date": "2026-08-19",
+      "id": "claude-code-2-1-235-permission-scope-update",
+      "regions": [
+        "Global"
+      ],
+      "section": "ai",
+      "single_source": false,
+      "source_count": 2,
+      "sources": [
+        {
+          "published_at": "accessed 2026-08-19T09:10:00+08:00",
+          "publisher": "Anthropic",
+          "source_type": "code",
+          "title": "Claude Code commercial license",
+          "url": "https://github.com/anthropics/claude-code/blob/main/LICENSE.md"
+        },
+        {
+          "published_at": "2026-08-18T20:38:54Z",
+          "publisher": "Anthropic",
+          "source_type": "code",
+          "title": "Claude Code v2.1.235 release",
+          "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.235"
+        }
+      ],
+      "title": "更新：Claude Code 2.1.235 收紧审批范围并修复资源耗尽边界"
+    },
+    {
+      "category": "science",
+      "confidence": "medium",
+      "date": "2026-08-19",
+      "id": "jailbreakskill-adaptive-red-team-skills",
+      "regions": [
+        "Global"
+      ],
+      "section": "ai",
+      "single_source": false,
+      "source_count": 3,
+      "sources": [
+        {
+          "published_at": "2026-08-17T12:03:35Z",
+          "publisher": "arXiv",
+          "source_type": "research",
+          "title": "JailbreakSkill: Scaling Automated Red-Teaming with Reusable and Ever-Evolving Skills",
+          "url": "https://arxiv.org/abs/2608.16465"
+        },
+        {
+          "published_at": "accessed 2026-08-19T09:10:00+08:00",
+          "publisher": "arXiv",
+          "source_type": "research",
+          "title": "JailbreakSkill paper HTML",
+          "url": "https://arxiv.org/html/2608.16465v1"
+        },
+        {
+          "published_at": "accessed 2026-08-19T09:10:00+08:00",
+          "publisher": "JailbreakSkill authors",
+          "source_type": "code",
+          "title": "JailbreakSkill evaluation framework and skills",
+          "url": "https://github.com/BattleWen/JailbreakSkill"
+        }
+      ],
+      "title": "JailbreakSkill 把提示安全评测封装为可演化技能库"
+    },
+    {
+      "category": "technology",
+      "confidence": "high",
+      "date": "2026-08-19",
+      "id": "openhands-1-14-0-config-validation-git-sync",
+      "regions": [
+        "Global"
+      ],
+      "section": "ai",
+      "single_source": false,
+      "source_count": 3,
+      "sources": [
+        {
+          "published_at": "accessed 2026-08-19T09:10:00+08:00",
+          "publisher": "OpenHands",
+          "source_type": "code",
+          "title": "OpenHands MIT license",
+          "url": "https://github.com/OpenHands/OpenHands/blob/main/LICENSE"
+        },
+        {
+          "published_at": "accessed 2026-08-19T09:10:00+08:00",
+          "publisher": "OpenHands",
+          "source_type": "code",
+          "title": "OpenHands v1.13.0 to v1.14.0 full diff",
+          "url": "https://github.com/OpenHands/OpenHands/compare/v1.13.0...v1.14.0"
+        },
+        {
+          "published_at": "2026-08-17T21:41:36Z",
+          "publisher": "OpenHands",
+          "source_type": "code",
+          "title": "OpenHands v1.14.0 release",
+          "url": "https://github.com/OpenHands/OpenHands/releases/tag/v1.14.0"
+        }
+      ],
+      "title": "OpenHands 1.14.0 增加模型配置预检与 Git Sync"
+    },
+    {
+      "category": "politics",
+      "confidence": "medium",
+      "date": "2026-08-19",
+      "id": "israel-strikes-syria-airbase-turkiye-deployment",
+      "regions": [
+        "Israel",
+        "Middle East",
+        "Syria",
+        "Türkiye"
+      ],
+      "section": "world",
+      "single_source": false,
+      "source_count": 2,
+      "sources": [
+        {
+          "published_at": "2026-08-18T09:24:42Z",
+          "publisher": "Associated Press",
+          "source_type": "wire",
+          "title": "Israel strikes an air base in northwest Syria to prevent Turkish troops from deploying",
+          "url": "https://apnews.com/article/3a0e758c87ded0f26ed71b4a92db6816"
+        },
+        {
+          "published_at": "2026-08-18T22:26:15Z",
+          "publisher": "Axios",
+          "source_type": "regional-media",
+          "title": "Israel defends strike on Syria as U.S. frustration with Netanyahu grows",
+          "url": "https://www.axios.com/2026/08/18/israel-syria-turkey-strike-military-buildup"
+        }
+      ],
+      "title": "以色列空袭叙利亚空军基地，称要阻止 Türkiye 军队部署"
+    },
+    {
+      "category": "health-society",
+      "confidence": "medium",
+      "date": "2026-08-19",
+      "id": "kabul-school-grenade-children-injured",
+      "regions": [
+        "Afghanistan",
+        "Asia"
+      ],
+      "section": "world",
+      "single_source": true,
+      "source_count": 1,
+      "sources": [
+        {
+          "published_at": "2026-08-18T09:27:30Z",
+          "publisher": "Associated Press",
+          "source_type": "wire",
+          "title": "A grenade blast near a school complex in the Afghan capital wounds at least 42 children, the UN says",
+          "url": "https://apnews.com/article/e9addf636116ed9d16b69047e9ca52ca"
+        }
+      ],
+      "title": "喀布尔学校综合体附近手榴弹爆炸，至少 42 名儿童受伤"
+    },
+    {
+      "category": "politics",
+      "confidence": "medium",
+      "date": "2026-08-19",
+      "id": "somalia-baidoa-government-militia-clashes",
+      "regions": [
+        "Africa",
+        "Somalia"
+      ],
+      "section": "world",
+      "single_source": true,
+      "source_count": 1,
+      "sources": [
+        {
+          "published_at": "2026-08-18T15:40:36Z",
+          "publisher": "Associated Press",
+          "source_type": "wire",
+          "title": "Fighting in southwestern Somalia kills dozens of people, including 4 civilians",
+          "url": "https://apnews.com/article/b2b2d9024f24fa457b412a7bc475118c"
+        }
+      ],
+      "title": "Somalia 的 Baidoa 激战造成数十名战斗人员及至少 4 名平民死亡"
+    },
+    {
+      "category": "politics",
+      "confidence": "medium",
+      "date": "2026-08-19",
+      "id": "trump-oman-bomb-threat-hormuz-update",
+      "regions": [
+        "Iran",
+        "Middle East",
+        "Oman",
+        "United States"
+      ],
+      "section": "world",
+      "single_source": true,
+      "source_count": 1,
+      "sources": [
+        {
+          "published_at": "2026-08-18T14:30:04Z",
+          "publisher": "Associated Press",
+          "source_type": "wire",
+          "title": "Trump threatened to bomb Oman over Iran shipping deal, officials say",
+          "url": "https://apnews.com/article/a8298715a51159225d2f37a6d50ce682"
+        }
+      ],
+      "title": "更新：两名地区官员称 Trump 因霍尔木兹安排威胁轰炸阿曼"
+    },
+    {
+      "category": "politics",
+      "confidence": "high",
+      "date": "2026-08-19",
+      "id": "turkiye-pkk-conditional-pardon-signed-update",
+      "regions": [
+        "Asia",
+        "Türkiye"
+      ],
+      "section": "world",
+      "single_source": true,
+      "source_count": 1,
+      "sources": [
+        {
+          "published_at": "2026-08-18T11:15:53Z",
+          "publisher": "Associated Press",
+          "source_type": "wire",
+          "title": "Turkey's Erdogan signs law offering conditional pardon for thousands of PKK militants",
+          "url": "https://apnews.com/article/c42dcbcd10bbbbfc6ce954b8a46f2225"
+        }
+      ],
+      "title": "更新：Erdogan 签署 PKK 条件性赦免法律"
+    },
+    {
+      "category": "politics",
+      "confidence": "high",
+      "date": "2026-08-19",
+      "id": "us-sanctions-icc-president-senior-lawyer",
+      "regions": [
+        "Europe",
+        "Global",
+        "United States"
+      ],
+      "section": "world",
+      "single_source": true,
+      "source_count": 1,
+      "sources": [
+        {
+          "published_at": "2026-08-18T21:24:05Z",
+          "publisher": "Associated Press",
+          "source_type": "wire",
+          "title": "US hits ICC president and senior prosecutor with sanctions in another move against the court",
+          "url": "https://apnews.com/article/e8da938966f5f8dad763ecf68ea025c9"
+        }
+      ],
+      "title": "美国制裁国际刑事法院院长及高级审判律师"
+    },
+    {
+      "category": "politics",
+      "confidence": "high",
+      "date": "2026-08-19",
+      "id": "zambia-hichilema-reelection-result-update",
+      "regions": [
+        "Africa",
+        "Zambia"
+      ],
+      "section": "world",
+      "single_source": true,
+      "source_count": 1,
+      "sources": [
+        {
+          "published_at": "2026-08-18T01:32:41Z",
+          "publisher": "Associated Press",
+          "source_type": "wire",
+          "title": "Zambia President Hakainde Hichilema is declared the winner of a troubled election",
+          "url": "https://apnews.com/article/562c0ee56653c8dc835af7556c913aab"
+        }
+      ],
+      "title": "更新：Zambia 选委会宣布 Hichilema 赢得第二个总统任期"
+    },
     {
       "category": "science",
       "confidence": "medium",
@@ -4830,22 +5112,22 @@
       "title": "降级预期推动油价早盘回落约 4 美元"
     }
   ],
-  "latest_digest_generated_at": "2026-08-18T09:31:07+08:00",
+  "latest_digest_generated_at": "2026-08-19T09:16:00+08:00",
   "publishers": [
     {
-      "event_count": 95,
+      "event_count": 102,
       "name": "Associated Press",
-      "source_links": 100
+      "source_links": 107
+    },
+    {
+      "event_count": 16,
+      "name": "arXiv",
+      "source_links": 20
     },
     {
       "event_count": 17,
       "name": "Reuters",
       "source_links": 19
-    },
-    {
-      "event_count": 15,
-      "name": "arXiv",
-      "source_links": 18
     },
     {
       "event_count": 8,
@@ -4871,6 +5153,11 @@
       "event_count": 4,
       "name": "World Health Organization",
       "source_links": 5
+    },
+    {
+      "event_count": 2,
+      "name": "Anthropic",
+      "source_links": 4
     },
     {
       "event_count": 1,
@@ -4909,6 +5196,11 @@
     },
     {
       "event_count": 1,
+      "name": "OpenHands",
+      "source_links": 3
+    },
+    {
+      "event_count": 1,
       "name": "Pydantic / GitHub",
       "source_links": 3
     },
@@ -4928,8 +5220,8 @@
       "source_links": 3
     },
     {
-      "event_count": 1,
-      "name": "Anthropic",
+      "event_count": 2,
+      "name": "Axios",
       "source_links": 2
     },
     {
@@ -5094,11 +5386,6 @@
     },
     {
       "event_count": 1,
-      "name": "Axios",
-      "source_links": 1
-    },
-    {
-      "event_count": 1,
       "name": "BC Wildfire Service",
       "source_links": 1
     },
@@ -5185,6 +5472,11 @@
     {
       "event_count": 1,
       "name": "Grand National Assembly of Turkey",
+      "source_links": 1
+    },
+    {
+      "event_count": 1,
+      "name": "JailbreakSkill authors",
       "source_links": 1
     },
     {
@@ -5395,31 +5687,31 @@
   ],
   "regions": [
     {
-      "event_count": 53,
+      "event_count": 57,
       "name": "Global"
+    },
+    {
+      "event_count": 35,
+      "name": "Asia"
     },
     {
       "event_count": 34,
       "name": "North America"
     },
     {
-      "event_count": 33,
-      "name": "Asia"
-    },
-    {
-      "event_count": 29,
+      "event_count": 31,
       "name": "United States"
     },
     {
-      "event_count": 26,
+      "event_count": 27,
       "name": "Europe"
     },
     {
-      "event_count": 17,
+      "event_count": 19,
       "name": "Middle East"
     },
     {
-      "event_count": 14,
+      "event_count": 16,
       "name": "Africa"
     },
     {
@@ -5439,7 +5731,7 @@
       "name": "Ukraine"
     },
     {
-      "event_count": 5,
+      "event_count": 6,
       "name": "Israel"
     },
     {
@@ -5452,7 +5744,15 @@
     },
     {
       "event_count": 4,
+      "name": "Iran"
+    },
+    {
+      "event_count": 4,
       "name": "Japan"
+    },
+    {
+      "event_count": 4,
+      "name": "Oman"
     },
     {
       "event_count": 3,
@@ -5468,15 +5768,7 @@
     },
     {
       "event_count": 3,
-      "name": "Iran"
-    },
-    {
-      "event_count": 3,
       "name": "Mexico"
-    },
-    {
-      "event_count": 3,
-      "name": "Oman"
     },
     {
       "event_count": 3,
@@ -5485,6 +5777,14 @@
     {
       "event_count": 3,
       "name": "Space"
+    },
+    {
+      "event_count": 3,
+      "name": "Syria"
+    },
+    {
+      "event_count": 3,
+      "name": "Türkiye"
     },
     {
       "event_count": 2,
@@ -5548,10 +5848,6 @@
     },
     {
       "event_count": 2,
-      "name": "Syria"
-    },
-    {
-      "event_count": 2,
       "name": "Taiwan"
     },
     {
@@ -5560,7 +5856,15 @@
     },
     {
       "event_count": 2,
+      "name": "Zambia"
+    },
+    {
+      "event_count": 2,
       "name": "Zimbabwe"
+    },
+    {
+      "event_count": 1,
+      "name": "Afghanistan"
     },
     {
       "event_count": 1,
@@ -5708,6 +6012,10 @@
     },
     {
       "event_count": 1,
+      "name": "Somalia"
+    },
+    {
+      "event_count": 1,
       "name": "South Asia"
     },
     {
@@ -5732,10 +6040,6 @@
     },
     {
       "event_count": 1,
-      "name": "Türkiye"
-    },
-    {
-      "event_count": 1,
       "name": "United Arab Emirates"
     },
     {
@@ -5752,19 +6056,15 @@
     },
     {
       "event_count": 1,
-      "name": "Zambia"
-    },
-    {
-      "event_count": 1,
       "name": "Zamfara State"
     }
   ],
   "schema_version": 1,
   "source_types": [
     {
-      "event_count": 103,
+      "event_count": 110,
       "name": "wire",
-      "source_links": 119
+      "source_links": 126
     },
     {
       "event_count": 65,
@@ -5772,14 +6072,14 @@
       "source_links": 78
     },
     {
-      "event_count": 31,
+      "event_count": 34,
       "name": "code",
-      "source_links": 52
+      "source_links": 58
     },
     {
-      "event_count": 21,
+      "event_count": 22,
       "name": "research",
-      "source_links": 31
+      "source_links": 33
     },
     {
       "event_count": 15,
@@ -5792,9 +6092,9 @@
       "source_links": 18
     },
     {
-      "event_count": 3,
+      "event_count": 4,
       "name": "regional-media",
-      "source_links": 3
+      "source_links": 4
     }
   ]
 }

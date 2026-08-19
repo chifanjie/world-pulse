@@ -2,6 +2,36 @@
   "version": 1,
   "entries": [
     {
+      "date": "2026-08-19",
+      "digest_path": "digests/2026/08/2026-08-19.md",
+      "data_path": "data/2026/08/2026-08-19.json",
+      "generated_at": "2026-08-19T09:16:00+08:00",
+      "item_count": 10,
+      "ai_radar_count": 3,
+      "categories": [
+        "health-society",
+        "politics",
+        "science",
+        "technology"
+      ],
+      "regions": [
+        "Afghanistan",
+        "Africa",
+        "Asia",
+        "Europe",
+        "Global",
+        "Iran",
+        "Israel",
+        "Middle East",
+        "Oman",
+        "Somalia",
+        "Syria",
+        "Türkiye",
+        "United States",
+        "Zambia"
+      ]
+    },
+    {
       "date": "2026-08-18",
       "digest_path": "digests/2026/08/2026-08-18.md",
       "data_path": "data/2026/08/2026-08-18.json",

@@ -1,0 +1,322 @@
+{
+  "date": "2026-08-19",
+  "timezone": "Asia/Shanghai",
+  "generated_at": "2026-08-19T09:16:00+08:00",
+  "overview": "特朗普被曝因霍尔木兹安排威胁轰炸阿曼，美国扩大对国际刑事法院制裁；AI 雷达关注可演化安全评测、OpenHands 配置预检与 Claude Code 权限边界。",
+  "digest_path": "digests/2026/08/2026-08-19.md",
+  "ai_radar": {
+    "selection_as_of": "2026-08-19T09:10:00+08:00",
+    "item_ids": [
+      "jailbreakskill-adaptive-red-team-skills",
+      "openhands-1-14-0-config-validation-git-sync",
+      "claude-code-2-1-235-permission-scope-update"
+    ]
+  },
+  "items": [
+    {
+      "id": "jailbreakskill-adaptive-red-team-skills",
+      "section": "ai-frontier",
+      "category": "science",
+      "regions": ["Global"],
+      "title": "JailbreakSkill 把提示安全评测封装为可演化技能库",
+      "summary": "研究把 16 类提示改写攻击抽象为可选择、精炼、组合和回写的安全评测 skills，面向获授权的模型红队与防御评估。",
+      "why_it_matters": "作者结果提示，跨任务技能记忆和失败反馈可能让自动化安全评测覆盖单一攻击模板无法触及的脆弱点。",
+      "uncertainty": "预印本尚未同行评审，全部指标为作者自报；结果依赖特定 judge、规划模型、目标 API 与数据子集，仓库没有代码许可证且未见独立复现。",
+      "confidence": "medium",
+      "ai": {
+        "kind": "research-preprint-open-evaluation-framework",
+        "topics": ["model-safety", "red-teaming", "adaptive-skills", "agent-memory", "jailbreak-evaluation"],
+        "artifact_date": "2026-08-17T12:03:35Z",
+        "artifact_status": "CC BY 4.0 arXiv preprint not peer reviewed; public evaluation framework, skills and benchmark subsets, but the repository declares no code license",
+        "technical_takeaway": "用风险类别条件的 UCB 选择共享安全评测技能，再从失败轨迹精炼、组合或发现新技能并写回技能库。",
+        "evidence_level": "primary non-peer-reviewed preprint plus public evaluation framework and benchmark subsets; all results author-reported with no independent reproduction",
+        "paper_id": "arXiv:2608.16465",
+        "code_url": "https://github.com/BattleWen/JailbreakSkill",
+        "heat": {
+          "label": "very weak early GitHub attention; not evidence of validity, safety impact or independent reproduction",
+          "as_of": "2026-08-19T09:10:00+08:00",
+          "signals": [
+            {
+              "platform": "GitHub",
+              "observation": "repository showed about 6 stars and 0 forks",
+              "url": "https://github.com/BattleWen/JailbreakSkill"
+            }
+          ]
+        }
+      },
+      "sources": [
+        {
+          "publisher": "arXiv",
+          "title": "JailbreakSkill: Scaling Automated Red-Teaming with Reusable and Ever-Evolving Skills",
+          "url": "https://arxiv.org/abs/2608.16465",
+          "published_at": "2026-08-17T12:03:35Z",
+          "source_type": "research"
+        },
+        {
+          "publisher": "arXiv",
+          "title": "JailbreakSkill paper HTML",
+          "url": "https://arxiv.org/html/2608.16465v1",
+          "published_at": "accessed 2026-08-19T09:10:00+08:00",
+          "source_type": "research"
+        },
+        {
+          "publisher": "JailbreakSkill authors",
+          "title": "JailbreakSkill evaluation framework and skills",
+          "url": "https://github.com/BattleWen/JailbreakSkill",
+          "published_at": "accessed 2026-08-19T09:10:00+08:00",
+          "source_type": "code"
+        }
+      ]
+    },
+    {
+      "id": "openhands-1-14-0-config-validation-git-sync",
+      "section": "ai-frontier",
+      "category": "technology",
+      "regions": ["Global"],
+      "title": "OpenHands 1.14.0 增加模型配置预检与 Git Sync",
+      "summary": "OpenHands v1.14.0 在保存 LLM 配置前增加预检，为自动化加入 Git Sync 页面，并让 Canvas 返回结构化错误。",
+      "why_it_matters": "配置预检和显式代码同步入口可把部分模型连接与仓库状态错误从智能体运行期提前到配置期发现。",
+      "uncertainty": "官方没有量化配置拦截率、同步可靠性或性能收益，版本仍需在不同提供商、权限和云后端组合中回归。",
+      "confidence": "high",
+      "ai": {
+        "kind": "open-source-coding-agent-release",
+        "topics": ["coding-agent", "configuration-validation", "git-sync", "automation", "developer-experience"],
+        "artifact_date": "2026-08-17T21:41:36Z",
+        "artifact_status": "official v1.14.0 release with MIT source, signed release commit and public full diff",
+        "technical_takeaway": "在保存模型配置前执行预检，并为自动化提供 Git Sync 与结构化 Canvas 错误结果。",
+        "evidence_level": "official open-source release, source diff and license; no version-specific independent benchmark or security audit",
+        "code_url": "https://github.com/OpenHands/OpenHands",
+        "heat": {
+          "label": "high cumulative repository attention but weak release-specific signal; not evidence of version adoption or quality",
+          "as_of": "2026-08-19T09:10:00+08:00",
+          "signals": [
+            {
+              "platform": "GitHub",
+              "observation": "repository showed about 84,422 stars and about 11,000 forks",
+              "url": "https://github.com/OpenHands/OpenHands"
+            },
+            {
+              "platform": "GitHub",
+              "observation": "v1.14.0 release showed 2 reactions",
+              "url": "https://github.com/OpenHands/OpenHands/releases/tag/v1.14.0"
+            }
+          ]
+        }
+      },
+      "sources": [
+        {
+          "publisher": "OpenHands",
+          "title": "OpenHands v1.14.0 release",
+          "url": "https://github.com/OpenHands/OpenHands/releases/tag/v1.14.0",
+          "published_at": "2026-08-17T21:41:36Z",
+          "source_type": "code"
+        },
+        {
+          "publisher": "OpenHands",
+          "title": "OpenHands v1.13.0 to v1.14.0 full diff",
+          "url": "https://github.com/OpenHands/OpenHands/compare/v1.13.0...v1.14.0",
+          "published_at": "accessed 2026-08-19T09:10:00+08:00",
+          "source_type": "code"
+        },
+        {
+          "publisher": "OpenHands",
+          "title": "OpenHands MIT license",
+          "url": "https://github.com/OpenHands/OpenHands/blob/main/LICENSE",
+          "published_at": "accessed 2026-08-19T09:10:00+08:00",
+          "source_type": "code"
+        }
+      ]
+    },
+    {
+      "id": "claude-code-2-1-235-permission-scope-update",
+      "section": "ai-frontier",
+      "category": "technology",
+      "regions": ["Global"],
+      "title": "更新：Claude Code 2.1.235 收紧审批范围并修复资源耗尽边界",
+      "summary": "v2.1.235 修复权限评论框可能误授 session-wide 编辑权的问题，并收紧永久放行、跨会话大消息和复杂 grep pattern 的边界。",
+      "why_it_matters": "修复重新绑定用户可见审批内容与实际授权范围，并在大消息和复杂正则进入昂贵执行路径前设置限制。",
+      "uncertainty": "官方没有公布受影响版本范围、CVE/CVSS 或独立回归；商业许可和非完整源码限制第三方审计。",
+      "confidence": "medium",
+      "ai": {
+        "kind": "commercial-coding-agent-release",
+        "topics": ["coding-agent", "permission-scope", "approval-ui", "resource-exhaustion", "reliability"],
+        "artifact_date": "2026-08-18T20:38:54Z",
+        "artifact_status": "official v2.1.235 release notes; product governed by Anthropic Commercial Terms and not fully open source",
+        "technical_takeaway": "让审批展示、永久放行选项与实际 grant scope 一致，并对过大跨会话消息和病态 grep pattern 提前失败。",
+        "evidence_level": "official release notes and commercial license; no full source, CVE, CVSS or independent security regression",
+        "heat": {
+          "label": "high cumulative repository attention but weak release-specific signal; not evidence of fix effectiveness or production adoption",
+          "as_of": "2026-08-19T09:10:00+08:00",
+          "signals": [
+            {
+              "platform": "GitHub",
+              "observation": "repository showed about 141,902 stars and about 22,800 forks",
+              "url": "https://github.com/anthropics/claude-code"
+            },
+            {
+              "platform": "GitHub",
+              "observation": "new release showed about 6 reactions",
+              "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.235"
+            }
+          ]
+        }
+      },
+      "sources": [
+        {
+          "publisher": "Anthropic",
+          "title": "Claude Code v2.1.235 release",
+          "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.235",
+          "published_at": "2026-08-18T20:38:54Z",
+          "source_type": "code"
+        },
+        {
+          "publisher": "Anthropic",
+          "title": "Claude Code commercial license",
+          "url": "https://github.com/anthropics/claude-code/blob/main/LICENSE.md",
+          "published_at": "accessed 2026-08-19T09:10:00+08:00",
+          "source_type": "code"
+        }
+      ]
+    },
+    {
+      "id": "trump-oman-bomb-threat-hormuz-update",
+      "category": "politics",
+      "regions": ["Middle East", "Oman", "Iran", "United States"],
+      "title": "更新：两名地区官员称 Trump 因霍尔木兹安排威胁轰炸阿曼",
+      "summary": "两名地区官员向 AP 表示，Trump 因不满阿曼接近与伊朗达成管理霍尔木兹船舶通行的安排而威胁轰炸阿曼。",
+      "why_it_matters": "军事威胁若转化为政策，可能破坏海峡复航、能源运输与美伊谈判的少数降级渠道。",
+      "uncertainty": "报道基于两名地区官员，白宫与阿曼没有公开完整说明；威胁的正式政策地位及通行安排文本均未确认。",
+      "confidence": "medium",
+      "sources": [
+        {
+          "publisher": "Associated Press",
+          "title": "Trump threatened to bomb Oman over Iran shipping deal, officials say",
+          "url": "https://apnews.com/article/a8298715a51159225d2f37a6d50ce682",
+          "published_at": "2026-08-18T14:30:04Z",
+          "source_type": "wire"
+        }
+      ]
+    },
+    {
+      "id": "turkiye-pkk-conditional-pardon-signed-update",
+      "category": "politics",
+      "regions": ["Asia", "Türkiye"],
+      "title": "更新：Erdogan 签署 PKK 条件性赦免法律",
+      "summary": "Erdogan 签署为数千名 PKK 武装人员提供条件性赦免的法律，执行仍以组织停止存在、全面缴械和国家安全委员会确认等条件为前提。",
+      "why_it_matters": "总统签署把结束数十年冲突的解除武装路径从议会通过推进到法律生效阶段。",
+      "uncertainty": "这不是立即或无条件赦免；全面缴械确认、个案审查、受害者权利和执行细则仍决定和平进程能否落地。",
+      "confidence": "high",
+      "sources": [
+        {
+          "publisher": "Associated Press",
+          "title": "Turkey's Erdogan signs law offering conditional pardon for thousands of PKK militants",
+          "url": "https://apnews.com/article/c42dcbcd10bbbbfc6ce954b8a46f2225",
+          "published_at": "2026-08-18T11:15:53Z",
+          "source_type": "wire"
+        }
+      ]
+    },
+    {
+      "id": "israel-strikes-syria-airbase-turkiye-deployment",
+      "category": "politics",
+      "regions": ["Middle East", "Syria", "Israel", "Türkiye"],
+      "title": "以色列空袭叙利亚空军基地，称要阻止 Türkiye 军队部署",
+      "summary": "以色列空袭 Abu Duhur 空军基地并称目标是阻止 Türkiye 军队部署；叙利亚国家电视台称跑道遭八次空袭并受损、无人伤亡。",
+      "why_it_matters": "行动使以色列与北约成员 Türkiye 在叙利亚的战略竞争推进到直接军事阻断。",
+      "uncertainty": "Türkiye 是否已准备部署、基地实际损毁和后续行动仍不清楚；伤亡和行动理由主要来自当事方，缺少独立现场核验。",
+      "confidence": "medium",
+      "sources": [
+        {
+          "publisher": "Associated Press",
+          "title": "Israel strikes an air base in northwest Syria to prevent Turkish troops from deploying",
+          "url": "https://apnews.com/article/3a0e758c87ded0f26ed71b4a92db6816",
+          "published_at": "2026-08-18T09:24:42Z",
+          "source_type": "wire"
+        },
+        {
+          "publisher": "Axios",
+          "title": "Israel defends strike on Syria as U.S. frustration with Netanyahu grows",
+          "url": "https://www.axios.com/2026/08/18/israel-syria-turkey-strike-military-buildup",
+          "published_at": "2026-08-18T22:26:15Z",
+          "source_type": "regional-media"
+        }
+      ]
+    },
+    {
+      "id": "zambia-hichilema-reelection-result-update",
+      "category": "politics",
+      "regions": ["Africa", "Zambia"],
+      "title": "更新：Zambia 选委会宣布 Hichilema 赢得第二个总统任期",
+      "summary": "Zambia 选举委员会宣布 Hakainde Hichilema 赢得 8 月 13 日总统选举；计票此前因投票站暴力短暂停摆。",
+      "why_it_matters": "结果意味着关键铜生产国在债务重组、通胀控制和扩大矿业产量方面大体延续现有政策路线。",
+      "uncertainty": "反对派是否承认或诉讼，以及观察员对计票中断、逮捕和整体选举环境的最终评估仍待确认。",
+      "confidence": "high",
+      "sources": [
+        {
+          "publisher": "Associated Press",
+          "title": "Zambia President Hakainde Hichilema is declared the winner of a troubled election",
+          "url": "https://apnews.com/article/562c0ee56653c8dc835af7556c913aab",
+          "published_at": "2026-08-18T01:32:41Z",
+          "source_type": "wire"
+        }
+      ]
+    },
+    {
+      "id": "somalia-baidoa-government-militia-clashes",
+      "category": "politics",
+      "regions": ["Africa", "Somalia"],
+      "title": "Somalia 的 Baidoa 激战造成数十名战斗人员及至少 4 名平民死亡",
+      "summary": "政府军与民兵在 Baidoa 激战；AP 援引医院官员称数十名战斗人员死亡，至少 4 名平民死亡、98 人受伤。",
+      "why_it_matters": "Baidoa 是西南州政治与人道枢纽，内部冲突会压缩医疗救援能力并削弱政府对青年党的资源。",
+      "uncertainty": "战斗人员总伤亡、民兵归属、责任和冲突是否扩散均未独立确认，战区数字可能变化。",
+      "confidence": "medium",
+      "sources": [
+        {
+          "publisher": "Associated Press",
+          "title": "Fighting in southwestern Somalia kills dozens of people, including 4 civilians",
+          "url": "https://apnews.com/article/b2b2d9024f24fa457b412a7bc475118c",
+          "published_at": "2026-08-18T15:40:36Z",
+          "source_type": "wire"
+        }
+      ]
+    },
+    {
+      "id": "us-sanctions-icc-president-senior-lawyer",
+      "category": "politics",
+      "regions": ["Global", "Europe", "United States"],
+      "title": "美国制裁国际刑事法院院长及高级审判律师",
+      "summary": "美国国务院制裁 ICC 院长 Tomoko Akane 与高级审判律师 Abdoulaye Seye，冻结两人在美国司法管辖或金融体系中的资产。",
+      "why_it_matters": "措施直接触及法院最高领导层与审判团队，可能影响人员金融服务、合作机构和案件推进。",
+      "uncertainty": "两人实际受影响的资产与服务、盟友响应、ICC 调整以及对具体案件的可测影响仍不清楚。",
+      "confidence": "high",
+      "sources": [
+        {
+          "publisher": "Associated Press",
+          "title": "US hits ICC president and senior prosecutor with sanctions in another move against the court",
+          "url": "https://apnews.com/article/e8da938966f5f8dad763ecf68ea025c9",
+          "published_at": "2026-08-18T21:24:05Z",
+          "source_type": "wire"
+        }
+      ]
+    },
+    {
+      "id": "kabul-school-grenade-children-injured",
+      "category": "health-society",
+      "regions": ["Asia", "Afghanistan"],
+      "title": "喀布尔学校综合体附近手榴弹爆炸，至少 42 名儿童受伤",
+      "summary": "联合国称喀布尔 Dasht-e-Barchi 一所学校综合体附近发生手榴弹爆炸，至少 42 名 9 至 14 岁儿童受伤。",
+      "why_it_matters": "事件发生在以长期遭受袭击和歧视的 Hazara 社群为主的地区，会进一步恶化儿童教育与校园安全环境。",
+      "uncertainty": "袭击者、动机、目标和准确伤者总数均未确认，没有组织宣称负责，现阶段不能归责。",
+      "confidence": "medium",
+      "sources": [
+        {
+          "publisher": "Associated Press",
+          "title": "A grenade blast near a school complex in the Afghan capital wounds at least 42 children, the UN says",
+          "url": "https://apnews.com/article/e9addf636116ed9d16b69047e9ca52ca",
+          "published_at": "2026-08-18T09:27:30Z",
+          "source_type": "wire"
+        }
+      ]
+    }
+  ]
+}
