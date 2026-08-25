@@ -1,0 +1,359 @@
+{
+  "date": "2026-08-23",
+  "timezone": "Asia/Shanghai",
+  "generated_at": "2026-08-23T15:37:44+08:00",
+  "overview": "日本茨城5.9级地震造成37人受伤，美加贸易战升级；AI雷达关注自适应智能体环境、边缘MoE推理与GitHub MCP安全边界。",
+  "digest_path": "digests/2026/08/2026-08-23.md",
+  "ai_radar": {
+    "selection_as_of": "2026-08-23T15:35:00+08:00",
+    "item_ids": [
+      "envharness-adaptive-agent-environment-layer",
+      "freetoken-bandwidth-adaptive-edge-moe-serving",
+      "github-mcp-server-1-10-security-boundaries"
+    ]
+  },
+  "items": [
+    {
+      "id": "envharness-adaptive-agent-environment-layer",
+      "section": "ai-frontier",
+      "category": "science",
+      "regions": ["Global", "North America", "United States"],
+      "title": "EnvHarness 用可编程插件让静态环境针对智能体弱点演化",
+      "summary": "研究以保留原验证器的可组合插件包装静态环境，并让 EnvRigger 从黑箱策略轨迹诊断弱点、合成组件和用新 rollout 验证。",
+      "why_it_matters": "若跨模型复现成立，这种接口层可降低持续构造智能体课程、强化学习环境和红队任务的工程成本。",
+      "uncertainty": "预印本尚未同行评审，最高 9.0 点提升和 9.8% 步数下降均为作者自报；效果依赖诊断模型、插件空间、目标策略和原验证器。",
+      "confidence": "medium",
+      "ai": {
+        "kind": "research-preprint-and-open-agent-environment-framework",
+        "topics": ["agent-learning", "environment-design", "reinforcement-learning", "evaluation", "adaptive-curricula"],
+        "artifact_date": "2026-08-20T10:42:06Z",
+        "artifact_status": "arXiv preprint not peer reviewed; Apache-2.0 code, experiments and tests are public",
+        "technical_takeaway": "用标准接口外的可组合 harness 改变观测、动作或任务呈现，同时保留底层环境逻辑和验证器；EnvRigger 再从策略轨迹自动合成并验证针对性组件。",
+        "evidence_level": "primary non-peer-reviewed preprint plus public Apache-2.0 implementation and experiment configs; author-reported benchmarks with no independent reproduction",
+        "paper_id": "arXiv:2608.19880",
+        "code_url": "https://github.com/google-research/envharness",
+        "heat": {
+          "label": "strong early paper-page and GitHub attention; not evidence of validity, generalization or independent reproduction",
+          "as_of": "2026-08-23T15:35:00+08:00",
+          "signals": [
+            {
+              "platform": "GitHub",
+              "observation": "repository showed about 243 stars and 15 forks",
+              "url": "https://github.com/google-research/envharness"
+            },
+            {
+              "platform": "Hugging Face",
+              "observation": "paper page showed about 248 upvotes and 2 comments",
+              "url": "https://huggingface.co/papers/2608.19880"
+            }
+          ]
+        }
+      },
+      "sources": [
+        {
+          "publisher": "arXiv",
+          "title": "EnvHarness: Awakening Static Worlds for Agent Learning",
+          "url": "https://arxiv.org/abs/2608.19880",
+          "published_at": "2026-08-20T10:42:06Z",
+          "source_type": "research"
+        },
+        {
+          "publisher": "arXiv",
+          "title": "EnvHarness paper HTML",
+          "url": "https://arxiv.org/html/2608.19880v1",
+          "published_at": "accessed 2026-08-23T15:35:00+08:00",
+          "source_type": "research"
+        },
+        {
+          "publisher": "Google Research",
+          "title": "EnvHarness code and experiments",
+          "url": "https://github.com/google-research/envharness",
+          "published_at": "accessed 2026-08-23T15:35:00+08:00",
+          "source_type": "code"
+        },
+        {
+          "publisher": "Google Research",
+          "title": "EnvHarness Apache-2.0 license",
+          "url": "https://github.com/google-research/envharness/blob/main/LICENSE",
+          "published_at": "accessed 2026-08-23T15:35:00+08:00",
+          "source_type": "code"
+        }
+      ]
+    },
+    {
+      "id": "freetoken-bandwidth-adaptive-edge-moe-serving",
+      "section": "ai-frontier",
+      "category": "technology",
+      "regions": ["Global", "North America", "United States"],
+      "title": "FreeToken 协同 CPU—GPU 带宽，让大规模 MoE 落到个人机器",
+      "summary": "FreeToken 以主机专家池、跨层显存缓存、prefill 双缓冲和按实测带宽分配的 CPU—GPU decode 路径服务 20 多个 MoE 模型。",
+      "why_it_matters": "系统把稀疏模型的个人设备部署从单纯显存容量问题部分转化为可动态调度的内存与带宽问题。",
+      "uncertainty": "预印本未同行评审，吞吐、硬件跨度和可服务模型规模均为作者自报；部分服务器测试以资源限额模拟消费级主机，缺少独立复现。",
+      "confidence": "medium",
+      "ai": {
+        "kind": "research-preprint-and-open-edge-moe-serving-system",
+        "topics": ["moe-serving", "edge-inference", "cpu-gpu-codesign", "expert-cache", "agent-workloads"],
+        "artifact_date": "2026-08-17T06:22:53Z",
+        "artifact_status": "arXiv preprint not peer reviewed; Apache-2.0 source, deployment scripts and tests are public",
+        "technical_takeaway": "把完整专家池保留在主机内存，以统一显存专家缓存、整层双缓冲和带宽自适应的 CPU/GPU 缺失专家执行来提高边缘 MoE 吞吐。",
+        "evidence_level": "primary non-peer-reviewed systems paper plus public Apache-2.0 implementation; author-run evaluation on six systems with no independent reproduction",
+        "paper_id": "arXiv:2608.16157",
+        "code_url": "https://github.com/FlashML-org/FreeToken",
+        "heat": {
+          "label": "high early GitHub attention with a smaller paper-page signal; not evidence of production adoption or benchmark validity",
+          "as_of": "2026-08-23T15:35:00+08:00",
+          "signals": [
+            {
+              "platform": "GitHub",
+              "observation": "repository showed about 2,539 stars and 235 forks",
+              "url": "https://github.com/FlashML-org/FreeToken"
+            },
+            {
+              "platform": "Hugging Face",
+              "observation": "paper page showed about 79 upvotes and 2 comments",
+              "url": "https://huggingface.co/papers/2608.16157"
+            }
+          ]
+        }
+      },
+      "sources": [
+        {
+          "publisher": "arXiv",
+          "title": "FreeToken: Efficient Edge-Native MoE Serving with Bandwidth-Adaptive Execution",
+          "url": "https://arxiv.org/abs/2608.16157",
+          "published_at": "2026-08-17T06:22:53Z",
+          "source_type": "research"
+        },
+        {
+          "publisher": "arXiv",
+          "title": "FreeToken paper HTML",
+          "url": "https://arxiv.org/html/2608.16157v1",
+          "published_at": "accessed 2026-08-23T15:35:00+08:00",
+          "source_type": "research"
+        },
+        {
+          "publisher": "FlashML",
+          "title": "FreeToken Apache-2.0 source",
+          "url": "https://github.com/FlashML-org/FreeToken",
+          "published_at": "accessed 2026-08-23T15:35:00+08:00",
+          "source_type": "code"
+        },
+        {
+          "publisher": "FlashML",
+          "title": "FreeToken project page",
+          "url": "https://www.flashml.ai/",
+          "published_at": "accessed 2026-08-23T15:35:00+08:00",
+          "source_type": "code"
+        }
+      ]
+    },
+    {
+      "id": "github-mcp-server-1-10-security-boundaries",
+      "section": "ai-frontier",
+      "category": "technology",
+      "regions": ["Global", "North America", "United States"],
+      "title": "GitHub MCP Server 1.10.0/1.10.1 加固删除、凭据与工具边界",
+      "summary": "官方 MCP Server 为仓库删除加入确认状态，限制凭据 authority、强制 GHES HTTPS、收紧 lockdown 与工具名，并用 1.10.1 修复评论 schema 回归。",
+      "why_it_matters": "这些默认边界同时约束高风险操作、凭据目的地、网络传输和每请求权限，减少智能体工具调用被扩大为越权操作的空间。",
+      "uncertainty": "未见版本专项独立安全审计；1.10.1 的紧急修补显示严格 schema 变化仍可能破坏客户端兼容性。",
+      "confidence": "high",
+      "ai": {
+        "kind": "open-source-mcp-server-security-and-reliability-release",
+        "topics": ["mcp", "tool-security", "credential-scoping", "destructive-action-confirmation", "sandbox-boundaries"],
+        "artifact_date": "2026-08-20T09:13:17Z",
+        "artifact_status": "official immutable v1.10.0 and v1.10.1 releases with MIT source, public diffs, pull requests and tests",
+        "technical_takeaway": "把删除确认、凭据 authority、HTTPS、静态工具 allowlist、lockdown 上限、请求体限制、调用者缓存隔离和符号链接写入 opt-in 固化为服务端边界。",
+        "evidence_level": "official releases and publicly auditable MIT source, diffs and tests; no independent version-specific security audit",
+        "code_url": "https://github.com/github/github-mcp-server",
+        "heat": {
+          "label": "large cumulative repository attention but weak release-specific reactions; not evidence of version adoption or security effectiveness",
+          "as_of": "2026-08-23T15:35:00+08:00",
+          "signals": [
+            {
+              "platform": "GitHub",
+              "observation": "repository showed about 32,435 stars and 4,837 forks cumulatively",
+              "url": "https://github.com/github/github-mcp-server"
+            },
+            {
+              "platform": "GitHub",
+              "observation": "v1.10.0 and v1.10.1 releases showed about 2 and 3 reactions respectively",
+              "url": "https://github.com/github/github-mcp-server/releases/tag/v1.10.1"
+            }
+          ]
+        }
+      },
+      "sources": [
+        {
+          "publisher": "GitHub",
+          "title": "GitHub MCP Server v1.10.0 release",
+          "url": "https://github.com/github/github-mcp-server/releases/tag/v1.10.0",
+          "published_at": "2026-08-19T17:36:14Z",
+          "source_type": "code"
+        },
+        {
+          "publisher": "GitHub",
+          "title": "GitHub MCP Server v1.10.1 release",
+          "url": "https://github.com/github/github-mcp-server/releases/tag/v1.10.1",
+          "published_at": "2026-08-20T09:13:17Z",
+          "source_type": "code"
+        },
+        {
+          "publisher": "GitHub",
+          "title": "GitHub MCP Server v1.9.0 to v1.10.0 diff",
+          "url": "https://github.com/github/github-mcp-server/compare/v1.9.0...v1.10.0",
+          "published_at": "accessed 2026-08-23T15:35:00+08:00",
+          "source_type": "code"
+        },
+        {
+          "publisher": "GitHub",
+          "title": "GitHub MCP Server MIT license",
+          "url": "https://github.com/github/github-mcp-server/blob/main/LICENSE",
+          "published_at": "accessed 2026-08-23T15:35:00+08:00",
+          "source_type": "code"
+        }
+      ]
+    },
+    {
+      "id": "japan-ibaraki-m5-9-injuries",
+      "category": "climate-environment",
+      "regions": ["Asia", "Japan", "Tokyo Metropolitan Area"],
+      "title": "日本茨城县南部 5.9 级地震造成至少 37 人受伤",
+      "summary": "日本气象厅记录茨城县南部发生5.9级地震、震源深约70公里、最大震度5弱；五个都县至少37人受伤，没有海啸风险。",
+      "why_it_matters": "地震覆盖东京都市圈并造成铁路延误和水管破裂，显示高人口密度地区中等强度地震的广泛次生影响。",
+      "uncertainty": "伤者和基础设施损失仍可能更新；气象厅提醒约一周内防范同等程度地震，但这不是必然发生余震的预测。",
+      "confidence": "high",
+      "sources": [
+        {
+          "publisher": "Japan Meteorological Agency",
+          "title": "Southern Ibaraki M5.9 focal mechanism and parameters",
+          "url": "https://www.data.jma.go.jp/eew/data/mech/fig/mc2026082302000000N360000E14006000710659.html",
+          "published_at": "2026-08-23T02:00:00+09:00",
+          "source_type": "primary"
+        },
+        {
+          "publisher": "Associated Press",
+          "title": "A moderate earthquake shakes Japan, injuring more than 30 people in the Tokyo region",
+          "url": "https://apnews.com/article/3b39d6dc29cb5ad1bada31a524b6e0c6",
+          "published_at": "2026-08-22T17:59:02Z",
+          "source_type": "wire"
+        }
+      ]
+    },
+    {
+      "id": "canada-us-50-percent-tariffs-retaliation",
+      "category": "economy",
+      "regions": ["North America", "Canada", "United States"],
+      "title": "更新：美国对约 200 亿美元加拿大商品征收 50% 关税，加拿大宣布对等反制",
+      "summary": "美加谈判破裂后，美国对约200亿美元加拿大商品征收50%关税；加拿大宣布以等额反制，计划9月8日生效。",
+      "why_it_matters": "高度一体化的汽车、能源、农业和制造业供应链会把关税成本传向两国企业与消费者，并增加北美贸易协定的不确定性。",
+      "uncertainty": "加拿大尚未公布最终商品清单、税率细目和豁免，生效前仍存在重新谈判空间；双方对谈判破裂责任的说法冲突。",
+      "confidence": "high",
+      "sources": [
+        {
+          "publisher": "Prime Minister of Canada",
+          "title": "Prime Minister Carney delivers remarks on Canada-U.S. trade negotiations",
+          "url": "https://www.pm.gc.ca/en/news/speeches/2026/08/22/prime-minister-carney-delivers-remarks-canada-us-trade-negotiations",
+          "published_at": "2026-08-22",
+          "source_type": "primary"
+        },
+        {
+          "publisher": "Associated Press",
+          "title": "US and Canada fall deeper into a trade war with new tariffs as talks collapse",
+          "url": "https://apnews.com/article/4d18583fe52134ca8550652ad9772d2c",
+          "published_at": "2026-08-22T15:07:15Z",
+          "source_type": "wire"
+        }
+      ]
+    },
+    {
+      "id": "us-court-vacates-75-country-visa-pause",
+      "category": "politics",
+      "regions": ["North America", "United States", "Global"],
+      "title": "美国联邦法官撤销暂停 75 国移民签证处理的政策",
+      "summary": "纽约南区联邦法官撤销国务院暂停75国公民移民签证处理的政策，并要求恢复依法逐案审查。",
+      "why_it_matters": "裁决重新确认领事官员按法定标准逐案判断的权限，并直接影响家庭团聚和就业移民申请。",
+      "uncertainty": "政府是否上诉或申请暂缓执行、各领馆恢复积压案件的速度仍不明确；裁决不等于自动发放签证。",
+      "confidence": "high",
+      "sources": [
+        {
+          "publisher": "National Immigration Law Center",
+          "title": "CLINIC v. Rubio case page and opinion",
+          "url": "https://www.nilc.org/litigation/clinic-v-rubio/",
+          "published_at": "updated 2026-08-21",
+          "source_type": "primary"
+        },
+        {
+          "publisher": "Associated Press",
+          "title": "Federal judge vacates policy that suspended immigrant visa processing from 75 countries",
+          "url": "https://apnews.com/article/64feb19b54d1bce50891437a5ba25d50",
+          "published_at": "2026-08-22T15:05:24Z",
+          "source_type": "wire"
+        }
+      ]
+    },
+    {
+      "id": "israel-syria-airbase-us-warning-update",
+      "category": "politics",
+      "regions": ["Middle East", "Syria", "Israel", "Türkiye", "United States"],
+      "title": "更新：美国特使称以色列空袭叙利亚基地前未通知美方，以方说法相反",
+      "summary": "美国特使Tom Barrack称以色列空袭Abu Duhur基地前未通知美国或Türkiye；以色列国防部长称已向美方传递情报。",
+      "why_it_matters": "Türkiye是北约成员，美以协调与危机通报若失灵，可能把叙利亚境内影响力竞争推向直接军事误判。",
+      "uncertainty": "美以陈述相互矛盾，尚无独立通信记录；Türkiye是否计划部署、基地实际损毁和后续行动仍未确认。",
+      "confidence": "medium",
+      "sources": [
+        {
+          "publisher": "Associated Press",
+          "title": "A US envoy says Israel did not give a warning ahead of a recent Syria air strike",
+          "url": "https://apnews.com/article/7c77c4dc90fd8aa1e87c85abc287b6fb",
+          "published_at": "2026-08-22T15:26:45Z",
+          "source_type": "wire"
+        }
+      ]
+    },
+    {
+      "id": "somali-pirates-hijack-sibu-1",
+      "category": "politics",
+      "regions": ["Africa", "Somalia", "Yemen", "Gulf of Aden"],
+      "title": "Somali 海盗在也门以东劫持载有 20 名船员的 Sibu 1",
+      "summary": "一名Somali海事安全官员称，6名武装海盗在也门Mukalla以东约136海里处劫持厄立特里亚籍成品油轮Sibu 1。",
+      "why_it_matters": "这是4月21日以来第六艘被Somali海盗劫持的商船，袭击范围扩大增加船员、保险和亚丁湾航线风险。",
+      "uncertainty": "核心经过来自一名不具名官员，船东和多国海事机构尚未完整独立确认；船员安全、谈判和袭击者身份仍不清楚。",
+      "confidence": "medium",
+      "sources": [
+        {
+          "publisher": "Associated Press",
+          "title": "Somali pirates hijack oil tanker off Yemen in latest attack",
+          "url": "https://apnews.com/article/5095054a9227548818dfc819d226dc76",
+          "published_at": "2026-08-22T08:18:02Z",
+          "source_type": "wire"
+        }
+      ]
+    },
+    {
+      "id": "car-zamboye-mine-site-closure-update",
+      "category": "health-society",
+      "regions": ["Africa", "Central African Republic"],
+      "title": "更新：中非共和国政府关闭 Zamboye 金矿现场，事故调查继续",
+      "summary": "中非共和国政府以不符合采矿标准和行政指令为由关闭Zamboye金矿现场；现场此前已关闭但仍有人非法采矿。",
+      "why_it_matters": "封场把致命坍塌推进到监管调查阶段，也暴露手工采矿生计与监管、设备和劳动保护不足之间的风险。",
+      "uncertainty": "AP此前援引志愿者和地方官员称死亡超过100人，但政府关闭公告没有给出最终统一死亡和失踪口径；责任与赔偿待定。",
+      "confidence": "medium",
+      "sources": [
+        {
+          "publisher": "Associated Press",
+          "title": "Central African Republic shuts down collapsed gold mining site",
+          "url": "https://apnews.com/article/bf3cfcdbad6dae8a43fc0ec250a30aab",
+          "published_at": "2026-08-22T22:54:51Z",
+          "source_type": "wire"
+        },
+        {
+          "publisher": "Associated Press",
+          "title": "Rescuers recover more bodies after Central African Republic mine collapse",
+          "url": "https://apnews.com/article/b401a828ab1b66c671dbdde83138e77a",
+          "published_at": "2026-08-20T10:25:57Z",
+          "source_type": "wire"
+        }
+      ]
+    }
+  ]
+}

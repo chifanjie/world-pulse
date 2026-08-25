@@ -1,20 +1,28 @@
 {
   "built_from": "data/index.json",
   "counts": {
-    "ai_events": 42,
-    "digests": 14,
-    "events": 156,
-    "single_source_events": 38,
-    "source_links": 344,
-    "unique_source_urls": 338,
-    "world_events": 114,
+    "ai_events": 45,
+    "digests": 15,
+    "events": 165,
+    "single_source_events": 40,
+    "source_links": 366,
+    "unique_source_urls": 360,
+    "world_events": 120,
     "zero_source_events": 0
   },
   "date_range": {
-    "end": "2026-08-19",
+    "end": "2026-08-23",
     "start": "2026-08-03"
   },
   "dates": [
+    {
+      "ai_event_count": 3,
+      "date": "2026-08-23",
+      "event_count": 9,
+      "single_source_events": 2,
+      "source_links": 22,
+      "world_event_count": 6
+    },
     {
       "ai_event_count": 3,
       "date": "2026-08-19",
@@ -129,6 +137,315 @@
     }
   ],
   "events": [
+    {
+      "category": "science",
+      "confidence": "medium",
+      "date": "2026-08-23",
+      "id": "envharness-adaptive-agent-environment-layer",
+      "regions": [
+        "Global",
+        "North America",
+        "United States"
+      ],
+      "section": "ai",
+      "single_source": false,
+      "source_count": 4,
+      "sources": [
+        {
+          "published_at": "2026-08-20T10:42:06Z",
+          "publisher": "arXiv",
+          "source_type": "research",
+          "title": "EnvHarness: Awakening Static Worlds for Agent Learning",
+          "url": "https://arxiv.org/abs/2608.19880"
+        },
+        {
+          "published_at": "accessed 2026-08-23T15:35:00+08:00",
+          "publisher": "arXiv",
+          "source_type": "research",
+          "title": "EnvHarness paper HTML",
+          "url": "https://arxiv.org/html/2608.19880v1"
+        },
+        {
+          "published_at": "accessed 2026-08-23T15:35:00+08:00",
+          "publisher": "Google Research",
+          "source_type": "code",
+          "title": "EnvHarness code and experiments",
+          "url": "https://github.com/google-research/envharness"
+        },
+        {
+          "published_at": "accessed 2026-08-23T15:35:00+08:00",
+          "publisher": "Google Research",
+          "source_type": "code",
+          "title": "EnvHarness Apache-2.0 license",
+          "url": "https://github.com/google-research/envharness/blob/main/LICENSE"
+        }
+      ],
+      "title": "EnvHarness 用可编程插件让静态环境针对智能体弱点演化"
+    },
+    {
+      "category": "technology",
+      "confidence": "medium",
+      "date": "2026-08-23",
+      "id": "freetoken-bandwidth-adaptive-edge-moe-serving",
+      "regions": [
+        "Global",
+        "North America",
+        "United States"
+      ],
+      "section": "ai",
+      "single_source": false,
+      "source_count": 4,
+      "sources": [
+        {
+          "published_at": "2026-08-17T06:22:53Z",
+          "publisher": "arXiv",
+          "source_type": "research",
+          "title": "FreeToken: Efficient Edge-Native MoE Serving with Bandwidth-Adaptive Execution",
+          "url": "https://arxiv.org/abs/2608.16157"
+        },
+        {
+          "published_at": "accessed 2026-08-23T15:35:00+08:00",
+          "publisher": "arXiv",
+          "source_type": "research",
+          "title": "FreeToken paper HTML",
+          "url": "https://arxiv.org/html/2608.16157v1"
+        },
+        {
+          "published_at": "accessed 2026-08-23T15:35:00+08:00",
+          "publisher": "FlashML",
+          "source_type": "code",
+          "title": "FreeToken Apache-2.0 source",
+          "url": "https://github.com/FlashML-org/FreeToken"
+        },
+        {
+          "published_at": "accessed 2026-08-23T15:35:00+08:00",
+          "publisher": "FlashML",
+          "source_type": "code",
+          "title": "FreeToken project page",
+          "url": "https://www.flashml.ai/"
+        }
+      ],
+      "title": "FreeToken 协同 CPU—GPU 带宽，让大规模 MoE 落到个人机器"
+    },
+    {
+      "category": "technology",
+      "confidence": "high",
+      "date": "2026-08-23",
+      "id": "github-mcp-server-1-10-security-boundaries",
+      "regions": [
+        "Global",
+        "North America",
+        "United States"
+      ],
+      "section": "ai",
+      "single_source": false,
+      "source_count": 4,
+      "sources": [
+        {
+          "published_at": "accessed 2026-08-23T15:35:00+08:00",
+          "publisher": "GitHub",
+          "source_type": "code",
+          "title": "GitHub MCP Server MIT license",
+          "url": "https://github.com/github/github-mcp-server/blob/main/LICENSE"
+        },
+        {
+          "published_at": "accessed 2026-08-23T15:35:00+08:00",
+          "publisher": "GitHub",
+          "source_type": "code",
+          "title": "GitHub MCP Server v1.9.0 to v1.10.0 diff",
+          "url": "https://github.com/github/github-mcp-server/compare/v1.9.0...v1.10.0"
+        },
+        {
+          "published_at": "2026-08-19T17:36:14Z",
+          "publisher": "GitHub",
+          "source_type": "code",
+          "title": "GitHub MCP Server v1.10.0 release",
+          "url": "https://github.com/github/github-mcp-server/releases/tag/v1.10.0"
+        },
+        {
+          "published_at": "2026-08-20T09:13:17Z",
+          "publisher": "GitHub",
+          "source_type": "code",
+          "title": "GitHub MCP Server v1.10.1 release",
+          "url": "https://github.com/github/github-mcp-server/releases/tag/v1.10.1"
+        }
+      ],
+      "title": "GitHub MCP Server 1.10.0/1.10.1 加固删除、凭据与工具边界"
+    },
+    {
+      "category": "economy",
+      "confidence": "high",
+      "date": "2026-08-23",
+      "id": "canada-us-50-percent-tariffs-retaliation",
+      "regions": [
+        "Canada",
+        "North America",
+        "United States"
+      ],
+      "section": "world",
+      "single_source": false,
+      "source_count": 2,
+      "sources": [
+        {
+          "published_at": "2026-08-22T15:07:15Z",
+          "publisher": "Associated Press",
+          "source_type": "wire",
+          "title": "US and Canada fall deeper into a trade war with new tariffs as talks collapse",
+          "url": "https://apnews.com/article/4d18583fe52134ca8550652ad9772d2c"
+        },
+        {
+          "published_at": "2026-08-22",
+          "publisher": "Prime Minister of Canada",
+          "source_type": "primary",
+          "title": "Prime Minister Carney delivers remarks on Canada-U.S. trade negotiations",
+          "url": "https://www.pm.gc.ca/en/news/speeches/2026/08/22/prime-minister-carney-delivers-remarks-canada-us-trade-negotiations"
+        }
+      ],
+      "title": "更新：美国对约 200 亿美元加拿大商品征收 50% 关税，加拿大宣布对等反制"
+    },
+    {
+      "category": "health-society",
+      "confidence": "medium",
+      "date": "2026-08-23",
+      "id": "car-zamboye-mine-site-closure-update",
+      "regions": [
+        "Africa",
+        "Central African Republic"
+      ],
+      "section": "world",
+      "single_source": false,
+      "source_count": 2,
+      "sources": [
+        {
+          "published_at": "2026-08-20T10:25:57Z",
+          "publisher": "Associated Press",
+          "source_type": "wire",
+          "title": "Rescuers recover more bodies after Central African Republic mine collapse",
+          "url": "https://apnews.com/article/b401a828ab1b66c671dbdde83138e77a"
+        },
+        {
+          "published_at": "2026-08-22T22:54:51Z",
+          "publisher": "Associated Press",
+          "source_type": "wire",
+          "title": "Central African Republic shuts down collapsed gold mining site",
+          "url": "https://apnews.com/article/bf3cfcdbad6dae8a43fc0ec250a30aab"
+        }
+      ],
+      "title": "更新：中非共和国政府关闭 Zamboye 金矿现场，事故调查继续"
+    },
+    {
+      "category": "politics",
+      "confidence": "medium",
+      "date": "2026-08-23",
+      "id": "israel-syria-airbase-us-warning-update",
+      "regions": [
+        "Israel",
+        "Middle East",
+        "Syria",
+        "Türkiye",
+        "United States"
+      ],
+      "section": "world",
+      "single_source": true,
+      "source_count": 1,
+      "sources": [
+        {
+          "published_at": "2026-08-22T15:26:45Z",
+          "publisher": "Associated Press",
+          "source_type": "wire",
+          "title": "A US envoy says Israel did not give a warning ahead of a recent Syria air strike",
+          "url": "https://apnews.com/article/7c77c4dc90fd8aa1e87c85abc287b6fb"
+        }
+      ],
+      "title": "更新：美国特使称以色列空袭叙利亚基地前未通知美方，以方说法相反"
+    },
+    {
+      "category": "climate-environment",
+      "confidence": "high",
+      "date": "2026-08-23",
+      "id": "japan-ibaraki-m5-9-injuries",
+      "regions": [
+        "Asia",
+        "Japan",
+        "Tokyo Metropolitan Area"
+      ],
+      "section": "world",
+      "single_source": false,
+      "source_count": 2,
+      "sources": [
+        {
+          "published_at": "2026-08-22T17:59:02Z",
+          "publisher": "Associated Press",
+          "source_type": "wire",
+          "title": "A moderate earthquake shakes Japan, injuring more than 30 people in the Tokyo region",
+          "url": "https://apnews.com/article/3b39d6dc29cb5ad1bada31a524b6e0c6"
+        },
+        {
+          "published_at": "2026-08-23T02:00:00+09:00",
+          "publisher": "Japan Meteorological Agency",
+          "source_type": "primary",
+          "title": "Southern Ibaraki M5.9 focal mechanism and parameters",
+          "url": "https://www.data.jma.go.jp/eew/data/mech/fig/mc2026082302000000N360000E14006000710659.html"
+        }
+      ],
+      "title": "日本茨城县南部 5.9 级地震造成至少 37 人受伤"
+    },
+    {
+      "category": "politics",
+      "confidence": "medium",
+      "date": "2026-08-23",
+      "id": "somali-pirates-hijack-sibu-1",
+      "regions": [
+        "Africa",
+        "Gulf of Aden",
+        "Somalia",
+        "Yemen"
+      ],
+      "section": "world",
+      "single_source": true,
+      "source_count": 1,
+      "sources": [
+        {
+          "published_at": "2026-08-22T08:18:02Z",
+          "publisher": "Associated Press",
+          "source_type": "wire",
+          "title": "Somali pirates hijack oil tanker off Yemen in latest attack",
+          "url": "https://apnews.com/article/5095054a9227548818dfc819d226dc76"
+        }
+      ],
+      "title": "Somali 海盗在也门以东劫持载有 20 名船员的 Sibu 1"
+    },
+    {
+      "category": "politics",
+      "confidence": "high",
+      "date": "2026-08-23",
+      "id": "us-court-vacates-75-country-visa-pause",
+      "regions": [
+        "Global",
+        "North America",
+        "United States"
+      ],
+      "section": "world",
+      "single_source": false,
+      "source_count": 2,
+      "sources": [
+        {
+          "published_at": "2026-08-22T15:05:24Z",
+          "publisher": "Associated Press",
+          "source_type": "wire",
+          "title": "Federal judge vacates policy that suspended immigrant visa processing from 75 countries",
+          "url": "https://apnews.com/article/64feb19b54d1bce50891437a5ba25d50"
+        },
+        {
+          "published_at": "updated 2026-08-21",
+          "publisher": "National Immigration Law Center",
+          "source_type": "primary",
+          "title": "CLINIC v. Rubio case page and opinion",
+          "url": "https://www.nilc.org/litigation/clinic-v-rubio/"
+        }
+      ],
+      "title": "美国联邦法官撤销暂停 75 国移民签证处理的政策"
+    },
     {
       "category": "technology",
       "confidence": "medium",
@@ -5112,17 +5429,17 @@
       "title": "降级预期推动油价早盘回落约 4 美元"
     }
   ],
-  "latest_digest_generated_at": "2026-08-19T09:16:00+08:00",
+  "latest_digest_generated_at": "2026-08-23T15:37:44+08:00",
   "publishers": [
     {
-      "event_count": 102,
+      "event_count": 108,
       "name": "Associated Press",
-      "source_links": 107
+      "source_links": 114
     },
     {
-      "event_count": 16,
+      "event_count": 18,
       "name": "arXiv",
-      "source_links": 20
+      "source_links": 24
     },
     {
       "event_count": 17,
@@ -5138,6 +5455,11 @@
       "event_count": 3,
       "name": "OpenAI",
       "source_links": 9
+    },
+    {
+      "event_count": 2,
+      "name": "GitHub",
+      "source_links": 5
     },
     {
       "event_count": 5,
@@ -5250,6 +5572,16 @@
       "source_links": 2
     },
     {
+      "event_count": 1,
+      "name": "FlashML",
+      "source_links": 2
+    },
+    {
+      "event_count": 1,
+      "name": "Google Research",
+      "source_links": 2
+    },
+    {
       "event_count": 2,
       "name": "HuggingNews",
       "source_links": 2
@@ -5257,6 +5589,11 @@
     {
       "event_count": 1,
       "name": "Independent Investigative Mechanism for Myanmar",
+      "source_links": 2
+    },
+    {
+      "event_count": 2,
+      "name": "Japan Meteorological Agency",
       "source_links": 2
     },
     {
@@ -5461,11 +5798,6 @@
     },
     {
       "event_count": 1,
-      "name": "GitHub",
-      "source_links": 1
-    },
-    {
-      "event_count": 1,
       "name": "Government of British Columbia",
       "source_links": 1
     },
@@ -5477,11 +5809,6 @@
     {
       "event_count": 1,
       "name": "JailbreakSkill authors",
-      "source_links": 1
-    },
-    {
-      "event_count": 1,
-      "name": "Japan Meteorological Agency",
       "source_links": 1
     },
     {
@@ -5576,6 +5903,11 @@
     },
     {
       "event_count": 1,
+      "name": "National Immigration Law Center",
+      "source_links": 1
+    },
+    {
+      "event_count": 1,
       "name": "Nature",
       "source_links": 1
     },
@@ -5617,6 +5949,11 @@
     {
       "event_count": 1,
       "name": "Policía Nacional de Colombia",
+      "source_links": 1
+    },
+    {
+      "event_count": 1,
+      "name": "Prime Minister of Canada",
       "source_links": 1
     },
     {
@@ -5687,31 +6024,31 @@
   ],
   "regions": [
     {
-      "event_count": 57,
+      "event_count": 61,
       "name": "Global"
     },
     {
-      "event_count": 35,
-      "name": "Asia"
-    },
-    {
-      "event_count": 34,
+      "event_count": 39,
       "name": "North America"
     },
     {
-      "event_count": 31,
+      "event_count": 37,
       "name": "United States"
+    },
+    {
+      "event_count": 36,
+      "name": "Asia"
     },
     {
       "event_count": 27,
       "name": "Europe"
     },
     {
-      "event_count": 19,
+      "event_count": 20,
       "name": "Middle East"
     },
     {
-      "event_count": 16,
+      "event_count": 18,
       "name": "Africa"
     },
     {
@@ -5728,15 +6065,23 @@
     },
     {
       "event_count": 7,
+      "name": "Israel"
+    },
+    {
+      "event_count": 7,
       "name": "Ukraine"
     },
     {
-      "event_count": 6,
-      "name": "Israel"
+      "event_count": 5,
+      "name": "Japan"
     },
     {
       "event_count": 4,
       "name": "Brazil"
+    },
+    {
+      "event_count": 4,
+      "name": "Canada"
     },
     {
       "event_count": 4,
@@ -5748,15 +6093,15 @@
     },
     {
       "event_count": 4,
-      "name": "Japan"
-    },
-    {
-      "event_count": 4,
       "name": "Oman"
     },
     {
-      "event_count": 3,
-      "name": "Canada"
+      "event_count": 4,
+      "name": "Syria"
+    },
+    {
+      "event_count": 4,
+      "name": "Türkiye"
     },
     {
       "event_count": 3,
@@ -5777,14 +6122,6 @@
     {
       "event_count": 3,
       "name": "Space"
-    },
-    {
-      "event_count": 3,
-      "name": "Syria"
-    },
-    {
-      "event_count": 3,
-      "name": "Türkiye"
     },
     {
       "event_count": 2,
@@ -5837,6 +6174,10 @@
     {
       "event_count": 2,
       "name": "Oceania"
+    },
+    {
+      "event_count": 2,
+      "name": "Somalia"
     },
     {
       "event_count": 2,
@@ -5900,6 +6241,10 @@
     },
     {
       "event_count": 1,
+      "name": "Central African Republic"
+    },
+    {
+      "event_count": 1,
       "name": "Colorado River Basin"
     },
     {
@@ -5945,6 +6290,10 @@
     {
       "event_count": 1,
       "name": "Greece"
+    },
+    {
+      "event_count": 1,
+      "name": "Gulf of Aden"
     },
     {
       "event_count": 1,
@@ -6012,10 +6361,6 @@
     },
     {
       "event_count": 1,
-      "name": "Somalia"
-    },
-    {
-      "event_count": 1,
       "name": "South Asia"
     },
     {
@@ -6033,6 +6378,10 @@
     {
       "event_count": 1,
       "name": "Thailand"
+    },
+    {
+      "event_count": 1,
+      "name": "Tokyo Metropolitan Area"
     },
     {
       "event_count": 1,
@@ -6056,30 +6405,34 @@
     },
     {
       "event_count": 1,
+      "name": "Yemen"
+    },
+    {
+      "event_count": 1,
       "name": "Zamfara State"
     }
   ],
   "schema_version": 1,
   "source_types": [
     {
-      "event_count": 110,
+      "event_count": 116,
       "name": "wire",
-      "source_links": 126
+      "source_links": 133
     },
     {
-      "event_count": 65,
+      "event_count": 68,
       "name": "primary",
-      "source_links": 78
+      "source_links": 81
     },
     {
-      "event_count": 34,
+      "event_count": 37,
       "name": "code",
-      "source_links": 58
+      "source_links": 66
     },
     {
-      "event_count": 22,
+      "event_count": 24,
       "name": "research",
-      "source_links": 33
+      "source_links": 37
     },
     {
       "event_count": 15,

@@ -2,6 +2,40 @@
   "version": 1,
   "entries": [
     {
+      "date": "2026-08-23",
+      "digest_path": "digests/2026/08/2026-08-23.md",
+      "data_path": "data/2026/08/2026-08-23.json",
+      "generated_at": "2026-08-23T15:37:44+08:00",
+      "item_count": 9,
+      "ai_radar_count": 3,
+      "categories": [
+        "climate-environment",
+        "economy",
+        "health-society",
+        "politics",
+        "science",
+        "technology"
+      ],
+      "regions": [
+        "Africa",
+        "Asia",
+        "Canada",
+        "Central African Republic",
+        "Global",
+        "Gulf of Aden",
+        "Israel",
+        "Japan",
+        "Middle East",
+        "North America",
+        "Somalia",
+        "Syria",
+        "Tokyo Metropolitan Area",
+        "Türkiye",
+        "United States",
+        "Yemen"
+      ]
+    },
+    {
       "date": "2026-08-19",
       "digest_path": "digests/2026/08/2026-08-19.md",
       "data_path": "data/2026/08/2026-08-19.json",
