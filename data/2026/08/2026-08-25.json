@@ -1,0 +1,346 @@
+{
+  "date": "2026-08-25",
+  "timezone": "Asia/Shanghai",
+  "generated_at": "2026-08-25T17:11:13+08:00",
+  "overview": "乌克兰纪念独立35周年之际获欧洲追加军工支持，美国同时扩大对伊朗制裁并正式解除叙利亚恐怖主义支持国认定；AI雷达关注统一音频模型、语调到行动的断层与智能体工作流安全输出。",
+  "digest_path": "digests/2026/08/2026-08-25.md",
+  "ai_radar": {
+    "selection_as_of": "2026-08-25T17:11:00+08:00",
+    "item_ids": [
+      "fireredaudio-unified-audio-language-model",
+      "hear2act-prosody-action-gap",
+      "github-agentic-workflows-0-87-4"
+    ]
+  },
+  "items": [
+    {
+      "id": "fireredaudio-unified-audio-language-model",
+      "section": "ai-frontier",
+      "category": "technology",
+      "regions": ["Global", "Asia", "China"],
+      "title": "FireRedAudio 用解耦连续表征统一理解、生成与语音编辑",
+      "summary": "FireRedAudio 在一个9B共享语言骨干上分开音频理解编码器与生成用RedAE路径，公开权重和推理代码覆盖ASR、理解、TTS、语音编辑及最长约一小时录音的时间定位。",
+      "why_it_matters": "把理解与生成保留为不同声学表征、同时共享语言推理骨干，为减少多模型音频栈的接口与部署成本提供了可检验路线。",
+      "uncertainty": "模型卡基准均为团队自报，部分闭源模型对比也由团队复测；除ASR外仅支持中英文，约一小时以上输入未经验证，零样本语音克隆还带来滥用风险。",
+      "confidence": "medium",
+      "ai": {
+        "kind": "open-weight-general-purpose-audio-language-model",
+        "topics": ["audio-language-model", "speech-understanding", "speech-generation", "speech-editing", "long-audio"],
+        "artifact_date": "2026-08-22T10:35:45Z",
+        "artifact_status": "Apache-2.0 model weights and inference code are public on Hugging Face; model-card benchmarks are author reported",
+        "technical_takeaway": "音频编码器承担理解，RedAE连续潜变量路径承担生成和编辑，两者共享9B语言骨干；时间到内容对齐支持最长约一小时录音。",
+        "evidence_level": "primary model card, public weights and inference code; no independent benchmark reproduction located",
+        "code_url": "https://huggingface.co/FireRedTeam/FireRedAudio",
+        "heat": {
+          "label": "newly released model with modest early Hugging Face attention; not evidence of quality or adoption",
+          "as_of": "2026-08-25T17:11:00+08:00",
+          "signals": [
+            {
+              "platform": "Hugging Face",
+              "observation": "model repository showed 15 likes; download counter still showed 0",
+              "url": "https://huggingface.co/FireRedTeam/FireRedAudio"
+            },
+            {
+              "platform": "Hugging Face",
+              "observation": "repository contained about 29.7 GB of public model and decoder artifacts",
+              "url": "https://huggingface.co/FireRedTeam/FireRedAudio/tree/main"
+            }
+          ]
+        }
+      },
+      "sources": [
+        {
+          "publisher": "FireRed Team",
+          "title": "FireRedAudio model card, weights and inference code",
+          "url": "https://huggingface.co/FireRedTeam/FireRedAudio",
+          "published_at": "2026-08-22T10:35:45Z",
+          "source_type": "model-card"
+        },
+        {
+          "publisher": "FireRed Team",
+          "title": "FireRedAudio public artifact tree",
+          "url": "https://huggingface.co/FireRedTeam/FireRedAudio/tree/main",
+          "published_at": "accessed 2026-08-25T17:11:00+08:00",
+          "source_type": "code"
+        }
+      ]
+    },
+    {
+      "id": "hear2act-prosody-action-gap",
+      "section": "ai-frontier",
+      "category": "science",
+      "regions": ["Global", "North America", "United States", "Europe"],
+      "title": "Hear2Act 发现语音模型能听出顾虑，却未必据此改变行动",
+      "summary": "Hear2Act以480个角色化服务场景配对比较文本、音频和显式顾虑状态；作者报告直接加入音频只把最优方案率从14.6%提高到15.3%，先把顾虑转成文字状态后升至39.6%。",
+      "why_it_matters": "结果把语音智能体的失败拆成感知与决策之间的接口问题，提示显式、可审计的中间状态可能比单纯增加音频输入更关键。",
+      "uncertainty": "这是未同行评审预印本，只测试两种音频模型、合成语音与消费服务场景；数据和代码未在论文页关联公开，数字均待独立复现。",
+      "confidence": "medium",
+      "ai": {
+        "kind": "research-preprint-on-spoken-agent-evaluation",
+        "topics": ["spoken-agents", "prosody", "task-oriented-dialogue", "evaluation", "intermediate-representation"],
+        "artifact_date": "2026-08-20T00:16:36Z",
+        "artifact_status": "arXiv preprint not peer reviewed; paper reports 480 matched scenarios but no linked public dataset or code was located",
+        "technical_takeaway": "用同一场景的配对rollout隔离语调证据的决策价值，并比较直接音频输入、音频推断的文字顾虑状态和真实状态；主要差距出现在感知结果到行动策略的传递。",
+        "evidence_level": "primary non-peer-reviewed preprint with paired bootstrap analysis; no public implementation or independent reproduction located",
+        "paper_id": "arXiv:2608.19515",
+        "heat": {
+          "label": "very limited paper-page attention so far; selected for technical contribution, not popularity",
+          "as_of": "2026-08-25T17:11:00+08:00",
+          "signals": [
+            {
+              "platform": "Hugging Face",
+              "observation": "paper page showed 0 upvotes and no linked models, datasets or Spaces",
+              "url": "https://huggingface.co/papers/2608.19515"
+            },
+            {
+              "platform": "arXiv",
+              "observation": "version 1 was submitted on 20 August 2026",
+              "url": "https://arxiv.org/abs/2608.19515"
+            }
+          ]
+        }
+      },
+      "sources": [
+        {
+          "publisher": "arXiv",
+          "title": "Hear2Act: Benchmarking When Prosody Should Change What an Assistant Does",
+          "url": "https://arxiv.org/abs/2608.19515",
+          "published_at": "2026-08-20T00:16:36Z",
+          "source_type": "research"
+        },
+        {
+          "publisher": "arXiv",
+          "title": "Hear2Act paper HTML",
+          "url": "https://arxiv.org/html/2608.19515",
+          "published_at": "accessed 2026-08-25T17:11:00+08:00",
+          "source_type": "research"
+        }
+      ]
+    },
+    {
+      "id": "github-agentic-workflows-0-87-4",
+      "section": "ai-frontier",
+      "category": "technology",
+      "regions": ["Global", "North America", "United States"],
+      "title": "GitHub Agentic Workflows 0.87.4 收紧安全输出与凭据持久化边界",
+      "summary": "0.87.4让无法解析的safe-output令牌在编译期失败，支持固定插件版本，并停止把GH_TOKEN留在repo-memory克隆的.git/config中；8月24日周报还加入预创建PR的显式steer反馈入口。",
+      "why_it_matters": "把权限、输出schema、插件版本和凭据落盘约束放在编译器与运行时边界，可减少仓库内智能体工作流因隐式扩权或配置漂移产生的风险。",
+      "uncertainty": "0.87.4仍是预发布版本，周报中的steer功能与release主体更新节奏不同；未见版本专项独立安全审计，累计stars也不能代表该版本采用率。",
+      "confidence": "high",
+      "ai": {
+        "kind": "open-source-agentic-workflow-security-and-reliability-release",
+        "topics": ["agentic-workflows", "safe-outputs", "credential-security", "plugin-pinning", "compiler-validation"],
+        "artifact_date": "2026-08-22T04:46:39Z",
+        "artifact_status": "official immutable prerelease and MIT source are public; follow-up weekly update published 24 August",
+        "technical_takeaway": "在编译期验证跨job安全输出引用，固定Agent Plugins版本，并避免GH_TOKEN持久化到repo-memory克隆配置；steer读取PR反馈仍要求显式pull-requests:read。",
+        "evidence_level": "official release, project blog and publicly auditable MIT source; no independent version-specific security audit",
+        "code_url": "https://github.com/github/gh-aw",
+        "heat": {
+          "label": "large cumulative repository attention; not a release-specific adoption measure",
+          "as_of": "2026-08-25T17:11:00+08:00",
+          "signals": [
+            {
+              "platform": "GitHub",
+              "observation": "repository showed about 4,991 stars and 504 forks cumulatively",
+              "url": "https://github.com/github/gh-aw"
+            },
+            {
+              "platform": "GitHub",
+              "observation": "v0.87.4 was published as an official prerelease on 22 August",
+              "url": "https://github.com/github/gh-aw/releases/tag/v0.87.4"
+            }
+          ]
+        }
+      },
+      "sources": [
+        {
+          "publisher": "GitHub",
+          "title": "GitHub Agentic Workflows v0.87.4 release",
+          "url": "https://github.com/github/gh-aw/releases/tag/v0.87.4",
+          "published_at": "2026-08-22T04:46:39Z",
+          "source_type": "code"
+        },
+        {
+          "publisher": "GitHub Agentic Workflows",
+          "title": "Weekly Update – August 24, 2026",
+          "url": "https://github.github.com/gh-aw/blog/2026-08-24-weekly-update/",
+          "published_at": "2026-08-24",
+          "source_type": "primary"
+        }
+      ]
+    },
+    {
+      "id": "ukraine-independence-day-european-support",
+      "category": "culture",
+      "regions": ["Europe", "Ukraine", "United Kingdom", "France"],
+      "title": "乌克兰纪念独立 35 周年，欧洲领导人在基辅推进军工支持",
+      "summary": "乌克兰在St. Sophia广场纪念1991年独立35周年，多名欧洲领导人到访；英国同意让MBDA释放SCALP导弹英制部件的机密信息，以推进法国与乌克兰在乌生产计划。",
+      "why_it_matters": "纪念活动把国家身份、欧洲政治支持与本地军工能力结合在一起，也显示战争长期化后援助正从交付武器转向技术和生产能力。",
+      "uncertainty": "导弹生产的时间表、规模和技术转移范围未公布；前线无显著变化，外交停火努力也未出现突破。",
+      "confidence": "high",
+      "sources": [
+        {
+          "publisher": "Associated Press",
+          "title": "European leaders join Zelenskyy to celebrate Ukraine's Independence Day",
+          "url": "https://apnews.com/article/f9db9e721a230e5881405603a423785c",
+          "published_at": "2026-08-24T07:15:34Z",
+          "source_type": "wire"
+        }
+      ]
+    },
+    {
+      "id": "us-supreme-court-mail-voting-stay",
+      "category": "politics",
+      "regions": ["North America", "United States"],
+      "title": "美国最高法院暂缓禁令，让邮寄投票行政令继续推进",
+      "summary": "最高法院在Trump v. California中暂缓马萨诸塞联邦法院的禁令，允许政府在上诉期间尝试落实涉及公民名单和邮寄选票流程的行政令。",
+      "why_it_matters": "裁定发生在中期选举临近之际，可能影响州选务资源、选民名册和邮政处理规则，并把总统与各州的选举管理权限争议继续推向法院。",
+      "uncertainty": "这是暂缓禁令而非行政令实体合法性的终局裁决；法院明确称后续实施措施未必合法，其他诉讼与选举日程也可能限制实际变化。",
+      "confidence": "high",
+      "sources": [
+        {
+          "publisher": "Supreme Court of the United States",
+          "title": "Trump v. California, 26A124, per curiam order",
+          "url": "https://www.supremecourt.gov/opinions/25pdf/26a124_hgci.pdf",
+          "published_at": "2026-08-24",
+          "source_type": "primary"
+        },
+        {
+          "publisher": "Associated Press",
+          "title": "Supreme Court sides with Trump administration on mail voting restrictions ahead of midterms",
+          "url": "https://apnews.com/article/3780d57190a317e63fd19583c8ebb143",
+          "published_at": "2026-08-25T04:12:24Z",
+          "source_type": "wire"
+        }
+      ]
+    },
+    {
+      "id": "us-removes-syria-terrorism-sponsor-designation",
+      "category": "economy",
+      "regions": ["Middle East", "Syria", "North America", "United States"],
+      "title": "美国正式解除叙利亚恐怖主义支持国认定并移除 HTS 制裁",
+      "summary": "45天国会审查期结束后，美国国务院撤销叙利亚恐怖主义支持国认定，并撤销al-Nusrah Front/HTS的全球恐怖分子认定；财政部同步将HTS移出SDN名单。",
+      "why_it_matters": "这移除了叙利亚重返国际金融、贸易和私人投资的一组主要法律障碍，但并不等于对所有个人和组织的反恐制裁一并取消。",
+      "uncertainty": "投资与银行连接恢复速度取决于金融机构风险偏好、其他制裁和叙利亚国内安全；美国仍表示会追责其认定的恶意行为者。",
+      "confidence": "high",
+      "sources": [
+        {
+          "publisher": "U.S. Department of the Treasury",
+          "title": "Treasury and State Departments Deliver Additional Sanctions Relief on Syria",
+          "url": "https://home.treasury.gov/news/press-releases/sb0612",
+          "published_at": "2026-08-24",
+          "source_type": "primary"
+        },
+        {
+          "publisher": "Associated Press",
+          "title": "The Latest: Supreme Court clears the way for Trump to restrict mail-in voting",
+          "url": "https://apnews.com/article/d88f76c1d91b11185ae4065f85abc2f9",
+          "published_at": "2026-08-24T12:32:34Z",
+          "source_type": "wire"
+        }
+      ]
+    },
+    {
+      "id": "us-operation-economic-outcast-iran-sanctions",
+      "category": "economy",
+      "regions": ["Middle East", "Iran", "North America", "United States", "East Asia", "Europe"],
+      "title": "美国启动对伊朗“经济放逐行动”，制裁近 60 个关联对象",
+      "summary": "美国财政部启动Operation Economic Outcast，对近60个实体、个人和船只实施制裁，并把数字资产、技术、黄金、航空和航运纳入未来可触发次级制裁的关键领域。",
+      "why_it_matters": "措施把核与导弹采购、网络行动、石油收入和第三国交易网络放进同一持续执法框架，可能扩大对跨境银行、航运和技术供应链的合规压力。",
+      "uncertainty": "制裁影响取决于第三国执行与替代支付渠道；伊朗称支持制裁将被视为敌对行为，中国也反对追加压力，后续报复和二级制裁范围仍不明确。",
+      "confidence": "high",
+      "sources": [
+        {
+          "publisher": "U.S. Department of the Treasury",
+          "title": "Treasury Launches Unprecedented Campaign Against Iranian Regime on Economic D-Day",
+          "url": "https://home.treasury.gov/news/press-releases/sb0613",
+          "published_at": "2026-08-24",
+          "source_type": "primary"
+        },
+        {
+          "publisher": "Associated Press",
+          "title": "Iran warns of a harsh response as US announces new sanctions",
+          "url": "https://apnews.com/article/4c37df8a725b49eae2ab1672b4ae4201",
+          "published_at": "2026-08-24T10:48:56Z",
+          "source_type": "wire"
+        }
+      ]
+    },
+    {
+      "id": "who-updates-drc-bundibugyo-ebola-recommendations",
+      "category": "health-society",
+      "regions": ["Africa", "Democratic Republic of the Congo", "Central Africa", "East Africa"],
+      "title": "WHO 更新刚果（金）Bundibugyo 埃博拉临时建议，地区风险仍为高",
+      "summary": "WHO紧急委员会第二次评估后更新建议：截至8月14日，刚果（金）社区传播风险为“非常高”，九个陆地邻国的地区风险为“高”，其他国家为“低”。",
+      "why_it_matters": "建议新增社会措施、集会和境内流动内容，并要求强化监测、接触者追踪、实验室和安全通道；该病毒目前没有获批的特异性疫苗或治疗药物。",
+      "uncertainty": "风险分级以8月14日信息为基础，疫情规模和传播链仍在变化；WHO不建议普遍停航或拒绝来自传播国的旅客入境。",
+      "confidence": "high",
+      "sources": [
+        {
+          "publisher": "World Health Organization",
+          "title": "Second meeting of the IHR Emergency Committee on the epidemic of Ebola Bundibugyo virus disease in the Democratic Republic of the Congo – Temporary recommendations",
+          "url": "https://www.who.int/news/item/24-08-2026-second-meeting-of-the-ihr-emergency-committee-on-the-epidemic-of-ebola-bundibugyo-virus-disease-in-the-democratic-republic-of-the-congo-temporary-recommendations",
+          "published_at": "2026-08-24",
+          "source_type": "primary"
+        }
+      ]
+    },
+    {
+      "id": "haiti-kenscoff-viv-ansanm-attack",
+      "category": "health-society",
+      "regions": ["Caribbean", "Haiti", "Kenscoff"],
+      "title": "海地 Viv Ansanm 袭击 Kenscoff 农业社区，确切死亡数仍无法统计",
+      "summary": "武装人员周日晚袭击首都上方的Kenscoff社区，焚烧住宅并杀害居民；海地公民保护办公室称数十人死亡，一名农民称自己失去14名亲友。",
+      "why_it_matters": "帮派正把暴力从首都核心区扩大到周边农业社区，进一步威胁粮食供给、人口安全和海地12月举行十余年来首次大选的可行性。",
+      "uncertainty": "交通和通信困难使市长无法给出最终死亡数；“数十人”来自海地公民保护办公室，失踪人数和袭击全貌仍待核实。",
+      "confidence": "medium",
+      "sources": [
+        {
+          "publisher": "Associated Press",
+          "title": "Gang coalition unleashes violent new attack on farming community in Haiti",
+          "url": "https://apnews.com/article/485903ee45cd5ffc1b5270b268ba31e3",
+          "published_at": "2026-08-24T14:53:24Z",
+          "source_type": "wire"
+        }
+      ]
+    },
+    {
+      "id": "south-sudan-unmiss-patrol-ambush",
+      "category": "politics",
+      "regions": ["Africa", "South Sudan", "Jonglei"],
+      "title": "南苏丹 Jonglei 州伏击造成两名联合国维和人员死亡",
+      "summary": "身份不明的武装人员伏击前往Pajut的UNMISS巡逻队，造成两名维和人员死亡、七人受伤；伤者包括三名维和人员、两名南苏丹警察和两名文职人员。",
+      "why_it_matters": "对维和巡逻队的直接攻击会削弱偏远地区的保护和通行能力，并加剧南苏丹脆弱和平进程中的安全与问责风险。",
+      "uncertainty": "袭击者身份和动机尚未确定；UNMISS已部署快速反应部队，并要求南苏丹当局调查，是否能追责仍待观察。",
+      "confidence": "high",
+      "sources": [
+        {
+          "publisher": "United Nations Mission in South Sudan",
+          "title": "UNMISS condemns ambush on its patrol in Jonglei, killing of two peacekeepers",
+          "url": "https://ethiopia.un.org/en/321503-unmiss-condemns-ambush-its-patrol-jonglei-killing-two-peacekeepers",
+          "published_at": "2026-08-24",
+          "source_type": "primary"
+        }
+      ]
+    },
+    {
+      "id": "nevada-hawk-fire-containment-update",
+      "category": "climate-environment",
+      "regions": ["North America", "United States", "Nevada", "Reno"],
+      "title": "内华达 Hawk Fire 遏制率升至 27%，至少 32 栋住宅烧毁",
+      "summary": "Reno附近Hawk Fire在约23平方英里处停止新增蔓延，遏制率升至27%；至少32栋住宅烧毁、6栋受损、7人受伤，疏散命令与警告覆盖人口降至约6.3万。",
+      "why_it_matters": "火场逼近高密度社区并迫使学校关闭、国民警卫队投入，显示高温、低湿度和人类点火风险在城市—荒野交界处的叠加影响。",
+      "uncertainty": "建筑损失评估刚开始，数字预计上升；火因被认定与人类活动有关，但故意还是意外尚未公布，阵风仍可能推动复燃扩散。",
+      "confidence": "high",
+      "sources": [
+        {
+          "publisher": "Associated Press",
+          "title": "Firefighters make progress against a Nevada wildfire that's destroyed more than 30 homes",
+          "url": "https://apnews.com/article/b572e2a15fe6a263231e04ea932cf6c8",
+          "published_at": "2026-08-24T15:07:15Z",
+          "source_type": "wire"
+        }
+      ]
+    }
+  ]
+}

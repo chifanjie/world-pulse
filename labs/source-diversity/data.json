@@ -1,20 +1,28 @@
 {
   "built_from": "data/index.json",
   "counts": {
-    "ai_events": 45,
-    "digests": 15,
-    "events": 165,
-    "single_source_events": 40,
-    "source_links": 366,
-    "unique_source_urls": 360,
-    "world_events": 120,
+    "ai_events": 48,
+    "digests": 16,
+    "events": 176,
+    "single_source_events": 45,
+    "source_links": 383,
+    "unique_source_urls": 377,
+    "world_events": 128,
     "zero_source_events": 0
   },
   "date_range": {
-    "end": "2026-08-23",
+    "end": "2026-08-25",
     "start": "2026-08-03"
   },
   "dates": [
+    {
+      "ai_event_count": 3,
+      "date": "2026-08-25",
+      "event_count": 11,
+      "single_source_events": 5,
+      "source_links": 17,
+      "world_event_count": 8
+    },
     {
       "ai_event_count": 3,
       "date": "2026-08-23",
@@ -137,6 +145,319 @@
     }
   ],
   "events": [
+    {
+      "category": "technology",
+      "confidence": "medium",
+      "date": "2026-08-25",
+      "id": "fireredaudio-unified-audio-language-model",
+      "regions": [
+        "Asia",
+        "China",
+        "Global"
+      ],
+      "section": "ai",
+      "single_source": false,
+      "source_count": 2,
+      "sources": [
+        {
+          "published_at": "accessed 2026-08-25T17:11:00+08:00",
+          "publisher": "FireRed Team",
+          "source_type": "code",
+          "title": "FireRedAudio public artifact tree",
+          "url": "https://huggingface.co/FireRedTeam/FireRedAudio/tree/main"
+        },
+        {
+          "published_at": "2026-08-22T10:35:45Z",
+          "publisher": "FireRed Team",
+          "source_type": "model-card",
+          "title": "FireRedAudio model card, weights and inference code",
+          "url": "https://huggingface.co/FireRedTeam/FireRedAudio"
+        }
+      ],
+      "title": "FireRedAudio 用解耦连续表征统一理解、生成与语音编辑"
+    },
+    {
+      "category": "technology",
+      "confidence": "high",
+      "date": "2026-08-25",
+      "id": "github-agentic-workflows-0-87-4",
+      "regions": [
+        "Global",
+        "North America",
+        "United States"
+      ],
+      "section": "ai",
+      "single_source": false,
+      "source_count": 2,
+      "sources": [
+        {
+          "published_at": "2026-08-22T04:46:39Z",
+          "publisher": "GitHub",
+          "source_type": "code",
+          "title": "GitHub Agentic Workflows v0.87.4 release",
+          "url": "https://github.com/github/gh-aw/releases/tag/v0.87.4"
+        },
+        {
+          "published_at": "2026-08-24",
+          "publisher": "GitHub Agentic Workflows",
+          "source_type": "primary",
+          "title": "Weekly Update – August 24, 2026",
+          "url": "https://github.github.com/gh-aw/blog/2026-08-24-weekly-update/"
+        }
+      ],
+      "title": "GitHub Agentic Workflows 0.87.4 收紧安全输出与凭据持久化边界"
+    },
+    {
+      "category": "science",
+      "confidence": "medium",
+      "date": "2026-08-25",
+      "id": "hear2act-prosody-action-gap",
+      "regions": [
+        "Europe",
+        "Global",
+        "North America",
+        "United States"
+      ],
+      "section": "ai",
+      "single_source": false,
+      "source_count": 2,
+      "sources": [
+        {
+          "published_at": "2026-08-20T00:16:36Z",
+          "publisher": "arXiv",
+          "source_type": "research",
+          "title": "Hear2Act: Benchmarking When Prosody Should Change What an Assistant Does",
+          "url": "https://arxiv.org/abs/2608.19515"
+        },
+        {
+          "published_at": "accessed 2026-08-25T17:11:00+08:00",
+          "publisher": "arXiv",
+          "source_type": "research",
+          "title": "Hear2Act paper HTML",
+          "url": "https://arxiv.org/html/2608.19515"
+        }
+      ],
+      "title": "Hear2Act 发现语音模型能听出顾虑，却未必据此改变行动"
+    },
+    {
+      "category": "health-society",
+      "confidence": "medium",
+      "date": "2026-08-25",
+      "id": "haiti-kenscoff-viv-ansanm-attack",
+      "regions": [
+        "Caribbean",
+        "Haiti",
+        "Kenscoff"
+      ],
+      "section": "world",
+      "single_source": true,
+      "source_count": 1,
+      "sources": [
+        {
+          "published_at": "2026-08-24T14:53:24Z",
+          "publisher": "Associated Press",
+          "source_type": "wire",
+          "title": "Gang coalition unleashes violent new attack on farming community in Haiti",
+          "url": "https://apnews.com/article/485903ee45cd5ffc1b5270b268ba31e3"
+        }
+      ],
+      "title": "海地 Viv Ansanm 袭击 Kenscoff 农业社区，确切死亡数仍无法统计"
+    },
+    {
+      "category": "climate-environment",
+      "confidence": "high",
+      "date": "2026-08-25",
+      "id": "nevada-hawk-fire-containment-update",
+      "regions": [
+        "Nevada",
+        "North America",
+        "Reno",
+        "United States"
+      ],
+      "section": "world",
+      "single_source": true,
+      "source_count": 1,
+      "sources": [
+        {
+          "published_at": "2026-08-24T15:07:15Z",
+          "publisher": "Associated Press",
+          "source_type": "wire",
+          "title": "Firefighters make progress against a Nevada wildfire that's destroyed more than 30 homes",
+          "url": "https://apnews.com/article/b572e2a15fe6a263231e04ea932cf6c8"
+        }
+      ],
+      "title": "内华达 Hawk Fire 遏制率升至 27%，至少 32 栋住宅烧毁"
+    },
+    {
+      "category": "politics",
+      "confidence": "high",
+      "date": "2026-08-25",
+      "id": "south-sudan-unmiss-patrol-ambush",
+      "regions": [
+        "Africa",
+        "Jonglei",
+        "South Sudan"
+      ],
+      "section": "world",
+      "single_source": true,
+      "source_count": 1,
+      "sources": [
+        {
+          "published_at": "2026-08-24",
+          "publisher": "United Nations Mission in South Sudan",
+          "source_type": "primary",
+          "title": "UNMISS condemns ambush on its patrol in Jonglei, killing of two peacekeepers",
+          "url": "https://ethiopia.un.org/en/321503-unmiss-condemns-ambush-its-patrol-jonglei-killing-two-peacekeepers"
+        }
+      ],
+      "title": "南苏丹 Jonglei 州伏击造成两名联合国维和人员死亡"
+    },
+    {
+      "category": "culture",
+      "confidence": "high",
+      "date": "2026-08-25",
+      "id": "ukraine-independence-day-european-support",
+      "regions": [
+        "Europe",
+        "France",
+        "Ukraine",
+        "United Kingdom"
+      ],
+      "section": "world",
+      "single_source": true,
+      "source_count": 1,
+      "sources": [
+        {
+          "published_at": "2026-08-24T07:15:34Z",
+          "publisher": "Associated Press",
+          "source_type": "wire",
+          "title": "European leaders join Zelenskyy to celebrate Ukraine's Independence Day",
+          "url": "https://apnews.com/article/f9db9e721a230e5881405603a423785c"
+        }
+      ],
+      "title": "乌克兰纪念独立 35 周年，欧洲领导人在基辅推进军工支持"
+    },
+    {
+      "category": "economy",
+      "confidence": "high",
+      "date": "2026-08-25",
+      "id": "us-operation-economic-outcast-iran-sanctions",
+      "regions": [
+        "East Asia",
+        "Europe",
+        "Iran",
+        "Middle East",
+        "North America",
+        "United States"
+      ],
+      "section": "world",
+      "single_source": false,
+      "source_count": 2,
+      "sources": [
+        {
+          "published_at": "2026-08-24T10:48:56Z",
+          "publisher": "Associated Press",
+          "source_type": "wire",
+          "title": "Iran warns of a harsh response as US announces new sanctions",
+          "url": "https://apnews.com/article/4c37df8a725b49eae2ab1672b4ae4201"
+        },
+        {
+          "published_at": "2026-08-24",
+          "publisher": "U.S. Department of the Treasury",
+          "source_type": "primary",
+          "title": "Treasury Launches Unprecedented Campaign Against Iranian Regime on Economic D-Day",
+          "url": "https://home.treasury.gov/news/press-releases/sb0613"
+        }
+      ],
+      "title": "美国启动对伊朗“经济放逐行动”，制裁近 60 个关联对象"
+    },
+    {
+      "category": "economy",
+      "confidence": "high",
+      "date": "2026-08-25",
+      "id": "us-removes-syria-terrorism-sponsor-designation",
+      "regions": [
+        "Middle East",
+        "North America",
+        "Syria",
+        "United States"
+      ],
+      "section": "world",
+      "single_source": false,
+      "source_count": 2,
+      "sources": [
+        {
+          "published_at": "2026-08-24T12:32:34Z",
+          "publisher": "Associated Press",
+          "source_type": "wire",
+          "title": "The Latest: Supreme Court clears the way for Trump to restrict mail-in voting",
+          "url": "https://apnews.com/article/d88f76c1d91b11185ae4065f85abc2f9"
+        },
+        {
+          "published_at": "2026-08-24",
+          "publisher": "U.S. Department of the Treasury",
+          "source_type": "primary",
+          "title": "Treasury and State Departments Deliver Additional Sanctions Relief on Syria",
+          "url": "https://home.treasury.gov/news/press-releases/sb0612"
+        }
+      ],
+      "title": "美国正式解除叙利亚恐怖主义支持国认定并移除 HTS 制裁"
+    },
+    {
+      "category": "politics",
+      "confidence": "high",
+      "date": "2026-08-25",
+      "id": "us-supreme-court-mail-voting-stay",
+      "regions": [
+        "North America",
+        "United States"
+      ],
+      "section": "world",
+      "single_source": false,
+      "source_count": 2,
+      "sources": [
+        {
+          "published_at": "2026-08-25T04:12:24Z",
+          "publisher": "Associated Press",
+          "source_type": "wire",
+          "title": "Supreme Court sides with Trump administration on mail voting restrictions ahead of midterms",
+          "url": "https://apnews.com/article/3780d57190a317e63fd19583c8ebb143"
+        },
+        {
+          "published_at": "2026-08-24",
+          "publisher": "Supreme Court of the United States",
+          "source_type": "primary",
+          "title": "Trump v. California, 26A124, per curiam order",
+          "url": "https://www.supremecourt.gov/opinions/25pdf/26a124_hgci.pdf"
+        }
+      ],
+      "title": "美国最高法院暂缓禁令，让邮寄投票行政令继续推进"
+    },
+    {
+      "category": "health-society",
+      "confidence": "high",
+      "date": "2026-08-25",
+      "id": "who-updates-drc-bundibugyo-ebola-recommendations",
+      "regions": [
+        "Africa",
+        "Central Africa",
+        "Democratic Republic of the Congo",
+        "East Africa"
+      ],
+      "section": "world",
+      "single_source": true,
+      "source_count": 1,
+      "sources": [
+        {
+          "published_at": "2026-08-24",
+          "publisher": "World Health Organization",
+          "source_type": "primary",
+          "title": "Second meeting of the IHR Emergency Committee on the epidemic of Ebola Bundibugyo virus disease in the Democratic Republic of the Congo – Temporary recommendations",
+          "url": "https://www.who.int/news/item/24-08-2026-second-meeting-of-the-ihr-emergency-committee-on-the-epidemic-of-ebola-bundibugyo-virus-disease-in-the-democratic-republic-of-the-congo-temporary-recommendations"
+        }
+      ],
+      "title": "WHO 更新刚果（金）Bundibugyo 埃博拉临时建议，地区风险仍为高"
+    },
     {
       "category": "science",
       "confidence": "medium",
@@ -5429,17 +5750,17 @@
       "title": "降级预期推动油价早盘回落约 4 美元"
     }
   ],
-  "latest_digest_generated_at": "2026-08-23T15:37:44+08:00",
+  "latest_digest_generated_at": "2026-08-25T17:11:13+08:00",
   "publishers": [
     {
-      "event_count": 108,
+      "event_count": 114,
       "name": "Associated Press",
-      "source_links": 114
+      "source_links": 120
     },
     {
-      "event_count": 18,
+      "event_count": 19,
       "name": "arXiv",
-      "source_links": 24
+      "source_links": 26
     },
     {
       "event_count": 17,
@@ -5457,9 +5778,14 @@
       "source_links": 9
     },
     {
-      "event_count": 2,
+      "event_count": 3,
       "name": "GitHub",
-      "source_links": 5
+      "source_links": 6
+    },
+    {
+      "event_count": 5,
+      "name": "World Health Organization",
+      "source_links": 6
     },
     {
       "event_count": 5,
@@ -5469,11 +5795,6 @@
     {
       "event_count": 1,
       "name": "Qwen",
-      "source_links": 5
-    },
-    {
-      "event_count": 4,
-      "name": "World Health Organization",
       "source_links": 5
     },
     {
@@ -5569,6 +5890,11 @@
     {
       "event_count": 2,
       "name": "El País",
+      "source_links": 2
+    },
+    {
+      "event_count": 1,
+      "name": "FireRed Team",
       "source_links": 2
     },
     {
@@ -5679,6 +6005,11 @@
     {
       "event_count": 2,
       "name": "U.S. Centers for Disease Control and Prevention",
+      "source_links": 2
+    },
+    {
+      "event_count": 2,
+      "name": "U.S. Department of the Treasury",
       "source_links": 2
     },
     {
@@ -5794,6 +6125,11 @@
     {
       "event_count": 1,
       "name": "Florida Department of Health",
+      "source_links": 1
+    },
+    {
+      "event_count": 1,
+      "name": "GitHub Agentic Workflows",
       "source_links": 1
     },
     {
@@ -5978,6 +6314,11 @@
     },
     {
       "event_count": 1,
+      "name": "Supreme Court of the United States",
+      "source_links": 1
+    },
+    {
+      "event_count": 1,
       "name": "SWE-Bench ProMax authors / Hugging Face",
       "source_links": 1
     },
@@ -5994,6 +6335,11 @@
     {
       "event_count": 1,
       "name": "U.S. Department of Defense",
+      "source_links": 1
+    },
+    {
+      "event_count": 1,
+      "name": "United Nations Mission in South Sudan",
       "source_links": 1
     },
     {
@@ -6024,35 +6370,35 @@
   ],
   "regions": [
     {
-      "event_count": 61,
+      "event_count": 64,
       "name": "Global"
     },
     {
-      "event_count": 39,
+      "event_count": 45,
       "name": "North America"
     },
     {
-      "event_count": 37,
+      "event_count": 43,
       "name": "United States"
     },
     {
-      "event_count": 36,
+      "event_count": 37,
       "name": "Asia"
     },
     {
-      "event_count": 27,
+      "event_count": 30,
       "name": "Europe"
     },
     {
-      "event_count": 20,
+      "event_count": 22,
       "name": "Middle East"
     },
     {
-      "event_count": 18,
+      "event_count": 20,
       "name": "Africa"
     },
     {
-      "event_count": 9,
+      "event_count": 10,
       "name": "China"
     },
     {
@@ -6064,16 +6410,24 @@
       "name": "Russia"
     },
     {
+      "event_count": 8,
+      "name": "Ukraine"
+    },
+    {
       "event_count": 7,
       "name": "Israel"
     },
     {
-      "event_count": 7,
-      "name": "Ukraine"
+      "event_count": 5,
+      "name": "Iran"
     },
     {
       "event_count": 5,
       "name": "Japan"
+    },
+    {
+      "event_count": 5,
+      "name": "Syria"
     },
     {
       "event_count": 4,
@@ -6089,7 +6443,7 @@
     },
     {
       "event_count": 4,
-      "name": "Iran"
+      "name": "Democratic Republic of the Congo"
     },
     {
       "event_count": 4,
@@ -6097,15 +6451,7 @@
     },
     {
       "event_count": 4,
-      "name": "Syria"
-    },
-    {
-      "event_count": 4,
       "name": "Türkiye"
-    },
-    {
-      "event_count": 3,
-      "name": "Democratic Republic of the Congo"
     },
     {
       "event_count": 3,
@@ -6129,11 +6475,19 @@
     },
     {
       "event_count": 2,
+      "name": "East Asia"
+    },
+    {
+      "event_count": 2,
       "name": "Eastern Mediterranean"
     },
     {
       "event_count": 2,
       "name": "Egypt"
+    },
+    {
+      "event_count": 2,
+      "name": "France"
     },
     {
       "event_count": 2,
@@ -6241,6 +6595,14 @@
     },
     {
       "event_count": 1,
+      "name": "Caribbean"
+    },
+    {
+      "event_count": 1,
+      "name": "Central Africa"
+    },
+    {
+      "event_count": 1,
       "name": "Central African Republic"
     },
     {
@@ -6253,7 +6615,7 @@
     },
     {
       "event_count": 1,
-      "name": "East Asia"
+      "name": "East Africa"
     },
     {
       "event_count": 1,
@@ -6285,10 +6647,6 @@
     },
     {
       "event_count": 1,
-      "name": "France"
-    },
-    {
-      "event_count": 1,
       "name": "Greece"
     },
     {
@@ -6297,11 +6655,23 @@
     },
     {
       "event_count": 1,
+      "name": "Haiti"
+    },
+    {
+      "event_count": 1,
       "name": "Hungary"
     },
     {
       "event_count": 1,
       "name": "Iraq"
+    },
+    {
+      "event_count": 1,
+      "name": "Jonglei"
+    },
+    {
+      "event_count": 1,
+      "name": "Kenscoff"
     },
     {
       "event_count": 1,
@@ -6322,6 +6692,10 @@
     {
       "event_count": 1,
       "name": "NATO"
+    },
+    {
+      "event_count": 1,
+      "name": "Nevada"
     },
     {
       "event_count": 1,
@@ -6349,6 +6723,10 @@
     },
     {
       "event_count": 1,
+      "name": "Reno"
+    },
+    {
+      "event_count": 1,
       "name": "Romania"
     },
     {
@@ -6362,6 +6740,10 @@
     {
       "event_count": 1,
       "name": "South Asia"
+    },
+    {
+      "event_count": 1,
+      "name": "South Sudan"
     },
     {
       "event_count": 1,
@@ -6393,6 +6775,10 @@
     },
     {
       "event_count": 1,
+      "name": "United Kingdom"
+    },
+    {
+      "event_count": 1,
       "name": "Venezuela"
     },
     {
@@ -6415,29 +6801,29 @@
   "schema_version": 1,
   "source_types": [
     {
-      "event_count": 116,
+      "event_count": 122,
       "name": "wire",
-      "source_links": 133
+      "source_links": 139
     },
     {
-      "event_count": 68,
+      "event_count": 74,
       "name": "primary",
-      "source_links": 81
+      "source_links": 87
     },
     {
-      "event_count": 37,
+      "event_count": 39,
       "name": "code",
-      "source_links": 66
+      "source_links": 68
     },
     {
-      "event_count": 24,
+      "event_count": 25,
       "name": "research",
-      "source_links": 37
+      "source_links": 39
     },
     {
-      "event_count": 15,
+      "event_count": 16,
       "name": "model-card",
-      "source_links": 27
+      "source_links": 28
     },
     {
       "event_count": 18,
