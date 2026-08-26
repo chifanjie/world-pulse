@@ -2,6 +2,38 @@
   "version": 1,
   "entries": [
     {
+      "date": "2026-08-26",
+      "digest_path": "digests/2026/08/2026-08-26.md",
+      "data_path": "data/2026/08/2026-08-26.json",
+      "generated_at": "2026-08-26T09:17:22+08:00",
+      "item_count": 11,
+      "ai_radar_count": 3,
+      "categories": [
+        "climate-environment",
+        "culture",
+        "economy",
+        "politics",
+        "technology"
+      ],
+      "regions": [
+        "Africa",
+        "Asia",
+        "Canada",
+        "China",
+        "Democratic Republic of the Congo",
+        "Europe",
+        "Germany",
+        "Global",
+        "Guangxi",
+        "India",
+        "Middle East",
+        "North America",
+        "Syria",
+        "Taiwan",
+        "United States"
+      ]
+    },
+    {
       "date": "2026-08-25",
       "digest_path": "digests/2026/08/2026-08-25.md",
       "data_path": "data/2026/08/2026-08-25.json",
