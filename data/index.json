@@ -2,6 +2,34 @@
   "version": 1,
   "entries": [
     {
+      "date": "2026-08-27",
+      "digest_path": "digests/2026/08/2026-08-27.md",
+      "data_path": "data/2026/08/2026-08-27.json",
+      "generated_at": "2026-08-27T09:10:39+08:00",
+      "item_count": 9,
+      "ai_radar_count": 3,
+      "categories": [
+        "climate-environment",
+        "economy",
+        "health-society",
+        "politics",
+        "technology"
+      ],
+      "regions": [
+        "Asia",
+        "China",
+        "Global",
+        "Iran",
+        "Middle East",
+        "Nepal",
+        "North America",
+        "Oman",
+        "Pakistan",
+        "Tibet",
+        "United States"
+      ]
+    },
+    {
       "date": "2026-08-26",
       "digest_path": "digests/2026/08/2026-08-26.md",
       "data_path": "data/2026/08/2026-08-26.json",

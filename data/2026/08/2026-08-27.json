@@ -1,0 +1,335 @@
+{
+  "date": "2026-08-27",
+  "timezone": "Asia/Shanghai",
+  "generated_at": "2026-08-27T09:10:39+08:00",
+  "overview": "英伟达季度营收因 AI 基础设施需求翻倍，尼泊尔—西藏跨境洪灾造成至少 160 人死亡；Meta 青少年保护和解、美国通胀、伊斯兰堡医院火灾与霍尔木兹海峡航运谈判同步受到关注。AI 雷达聚焦具身基础模型、多模态向量模型与自适应提示注入防御。",
+  "digest_path": "digests/2026/08/2026-08-27.md",
+  "ai_radar": {
+    "selection_as_of": "2026-08-27T09:10:39+08:00",
+    "item_ids": [
+      "gigabrain-0-7-embodied-foundation-model",
+      "wemm-multimodal-embedding-family",
+      "secopd-adaptive-prompt-injection-defense"
+    ]
+  },
+  "items": [
+    {
+      "id": "gigabrain-0-7-embodied-foundation-model",
+      "section": "ai-frontier",
+      "category": "technology",
+      "regions": ["Global", "Asia", "China"],
+      "title": "GigaBrain-0.7 以三系统架构统一机器人的理解、预测与动作",
+      "summary": "GigaBrain-0.7 团队发布 3.5B 模型权重，配套论文称其用三系统架构统一理解、预测和动作，并把预训练扩展到超过 3.7 万小时的异构具身数据。",
+      "why_it_matters": "开放权重让研究者能够检查具身模型如何跨机器人形态生成动作，也为比较端到端 VLA 与分模块架构提供可运行工件。",
+      "uncertainty": "论文在 8 月 16 日发布，进入本期是因为模型权重在观察窗口内上线；性能和真实机器人成功率均为团队自报，尚未见独立复现，模型卡中的通用 Diffusers 示例也不等同于机器人部署说明。",
+      "confidence": "medium",
+      "ai": {
+        "kind": "open-weight-embodied-foundation-model",
+        "topics": ["robotics", "vision-language-action", "world-model", "embodied-ai", "multi-embodiment"],
+        "artifact_date": "2026-08-26",
+        "artifact_status": "public Apache-2.0 model weights released in the observation window; accompanying preprint submitted 2026-08-16",
+        "technical_takeaway": "模型把视觉语言理解、未来预测和跨形态动作生成组织为三个协同系统，并用单阶段对齐联合优化理解与控制。",
+        "evidence_level": "primary preprint, public model card and code repository; no independent benchmark reproduction located",
+        "code_url": "https://github.com/open-gigaai/giga-brain-0",
+        "heat": {
+          "label": "new public model artifact with active paper-page attention; platform activity is not evidence of quality or adoption",
+          "as_of": "2026-08-27T09:10:39+08:00",
+          "signals": [
+            {
+              "platform": "Hugging Face",
+              "observation": "the 3.5B Apache-2.0 model card and weights were newly available during the observation window",
+              "url": "https://huggingface.co/open-gigaai/GigaBrain-0.7-3.5B-Base"
+            }
+          ]
+        }
+      },
+      "sources": [
+        {
+          "publisher": "arXiv",
+          "title": "GigaBrain-0.7: Scaling Embodied Foundation Models to Emergent Capabilities with a Three-System Architecture",
+          "url": "https://arxiv.org/abs/2608.15875",
+          "published_at": "2026-08-16T17:54:15Z",
+          "source_type": "research"
+        },
+        {
+          "publisher": "Hugging Face",
+          "title": "GigaBrain-0.7-3.5B-Base model card and weights",
+          "url": "https://huggingface.co/open-gigaai/GigaBrain-0.7-3.5B-Base",
+          "published_at": "accessed 2026-08-27T09:10:39+08:00",
+          "source_type": "model-card"
+        },
+        {
+          "publisher": "GigaAI",
+          "title": "GigaBrain open-source repository",
+          "url": "https://github.com/open-gigaai/giga-brain-0",
+          "published_at": "accessed 2026-08-27T09:10:39+08:00",
+          "source_type": "primary"
+        }
+      ]
+    },
+    {
+      "id": "wemm-multimodal-embedding-family",
+      "section": "ai-frontier",
+      "category": "technology",
+      "regions": ["Global", "Asia", "China"],
+      "title": "WeMM-Embedding 开源 2B、4B 与 9B 通用多模态向量模型",
+      "summary": "微信团队发布 WeMM-Embedding，支持文本、图像、视频、视觉文档和任意交错输入，并允许调整输出维度；模型权重和代码已公开。",
+      "why_it_matters": "统一向量空间可减少检索、推荐和智能体知识库为不同媒介维护多套索引的成本，开放多种尺寸也便于评估质量与延迟取舍。",
+      "uncertainty": "论文所称 MMEB-v2 80.6 分、26 项内部任务和 14 次线上 A/B 测试提升均由团队报告；生产流量、比较设置和独立复现尚不足以验证通用优势。",
+      "confidence": "medium",
+      "ai": {
+        "kind": "open-weight-universal-multimodal-embedding-family",
+        "topics": ["multimodal-embedding", "retrieval", "recommendation", "video", "visual-documents"],
+        "artifact_date": "2026-08-25T04:23:03Z",
+        "artifact_status": "new technical report with public 2B, 4B and 9B model weights and code",
+        "technical_takeaway": "两阶段训练先做大规模多模态对齐，再用精选数据、细粒度相关性监督和跨尺寸知识迁移细化统一表示。",
+        "evidence_level": "primary technical report, public model artifacts and code; public and production claims await independent reproduction",
+        "code_url": "https://github.com/Tencent/WeMM-Embedding",
+        "heat": {
+          "label": "new paper and public model family with early platform attention; ranking and upvotes are not quality evidence",
+          "as_of": "2026-08-27T09:10:39+08:00",
+          "signals": [
+            {
+              "platform": "Hugging Face Papers",
+              "observation": "the paper reached the dated daily-papers page while model cards and code were publicly linked",
+              "url": "https://huggingface.co/papers/2608.24053"
+            }
+          ]
+        }
+      },
+      "sources": [
+        {
+          "publisher": "arXiv",
+          "title": "WeMM-Embedding: WeChat Multi-Modal Embedding Technical Report",
+          "url": "https://arxiv.org/abs/2608.24053",
+          "published_at": "2026-08-25T04:23:03Z",
+          "source_type": "research"
+        },
+        {
+          "publisher": "Tencent",
+          "title": "WeMM-Embedding code repository",
+          "url": "https://github.com/Tencent/WeMM-Embedding",
+          "published_at": "accessed 2026-08-27T09:10:39+08:00",
+          "source_type": "primary"
+        },
+        {
+          "publisher": "Hugging Face Papers",
+          "title": "WeMM-Embedding paper and linked model artifacts",
+          "url": "https://huggingface.co/papers/2608.24053",
+          "published_at": "accessed 2026-08-27T09:10:39+08:00",
+          "source_type": "community-index"
+        }
+      ]
+    },
+    {
+      "id": "secopd-adaptive-prompt-injection-defense",
+      "section": "ai-frontier",
+      "category": "technology",
+      "regions": ["Global", "North America"],
+      "title": "SecOPD 用安全的在线策略蒸馏抵御自适应提示注入",
+      "summary": "SecOPD 提出让教师模型对学生模型的在线输出给出逐 token 安全反馈，以训练代理在读取网页、文件或邮件时区分任务指令与恶意嵌入指令。",
+      "why_it_matters": "工具型智能体会把外部内容转化为真实操作；若逐 token 反馈能在不显著损害效用的前提下降低攻击成功率，它可能补强仅靠系统提示或序列级偏好训练的防线。",
+      "uncertainty": "论文已获 EMNLP 2026 主会接收，但攻击成功率来自作者设置；模型规模、攻击者适配能力、业务工具权限和运行时隔离差异都可能改变结果，不能把低基准 ASR 视为部署安全保证。",
+      "confidence": "medium",
+      "ai": {
+        "kind": "prompt-injection-defense-training-method",
+        "topics": ["agent-security", "prompt-injection", "on-policy-distillation", "tool-use", "alignment"],
+        "artifact_date": "2026-08-21T16:14:07Z",
+        "artifact_status": "EMNLP 2026 main-conference paper with public code and model checkpoint",
+        "technical_takeaway": "方法以安全教师对在线策略生成序列提供逐 token 奖励，避免只用整段成败信号训练时无法定位恶意指令片段的问题。",
+        "evidence_level": "peer-reviewed conference paper with public code and model; reported robustness has not been independently reproduced",
+        "code_url": "https://github.com/pppyb/SecOPD",
+        "heat": {
+          "label": "recently surfaced conference paper with public code and checkpoint; attention is not evidence of deployment readiness",
+          "as_of": "2026-08-27T09:10:39+08:00",
+          "signals": [
+            {
+              "platform": "Hugging Face Papers",
+              "observation": "the paper was submitted to the daily-papers feed on August 26 and links a public checkpoint",
+              "url": "https://huggingface.co/papers/2608.21500"
+            }
+          ]
+        }
+      },
+      "sources": [
+        {
+          "publisher": "arXiv",
+          "title": "SecOPD: Mitigating Adaptive Prompt Injections by On-Policy Distillation",
+          "url": "https://arxiv.org/abs/2608.21500",
+          "published_at": "2026-08-21T16:14:07Z",
+          "source_type": "research"
+        },
+        {
+          "publisher": "SecOPD authors",
+          "title": "SecOPD code repository",
+          "url": "https://github.com/pppyb/SecOPD",
+          "published_at": "accessed 2026-08-27T09:10:39+08:00",
+          "source_type": "primary"
+        },
+        {
+          "publisher": "Hugging Face",
+          "title": "Qwen3.6-27B-SecOPD model checkpoint",
+          "url": "https://huggingface.co/pybbb/Qwen3.6-27B-SecOPD",
+          "published_at": "accessed 2026-08-27T09:10:39+08:00",
+          "source_type": "model-card"
+        }
+      ]
+    },
+    {
+      "id": "nvidia-q2-fy2027-results",
+      "category": "technology",
+      "regions": ["North America", "United States", "Global"],
+      "title": "英伟达季度营收达 962 亿美元，数据中心收入同比增 117%",
+      "summary": "英伟达公布 2027 财年第二季度营收 962 亿美元，同比增长 106%；数据中心收入 890 亿美元，同比增长 117%，GAAP 净利润 596.88 亿美元。",
+      "why_it_matters": "数据中心已占季度营收约九成，显示全球 AI 基础设施开支仍高度集中于加速计算，也会影响云服务商资本支出、供应链和市场估值。",
+      "uncertainty": "季度数据来自公司未经审计披露；未来需求、供给、出口规则和客户资本开支均可能变化，公司前瞻声明不等同于已实现收入。",
+      "confidence": "high",
+      "sources": [
+        {
+          "publisher": "NVIDIA",
+          "title": "NVIDIA Announces Financial Results for Second Quarter Fiscal 2027",
+          "url": "https://nvidianews.nvidia.com/news/nvidia-announces-financial-results-for-second-quarter-fiscal-2027",
+          "published_at": "2026-08-26",
+          "source_type": "primary"
+        },
+        {
+          "publisher": "Associated Press",
+          "title": "Nvidia results show continued strong demand for AI chips",
+          "url": "https://apnews.com/article/dc8d556e709b50915cca9217a60b1991",
+          "published_at": "2026-08-26T20:40:45Z",
+          "source_type": "wire"
+        }
+      ]
+    },
+    {
+      "id": "nepal-tibet-cross-border-flash-flood",
+      "category": "climate-environment",
+      "regions": ["Asia", "Nepal", "China", "Tibet"],
+      "title": "尼泊尔—西藏跨境山洪造成至少 160 人死亡",
+      "summary": "尼泊尔警方称 157 人死亡、403 人失踪，中国央视称西藏另有 3 人死亡、265 人失踪；洪峰沿 Bhote Koshi—Trishuli 河系下泄。",
+      "why_it_matters": "跨境洪水同时冲击居民、游客、道路、监测站与水电设施，凸显喜马拉雅高山区预警、数据共享和联合救援的重要性。",
+      "uncertainty": "伤亡与失踪数字仍会调整；ICIMOD 初步怀疑高海拔冰岩崩塌触发洪水，并警告上游堵塞可能造成二次洪峰，但成因和气候变化作用尚未确认。",
+      "confidence": "medium",
+      "sources": [
+        {
+          "publisher": "Associated Press",
+          "title": "Flash floods in Nepal and Tibet leave at least 160 dead and hundreds missing",
+          "url": "https://apnews.com/article/climate-change-nepal-flash-floods-7262dac22e31258955efa5c28c8fe917",
+          "published_at": "2026-08-26T10:14:38Z",
+          "source_type": "wire"
+        },
+        {
+          "publisher": "ICIMOD",
+          "title": "Major flash flood sweeps through Nepal’s Rasuwa district, raising fears of further downstream flooding",
+          "url": "https://www.icimod.org/press-release/major-flash-flood-sweeps-through-nepals-rasuwa-district-raising-fears-of-further-downstream-flooding/",
+          "published_at": "2026-08-26",
+          "source_type": "primary"
+        }
+      ]
+    },
+    {
+      "id": "meta-youth-safety-multistate-settlement",
+      "category": "technology",
+      "regions": ["North America", "United States"],
+      "title": "Meta 与美国多州达成最高 171 亿美元青少年保护和解",
+      "summary": "纽约州总检察长宣布 Meta 同意至少支付 121 亿美元、在可比后续和解条件下最高 171 亿美元，并对未满 18 岁用户实施每日两小时上限、夜间停用与年龄核验等改革。",
+      "why_it_matters": "和解若获法院批准，将把青少年社交媒体保护从自愿产品设置转为可执行义务，并可能影响其他平台的年龄核验、推荐和通知设计。",
+      "uncertainty": "协议仍须法院批准，最高金额取决于未来可比和解；个人、学区等其他诉讼仍在继续，改革的实施细节和效果尚待监督。",
+      "confidence": "high",
+      "sources": [
+        {
+          "publisher": "New York State Office of the Attorney General",
+          "title": "Attorney General James Secures $17.1 Billion and Groundbreaking Reforms from Meta",
+          "url": "https://ag.ny.gov/press-release/2026/attorney-general-james-secures-171-billion-and-groundbreaking-reforms-meta",
+          "published_at": "2026-08-26",
+          "source_type": "primary"
+        },
+        {
+          "publisher": "Associated Press",
+          "title": "Meta agrees to landmark settlement over youth harms from Instagram and Facebook",
+          "url": "https://apnews.com/article/meta-trial-instagram-settlement-97d342f2a33d835eda2356c5e1af9e37",
+          "published_at": "2026-08-26T13:38:44Z",
+          "source_type": "wire"
+        }
+      ]
+    },
+    {
+      "id": "us-pce-inflation-july-2026",
+      "category": "economy",
+      "regions": ["North America", "United States", "Global"],
+      "title": "美国 7 月 PCE 通胀同比维持 3.7%，实际消费近乎停滞",
+      "summary": "美国经济分析局称 7 月 PCE 价格指数环比上涨 0.2%、同比上涨 3.7%，核心 PCE 同比上涨 3.3%；名义消费增长 0.2%，实际消费不足 0.1%。",
+      "why_it_matters": "通胀继续高于美联储 2% 目标，而实际消费动能很弱，令利率、家庭购买力和全球美元资产定价面临更难的权衡。",
+      "uncertainty": "PCE 数据会修订，8 月能源价格和即将调整的部分服务价格计算方法可能改变后续读数；单月数据不能单独确定政策路径。",
+      "confidence": "high",
+      "sources": [
+        {
+          "publisher": "U.S. Bureau of Economic Analysis",
+          "title": "Personal Income and Outlays, July 2026",
+          "url": "https://www.bea.gov/news/2026/personal-income-and-outlays-july-2026",
+          "published_at": "2026-08-26T08:30:00-04:00",
+          "source_type": "primary"
+        },
+        {
+          "publisher": "Associated Press",
+          "title": "Key inflation gauge remains elevated during Iran conflict and ongoing US trade fights",
+          "url": "https://apnews.com/article/a7ee35490dc5be41640379b6eafd11a4",
+          "published_at": "2026-08-26T12:40:52Z",
+          "source_type": "wire"
+        }
+      ]
+    },
+    {
+      "id": "islamabad-hospital-nursery-fire",
+      "category": "health-society",
+      "regions": ["Asia", "Pakistan"],
+      "title": "伊斯兰堡医院新生儿室火灾造成 14 名婴儿死亡",
+      "summary": "巴基斯坦官员称，伊斯兰堡一家公立医院新生儿室因空调爆炸起火，获救的 15 名婴儿中仅 1 人生还；火势被限制在新生儿室。",
+      "why_it_matters": "事故暴露关键医疗设施的电气安全、疏散和新生儿重症救护风险，也考验调查透明度与全国医院安全检查能否落实。",
+      "uncertainty": "空调爆炸是官员目前给出的初步原因，事实调查报告尚未完成；设备维护、消防系统和责任链仍待独立核查。",
+      "confidence": "medium",
+      "sources": [
+        {
+          "publisher": "Associated Press",
+          "title": "Hospital nursery fire in Pakistan kills 14 newborns",
+          "url": "https://apnews.com/article/pakistan-islamabad-hospital-fire-nursery-infants-killed-277ecc4d3dc2e87b7be49e2911c43c0b",
+          "published_at": "2026-08-26T05:15:22Z",
+          "source_type": "wire"
+        },
+        {
+          "publisher": "Reuters via Devdiscourse",
+          "title": "Fourteen newborns die in Islamabad hospital fire",
+          "url": "https://www.devdiscourse.com/article/international/3968221-reuters-world-news-summary",
+          "published_at": "2026-08-26T11:22:13Z",
+          "source_type": "wire"
+        }
+      ]
+    },
+    {
+      "id": "iran-oman-hormuz-temporary-corridor-talks",
+      "category": "politics",
+      "regions": ["Middle East", "Iran", "Oman", "Global"],
+      "title": "伊朗与阿曼推进霍尔木兹海峡临时航道和联合扫雷框架",
+      "summary": "伊朗与阿曼讨论分阶段恢复霍尔木兹海峡安全航行的框架，包括建立联合临时航道和联合扫雷；伊朗官员称潜在安排将排除军舰。",
+      "why_it_matters": "该海峡仍大体关闭，任何可执行的商业航运通道都可能影响能源供应、保险费率和地区降级；联合扫雷是恢复常态通行的基础条件。",
+      "uncertainty": "目前是拟议框架和技术谈判，并非永久航道已经开放；军舰排除、航线管辖、安保与 30 至 60 天后永久安排仍可能改变。",
+      "confidence": "medium",
+      "sources": [
+        {
+          "publisher": "Emirates News Agency",
+          "title": "Oman, Iran discuss proposed framework to establish joint temporary navigational corridor through Strait of Hormuz",
+          "url": "https://www.wam.ae/en/article/c1wufuy-oman-iran-discuss-proposed-framework-establish",
+          "published_at": "2026-08-25T21:00:43+04:00",
+          "source_type": "primary"
+        },
+        {
+          "publisher": "Associated Press",
+          "title": "Iran warns of military ship ban in Hormuz under potential deal with Oman",
+          "url": "https://apnews.com/article/cb19bc3f0b467db591edbef52d0db273",
+          "published_at": "2026-08-26T11:22:13Z",
+          "source_type": "wire"
+        }
+      ]
+    }
+  ]
+}

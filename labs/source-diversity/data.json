@@ -1,20 +1,28 @@
 {
   "built_from": "data/index.json",
   "counts": {
-    "ai_events": 51,
-    "digests": 17,
-    "events": 187,
+    "ai_events": 54,
+    "digests": 18,
+    "events": 196,
     "single_source_events": 46,
-    "source_links": 407,
-    "unique_source_urls": 399,
-    "world_events": 136,
+    "source_links": 428,
+    "unique_source_urls": 420,
+    "world_events": 142,
     "zero_source_events": 0
   },
   "date_range": {
-    "end": "2026-08-26",
+    "end": "2026-08-27",
     "start": "2026-08-03"
   },
   "dates": [
+    {
+      "ai_event_count": 3,
+      "date": "2026-08-27",
+      "event_count": 9,
+      "single_source_events": 0,
+      "source_links": 21,
+      "world_event_count": 6
+    },
     {
       "ai_event_count": 3,
       "date": "2026-08-26",
@@ -153,6 +161,305 @@
     }
   ],
   "events": [
+    {
+      "category": "technology",
+      "confidence": "medium",
+      "date": "2026-08-27",
+      "id": "gigabrain-0-7-embodied-foundation-model",
+      "regions": [
+        "Asia",
+        "China",
+        "Global"
+      ],
+      "section": "ai",
+      "single_source": false,
+      "source_count": 3,
+      "sources": [
+        {
+          "published_at": "2026-08-16T17:54:15Z",
+          "publisher": "arXiv",
+          "source_type": "research",
+          "title": "GigaBrain-0.7: Scaling Embodied Foundation Models to Emergent Capabilities with a Three-System Architecture",
+          "url": "https://arxiv.org/abs/2608.15875"
+        },
+        {
+          "published_at": "accessed 2026-08-27T09:10:39+08:00",
+          "publisher": "GigaAI",
+          "source_type": "primary",
+          "title": "GigaBrain open-source repository",
+          "url": "https://github.com/open-gigaai/giga-brain-0"
+        },
+        {
+          "published_at": "accessed 2026-08-27T09:10:39+08:00",
+          "publisher": "Hugging Face",
+          "source_type": "model-card",
+          "title": "GigaBrain-0.7-3.5B-Base model card and weights",
+          "url": "https://huggingface.co/open-gigaai/GigaBrain-0.7-3.5B-Base"
+        }
+      ],
+      "title": "GigaBrain-0.7 以三系统架构统一机器人的理解、预测与动作"
+    },
+    {
+      "category": "technology",
+      "confidence": "medium",
+      "date": "2026-08-27",
+      "id": "secopd-adaptive-prompt-injection-defense",
+      "regions": [
+        "Global",
+        "North America"
+      ],
+      "section": "ai",
+      "single_source": false,
+      "source_count": 3,
+      "sources": [
+        {
+          "published_at": "2026-08-21T16:14:07Z",
+          "publisher": "arXiv",
+          "source_type": "research",
+          "title": "SecOPD: Mitigating Adaptive Prompt Injections by On-Policy Distillation",
+          "url": "https://arxiv.org/abs/2608.21500"
+        },
+        {
+          "published_at": "accessed 2026-08-27T09:10:39+08:00",
+          "publisher": "Hugging Face",
+          "source_type": "model-card",
+          "title": "Qwen3.6-27B-SecOPD model checkpoint",
+          "url": "https://huggingface.co/pybbb/Qwen3.6-27B-SecOPD"
+        },
+        {
+          "published_at": "accessed 2026-08-27T09:10:39+08:00",
+          "publisher": "SecOPD authors",
+          "source_type": "primary",
+          "title": "SecOPD code repository",
+          "url": "https://github.com/pppyb/SecOPD"
+        }
+      ],
+      "title": "SecOPD 用安全的在线策略蒸馏抵御自适应提示注入"
+    },
+    {
+      "category": "technology",
+      "confidence": "medium",
+      "date": "2026-08-27",
+      "id": "wemm-multimodal-embedding-family",
+      "regions": [
+        "Asia",
+        "China",
+        "Global"
+      ],
+      "section": "ai",
+      "single_source": false,
+      "source_count": 3,
+      "sources": [
+        {
+          "published_at": "2026-08-25T04:23:03Z",
+          "publisher": "arXiv",
+          "source_type": "research",
+          "title": "WeMM-Embedding: WeChat Multi-Modal Embedding Technical Report",
+          "url": "https://arxiv.org/abs/2608.24053"
+        },
+        {
+          "published_at": "accessed 2026-08-27T09:10:39+08:00",
+          "publisher": "Hugging Face Papers",
+          "source_type": "community-index",
+          "title": "WeMM-Embedding paper and linked model artifacts",
+          "url": "https://huggingface.co/papers/2608.24053"
+        },
+        {
+          "published_at": "accessed 2026-08-27T09:10:39+08:00",
+          "publisher": "Tencent",
+          "source_type": "primary",
+          "title": "WeMM-Embedding code repository",
+          "url": "https://github.com/Tencent/WeMM-Embedding"
+        }
+      ],
+      "title": "WeMM-Embedding 开源 2B、4B 与 9B 通用多模态向量模型"
+    },
+    {
+      "category": "politics",
+      "confidence": "medium",
+      "date": "2026-08-27",
+      "id": "iran-oman-hormuz-temporary-corridor-talks",
+      "regions": [
+        "Global",
+        "Iran",
+        "Middle East",
+        "Oman"
+      ],
+      "section": "world",
+      "single_source": false,
+      "source_count": 2,
+      "sources": [
+        {
+          "published_at": "2026-08-26T11:22:13Z",
+          "publisher": "Associated Press",
+          "source_type": "wire",
+          "title": "Iran warns of military ship ban in Hormuz under potential deal with Oman",
+          "url": "https://apnews.com/article/cb19bc3f0b467db591edbef52d0db273"
+        },
+        {
+          "published_at": "2026-08-25T21:00:43+04:00",
+          "publisher": "Emirates News Agency",
+          "source_type": "primary",
+          "title": "Oman, Iran discuss proposed framework to establish joint temporary navigational corridor through Strait of Hormuz",
+          "url": "https://www.wam.ae/en/article/c1wufuy-oman-iran-discuss-proposed-framework-establish"
+        }
+      ],
+      "title": "伊朗与阿曼推进霍尔木兹海峡临时航道和联合扫雷框架"
+    },
+    {
+      "category": "health-society",
+      "confidence": "medium",
+      "date": "2026-08-27",
+      "id": "islamabad-hospital-nursery-fire",
+      "regions": [
+        "Asia",
+        "Pakistan"
+      ],
+      "section": "world",
+      "single_source": false,
+      "source_count": 2,
+      "sources": [
+        {
+          "published_at": "2026-08-26T05:15:22Z",
+          "publisher": "Associated Press",
+          "source_type": "wire",
+          "title": "Hospital nursery fire in Pakistan kills 14 newborns",
+          "url": "https://apnews.com/article/pakistan-islamabad-hospital-fire-nursery-infants-killed-277ecc4d3dc2e87b7be49e2911c43c0b"
+        },
+        {
+          "published_at": "2026-08-26T11:22:13Z",
+          "publisher": "Reuters via Devdiscourse",
+          "source_type": "wire",
+          "title": "Fourteen newborns die in Islamabad hospital fire",
+          "url": "https://www.devdiscourse.com/article/international/3968221-reuters-world-news-summary"
+        }
+      ],
+      "title": "伊斯兰堡医院新生儿室火灾造成 14 名婴儿死亡"
+    },
+    {
+      "category": "technology",
+      "confidence": "high",
+      "date": "2026-08-27",
+      "id": "meta-youth-safety-multistate-settlement",
+      "regions": [
+        "North America",
+        "United States"
+      ],
+      "section": "world",
+      "single_source": false,
+      "source_count": 2,
+      "sources": [
+        {
+          "published_at": "2026-08-26T13:38:44Z",
+          "publisher": "Associated Press",
+          "source_type": "wire",
+          "title": "Meta agrees to landmark settlement over youth harms from Instagram and Facebook",
+          "url": "https://apnews.com/article/meta-trial-instagram-settlement-97d342f2a33d835eda2356c5e1af9e37"
+        },
+        {
+          "published_at": "2026-08-26",
+          "publisher": "New York State Office of the Attorney General",
+          "source_type": "primary",
+          "title": "Attorney General James Secures $17.1 Billion and Groundbreaking Reforms from Meta",
+          "url": "https://ag.ny.gov/press-release/2026/attorney-general-james-secures-171-billion-and-groundbreaking-reforms-meta"
+        }
+      ],
+      "title": "Meta 与美国多州达成最高 171 亿美元青少年保护和解"
+    },
+    {
+      "category": "climate-environment",
+      "confidence": "medium",
+      "date": "2026-08-27",
+      "id": "nepal-tibet-cross-border-flash-flood",
+      "regions": [
+        "Asia",
+        "China",
+        "Nepal",
+        "Tibet"
+      ],
+      "section": "world",
+      "single_source": false,
+      "source_count": 2,
+      "sources": [
+        {
+          "published_at": "2026-08-26T10:14:38Z",
+          "publisher": "Associated Press",
+          "source_type": "wire",
+          "title": "Flash floods in Nepal and Tibet leave at least 160 dead and hundreds missing",
+          "url": "https://apnews.com/article/climate-change-nepal-flash-floods-7262dac22e31258955efa5c28c8fe917"
+        },
+        {
+          "published_at": "2026-08-26",
+          "publisher": "ICIMOD",
+          "source_type": "primary",
+          "title": "Major flash flood sweeps through Nepal’s Rasuwa district, raising fears of further downstream flooding",
+          "url": "https://www.icimod.org/press-release/major-flash-flood-sweeps-through-nepals-rasuwa-district-raising-fears-of-further-downstream-flooding/"
+        }
+      ],
+      "title": "尼泊尔—西藏跨境山洪造成至少 160 人死亡"
+    },
+    {
+      "category": "technology",
+      "confidence": "high",
+      "date": "2026-08-27",
+      "id": "nvidia-q2-fy2027-results",
+      "regions": [
+        "Global",
+        "North America",
+        "United States"
+      ],
+      "section": "world",
+      "single_source": false,
+      "source_count": 2,
+      "sources": [
+        {
+          "published_at": "2026-08-26T20:40:45Z",
+          "publisher": "Associated Press",
+          "source_type": "wire",
+          "title": "Nvidia results show continued strong demand for AI chips",
+          "url": "https://apnews.com/article/dc8d556e709b50915cca9217a60b1991"
+        },
+        {
+          "published_at": "2026-08-26",
+          "publisher": "NVIDIA",
+          "source_type": "primary",
+          "title": "NVIDIA Announces Financial Results for Second Quarter Fiscal 2027",
+          "url": "https://nvidianews.nvidia.com/news/nvidia-announces-financial-results-for-second-quarter-fiscal-2027"
+        }
+      ],
+      "title": "英伟达季度营收达 962 亿美元，数据中心收入同比增 117%"
+    },
+    {
+      "category": "economy",
+      "confidence": "high",
+      "date": "2026-08-27",
+      "id": "us-pce-inflation-july-2026",
+      "regions": [
+        "Global",
+        "North America",
+        "United States"
+      ],
+      "section": "world",
+      "single_source": false,
+      "source_count": 2,
+      "sources": [
+        {
+          "published_at": "2026-08-26T12:40:52Z",
+          "publisher": "Associated Press",
+          "source_type": "wire",
+          "title": "Key inflation gauge remains elevated during Iran conflict and ongoing US trade fights",
+          "url": "https://apnews.com/article/a7ee35490dc5be41640379b6eafd11a4"
+        },
+        {
+          "published_at": "2026-08-26T08:30:00-04:00",
+          "publisher": "U.S. Bureau of Economic Analysis",
+          "source_type": "primary",
+          "title": "Personal Income and Outlays, July 2026",
+          "url": "https://www.bea.gov/news/2026/personal-income-and-outlays-july-2026"
+        }
+      ],
+      "title": "美国 7 月 PCE 通胀同比维持 3.7%，实际消费近乎停滞"
+    },
     {
       "category": "technology",
       "confidence": "medium",
@@ -6108,17 +6415,17 @@
       "title": "降级预期推动油价早盘回落约 4 美元"
     }
   ],
-  "latest_digest_generated_at": "2026-08-26T09:17:22+08:00",
+  "latest_digest_generated_at": "2026-08-27T09:10:39+08:00",
   "publishers": [
     {
-      "event_count": 117,
+      "event_count": 123,
       "name": "Associated Press",
-      "source_links": 123
+      "source_links": 129
     },
     {
-      "event_count": 22,
+      "event_count": 25,
       "name": "arXiv",
-      "source_links": 29
+      "source_links": 32
     },
     {
       "event_count": 17,
@@ -6126,9 +6433,9 @@
       "source_links": 19
     },
     {
-      "event_count": 8,
+      "event_count": 10,
       "name": "Hugging Face",
-      "source_links": 10
+      "source_links": 12
     },
     {
       "event_count": 3,
@@ -6176,6 +6483,16 @@
       "source_links": 4
     },
     {
+      "event_count": 4,
+      "name": "Reuters via Devdiscourse",
+      "source_links": 4
+    },
+    {
+      "event_count": 2,
+      "name": "Tencent",
+      "source_links": 4
+    },
+    {
       "event_count": 1,
       "name": "AlayaLab",
       "source_links": 3
@@ -6196,6 +6513,11 @@
       "source_links": 3
     },
     {
+      "event_count": 2,
+      "name": "NVIDIA",
+      "source_links": 3
+    },
+    {
       "event_count": 1,
       "name": "OpenHands",
       "source_links": 3
@@ -6203,16 +6525,6 @@
     {
       "event_count": 1,
       "name": "Pydantic / GitHub",
-      "source_links": 3
-    },
-    {
-      "event_count": 3,
-      "name": "Reuters via Devdiscourse",
-      "source_links": 3
-    },
-    {
-      "event_count": 1,
-      "name": "Tencent",
       "source_links": 3
     },
     {
@@ -6287,6 +6599,11 @@
     },
     {
       "event_count": 2,
+      "name": "Hugging Face Papers",
+      "source_links": 2
+    },
+    {
+      "event_count": 2,
       "name": "HuggingNews",
       "source_links": 2
     },
@@ -6313,11 +6630,6 @@
     {
       "event_count": 1,
       "name": "Meta / Hugging Face",
-      "source_links": 2
-    },
-    {
-      "event_count": 1,
-      "name": "NVIDIA",
       "source_links": 2
     },
     {
@@ -6482,6 +6794,11 @@
     },
     {
       "event_count": 1,
+      "name": "Emirates News Agency",
+      "source_links": 1
+    },
+    {
+      "event_count": 1,
       "name": "Eni",
       "source_links": 1
     },
@@ -6507,6 +6824,11 @@
     },
     {
       "event_count": 1,
+      "name": "GigaAI",
+      "source_links": 1
+    },
+    {
+      "event_count": 1,
       "name": "GitHub Agentic Workflows",
       "source_links": 1
     },
@@ -6522,7 +6844,7 @@
     },
     {
       "event_count": 1,
-      "name": "Hugging Face Papers",
+      "name": "ICIMOD",
       "source_links": 1
     },
     {
@@ -6657,6 +6979,11 @@
     },
     {
       "event_count": 1,
+      "name": "New York State Office of the Attorney General",
+      "source_links": 1
+    },
+    {
+      "event_count": 1,
       "name": "NOAA National Centers for Environmental Information",
       "source_links": 1
     },
@@ -6712,6 +7039,11 @@
     },
     {
       "event_count": 1,
+      "name": "SecOPD authors",
+      "source_links": 1
+    },
+    {
+      "event_count": 1,
       "name": "South African Department of International Relations and Cooperation",
       "source_links": 1
     },
@@ -6748,6 +7080,11 @@
     {
       "event_count": 1,
       "name": "Tribunal Superior Eleitoral",
+      "source_links": 1
+    },
+    {
+      "event_count": 1,
+      "name": "U.S. Bureau of Economic Analysis",
       "source_links": 1
     },
     {
@@ -6793,19 +7130,19 @@
   ],
   "regions": [
     {
-      "event_count": 67,
+      "event_count": 73,
       "name": "Global"
     },
     {
-      "event_count": 48,
+      "event_count": 52,
       "name": "North America"
     },
     {
-      "event_count": 45,
+      "event_count": 48,
       "name": "United States"
     },
     {
-      "event_count": 42,
+      "event_count": 46,
       "name": "Asia"
     },
     {
@@ -6813,7 +7150,7 @@
       "name": "Europe"
     },
     {
-      "event_count": 23,
+      "event_count": 24,
       "name": "Middle East"
     },
     {
@@ -6821,7 +7158,7 @@
       "name": "Africa"
     },
     {
-      "event_count": 15,
+      "event_count": 18,
       "name": "China"
     },
     {
@@ -6842,6 +7179,10 @@
     },
     {
       "event_count": 6,
+      "name": "Iran"
+    },
+    {
+      "event_count": 6,
       "name": "Syria"
     },
     {
@@ -6854,11 +7195,11 @@
     },
     {
       "event_count": 5,
-      "name": "Iran"
+      "name": "Japan"
     },
     {
       "event_count": 5,
-      "name": "Japan"
+      "name": "Oman"
     },
     {
       "event_count": 4,
@@ -6867,10 +7208,6 @@
     {
       "event_count": 4,
       "name": "Colombia"
-    },
-    {
-      "event_count": 4,
-      "name": "Oman"
     },
     {
       "event_count": 4,
@@ -6955,6 +7292,10 @@
     {
       "event_count": 2,
       "name": "Oceania"
+    },
+    {
+      "event_count": 2,
+      "name": "Pakistan"
     },
     {
       "event_count": 2,
@@ -7126,6 +7467,10 @@
     },
     {
       "event_count": 1,
+      "name": "Nepal"
+    },
+    {
+      "event_count": 1,
       "name": "Nevada"
     },
     {
@@ -7135,10 +7480,6 @@
     {
       "event_count": 1,
       "name": "Okinawa"
-    },
-    {
-      "event_count": 1,
-      "name": "Pakistan"
     },
     {
       "event_count": 1,
@@ -7194,6 +7535,10 @@
     },
     {
       "event_count": 1,
+      "name": "Tibet"
+    },
+    {
+      "event_count": 1,
       "name": "Tokyo Metropolitan Area"
     },
     {
@@ -7232,14 +7577,14 @@
   "schema_version": 1,
   "source_types": [
     {
-      "event_count": 128,
+      "event_count": 134,
       "name": "wire",
-      "source_links": 145
+      "source_links": 152
     },
     {
-      "event_count": 82,
+      "event_count": 90,
       "name": "primary",
-      "source_links": 95
+      "source_links": 103
     },
     {
       "event_count": 39,
@@ -7247,19 +7592,19 @@
       "source_links": 68
     },
     {
-      "event_count": 28,
+      "event_count": 31,
       "name": "research",
-      "source_links": 42
-    },
-    {
-      "event_count": 17,
-      "name": "model-card",
-      "source_links": 29
+      "source_links": 45
     },
     {
       "event_count": 19,
+      "name": "model-card",
+      "source_links": 31
+    },
+    {
+      "event_count": 20,
       "name": "community-index",
-      "source_links": 19
+      "source_links": 20
     },
     {
       "event_count": 8,
