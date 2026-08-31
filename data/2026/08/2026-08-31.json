@@ -1,0 +1,361 @@
+{
+  "date": "2026-08-31",
+  "timezone": "Asia/Shanghai",
+  "generated_at": "2026-08-31T11:10:29+08:00",
+  "overview": "霍尔木兹海峡附近的美伊军事行动升级，伊朗导弹与无人机行动牵动海湾安全；尼泊尔—西藏洪灾死亡和失踪数字继续上升。中国 8 月制造业 PMI 仍在收缩区间，冰岛否决重启欧盟谈判，塞浦路斯渡轮倾覆和瑞士阿劳枪击案造成伤亡。AI 雷达关注 StepGuard 逐步安全护栏、FastH3 四步视频蒸馏和 Meta 的 Muse Glimmer 本地智能体模型。",
+  "digest_path": "digests/2026/08/2026-08-31.md",
+  "ai_radar": {
+    "selection_as_of": "2026-08-31T11:10:29+08:00",
+    "item_ids": [
+      "stepguard-step-level-guardrails",
+      "fasth3-preview-v1-distilled-video",
+      "muse-glimmer-30b-local-agent"
+    ]
+  },
+  "items": [
+    {
+      "id": "stepguard-step-level-guardrails",
+      "section": "ai-frontier",
+      "category": "technology",
+      "regions": ["Global", "North America", "Asia"],
+      "title": "StepGuard 把智能体安全检查前移到每一步工具动作",
+      "summary": "StepGuard 团队发布 4B 开放权重护栏模型，在工具调用执行前判断候选动作，也能审计完整轨迹；论文配套 StepGen 数据引擎与 Balance-GRPO 训练方法。",
+      "why_it_matters": "在网页、文件和邮件会被转化为工具操作的智能体中，逐步拦截比事后审计更有机会阻止越权动作；开放权重还便于在本地权限边界内复现实验。",
+      "uncertainty": "攻击成功率和效用结果来自作者在 AgentDojo、AgentDyn 上的设置，尚无独立复现；模型卡也明确它不是独立智能体或形式化安全保证。",
+      "confidence": "medium",
+      "ai": {
+        "kind": "open-weight-agent-safety-guard-model",
+        "topics": ["agent-security", "tool-use", "prompt-injection", "guardrails", "open-weights"],
+        "artifact_date": "2026-08-31",
+        "artifact_status": "public 4B model card and code; arXiv preprint submitted 2026-08-25",
+        "technical_takeaway": "StepGen 构造仅在风险动作处不同的安全与不安全轨迹，Balance-GRPO 以动态平衡的安全/不安全反馈训练可在执行前检查单步动作的护栏。",
+        "evidence_level": "primary arXiv paper, public model card and code; reported robustness awaits independent reproduction",
+        "code_url": "https://github.com/zheng977/StepGuard",
+        "heat": {
+          "label": "new public safety checkpoint with linked paper and code; platform activity is not evidence of deployment readiness",
+          "as_of": "2026-08-31T11:10:29+08:00",
+          "signals": [
+            {
+              "platform": "Hugging Face",
+              "observation": "the ninty-seven/StepGuard 4B model card and weights were available during the current observation window",
+              "url": "https://huggingface.co/ninty-seven/StepGuard"
+            }
+          ]
+        }
+      },
+      "sources": [
+        {
+          "publisher": "arXiv",
+          "title": "StepGuard: Learning Step-Level Guardrails with Scalable Supervision and Safety-Utility Balancing",
+          "url": "https://arxiv.org/abs/2608.24777",
+          "published_at": "2026-08-25T16:17:27Z",
+          "source_type": "research"
+        },
+        {
+          "publisher": "Hugging Face",
+          "title": "ninty-seven/StepGuard model card and weights",
+          "url": "https://huggingface.co/ninty-seven/StepGuard",
+          "published_at": "accessed 2026-08-31T11:10:29+08:00",
+          "source_type": "model-card"
+        },
+        {
+          "publisher": "StepGuard authors",
+          "title": "StepGuard code repository",
+          "url": "https://github.com/zheng977/StepGuard",
+          "published_at": "accessed 2026-08-31T11:10:29+08:00",
+          "source_type": "code"
+        }
+      ]
+    },
+    {
+      "id": "fasth3-preview-v1-distilled-video",
+      "section": "ai-frontier",
+      "category": "technology",
+      "regions": ["Global", "North America", "Asia"],
+      "title": "FastH3 Preview v1 用四步蒸馏降低视频与音频生成成本",
+      "summary": "FastVideo 发布 FastH3 Preview v1 的开放权重检查点和 LoRA，把 MiniMax H3 的 49 次 Transformer 调用蒸馏为 4 步，并生成同步视频与音频。",
+      "why_it_matters": "步数大幅减少可能让带音频的视频生成更接近交互式工作流，也为研究者比较数据自由蒸馏、稀疏注意力和消费级 GPU 部署提供了可运行工件。",
+      "uncertainty": "这是预览版本，速度与画质描述主要来自项目方和社区示例；许可证是 MiniMax H3 Community License，不等同于标准开源许可，跨硬件性能仍待测量。",
+      "confidence": "medium",
+      "ai": {
+        "kind": "open-weight-distilled-video-audio-model",
+        "topics": ["video-generation", "audio-generation", "distillation", "sparse-attention", "local-inference"],
+        "artifact_date": "2026-08-30",
+        "artifact_status": "public FastH3 Preview v1 checkpoints and LoRA in the FastVideo project; preview license",
+        "technical_takeaway": "FastH3 以 DMD2 等蒸馏将 H3 采样压缩到四步，并保留同步视频/音频输出；项目同时提供 VSA/Data-Free 与稀疏版本路径。",
+        "evidence_level": "primary project repository and public model artifacts; no independent quality benchmark located",
+        "code_url": "https://github.com/hao-ai-lab/FastVideo",
+        "heat": {
+          "label": "new four-step multimodal generation checkpoint with active community testing; speed claims are not independent evidence",
+          "as_of": "2026-08-31T11:10:29+08:00",
+          "signals": [
+            {
+              "platform": "GitHub",
+              "observation": "FastVideo repository announced the FastH3 Preview v0.2 path on 2026-08-23 and linked the current preview artifacts",
+              "url": "https://github.com/hao-ai-lab/FastVideo"
+            }
+          ]
+        }
+      },
+      "sources": [
+        {
+          "publisher": "FastVideo",
+          "title": "FastVideo unified video generation framework and FastH3 release notes",
+          "url": "https://github.com/hao-ai-lab/FastVideo",
+          "published_at": "2026-08-23",
+          "source_type": "primary"
+        },
+        {
+          "publisher": "Hugging Face",
+          "title": "FastVideo FastH3 Preview v1 model artifacts",
+          "url": "https://huggingface.co/FastVideo/FastVideo-FastH3-4-step-Preview-v1-LoRA",
+          "published_at": "accessed 2026-08-31T11:10:29+08:00",
+          "source_type": "model-card"
+        },
+        {
+          "publisher": "Reddit r/StableDiffusion",
+          "title": "FastVideo FastH3 v1 community release discussion",
+          "url": "https://www.reddit.com/r/StableDiffusion/comments/1w0xtrg/fastvideo_fasth3_v1_open_source_4step_sparse/",
+          "published_at": "2026-08-30",
+          "source_type": "community-index"
+        }
+      ]
+    },
+    {
+      "id": "muse-glimmer-30b-local-agent",
+      "section": "ai-frontier",
+      "category": "technology",
+      "regions": ["Global", "North America"],
+      "title": "Meta Muse Glimmer 30B 将多模态智能体能力带到本地硬件",
+      "summary": "Meta Superintelligence Labs 的 Muse Glimmer 是约 30B 参数、带视觉感知编码器的 Apache-2.0 开放权重模型，面向本地工具调用、编码、多步推理和失败恢复。",
+      "why_it_matters": "把多模态输入、工具调用和长任务恢复放在消费级 GPU 可运行的模型中，可能降低智能体工作流对云端 API 的依赖，并把隐私与成本权衡带到本地部署。",
+      "uncertainty": "模型卡与厂商评测为主要证据，性能取决于脚手架、量化和硬件；Apache-2.0 适用于模型权重，但具体部署还受第三方服务条款和显存约束。",
+      "confidence": "medium",
+      "ai": {
+        "kind": "open-weight-multimodal-agent-model",
+        "topics": ["multimodal", "agentic-ai", "tool-use", "local-inference", "open-weights"],
+        "artifact_date": "2026-08-10",
+        "artifact_status": "public Meta model card and Apache-2.0 weights; local deployment examples and partner runtimes available",
+        "technical_takeaway": "模型采用带专用感知编码器的稠密因果 Transformer，支持交错图文输入、工具函数调用、可控推理力度和最长约 131,072+ token 的上下文。",
+        "evidence_level": "public model card, NVIDIA deployment card and independent technical coverage; benchmark claims are not independently reproduced",
+        "code_url": "https://huggingface.co/meta-models/Muse-Glimmer-30B",
+        "heat": {
+          "label": "recent open-weight local-agent model with broad runtime support; benchmark rankings are not adoption evidence",
+          "as_of": "2026-08-31T11:10:29+08:00",
+          "signals": [
+            {
+              "platform": "Hugging Face",
+              "observation": "Meta model card lists Muse Glimmer-30B as an August 2026 public release with Apache 2.0 weights",
+              "url": "https://huggingface.co/meta-models/Muse-Glimmer-30B"
+            }
+          ]
+        }
+      },
+      "sources": [
+        {
+          "publisher": "Meta Superintelligence Labs",
+          "title": "Muse Glimmer-30B model card",
+          "url": "https://huggingface.co/meta-models/Muse-Glimmer-30B",
+          "published_at": "2026-08-10",
+          "source_type": "model-card"
+        },
+        {
+          "publisher": "NVIDIA",
+          "title": "Muse Glimmer model card and deployment details",
+          "url": "https://build.nvidia.com/meta/muse-glimmer-30b/modelcard",
+          "published_at": "2026-08-10",
+          "source_type": "primary"
+        },
+        {
+          "publisher": "AMD",
+          "title": "Run Meta Muse Glimmer 30B on Ryzen AI Max and Radeon GPUs",
+          "url": "https://www.amd.com/en/blogs/2026/run-meta-muse-glimmer-30b-on-amd-ryzen-ai-max-and-radeon-gpus.html",
+          "published_at": "2026-08-10",
+          "source_type": "regional-media"
+        }
+      ]
+    },
+    {
+      "id": "hormuz-us-iran-larak-strikes",
+      "category": "politics",
+      "regions": ["Middle East", "Iran", "United States", "United Arab Emirates", "Global"],
+      "title": "霍尔木兹海峡附近美伊军事行动升级，海湾国家拦截无人机",
+      "summary": "美国在拉腊克岛附近打击伊朗火箭发射器后，伊朗称向约旦美军设施发射导弹；阿联酋又称拦截一架从伊朗方向接近领海的无人机，约旦称拦截 8 枚导弹。",
+      "why_it_matters": "军事行动直接触及全球能源运输咽喉，可能抬高油价、保险和绕行成本，并让此前的临时航道谈判面临更大安全与降级压力。",
+      "uncertainty": "各方对打击目标、拦截数量和后续报复的叙述主要来自政府与通讯社转述；商船通行量和海峡安全状态仍在快速变化。",
+      "confidence": "medium",
+      "sources": [
+        {
+          "publisher": "Associated Press",
+          "title": "US strikes Iranian rocket launchers near Strait of Hormuz; Iran says it retaliated",
+          "url": "https://apnews.com/article/6b098da673ac3161a266ee459d5eff44",
+          "published_at": "2026-08-30T20:01:34Z",
+          "source_type": "wire"
+        },
+        {
+          "publisher": "Associated Press",
+          "title": "UAE says it intercepted Iranian drone as Iran threatens response",
+          "url": "https://apnews.com/article/9f34873bad9a928574c36ee984c3f96b",
+          "published_at": "2026-08-31T06:47:32Z",
+          "source_type": "wire"
+        }
+      ]
+    },
+    {
+      "id": "nepal-tibet-flood-toll-update",
+      "category": "climate-environment",
+      "regions": ["Asia", "Nepal", "China", "Tibet"],
+      "title": "尼泊尔—西藏洪灾死亡升至 788 人，仍有数千人失踪",
+      "summary": "尼泊尔最新通报死亡 788 人、2,502 人失踪；中国方面报告西藏 16 人死亡、546 人失踪，另有 261 名外国人失踪。高海拔湖泊大部分已泄空，但下游仍有洪水风险。",
+      "why_it_matters": "这是 8 月 27 日跨境山洪后的重大伤亡更新，救援已从即时搜救转向跨境身份核查、道路恢复和持续洪水预警。",
+      "uncertainty": "失踪人数包含外国游客且会随身份核验调整；湖泊泄洪与后续洪峰的关系仍依赖遥感和现场调查，灾害归因不能仅凭单一通报确定。",
+      "confidence": "medium",
+      "sources": [
+        {
+          "publisher": "Associated Press",
+          "title": "Nepal warns of fresh flooding as death toll reaches 788",
+          "url": "https://apnews.com/article/afec20e612514ca3598c65b29f485303",
+          "published_at": "2026-08-30T04:37:01Z",
+          "source_type": "wire"
+        },
+        {
+          "publisher": "Xinhua",
+          "title": "Tibet flood and high-altitude lake update",
+          "url": "https://english.news.cn/20260830/",
+          "published_at": "2026-08-30",
+          "source_type": "regional-media"
+        }
+      ]
+    },
+    {
+      "id": "china-august-2026-pmi-contraction",
+      "category": "economy",
+      "regions": ["Asia", "China", "Global"],
+      "title": "中国 8 月制造业 PMI 为 49.8，连续处于收缩区间",
+      "summary": "国家统计局公布 8 月制造业 PMI 49.8，较 7 月回升 0.6 个百分点但仍低于 50；生产指数 50.4、新订单 50.6，就业指数 48.7。",
+      "why_it_matters": "大型企业 PMI 回到 50.6 而中小企业仍在 50 以下，显示总量企稳与企业规模分化并存；出口需求和内需修复将影响亚洲供应链与大宗商品预期。",
+      "uncertainty": "PMI 是扩散指数且会受季节和样本结构影响，单月回升不等于趋势反转；后续工业增加值、出口与财政支持数据仍需验证。",
+      "confidence": "high",
+      "sources": [
+        {
+          "publisher": "国家统计局",
+          "title": "2026 年 8 月中国采购经理指数运行情况",
+          "url": "https://www.stats.gov.cn/sj/zxfbhjd/202608/t20260831_1965154.html",
+          "published_at": "2026-08-31",
+          "source_type": "primary"
+        },
+        {
+          "publisher": "Associated Press",
+          "title": "China manufacturing remains in contraction despite stronger export demand",
+          "url": "https://apnews.com/article/6d33b11dfd3c1ee834b169274f58f825",
+          "published_at": "2026-08-31T04:04:53Z",
+          "source_type": "wire"
+        }
+      ]
+    },
+    {
+      "id": "iceland-eu-accession-referendum",
+      "category": "politics",
+      "regions": ["Europe", "Iceland", "European Union"],
+      "title": "冰岛公投否决重启欧盟入盟谈判",
+      "summary": "冰岛全国公投以约 52.8% 对 47.2% 否决是否重启欧盟入盟谈判；国家选举委员会公布的结果使该议题暂时搁置。",
+      "why_it_matters": "结果保留冰岛与欧盟现有经济联系，却拒绝重启正式谈判，影响北欧安全、渔业政策和欧洲对外扩张的政治信号。",
+      "uncertainty": "这是一次关于是否开启谈判的公投，并非对最终入盟条约的表决；政府组成、渔业利益和安全环境变化仍可能重新塑造议程。",
+      "confidence": "high",
+      "sources": [
+        {
+          "publisher": "Associated Press",
+          "title": "Iceland rejects restarting European Union accession talks in close referendum",
+          "url": "https://apnews.com/article/d29f8d4e140894fe22db17005e9c2a2e",
+          "published_at": "2026-08-30T08:39:33Z",
+          "source_type": "wire"
+        },
+        {
+          "publisher": "Reuters via KSL",
+          "title": "Iceland rejects EU accession talks in close-fought referendum",
+          "url": "https://www.ksl.com/article/51617591/iceland-rejects-eu-accession-talks-in-close-fought-referendum",
+          "published_at": "2026-08-30",
+          "source_type": "wire"
+        }
+      ]
+    },
+    {
+      "id": "northern-cyprus-ferry-sinking",
+      "category": "health-society",
+      "regions": ["Europe", "Cyprus", "Mediterranean"],
+      "title": "北塞浦路斯附近渡轮倾覆，至少 8 人死亡、多人失踪",
+      "summary": "一艘载约 267 人的渡轮在北塞浦路斯附近倾覆，至少 8 人死亡、最初报告 22 人失踪，237 人获救；船长和 7 名船员被拘留调查。",
+      "why_it_matters": "事故同时涉及海上客运安全、恶劣天气预警和搜救协调，失踪者身份与航线监管将影响地中海渡运安全审查。",
+      "uncertainty": "天气、船体状态和超载是否构成原因仍在调查，伤亡数字可能随搜救进展变化；拘留不等于已确定责任。",
+      "confidence": "medium",
+      "sources": [
+        {
+          "publisher": "Associated Press",
+          "title": "Ferry carrying about 267 people capsizes off northern Cyprus",
+          "url": "https://apnews.com/article/e7753be49f345d1b1f1579013b241e9e",
+          "published_at": "2026-08-30T11:16:03Z",
+          "source_type": "wire"
+        },
+        {
+          "publisher": "RTÉ",
+          "title": "Eight dead and missing after boat capsizes off northern Cyprus",
+          "url": "https://www.rte.ie/news/world/2026/0830/1589711-boat-north-cyprus/",
+          "published_at": "2026-08-30",
+          "source_type": "wire"
+        }
+      ]
+    },
+    {
+      "id": "aarau-rave-shooting",
+      "category": "health-society",
+      "regions": ["Europe", "Switzerland", "Aarau"],
+      "title": "瑞士阿劳狂欢派对枪击造成 1 死 5 伤，嫌疑人仍在逃",
+      "summary": "瑞士阿尔高州警方称，8 月 30 日凌晨阿劳一场 rave 活动发生枪击，一名 22 岁女性死亡，另有 5 人受伤；枪手、动机和使用武器尚未确定。",
+      "why_it_matters": "公共活动中的枪击会触发场地安保、警方响应和大型活动许可审查，也考验在嫌疑人未知时向公众发布信息的准确性。",
+      "uncertainty": "警方尚未确认单一还是多名涉案者，受害者伤势和弹道证据仍在核实；目前不能据此推断动机或更广泛风险。",
+      "confidence": "high",
+      "sources": [
+        {
+          "publisher": "Aargau Cantonal Police",
+          "title": "Aarau: shots fired at rave party, woman killed and five injured",
+          "url": "https://kantonspolizei.ch/2026/08/30/aarau-ag-schuesse-an-rave-party-frau-%E2%80%A022-tot-und-fuenf-personen-verletzt/",
+          "published_at": "2026-08-30",
+          "source_type": "primary"
+        },
+        {
+          "publisher": "Swissinfo",
+          "title": "One dead and five injured after shooting at Aarau rave",
+          "url": "https://www.swissinfo.ch/fre/fusillade-lors-d%27une-rave-%C3%A0-aarau%3A-une-femme-tu%C3%A9e-et-cinq-bless%C3%A9s/91975427",
+          "published_at": "2026-08-30",
+          "source_type": "regional-media"
+        }
+      ]
+    },
+    {
+      "id": "g20-asheville-finance-ministerial",
+      "category": "economy",
+      "regions": ["North America", "United States", "Global"],
+      "title": "美国主持 G20 财长和央行行长会议，增长与伊朗制裁成焦点",
+      "summary": "美国财政部长贝森特在北卡罗来纳州阿什维尔主持 8 月 31 日至 9 月 1 日 G20 财长和央行行长会议，计划讨论增长、债务、关税和对伊朗的协调。",
+      "why_it_matters": "会议把全球宏观协调置于战争、能源价格和贸易摩擦交汇处，能否形成共同措辞将影响制裁执行、债务讨论和市场预期。",
+      "uncertainty": "会议刚开始，尚无联合公报或政策承诺；美国双边接触和媒体证件争议可能影响议程与外界解读。",
+      "confidence": "medium",
+      "sources": [
+        {
+          "publisher": "Associated Press",
+          "title": "Bessent heads to the G20 to rally allies on Iran as tariffs strain ties",
+          "url": "https://apnews.com/article/6011cce3d5b5a6f898bb3a66dc9fa612",
+          "published_at": "2026-08-31T04:18:43Z",
+          "source_type": "wire"
+        },
+        {
+          "publisher": "U.S. Department of the Treasury",
+          "title": "Media credentialing for the United States G20 Finance Ministerial",
+          "url": "https://home.treasury.gov/news/press-releases/sb0594",
+          "published_at": "2026-08-10",
+          "source_type": "primary"
+        }
+      ]
+    }
+  ]
+}

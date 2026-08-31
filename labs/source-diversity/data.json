@@ -1,20 +1,28 @@
 {
   "built_from": "data/index.json",
   "counts": {
-    "ai_events": 54,
-    "digests": 18,
-    "events": 196,
+    "ai_events": 57,
+    "digests": 19,
+    "events": 206,
     "single_source_events": 46,
-    "source_links": 428,
-    "unique_source_urls": 420,
-    "world_events": 142,
+    "source_links": 451,
+    "unique_source_urls": 442,
+    "world_events": 149,
     "zero_source_events": 0
   },
   "date_range": {
-    "end": "2026-08-27",
+    "end": "2026-08-31",
     "start": "2026-08-03"
   },
   "dates": [
+    {
+      "ai_event_count": 3,
+      "date": "2026-08-31",
+      "event_count": 10,
+      "single_source_events": 0,
+      "source_links": 23,
+      "world_event_count": 7
+    },
     {
       "ai_event_count": 3,
       "date": "2026-08-27",
@@ -161,6 +169,339 @@
     }
   ],
   "events": [
+    {
+      "category": "technology",
+      "confidence": "medium",
+      "date": "2026-08-31",
+      "id": "fasth3-preview-v1-distilled-video",
+      "regions": [
+        "Asia",
+        "Global",
+        "North America"
+      ],
+      "section": "ai",
+      "single_source": false,
+      "source_count": 3,
+      "sources": [
+        {
+          "published_at": "2026-08-23",
+          "publisher": "FastVideo",
+          "source_type": "primary",
+          "title": "FastVideo unified video generation framework and FastH3 release notes",
+          "url": "https://github.com/hao-ai-lab/FastVideo"
+        },
+        {
+          "published_at": "accessed 2026-08-31T11:10:29+08:00",
+          "publisher": "Hugging Face",
+          "source_type": "model-card",
+          "title": "FastVideo FastH3 Preview v1 model artifacts",
+          "url": "https://huggingface.co/FastVideo/FastVideo-FastH3-4-step-Preview-v1-LoRA"
+        },
+        {
+          "published_at": "2026-08-30",
+          "publisher": "Reddit r/StableDiffusion",
+          "source_type": "community-index",
+          "title": "FastVideo FastH3 v1 community release discussion",
+          "url": "https://www.reddit.com/r/StableDiffusion/comments/1w0xtrg/fastvideo_fasth3_v1_open_source_4step_sparse/"
+        }
+      ],
+      "title": "FastH3 Preview v1 用四步蒸馏降低视频与音频生成成本"
+    },
+    {
+      "category": "technology",
+      "confidence": "medium",
+      "date": "2026-08-31",
+      "id": "muse-glimmer-30b-local-agent",
+      "regions": [
+        "Global",
+        "North America"
+      ],
+      "section": "ai",
+      "single_source": false,
+      "source_count": 3,
+      "sources": [
+        {
+          "published_at": "2026-08-10",
+          "publisher": "AMD",
+          "source_type": "regional-media",
+          "title": "Run Meta Muse Glimmer 30B on Ryzen AI Max and Radeon GPUs",
+          "url": "https://www.amd.com/en/blogs/2026/run-meta-muse-glimmer-30b-on-amd-ryzen-ai-max-and-radeon-gpus.html"
+        },
+        {
+          "published_at": "2026-08-10",
+          "publisher": "Meta Superintelligence Labs",
+          "source_type": "model-card",
+          "title": "Muse Glimmer-30B model card",
+          "url": "https://huggingface.co/meta-models/Muse-Glimmer-30B"
+        },
+        {
+          "published_at": "2026-08-10",
+          "publisher": "NVIDIA",
+          "source_type": "primary",
+          "title": "Muse Glimmer model card and deployment details",
+          "url": "https://build.nvidia.com/meta/muse-glimmer-30b/modelcard"
+        }
+      ],
+      "title": "Meta Muse Glimmer 30B 将多模态智能体能力带到本地硬件"
+    },
+    {
+      "category": "technology",
+      "confidence": "medium",
+      "date": "2026-08-31",
+      "id": "stepguard-step-level-guardrails",
+      "regions": [
+        "Asia",
+        "Global",
+        "North America"
+      ],
+      "section": "ai",
+      "single_source": false,
+      "source_count": 3,
+      "sources": [
+        {
+          "published_at": "2026-08-25T16:17:27Z",
+          "publisher": "arXiv",
+          "source_type": "research",
+          "title": "StepGuard: Learning Step-Level Guardrails with Scalable Supervision and Safety-Utility Balancing",
+          "url": "https://arxiv.org/abs/2608.24777"
+        },
+        {
+          "published_at": "accessed 2026-08-31T11:10:29+08:00",
+          "publisher": "Hugging Face",
+          "source_type": "model-card",
+          "title": "ninty-seven/StepGuard model card and weights",
+          "url": "https://huggingface.co/ninty-seven/StepGuard"
+        },
+        {
+          "published_at": "accessed 2026-08-31T11:10:29+08:00",
+          "publisher": "StepGuard authors",
+          "source_type": "code",
+          "title": "StepGuard code repository",
+          "url": "https://github.com/zheng977/StepGuard"
+        }
+      ],
+      "title": "StepGuard 把智能体安全检查前移到每一步工具动作"
+    },
+    {
+      "category": "health-society",
+      "confidence": "high",
+      "date": "2026-08-31",
+      "id": "aarau-rave-shooting",
+      "regions": [
+        "Aarau",
+        "Europe",
+        "Switzerland"
+      ],
+      "section": "world",
+      "single_source": false,
+      "source_count": 2,
+      "sources": [
+        {
+          "published_at": "2026-08-30",
+          "publisher": "Aargau Cantonal Police",
+          "source_type": "primary",
+          "title": "Aarau: shots fired at rave party, woman killed and five injured",
+          "url": "https://kantonspolizei.ch/2026/08/30/aarau-ag-schuesse-an-rave-party-frau-%E2%80%A022-tot-und-fuenf-personen-verletzt/"
+        },
+        {
+          "published_at": "2026-08-30",
+          "publisher": "Swissinfo",
+          "source_type": "regional-media",
+          "title": "One dead and five injured after shooting at Aarau rave",
+          "url": "https://www.swissinfo.ch/fre/fusillade-lors-d%27une-rave-%C3%A0-aarau%3A-une-femme-tu%C3%A9e-et-cinq-bless%C3%A9s/91975427"
+        }
+      ],
+      "title": "瑞士阿劳狂欢派对枪击造成 1 死 5 伤，嫌疑人仍在逃"
+    },
+    {
+      "category": "economy",
+      "confidence": "high",
+      "date": "2026-08-31",
+      "id": "china-august-2026-pmi-contraction",
+      "regions": [
+        "Asia",
+        "China",
+        "Global"
+      ],
+      "section": "world",
+      "single_source": false,
+      "source_count": 2,
+      "sources": [
+        {
+          "published_at": "2026-08-31T04:04:53Z",
+          "publisher": "Associated Press",
+          "source_type": "wire",
+          "title": "China manufacturing remains in contraction despite stronger export demand",
+          "url": "https://apnews.com/article/6d33b11dfd3c1ee834b169274f58f825"
+        },
+        {
+          "published_at": "2026-08-31",
+          "publisher": "国家统计局",
+          "source_type": "primary",
+          "title": "2026 年 8 月中国采购经理指数运行情况",
+          "url": "https://www.stats.gov.cn/sj/zxfbhjd/202608/t20260831_1965154.html"
+        }
+      ],
+      "title": "中国 8 月制造业 PMI 为 49.8，连续处于收缩区间"
+    },
+    {
+      "category": "economy",
+      "confidence": "medium",
+      "date": "2026-08-31",
+      "id": "g20-asheville-finance-ministerial",
+      "regions": [
+        "Global",
+        "North America",
+        "United States"
+      ],
+      "section": "world",
+      "single_source": false,
+      "source_count": 2,
+      "sources": [
+        {
+          "published_at": "2026-08-31T04:18:43Z",
+          "publisher": "Associated Press",
+          "source_type": "wire",
+          "title": "Bessent heads to the G20 to rally allies on Iran as tariffs strain ties",
+          "url": "https://apnews.com/article/6011cce3d5b5a6f898bb3a66dc9fa612"
+        },
+        {
+          "published_at": "2026-08-10",
+          "publisher": "U.S. Department of the Treasury",
+          "source_type": "primary",
+          "title": "Media credentialing for the United States G20 Finance Ministerial",
+          "url": "https://home.treasury.gov/news/press-releases/sb0594"
+        }
+      ],
+      "title": "美国主持 G20 财长和央行行长会议，增长与伊朗制裁成焦点"
+    },
+    {
+      "category": "politics",
+      "confidence": "medium",
+      "date": "2026-08-31",
+      "id": "hormuz-us-iran-larak-strikes",
+      "regions": [
+        "Global",
+        "Iran",
+        "Middle East",
+        "United Arab Emirates",
+        "United States"
+      ],
+      "section": "world",
+      "single_source": false,
+      "source_count": 2,
+      "sources": [
+        {
+          "published_at": "2026-08-30T20:01:34Z",
+          "publisher": "Associated Press",
+          "source_type": "wire",
+          "title": "US strikes Iranian rocket launchers near Strait of Hormuz; Iran says it retaliated",
+          "url": "https://apnews.com/article/6b098da673ac3161a266ee459d5eff44"
+        },
+        {
+          "published_at": "2026-08-31T06:47:32Z",
+          "publisher": "Associated Press",
+          "source_type": "wire",
+          "title": "UAE says it intercepted Iranian drone as Iran threatens response",
+          "url": "https://apnews.com/article/9f34873bad9a928574c36ee984c3f96b"
+        }
+      ],
+      "title": "霍尔木兹海峡附近美伊军事行动升级，海湾国家拦截无人机"
+    },
+    {
+      "category": "politics",
+      "confidence": "high",
+      "date": "2026-08-31",
+      "id": "iceland-eu-accession-referendum",
+      "regions": [
+        "Europe",
+        "European Union",
+        "Iceland"
+      ],
+      "section": "world",
+      "single_source": false,
+      "source_count": 2,
+      "sources": [
+        {
+          "published_at": "2026-08-30T08:39:33Z",
+          "publisher": "Associated Press",
+          "source_type": "wire",
+          "title": "Iceland rejects restarting European Union accession talks in close referendum",
+          "url": "https://apnews.com/article/d29f8d4e140894fe22db17005e9c2a2e"
+        },
+        {
+          "published_at": "2026-08-30",
+          "publisher": "Reuters via KSL",
+          "source_type": "wire",
+          "title": "Iceland rejects EU accession talks in close-fought referendum",
+          "url": "https://www.ksl.com/article/51617591/iceland-rejects-eu-accession-talks-in-close-fought-referendum"
+        }
+      ],
+      "title": "冰岛公投否决重启欧盟入盟谈判"
+    },
+    {
+      "category": "climate-environment",
+      "confidence": "medium",
+      "date": "2026-08-31",
+      "id": "nepal-tibet-flood-toll-update",
+      "regions": [
+        "Asia",
+        "China",
+        "Nepal",
+        "Tibet"
+      ],
+      "section": "world",
+      "single_source": false,
+      "source_count": 2,
+      "sources": [
+        {
+          "published_at": "2026-08-30T04:37:01Z",
+          "publisher": "Associated Press",
+          "source_type": "wire",
+          "title": "Nepal warns of fresh flooding as death toll reaches 788",
+          "url": "https://apnews.com/article/afec20e612514ca3598c65b29f485303"
+        },
+        {
+          "published_at": "2026-08-30",
+          "publisher": "Xinhua",
+          "source_type": "regional-media",
+          "title": "Tibet flood and high-altitude lake update",
+          "url": "https://english.news.cn/20260830/"
+        }
+      ],
+      "title": "尼泊尔—西藏洪灾死亡升至 788 人，仍有数千人失踪"
+    },
+    {
+      "category": "health-society",
+      "confidence": "medium",
+      "date": "2026-08-31",
+      "id": "northern-cyprus-ferry-sinking",
+      "regions": [
+        "Cyprus",
+        "Europe",
+        "Mediterranean"
+      ],
+      "section": "world",
+      "single_source": false,
+      "source_count": 2,
+      "sources": [
+        {
+          "published_at": "2026-08-30T11:16:03Z",
+          "publisher": "Associated Press",
+          "source_type": "wire",
+          "title": "Ferry carrying about 267 people capsizes off northern Cyprus",
+          "url": "https://apnews.com/article/e7753be49f345d1b1f1579013b241e9e"
+        },
+        {
+          "published_at": "2026-08-30",
+          "publisher": "RTÉ",
+          "source_type": "wire",
+          "title": "Eight dead and missing after boat capsizes off northern Cyprus",
+          "url": "https://www.rte.ie/news/world/2026/0830/1589711-boat-north-cyprus/"
+        }
+      ],
+      "title": "北塞浦路斯附近渡轮倾覆，至少 8 人死亡、多人失踪"
+    },
     {
       "category": "technology",
       "confidence": "medium",
@@ -6415,17 +6756,17 @@
       "title": "降级预期推动油价早盘回落约 4 美元"
     }
   ],
-  "latest_digest_generated_at": "2026-08-27T09:10:39+08:00",
+  "latest_digest_generated_at": "2026-08-31T11:10:29+08:00",
   "publishers": [
     {
-      "event_count": 123,
+      "event_count": 129,
       "name": "Associated Press",
-      "source_links": 129
+      "source_links": 136
     },
     {
-      "event_count": 25,
+      "event_count": 26,
       "name": "arXiv",
-      "source_links": 32
+      "source_links": 33
     },
     {
       "event_count": 17,
@@ -6433,9 +6774,9 @@
       "source_links": 19
     },
     {
-      "event_count": 10,
+      "event_count": 12,
       "name": "Hugging Face",
-      "source_links": 12
+      "source_links": 14
     },
     {
       "event_count": 3,
@@ -6483,6 +6824,11 @@
       "source_links": 4
     },
     {
+      "event_count": 3,
+      "name": "NVIDIA",
+      "source_links": 4
+    },
+    {
       "event_count": 4,
       "name": "Reuters via Devdiscourse",
       "source_links": 4
@@ -6513,11 +6859,6 @@
       "source_links": 3
     },
     {
-      "event_count": 2,
-      "name": "NVIDIA",
-      "source_links": 3
-    },
-    {
       "event_count": 1,
       "name": "OpenHands",
       "source_links": 3
@@ -6535,6 +6876,11 @@
     {
       "event_count": 2,
       "name": "U.S. Bureau of Reclamation",
+      "source_links": 3
+    },
+    {
+      "event_count": 3,
+      "name": "U.S. Department of the Treasury",
       "source_links": 3
     },
     {
@@ -6694,11 +7040,6 @@
     },
     {
       "event_count": 2,
-      "name": "U.S. Department of the Treasury",
-      "source_links": 2
-    },
-    {
-      "event_count": 2,
       "name": "U.S. Food and Drug Administration",
       "source_links": 2
     },
@@ -6714,12 +7055,22 @@
     },
     {
       "event_count": 1,
+      "name": "Aargau Cantonal Police",
+      "source_links": 1
+    },
+    {
+      "event_count": 1,
       "name": "All-out Defense Mobilization Agency",
       "source_links": 1
     },
     {
       "event_count": 1,
       "name": "AMAP-ML",
+      "source_links": 1
+    },
+    {
+      "event_count": 1,
+      "name": "AMD",
       "source_links": 1
     },
     {
@@ -6810,6 +7161,11 @@
     {
       "event_count": 1,
       "name": "European Commission",
+      "source_links": 1
+    },
+    {
+      "event_count": 1,
+      "name": "FastVideo",
       "source_links": 1
     },
     {
@@ -6905,6 +7261,11 @@
     {
       "event_count": 1,
       "name": "Meta AI Research",
+      "source_links": 1
+    },
+    {
+      "event_count": 1,
+      "name": "Meta Superintelligence Labs",
       "source_links": 1
     },
     {
@@ -7034,7 +7395,22 @@
     },
     {
       "event_count": 1,
+      "name": "Reddit r/StableDiffusion",
+      "source_links": 1
+    },
+    {
+      "event_count": 1,
       "name": "Reserve Bank of India",
+      "source_links": 1
+    },
+    {
+      "event_count": 1,
+      "name": "Reuters via KSL",
+      "source_links": 1
+    },
+    {
+      "event_count": 1,
+      "name": "RTÉ",
       "source_links": 1
     },
     {
@@ -7054,12 +7430,22 @@
     },
     {
       "event_count": 1,
+      "name": "StepGuard authors",
+      "source_links": 1
+    },
+    {
+      "event_count": 1,
       "name": "Supreme Court of the United States",
       "source_links": 1
     },
     {
       "event_count": 1,
       "name": "SWE-Bench ProMax authors / Hugging Face",
+      "source_links": 1
+    },
+    {
+      "event_count": 1,
+      "name": "Swissinfo",
       "source_links": 1
     },
     {
@@ -7124,33 +7510,43 @@
     },
     {
       "event_count": 1,
+      "name": "Xinhua",
+      "source_links": 1
+    },
+    {
+      "event_count": 1,
       "name": "Yabloko",
+      "source_links": 1
+    },
+    {
+      "event_count": 1,
+      "name": "国家统计局",
       "source_links": 1
     }
   ],
   "regions": [
     {
-      "event_count": 73,
+      "event_count": 79,
       "name": "Global"
     },
     {
-      "event_count": 52,
+      "event_count": 56,
       "name": "North America"
     },
     {
-      "event_count": 48,
-      "name": "United States"
-    },
-    {
-      "event_count": 46,
+      "event_count": 50,
       "name": "Asia"
     },
     {
-      "event_count": 31,
+      "event_count": 50,
+      "name": "United States"
+    },
+    {
+      "event_count": 34,
       "name": "Europe"
     },
     {
-      "event_count": 24,
+      "event_count": 25,
       "name": "Middle East"
     },
     {
@@ -7158,7 +7554,7 @@
       "name": "Africa"
     },
     {
-      "event_count": 18,
+      "event_count": 20,
       "name": "China"
     },
     {
@@ -7175,11 +7571,11 @@
     },
     {
       "event_count": 7,
-      "name": "Israel"
+      "name": "Iran"
     },
     {
-      "event_count": 6,
-      "name": "Iran"
+      "event_count": 7,
+      "name": "Israel"
     },
     {
       "event_count": 6,
@@ -7243,6 +7639,10 @@
     },
     {
       "event_count": 2,
+      "name": "Cyprus"
+    },
+    {
+      "event_count": 2,
       "name": "East Asia"
     },
     {
@@ -7252,6 +7652,10 @@
     {
       "event_count": 2,
       "name": "Egypt"
+    },
+    {
+      "event_count": 2,
+      "name": "European Union"
     },
     {
       "event_count": 2,
@@ -7283,6 +7687,10 @@
     },
     {
       "event_count": 2,
+      "name": "Nepal"
+    },
+    {
+      "event_count": 2,
       "name": "Nigeria"
     },
     {
@@ -7311,7 +7719,15 @@
     },
     {
       "event_count": 2,
+      "name": "Tibet"
+    },
+    {
+      "event_count": 2,
       "name": "Uganda"
+    },
+    {
+      "event_count": 2,
+      "name": "United Arab Emirates"
     },
     {
       "event_count": 2,
@@ -7320,6 +7736,10 @@
     {
       "event_count": 2,
       "name": "Zimbabwe"
+    },
+    {
+      "event_count": 1,
+      "name": "Aarau"
     },
     {
       "event_count": 1,
@@ -7375,10 +7795,6 @@
     },
     {
       "event_count": 1,
-      "name": "Cyprus"
-    },
-    {
-      "event_count": 1,
       "name": "East Africa"
     },
     {
@@ -7396,10 +7812,6 @@
     {
       "event_count": 1,
       "name": "Ethiopia"
-    },
-    {
-      "event_count": 1,
-      "name": "European Union"
     },
     {
       "event_count": 1,
@@ -7435,6 +7847,10 @@
     },
     {
       "event_count": 1,
+      "name": "Iceland"
+    },
+    {
+      "event_count": 1,
       "name": "Iraq"
     },
     {
@@ -7463,11 +7879,11 @@
     },
     {
       "event_count": 1,
-      "name": "NATO"
+      "name": "Mediterranean"
     },
     {
       "event_count": 1,
-      "name": "Nepal"
+      "name": "NATO"
     },
     {
       "event_count": 1,
@@ -7531,11 +7947,11 @@
     },
     {
       "event_count": 1,
-      "name": "Thailand"
+      "name": "Switzerland"
     },
     {
       "event_count": 1,
-      "name": "Tibet"
+      "name": "Thailand"
     },
     {
       "event_count": 1,
@@ -7544,10 +7960,6 @@
     {
       "event_count": 1,
       "name": "Turkey"
-    },
-    {
-      "event_count": 1,
-      "name": "United Arab Emirates"
     },
     {
       "event_count": 1,
@@ -7577,39 +7989,39 @@
   "schema_version": 1,
   "source_types": [
     {
-      "event_count": 134,
+      "event_count": 140,
       "name": "wire",
-      "source_links": 152
+      "source_links": 161
     },
     {
-      "event_count": 90,
+      "event_count": 95,
       "name": "primary",
-      "source_links": 103
+      "source_links": 108
     },
     {
-      "event_count": 39,
+      "event_count": 40,
       "name": "code",
-      "source_links": 68
+      "source_links": 69
     },
     {
-      "event_count": 31,
+      "event_count": 32,
       "name": "research",
-      "source_links": 45
+      "source_links": 46
     },
     {
-      "event_count": 19,
+      "event_count": 22,
       "name": "model-card",
-      "source_links": 31
+      "source_links": 34
     },
     {
-      "event_count": 20,
+      "event_count": 21,
       "name": "community-index",
-      "source_links": 20
+      "source_links": 21
     },
     {
-      "event_count": 8,
+      "event_count": 11,
       "name": "regional-media",
-      "source_links": 9
+      "source_links": 12
     }
   ]
 }

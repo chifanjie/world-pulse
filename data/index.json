@@ -2,6 +2,40 @@
   "version": 1,
   "entries": [
     {
+      "date": "2026-08-31",
+      "digest_path": "digests/2026/08/2026-08-31.md",
+      "data_path": "data/2026/08/2026-08-31.json",
+      "generated_at": "2026-08-31T11:10:29+08:00",
+      "item_count": 10,
+      "ai_radar_count": 3,
+      "categories": [
+        "climate-environment",
+        "economy",
+        "health-society",
+        "politics",
+        "technology"
+      ],
+      "regions": [
+        "Aarau",
+        "Asia",
+        "China",
+        "Cyprus",
+        "Europe",
+        "European Union",
+        "Global",
+        "Iceland",
+        "Iran",
+        "Mediterranean",
+        "Middle East",
+        "Nepal",
+        "North America",
+        "Switzerland",
+        "Tibet",
+        "United Arab Emirates",
+        "United States"
+      ]
+    },
+    {
       "date": "2026-08-27",
       "digest_path": "digests/2026/08/2026-08-27.md",
       "data_path": "data/2026/08/2026-08-27.json",
