@@ -1,20 +1,28 @@
 {
   "built_from": "data/index.json",
   "counts": {
-    "ai_events": 57,
-    "digests": 19,
-    "events": 206,
+    "ai_events": 60,
+    "digests": 20,
+    "events": 216,
     "single_source_events": 46,
-    "source_links": 451,
-    "unique_source_urls": 442,
-    "world_events": 149,
+    "source_links": 472,
+    "unique_source_urls": 463,
+    "world_events": 156,
     "zero_source_events": 0
   },
   "date_range": {
-    "end": "2026-08-31",
+    "end": "2026-09-01",
     "start": "2026-08-03"
   },
   "dates": [
+    {
+      "ai_event_count": 3,
+      "date": "2026-09-01",
+      "event_count": 10,
+      "single_source_events": 0,
+      "source_links": 21,
+      "world_event_count": 7
+    },
     {
       "ai_event_count": 3,
       "date": "2026-08-31",
@@ -169,6 +177,325 @@
     }
   ],
   "events": [
+    {
+      "category": "technology",
+      "confidence": "medium",
+      "date": "2026-09-01",
+      "id": "anthropic-model-hardware-standard-preview",
+      "regions": [
+        "Global",
+        "North America"
+      ],
+      "section": "ai",
+      "single_source": false,
+      "source_count": 2,
+      "sources": [
+        {
+          "published_at": "2026-08-27",
+          "publisher": "Anthropic",
+          "source_type": "primary",
+          "title": "Beneficial Deployments: Model Hardware Standard overview",
+          "url": "https://www.anthropic.com/beneficial-deployments?focus=life-sciences"
+        },
+        {
+          "published_at": "2026-08-27",
+          "publisher": "Anthropic",
+          "source_type": "primary",
+          "title": "Previewing the Model Hardware Standard",
+          "url": "https://www.anthropic.com/news/model-hardware-standard-research-preview"
+        }
+      ],
+      "title": "Anthropic 预览 Model Hardware Standard，统一智能体到物理设备的接口"
+    },
+    {
+      "category": "technology",
+      "confidence": "medium",
+      "date": "2026-09-01",
+      "id": "cloudflare-adaptive-intelligence",
+      "regions": [
+        "Global",
+        "North America"
+      ],
+      "section": "ai",
+      "single_source": false,
+      "source_count": 2,
+      "sources": [
+        {
+          "published_at": "2026-08-31",
+          "publisher": "Cloudflare",
+          "source_type": "primary",
+          "title": "Introducing Adaptive Intelligence: undermining the economics of every bot attack",
+          "url": "https://blog.cloudflare.com/introducing-adaptive-intelligence/"
+        },
+        {
+          "published_at": "2026-08-31",
+          "publisher": "Cloudflare",
+          "source_type": "primary",
+          "title": "Cloudflare Introduces Adaptive Intelligence",
+          "url": "https://www.cloudflare.net/news/news-details/2026/Cloudflare-Introduces-Adaptive-Intelligence-Reverses-the-Economics-of-Automated-Cyber-Attacks/default.aspx"
+        }
+      ],
+      "title": "Cloudflare 用持续学习和短时规则改造机器人攻击检测"
+    },
+    {
+      "category": "technology",
+      "confidence": "medium",
+      "date": "2026-09-01",
+      "id": "qwen3-8-flash-next-open-weights",
+      "regions": [
+        "Asia",
+        "China",
+        "Global"
+      ],
+      "section": "ai",
+      "single_source": false,
+      "source_count": 3,
+      "sources": [
+        {
+          "published_at": "2026-08-26",
+          "publisher": "Hugging Face",
+          "source_type": "model-card",
+          "title": "Qwen3.8-Flash-Next model card and weights",
+          "url": "https://huggingface.co/Qwen/Qwen3.8-Flash-Next"
+        },
+        {
+          "published_at": "2026-08-26",
+          "publisher": "Qwen",
+          "source_type": "code",
+          "title": "Qwen3.8-Flash-Next technical report and code repository",
+          "url": "https://github.com/QwenLM/Qwen3.8-Flash-Next"
+        },
+        {
+          "published_at": "2026-08-26",
+          "publisher": "Qwen",
+          "source_type": "primary",
+          "title": "Qwen3.8-Flash-Next official release post",
+          "url": "https://qwen.ai/blog?id=qwen3.8-flash-next"
+        }
+      ],
+      "title": "Qwen3.8-Flash-Next 公开 Qwen4 预览架构与多模态权重"
+    },
+    {
+      "category": "climate-environment",
+      "confidence": "high",
+      "date": "2026-09-01",
+      "id": "france-ultra-fast-fashion-malus",
+      "regions": [
+        "Europe",
+        "France"
+      ],
+      "section": "world",
+      "single_source": false,
+      "source_count": 2,
+      "sources": [
+        {
+          "published_at": "2026-08-28",
+          "publisher": "French Ministry for Ecological Transition",
+          "source_type": "primary",
+          "title": "Publication of the order defining the ultra-fast-fashion malus",
+          "url": "https://www.ecologie.gouv.fr/presse/publication-journal-officiel-larrete-definissant-malus-ciblant-mode-ultra-ephemere-entree"
+        },
+        {
+          "published_at": "2026-07-09",
+          "publisher": "Vie publique",
+          "source_type": "primary",
+          "title": "Loi du 8 juillet 2026 : fast fashion et impact environnemental",
+          "url": "https://www.vie-publique.fr/loi/293332-loi-du-8-juillet-2026-fast-fashion-impact-environnemental-mode-jetable"
+        }
+      ],
+      "title": "法国对超快时尚征收惩罚性生态费并限制推广"
+    },
+    {
+      "category": "climate-environment",
+      "confidence": "high",
+      "date": "2026-09-01",
+      "id": "grand-canyon-flood-pipeline-damage",
+      "regions": [
+        "Arizona",
+        "North America",
+        "United States"
+      ],
+      "section": "world",
+      "single_source": false,
+      "source_count": 2,
+      "sources": [
+        {
+          "published_at": "2026-08-31T20:55:38Z",
+          "publisher": "Associated Press",
+          "source_type": "wire",
+          "title": "Flash floods damaged roughly 40% of Grand Canyon water pipeline",
+          "url": "https://apnews.com/article/305a0474e6833237d57c7287b4e27e39"
+        },
+        {
+          "published_at": "2026-08-30",
+          "publisher": "U.S. National Park Service",
+          "source_type": "primary",
+          "title": "Grand Canyon National Park to Close Overnight Hotel Accommodations Beginning August 31",
+          "url": "https://www.nps.gov/grca/learn/news/grand-canyon-national-park-to-close-overnight-hotel-accommodations-beginning-august-31.htm"
+        }
+      ],
+      "title": "大峡谷山洪造成伤亡并重创跨峡谷供水管线"
+    },
+    {
+      "category": "technology",
+      "confidence": "medium",
+      "date": "2026-09-01",
+      "id": "microsoft-outlook-exchange-outage",
+      "regions": [
+        "Europe",
+        "Global",
+        "North America"
+      ],
+      "section": "world",
+      "single_source": false,
+      "source_count": 2,
+      "sources": [
+        {
+          "published_at": "accessed 2026-09-01T10:47:34+08:00",
+          "publisher": "Microsoft",
+          "source_type": "primary",
+          "title": "Microsoft service health status",
+          "url": "https://status.cloud.microsoft/"
+        },
+        {
+          "published_at": "2026-09-01T02:46:00+02:00",
+          "publisher": "Tagesschau",
+          "source_type": "regional-media",
+          "title": "Worldwide outage disrupts Microsoft Outlook mail traffic",
+          "url": "https://www.tagesschau.de/wirtschaft/technologie/microsoft-stoerung-100.html"
+        }
+      ],
+      "title": "Exchange Online 故障造成 Outlook 全球访问与邮件延迟"
+    },
+    {
+      "category": "politics",
+      "confidence": "high",
+      "date": "2026-09-01",
+      "id": "palau-pacific-islands-forum-2026",
+      "regions": [
+        "Global",
+        "Oceania",
+        "Pacific Islands",
+        "Palau"
+      ],
+      "section": "world",
+      "single_source": false,
+      "source_count": 2,
+      "sources": [
+        {
+          "published_at": "2026-08-31T03:41:25Z",
+          "publisher": "Associated Press",
+          "source_type": "wire",
+          "title": "Great power rivalry threatens to overshadow Pacific Islands Forum summit",
+          "url": "https://apnews.com/article/5b5811d8a4f7bb18761b84255661f8db"
+        },
+        {
+          "published_at": "2026-08-30",
+          "publisher": "Republic of Palau",
+          "source_type": "primary",
+          "title": "55th Pacific Islands Forum Leaders Meeting",
+          "url": "https://55piflm.gov.pw/"
+        }
+      ],
+      "title": "太平洋岛国论坛在帕劳开幕，气候议题与大国竞争交织"
+    },
+    {
+      "category": "economy",
+      "confidence": "high",
+      "date": "2026-09-01",
+      "id": "shein-hong-kong-ipo-debut",
+      "regions": [
+        "Asia",
+        "China",
+        "Global",
+        "Hong Kong"
+      ],
+      "section": "world",
+      "single_source": false,
+      "source_count": 2,
+      "sources": [
+        {
+          "published_at": "2026-08-28",
+          "publisher": "Hong Kong Exchanges and Clearing",
+          "source_type": "primary",
+          "title": "HKEX Enhances Product Offering with SHEIN Debut",
+          "url": "https://www.hkex.com.hk/News/News-Release/2026/260828news?sc_lang=en"
+        },
+        {
+          "published_at": "2026-09-01",
+          "publisher": "Reuters via MarketScreener",
+          "source_type": "wire",
+          "title": "Shein shares slide 10% in long-awaited Hong Kong trading debut",
+          "url": "https://hk.marketscreener.com/news/shein-shares-slide-10-in-long-awaited-hong-kong-trading-debut-ce7858ddda8ef221"
+        }
+      ],
+      "title": "SHEIN 在香港上市首日早盘跌约一成"
+    },
+    {
+      "category": "climate-environment",
+      "confidence": "high",
+      "date": "2026-09-01",
+      "id": "turkmenistan-methane-repairs",
+      "regions": [
+        "Asia",
+        "Central Asia",
+        "Global",
+        "Turkmenistan"
+      ],
+      "section": "world",
+      "single_source": false,
+      "source_count": 2,
+      "sources": [
+        {
+          "published_at": "2026-08-31T03:00:00-04:00",
+          "publisher": "The Guardian",
+          "source_type": "regional-media",
+          "title": "Turkmenistan starts fixing methane mega-leaks after UN alerts",
+          "url": "https://www.theguardian.com/environment/2026/aug/31/turkmenistan-methane-leaks-un-alerts-mars"
+        },
+        {
+          "published_at": "updated 2026-08-31T11:57:00Z",
+          "publisher": "United Nations Environment Programme",
+          "source_type": "primary",
+          "title": "MARS mitigation action",
+          "url": "https://www.unep.org/topics/energy/methane/mars-mitigation-action"
+        }
+      ],
+      "title": "联合国卫星系统确认土库曼斯坦修复 8 处甲烷泄漏"
+    },
+    {
+      "category": "politics",
+      "confidence": "medium",
+      "date": "2026-09-01",
+      "id": "us-venezuela-oil-deal-terms-update",
+      "regions": [
+        "Global",
+        "Latin America",
+        "North America",
+        "United States",
+        "Venezuela"
+      ],
+      "section": "world",
+      "single_source": false,
+      "source_count": 2,
+      "sources": [
+        {
+          "published_at": "2026-09-01T00:27:50Z",
+          "publisher": "Associated Press",
+          "source_type": "wire",
+          "title": "Days after Trump announces Venezuela oil deal, White House fills in some of the details",
+          "url": "https://apnews.com/article/7a4fa51f842e17b9b1d092fbeef2646a"
+        },
+        {
+          "published_at": "2026-08-31",
+          "publisher": "The White House",
+          "source_type": "primary",
+          "title": "Fact Sheet: President Donald J. Trump Announces Historic Oil Agreement",
+          "url": "https://www.whitehouse.gov/fact-sheets/2026/08/fact-sheet-president-donald-j-trump-announces-historic-oil-agreement-to-secure-american-energy-dominance-and-drive-venezuelas-economic-recovery/"
+        }
+      ],
+      "title": "白宫披露委内瑞拉石油协议细节，五角大楼基金将持股"
+    },
     {
       "category": "technology",
       "confidence": "medium",
@@ -6756,12 +7083,12 @@
       "title": "降级预期推动油价早盘回落约 4 美元"
     }
   ],
-  "latest_digest_generated_at": "2026-08-31T11:10:29+08:00",
+  "latest_digest_generated_at": "2026-09-01T10:47:34+08:00",
   "publishers": [
     {
-      "event_count": 129,
+      "event_count": 132,
       "name": "Associated Press",
-      "source_links": 136
+      "source_links": 139
     },
     {
       "event_count": 26,
@@ -6774,14 +7101,24 @@
       "source_links": 19
     },
     {
-      "event_count": 12,
+      "event_count": 13,
       "name": "Hugging Face",
-      "source_links": 14
+      "source_links": 15
     },
     {
       "event_count": 3,
       "name": "OpenAI",
       "source_links": 9
+    },
+    {
+      "event_count": 2,
+      "name": "Qwen",
+      "source_links": 7
+    },
+    {
+      "event_count": 3,
+      "name": "Anthropic",
+      "source_links": 6
     },
     {
       "event_count": 3,
@@ -6800,22 +7137,17 @@
     },
     {
       "event_count": 1,
-      "name": "Qwen",
-      "source_links": 5
-    },
-    {
-      "event_count": 2,
-      "name": "Anthropic",
-      "source_links": 4
-    },
-    {
-      "event_count": 1,
       "name": "Anthropic / GitHub",
       "source_links": 4
     },
     {
       "event_count": 1,
       "name": "AutoDesign authors",
+      "source_links": 4
+    },
+    {
+      "event_count": 2,
+      "name": "Cloudflare",
       "source_links": 4
     },
     {
@@ -6836,6 +7168,11 @@
     {
       "event_count": 2,
       "name": "Tencent",
+      "source_links": 4
+    },
+    {
+      "event_count": 4,
+      "name": "The White House",
       "source_links": 4
     },
     {
@@ -6866,11 +7203,6 @@
     {
       "event_count": 1,
       "name": "Pydantic / GitHub",
-      "source_links": 3
-    },
-    {
-      "event_count": 3,
-      "name": "The White House",
       "source_links": 3
     },
     {
@@ -6906,11 +7238,6 @@
     {
       "event_count": 1,
       "name": "China Daily Government Portal",
-      "source_links": 2
-    },
-    {
-      "event_count": 1,
-      "name": "Cloudflare",
       "source_links": 2
     },
     {
@@ -7180,6 +7507,11 @@
     },
     {
       "event_count": 1,
+      "name": "French Ministry for Ecological Transition",
+      "source_links": 1
+    },
+    {
+      "event_count": 1,
       "name": "GigaAI",
       "source_links": 1
     },
@@ -7196,6 +7528,11 @@
     {
       "event_count": 1,
       "name": "Grand National Assembly of Turkey",
+      "source_links": 1
+    },
+    {
+      "event_count": 1,
+      "name": "Hong Kong Exchanges and Clearing",
       "source_links": 1
     },
     {
@@ -7266,6 +7603,11 @@
     {
       "event_count": 1,
       "name": "Meta Superintelligence Labs",
+      "source_links": 1
+    },
+    {
+      "event_count": 1,
+      "name": "Microsoft",
       "source_links": 1
     },
     {
@@ -7400,12 +7742,22 @@
     },
     {
       "event_count": 1,
+      "name": "Republic of Palau",
+      "source_links": 1
+    },
+    {
+      "event_count": 1,
       "name": "Reserve Bank of India",
       "source_links": 1
     },
     {
       "event_count": 1,
       "name": "Reuters via KSL",
+      "source_links": 1
+    },
+    {
+      "event_count": 1,
+      "name": "Reuters via MarketScreener",
       "source_links": 1
     },
     {
@@ -7455,7 +7807,17 @@
     },
     {
       "event_count": 1,
+      "name": "Tagesschau",
+      "source_links": 1
+    },
+    {
+      "event_count": 1,
       "name": "Taiwan Ministry of National Defense",
+      "source_links": 1
+    },
+    {
+      "event_count": 1,
+      "name": "The Guardian",
       "source_links": 1
     },
     {
@@ -7480,6 +7842,16 @@
     },
     {
       "event_count": 1,
+      "name": "U.S. National Park Service",
+      "source_links": 1
+    },
+    {
+      "event_count": 1,
+      "name": "United Nations Environment Programme",
+      "source_links": 1
+    },
+    {
+      "event_count": 1,
       "name": "United Nations Mission in South Sudan",
       "source_links": 1
     },
@@ -7496,6 +7868,11 @@
     {
       "event_count": 1,
       "name": "Unsloth",
+      "source_links": 1
+    },
+    {
+      "event_count": 1,
+      "name": "Vie publique",
       "source_links": 1
     },
     {
@@ -7526,23 +7903,23 @@
   ],
   "regions": [
     {
-      "event_count": 79,
+      "event_count": 87,
       "name": "Global"
     },
     {
-      "event_count": 56,
+      "event_count": 61,
       "name": "North America"
     },
     {
-      "event_count": 50,
+      "event_count": 53,
       "name": "Asia"
     },
     {
-      "event_count": 50,
+      "event_count": 52,
       "name": "United States"
     },
     {
-      "event_count": 34,
+      "event_count": 36,
       "name": "Europe"
     },
     {
@@ -7550,15 +7927,15 @@
       "name": "Middle East"
     },
     {
+      "event_count": 22,
+      "name": "China"
+    },
+    {
       "event_count": 21,
       "name": "Africa"
     },
     {
-      "event_count": 20,
-      "name": "China"
-    },
-    {
-      "event_count": 9,
+      "event_count": 10,
       "name": "Latin America"
     },
     {
@@ -7611,6 +7988,10 @@
     },
     {
       "event_count": 3,
+      "name": "France"
+    },
+    {
+      "event_count": 3,
       "name": "India"
     },
     {
@@ -7620,6 +8001,10 @@
     {
       "event_count": 3,
       "name": "Mexico"
+    },
+    {
+      "event_count": 3,
+      "name": "Oceania"
     },
     {
       "event_count": 3,
@@ -7659,10 +8044,6 @@
     },
     {
       "event_count": 2,
-      "name": "France"
-    },
-    {
-      "event_count": 2,
       "name": "Gaza"
     },
     {
@@ -7699,10 +8080,6 @@
     },
     {
       "event_count": 2,
-      "name": "Oceania"
-    },
-    {
-      "event_count": 2,
       "name": "Pakistan"
     },
     {
@@ -7731,6 +8108,10 @@
     },
     {
       "event_count": 2,
+      "name": "Venezuela"
+    },
+    {
+      "event_count": 2,
       "name": "Zambia"
     },
     {
@@ -7748,6 +8129,10 @@
     {
       "event_count": 1,
       "name": "Amboseli"
+    },
+    {
+      "event_count": 1,
+      "name": "Arizona"
     },
     {
       "event_count": 1,
@@ -7788,6 +8173,10 @@
     {
       "event_count": 1,
       "name": "Central African Republic"
+    },
+    {
+      "event_count": 1,
+      "name": "Central Asia"
     },
     {
       "event_count": 1,
@@ -7840,6 +8229,10 @@
     {
       "event_count": 1,
       "name": "Haiti"
+    },
+    {
+      "event_count": 1,
+      "name": "Hong Kong"
     },
     {
       "event_count": 1,
@@ -7896,6 +8289,14 @@
     {
       "event_count": 1,
       "name": "Okinawa"
+    },
+    {
+      "event_count": 1,
+      "name": "Pacific Islands"
+    },
+    {
+      "event_count": 1,
+      "name": "Palau"
     },
     {
       "event_count": 1,
@@ -7963,11 +8364,11 @@
     },
     {
       "event_count": 1,
-      "name": "United Kingdom"
+      "name": "Turkmenistan"
     },
     {
       "event_count": 1,
-      "name": "Venezuela"
+      "name": "United Kingdom"
     },
     {
       "event_count": 1,
@@ -7989,19 +8390,19 @@
   "schema_version": 1,
   "source_types": [
     {
-      "event_count": 140,
+      "event_count": 144,
       "name": "wire",
-      "source_links": 161
+      "source_links": 165
     },
     {
-      "event_count": 95,
+      "event_count": 105,
       "name": "primary",
-      "source_links": 108
+      "source_links": 121
     },
     {
-      "event_count": 40,
+      "event_count": 41,
       "name": "code",
-      "source_links": 69
+      "source_links": 70
     },
     {
       "event_count": 32,
@@ -8009,9 +8410,9 @@
       "source_links": 46
     },
     {
-      "event_count": 22,
+      "event_count": 23,
       "name": "model-card",
-      "source_links": 34
+      "source_links": 35
     },
     {
       "event_count": 21,
@@ -8019,9 +8420,9 @@
       "source_links": 21
     },
     {
-      "event_count": 11,
+      "event_count": 13,
       "name": "regional-media",
-      "source_links": 12
+      "source_links": 14
     }
   ]
 }

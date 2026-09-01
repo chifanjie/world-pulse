@@ -2,6 +2,38 @@
   "version": 1,
   "entries": [
     {
+      "date": "2026-09-01",
+      "digest_path": "digests/2026/09/2026-09-01.md",
+      "data_path": "data/2026/09/2026-09-01.json",
+      "generated_at": "2026-09-01T10:47:34+08:00",
+      "item_count": 10,
+      "ai_radar_count": 3,
+      "categories": [
+        "climate-environment",
+        "economy",
+        "politics",
+        "technology"
+      ],
+      "regions": [
+        "Arizona",
+        "Asia",
+        "Central Asia",
+        "China",
+        "Europe",
+        "France",
+        "Global",
+        "Hong Kong",
+        "Latin America",
+        "North America",
+        "Oceania",
+        "Pacific Islands",
+        "Palau",
+        "Turkmenistan",
+        "United States",
+        "Venezuela"
+      ]
+    },
+    {
       "date": "2026-08-31",
       "digest_path": "digests/2026/08/2026-08-31.md",
       "data_path": "data/2026/08/2026-08-31.json",
