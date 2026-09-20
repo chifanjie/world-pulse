@@ -4,6 +4,7 @@
 
 ## 已发布
 
+- [发布健康检查](publication_health/README.md)：离线列出日期窗口的缺期、坏配对和实际补发日期，避免运行心跳掩盖长期停更。
 - [来源航图：来源多样性地图台](source-diversity/README.md)：按日期、栏目与来源类型探索日报的地区覆盖、来源集中度和单一来源事件。
 - [脉络时间线生成器](pulse_timeline/README.md)：离线按日期、事件 ID 和类别浏览跨日报的事件脉络。
 
