@@ -1,0 +1,206 @@
+{
+  "date": "2026-09-12",
+  "timezone": "Asia/Shanghai",
+  "generated_at": "2026-09-20T08:15:54+00:00",
+  "publication_status": "backfill",
+  "publication_note": "历史补发：2026-09-20，按当时可核实材料重建；并非当日实时发布",
+  "observation_note": "历史全天重建，以来源署名日期及明确事件日期归档；仅有日期者不声称北京09:00已公开。世界事件约36小时，AI约72小时、论文7天；未使用后续事件进展。",
+  "overview": "沙特输油通道与乌克兰平民安全牵动局势，金砖宣言和新的南南合作平台形成外交与发展信号。AI雷达关注概念预测与紧凑开放模型。",
+  "digest_path": "digests/2026/09/2026-09-12.md",
+  "ai_radar": {
+    "selection_as_of": "2026-09-20T08:15:54+00:00",
+    "item_ids": [
+      "ncp-archpreview-paper-sep09",
+      "zgcm1-model-report-sep11"
+    ]
+  },
+  "items": [
+    {
+      "id": "saudi-east-west-pipeline-sep12",
+      "category": "politics",
+      "regions": [
+        "Asia",
+        "Saudi Arabia",
+        "Iran"
+      ],
+      "title": "沙特主要绕行输油管道遭袭后停运",
+      "summary": "9月12日路透社与美联社报道，沙特东西输油管道因空袭而关闭；特朗普称伊朗“可能”负责，但未在该报道中展示证据。",
+      "why_it_matters": "该管道可绕过霍尔木兹海峡，停运增加能源运输脆弱性。",
+      "uncertainty": "责任归属尚未独立证实；损失、停运时长及恢复进度不能从政治表态推定。",
+      "confidence": "medium",
+      "sources": [
+        {
+          "publisher": "Reuters / AP via Arab News",
+          "title": "Trump says Iran probably responsible for attack on Saudi oil pipeline",
+          "url": "https://www.arabnews.com/middle-east/trump-says-iran-probably-responsible-for-attack-on-saudi-oil-pipeline-3001439",
+          "published_at": "2026-09-12",
+          "source_type": "wire"
+        }
+      ]
+    },
+    {
+      "id": "ukraine-civilian-strikes-sep12",
+      "category": "politics",
+      "regions": [
+        "Europe",
+        "Ukraine"
+      ],
+      "title": "乌克兰地方官员报告袭击造成平民死亡",
+      "summary": "美联社9月12日援引乌克兰地方官员称，俄罗斯袭击造成8名平民死亡、多人受伤，涉及扎波罗热、克拉马托尔斯克等地。",
+      "why_it_matters": "居民区和民用设施受袭持续扩大人道与供能压力。",
+      "uncertainty": "伤亡为当时地方官员通报，可能修订；本次未独立核实每个现场或战场战果。",
+      "confidence": "medium",
+      "sources": [
+        {
+          "publisher": "AP via Local 10",
+          "title": "8 killed in Russian strikes on Ukraine as Putin warns Europe against sending troops",
+          "url": "https://www.local10.com/news/world/2026/09/12/5-killed-in-russian-strikes-on-ukraine-as-putin-warns-europe-against-sending-troops/",
+          "published_at": "2026-09-12",
+          "source_type": "wire"
+        }
+      ]
+    },
+    {
+      "id": "brics-new-delhi-declaration-sep12",
+      "category": "politics",
+      "regions": [
+        "Global",
+        "India"
+      ],
+      "title": "金砖领导人通过新德里宣言",
+      "summary": "金砖国家9月12日在新德里通过宣言，表达对中东局势、民用与受保障核设施安全的关切，并主张改革全球治理。",
+      "why_it_matters": "共同文本显示扩员后各方仍能形成部分共同立场。",
+      "uncertainty": "宣言是政治承诺，不是停火执行机制；各成员利益分歧并未因此消失。",
+      "confidence": "high",
+      "sources": [
+        {
+          "publisher": "Prime Minister of India",
+          "title": "BRICS New Delhi Declaration",
+          "url": "https://www.pmindia.gov.in/en/news_updates/brics-new-delhi-declaration-building-for-resilience-innovation-cooperation-and-sustainability-september-12-2026/?comment=disable",
+          "published_at": "2026-09-12",
+          "source_type": "primary"
+        },
+        {
+          "publisher": "AP",
+          "title": "BRICS group voices concern over Middle East and sanctions",
+          "url": "https://apnews.com/article/india-brics-modi-russia-china-iran-wars-5393274f87a16461b195d13f324e747a",
+          "published_at": "2026-09-12",
+          "source_type": "wire"
+        }
+      ]
+    },
+    {
+      "id": "south-south-global-alliance-sep11",
+      "category": "health-society",
+      "regions": [
+        "Global"
+      ],
+      "title": "联合国启动南南与三方合作全球联盟",
+      "summary": "联合国南南合作办公室9月11日在纽约启动新联盟，旨在把各国的发展需求与技术、经验及合作资源连接起来。",
+      "why_it_matters": "平台尝试减少发展经验难以跨国复制和融资对接不足的问题。",
+      "uncertainty": "启动不等于资金已经到位或项目已经产生效果，成果仍需持续评估。",
+      "confidence": "high",
+      "sources": [
+        {
+          "publisher": "UNOSSC",
+          "title": "United Nations Day for South-South Cooperation 2026",
+          "url": "https://unsouthsouth.org/united-nations-day-for-south-south-cooperation-2026/",
+          "published_at": "2026-09-11",
+          "source_type": "primary"
+        }
+      ]
+    },
+    {
+      "id": "ncp-archpreview-paper-sep09",
+      "category": "technology",
+      "regions": [
+        "Global",
+        "China"
+      ],
+      "title": "NCP-ArchPreview尝试在潜空间预测概念",
+      "summary": "9月9日技术报告提出在下一token预测之外增加下一概念预测，让模型学习跨多个token的离散概念表示。",
+      "why_it_matters": "研究探索改变预训练目标，而非只扩大参数或数据规模。",
+      "uncertainty": "尚未同行评审；效率与下游提升为作者报告，跨规模可扩展性仍需复现。",
+      "confidence": "medium",
+      "sources": [
+        {
+          "publisher": "arXiv / Intern-NCP Team",
+          "title": "NCP-ArchPreview Technical Report",
+          "url": "https://arxiv.org/abs/2609.10715v1",
+          "published_at": "2026-09-09",
+          "source_type": "research"
+        }
+      ],
+      "section": "ai-frontier",
+      "ai": {
+        "kind": "research-paper",
+        "topics": [
+          "pretraining",
+          "latent-space",
+          "architecture"
+        ],
+        "artifact_date": "2026-09-09",
+        "artifact_status": "预印本v1，尚未同行评审",
+        "technical_takeaway": "以量化隐藏表示形成概念目标，专门模块预测未来概念并辅助token生成。",
+        "evidence_level": "primary research; author-reported results, independent replication not verified",
+        "heat": {
+          "label": "仅有正式发布信号；不作热度排名",
+          "as_of": "2026-09-20T08:15:54+00:00",
+          "signals": [
+            {
+              "platform": "arXiv / Intern-NCP Team",
+              "observation": "一手页面署名 2026-09-09；补发时核实发布，不重建历史关注量。",
+              "url": "https://arxiv.org/abs/2609.10715v1"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "zgcm1-model-report-sep11",
+      "category": "technology",
+      "regions": [
+        "Global",
+        "China"
+      ],
+      "title": "ZGCM-1公开紧凑模型训练方案",
+      "summary": "9月11日发布的ZGCM-1报告介绍7B稠密模型，将长上下文、内部推理和外部工具使用结合，并承诺公开模型及训练材料。",
+      "why_it_matters": "训练方案透明度有助于研究小模型如何依靠工具补足参数容量。",
+      "uncertainty": "尚未同行评审；“高效”属于作者评测结论，未在本次补发中独立跑分或审计全部工件。",
+      "confidence": "medium",
+      "sources": [
+        {
+          "publisher": "arXiv",
+          "title": "ZGCM-1: A Fully Open and Extremely Efficient Foundation Model for Math and Agentic Search",
+          "url": "https://arxiv.org/abs/2609.13356v1",
+          "published_at": "2026-09-11",
+          "source_type": "research"
+        }
+      ],
+      "section": "ai-frontier",
+      "ai": {
+        "kind": "model-and-research",
+        "topics": [
+          "open-model",
+          "agentic-search",
+          "efficient-training"
+        ],
+        "artifact_date": "2026-09-11",
+        "artifact_status": "预印本v1与公开训练工件声明，尚未同行评审",
+        "technical_takeaway": "混合滑动窗口与全注意力，逐级扩展上下文，并将交互轨迹用于中期训练。",
+        "evidence_level": "primary research; author-reported results, independent replication not verified",
+        "heat": {
+          "label": "仅有正式发布信号；不作热度排名",
+          "as_of": "2026-09-20T08:15:54+00:00",
+          "signals": [
+            {
+              "platform": "arXiv",
+              "observation": "一手页面署名 2026-09-11；补发时核实发布，不重建历史关注量。",
+              "url": "https://arxiv.org/abs/2609.13356v1"
+            }
+          ]
+        }
+      }
+    }
+  ]
+}

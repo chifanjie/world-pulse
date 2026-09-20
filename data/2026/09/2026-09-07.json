@@ -1,0 +1,250 @@
+{
+  "date": "2026-09-07",
+  "timezone": "Asia/Shanghai",
+  "generated_at": "2026-09-20T16:19:15+08:00",
+  "publication_status": "backfill",
+  "observation_window": {
+    "as_of": "2026-09-07T23:59:59+08:00",
+    "basis": "历史全天口径；世界事件约36小时，AI发布约72小时、论文7天；不引用其后事件进展"
+  },
+  "overview": "历史补发：2026-09-20，按当时可核实材料重建；并非当日实时发布。德国AfD赢得州选举最多选票，但未获单独执政多数；WMO新公报提醒野火与热浪可能削弱空气质量改善；塞尔维亚政府请求解散议会并提前选举；WHO东南亚区域委员会在帝力开幕；柬埔寨识字日活动聚焦多语言与教育公平；海上供应担忧推动亚洲时段油价续涨；双层协调研究为多代理反思加入环境验证门槛；Iris v1公布搜索代理的数据构造与交替训练方案。",
+  "digest_path": "digests/2026/09/2026-09-07.md",
+  "ai_radar": {
+    "selection_as_of": "2026-09-20T16:19:15+08:00",
+    "item_ids": [
+      "bilevel-coordinated-reflection-srma",
+      "iris-search-frontier-v1"
+    ]
+  },
+  "items": [
+    {
+      "id": "saxony-anhalt-preliminary-election-result",
+      "category": "politics",
+      "regions": [
+        "德国",
+        "欧洲"
+      ],
+      "title": "德国AfD赢得州选举最多选票，但未获单独执政多数",
+      "summary": "9月7日公布的萨克森-安哈尔特州初步官方结果显示，AfD得票43.8%，获得83席中的39席；CDU得票17.2%。这些结果在北京时间7日才进入观察窗口。",
+      "why_it_matters": "组阁需要进一步协商，结果也给德国主流政党的合作边界带来压力。",
+      "uncertainty": "赢得最多选票不等于已经执政；本条采用初步官方结果，未预判联合政府。",
+      "confidence": "high",
+      "sources": [
+        {
+          "publisher": "Reuters / onvista",
+          "title": "Vorläufiges Ergebnis: AfD gewinnt in Sachsen-Anhalt deutlich",
+          "url": "https://www.onvista.de/news/2026/09-07-vorlaeufiges-ergebnis-afd-gewinnt-in-sachsen-anhalt-deutlich-absolute-mehrheit-verfehlt-0-20-26550602",
+          "published_at": "2026-09-07",
+          "source_type": "wire"
+        },
+        {
+          "publisher": "AP",
+          "title": "AfD party's landslide win tests Germany's firewall",
+          "url": "https://apnews.com/article/902f5d0f4e3181e6565ba29f4320417c",
+          "published_at": "2026-09-07",
+          "source_type": "wire"
+        }
+      ]
+    },
+    {
+      "id": "wmo-air-quality-climate-bulletin-2026",
+      "category": "climate-environment",
+      "regions": [
+        "全球"
+      ],
+      "title": "WMO新公报提醒野火与热浪可能削弱空气质量改善",
+      "summary": "世界气象组织9月7日发布空气质量与气候公报，强调野火、热浪与污染的关联，并呼吁加强细颗粒物、臭氧及气溶胶监测。报告主要回顾2025年资料。",
+      "why_it_matters": "气候与空气污染政策彼此影响，单独治理其中一项可能不足以保护健康和生态。",
+      "uncertainty": "这是年度资料综合，不是9月7日当天全球污染突然恶化的证明；监测覆盖仍有空白。",
+      "confidence": "high",
+      "sources": [
+        {
+          "publisher": "WMO",
+          "title": "WMO bulletin shows air quality and climate interlinkages",
+          "url": "https://wmo.int/media/news/wmo-bulletin-shows-air-quality-and-climate-interlinkages",
+          "published_at": "2026-09-07",
+          "source_type": "primary"
+        }
+      ]
+    },
+    {
+      "id": "serbia-government-dissolution-request",
+      "category": "politics",
+      "regions": [
+        "塞尔维亚",
+        "欧洲"
+      ],
+      "title": "塞尔维亚政府请求解散议会并提前选举",
+      "summary": "总理久罗·马楚特9月7日宣布，政府请求总统武契奇解散议会并确定提前选举日期；路透将其置于持续学生抗议的政治背景中。",
+      "why_it_matters": "提前投票可能改变议会授权与政治危机的处理路径。",
+      "uncertainty": "当时是政府请求，不能写成总统已解散议会或已确定投票日；仅有本条核实的通讯社报道。",
+      "confidence": "medium",
+      "sources": [
+        {
+          "publisher": "Reuters / Quews",
+          "title": "Serbia’s government asks president to dissolve parliament and call snap vote",
+          "url": "https://quews.news/serbias-government-asks-president-2/",
+          "published_at": "2026-09-07",
+          "source_type": "wire"
+        }
+      ]
+    },
+    {
+      "id": "who-searo-dili-regional-meeting-opens",
+      "category": "health-society",
+      "regions": [
+        "东帝汶",
+        "南亚",
+        "东南亚"
+      ],
+      "title": "WHO东南亚区域委员会在帝力开幕",
+      "summary": "WHO第79届东南亚区域委员会9月7日在东帝汶帝力开幕。成员讨论卫生公平、人力资源与系统韧性，四天会议议程包括结核病、专科诊疗及数字健康。",
+      "why_it_matters": "该机制有助于各国协调卫生资源和跨国公共卫生合作。",
+      "uncertainty": "开幕声明与议程不等于会议已通过最终决议，也不等于承诺已经落实。",
+      "confidence": "high",
+      "sources": [
+        {
+          "publisher": "WHO",
+          "title": "South-East Asia Region annual governing body meeting begins in Timor-Leste",
+          "url": "https://www.who.int/southeastasia/news/detail/07-09-2026-who-south-east-asia-region-annual-governing-body-meeting-begins-in-timor-leste",
+          "published_at": "2026-09-07",
+          "source_type": "primary"
+        }
+      ]
+    },
+    {
+      "id": "cambodia-literacy-ratanakiri-event",
+      "category": "culture",
+      "regions": [
+        "柬埔寨"
+      ],
+      "title": "柬埔寨识字日活动聚焦多语言与教育公平",
+      "summary": "柬埔寨教育部门与UNESCO于9月7日在腊塔纳基里省举办识字日活动，约1,600人参与；重点是让语言、性别或生活条件不同的人都能获得识字教育。",
+      "why_it_matters": "在多民族、多语言地区，母语可及性是教育机会公平的重要环节。",
+      "uncertainty": "参与人数来自主办方；活动本身不能证明识字率或长期学习效果已改善。",
+      "confidence": "high",
+      "sources": [
+        {
+          "publisher": "UNESCO",
+          "title": "MoEYS and UNESCO Highlight the Role of Literacy in Building an Inclusive and Equitable Cambodia",
+          "url": "https://www.unesco.org/en/articles/press-release-moeys-and-unesco-highlight-role-literacy-building-inclusive-and-equitable-cambodia",
+          "published_at": "2026-09-07",
+          "source_type": "primary"
+        }
+      ]
+    },
+    {
+      "id": "oil-asian-trading-september-seven",
+      "category": "markets",
+      "regions": [
+        "全球",
+        "中东"
+      ],
+      "title": "海上供应担忧推动亚洲时段油价续涨",
+      "summary": "路透9月7日亚洲交易时段报道，截至05:12 GMT（北京时间13:12），布伦特原油期货报97.07美元/桶，日内上涨0.82%；市场关注美伊海上冲突对供应的影响。",
+      "why_it_matters": "能源价格上行会传导至进口成本、运输与通胀预期。",
+      "uncertainty": "这是明确时点的期货报价，不是当日结算价；价格波动并不能验证冲突方全部说法，也非投资建议。",
+      "confidence": "medium",
+      "sources": [
+        {
+          "publisher": "Reuters / Arab News",
+          "title": "Oil extends gains after US and Iran strike ships",
+          "url": "https://www.arabnews.com/business/oil-extends-gains-after-us-and-iran-strike-ships-3000758",
+          "published_at": "2026-09-07",
+          "source_type": "wire"
+        }
+      ]
+    },
+    {
+      "id": "bilevel-coordinated-reflection-srma",
+      "category": "technology",
+      "regions": [
+        "全球"
+      ],
+      "title": "双层协调研究为多代理反思加入环境验证门槛",
+      "summary": "9月2日预印本将编排者与工作代理建模为双层协调博弈，提出SRMA：只有环境评估风险下降时才接受候选记忆。",
+      "why_it_matters": "只凭对话文字自我反思可能无法区分表面相同、实际结果不同的环境；外部反馈因此关键。",
+      "uncertainty": "收敛结论依赖校准等假设，不能理解为任意代理系统都能稳定自我改进。",
+      "confidence": "medium",
+      "sources": [
+        {
+          "publisher": "arXiv",
+          "title": "Bilevel Coordinated Reflection: A Game-Theoretic Approach to Multi-Agent LLM Systems",
+          "url": "https://arxiv.org/abs/2609.02750",
+          "published_at": "2026-09-02",
+          "source_type": "research"
+        }
+      ],
+      "section": "ai-frontier",
+      "ai": {
+        "kind": "paper",
+        "topics": [
+          "multi-agent",
+          "memory",
+          "verification"
+        ],
+        "artifact_date": "2026-09-02",
+        "artifact_status": "arXiv v1预印本，未经同行评审或独立复现验证",
+        "technical_takeaway": "以环境中可测量的风险变化筛选反思记忆，连接任务分解质量、局部协调及记忆漂移分析。",
+        "evidence_level": "公开原稿及作者自报实验；不将理论条件或实验优势外推为部署保证",
+        "heat": {
+          "label": "可核验的发布信号，不作热度排名",
+          "as_of": "2026-09-20T16:19:15+08:00",
+          "signals": [
+            {
+              "platform": "arXiv",
+              "observation": "2026-09-02发布了本条所述工件或说明",
+              "url": "https://arxiv.org/abs/2609.02750"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "iris-search-frontier-v1",
+      "category": "technology",
+      "regions": [
+        "中国",
+        "全球"
+      ],
+      "title": "Iris v1公布搜索代理的数据构造与交替训练方案",
+      "summary": "9月3日Iris预印本v1介绍mini和pro搜索代理：从网页链接构造多跳问题，过滤轨迹，再交替进行监督学习与实时搜索强化学习。",
+      "why_it_matters": "数据设计和上下文管理可能与模型规模一样影响搜索评测，需控制工具与评测条件。",
+      "uncertainty": "锁定9月3日v1而非9月16日v2；v1称权重和完整方案计划发布，不写成当时已开源。性能为作者自报。",
+      "confidence": "medium",
+      "sources": [
+        {
+          "publisher": "arXiv",
+          "title": "Iris: Climbing to the Search Frontier — v1",
+          "url": "https://arxiv.org/abs/2609.04304v1",
+          "published_at": "2026-09-03",
+          "source_type": "research"
+        }
+      ],
+      "section": "ai-frontier",
+      "ai": {
+        "kind": "paper",
+        "topics": [
+          "search-agents",
+          "reinforcement-learning",
+          "evaluation"
+        ],
+        "artifact_date": "2026-09-03",
+        "artifact_status": "arXiv v1预印本，未经同行评审或独立复现验证",
+        "technical_takeaway": "SFT-RL climbing把每轮强化学习中较困难且高效的成功轨迹回流到监督训练，并分别报告有无上下文管理的评测。",
+        "evidence_level": "公开原稿及作者自报实验；不将理论条件或实验优势外推为部署保证",
+        "heat": {
+          "label": "可核验的发布信号，不作热度排名",
+          "as_of": "2026-09-20T16:19:15+08:00",
+          "signals": [
+            {
+              "platform": "arXiv",
+              "observation": "2026-09-03发布了本条所述工件或说明",
+              "url": "https://arxiv.org/abs/2609.04304v1"
+            }
+          ]
+        }
+      }
+    }
+  ]
+}

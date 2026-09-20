@@ -1,0 +1,223 @@
+{
+  "date": "2026-09-13",
+  "timezone": "Asia/Shanghai",
+  "generated_at": "2026-09-20T08:21:01+00:00",
+  "publication_status": "backfill",
+  "publication_note": "历史补发：2026-09-20，按当时可核实材料重建；并非当日实时发布",
+  "observation_note": "历史全天重建，以来源署名日期及明确事件日期归档；仅有日期者不声称北京09:00已公开。世界事件约36小时，AI约72小时、论文7天；未使用后续事件进展。",
+  "overview": "瑞典投票尚未产生确定组阁结果，阿富汗农业项目启动，联合国继续倡议全球治理改革。威尼斯颁奖与美网女单结果按北京时间归入本日；AI关注空间推理与可执行科研反馈。",
+  "digest_path": "digests/2026/09/2026-09-13.md",
+  "ai_radar": {
+    "selection_as_of": "2026-09-20T08:21:01+00:00",
+    "item_ids": [
+      "spatialblock-paper-sep07",
+      "actreview-paper-sep08"
+    ]
+  },
+  "items": [
+    {
+      "id": "sweden-election-voting-sep13",
+      "category": "politics",
+      "regions": [
+        "Europe",
+        "Sweden"
+      ],
+      "title": "瑞典举行竞争接近的议会选举",
+      "summary": "瑞典9月13日举行议会选举。路透社当日描述执政右翼集团与中左翼反对派之间竞争接近，组阁方向仍待投票及计票决定。",
+      "why_it_matters": "选举关系到移民、安全、福利政策及极右翼是否正式进入政府。",
+      "uncertainty": "本条仅记录投票阶段，不使用14日初步计票或之后最终结果倒填。",
+      "confidence": "medium",
+      "sources": [
+        {
+          "publisher": "Reuters via Investing.com",
+          "title": "Swedes vote in election that could usher far right into government",
+          "url": "https://www.investing.com/news/world-news/swedes-vote-in-election-that-could-usher-far-right-into-government-4898696",
+          "published_at": "2026-09-13 (Reuters dateline)",
+          "source_type": "wire"
+        }
+      ]
+    },
+    {
+      "id": "afghanistan-eu-fao-resilience-sep13",
+      "category": "health-society",
+      "regions": [
+        "Asia",
+        "Afghanistan",
+        "Europe"
+      ],
+      "title": "欧盟与FAO启动阿富汗农业韧性项目",
+      "summary": "欧盟与FAO 9月13日公布500万欧元项目，将支持脆弱农户和农业企业，并拟设四个一站式服务枢纽。",
+      "why_it_matters": "项目把农业建议、市场连接和气候预警结合，面向包括返乡者及流离失所者在内的人群。",
+      "uncertainty": "预算与项目启动并不代表全部款项已支出；林地修复和苗圃目标仍是未来实施内容。",
+      "confidence": "high",
+      "sources": [
+        {
+          "publisher": "EU / FAO via UN Afghanistan",
+          "title": "Joint Press Release: EU and FAO boost climate resilience of agrifood systems",
+          "url": "https://afghanistan.un.org/en/322659-joint-press-release",
+          "published_at": "2026-09-13",
+          "source_type": "primary"
+        }
+      ]
+    },
+    {
+      "id": "guterres-brics-governance-sep13",
+      "category": "politics",
+      "regions": [
+        "Global",
+        "India"
+      ],
+      "title": "联合国秘书长在金砖峰会推动治理改革",
+      "summary": "古特雷斯9月13日在新德里金砖峰会讲话，呼吁改革安理会及国际金融机构，扩大对发展中国家的融资与代表性。",
+      "why_it_matters": "讲话把多极化与机构代表性、债务和气候融资联系起来。",
+      "uncertainty": "这是秘书长的政策倡议，并非联合国成员国已通过改革方案；与12日领导人宣言分别归档。",
+      "confidence": "high",
+      "sources": [
+        {
+          "publisher": "United Nations in India",
+          "title": "UN Chief urges reform of global institutions for a multipolar world at BRICS Summit",
+          "url": "https://india.un.org/en/322574-un-chief-urges-reform-global-institutions-multipolar-world-brics-summit",
+          "published_at": "2026-09-13",
+          "source_type": "primary"
+        }
+      ]
+    },
+    {
+      "id": "venice-golden-lion-sep12",
+      "category": "culture",
+      "regions": [
+        "Europe",
+        "Italy",
+        "Denmark"
+      ],
+      "title": "《Woman Unknown》获得威尼斯金狮奖",
+      "summary": "北京时间9月13日凌晨（威尼斯当地12日19时），第83届威尼斯电影节公布奖项，May el-Toukhy执导的《Woman Unknown》获金狮奖。",
+      "why_it_matters": "国际电影节奖项为跨国电影发行与创作者带来重要曝光。",
+      "uncertainty": "奖项代表评审团选择，不等于后续票房或其他奖季结果；按已知颁奖时刻换算至北京时间归档。",
+      "confidence": "high",
+      "sources": [
+        {
+          "publisher": "La Biennale di Venezia",
+          "title": "Official awards of the 83rd Venice International Film Festival",
+          "url": "https://www.labiennale.org/en/news/official-awards-83rd-venice-international-film-festival",
+          "published_at": "2026-09-12",
+          "source_type": "primary"
+        }
+      ]
+    },
+    {
+      "id": "us-open-women-final-sep12",
+      "category": "culture",
+      "regions": [
+        "North America",
+        "United States",
+        "Kazakhstan"
+      ],
+      "title": "莱巴金娜赢得美网女单冠军",
+      "summary": "北京时间9月13日早晨，纽约当地12日美网女单决赛落幕；莱巴金娜以6比4、5比7、6比2战胜萨巴伦卡。",
+      "why_it_matters": "胜利终结对手美网三连冠冲击，也改变女子网坛争冠格局。",
+      "uncertainty": "不据单场比赛推定长期竞争力；官方赛果稿为12日18:01 EDT，即北京13日06:01，故未归入12日。",
+      "confidence": "high",
+      "sources": [
+        {
+          "publisher": "USTA / US Open",
+          "title": "Elena Rybakina vs. Aryna Sabalenka, 2026 US Open Women's Singles Final",
+          "url": "https://www.usopen.org/amp/en_US/news/articles/2026-09-12/elena_rybakina_vs_aryna_sabalenka_2026_us_open_womens_singles_final.html",
+          "published_at": "2026-09-12T18:01:00-04:00",
+          "source_type": "primary"
+        }
+      ]
+    },
+    {
+      "id": "spatialblock-paper-sep07",
+      "category": "technology",
+      "regions": [
+        "Global",
+        "South Korea"
+      ],
+      "title": "SpatialBlock用合成积木题训练空间推理",
+      "summary": "9月7日论文提出1.5万道合成积木堆叠题，涵盖三维到二维投影、视角变换及结构组合，并报告在真实空间任务上的迁移效果。",
+      "why_it_matters": "受控合成数据可能降低空间几何标注成本。",
+      "uncertainty": "尚未同行评审；测试中的泛化不等同于机器人或自动驾驶场景安全，未独立复现。",
+      "confidence": "medium",
+      "sources": [
+        {
+          "publisher": "arXiv",
+          "title": "SpatialBlock: Enhancing Spatial Intelligence in LVLMs via Synthetic Block-Stacking Problem",
+          "url": "https://arxiv.org/html/2609.07064v1",
+          "published_at": "2026-09-07",
+          "source_type": "research"
+        }
+      ],
+      "section": "ai-frontier",
+      "ai": {
+        "kind": "research-paper",
+        "topics": [
+          "spatial-reasoning",
+          "synthetic-data",
+          "multimodal"
+        ],
+        "artifact_date": "2026-09-07",
+        "artifact_status": "预印本v1，尚未同行评审；在7天论文窗口内",
+        "technical_takeaway": "通过颜色线索提供空间锚点，以结构化合成任务学习基础空间操作。",
+        "evidence_level": "primary research; author-reported results, independent replication not verified",
+        "heat": {
+          "label": "仅有正式发布信号；不作热度排名",
+          "as_of": "2026-09-20T08:21:01+00:00",
+          "signals": [
+            {
+              "platform": "arXiv",
+              "observation": "一手页面署名 2026-09-07；补发时核实发布，不重建历史关注量。",
+              "url": "https://arxiv.org/html/2609.07064v1"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "actreview-paper-sep08",
+      "category": "technology",
+      "regions": [
+        "Global"
+      ],
+      "title": "ActReview将作者答辩转化为可执行修改建议",
+      "summary": "9月8日论文从OpenReview评审—答辩线程构建训练数据，把论文问题诊断和具体修改建议连接起来。",
+      "why_it_matters": "研究关注AI评审是否能帮助作者修改，而不只是生成笼统批评。",
+      "uncertainty": "尚未同行评审；作者人工评估仍发现技术准确性差距，不能替代领域专家审稿。",
+      "confidence": "medium",
+      "sources": [
+        {
+          "publisher": "arXiv",
+          "title": "ActReview: Rebuttal-Guided Training Data and Rubric Rewards for Actionable Peer Review Generation",
+          "url": "https://arxiv.org/html/2609.09076v1",
+          "published_at": "2026-09-08",
+          "source_type": "research"
+        }
+      ],
+      "section": "ai-frontier",
+      "ai": {
+        "kind": "research-paper",
+        "topics": [
+          "scientific-workflows",
+          "post-training",
+          "evaluation"
+        ],
+        "artifact_date": "2026-09-08",
+        "artifact_status": "预印本v1，尚未同行评审",
+        "technical_takeaway": "以论文局部证据对齐评审弱点及作者回复，再结合监督微调和问题特定评分规则奖励。",
+        "evidence_level": "primary research; author-reported results, independent replication not verified",
+        "heat": {
+          "label": "仅有正式发布信号；不作热度排名",
+          "as_of": "2026-09-20T08:21:01+00:00",
+          "signals": [
+            {
+              "platform": "arXiv",
+              "observation": "一手页面署名 2026-09-08；补发时核实发布，不重建历史关注量。",
+              "url": "https://arxiv.org/html/2609.09076v1"
+            }
+          ]
+        }
+      }
+    }
+  ]
+}

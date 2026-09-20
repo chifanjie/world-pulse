@@ -1,0 +1,265 @@
+{
+  "date": "2026-09-06",
+  "timezone": "Asia/Shanghai",
+  "generated_at": "2026-09-20T16:16:04+08:00",
+  "publication_status": "backfill",
+  "observation_window": {
+    "as_of": "2026-09-06T23:59:59+08:00",
+    "basis": "历史全天口径；世界事件约36小时，AI发布约72小时、论文7天；不引用其后事件进展"
+  },
+  "overview": "历史补发：2026-09-20，按当时可核实材料重建；并非当日实时发布。OPEC+七国决定10月维持9月产量要求；美方特使首次到访基辅，继续推动俄乌谈判；TCS宣布取得海得拉巴AI数据中心用地；萨拉·杜特尔特就威胁案缴纳保释金；德国萨克森-安哈尔特州开始投票，结果尚未到本期截点；ERS会议研究关注儿童肺发育与遗传、空气污染的交互；计算机操作代理将交互轨迹积累为可版本化技能；新预印本测试知晓监控后的多代理串谋检测。",
+  "digest_path": "digests/2026/09/2026-09-06.md",
+  "ai_radar": {
+    "selection_as_of": "2026-09-20T16:16:04+08:00",
+    "item_ids": [
+      "persistent-skills-computer-use-evolution",
+      "activation-monitoring-evaluation-awareness"
+    ]
+  },
+  "items": [
+    {
+      "id": "opec-seven-october-quotas-unchanged",
+      "category": "economy",
+      "regions": [
+        "中东",
+        "俄罗斯",
+        "全球"
+      ],
+      "title": "OPEC+七国决定10月维持9月产量要求",
+      "summary": "沙特、俄罗斯等七个OPEC+成员9月6日线上开会，决定10月沿用9月产量要求。官方声明与当天路透报道一致。",
+      "why_it_matters": "这明确了下一月供给政策，但海湾运输受阻仍会限制实际供应。",
+      "uncertainty": "配额不等于实际产量或出口量，也不能单独预测油价。",
+      "confidence": "high",
+      "sources": [
+        {
+          "publisher": "OPEC",
+          "title": "Seven countries reaffirm commitment to market stability",
+          "url": "https://www.opec.org/pr-detail/613-6-september-2026.html",
+          "published_at": "2026-09-06",
+          "source_type": "primary"
+        },
+        {
+          "publisher": "Reuters / The Star",
+          "title": "OPEC+ keeps oil output policy unchanged for October",
+          "url": "https://www.thestar.com.my/aseanplus/aseanplus-news/2026/09/06/opec-keeps-oil-output-policy-unchanged-for-october",
+          "published_at": "2026-09-06",
+          "source_type": "wire"
+        }
+      ]
+    },
+    {
+      "id": "us-envoys-first-kyiv-visit",
+      "category": "politics",
+      "regions": [
+        "乌克兰",
+        "俄罗斯",
+        "美国"
+      ],
+      "title": "美方特使首次到访基辅，继续推动俄乌谈判",
+      "summary": "维特科夫与库什纳9月6日在基辅会见泽连斯基，前一天曾在莫斯科与普京会谈。当天路透现场材料确认了基辅会面与继续谈判的表态。",
+      "why_it_matters": "接触地点从莫斯科扩展到基辅，使乌方直接参与美方本轮穿梭磋商。",
+      "uncertainty": "本期仅确认访问和会谈；积极评价不等于已达成停火或安全保障协议，不采用截稿后成果判断。",
+      "confidence": "high",
+      "sources": [
+        {
+          "publisher": "Reuters Connect",
+          "title": "Witkoff feels good about peace talks as US envoys make first Kyiv visit",
+          "url": "https://www.reutersconnect.com/item/witkoff-feels-good-about-peace-talks-as-us-envoys-make-first-kyiv-visit/dGFnOnJldXRlcnMuY29tLDIwMjY6bmV3c21sX1ZBMDcwMzA2MDkyMDI2UlAx",
+          "published_at": "2026-09-06",
+          "source_type": "wire"
+        }
+      ]
+    },
+    {
+      "id": "tcs-hypervault-hyderabad-campus",
+      "category": "technology",
+      "regions": [
+        "印度"
+      ],
+      "title": "TCS宣布取得海得拉巴AI数据中心用地",
+      "summary": "TCS于9月5日宣布，其子公司HyperVault已取得264英亩土地，拟分期建设最高1GW的AI数据中心园区，为高密度GPU计算提供液冷基础设施。",
+      "why_it_matters": "项目显示AI算力投资向印度扩展，也带来电力、水资源及交付能力问题。",
+      "uncertainty": "拿地和规划容量不等于建成算力；建设进度取决于客户需求与技术条件，绿色设计属于公司承诺。",
+      "confidence": "high",
+      "sources": [
+        {
+          "publisher": "TCS",
+          "title": "HyperVault to establish large-scale AI data center campus in Telangana",
+          "url": "https://www.tcs.com/who-we-are/newsroom/press-release/tcs-hypervault-establish-large-scale-ai-data-center-campus-telangana",
+          "published_at": "2026-09-05",
+          "source_type": "primary"
+        }
+      ]
+    },
+    {
+      "id": "sara-duterte-bail-september-five",
+      "category": "politics",
+      "regions": [
+        "菲律宾"
+      ],
+      "title": "萨拉·杜特尔特就威胁案缴纳保释金",
+      "summary": "菲律宾副总统萨拉·杜特尔特9月5日在奎松市法院缴纳36万比索保释金，法院随后撤销逮捕令。案件涉及她被控针对总统等三人发表严重威胁。",
+      "why_it_matters": "刑事程序与其政治前途有关，也与另行进行的弹劾程序不同。",
+      "uncertainty": "她否认相关指控；保释既非定罪也非无罪裁决。事件发生于5日，按本期约36小时窗口回顾。",
+      "confidence": "high",
+      "sources": [
+        {
+          "publisher": "AP",
+          "title": "Philippines Vice President Duterte posts bail after arrest order",
+          "url": "https://apnews.com/article/253a1caa41ef2b831d307fbe2b0489df",
+          "published_at": "2026-09-05",
+          "source_type": "wire"
+        },
+        {
+          "publisher": "GMA News",
+          "title": "Arrest warrant vs. Sara Duterte — September 5 updates",
+          "url": "https://www.gmanetwork.com/news/topstories/nation/1001151/live-updates-arrest-warrant-vs-sara-duterte-september-4-2026/story/?order=1&top_picks=",
+          "published_at": "2026-09-05",
+          "source_type": "regional-media"
+        }
+      ]
+    },
+    {
+      "id": "saxony-anhalt-polls-open",
+      "category": "politics",
+      "regions": [
+        "德国",
+        "欧洲"
+      ],
+      "title": "德国萨克森-安哈尔特州开始投票，结果尚未到本期截点",
+      "summary": "9月6日当地8时，萨克森-安哈尔特州选举投票站开放。约170万选民可投票，选前民调显示AfD领先。",
+      "why_it_matters": "州选举检验联邦执政联盟的支持度；组阁可能取决于小党是否跨过门槛。",
+      "uncertainty": "当地18时截止投票对应北京时间7日0时，故本期不提前写入出口民调、胜选或组阁结果。",
+      "confidence": "high",
+      "sources": [
+        {
+          "publisher": "AFP",
+          "title": "Polls open in crucial eastern German state vote",
+          "url": "https://www-pp.afp.com/en/polls-open-crucial-eastern-german-state-vote",
+          "published_at": "2026-09-06",
+          "source_type": "wire"
+        },
+        {
+          "publisher": "Agencies / Times of Israel",
+          "title": "Polls open in German vote that could bring first far-right state government since WWII",
+          "url": "https://www.timesofisrael.com/polls-open-in-german-vote-that-could-bring-first-far-right-state-government-since-wwii/",
+          "published_at": "2026-09-06",
+          "source_type": "wire"
+        }
+      ]
+    },
+    {
+      "id": "ers-child-lung-genetics-pollution",
+      "category": "health-society",
+      "regions": [
+        "欧洲",
+        "全球"
+      ],
+      "title": "ERS会议研究关注儿童肺发育与遗传、空气污染的交互",
+      "summary": "欧洲呼吸学会9月6日发布会议研究：在较高PM2.5暴露儿童中，较高慢阻肺遗传风险与出生至六岁的肺功能增长较低相关。",
+      "why_it_matters": "结果提示研究成人呼吸疾病时需要关注儿童期环境暴露，而不只看成年后的因素。",
+      "uncertainty": "这是会议研究及学会新闻稿，非独立复现；观察关联不能证明因果，也不能据此预测某个孩子将患病。",
+      "confidence": "medium",
+      "sources": [
+        {
+          "publisher": "欧洲呼吸学会",
+          "title": "Origins of COPD may lie in how some children’s lungs develop",
+          "url": "https://www.ersnet.org/news-and-features/news/origins-of-copd-may-lie-in-how-some-childrens-lungs-develop-but-only-when-they-are-exposed-to-polluted-air/",
+          "published_at": "2026-09-06",
+          "source_type": "primary"
+        }
+      ]
+    },
+    {
+      "id": "persistent-skills-computer-use-evolution",
+      "category": "technology",
+      "regions": [
+        "中国",
+        "全球"
+      ],
+      "title": "计算机操作代理将交互轨迹积累为可版本化技能",
+      "summary": "9月4日预印本把交互轨迹和评估反馈转成持久技能库，每轮执行固定快照，下轮再使用更新；四个OSWorld应用领域中，作者报告暖身后平均得分提升。",
+      "why_it_matters": "无需更新模型参数也能积累程序性经验，并可审计技能的来源和修改过程。",
+      "uncertainty": "优势随领域变化；重复修改不能保证失败任务恢复，研究不证明所有桌面任务都会改善。",
+      "confidence": "medium",
+      "sources": [
+        {
+          "publisher": "arXiv",
+          "title": "From Interaction Traces to Persistent Skills: Online Evolution for Computer-Use Agents",
+          "url": "https://arxiv.org/abs/2609.04869",
+          "published_at": "2026-09-04",
+          "source_type": "research"
+        }
+      ],
+      "section": "ai-frontier",
+      "ai": {
+        "kind": "paper",
+        "topics": [
+          "computer-use",
+          "skills",
+          "agents"
+        ],
+        "artifact_date": "2026-09-04",
+        "artifact_status": "arXiv v1预印本，未经同行评审或独立复现验证",
+        "technical_takeaway": "对照组保持相同操作和GUI定位栈，仅去掉技能库；冻结快照与版本记录有助于分析记忆是否真正贡献增益。",
+        "evidence_level": "作者公开实验，尚无本条核实的独立复现",
+        "heat": {
+          "label": "可核验的发布信号，不作热度排名",
+          "as_of": "2026-09-20T16:16:04+08:00",
+          "signals": [
+            {
+              "platform": "arXiv",
+              "observation": "2026-09-04发布了本条所述工件或说明",
+              "url": "https://arxiv.org/abs/2609.04869"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "activation-monitoring-evaluation-awareness",
+      "category": "technology",
+      "regions": [
+        "全球"
+      ],
+      "title": "新预印本测试知晓监控后的多代理串谋检测",
+      "summary": "9月2日提交的研究固定模型、激活探针与阈值，只改变代理是否知道被监控、是否收到上轮检测分数，比较串谋行为和检测表现。",
+      "why_it_matters": "安全评测若只观察不知道被测试的代理，可能遗漏真实部署中的策略变化。",
+      "uncertainty": "结果来自特定模型与游戏环境，不能推广为内部激活监控始终可靠；检测率变化需与串谋是否成功同时解释。",
+      "confidence": "medium",
+      "sources": [
+        {
+          "publisher": "arXiv",
+          "title": "You Can't Escape Your Own Activations: Evaluation Awareness and Multi-Agent Monitoring",
+          "url": "https://arxiv.org/abs/2609.03035",
+          "published_at": "2026-09-02",
+          "source_type": "research"
+        }
+      ],
+      "section": "ai-frontier",
+      "ai": {
+        "kind": "paper",
+        "topics": [
+          "multi-agent",
+          "interpretability",
+          "safety"
+        ],
+        "artifact_date": "2026-09-02",
+        "artifact_status": "arXiv v1预印本，未经同行评审或独立复现验证",
+        "technical_takeaway": "在二十一点等受控任务中比较不知情、知情与反馈三种条件；重点是同时衡量行为变化和监控效果，而非只看检测分数。",
+        "evidence_level": "作者公开实验，尚无本条核实的独立复现",
+        "heat": {
+          "label": "可核验的发布信号，不作热度排名",
+          "as_of": "2026-09-20T16:16:04+08:00",
+          "signals": [
+            {
+              "platform": "arXiv",
+              "observation": "2026-09-02发布了本条所述工件或说明",
+              "url": "https://arxiv.org/abs/2609.03035"
+            }
+          ]
+        }
+      }
+    }
+  ]
+}

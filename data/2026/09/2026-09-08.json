@@ -1,0 +1,294 @@
+{
+  "date": "2026-09-08",
+  "timezone": "Asia/Shanghai",
+  "generated_at": "2026-09-20T16:24:07+08:00",
+  "publication_status": "backfill",
+  "observation_window": {
+    "as_of": "2026-09-08T23:59:59+08:00",
+    "basis": "历史全天口径；世界事件约36小时，AI发布约72小时、论文7天；不引用其后事件进展"
+  },
+  "overview": "历史补发：2026-09-20，按当时可核实材料重建；并非当日实时发布。日本第二季GDP增速上修，企业投资仍收缩；澳大利亚公布让用户选择算法信息流的草案；年度报告记录2025年至少1,063名集束弹药伤亡者；WHO东南亚卫生部长通过专科医疗公平宣言；中国8月美元计出口同比增长25%；加拿大新一轮对美商品反制关税进入生效日；Uno预印本探索保持自回归分布的并行生成；同一扩散交通模型兼做规划器与压力测试生成器。",
+  "digest_path": "digests/2026/09/2026-09-08.md",
+  "ai_radar": {
+    "selection_as_of": "2026-09-20T16:24:07+08:00",
+    "item_ids": [
+      "uno-lossless-discrete-diffusion",
+      "diffusion-two-roles-driving-simulation"
+    ]
+  },
+  "items": [
+    {
+      "id": "japan-q2-gdp-second-estimate",
+      "category": "economy",
+      "regions": [
+        "日本",
+        "亚洲"
+      ],
+      "title": "日本第二季GDP增速上修，企业投资仍收缩",
+      "summary": "内阁府9月8日公布第二次初步估计：2026年第二季实际GDP季增0.4%、折年增1.4%，初值分别为0.3%和1.1%；企业资本开支降幅由1.2%修正为0.9%。",
+      "why_it_matters": "上修改变对经济韧性的判断，但投资仍下滑，不能单凭总体数字认定内需全面复苏。",
+      "uncertainty": "这是4—6月统计修订，不是9月新增产出；折年率不等于同比增速，也不预示央行必然采取某项决定。",
+      "confidence": "high",
+      "sources": [
+        {
+          "publisher": "日本内阁府ESRI",
+          "title": "2026年4–6月期GDP第二次初步估计",
+          "url": "https://www.esri.cao.go.jp/jp/sna/data/data_list/sokuhou/gaiyou/pdf/main_1.pdf",
+          "published_at": "2026-09-08",
+          "source_type": "primary"
+        },
+        {
+          "publisher": "Reuters / AOL",
+          "title": "Japan upgrades Q2 GDP on slight capex improvement",
+          "url": "https://www.aol.com/articles/japan-revises-q2-gdp-annualised-235949000.html",
+          "published_at": "2026-09-08T00:20:00Z",
+          "source_type": "wire"
+        }
+      ]
+    },
+    {
+      "id": "australia-my-feed-my-way-draft",
+      "category": "technology",
+      "regions": [
+        "澳大利亚",
+        "大洋洲"
+      ],
+      "title": "澳大利亚公布让用户选择算法信息流的草案",
+      "summary": "澳大利亚政府9月8日发布Digital Duty of Care草案征求定向意见。“My Feed, My Way”拟要求平台让用户选择个性化推荐，或只看自己关注的朋友和创作者；提案还涵盖未成年人保护。",
+      "why_it_matters": "监管讨论从内容删除扩展到默认产品设计与用户控制，可能影响平台的信息分发机制。",
+      "uncertainty": "当时处于咨询阶段，尚未成为生效法律；最终范围、界面与执行细则仍可能变化。",
+      "confidence": "high",
+      "sources": [
+        {
+          "publisher": "澳大利亚总理办公室",
+          "title": "My Feed, My Way",
+          "url": "https://www.pm.gov.au/media/my-feed-my-way",
+          "published_at": "2026-09-08",
+          "source_type": "primary"
+        },
+        {
+          "publisher": "AP",
+          "title": "Proposed Australian law would let social media users opt out of algorithms",
+          "url": "https://apnews.com/article/australia-social-media-algorithms-digital-duty-care-1eee351b39f22b340ef289c792f7993b",
+          "published_at": "2026-09-08T09:01:40Z",
+          "source_type": "wire"
+        }
+      ]
+    },
+    {
+      "id": "cluster-munition-monitor-2026-release",
+      "category": "politics",
+      "regions": [
+        "全球",
+        "乌克兰"
+      ],
+      "title": "年度报告记录2025年至少1,063名集束弹药伤亡者",
+      "summary": "集束弹药联盟9月8日发布年度监测报告；参与编写的Human Rights Watch称，2025年全球至少1,063人因集束弹药死亡或受伤。已记录平民身份的伤亡中，87%为平民；Reuters核对报告并报道多数伤亡发生在乌克兰。",
+      "why_it_matters": "未爆子弹药会留下长期危险，伤亡统计涉及清除作业、康复支持及禁用公约的执行。",
+      "uncertainty": "数字是2025年合计且可能漏报，不是9月8日单日伤亡；两篇来源引用同一底层报告，并非两套独立伤亡统计。",
+      "confidence": "high",
+      "sources": [
+        {
+          "publisher": "Human Rights Watch",
+          "title": "Cluster Munitions: Ban Treaty Under Pressure",
+          "url": "https://www.hrw.org/news/2026/09/08/cluster-munitions-ban-treaty-under-pressure",
+          "published_at": "2026-09-08T09:00:00-04:00",
+          "source_type": "primary"
+        },
+        {
+          "publisher": "Reuters / MarketScreener",
+          "title": "Cluster bomb casualties near record, driven by war in Ukraine",
+          "url": "https://www.marketscreener.com/news/cluster-bomb-casualties-near-record-driven-by-ukraine-ce785bd8dc80f12d",
+          "published_at": "2026-09-08T09:07:00-04:00",
+          "source_type": "wire"
+        }
+      ]
+    },
+    {
+      "id": "who-dili-declaration-specialized-care",
+      "category": "health-society",
+      "regions": [
+        "东南亚",
+        "东帝汶"
+      ],
+      "title": "WHO东南亚卫生部长通过专科医疗公平宣言",
+      "summary": "WHO9月8日宣布，区域卫生部长在帝力通过卫生人力资源宣言，承诺改善农村和服务不足地区的专科医疗可及性，推进人员配置、转诊协作及受监管的远程医疗。",
+      "why_it_matters": "决定把专科资源的地理分布与基层卫生衔接纳入区域合作议程，是前一日会议开幕后新的实质进展。",
+      "uncertainty": "通过宣言不等于人员和资金已经到位；各国实施时间、投入规模与患者实际获益仍待观察。",
+      "confidence": "high",
+      "sources": [
+        {
+          "publisher": "WHO",
+          "title": "Health Ministers adopt Dili Declaration to advance equity in specialized care",
+          "url": "https://www.who.int/southeastasia/news/detail/08-09-2026-health-ministers-of-who-south-east-asia-region-adopt-dili-declaration-to-advance-equity-in-specialized-care",
+          "published_at": "2026-09-08",
+          "source_type": "primary"
+        }
+      ]
+    },
+    {
+      "id": "china-august-trade-data-2026",
+      "category": "economy",
+      "regions": [
+        "中国",
+        "全球"
+      ],
+      "title": "中国8月美元计出口同比增长25%",
+      "summary": "9月8日公布的海关数据显示，8月中国出口按美元计同比增长25%，进口增长28.2%。新华社的人民币口径对应增幅为18.6%和21.7%，与美元口径不可混用。",
+      "why_it_matters": "外贸仍为经济提供支撑，高技术产品需求与贸易政策变化值得继续跟踪。",
+      "uncertainty": "同比金额受价格、汇率和基数影响，不能直接理解为实物量同幅增长；单月表现不保证趋势延续。",
+      "confidence": "high",
+      "sources": [
+        {
+          "publisher": "Reuters / AOL",
+          "title": "China exports surge as demand for high-tech, AI help prop up growth",
+          "url": "https://www.aol.ca/articles/chinas-exports-25-y-y-024544000.html",
+          "published_at": "2026-09-08T05:23:00Z",
+          "source_type": "wire"
+        },
+        {
+          "publisher": "新华社 / 中国政府网",
+          "title": "China foreign trade gains momentum as overseas demand powers exports",
+          "url": "https://english.www.gov.cn/archive/statistics/202609/08/content_WS6aa002e6c6d00ca5f9a0d112.html",
+          "published_at": "2026-09-08T20:43:00+08:00",
+          "source_type": "wire"
+        }
+      ]
+    },
+    {
+      "id": "canada-us-surtax-september-effective",
+      "category": "economy",
+      "regions": [
+        "加拿大",
+        "美国",
+        "北美"
+      ],
+      "title": "加拿大新一轮对美商品反制关税进入生效日",
+      "summary": "依据9月7日海关执行通知，加拿大9月8日起对清单内美国原产商品征收15%、25%或50%附加税；此前政府公告称所涉年度进口规模约276亿加元。",
+      "why_it_matters": "措施改变部分跨境商品的进口成本，涉及钢铁、乳制品、家电等供应链。",
+      "uncertainty": "按法定生效日归档，不声称已观察到当日全部报关执行；具体税号、原产地及在途豁免影响适用，不能泛称所有美国商品均加税。",
+      "confidence": "high",
+      "sources": [
+        {
+          "publisher": "加拿大边境服务局",
+          "title": "Customs Notice 26-23: United States Surtax Order (2026)",
+          "url": "https://www.cbsa-asfc.gc.ca/publications/cn-ad/cn26-23-eng.html",
+          "published_at": "2026-09-07（规定9月8日生效）",
+          "source_type": "primary"
+        },
+        {
+          "publisher": "加拿大政府",
+          "title": "Targeted countermeasures and support in response to U.S. tariffs",
+          "url": "https://www.canada.ca/en/employment-social-development/news/2026/08/canada-announces-targeted-countermeasures-and-substantive-support-for-workers-and-businesses-in-response-to-us-tariffs.html",
+          "published_at": "2026-08-28（生效安排的背景来源）",
+          "source_type": "primary"
+        }
+      ]
+    },
+    {
+      "id": "uno-lossless-discrete-diffusion",
+      "category": "technology",
+      "regions": [
+        "全球"
+      ],
+      "title": "Uno预印本探索保持自回归分布的并行生成",
+      "summary": "9月3日提交的预印本提出给自回归语言模型加入轻量扩散参数，再用Ψ-Spec采样器并行生成多个token。作者称该方法无须独立草稿模型，并在所测条件下保持基础模型分布。",
+      "why_it_matters": "它把吞吐优化与分布保真放在同一框架中，为语言模型推理加速提供可检验的研究路线。",
+      "uncertainty": "“无损”依赖论文的模型和采样条件；本文未经同行评审或独立复现，不将作者速度与质量结果推广到所有硬件和负载。",
+      "confidence": "medium",
+      "sources": [
+        {
+          "publisher": "arXiv",
+          "title": "Unlocking Lossless Speedups in LLMs via Discrete Diffusion — v1",
+          "url": "https://arxiv.org/abs/2609.04010v1",
+          "published_at": "2026-09-03",
+          "source_type": "research"
+        },
+        {
+          "publisher": "arXiv",
+          "title": "Uno全文",
+          "url": "https://arxiv.org/pdf/2609.04010",
+          "published_at": "2026-09-03",
+          "source_type": "research"
+        }
+      ],
+      "section": "ai-frontier",
+      "ai": {
+        "kind": "paper",
+        "topics": [
+          "推理加速",
+          "离散扩散",
+          "采样"
+        ],
+        "artifact_date": "2026-09-03",
+        "artifact_status": "arXiv v1预印本，未经同行评审或独立复现验证",
+        "technical_takeaway": "保留NTP训练的自回归权重，并通过扩散蒸馏训练并行生成部分；本期仅归档论文，不断言代码或权重的历史上线时刻。",
+        "evidence_level": "作者公开原稿与自报实验；未核实独立复现",
+        "heat": {
+          "label": "可核验的发布信号，不作热度排名",
+          "as_of": "2026-09-20T16:24:07+08:00",
+          "signals": [
+            {
+              "platform": "arXiv",
+              "observation": "2026-09-03发布了本条所述工件或说明",
+              "url": "https://arxiv.org/abs/2609.04010v1"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "diffusion-two-roles-driving-simulation",
+      "category": "technology",
+      "regions": [
+        "瑞典",
+        "全球"
+      ],
+      "title": "同一扩散交通模型兼做规划器与压力测试生成器",
+      "summary": "9月4日提交的One Diffusion Model, Two Roles研究，将交通扩散模型用于自车轨迹规划和闭环危险场景生成。作者在nuPlan仿真中发现，常规成绩更好的规划器在部分困难交互下也会明显退化。",
+      "why_it_matters": "把生成模型用于评测而非只用于控制，有助于暴露普通基准未覆盖的驾驶失败模式。",
+      "uncertainty": "结果限于作者仿真和所选规划器，未经独立复现，不能视为真实道路安全证明；作者注明ECCV 2026 workshop录用，并非主会录用。",
+      "confidence": "medium",
+      "sources": [
+        {
+          "publisher": "arXiv",
+          "title": "One Diffusion Model, Two Roles — v1",
+          "url": "https://arxiv.org/abs/2609.04921v1",
+          "published_at": "2026-09-04",
+          "source_type": "research"
+        },
+        {
+          "publisher": "arXiv",
+          "title": "One Diffusion Model, Two Roles全文",
+          "url": "https://arxiv.org/html/2609.04921v1",
+          "published_at": "2026-09-04",
+          "source_type": "research"
+        }
+      ],
+      "section": "ai-frontier",
+      "ai": {
+        "kind": "paper",
+        "topics": [
+          "自动驾驶",
+          "扩散模型",
+          "安全评测"
+        ],
+        "artifact_date": "2026-09-04",
+        "artifact_status": "arXiv v1稿；作者注明ECCV 2026 workshop录用，未核实评审过程，未经独立复现",
+        "technical_takeaway": "SSDS解码器联合融合场景与轨迹；DAPSE在采样阶段引入引导，场景生成则采用DPS压力测试路线。",
+        "evidence_level": "作者公开原稿与自报实验；未核实独立复现",
+        "heat": {
+          "label": "可核验的发布信号，不作热度排名",
+          "as_of": "2026-09-20T16:24:07+08:00",
+          "signals": [
+            {
+              "platform": "arXiv",
+              "observation": "2026-09-04发布了本条所述工件或说明",
+              "url": "https://arxiv.org/abs/2609.04921v1"
+            }
+          ]
+        }
+      }
+    }
+  ]
+}

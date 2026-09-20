@@ -1,0 +1,265 @@
+{
+  "date": "2026-09-14",
+  "timezone": "Asia/Shanghai",
+  "generated_at": "2026-09-20T08:21:44+00:00",
+  "publication_status": "backfill",
+  "publication_note": "历史补发：2026-09-20，按当时可核实材料重建；并非当日实时发布",
+  "observation_note": "历史全天重建，以来源署名日期及明确事件日期归档；仅有日期者不声称北京09:00已公开。世界事件约36小时，AI约72小时、论文7天；未使用后续事件进展。",
+  "overview": "智利获得犬传狂犬病消除认证；核查外交与集束弹药审议关注长期平民安全。瑞典计票和以黎谈判安排仍非最终结果，美网男单结果按北京时间归档。AI关注终端长程强化学习与长期记忆。",
+  "digest_path": "digests/2026/09/2026-09-14.md",
+  "ai_radar": {
+    "selection_as_of": "2026-09-20T08:21:44+00:00",
+    "item_ids": [
+      "t1-terminal-rl-paper-sep10",
+      "realm-reconsolidation-paper-sep13"
+    ]
+  },
+  "items": [
+    {
+      "id": "chile-dog-rabies-validation-sep14",
+      "category": "health-society",
+      "regions": [
+        "South America",
+        "Chile"
+      ],
+      "title": "WHO认证智利消除犬传狂犬病公共卫生问题",
+      "summary": "WHO 9月14日宣布，智利成为南美洲首个获消除犬传狂犬病公共卫生问题认证的国家，肯定其长期疫苗接种、监测与暴露后预防体系。",
+      "why_it_matters": "成果说明持续的人兽共患病防控投入可以消除主要传播链。",
+      "uncertainty": "认证限定犬传狂犬病，不代表所有动物来源风险消失；仍须保持监测和及时就医。",
+      "confidence": "high",
+      "sources": [
+        {
+          "publisher": "WHO / PAHO",
+          "title": "Chile becomes first country in South America validated for eliminating dog-transmitted rabies as a public health problem",
+          "url": "https://www.who.int/philippines/news/detail-global/14-09-2026-chile-becomes-first-country-in-south-america-validated-for-eliminating-dog-transmitted-rabies-as-a-public-health-problem",
+          "published_at": "2026-09-14",
+          "source_type": "primary"
+        }
+      ]
+    },
+    {
+      "id": "iaea-general-conference-sep14",
+      "category": "politics",
+      "regions": [
+        "Global",
+        "Austria",
+        "Iran",
+        "Ukraine"
+      ],
+      "title": "IAEA大会讨论核安全与核查合作",
+      "summary": "9月14日维也纳第70届IAEA大会一般性辩论中，欧盟呼吁伊朗恢复充分核查合作并保护民用核设施；美国也发表国家声明。",
+      "why_it_matters": "战争环境中的核设施安全和核查可见性直接关系到防扩散信任。",
+      "uncertainty": "这是各方公开立场，不是会议已经达成新决议，也未据此独立判断未核实的核活动。",
+      "confidence": "high",
+      "sources": [
+        {
+          "publisher": "EEAS",
+          "title": "70th General Conference IAEA — EU Statement at the General Debate",
+          "url": "https://www.eeas.europa.eu/delegations/vienna-international-organisations/70th-general-conference-international-atomic-energy-agency-eu-statement-general-debate_en",
+          "published_at": "2026-09-14",
+          "source_type": "primary"
+        },
+        {
+          "publisher": "U.S. Department of Energy",
+          "title": "U.S. Secretary of Energy delivers national statement at IAEA General Conference",
+          "url": "https://www.energy.gov/articles/us-secretary-energy-chris-wright-delivers-us-national-statement-general-conference-0",
+          "published_at": "2026-09-14",
+          "source_type": "primary"
+        }
+      ]
+    },
+    {
+      "id": "cluster-munitions-review-opens-sep14",
+      "category": "politics",
+      "regions": [
+        "Global",
+        "Asia",
+        "Laos"
+      ],
+      "title": "集束弹药公约第三次审议会在老挝开幕",
+      "summary": "9月14日万象第三次公约审议会开幕，红十字国际委员会呼吁各国加强平民保护、清除遗留弹药并支持受害者。",
+      "why_it_matters": "未爆子弹药可在冲突结束后长期威胁社区生活与土地使用。",
+      "uncertainty": "开幕发言不等于最终行动计划获通过；本条不采用18日会议结果。",
+      "confidence": "high",
+      "sources": [
+        {
+          "publisher": "ICRC",
+          "title": "Cluster munitions: The suffering must not continue for another generation",
+          "url": "https://www.icrc.org/en/statement/third-review-conference-convention-cluster-munitions-jurg-lauber",
+          "published_at": "2026-09-14",
+          "source_type": "primary"
+        },
+        {
+          "publisher": "EEAS",
+          "title": "Convention on Cluster Munitions — EU Statement, Third Review Conference",
+          "url": "https://www.eeas.europa.eu/delegations/un-geneva/convention-cluster-munitions-eu-statement-third-review-conference-states-parties-convention-cluster_en",
+          "published_at": "2026-09-14",
+          "source_type": "primary"
+        }
+      ]
+    },
+    {
+      "id": "sweden-preliminary-count-sep14",
+      "category": "politics",
+      "regions": [
+        "Europe",
+        "Sweden"
+      ],
+      "title": "瑞典初步计票显示两大阵营差距很小",
+      "summary": "9月14日凌晨更新的报道显示，瑞典中左翼集团在初步计票中小幅领先；安德松表示若领先获确认，瑞典将迎来新政府。",
+      "why_it_matters": "接近的席位分布使剩余选票和组阁谈判格外重要。",
+      "uncertainty": "这不是最终结果或完成组阁；提前投票及海外选票仍待计入，不引用之后确认结果。",
+      "confidence": "medium",
+      "sources": [
+        {
+          "publisher": "DW with AFP / Reuters",
+          "title": "Sweden election very close as left bloc claims tight lead",
+          "url": "https://amp.dw.com/en/sweden-election-very-close-as-left-bloc-claims-tight-lead/a-79248599",
+          "published_at": "2026-09-14 (update)",
+          "source_type": "regional-media"
+        }
+      ]
+    },
+    {
+      "id": "israel-lebanon-talks-announcement-sep14",
+      "category": "politics",
+      "regions": [
+        "Asia",
+        "Israel",
+        "Lebanon",
+        "Europe",
+        "Italy"
+      ],
+      "title": "美国官员称以黎将于十月在罗马会谈",
+      "summary": "路透社9月13日17:03 UTC更新报道（北京14日01:03），援引美国国务院官员称，以色列与黎巴嫩计划10月在罗马继续安全协议会谈。",
+      "why_it_matters": "谈判安排为边境安全问题保留外交渠道。",
+      "uncertainty": "消息来自未具名美方官员；会谈尚未举行，也不能据安排认定双方已经解决领土分歧。",
+      "confidence": "medium",
+      "sources": [
+        {
+          "publisher": "Reuters via MarketScreener",
+          "title": "Israel and Lebanon to meet in Rome in October, US State Department official says",
+          "url": "https://www.marketscreener.com/news/israel-and-lebanon-to-meet-in-rome-in-october-us-state-department-official-says-ce785bdcd98ef623",
+          "published_at": "2026-09-13T13:03:00-04:00",
+          "source_type": "wire"
+        }
+      ]
+    },
+    {
+      "id": "us-open-men-final-sep14",
+      "category": "culture",
+      "regions": [
+        "North America",
+        "United States",
+        "Germany"
+      ],
+      "title": "兹维列夫赢得美网男单冠军",
+      "summary": "北京时间9月14日凌晨，纽约当地13日美网男单决赛结束，兹维列夫以6比3、7比6、5比7、6比2击败谢尔顿。",
+      "why_it_matters": "这是兹维列夫本赛季第二个大满贯冠军，美网男女单均产生新冠军。",
+      "uncertainty": "官方赛果稿为纽约13日17:01 EDT，即北京14日05:01；不把结果回填13日北京归档。",
+      "confidence": "high",
+      "sources": [
+        {
+          "publisher": "USTA / US Open",
+          "title": "Alexander Zverev defeats Ben Shelton to win 2026 US Open",
+          "url": "https://www.usopen.org/amp/en_US/news/articles/2026-09-13/alexander_zverev_defeats_ben_shelton_to_win_2026_us_open.html",
+          "published_at": "2026-09-13T17:01:00-04:00",
+          "source_type": "primary"
+        }
+      ]
+    },
+    {
+      "id": "t1-terminal-rl-paper-sep10",
+      "category": "technology",
+      "regions": [
+        "Global",
+        "China"
+      ],
+      "title": "T1研究长程终端任务的强化学习",
+      "summary": "9月10日论文提出T1，让混合专家模型在云端沙箱操作真实shell，以任务验证器提供奖励，研究数百轮工具交互的训练稳定性。",
+      "why_it_matters": "长程智能体的瓶颈不仅是单步代码生成，也包括训练与采样轨迹的一致性。",
+      "uncertainty": "尚未同行评审；沙箱与基准结果不能直接证明真实生产环境可靠性，未独立复现。",
+      "confidence": "medium",
+      "sources": [
+        {
+          "publisher": "arXiv",
+          "title": "T1: Terminal Agent Reinforcement Learning for Long-Horizon Tasks",
+          "url": "https://arxiv.org/html/2609.11042v1",
+          "published_at": "2026-09-10",
+          "source_type": "research"
+        }
+      ],
+      "section": "ai-frontier",
+      "ai": {
+        "kind": "research-paper",
+        "topics": [
+          "terminal-agents",
+          "reinforcement-learning",
+          "long-horizon"
+        ],
+        "artifact_date": "2026-09-10",
+        "artifact_status": "预印本v1，尚未同行评审；在7天论文窗口内",
+        "technical_takeaway": "结合验证器过程奖励、精确采样token训练和专家路由重放，缓解长轨迹优化漂移。",
+        "evidence_level": "primary research; author-reported results, independent replication not verified",
+        "heat": {
+          "label": "仅有正式发布信号；不作热度排名",
+          "as_of": "2026-09-20T08:21:44+00:00",
+          "signals": [
+            {
+              "platform": "arXiv",
+              "observation": "一手页面署名 2026-09-10；补发时核实发布，不重建历史关注量。",
+              "url": "https://arxiv.org/html/2609.11042v1"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "realm-reconsolidation-paper-sep13",
+      "category": "technology",
+      "regions": [
+        "Global",
+        "China",
+        "Singapore"
+      ],
+      "title": "REALM将检索反馈用于重整长期记忆",
+      "summary": "9月13日论文提出REALM，以异构图组织智能体记忆，在检索后利用反馈调整局部连接，并报告长期对话记忆基准改善。",
+      "why_it_matters": "记忆系统可以不只新增记录，还通过使用经验改进后续检索结构。",
+      "uncertainty": "尚未同行评审；基准收益为作者结果，现实长期使用中的错误累积和隐私风险仍需检验。",
+      "confidence": "medium",
+      "sources": [
+        {
+          "publisher": "arXiv",
+          "title": "Retrieval-Driven Memory Reconsolidation for Long-Term LLM Agents",
+          "url": "https://arxiv.org/html/2609.16053v1",
+          "published_at": "2026-09-13T05:17:37Z",
+          "source_type": "research"
+        }
+      ],
+      "section": "ai-frontier",
+      "ai": {
+        "kind": "research-paper",
+        "topics": [
+          "agent-memory",
+          "retrieval",
+          "knowledge-graphs"
+        ],
+        "artifact_date": "2026-09-13",
+        "artifact_status": "预印本v1，尚未同行评审",
+        "technical_takeaway": "自适应组合图搜索动作，并在任务后重整被激活子图的拓扑，而非直接重写原始记忆内容。",
+        "evidence_level": "primary research; author-reported results, independent replication not verified",
+        "heat": {
+          "label": "仅有正式发布信号；不作热度排名",
+          "as_of": "2026-09-20T08:21:44+00:00",
+          "signals": [
+            {
+              "platform": "arXiv",
+              "observation": "一手页面署名 2026-09-13；补发时核实发布，不重建历史关注量。",
+              "url": "https://arxiv.org/html/2609.16053v1"
+            }
+          ]
+        }
+      }
+    }
+  ]
+}

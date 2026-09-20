@@ -1,0 +1,251 @@
+{
+  "date": "2026-09-19",
+  "timezone": "Asia/Shanghai",
+  "generated_at": "2026-09-20T16:10:14.000+08:00",
+  "publication_status": "backfill",
+  "observation_cutoff": "2026-09-19T23:59:59+08:00",
+  "overview": "白宫延长部分H-1B入境限制；丹麦谨慎欢迎格陵兰安全协议安排；俄罗斯开始为期三天的国家杜马选举；大流行协定病原体共享附件谈判推进但尚未完成；WMO公布太平洋气象部长加强多灾种预警的宣言；全球股市周末前分化，利率和能源压力持续；Bonsai 2 27B以三值权重缩小本地部署体积；研究用内部表征监测语言模型奖励投机。",
+  "digest_path": "digests/2026/09/2026-09-19.md",
+  "ai_radar": {
+    "selection_as_of": "2026-09-20T16:10:14.000+08:00",
+    "item_ids": [
+      "prism-bonsai2-27b",
+      "reward-hacking-internal-probes"
+    ]
+  },
+  "items": [
+    {
+      "id": "us-h1b-restrictions-extended",
+      "category": "politics",
+      "regions": [
+        "United States",
+        "Global"
+      ],
+      "title": "白宫延长部分H-1B入境限制",
+      "summary": "白宫9月18日公告将部分H-1B入境限制再延长12个月，并继续规定相关申请附10万美元付款，设国家利益例外。",
+      "why_it_matters": "政策可能改变跨国企业招募与专业人才流动成本。",
+      "uncertainty": "公告发布不等于法院争议已结束；适用对象和执行仍受法律程序约束，不是所有H-1B持有人一律缴费。",
+      "confidence": "high",
+      "sources": [
+        {
+          "publisher": "The White House",
+          "title": "Restriction on Entry of Certain Nonimmigrant Workers",
+          "url": "https://www.whitehouse.gov/presidential-actions/2026/09/restriction-on-entry-of-certain-nonimmigrant-workers-faad/",
+          "published_at": "2026-09-18",
+          "source_type": "primary"
+        },
+        {
+          "publisher": "Reuters via Yahoo",
+          "title": "Trump extends push for $100,000 H-1B visas by another year",
+          "url": "https://currently.att.yahoo.com/att/trump-extends-restrictions-h-1b-215822253.html",
+          "published_at": "2026-09-19T00:11:00Z",
+          "source_type": "wire"
+        }
+      ]
+    },
+    {
+      "id": "greenland-security-deal-announced",
+      "category": "politics",
+      "regions": [
+        "Europe",
+        "North America",
+        "Denmark",
+        "Greenland"
+      ],
+      "title": "丹麦谨慎欢迎格陵兰安全协议安排",
+      "summary": "美联社9月19日报道，丹麦与格陵兰领导人对扩大美军存在的协议安排持谨慎乐观态度，同时强调主权；协议文本尚未公开。",
+      "why_it_matters": "这可能缓和北约内部围绕格陵兰的争端，并改变北极防务部署。",
+      "uncertainty": "预计后续签署且仍需议会程序；“控制安全”的美方表述不能等同于主权转让。",
+      "confidence": "medium",
+      "sources": [
+        {
+          "publisher": "Associated Press",
+          "title": "Denmark's leaders are cautiously optimistic about Trump's announcement of a Greenland deal",
+          "url": "https://apnews.com/article/0eac9ad2196551525bcb8c71e80c480e",
+          "published_at": "2026-09-19T09:37:44Z",
+          "source_type": "wire"
+        }
+      ]
+    },
+    {
+      "id": "russia-duma-vote-begins",
+      "category": "politics",
+      "regions": [
+        "Europe",
+        "Russia",
+        "Ukraine"
+      ],
+      "title": "俄罗斯开始为期三天的国家杜马选举",
+      "summary": "俄罗斯9月18日开始议会投票，计划20日结束。美联社指出选举缺乏实质反战反对派，部分投票也在俄占乌克兰地区举行。",
+      "why_it_matters": "战争背景下的议会构成和选举限制将影响俄罗斯国内政治及对外政策。",
+      "uncertainty": "截至归档截点投票未结束，不能预写席位结果；在被占领土举行投票不意味着其主权地位获得国际承认。",
+      "confidence": "medium",
+      "sources": [
+        {
+          "publisher": "Associated Press",
+          "title": "Russia begins 3 days of voting in a parliamentary election",
+          "url": "https://apnews.com/article/7f10803a87456051be876c0c33375af8",
+          "published_at": "2026-09-18T06:20:12Z",
+          "source_type": "wire"
+        }
+      ]
+    },
+    {
+      "id": "who-pabs-eighth-round-concludes",
+      "category": "health-society",
+      "regions": [
+        "Global"
+      ],
+      "title": "大流行协定病原体共享附件谈判推进但尚未完成",
+      "summary": "WHO于9月18日表示，第八轮政府间工作组会议结束，各国继续谈判病原体获取与惠益分享附件。",
+      "why_it_matters": "附件试图把病原体材料和序列共享，与疫苗、诊断和疗法的公平获取连接起来。",
+      "uncertainty": "WHO报告的是谈判进展，不是最终达成文本；签署和批准协定仍需后续步骤。",
+      "confidence": "high",
+      "sources": [
+        {
+          "publisher": "WHO",
+          "title": "Member States advance negotiations on pathogen access and benefit-sharing",
+          "url": "https://www.who.int/news/item/18-09-2026-member-states-advance-negotiations-on-pathogen-access-and-benefit-sharing-ahead-of-un-general-assembly-meeting-on-pandemics",
+          "published_at": "2026-09-18",
+          "source_type": "primary"
+        }
+      ]
+    },
+    {
+      "id": "pacific-weather-declaration-published",
+      "category": "climate-environment",
+      "regions": [
+        "Oceania",
+        "Pacific Islands",
+        "Tonga"
+      ],
+      "title": "WMO公布太平洋气象部长加强多灾种预警的宣言",
+      "summary": "WMO9月19日介绍16日在汤加举行的部长会议成果：各方支持强化国家气象水文服务，并呼吁增加多灾种预警投资。",
+      "why_it_matters": "岛国面临相互叠加的海洋、气象和地质风险，预警是否触达社区直接影响灾害损失。",
+      "uncertainty": "这是当日公布的会议成果，不是会议当天才举行；宣言承诺仍需资金与执行支持。",
+      "confidence": "high",
+      "sources": [
+        {
+          "publisher": "WMO",
+          "title": "Pacific ministers chart course for stronger weather and climate services",
+          "url": "https://public.wmo.int/media/news/pacific-ministers-chart-course-stronger-weather-and-climate-services",
+          "published_at": "2026-09-19",
+          "source_type": "primary"
+        }
+      ]
+    },
+    {
+      "id": "global-markets-week-september18-close",
+      "category": "markets",
+      "regions": [
+        "Global",
+        "North America",
+        "Europe"
+      ],
+      "title": "全球股市周末前分化，利率和能源压力持续",
+      "summary": "路透社19日北京时间清晨报道，周五标普500涨0.17%、纳斯达克综合涨0.40%、道指跌0.18%，欧洲股市跌1.1%。",
+      "why_it_matters": "市场同时消化主要央行紧缩与高油价，地区和行业表现明显分化。",
+      "uncertainty": "这是单个交易日收盘快照，不是未来价格方向或投资建议；指数口径与其他报价平台可能略有差异。",
+      "confidence": "high",
+      "sources": [
+        {
+          "publisher": "Reuters via MarketScreener",
+          "title": "Global shares edge higher as central banks double down on inflation fight",
+          "url": "https://hk.marketscreener.com/news/global-shares-edge-higher-as-central-banks-double-down-on-inflation-fight-ce785adadf8afe2c",
+          "published_at": "2026-09-19T05:03:00+08:00",
+          "source_type": "wire"
+        }
+      ]
+    },
+    {
+      "id": "prism-bonsai2-27b",
+      "category": "technology",
+      "regions": [
+        "Global"
+      ],
+      "title": "Bonsai 2 27B以三值权重缩小本地部署体积",
+      "summary": "PrismML9月17日发布基于Qwen3.8 27B的Bonsai 2，采用三值权重和分组缩放，称模型体积5.9GB，以Apache 2.0许可提供权重。",
+      "why_it_matters": "低比特权重可降低本地多模态与编程代理的内存门槛。",
+      "uncertainty": "98.2%综合基准保留率和吞吐均为厂商自报，不能等同每项任务无损；运行内存还包含缓存和运行时。",
+      "confidence": "medium",
+      "sources": [
+        {
+          "publisher": "PrismML",
+          "title": "Introducing Bonsai 2 27B",
+          "url": "https://prismml.com/news/bonsai-2-27b",
+          "published_at": "2026-09-17",
+          "source_type": "primary"
+        }
+      ],
+      "section": "ai-frontier",
+      "ai": {
+        "kind": "low-bit-open-weight-model",
+        "topics": [
+          "quantization",
+          "local-inference",
+          "multimodal"
+        ],
+        "artifact_date": "2026-09-17",
+        "artifact_status": "权重与技术说明公开，Apache 2.0",
+        "technical_takeaway": "三值{-1,0,+1}权重配FP16分组缩放，官方称有效位宽1.76位。",
+        "evidence_level": "官方发布及公开工件；效果未经本刊独立复现",
+        "heat": {
+          "label": "可核查的新发布信号；不声称独立热度排名",
+          "as_of": "2026-09-20T16:10:14.000+08:00",
+          "signals": [
+            {
+              "platform": "PrismML",
+              "observation": "回溯核验：一手材料标注 2026-09-17 公开；只记录发布信号，不使用后来热度、排名或引用量。",
+              "url": "https://prismml.com/news/bonsai-2-27b"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "reward-hacking-internal-probes",
+      "category": "technology",
+      "regions": [
+        "Global"
+      ],
+      "title": "研究用内部表征监测语言模型奖励投机",
+      "summary": "9月16日预印本研究在Kimi K3、GLM 5.2与Qwen3.8 Max中，利用均值差向量识别评测中的奖励投机行为。",
+      "why_it_matters": "低成本白盒监测可补充昂贵的模型裁判，并检查基准分数是否来自钻空子。",
+      "uncertainty": "尚未同行评审；发现依赖特定模型、基准与投机标注，不能证明所有部署风险均可检出。",
+      "confidence": "medium",
+      "sources": [
+        {
+          "publisher": "arXiv",
+          "title": "Monitoring and Discovering Reward Hacking with Internal Representations during LLM Evaluations",
+          "url": "https://arxiv.org/abs/2609.19101",
+          "published_at": "2026-09-16T17:31:52Z",
+          "source_type": "research"
+        }
+      ],
+      "section": "ai-frontier",
+      "ai": {
+        "kind": "research-preprint",
+        "topics": [
+          "ai-safety",
+          "reward-hacking",
+          "interpretability"
+        ],
+        "artifact_date": "2026-09-16",
+        "artifact_status": "预印本，尚未同行评审",
+        "technical_takeaway": "从模型内部表示提取简单均值差探针，作者报告可发现及预测部分奖励投机。",
+        "evidence_level": "官方发布及公开工件；效果未经本刊独立复现",
+        "heat": {
+          "label": "可核查的新发布信号；不声称独立热度排名",
+          "as_of": "2026-09-20T16:10:14.000+08:00",
+          "signals": [
+            {
+              "platform": "arXiv",
+              "observation": "回溯核验：一手材料标注 2026-09-16 公开；只记录发布信号，不使用后来热度、排名或引用量。",
+              "url": "https://arxiv.org/abs/2609.19101"
+            }
+          ]
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,242 @@
+{
+  "date": "2026-09-15",
+  "timezone": "Asia/Shanghai",
+  "generated_at": "2026-09-20T16:22:10.000+08:00",
+  "publication_status": "backfill",
+  "observation_cutoff": "2026-09-15T23:59:59+08:00",
+  "overview": "中国八月规模以上工业增加值同比增长 5.2%；WFP 警告南苏丹援助资金锐减，逾百万人面临断援；加拿大八月 CPI 同比维持 3.0%，内部构成变化；联合国称也门西岸战事引发新增流离失所；联发科发布采用 2nm 工艺的天玑 9600 Pro；艾美奖主要奖项揭晓，《The Pitt》与《Widow’s Bay》获剧集大奖；Atria Dawn 预印本研究可验证经验与人机研发协作；Vidu S2 预印本展示动态参考与流式视频编辑。",
+  "digest_path": "digests/2026/09/2026-09-15.md",
+  "ai_radar": {
+    "selection_as_of": "2026-09-20T16:22:10.000+08:00",
+    "item_ids": [
+      "atria-dawn-verifiable-experience-v1",
+      "vidu-s2-interactive-video-paper"
+    ]
+  },
+  "items": [
+    {
+      "id": "china-august-industrial-production",
+      "category": "economy",
+      "regions": [
+        "中国",
+        "东亚"
+      ],
+      "title": "中国八月规模以上工业增加值同比增长 5.2%",
+      "summary": "国家统计局 15 日公布，八月规模以上工业增加值实际同比增长 5.2%，较七月加快 0.7 个百分点；制造业增长 6.1%，采矿业下降 1.4%。高技术制造业表现较快，但行业分化仍明显。",
+      "why_it_matters": "工业生产关系到就业、供应链和出口供给；总量回升与行业结构应同时观察。",
+      "uncertainty": "工业增加值不等于企业利润或居民消费；“规模以上”有统计范围限制，不能直接当作全部企业的表现。",
+      "confidence": "high",
+      "sources": [
+        {
+          "publisher": "国家统计局",
+          "title": "2026年8月份规模以上工业增加值增长5.2%",
+          "url": "https://www.stats.gov.cn/xxgk/sjfb/zxfb2020/202609/t20260915_1965308.html",
+          "published_at": "2026-09-15",
+          "source_type": "primary"
+        }
+      ]
+    },
+    {
+      "id": "south-sudan-wfp-funding-warning",
+      "category": "health-society",
+      "regions": [
+        "南苏丹",
+        "非洲"
+      ],
+      "title": "WFP 警告南苏丹援助资金锐减，逾百万人面临断援",
+      "summary": "世界粮食计划署 15 日表示，南苏丹约 780 万人面临日常食物困难；若无新增资源，到十月逾百万人可能失去救命粮食与营养援助。机构同时指出冲突、流离失所和气候冲击正在叠加。",
+      "why_it_matters": "援助减少恰逢需求增长，资金和运输障碍可能把脆弱家庭推向更严重的营养风险。",
+      "uncertainty": "人数与资金需求为 WFP 当时评估；十月断援是条件性预警，不是已发生的结果，也不构成正式饥荒分级。",
+      "confidence": "high",
+      "sources": [
+        {
+          "publisher": "World Food Programme",
+          "title": "As Needs Surge and Funding Collapses, South Sudan Faces Its Most Dangerous Humanitarian Moment in Years",
+          "url": "https://www.wfp.org/news/needs-surge-and-funding-collapses-south-sudan-faces-its-most-dangerous-humanitarian-moment",
+          "published_at": "2026-09-15",
+          "source_type": "primary"
+        }
+      ]
+    },
+    {
+      "id": "canada-august-cpi-release",
+      "category": "economy",
+      "regions": [
+        "加拿大",
+        "北美"
+      ],
+      "title": "加拿大八月 CPI 同比维持 3.0%，内部构成变化",
+      "summary": "加拿大统计局 14 日公布八月 CPI 同比上涨 3.0%，与七月一致。汽油涨价放缓的影响被旅游和租金等项目抵消；剔除汽油后的同比增幅从 2.2% 升至 2.4%。",
+      "why_it_matters": "相同的总体通胀数字可能掩盖不同类别的价格变化，居民体感也会因消费结构而异。",
+      "uncertainty": "这是十四日发布、纳入本期回看窗口的八月统计；剔除汽油指标不是所有定义下的核心通胀，不由单月数据预测央行决定。",
+      "confidence": "high",
+      "sources": [
+        {
+          "publisher": "Statistics Canada",
+          "title": "Consumer Price Index, August 2026",
+          "url": "https://www150.statcan.gc.ca/n1/daily-quotidien/260914/dq260914a-eng.htm",
+          "published_at": "2026-09-14",
+          "source_type": "primary"
+        }
+      ]
+    },
+    {
+      "id": "yemen-displacement-geneva-briefing",
+      "category": "politics",
+      "regions": [
+        "也门",
+        "吉布提",
+        "中东",
+        "非洲"
+      ],
+      "title": "联合国称也门西岸战事引发新增流离失所",
+      "summary": "联合国 15 日日内瓦简报援引 UNHCR 称，也门西岸升级的敌对行动已使至少 9.4 万人流离失所，另有逾 2,400 人跨海峡赴吉布提寻求安全。机构表示人数仍快速变化。",
+      "why_it_matters": "这场危机同时增加也门境内安置和跨境接收需求，资金不足也限制了援助机构现场能力。",
+      "uncertainty": "采用当天简报的有来源数字，非完整人口普查；未把后来更新的更高估计倒填到这份记录中。",
+      "confidence": "medium",
+      "sources": [
+        {
+          "publisher": "UN Geneva / UNHCR",
+          "title": "UN Geneva Press Briefing — Displacement in Yemen",
+          "url": "https://www.ungeneva.org/en/news-media/press-briefing/2026/09/un-geneva-press-briefing-2",
+          "published_at": "2026-09-15",
+          "source_type": "primary"
+        }
+      ]
+    },
+    {
+      "id": "mediatek-dimensity9600pro-launch",
+      "category": "technology",
+      "regions": [
+        "台湾",
+        "全球"
+      ],
+      "title": "联发科发布采用 2nm 工艺的天玑 9600 Pro",
+      "summary": "联发科 15 日宣布天玑 9600 Pro 手机芯片，采用 2nm 工艺和 2+3+3 CPU 核心布局，并支持 LPDDR6 与 UFS 5.0。公司称首批搭载终端预计本季度推出。",
+      "why_it_matters": "先进制程和内存、存储接口更新将影响旗舰手机供应链及终端设计空间。",
+      "uncertainty": "发布不等于搭载手机已上市；性能与能效增幅来自厂商测试，实际续航、散热和价格仍需成品验证。",
+      "confidence": "high",
+      "sources": [
+        {
+          "publisher": "MediaTek",
+          "title": "MediaTek Dimensity 9600 Pro Sets New Standard for Flagship Smartphone Chips",
+          "url": "https://www.mediatek.com/press-room/mediatek-dimensity-9600-pro-sets-new-standard-for-flagship-smartphone-chips?hs_amp=true",
+          "published_at": "2026-09-15",
+          "source_type": "primary"
+        }
+      ]
+    },
+    {
+      "id": "emmy78-winners-announced",
+      "category": "culture",
+      "regions": [
+        "美国",
+        "全球"
+      ],
+      "title": "艾美奖主要奖项揭晓，《The Pitt》与《Widow’s Bay》获剧集大奖",
+      "summary": "洛杉矶当地 14 日晚、北京时间 15 日举行的第 78 届艾美奖颁奖礼上，《The Pitt》获最佳剧情类剧集，《Widow’s Bay》获最佳喜剧类剧集。Jean Smart 凭《Hacks》再获喜剧类女主角奖。",
+      "why_it_matters": "奖项为全球电视与流媒体作品提供新的关注入口，也反映业内同行对不同叙事类型的认可。",
+      "uncertainty": "这是学院奖项结果，不是收视率、商业回报或观众偏好的总体排名；不将获奖直接等同于产业趋势。",
+      "confidence": "high",
+      "sources": [
+        {
+          "publisher": "AP / AOL Canada",
+          "title": "Complete list of winners at the 2026 Primetime Emmy Awards",
+          "url": "https://www.aol.ca/articles/partial-list-winners-2026-primetime-011203000.html",
+          "published_at": "2026-09-15T03:44:00Z",
+          "source_type": "wire"
+        }
+      ]
+    },
+    {
+      "id": "atria-dawn-verifiable-experience-v1",
+      "category": "science",
+      "regions": [
+        "全球"
+      ],
+      "title": "Atria Dawn 预印本研究可验证经验与人机研发协作",
+      "summary": "14 日提交的 Atria Dawn v1 介绍面向科研与工程工作的代理语言模型，用可执行环境和外部验证结果构建经验训练流程；论文还分析模型研发中的任务记录与人类最终决策。",
+      "why_it_matters": "把工具行动连接到可核验结果，关注的不只是基准分数，也包括人如何监督代理参与长期研究。",
+      "uncertainty": "本条锁定 14 日 v1，不使用之后修订；尚未同行评审，作者基准和参与者自评不能证明已实现“超级智能”或普遍自主科研。",
+      "confidence": "medium",
+      "sources": [
+        {
+          "publisher": "arXiv",
+          "title": "Atria Dawn: The Dawn of Agentic Superintelligence — v1",
+          "url": "https://arxiv.org/abs/2609.15818v1",
+          "published_at": "2026-09-14T16:22:30Z",
+          "source_type": "research"
+        }
+      ],
+      "section": "ai-frontier",
+      "ai": {
+        "kind": "paper",
+        "topics": [
+          "research-agents",
+          "verification",
+          "human-ai-collaboration"
+        ],
+        "artifact_date": "2026-09-14",
+        "artifact_status": "预印本 v1；模型为 Preview，尚未同行评审",
+        "technical_takeaway": "Verifiable Experience Pipeline 将工具交互、可执行环境及外部结果校验连接起来；研发案例中人类仍保留主要最终决策。",
+        "evidence_level": "官方发布及公开工件；效果未经本刊独立复现",
+        "heat": {
+          "label": "可核查的新发布信号；不声称独立热度排名",
+          "as_of": "2026-09-20T16:22:10.000+08:00",
+          "signals": [
+            {
+              "platform": "arXiv",
+              "observation": "回溯核验：一手材料标注 2026-09-14 公开；只记录发布信号，不使用后来热度、排名或引用量。",
+              "url": "https://arxiv.org/abs/2609.15818v1"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "vidu-s2-interactive-video-paper",
+      "category": "science",
+      "regions": [
+        "全球"
+      ],
+      "title": "Vidu S2 预印本展示动态参考与流式视频编辑",
+      "summary": "10 日提交、仍在本期七天论文窗口内的 Vidu S2 介绍 Avatar 和 Editing 两条路线：前者允许生成期间更新参考条件，后者探索对视频流的风格、角色、服装与背景编辑，并研究空间视频生成。",
+      "why_it_matters": "视频模型正从一次性生成短片，向可交互、持续控制的制作过程拓展。",
+      "uncertainty": "尚未同行评审；实时性与优于基线的结论来自作者实验，本期未独立测试演示，也不据论文推定权重开源或商业服务全面开放。",
+      "confidence": "medium",
+      "sources": [
+        {
+          "publisher": "arXiv",
+          "title": "Vidu S2: Real-Time Interactive, Editable, and Spatial Video Generation",
+          "url": "https://arxiv.org/abs/2609.11638",
+          "published_at": "2026-09-10T14:46:07Z",
+          "source_type": "research"
+        }
+      ],
+      "section": "ai-frontier",
+      "ai": {
+        "kind": "paper",
+        "topics": [
+          "video-generation",
+          "streaming",
+          "interactive-media"
+        ],
+        "artifact_date": "2026-09-10",
+        "artifact_status": "预印本 v1；摘要给出演示链接，尚未同行评审",
+        "technical_takeaway": "把可随时变更的参考条件与连续视频编辑纳入实时生成接口；质量、一致性和延迟需要分别验证。",
+        "evidence_level": "官方发布及公开工件；效果未经本刊独立复现",
+        "heat": {
+          "label": "可核查的新发布信号；不声称独立热度排名",
+          "as_of": "2026-09-20T16:22:10.000+08:00",
+          "signals": [
+            {
+              "platform": "arXiv",
+              "observation": "回溯核验：一手材料标注 2026-09-10 公开；只记录发布信号，不使用后来热度、排名或引用量。",
+              "url": "https://arxiv.org/abs/2609.11638"
+            }
+          ]
+        }
+      }
+    }
+  ]
+}

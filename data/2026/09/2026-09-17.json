@@ -1,0 +1,249 @@
+{
+  "date": "2026-09-17",
+  "timezone": "Asia/Shanghai",
+  "generated_at": "2026-09-20T16:16:33.000+08:00",
+  "publication_status": "backfill",
+  "observation_cutoff": "2026-09-17T23:59:59+08:00",
+  "overview": "美联储一致决定加息 25 个基点；英格兰银行维持 3.75% 利率，但提示通胀上行风险；WMO 臭氧公报：恢复趋势持续，紫外线风险仍需监测；卡尼在欧洲议会提出深化加拿大—欧盟伙伴关系；王毅与鲁比奥通话，讨论下一阶段高层交往；联合国监测报告提示乌克兰零售与物流设施受袭增加；Grok Build 加入可检查的跨会话记忆；Affora 探索人和代理共用的界面设计系统。",
+  "digest_path": "digests/2026/09/2026-09-17.md",
+  "ai_radar": {
+    "selection_as_of": "2026-09-20T16:16:33.000+08:00",
+    "item_ids": [
+      "grok-build-persistent-memory",
+      "affora-agent-friendly-interfaces"
+    ]
+  },
+  "items": [
+    {
+      "id": "fed-september-rate-hike",
+      "category": "economy",
+      "regions": [
+        "美国",
+        "全球"
+      ],
+      "title": "美联储一致决定加息 25 个基点",
+      "summary": "美联储于美东 16 日 14 时、北京时间 17 日凌晨发布决议，以 12 比 0 将联邦基金利率目标区间提高至 3.75%–4%。声明称经济仍稳健扩张，通胀持续偏高。",
+      "why_it_matters": "美元资金成本是全球金融条件的重要基准；这次决定显示控制通胀仍压过短期宽松诉求。",
+      "uncertainty": "已核对正式决议；声明没有承诺之后每次会议都会加息，也不能据此断言所有商业贷款立即等幅调整。",
+      "confidence": "high",
+      "sources": [
+        {
+          "publisher": "Federal Reserve",
+          "title": "Federal Reserve issues FOMC statement",
+          "url": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20260916a.htm",
+          "published_at": "2026-09-16T14:00:00-04:00",
+          "source_type": "primary"
+        }
+      ]
+    },
+    {
+      "id": "boe-september-rate-hold",
+      "category": "economy",
+      "regions": [
+        "英国",
+        "欧洲"
+      ],
+      "title": "英格兰银行维持 3.75% 利率，但提示通胀上行风险",
+      "summary": "英格兰银行 17 日公布决议：货币政策委员会以 6 比 3 维持银行利率 3.75%，另三人主张上调 25 个基点。机构称能源冲击的持续时间和工资、价格传导将影响后续行动。",
+      "why_it_matters": "美英政策步调不同，体现各自通胀结构和需求状况的差别；英国家庭和企业仍面对较高借贷成本。",
+      "uncertainty": "这是当次维持利率的决定，鹰派措辞不等于未来加息已经确定。会议于 16 日结束，正式发布日在 17 日。",
+      "confidence": "high",
+      "sources": [
+        {
+          "publisher": "Bank of England",
+          "title": "Bank rate maintained at 3.75% — September 2026 Monetary Policy Summary and Minutes",
+          "url": "https://www.bankofengland.co.uk/monetary-policy-summary-and-minutes/2026/september-2026",
+          "published_at": "2026-09-17",
+          "source_type": "primary"
+        }
+      ]
+    },
+    {
+      "id": "wmo-ozone-uv-bulletin-2026",
+      "category": "climate-environment",
+      "regions": [
+        "全球",
+        "南极",
+        "欧洲"
+      ],
+      "title": "WMO 臭氧公报：恢复趋势持续，紫外线风险仍需监测",
+      "summary": "WMO 16 日发布年度臭氧与紫外线公报，称 2025 年南极臭氧洞处于近数十年较小水平，同时强调年际波动。部分欧洲地区紫外线辐射增加，与云量减少和日照增多有关。",
+      "why_it_matters": "臭氧层长期恢复展示国际环境协议的作用，但不能因此忽略地面紫外线暴露和观测网络维护。",
+      "uncertainty": "公报回顾 2025 年及多年观测，并非宣告臭氧洞消失；局部紫外线变化不能直接推广为全球一致趋势。",
+      "confidence": "high",
+      "sources": [
+        {
+          "publisher": "WMO",
+          "title": "Reconstitution de la couche d’ozone: Un bulletin de l’OMM fait le point sur les progrès et les défis",
+          "url": "https://public.wmo.int/fr/news/media-centre/reconstitution-de-la-couche-dozone-un-bulletin-de-lomm-fait-le-point-sur-les-progres-et-les-defis",
+          "published_at": "2026-09-16",
+          "source_type": "primary"
+        }
+      ]
+    },
+    {
+      "id": "canada-eu-deeper-partnership-proposal",
+      "category": "politics",
+      "regions": [
+        "加拿大",
+        "欧洲联盟"
+      ],
+      "title": "卡尼在欧洲议会提出深化加拿大—欧盟伙伴关系",
+      "summary": "加拿大总理卡尼 17 日在欧洲议会提出更深层次伙伴关系，重点包括关键矿产、能源、防务产业与先进技术。加拿大政府同日发布访问成果说明，将其定位为增强双方经济与安全韧性的提议。",
+      "why_it_matters": "欧洲加工能力与加拿大资源、能源供给存在互补，制度化合作可能改变部分供应链和投资路径。",
+      "uncertainty": "演讲与访问成果说明不等于新的市场准入条约已经签署或生效；具体机制仍待谈判。",
+      "confidence": "high",
+      "sources": [
+        {
+          "publisher": "Prime Minister of Canada",
+          "title": "Prime Minister Carney deepens ties with trusted allies in visit to France and the United Kingdom",
+          "url": "https://www.pm.gc.ca/en/news/news-releases/2026/09/17/prime-minister-carney-deepens-ties-trusted-allies-visit-france-and",
+          "published_at": "2026-09-17",
+          "source_type": "primary"
+        }
+      ]
+    },
+    {
+      "id": "wang-rubio-september17-call",
+      "category": "politics",
+      "regions": [
+        "中国",
+        "美国"
+      ],
+      "title": "王毅与鲁比奥通话，讨论下一阶段高层交往",
+      "summary": "中国外交部 17 日晚发布通报，称王毅与美国国务卿鲁比奥通话，讨论两国高层交往，并就中东局势交换意见。Reuters 同日报道指出，中方通报没有明确确认下一次元首会面的细节。",
+      "why_it_matters": "高层沟通为贸易与安全分歧提供协商渠道，但程序推进与实质协议应当分开衡量。",
+      "uncertainty": "现有具体表述主要来自中方通报；不能据此认定双方已达成关税或地区安全协议。",
+      "confidence": "high",
+      "sources": [
+        {
+          "publisher": "中国外交部",
+          "title": "王毅同美国国务卿鲁比奥通电话",
+          "url": "https://www.fmprc.gov.cn/wjbz_673089/xghd_673097/202609/t20260917_12024847.shtml",
+          "published_at": "2026-09-17T22:06:00+08:00",
+          "source_type": "primary"
+        },
+        {
+          "publisher": "Reuters / AOL",
+          "title": "China, US top diplomats discuss 'high-level interactions' in call, Beijing says",
+          "url": "https://www.aol.com/articles/china-us-top-diplomats-discuss-143758000.html",
+          "published_at": "2026-09-17T14:39:00Z",
+          "source_type": "wire"
+        }
+      ]
+    },
+    {
+      "id": "un-ukraine-august-civilian-harm-report",
+      "category": "politics",
+      "regions": [
+        "乌克兰",
+        "俄罗斯",
+        "欧洲"
+      ],
+      "title": "联合国监测报告提示乌克兰零售与物流设施受袭增加",
+      "summary": "联合国驻乌人权监测团 17 日发布八月更新，记录乌境内六家主要食品、零售和物流企业设施遭袭 32 次，高于七月的 11 次。报告还记录乌军对俄罗斯电商和炼油设施的袭击。",
+      "why_it_matters": "商业设施受损会打断日常供给并增加平民暴露；战事的经济影响与直接伤亡之外的民生损害需要并看。",
+      "uncertainty": "数字属于监测团已核验或注明来源的记录，不是完整战损清单；本期未取得第二个独立调查，具体袭击归属沿用报告归因。",
+      "confidence": "medium",
+      "sources": [
+        {
+          "publisher": "UN Human Rights Monitoring Mission in Ukraine",
+          "title": "Attacks against retail, food, and logistics companies surge amid high civilian casualties, UN human rights monitors say",
+          "url": "https://ukraine.ohchr.org/en/Attacks-against-retail-food-and-logistics-companies-surge-amid-high-civilian-casualties-UN-human%20-rights-monitors-say",
+          "published_at": "2026-09-17",
+          "source_type": "primary"
+        }
+      ]
+    },
+    {
+      "id": "grok-build-persistent-memory",
+      "category": "technology",
+      "regions": [
+        "全球"
+      ],
+      "title": "Grok Build 加入可检查的跨会话记忆",
+      "summary": "SpaceXAI 16 日发布 Grok Build 记忆功能：后台将项目惯例、决策和长期事实写入 Markdown，后续会话按主题读取；项目记忆与全局偏好分开，用户可浏览文件并修正错误。",
+      "why_it_matters": "持久记忆将代理可靠性的一部分从单次推理转向长期知识维护，可减少重复交代，但也增加过时信息管理需求。",
+      "uncertainty": "“不保留秘密和暂定结论”等是厂商设计说明，不是独立隐私审计结果；错误记忆仍需用户检查。",
+      "confidence": "high",
+      "sources": [
+        {
+          "publisher": "SpaceXAI",
+          "title": "Memory in Grok Build",
+          "url": "https://x.ai/news/grok-build-memory",
+          "published_at": "2026-09-16",
+          "source_type": "primary"
+        }
+      ],
+      "section": "ai-frontier",
+      "ai": {
+        "kind": "tooling",
+        "topics": [
+          "agents",
+          "coding",
+          "memory"
+        ],
+        "artifact_date": "2026-09-16",
+        "artifact_status": "官方宣布已可用于新会话",
+        "technical_takeaway": "通过主题化 Markdown 记录与检索长期事实；当前会话指令优先于旧笔记。记忆管理不等于模型权重被重新训练。",
+        "evidence_level": "官方发布及公开工件；效果未经本刊独立复现",
+        "heat": {
+          "label": "可核查的新发布信号；不声称独立热度排名",
+          "as_of": "2026-09-20T16:16:33.000+08:00",
+          "signals": [
+            {
+              "platform": "SpaceXAI",
+              "observation": "回溯核验：一手材料标注 2026-09-16 公开；只记录发布信号，不使用后来热度、排名或引用量。",
+              "url": "https://x.ai/news/grok-build-memory"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "affora-agent-friendly-interfaces",
+      "category": "science",
+      "regions": [
+        "全球"
+      ],
+      "title": "Affora 探索人和代理共用的界面设计系统",
+      "summary": "16 日提交的 Affora 预印本用三项受控研究考察组件实现、视觉变化和交互原则。核心主张是在保持人类工作流和视觉自由的同时，让动作与任务状态具有清楚的机器可读语义。",
+      "why_it_matters": "代理操作软件的成功率可能受界面表示限制，而不只取决于模型大小；研究为产品设计和可执行检查提供了切入点。",
+      "uncertainty": "尚未同行评审；作者也指出，对原本没有相关缺陷、或缺陷超出系统覆盖范围的界面，改善有限。",
+      "confidence": "medium",
+      "sources": [
+        {
+          "publisher": "arXiv",
+          "title": "Affora: A Design System for Agent-Friendly Interfaces",
+          "url": "https://arxiv.org/abs/2609.19125",
+          "published_at": "2026-09-16T17:46:34Z",
+          "source_type": "research"
+        }
+      ],
+      "section": "ai-frontier",
+      "ai": {
+        "kind": "paper",
+        "topics": [
+          "computer-use",
+          "interfaces",
+          "agent-evaluation"
+        ],
+        "artifact_date": "2026-09-16",
+        "artifact_status": "预印本 v1；尚未同行评审",
+        "technical_takeaway": "把交互语义、可用动作及状态清晰度作为设计约束，而不是另建只供代理使用的界面。",
+        "evidence_level": "官方发布及公开工件；效果未经本刊独立复现",
+        "heat": {
+          "label": "可核查的新发布信号；不声称独立热度排名",
+          "as_of": "2026-09-20T16:16:33.000+08:00",
+          "signals": [
+            {
+              "platform": "arXiv",
+              "observation": "回溯核验：一手材料标注 2026-09-16 公开；只记录发布信号，不使用后来热度、排名或引用量。",
+              "url": "https://arxiv.org/abs/2609.19125"
+            }
+          ]
+        }
+      }
+    }
+  ]
+}

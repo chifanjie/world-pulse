@@ -1,0 +1,255 @@
+{
+  "date": "2026-09-11",
+  "timezone": "Asia/Shanghai",
+  "generated_at": "2026-09-20T08:14:21+00:00",
+  "publication_status": "backfill",
+  "publication_note": "历史补发：2026-09-20，按当时可核实材料重建；并非当日实时发布",
+  "observation_note": "历史全天重建，以来源署名日期及明确事件日期归档；仅有日期者不声称北京09:00已公开。世界事件约36小时，AI约72小时、论文7天；未使用后续事件进展。",
+  "overview": "全球高温统计与美俄通胀信息成为当日主要信号；地区外交、人道通道及跨部门健康准备仍面临执行挑战。AI雷达关注安全外壳和端侧物种识别的实证研究。",
+  "digest_path": "digests/2026/09/2026-09-11.md",
+  "ai_radar": {
+    "selection_as_of": "2026-09-20T08:14:21+00:00",
+    "item_ids": [
+      "evosafeharness-paper-sep05",
+      "edge-vlm-species-paper-sep10"
+    ]
+  },
+  "items": [
+    {
+      "id": "wmo-record-august-sep11",
+      "category": "climate-environment",
+      "regions": [
+        "Global"
+      ],
+      "title": "WMO汇总：地球经历有记录以来最热八月",
+      "summary": "WMO 9月11日汇总主要气候监测机构结果，称2026年8月及北半球夏季刷新温度纪录。",
+      "why_it_matters": "持续高温会加重健康、农业与基础设施风险。",
+      "uncertainty": "不同数据集与基准期的数值不可混用；单月温度并非《巴黎协定》长期升温阈值。",
+      "confidence": "high",
+      "sources": [
+        {
+          "publisher": "WMO",
+          "title": "Earth has hottest August on record",
+          "url": "https://wmo.int/media/news/earth-has-hottest-august-record",
+          "published_at": "2026-09-11",
+          "source_type": "primary"
+        }
+      ]
+    },
+    {
+      "id": "us-cpi-august-release-sep11",
+      "category": "economy",
+      "regions": [
+        "North America",
+        "United States"
+      ],
+      "title": "美国八月CPI环比上涨0.4%",
+      "summary": "美国劳工统计局9月11日发布数据：8月经季调CPI环比上涨0.4%，未经季调同比上涨3.4%；汽油价格是月度增长的重要来源。",
+      "why_it_matters": "通胀结构影响家庭购买力与货币政策判断。",
+      "uncertainty": "月度数据受能源波动影响；本文不把未来加息预期当作央行已作决定。",
+      "confidence": "high",
+      "sources": [
+        {
+          "publisher": "BLS",
+          "title": "Consumer Price Index — August 2026",
+          "url": "https://www.bls.gov/news.release/archives/cpi_09112026.htm",
+          "published_at": "2026-09-11T08:30:00-04:00",
+          "source_type": "primary"
+        }
+      ]
+    },
+    {
+      "id": "russia-rate-hold-sep11",
+      "category": "economy",
+      "regions": [
+        "Europe",
+        "Russia"
+      ],
+      "title": "俄罗斯央行维持14%关键利率",
+      "summary": "俄罗斯央行9月11日维持关键利率14%，表示近期价格压力明显上升，经济在第三季度温和增长。",
+      "why_it_matters": "高融资成本与通胀压力同时约束经济活动。",
+      "uncertainty": "经济与通胀展望属于央行判断；后续决策仍取决于数据，不能推定降息时间。",
+      "confidence": "high",
+      "sources": [
+        {
+          "publisher": "Bank of Russia",
+          "title": "Bank of Russia keeps the key rate at 14.00% p.a.",
+          "url": "https://www.cbr.ru/eng/press/pr/?file=11092026_133000key_e.htm",
+          "published_at": "2026-09-11",
+          "source_type": "primary"
+        },
+        {
+          "publisher": "Reuters via AOL",
+          "title": "Russian central bank holds key rate steady ahead of election",
+          "url": "https://www.aol.com/articles/russian-central-bank-keeps-key-103938000.html",
+          "published_at": "2026-09-11T14:05:00Z",
+          "source_type": "wire"
+        }
+      ]
+    },
+    {
+      "id": "india-iran-navigation-sep11",
+      "category": "politics",
+      "regions": [
+        "Asia",
+        "India",
+        "Iran"
+      ],
+      "title": "印度与伊朗领导人讨论航运安全",
+      "summary": "莫迪与佩泽希齐扬9月11日在新德里会晤；印度通报称会谈涉及地区局势、航行与商业自由及海员安全。",
+      "why_it_matters": "在地区战争背景下，外交沟通关系到海运和能源供应稳定。",
+      "uncertainty": "公开材料主要反映印度方面表述；没有公布新的停火或航运保障协议。",
+      "confidence": "high",
+      "sources": [
+        {
+          "publisher": "Prime Minister of India",
+          "title": "PM meets with the President of Iran on the sidelines of BRICS Summit",
+          "url": "https://www.pmindia.gov.in/en/news_updates/pm-meets-with-the-president-of-iran-on-the-sidelines-of-brics-summit/?comment=disable",
+          "published_at": "2026-09-11",
+          "source_type": "primary"
+        },
+        {
+          "publisher": "AP",
+          "title": "Modi holds talks with Putin and Iran’s president before the BRICS summit",
+          "url": "https://apnews.com/article/india-russia-putin-modi-brics-summit-delhi-f7735ac233c7e8db8ac021c53a3eef8a",
+          "published_at": "2026-09-11",
+          "source_type": "wire"
+        }
+      ]
+    },
+    {
+      "id": "brunei-one-health-sep11",
+      "category": "health-society",
+      "regions": [
+        "Asia",
+        "Brunei"
+      ],
+      "title": "文莱推进国家One Health行动规划",
+      "summary": "WHO 9月11日通报文莱与联合国四方机构开展跨部门研讨，确定人类、动物和环境健康协作的国家优先方向。",
+      "why_it_matters": "跨部门监测与应对有助于管理人畜共患病及环境健康风险。",
+      "uncertainty": "研讨并不等于国家行动计划已经完成；后续融资和监测框架仍待落实。",
+      "confidence": "high",
+      "sources": [
+        {
+          "publisher": "WHO",
+          "title": "Brunei Darussalam charts a national course for One Health with the UN Quadripartite",
+          "url": "https://www.who.int/westernpacific/newsroom/feature-stories/item/brunei-darussalam-charts-a-national-course-for-one-health-with-the-un-quadripartite",
+          "published_at": "2026-09-11",
+          "source_type": "primary"
+        }
+      ]
+    },
+    {
+      "id": "yemen-un-premises-seizure-sep11",
+      "category": "politics",
+      "regions": [
+        "Asia",
+        "Yemen"
+      ],
+      "title": "联合国报告穆哈人道设施遭占用",
+      "summary": "联合国9月11日简报称，也门穆哈一处共用人道设施及资产被胡塞实际控制当局占用；工作人员此前已经撤离并确认安全。",
+      "why_it_matters": "设施和通行受阻会妨碍面向平民的救援。",
+      "uncertainty": "依据联合国简报转载，未独立核实现场；不将当局陈述推演为整个城市的控制状态。",
+      "confidence": "medium",
+      "sources": [
+        {
+          "publisher": "United Nations transcript via The European Times",
+          "title": "Daily Press Briefing by the Office of the Spokesperson for the Secretary-General",
+          "url": "https://europeantimes.news/2026/09/daily-press-briefing-by-the-office-of-the-spokesperson-for-the-secretary-general/",
+          "published_at": "2026-09-11",
+          "source_type": "regional-media"
+        }
+      ]
+    },
+    {
+      "id": "evosafeharness-paper-sep05",
+      "category": "technology",
+      "regions": [
+        "Global"
+      ],
+      "title": "EvoSafeHarness研究可进化的智能体安全外壳",
+      "summary": "9月5日提交的论文提出，为固定模型和任务领域联合优化自然语言策略与可执行安全外壳，并用新上下文对抗审查筛除过拟合规则。",
+      "why_it_matters": "安全控制不必只依赖模型权重，也可通过执行环境与策略协同改进。",
+      "uncertainty": "尚未同行评审；基准表现不能保证真实开放环境中的安全，本文未独立复现。",
+      "confidence": "medium",
+      "sources": [
+        {
+          "publisher": "arXiv",
+          "title": "EvoSafeHarness: Evolving Model- and Domain-Specific Harnesses for Securing Agents",
+          "url": "https://arxiv.org/html/2609.05903v1",
+          "published_at": "2026-09-05",
+          "source_type": "research"
+        }
+      ],
+      "section": "ai-frontier",
+      "ai": {
+        "kind": "research-paper",
+        "topics": [
+          "agent-safety",
+          "harness",
+          "evaluation"
+        ],
+        "artifact_date": "2026-09-05",
+        "artifact_status": "预印本v1，尚未同行评审；在7天论文窗口内",
+        "technical_takeaway": "把策略与工具调用外围的程序性控制一并演化，并显式检查安全性与效用的权衡。",
+        "evidence_level": "primary research; author-reported results, independent replication not verified",
+        "heat": {
+          "label": "仅有正式发布信号；不作热度排名",
+          "as_of": "2026-09-20T08:14:21+00:00",
+          "signals": [
+            {
+              "platform": "arXiv",
+              "observation": "一手页面署名 2026-09-05；补发时核实发布，不重建历史关注量。",
+              "url": "https://arxiv.org/html/2609.05903v1"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "edge-vlm-species-paper-sep10",
+      "category": "technology",
+      "regions": [
+        "Global"
+      ],
+      "title": "物种识别研究揭示小型通用VLM的领域局限",
+      "summary": "9月10日预印本比较四个2—8B视觉语言模型和BioCLIP，发现专用模型在所测物种任务中更优，而所有模型在相机陷阱图像上都明显退化。",
+      "why_it_matters": "生态监测不能仅以参数规模替代领域数据质量和部署测试。",
+      "uncertainty": "尚未同行评审，样本规模有限；结果不覆盖大型前沿模型，也不证明现有野外设备已部署这些模型。",
+      "confidence": "medium",
+      "sources": [
+        {
+          "publisher": "arXiv",
+          "title": "Can Edge-Deployable Vision–Language Models Identify Species?",
+          "url": "https://arxiv.org/html/2609.11916v1",
+          "published_at": "2026-09-10",
+          "source_type": "research"
+        }
+      ],
+      "section": "ai-frontier",
+      "ai": {
+        "kind": "research-paper",
+        "topics": [
+          "vision-language",
+          "edge-ai",
+          "biodiversity"
+        ],
+        "artifact_date": "2026-09-10",
+        "artifact_status": "预印本v1，尚未同行评审",
+        "technical_takeaway": "同一图像集比较通用小模型与领域专用模型，同时检查域迁移和虚构物种名称。",
+        "evidence_level": "primary research; author-reported results, independent replication not verified",
+        "heat": {
+          "label": "仅有正式发布信号；不作热度排名",
+          "as_of": "2026-09-20T08:14:21+00:00",
+          "signals": [
+            {
+              "platform": "arXiv",
+              "observation": "一手页面署名 2026-09-10；补发时核实发布，不重建历史关注量。",
+              "url": "https://arxiv.org/html/2609.11916v1"
+            }
+          ]
+        }
+      }
+    }
+  ]
+}

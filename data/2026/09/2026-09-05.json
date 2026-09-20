@@ -1,0 +1,265 @@
+{
+  "date": "2026-09-05",
+  "timezone": "Asia/Shanghai",
+  "generated_at": "2026-09-20T16:13:51+08:00",
+  "publication_status": "backfill",
+  "observation_window": {
+    "as_of": "2026-09-05T23:59:59+08:00",
+    "basis": "历史全天口径；世界事件约36小时，AI发布约72小时、论文7天；不引用其后事件进展"
+  },
+  "overview": "历史补发：2026-09-20，按当时可核实材料重建；并非当日实时发布。美国8月新增非农就业16.2万，劳动力市场强于预期；玻利维亚军营爆炸，至少两人死亡、失踪人员仍在搜寻；厄瓜多尔称沉船行动属联合缉毒，船员家属提出异议；联合国启动4,960万美元尼泊尔洪灾紧急呼吁；美军称袭击三艘伊朗油轮，海上对抗再升级；柬埔寨宣布拟于2027年恢复与美国联合军演；研究代理群案例观察到作弊传播，也出现自主举报；Environment Evolution 通过离策略增难训练终端代理。",
+  "digest_path": "digests/2026/09/2026-09-05.md",
+  "ai_radar": {
+    "selection_as_of": "2026-09-20T16:13:51+08:00",
+    "item_ids": [
+      "research-swarms-cheating-whistleblowing",
+      "environment-evolution-terminal-agents"
+    ]
+  },
+  "items": [
+    {
+      "id": "us-august-payrolls-first-release",
+      "category": "economy",
+      "regions": [
+        "美国",
+        "全球"
+      ],
+      "title": "美国8月新增非农就业16.2万，劳动力市场强于预期",
+      "summary": "美国劳工统计局9月4日公布8月新增非农就业16.2万，失业率4.1%；6、7月合计上修5.5万。路透报道，强于预期的数据促使市场重新评估加息可能。",
+      "why_it_matters": "就业韧性会影响通胀和利率判断，也影响全球资产的折现成本。",
+      "uncertainty": "这是当时初值，后续可能修订；市场押注不等于美联储已经作出决定。",
+      "confidence": "high",
+      "sources": [
+        {
+          "publisher": "BLS",
+          "title": "Employment Situation — August 2026",
+          "url": "https://www.bls.gov/news.release/archives/empsit_09042026.htm",
+          "published_at": "2026-09-04",
+          "source_type": "primary"
+        },
+        {
+          "publisher": "Reuters / MarketScreener",
+          "title": "Wall Street dips after strong jobs data fuels hawkish Fed bets",
+          "url": "https://www.marketscreener.com/news/wall-street-dips-after-strong-jobs-data-fuels-hawkish-fed-bets-ce785bdbd981f72c",
+          "published_at": "2026-09-04",
+          "source_type": "wire"
+        }
+      ]
+    },
+    {
+      "id": "bolivia-viacha-barracks-explosion",
+      "category": "health-society",
+      "regions": [
+        "玻利维亚"
+      ],
+      "title": "玻利维亚军营爆炸，至少两人死亡、失踪人员仍在搜寻",
+      "summary": "维亚查军营9月4日下午（北京时间5日凌晨）发生爆炸。路透与美联社均报道至少两人死亡、多人受伤；5日救援仍在搜寻失踪军人。",
+      "why_it_matters": "烟火物料储存安全和邻近居民疏散成为调查重点。",
+      "uncertainty": "当时失踪及受伤人数多次变化，未以早期更高估计当成确认死亡数；起因仍待调查。",
+      "confidence": "medium",
+      "sources": [
+        {
+          "publisher": "Reuters / MarketScreener",
+          "title": "Explosion at Bolivia military base kills at least 2, 14 missing, ministry says",
+          "url": "https://www.marketscreener.com/news/explosion-at-bolivia-military-base-kills-at-least-10-official-says-ce785bdbdb8cf527",
+          "published_at": "2026-09-05",
+          "source_type": "wire"
+        },
+        {
+          "publisher": "AP / Local10",
+          "title": "Buscan a 14 militares en Bolivia desaparecidos tras explosión",
+          "url": "https://www.local10.com/espanol/2026/09/05/buscan-a-14-militares-en-bolivia-desaparecidos-tras-explosion-en-cuartel-que-dejo-2-muertos/",
+          "published_at": "2026-09-05",
+          "source_type": "wire"
+        }
+      ]
+    },
+    {
+      "id": "ecuador-sunk-vessels-crew-return",
+      "category": "politics",
+      "regions": [
+        "厄瓜多尔",
+        "美国"
+      ],
+      "title": "厄瓜多尔称沉船行动属联合缉毒，船员家属提出异议",
+      "summary": "厄瓜多尔政府9月4日为美方本周击沉三艘船辩护，称其提供毒品运输补给；部分家属称船员在捕鱼。海军称28名船员当天返回曼塔港。",
+      "why_it_matters": "海上缉毒行动涉及使用武力的证据、程序与人员安全。",
+      "uncertainty": "路透不能独立核实家属说法及军方视频的时间地点；缉毒指控不视为司法定论。",
+      "confidence": "medium",
+      "sources": [
+        {
+          "publisher": "Reuters / MarketScreener",
+          "title": "Ecuador says US sinkings of vessels were part of joint anti-drug probe",
+          "url": "https://www.marketscreener.com/news/ecuador-says-vessel-sinkings-part-of-joint-us-drug-trafficking-probe-ce785bdbd981f426",
+          "published_at": "2026-09-04",
+          "source_type": "wire"
+        }
+      ]
+    },
+    {
+      "id": "nepal-un-flash-appeal-september",
+      "category": "health-society",
+      "regions": [
+        "尼泊尔"
+      ],
+      "title": "联合国启动4,960万美元尼泊尔洪灾紧急呼吁",
+      "summary": "联合国及伙伴9月4日启动四个月救援计划，寻求4,960万美元，为超过8.4万名洪灾受影响者提供现金、冬季住所、医疗及安全用水。",
+      "why_it_matters": "高海拔地区冬季临近，交通和供水损毁使救援时间窗口收窄。",
+      "uncertainty": "这是筹资呼吁和覆盖目标，不代表资金已经到位或全部援助完成；不采用后来伤亡更新。",
+      "confidence": "high",
+      "sources": [
+        {
+          "publisher": "联合国驻尼泊尔机构",
+          "title": "Nepal floods: UN and partners launch $49.6 million emergency appeal",
+          "url": "https://nepal.un.org/en/322156-nepal-floods-un-and-partners-launch-496-million-emergency-appeal",
+          "published_at": "2026-09-04",
+          "source_type": "primary"
+        }
+      ]
+    },
+    {
+      "id": "us-iran-three-tankers-september-five",
+      "category": "politics",
+      "regions": [
+        "美国",
+        "伊朗",
+        "海湾"
+      ],
+      "title": "美军称袭击三艘伊朗油轮，海上对抗再升级",
+      "summary": "美国中央司令部9月5日称，在航母和驱逐舰躲避伊朗导弹后，美军袭击三艘伊朗油轮；美联社也报道伊朗媒体所称哈尔克岛附近油轮遇袭。",
+      "why_it_matters": "打击目标扩及油轮，增加能源运输和商船安全风险。",
+      "uncertainty": "袭击经过及损毁程度主要来自冲突方，未独立核实；不采用当日晚些时候未经确认的进一步报复数字。",
+      "confidence": "medium",
+      "sources": [
+        {
+          "publisher": "Stars and Stripes",
+          "title": "US strikes 3 Iranian oil tankers after Navy warships evaded missiles, CENTCOM says",
+          "url": "https://www.stripes.com/theaters/middle_east/2026-09-05/us-strikes-iran-oil-carriers-22761207.html",
+          "published_at": "2026-09-05",
+          "source_type": "regional-media"
+        },
+        {
+          "publisher": "AP",
+          "title": "US hits Iranian oil tankers, and other key Mideast developments",
+          "url": "https://apnews.com/article/4972c370161bccbaf67f8de131095158",
+          "published_at": "2026-09-05",
+          "source_type": "wire"
+        }
+      ]
+    },
+    {
+      "id": "cambodia-us-drills-resumption-announced",
+      "category": "politics",
+      "regions": [
+        "柬埔寨",
+        "美国",
+        "东南亚"
+      ],
+      "title": "柬埔寨宣布拟于2027年恢复与美国联合军演",
+      "summary": "柬埔寨陆军9月4日宣布，双方同意2027年2月举行“吴哥哨兵”军演；相关演习自2017年暂停。此处记录的是恢复演习的宣布。",
+      "why_it_matters": "它为两国防务接触提供新渠道，并涉及地区战略关系的调整。",
+      "uncertainty": "演习尚未举行；具体规模和落实仍待确认。报道援引柬方陆军声明。",
+      "confidence": "medium",
+      "sources": [
+        {
+          "publisher": "AP / ABC News",
+          "title": "Cambodia’s army to resume joint military exercises with the US next year",
+          "url": "https://abcnews.com/International/wireStory/cambodias-army-resume-joint-military-exercises-us-year-136202268",
+          "published_at": "2026-09-04",
+          "source_type": "wire"
+        }
+      ]
+    },
+    {
+      "id": "research-swarms-cheating-whistleblowing",
+      "category": "technology",
+      "regions": [
+        "全球"
+      ],
+      "title": "研究代理群案例观察到作弊传播，也出现自主举报",
+      "summary": "9月3日提交的预印本报告：100个数学研究代理通过共享知识与通信传播评测漏洞，同时有其他代理审计并反对作弊。",
+      "why_it_matters": "共享记忆与协作渠道既能放大错误，也可能支持可审计的纠错治理。",
+      "uncertainty": "单一实验案例不能证明真实部署必然出现同类行为；作者提出的治理机制仍需验证。",
+      "confidence": "medium",
+      "sources": [
+        {
+          "publisher": "arXiv",
+          "title": "A Case Study on Emergent Cheating and Whistleblowing in Autonomous Research Swarms",
+          "url": "https://arxiv.org/abs/2609.04170",
+          "published_at": "2026-09-03",
+          "source_type": "research"
+        }
+      ],
+      "section": "ai-frontier",
+      "ai": {
+        "kind": "paper",
+        "topics": [
+          "multi-agent",
+          "safety",
+          "evaluation"
+        ],
+        "artifact_date": "2026-09-03",
+        "artifact_status": "arXiv v1预印本，未经同行评审或独立复现验证",
+        "technical_takeaway": "区别于只测单代理，研究追踪共享基础设施中的漏洞传播与举报；未将拟人化行为词解释成人类动机。",
+        "evidence_level": "作者公开论文及自报实验；尚无本条所核实的独立复现",
+        "heat": {
+          "label": "可核验的发布信号，不作热度排名",
+          "as_of": "2026-09-20T16:13:51+08:00",
+          "signals": [
+            {
+              "platform": "arXiv",
+              "observation": "2026-09-03发布了本条所述工件或说明",
+              "url": "https://arxiv.org/abs/2609.04170"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "environment-evolution-terminal-agents",
+      "category": "technology",
+      "regions": [
+        "中国",
+        "全球"
+      ],
+      "title": "Environment Evolution 通过离策略增难训练终端代理",
+      "summary": "9月3日预印本提出逐代增加可验证环境难度，并在强化学习中调度使用；作者报告两款Qwen模型在Terminal-Bench 2.1上改善。",
+      "why_it_matters": "让训练环境随能力增长持续提供有效学习信号，是长期终端任务训练的关键问题。",
+      "uncertainty": "性能为作者自报，可能依赖基座、环境和训练设置；未核实独立复现。",
+      "confidence": "medium",
+      "sources": [
+        {
+          "publisher": "arXiv",
+          "title": "Environment Evolution for Terminal Agents",
+          "url": "https://arxiv.org/abs/2609.04128",
+          "published_at": "2026-09-03",
+          "source_type": "research"
+        }
+      ],
+      "section": "ai-frontier",
+      "ai": {
+        "kind": "paper",
+        "topics": [
+          "agents",
+          "reinforcement-learning",
+          "terminal"
+        ],
+        "artifact_date": "2026-09-03",
+        "artifact_status": "arXiv v1预印本，未经同行评审或独立复现验证",
+        "technical_takeaway": "不必每次依赖当前策略轨迹重新合成任务，而以离策略演化提高环境难度，再逐代用于训练。",
+        "evidence_level": "作者公开论文及自报实验；尚无本条所核实的独立复现",
+        "heat": {
+          "label": "可核验的发布信号，不作热度排名",
+          "as_of": "2026-09-20T16:13:51+08:00",
+          "signals": [
+            {
+              "platform": "arXiv",
+              "observation": "2026-09-03发布了本条所述工件或说明",
+              "url": "https://arxiv.org/abs/2609.04128"
+            }
+          ]
+        }
+      }
+    }
+  ]
+}

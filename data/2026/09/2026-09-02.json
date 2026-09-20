@@ -1,0 +1,264 @@
+{
+  "date": "2026-09-02",
+  "timezone": "Asia/Shanghai",
+  "generated_at": "2026-09-20T16:05:39+08:00",
+  "publication_status": "backfill",
+  "observation_window": {
+    "as_of": "2026-09-02T23:59:59+08:00",
+    "basis": "历史全天口径；世界事件约36小时，AI发布约72小时、论文7天；不引用其后事件进展"
+  },
+  "overview": "历史补发：2026-09-20，按当时可核实材料重建；并非当日实时发布。Anthropic 发布 Fable 5.1 与受限访问的 Mythos 5.1；Google 发布 Gemini 3.8 Flash 与 Flash Cyber；美伊发生数周来最严重交火；美国法院拒绝强制 Google 出售 AdX；能源和债务担忧推动全球债券收益率上升；埃尔多安称可提升上合关系，但不意味着背离西方；哈勃研究报告土星南极十边形大气波；NASA公布偶发E层多点探测结果。",
+  "digest_path": "digests/2026/09/2026-09-02.md",
+  "ai_radar": {
+    "selection_as_of": "2026-09-20T16:05:39+08:00",
+    "item_ids": [
+      "claude-fable-mythos-5-1",
+      "gemini-3-8-flash-cyber"
+    ]
+  },
+  "items": [
+    {
+      "id": "claude-fable-mythos-5-1",
+      "category": "technology",
+      "regions": [
+        "Global"
+      ],
+      "title": "Anthropic 发布 Fable 5.1 与受限访问的 Mythos 5.1",
+      "summary": "9月1日发布的两个版本共享基础模型，Fable 5.1一般可用，Mythos 5.1通过可信访问计划提供；缓存读取价格降低。",
+      "why_it_matters": "同一能力基础配合不同防护边界，把成本、数据保留与双用途风险纳入部署选择。",
+      "uncertainty": "基准和成本节省为厂商自报；EFS为秋季分阶段计划，不是当日已全面上线。",
+      "confidence": "medium",
+      "sources": [
+        {
+          "publisher": "Anthropic",
+          "title": "Introducing Claude Fable 5.1 and Claude Mythos 5.1",
+          "url": "https://www.anthropic.com/claude-fable-and-mythos-5-1",
+          "published_at": "2026-09-01",
+          "source_type": "primary"
+        },
+        {
+          "publisher": "Anthropic",
+          "title": "Claude Fable release announcement index",
+          "url": "https://www.anthropic.com/claude/fable",
+          "published_at": "2026-09-01",
+          "source_type": "primary"
+        }
+      ],
+      "section": "ai-frontier",
+      "ai": {
+        "kind": "model-release",
+        "topics": [
+          "coding",
+          "safeguards"
+        ],
+        "artifact_date": "2026-09-01",
+        "artifact_status": "当时的一手发布或公开研究材料；细节见来源",
+        "technical_takeaway": "同一基础模型按网络安全与生命科学访问权限区分部署；供应商称改进误拒与长任务能力。",
+        "evidence_level": "一手材料；性能结论为作者或厂商自报，未视作独立复现",
+        "heat": {
+          "label": "可核验的发布信号，不作热度排名",
+          "as_of": "2026-09-20T16:05:39+08:00",
+          "signals": [
+            {
+              "platform": "Anthropic",
+              "observation": "2026-09-01发布了本条所述工件或说明",
+              "url": "https://www.anthropic.com/claude-fable-and-mythos-5-1"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "gemini-3-8-flash-cyber",
+      "category": "technology",
+      "regions": [
+        "Global"
+      ],
+      "title": "Google 发布 Gemini 3.8 Flash 与 Flash Cyber",
+      "summary": "9月2日Google发布面向长时编码和智能体任务的3.8 Flash，以及向可信防御者开放的Flash Cyber。",
+      "why_it_matters": "通用模型与受限安全模型的双轨部署，体现能力扩展与访问控制同时推进。",
+      "uncertainty": "排行榜为Google自测；更长推理可能增加token用量，发布价格不能代替实际任务成本。",
+      "confidence": "medium",
+      "sources": [
+        {
+          "publisher": "Google",
+          "title": "Introducing Gemini 3.8 Flash and 3.8 Flash Cyber",
+          "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/3-8-flash-and-3-8-flash-cyber/",
+          "published_at": "2026-09-02",
+          "source_type": "primary"
+        }
+      ],
+      "section": "ai-frontier",
+      "ai": {
+        "kind": "model-release",
+        "topics": [
+          "agents",
+          "cybersecurity"
+        ],
+        "artifact_date": "2026-09-02",
+        "artifact_status": "当时的一手发布或公开研究材料；细节见来源",
+        "technical_takeaway": "共享基础能力，Flash强调多步工具使用；Cyber经Fairwind计划限制访问。",
+        "evidence_level": "一手材料；性能结论为作者或厂商自报，未视作独立复现",
+        "heat": {
+          "label": "可核验的发布信号，不作热度排名",
+          "as_of": "2026-09-20T16:05:39+08:00",
+          "signals": [
+            {
+              "platform": "Google",
+              "observation": "2026-09-02发布了本条所述工件或说明",
+              "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/3-8-flash-and-3-8-flash-cyber/"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "us-iran-september-two-strikes",
+      "category": "politics",
+      "regions": [
+        "Middle East",
+        "United States"
+      ],
+      "title": "美伊发生数周来最严重交火",
+      "summary": "9月1日晚至2日，美军称打击伊朗防空、雷达及海上设施；伊朗向地区美方目标反击。伊朗方面称婚礼地点遇袭造成平民伤亡。",
+      "why_it_matters": "交火打破近期相对平静，威胁海湾航运并扩大周边国家卷入风险。",
+      "uncertainty": "婚礼伤亡来自伊朗官员和红新月会，数字仍在变化；不能视为独立确定的最终伤亡。",
+      "confidence": "medium",
+      "sources": [
+        {
+          "publisher": "Reuters via Onvista",
+          "title": "USA und Iran greifen sich gegenseitig an",
+          "url": "https://www.onvista.de/news/2026/09-02-usa-und-iran-greifen-sich-gegenseitig-an-teheran-meldet-zivile-opfer-0-20-26548906",
+          "published_at": "2026-09-02",
+          "source_type": "wire"
+        },
+        {
+          "publisher": "Associated Press via KOSU",
+          "title": "Iran fires on its Gulf neighbors",
+          "url": "https://www.kosu.org/news/2026-09-02/iran-fires-on-its-gulf-neighbors-retaliating-for-u-s-strikes-after-a-monthlong-lull",
+          "published_at": "2026-09-02T10:18:00-05:00",
+          "source_type": "wire"
+        }
+      ]
+    },
+    {
+      "id": "google-adx-remedies-no-divestiture",
+      "category": "technology",
+      "regions": [
+        "United States",
+        "Global"
+      ],
+      "title": "美国法院拒绝强制 Google 出售 AdX",
+      "summary": "9月2日，法官Brinkema拒绝司法部要求Google出售广告交易所AdX的请求，接受多数行为救济；此前垄断责任认定并未因此撤销。",
+      "why_it_matters": "结果决定广告市场反垄断救济依赖经营规则，而非拆分核心交易平台。",
+      "uncertainty": "完整救济意见当时尚未公开，执行细节及上诉影响仍待确定。",
+      "confidence": "high",
+      "sources": [
+        {
+          "publisher": "Reuters via MarketScreener",
+          "title": "Google defeats US bid to force ad tech sale",
+          "url": "https://www.marketscreener.com/news/google-defeats-us-bid-to-force-ad-tech-sale-ce7858d3d980f425",
+          "published_at": "2026-09-02T11:16:00-04:00",
+          "source_type": "wire"
+        },
+        {
+          "publisher": "News/Media Alliance",
+          "title": "Statement on Google Ad Tech Remedies Ruling",
+          "url": "https://www.newsmediaalliance.org/google-ad-tech-remedies-ruling/",
+          "published_at": "2026-09-02",
+          "source_type": "primary"
+        }
+      ]
+    },
+    {
+      "id": "global-bond-selloff-september-two",
+      "category": "markets",
+      "regions": [
+        "Global",
+        "Japan",
+        "Europe",
+        "United States"
+      ],
+      "title": "能源和债务担忧推动全球债券收益率上升",
+      "summary": "9月2日Reuters报道，主要国债继续承压：美国10年期收益率触及三年高位，日本10年期超过3%，德国和英国收益率亦处多年高位。",
+      "why_it_matters": "主权利率上升会传导至住房、企业和政府融资成本，能源冲击增加货币政策难度。",
+      "uncertainty": "所列为当时盘中观察，不代表最终收盘或未来利率；归因是市场分析，非可单独识别的因果估计。",
+      "confidence": "medium",
+      "sources": [
+        {
+          "publisher": "Reuters via ThePrint",
+          "title": "Bond selloff deepens as oil prices and public debt fears jolt markets",
+          "url": "https://theprint.in/world/bond-selloff-deepens-as-oil-prices-and-public-debt-fears-jolt-markets/3031842/",
+          "published_at": "2026-09-02T16:30:00+05:30",
+          "source_type": "wire"
+        }
+      ]
+    },
+    {
+      "id": "turkey-sco-membership-comments",
+      "category": "politics",
+      "regions": [
+        "Turkey",
+        "Asia",
+        "Europe"
+      ],
+      "title": "埃尔多安称可提升上合关系，但不意味着背离西方",
+      "summary": "9月2日公布的返程讲话中，埃尔多安称土耳其可提升与上海合作组织关系，并表示完全成员资格前景不意味着与西方决裂。",
+      "why_it_matters": "北约成员的多向外交将影响能源、区域安全及黑海运输协调。",
+      "uncertainty": "这是政治表态，不是已经申请或获准加入；两套安全关系如何兼容仍未解决。",
+      "confidence": "medium",
+      "sources": [
+        {
+          "publisher": "Turkish Minute",
+          "title": "Erdoğan says closer ties with SCO would not mean break with the West",
+          "url": "https://www.turkishminute.com/2026/09/02/erdogan-says-closer-ties-with-sco-would-not-mean-break-with-the-west/",
+          "published_at": "2026-09-02",
+          "source_type": "regional-media"
+        }
+      ]
+    },
+    {
+      "id": "hubble-saturn-south-decagon",
+      "category": "science",
+      "regions": [
+        "Global"
+      ],
+      "title": "哈勃研究报告土星南极十边形大气波",
+      "summary": "NASA在9月2日介绍当天发表于Science Advances的研究：多年哈勃观测显示，土星南极正在形成十边形大气波。",
+      "why_it_matters": "与北极长期存在的六边形比较，有助理解巨行星急流和季节演化。",
+      "uncertainty": "结构未来是否稳定未知；观测跨越多年，并非9月2日首次拍到。网页后来更新过，这里只采用原始研究发布事实。",
+      "confidence": "high",
+      "sources": [
+        {
+          "publisher": "NASA",
+          "title": "Hubble Tracks New Decagon Encircling Saturn’s South Pole",
+          "url": "https://science.nasa.gov/missions/hubble/nasas-hubble-tracks-new-decagon-encircling-saturns-south-pole/",
+          "published_at": "2026-09-02",
+          "source_type": "primary"
+        }
+      ]
+    },
+    {
+      "id": "nasa-speed-demon-multipoint-results",
+      "category": "science",
+      "regions": [
+        "Global",
+        "United States"
+      ],
+      "title": "NASA公布偶发E层多点探测结果",
+      "summary": "9月2日NASA介绍SpEED Demon研究：2022年发射的探空火箭以五个探测器同时穿越偶发E层，发现结构比均匀薄层更复杂。",
+      "why_it_matters": "这种金属离子层影响无线电传播，多点探测能改善对通信干扰的物理解释。",
+      "uncertainty": "湍流卷波解释仍属可能机制，未直接测量当地风与电场；本条是研究发布，不是新发射，页面后续更新不作为新事实。",
+      "confidence": "high",
+      "sources": [
+        {
+          "publisher": "NASA",
+          "title": "Rocket Takes First Multi-Point Look Inside Radio-Disrupting Clouds",
+          "url": "https://science.nasa.gov/science-research/heliophysics/nasa-rocket-takes-first-multi-point-look-inside-radio-disrupting-clouds/",
+          "published_at": "2026-09-02",
+          "source_type": "primary"
+        }
+      ]
+    }
+  ]
+}

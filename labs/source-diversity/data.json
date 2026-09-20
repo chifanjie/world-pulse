@@ -1,20 +1,172 @@
 {
   "built_from": "data/index.json",
   "counts": {
-    "ai_events": 60,
-    "digests": 20,
-    "events": 216,
-    "single_source_events": 46,
-    "source_links": 472,
-    "unique_source_urls": 463,
-    "world_events": 156,
+    "ai_events": 98,
+    "digests": 39,
+    "events": 364,
+    "single_source_events": 157,
+    "source_links": 657,
+    "unique_source_urls": 647,
+    "world_events": 266,
     "zero_source_events": 0
   },
   "date_range": {
-    "end": "2026-09-01",
+    "end": "2026-09-20",
     "start": "2026-08-03"
   },
   "dates": [
+    {
+      "ai_event_count": 2,
+      "date": "2026-09-20",
+      "event_count": 8,
+      "single_source_events": 5,
+      "source_links": 11,
+      "world_event_count": 6
+    },
+    {
+      "ai_event_count": 2,
+      "date": "2026-09-19",
+      "event_count": 8,
+      "single_source_events": 7,
+      "source_links": 9,
+      "world_event_count": 6
+    },
+    {
+      "ai_event_count": 2,
+      "date": "2026-09-18",
+      "event_count": 8,
+      "single_source_events": 6,
+      "source_links": 10,
+      "world_event_count": 6
+    },
+    {
+      "ai_event_count": 2,
+      "date": "2026-09-17",
+      "event_count": 8,
+      "single_source_events": 7,
+      "source_links": 9,
+      "world_event_count": 6
+    },
+    {
+      "ai_event_count": 2,
+      "date": "2026-09-16",
+      "event_count": 8,
+      "single_source_events": 7,
+      "source_links": 9,
+      "world_event_count": 6
+    },
+    {
+      "ai_event_count": 2,
+      "date": "2026-09-15",
+      "event_count": 8,
+      "single_source_events": 8,
+      "source_links": 8,
+      "world_event_count": 6
+    },
+    {
+      "ai_event_count": 2,
+      "date": "2026-09-14",
+      "event_count": 8,
+      "single_source_events": 6,
+      "source_links": 10,
+      "world_event_count": 6
+    },
+    {
+      "ai_event_count": 2,
+      "date": "2026-09-13",
+      "event_count": 7,
+      "single_source_events": 7,
+      "source_links": 7,
+      "world_event_count": 5
+    },
+    {
+      "ai_event_count": 2,
+      "date": "2026-09-12",
+      "event_count": 6,
+      "single_source_events": 5,
+      "source_links": 7,
+      "world_event_count": 4
+    },
+    {
+      "ai_event_count": 2,
+      "date": "2026-09-11",
+      "event_count": 8,
+      "single_source_events": 6,
+      "source_links": 10,
+      "world_event_count": 6
+    },
+    {
+      "ai_event_count": 2,
+      "date": "2026-09-10",
+      "event_count": 8,
+      "single_source_events": 4,
+      "source_links": 12,
+      "world_event_count": 6
+    },
+    {
+      "ai_event_count": 2,
+      "date": "2026-09-09",
+      "event_count": 7,
+      "single_source_events": 7,
+      "source_links": 7,
+      "world_event_count": 5
+    },
+    {
+      "ai_event_count": 2,
+      "date": "2026-09-08",
+      "event_count": 8,
+      "single_source_events": 1,
+      "source_links": 15,
+      "world_event_count": 6
+    },
+    {
+      "ai_event_count": 2,
+      "date": "2026-09-07",
+      "event_count": 8,
+      "single_source_events": 7,
+      "source_links": 9,
+      "world_event_count": 6
+    },
+    {
+      "ai_event_count": 2,
+      "date": "2026-09-06",
+      "event_count": 8,
+      "single_source_events": 5,
+      "source_links": 11,
+      "world_event_count": 6
+    },
+    {
+      "ai_event_count": 2,
+      "date": "2026-09-05",
+      "event_count": 8,
+      "single_source_events": 5,
+      "source_links": 11,
+      "world_event_count": 6
+    },
+    {
+      "ai_event_count": 2,
+      "date": "2026-09-04",
+      "event_count": 8,
+      "single_source_events": 6,
+      "source_links": 10,
+      "world_event_count": 6
+    },
+    {
+      "ai_event_count": 2,
+      "date": "2026-09-03",
+      "event_count": 8,
+      "single_source_events": 7,
+      "source_links": 9,
+      "world_event_count": 6
+    },
+    {
+      "ai_event_count": 2,
+      "date": "2026-09-02",
+      "event_count": 8,
+      "single_source_events": 5,
+      "source_links": 11,
+      "world_event_count": 6
+    },
     {
       "ai_event_count": 3,
       "date": "2026-09-01",
@@ -177,6 +329,3681 @@
     }
   ],
   "events": [
+    {
+      "category": "technology",
+      "confidence": "medium",
+      "date": "2026-09-20",
+      "id": "grok-voice-transcribe2",
+      "regions": [
+        "Global",
+        "North America"
+      ],
+      "section": "ai",
+      "single_source": true,
+      "source_count": 1,
+      "sources": [
+        {
+          "published_at": "2026-09-18",
+          "publisher": "SpaceXAI",
+          "source_type": "primary",
+          "title": "Introducing Grok Voice Transcribe 2.0",
+          "url": "https://x.ai/news/grok-voice-transcribe-2"
+        }
+      ],
+      "title": "Grok Voice Transcribe 2.0更新批量与流式语音转写"
+    },
+    {
+      "category": "technology",
+      "confidence": "medium",
+      "date": "2026-09-20",
+      "id": "qwen38-omni-flash-api",
+      "regions": [
+        "Asia",
+        "China",
+        "Global"
+      ],
+      "section": "ai",
+      "single_source": true,
+      "source_count": 1,
+      "sources": [
+        {
+          "published_at": "2026-09-18",
+          "publisher": "Alibaba Cloud",
+          "source_type": "primary",
+          "title": "qwen3.8-omni-flash Model Info",
+          "url": "https://www.alibabacloud.com/help/en/model-studio/qwen3-8-omni-flash"
+        }
+      ],
+      "title": "Qwen3.8-Omni-Flash提供百万token音视频理解接口"
+    },
+    {
+      "category": "culture",
+      "confidence": "high",
+      "date": "2026-09-20",
+      "id": "aichi-nagoya-asian-games-open",
+      "regions": [
+        "Asia",
+        "Japan"
+      ],
+      "section": "world",
+      "single_source": true,
+      "source_count": 1,
+      "sources": [
+        {
+          "published_at": "2026-09-19",
+          "publisher": "AFP",
+          "source_type": "wire",
+          "title": "Japan emperor declares Asian Games open after turbulent build-up",
+          "url": "https://www.afp.com/en/japan-emperor-declares-asian-games-open-after-turbulent-build"
+        }
+      ],
+      "title": "爱知·名古屋亚运会正式开幕"
+    },
+    {
+      "category": "politics",
+      "confidence": "medium",
+      "date": "2026-09-20",
+      "id": "caribbean-boat-strike-september19",
+      "regions": [
+        "Caribbean",
+        "Latin America",
+        "North America"
+      ],
+      "section": "world",
+      "single_source": true,
+      "source_count": 1,
+      "sources": [
+        {
+          "published_at": "2026-09-19T20:57:00-04:00",
+          "publisher": "Associated Press via CityNews",
+          "source_type": "wire",
+          "title": "U.S. military says it killed four in strike on alleged drug-smuggling boat in the Caribbean",
+          "url": "https://toronto.citynews.ca/2026/09/19/u-s-military-says-it-killed-four-in-strike-on-alleged-drug-smuggling-boat-in-the-caribbean/"
+        }
+      ],
+      "title": "美军称加勒比海船只打击造成4人死亡"
+    },
+    {
+      "category": "politics",
+      "confidence": "high",
+      "date": "2026-09-20",
+      "id": "carpathian-integration-followup",
+      "regions": [
+        "Central Europe",
+        "Europe",
+        "Ukraine"
+      ],
+      "section": "world",
+      "single_source": false,
+      "source_count": 2,
+      "sources": [
+        {
+          "published_at": "2026-09-18T19:39:00+03:00",
+          "publisher": "President of Ukraine",
+          "source_type": "primary",
+          "title": "Declaration of the Carpathian Integration Initiative Summit",
+          "url": "https://www.president.gov.ua/en/news/deklaraciya-samitu-karpatskoyi-integracijnoyi-iniciativi-106445"
+        },
+        {
+          "published_at": "2026-09-19T17:55:00+03:00",
+          "publisher": "RBC-Ukraine",
+          "source_type": "regional-media",
+          "title": "Zelenskyy sums up Carpathian 8 summit",
+          "url": "https://newsukraine.rbc.ua/news/billions-of-euros-in-potential-zelenskyy-1789828552.html"
+        }
+      ],
+      "title": "乌克兰公布喀尔巴阡合作倡议的后续发展方向"
+    },
+    {
+      "category": "economy",
+      "confidence": "high",
+      "date": "2026-09-20",
+      "id": "china-september-lpr-unchanged",
+      "regions": [
+        "Asia",
+        "China"
+      ],
+      "section": "world",
+      "single_source": false,
+      "source_count": 2,
+      "sources": [
+        {
+          "published_at": "2026-09-20T01:34:00Z",
+          "publisher": "Reuters via AOL",
+          "source_type": "wire",
+          "title": "China keeps benchmark lending rates unchanged for 16th month in September",
+          "url": "https://www.aol.com/articles/china-keeps-benchmark-lending-rates-013349000.html"
+        },
+        {
+          "published_at": "2026-09-20T10:14:16+08:00",
+          "publisher": "新华社",
+          "source_type": "wire",
+          "title": "新一期贷款市场报价利率未作调整",
+          "url": "https://www.news.cn/20260920/a877fcdfd4164bc1abfe20dc29b5040e/c.html"
+        }
+      ],
+      "title": "中国9月LPR保持不变"
+    },
+    {
+      "category": "economy",
+      "confidence": "medium",
+      "date": "2026-09-20",
+      "id": "us-china-new-york-talks-announced",
+      "regions": [
+        "Asia",
+        "China",
+        "North America",
+        "United States"
+      ],
+      "section": "world",
+      "single_source": true,
+      "source_count": 1,
+      "sources": [
+        {
+          "published_at": "2026-09-19T21:35:00+03:00",
+          "publisher": "Reuters via MarketScreener",
+          "source_type": "wire",
+          "title": "US Treasury's Bessent, China's He to meet on Sunday at JPMorgan headquarters",
+          "url": "https://sa.marketscreener.com/news/us-treasury-s-bessent-china-s-he-to-meet-on-sunday-at-jpmorgan-headquarters-ce785adad18cf227"
+        }
+      ],
+      "title": "路透社：中美经济官员拟在纽约商谈AI安全与贸易"
+    },
+    {
+      "category": "politics",
+      "confidence": "high",
+      "date": "2026-09-20",
+      "id": "us-russia-iran-sanctions-law-signed",
+      "regions": [
+        "Europe",
+        "North America",
+        "Russia",
+        "Ukraine"
+      ],
+      "section": "world",
+      "single_source": false,
+      "source_count": 2,
+      "sources": [
+        {
+          "published_at": "2026-09-18T22:13:55Z",
+          "publisher": "Associated Press",
+          "source_type": "wire",
+          "title": "Trump signs sweeping Russia sanctions bill",
+          "url": "https://apnews.com/article/d1715ad5e8feccba76bfae51c5f28c45"
+        },
+        {
+          "published_at": "2026-09-18",
+          "publisher": "The White House",
+          "source_type": "primary",
+          "title": "Congressional Bill H.R. 5334 Signed into Law",
+          "url": "https://www.whitehouse.gov/briefings-statements/2026/09/congressional-bill-h-r-5334-signed-into-law/"
+        }
+      ],
+      "title": "美国签署扩大对俄制裁并延长对伊制裁的法律"
+    },
+    {
+      "category": "technology",
+      "confidence": "medium",
+      "date": "2026-09-19",
+      "id": "prism-bonsai2-27b",
+      "regions": [
+        "Global"
+      ],
+      "section": "ai",
+      "single_source": true,
+      "source_count": 1,
+      "sources": [
+        {
+          "published_at": "2026-09-17",
+          "publisher": "PrismML",
+          "source_type": "primary",
+          "title": "Introducing Bonsai 2 27B",
+          "url": "https://prismml.com/news/bonsai-2-27b"
+        }
+      ],
+      "title": "Bonsai 2 27B以三值权重缩小本地部署体积"
+    },
+    {
+      "category": "technology",
+      "confidence": "medium",
+      "date": "2026-09-19",
+      "id": "reward-hacking-internal-probes",
+      "regions": [
+        "Global"
+      ],
+      "section": "ai",
+      "single_source": true,
+      "source_count": 1,
+      "sources": [
+        {
+          "published_at": "2026-09-16T17:31:52Z",
+          "publisher": "arXiv",
+          "source_type": "research",
+          "title": "Monitoring and Discovering Reward Hacking with Internal Representations during LLM Evaluations",
+          "url": "https://arxiv.org/abs/2609.19101"
+        }
+      ],
+      "title": "研究用内部表征监测语言模型奖励投机"
+    },
+    {
+      "category": "markets",
+      "confidence": "high",
+      "date": "2026-09-19",
+      "id": "global-markets-week-september18-close",
+      "regions": [
+        "Europe",
+        "Global",
+        "North America"
+      ],
+      "section": "world",
+      "single_source": true,
+      "source_count": 1,
+      "sources": [
+        {
+          "published_at": "2026-09-19T05:03:00+08:00",
+          "publisher": "Reuters via MarketScreener",
+          "source_type": "wire",
+          "title": "Global shares edge higher as central banks double down on inflation fight",
+          "url": "https://hk.marketscreener.com/news/global-shares-edge-higher-as-central-banks-double-down-on-inflation-fight-ce785adadf8afe2c"
+        }
+      ],
+      "title": "全球股市周末前分化，利率和能源压力持续"
+    },
+    {
+      "category": "politics",
+      "confidence": "medium",
+      "date": "2026-09-19",
+      "id": "greenland-security-deal-announced",
+      "regions": [
+        "Denmark",
+        "Europe",
+        "Greenland",
+        "North America"
+      ],
+      "section": "world",
+      "single_source": true,
+      "source_count": 1,
+      "sources": [
+        {
+          "published_at": "2026-09-19T09:37:44Z",
+          "publisher": "Associated Press",
+          "source_type": "wire",
+          "title": "Denmark's leaders are cautiously optimistic about Trump's announcement of a Greenland deal",
+          "url": "https://apnews.com/article/0eac9ad2196551525bcb8c71e80c480e"
+        }
+      ],
+      "title": "丹麦谨慎欢迎格陵兰安全协议安排"
+    },
+    {
+      "category": "climate-environment",
+      "confidence": "high",
+      "date": "2026-09-19",
+      "id": "pacific-weather-declaration-published",
+      "regions": [
+        "Oceania",
+        "Pacific Islands",
+        "Tonga"
+      ],
+      "section": "world",
+      "single_source": true,
+      "source_count": 1,
+      "sources": [
+        {
+          "published_at": "2026-09-19",
+          "publisher": "WMO",
+          "source_type": "primary",
+          "title": "Pacific ministers chart course for stronger weather and climate services",
+          "url": "https://public.wmo.int/media/news/pacific-ministers-chart-course-stronger-weather-and-climate-services"
+        }
+      ],
+      "title": "WMO公布太平洋气象部长加强多灾种预警的宣言"
+    },
+    {
+      "category": "politics",
+      "confidence": "medium",
+      "date": "2026-09-19",
+      "id": "russia-duma-vote-begins",
+      "regions": [
+        "Europe",
+        "Russia",
+        "Ukraine"
+      ],
+      "section": "world",
+      "single_source": true,
+      "source_count": 1,
+      "sources": [
+        {
+          "published_at": "2026-09-18T06:20:12Z",
+          "publisher": "Associated Press",
+          "source_type": "wire",
+          "title": "Russia begins 3 days of voting in a parliamentary election",
+          "url": "https://apnews.com/article/7f10803a87456051be876c0c33375af8"
+        }
+      ],
+      "title": "俄罗斯开始为期三天的国家杜马选举"
+    },
+    {
+      "category": "politics",
+      "confidence": "high",
+      "date": "2026-09-19",
+      "id": "us-h1b-restrictions-extended",
+      "regions": [
+        "Global",
+        "United States"
+      ],
+      "section": "world",
+      "single_source": false,
+      "source_count": 2,
+      "sources": [
+        {
+          "published_at": "2026-09-19T00:11:00Z",
+          "publisher": "Reuters via Yahoo",
+          "source_type": "wire",
+          "title": "Trump extends push for $100,000 H-1B visas by another year",
+          "url": "https://currently.att.yahoo.com/att/trump-extends-restrictions-h-1b-215822253.html"
+        },
+        {
+          "published_at": "2026-09-18",
+          "publisher": "The White House",
+          "source_type": "primary",
+          "title": "Restriction on Entry of Certain Nonimmigrant Workers",
+          "url": "https://www.whitehouse.gov/presidential-actions/2026/09/restriction-on-entry-of-certain-nonimmigrant-workers-faad/"
+        }
+      ],
+      "title": "白宫延长部分H-1B入境限制"
+    },
+    {
+      "category": "health-society",
+      "confidence": "high",
+      "date": "2026-09-19",
+      "id": "who-pabs-eighth-round-concludes",
+      "regions": [
+        "Global"
+      ],
+      "section": "world",
+      "single_source": true,
+      "source_count": 1,
+      "sources": [
+        {
+          "published_at": "2026-09-18",
+          "publisher": "WHO",
+          "source_type": "primary",
+          "title": "Member States advance negotiations on pathogen access and benefit-sharing",
+          "url": "https://www.who.int/news/item/18-09-2026-member-states-advance-negotiations-on-pathogen-access-and-benefit-sharing-ahead-of-un-general-assembly-meeting-on-pandemics"
+        }
+      ],
+      "title": "大流行协定病原体共享附件谈判推进但尚未完成"
+    },
+    {
+      "category": "technology",
+      "confidence": "high",
+      "date": "2026-09-18",
+      "id": "antigravity-agent-september-preview",
+      "regions": [
+        "全球"
+      ],
+      "section": "ai",
+      "single_source": true,
+      "source_count": 1,
+      "sources": [
+        {
+          "published_at": "2026-09-17",
+          "publisher": "Google AI for Developers",
+          "source_type": "primary",
+          "title": "Gemini API release notes — September 17, 2026",
+          "url": "https://ai.google.dev/gemini-api/docs/changelog"
+        }
+      ],
+      "title": "Antigravity 九月预览版调整本地工具接口"
+    },
+    {
+      "category": "science",
+      "confidence": "medium",
+      "date": "2026-09-18",
+      "id": "pointzero-transferable-3d-dynamics",
+      "regions": [
+        "全球"
+      ],
+      "section": "ai",
+      "single_source": true,
+      "source_count": 1,
+      "sources": [
+        {
+          "published_at": "2026-09-16T17:59:30Z",
+          "publisher": "arXiv",
+          "source_type": "research",
+          "title": "PointZero: 3D Point Track Completion for Learning Transferable 3D Dynamics",
+          "url": "https://arxiv.org/abs/2609.19142"
+        }
+      ],
+      "title": "PointZero 用三维点轨迹补全预训练机器人动力学"
+    },
+    {
+      "category": "economy",
+      "confidence": "high",
+      "date": "2026-09-18",
+      "id": "boj-september-rate-hike",
+      "regions": [
+        "东亚",
+        "日本"
+      ],
+      "section": "world",
+      "single_source": false,
+      "source_count": 2,
+      "sources": [
+        {
+          "published_at": "2026-09-18T13:45:00+09:00",
+          "publisher": "Aju Press",
+          "source_type": "regional-media",
+          "title": "Seoul markets take Japan's 31-year high rate in stride",
+          "url": "https://www.ajupress.com/view/20260918121550526"
+        },
+        {
+          "published_at": "2026-09-18T06:49:45Z",
+          "publisher": "Reuters / Yahoo Finance",
+          "source_type": "wire",
+          "title": "BOJ Governor Ueda's comments at news conference",
+          "url": "https://finance.yahoo.com/economy/policy/articles/boj-governor-uedas-comments-news-064945092.html"
+        }
+      ],
+      "title": "日本央行加息至 1.25%，继续收紧货币政策"
+    },
+    {
+      "category": "climate-environment",
+      "confidence": "high",
+      "date": "2026-09-18",
+      "id": "nasa-september-us-heat-dome-analysis",
+      "regions": [
+        "北美",
+        "美国"
+      ],
+      "section": "world",
+      "single_source": true,
+      "source_count": 1,
+      "sources": [
+        {
+          "published_at": "2026-09-17",
+          "publisher": "NASA Earth Observatory",
+          "source_type": "primary",
+          "title": "Summer Goes Out With a Heat Dome",
+          "url": "https://science.nasa.gov/earth/earth-observatory/summer-goes-out-with-a-heat-dome/"
+        }
+      ],
+      "title": "NASA 分析美国中南部九月热穹顶"
+    },
+    {
+      "category": "health-society",
+      "confidence": "medium",
+      "date": "2026-09-18",
+      "id": "philippines-banga-school-shooting",
+      "regions": [
+        "东南亚",
+        "菲律宾"
+      ],
+      "section": "world",
+      "single_source": false,
+      "source_count": 2,
+      "sources": [
+        {
+          "published_at": "2026-09-18T08:57:58Z",
+          "publisher": "AP",
+          "source_type": "wire",
+          "title": "Teen gunman kills 2 students, wounds 8 at Philippine school",
+          "url": "https://apnews.com/article/0fb2a2443f64829985e0aab1368d2ee8"
+        },
+        {
+          "published_at": "2026-09-18T12:06:00+01:00",
+          "publisher": "Reuters / MarketScreener",
+          "source_type": "wire",
+          "title": "Philippine teen kills two students, then himself in school shooting",
+          "url": "https://uk.marketscreener.com/news/at-least-one-dead-four-injured-in-school-shooting-in-southern-philippines-ce785adad88cf026"
+        }
+      ],
+      "title": "菲律宾南部校园枪击造成两名学生死亡"
+    },
+    {
+      "category": "economy",
+      "confidence": "high",
+      "date": "2026-09-18",
+      "id": "rba-bullock-inflation-testimony",
+      "regions": [
+        "大洋洲",
+        "澳大利亚"
+      ],
+      "section": "world",
+      "single_source": true,
+      "source_count": 1,
+      "sources": [
+        {
+          "published_at": "2026-09-18",
+          "publisher": "Reserve Bank of Australia",
+          "source_type": "primary",
+          "title": "Opening Statement to the House of Representatives Standing Committee on Economics",
+          "url": "https://www.rba.gov.au/speeches/2026/sp-gov-2026-09-18.html"
+        }
+      ],
+      "title": "澳洲央行行长称部分通胀上行风险正在显现"
+    },
+    {
+      "category": "health-society",
+      "confidence": "high",
+      "date": "2026-09-18",
+      "id": "who-health-workforce-ageing-report",
+      "regions": [
+        "全球"
+      ],
+      "section": "world",
+      "single_source": true,
+      "source_count": 1,
+      "sources": [
+        {
+          "published_at": "2026-09-18",
+          "publisher": "WHO",
+          "source_type": "primary",
+          "title": "One in four doctors nearing retirement age as WHO warns of global health workforce gap",
+          "url": "https://www.who.int/news/item/18-09-2026-one-in-four-doctors-nearing-retirement-age-as-who-warns-of-global-health-workforce-gap"
+        }
+      ],
+      "title": "WHO 新报告提示医生老龄化与卫生人力分配缺口"
+    },
+    {
+      "category": "climate-environment",
+      "confidence": "high",
+      "date": "2026-09-18",
+      "id": "wmo-water-resources-2025-report",
+      "regions": [
+        "全球"
+      ],
+      "section": "world",
+      "single_source": true,
+      "source_count": 1,
+      "sources": [
+        {
+          "published_at": "2026-09-17",
+          "publisher": "WMO",
+          "source_type": "primary",
+          "title": "State of Global Water Resources 2025",
+          "url": "https://wmo.int/resources/publication-series/state-of-global-water-resources/2025"
+        }
+      ],
+      "title": "WMO 发布 2025 年水资源评估，提示持续失衡"
+    },
+    {
+      "category": "science",
+      "confidence": "medium",
+      "date": "2026-09-17",
+      "id": "affora-agent-friendly-interfaces",
+      "regions": [
+        "全球"
+      ],
+      "section": "ai",
+      "single_source": true,
+      "source_count": 1,
+      "sources": [
+        {
+          "published_at": "2026-09-16T17:46:34Z",
+          "publisher": "arXiv",
+          "source_type": "research",
+          "title": "Affora: A Design System for Agent-Friendly Interfaces",
+          "url": "https://arxiv.org/abs/2609.19125"
+        }
+      ],
+      "title": "Affora 探索人和代理共用的界面设计系统"
+    },
+    {
+      "category": "technology",
+      "confidence": "high",
+      "date": "2026-09-17",
+      "id": "grok-build-persistent-memory",
+      "regions": [
+        "全球"
+      ],
+      "section": "ai",
+      "single_source": true,
+      "source_count": 1,
+      "sources": [
+        {
+          "published_at": "2026-09-16",
+          "publisher": "SpaceXAI",
+          "source_type": "primary",
+          "title": "Memory in Grok Build",
+          "url": "https://x.ai/news/grok-build-memory"
+        }
+      ],
+      "title": "Grok Build 加入可检查的跨会话记忆"
+    },
+    {
+      "category": "economy",
+      "confidence": "high",
+      "date": "2026-09-17",
+      "id": "boe-september-rate-hold",
+      "regions": [
+        "欧洲",
+        "英国"
+      ],
+      "section": "world",
+      "single_source": true,
+      "source_count": 1,
+      "sources": [
+        {
+          "published_at": "2026-09-17",
+          "publisher": "Bank of England",
+          "source_type": "primary",
+          "title": "Bank rate maintained at 3.75% — September 2026 Monetary Policy Summary and Minutes",
+          "url": "https://www.bankofengland.co.uk/monetary-policy-summary-and-minutes/2026/september-2026"
+        }
+      ],
+      "title": "英格兰银行维持 3.75% 利率，但提示通胀上行风险"
+    },
+    {
+      "category": "politics",
+      "confidence": "high",
+      "date": "2026-09-17",
+      "id": "canada-eu-deeper-partnership-proposal",
+      "regions": [
+        "加拿大",
+        "欧洲联盟"
+      ],
+      "section": "world",
+      "single_source": true,
+      "source_count": 1,
+      "sources": [
+        {
+          "published_at": "2026-09-17",
+          "publisher": "Prime Minister of Canada",
+          "source_type": "primary",
+          "title": "Prime Minister Carney deepens ties with trusted allies in visit to France and the United Kingdom",
+          "url": "https://www.pm.gc.ca/en/news/news-releases/2026/09/17/prime-minister-carney-deepens-ties-trusted-allies-visit-france-and"
+        }
+      ],
+      "title": "卡尼在欧洲议会提出深化加拿大—欧盟伙伴关系"
+    },
+    {
+      "category": "economy",
+      "confidence": "high",
+      "date": "2026-09-17",
+      "id": "fed-september-rate-hike",
+      "regions": [
+        "全球",
+        "美国"
+      ],
+      "section": "world",
+      "single_source": true,
+      "source_count": 1,
+      "sources": [
+        {
+          "published_at": "2026-09-16T14:00:00-04:00",
+          "publisher": "Federal Reserve",
+          "source_type": "primary",
+          "title": "Federal Reserve issues FOMC statement",
+          "url": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20260916a.htm"
+        }
+      ],
+      "title": "美联储一致决定加息 25 个基点"
+    },
+    {
+      "category": "politics",
+      "confidence": "medium",
+      "date": "2026-09-17",
+      "id": "un-ukraine-august-civilian-harm-report",
+      "regions": [
+        "乌克兰",
+        "俄罗斯",
+        "欧洲"
+      ],
+      "section": "world",
+      "single_source": true,
+      "source_count": 1,
+      "sources": [
+        {
+          "published_at": "2026-09-17",
+          "publisher": "UN Human Rights Monitoring Mission in Ukraine",
+          "source_type": "primary",
+          "title": "Attacks against retail, food, and logistics companies surge amid high civilian casualties, UN human rights monitors say",
+          "url": "https://ukraine.ohchr.org/en/Attacks-against-retail-food-and-logistics-companies-surge-amid-high-civilian-casualties-UN-human%20-rights-monitors-say"
+        }
+      ],
+      "title": "联合国监测报告提示乌克兰零售与物流设施受袭增加"
+    },
+    {
+      "category": "politics",
+      "confidence": "high",
+      "date": "2026-09-17",
+      "id": "wang-rubio-september17-call",
+      "regions": [
+        "中国",
+        "美国"
+      ],
+      "section": "world",
+      "single_source": false,
+      "source_count": 2,
+      "sources": [
+        {
+          "published_at": "2026-09-17T14:39:00Z",
+          "publisher": "Reuters / AOL",
+          "source_type": "wire",
+          "title": "China, US top diplomats discuss 'high-level interactions' in call, Beijing says",
+          "url": "https://www.aol.com/articles/china-us-top-diplomats-discuss-143758000.html"
+        },
+        {
+          "published_at": "2026-09-17T22:06:00+08:00",
+          "publisher": "中国外交部",
+          "source_type": "primary",
+          "title": "王毅同美国国务卿鲁比奥通电话",
+          "url": "https://www.fmprc.gov.cn/wjbz_673089/xghd_673097/202609/t20260917_12024847.shtml"
+        }
+      ],
+      "title": "王毅与鲁比奥通话，讨论下一阶段高层交往"
+    },
+    {
+      "category": "climate-environment",
+      "confidence": "high",
+      "date": "2026-09-17",
+      "id": "wmo-ozone-uv-bulletin-2026",
+      "regions": [
+        "全球",
+        "南极",
+        "欧洲"
+      ],
+      "section": "world",
+      "single_source": true,
+      "source_count": 1,
+      "sources": [
+        {
+          "published_at": "2026-09-16",
+          "publisher": "WMO",
+          "source_type": "primary",
+          "title": "Reconstitution de la couche d’ozone: Un bulletin de l’OMM fait le point sur les progrès et les défis",
+          "url": "https://public.wmo.int/fr/news/media-centre/reconstitution-de-la-couche-dozone-un-bulletin-de-lomm-fait-le-point-sur-les-progres-et-les-defis"
+        }
+      ],
+      "title": "WMO 臭氧公报：恢复趋势持续，紫外线风险仍需监测"
+    },
+    {
+      "category": "technology",
+      "confidence": "high",
+      "date": "2026-09-16",
+      "id": "gemini38-live-ga",
+      "regions": [
+        "全球"
+      ],
+      "section": "ai",
+      "single_source": true,
+      "source_count": 1,
+      "sources": [
+        {
+          "published_at": "2026-09-15",
+          "publisher": "Google AI for Developers",
+          "source_type": "primary",
+          "title": "Gemini API release notes — September 15, 2026",
+          "url": "https://ai.google.dev/gemini-api/docs/changelog"
+        }
+      ],
+      "title": "Gemini 3.8 Live 两个实时语音型号正式可用"
+    },
+    {
+      "category": "science",
+      "confidence": "medium",
+      "date": "2026-09-16",
+      "id": "lynnreal-omni-video-framework",
+      "regions": [
+        "全球"
+      ],
+      "section": "ai",
+      "single_source": true,
+      "source_count": 1,
+      "sources": [
+        {
+          "published_at": "2026-09-14T16:55:25Z",
+          "publisher": "arXiv",
+          "source_type": "research",
+          "title": "LynnReal-Omni: Native multi-modal Video Generation for Agentic Visual Workflows",
+          "url": "https://arxiv.org/abs/2609.15863"
+        }
+      ],
+      "title": "LynnReal-Omni 以统一多模态框架连接视频生成与代理工作流"
+    },
+    {
+      "category": "health-society",
+      "confidence": "high",
+      "date": "2026-09-16",
+      "id": "bhutan-rabies-elimination-validation",
+      "regions": [
+        "不丹",
+        "南亚"
+      ],
+      "section": "world",
+      "single_source": true,
+      "source_count": 1,
+      "sources": [
+        {
+          "published_at": "2026-09-16",
+          "publisher": "WHO",
+          "source_type": "primary",
+          "title": "Bhutan shows the world rabies elimination is possible",
+          "url": "https://www.who.int/news-room/feature-stories/detail/bhutan-shows-the-world-rabies-elimination-is-possible"
+        }
+      ],
+      "title": "WHO 确认不丹消除犬传人狂犬病这一公共卫生问题"
+    },
+    {
+      "category": "politics",
+      "confidence": "high",
+      "date": "2026-09-16",
+      "id": "china-iran-september16-talks",
+      "regions": [
+        "中东",
+        "中国",
+        "伊朗"
+      ],
+      "section": "world",
+      "single_source": false,
+      "source_count": 2,
+      "sources": [
+        {
+          "published_at": "2026-09-16T17:53:00+08:00",
+          "publisher": "RTHK",
+          "source_type": "regional-media",
+          "title": "中伊外长会谈　王毅：不希望地区紧张向也门和红海外溢",
+          "url": "https://gbcode.rthk.hk/TuniS/news.rthk.hk/rthk/ch/component/k2/1870292-20260916.htm"
+        },
+        {
+          "published_at": "2026-09-16T16:08:00+08:00",
+          "publisher": "中国外交部",
+          "source_type": "primary",
+          "title": "王毅同伊朗外长阿拉格齐会谈",
+          "url": "https://www.mfa.gov.cn/wjbzhd/202609/t20260916_12023687.shtml"
+        }
+      ],
+      "title": "中伊外长在北京会谈，中方呼吁恢复谈判与海峡通航"
+    },
+    {
+      "category": "health-society",
+      "confidence": "medium",
+      "date": "2026-09-16",
+      "id": "drc-ebola-response-september16",
+      "regions": [
+        "刚果民主共和国",
+        "非洲"
+      ],
+      "section": "world",
+      "single_source": true,
+      "source_count": 1,
+      "sources": [
+        {
+          "published_at": "2026-09-16T14:47:00Z",
+          "publisher": "Reuters / AOL",
+          "source_type": "wire",
+          "title": "Ebola response making progress in Congo, but outbreak 'far from over,' WHO says",
+          "url": "https://www.aol.com/articles/ebola-response-making-progress-congo-144358000.html"
+        }
+      ],
+      "title": "WHO 称刚果（金）埃博拉防控出现进展，但疫情远未结束"
+    },
+    {
+      "category": "politics",
+      "confidence": "high",
+      "date": "2026-09-16",
+      "id": "eu-state-of-union-security-migration",
+      "regions": [
+        "欧洲联盟"
+      ],
+      "section": "world",
+      "single_source": true,
+      "source_count": 1,
+      "sources": [
+        {
+          "published_at": "2026-09-16",
+          "publisher": "European Commission",
+          "source_type": "primary",
+          "title": "State of the Union: President von der Leyen calls for a common European response on borders, migration and security",
+          "url": "https://home-affairs.ec.europa.eu/news/state-union-president-von-der-leyen-calls-common-european-response-borders-migration-and-security-2026-09-16_en?prefLang=ga"
+        }
+      ],
+      "title": "冯德莱恩在盟情咨文提出共同安全与边境应急计划"
+    },
+    {
+      "category": "economy",
+      "confidence": "high",
+      "date": "2026-09-16",
+      "id": "uk-august-cpi-release",
+      "regions": [
+        "欧洲",
+        "英国"
+      ],
+      "section": "world",
+      "single_source": true,
+      "source_count": 1,
+      "sources": [
+        {
+          "published_at": "2026-09-16",
+          "publisher": "Office for National Statistics",
+          "source_type": "primary",
+          "title": "Consumer price inflation, UK: August 2026",
+          "url": "https://www.ons.gov.uk/economy/inflationandpriceindices/bulletins/consumerpriceinflation/august2026"
+        }
+      ],
+      "title": "英国八月 CPI 同比升至 3.1%，燃油贡献最大"
+    },
+    {
+      "category": "politics",
+      "confidence": "medium",
+      "date": "2026-09-16",
+      "id": "un-venezuela-repression-report",
+      "regions": [
+        "委内瑞拉",
+        "拉丁美洲"
+      ],
+      "section": "world",
+      "single_source": true,
+      "source_count": 1,
+      "sources": [
+        {
+          "published_at": "2026-09-16",
+          "publisher": "Reuters / Quews",
+          "source_type": "wire",
+          "title": "Rights abuses persist in Venezuela despite Maduro’s removal, UN experts say",
+          "url": "https://quews.news/rights-abuses-persist-in/"
+        }
+      ],
+      "title": "联合国调查团报告称委内瑞拉制度性镇压仍未根本改变"
+    },
+    {
+      "category": "science",
+      "confidence": "medium",
+      "date": "2026-09-15",
+      "id": "atria-dawn-verifiable-experience-v1",
+      "regions": [
+        "全球"
+      ],
+      "section": "ai",
+      "single_source": true,
+      "source_count": 1,
+      "sources": [
+        {
+          "published_at": "2026-09-14T16:22:30Z",
+          "publisher": "arXiv",
+          "source_type": "research",
+          "title": "Atria Dawn: The Dawn of Agentic Superintelligence — v1",
+          "url": "https://arxiv.org/abs/2609.15818v1"
+        }
+      ],
+      "title": "Atria Dawn 预印本研究可验证经验与人机研发协作"
+    },
+    {
+      "category": "science",
+      "confidence": "medium",
+      "date": "2026-09-15",
+      "id": "vidu-s2-interactive-video-paper",
+      "regions": [
+        "全球"
+      ],
+      "section": "ai",
+      "single_source": true,
+      "source_count": 1,
+      "sources": [
+        {
+          "published_at": "2026-09-10T14:46:07Z",
+          "publisher": "arXiv",
+          "source_type": "research",
+          "title": "Vidu S2: Real-Time Interactive, Editable, and Spatial Video Generation",
+          "url": "https://arxiv.org/abs/2609.11638"
+        }
+      ],
+      "title": "Vidu S2 预印本展示动态参考与流式视频编辑"
+    },
+    {
+      "category": "economy",
+      "confidence": "high",
+      "date": "2026-09-15",
+      "id": "canada-august-cpi-release",
+      "regions": [
+        "加拿大",
+        "北美"
+      ],
+      "section": "world",
+      "single_source": true,
+      "source_count": 1,
+      "sources": [
+        {
+          "published_at": "2026-09-14",
+          "publisher": "Statistics Canada",
+          "source_type": "primary",
+          "title": "Consumer Price Index, August 2026",
+          "url": "https://www150.statcan.gc.ca/n1/daily-quotidien/260914/dq260914a-eng.htm"
+        }
+      ],
+      "title": "加拿大八月 CPI 同比维持 3.0%，内部构成变化"
+    },
+    {
+      "category": "economy",
+      "confidence": "high",
+      "date": "2026-09-15",
+      "id": "china-august-industrial-production",
+      "regions": [
+        "东亚",
+        "中国"
+      ],
+      "section": "world",
+      "single_source": true,
+      "source_count": 1,
+      "sources": [
+        {
+          "published_at": "2026-09-15",
+          "publisher": "国家统计局",
+          "source_type": "primary",
+          "title": "2026年8月份规模以上工业增加值增长5.2%",
+          "url": "https://www.stats.gov.cn/xxgk/sjfb/zxfb2020/202609/t20260915_1965308.html"
+        }
+      ],
+      "title": "中国八月规模以上工业增加值同比增长 5.2%"
+    },
+    {
+      "category": "culture",
+      "confidence": "high",
+      "date": "2026-09-15",
+      "id": "emmy78-winners-announced",
+      "regions": [
+        "全球",
+        "美国"
+      ],
+      "section": "world",
+      "single_source": true,
+      "source_count": 1,
+      "sources": [
+        {
+          "published_at": "2026-09-15T03:44:00Z",
+          "publisher": "AP / AOL Canada",
+          "source_type": "wire",
+          "title": "Complete list of winners at the 2026 Primetime Emmy Awards",
+          "url": "https://www.aol.ca/articles/partial-list-winners-2026-primetime-011203000.html"
+        }
+      ],
+      "title": "艾美奖主要奖项揭晓，《The Pitt》与《Widow’s Bay》获剧集大奖"
+    },
+    {
+      "category": "technology",
+      "confidence": "high",
+      "date": "2026-09-15",
+      "id": "mediatek-dimensity9600pro-launch",
+      "regions": [
+        "全球",
+        "台湾"
+      ],
+      "section": "world",
+      "single_source": true,
+      "source_count": 1,
+      "sources": [
+        {
+          "published_at": "2026-09-15",
+          "publisher": "MediaTek",
+          "source_type": "primary",
+          "title": "MediaTek Dimensity 9600 Pro Sets New Standard for Flagship Smartphone Chips",
+          "url": "https://www.mediatek.com/press-room/mediatek-dimensity-9600-pro-sets-new-standard-for-flagship-smartphone-chips?hs_amp=true"
+        }
+      ],
+      "title": "联发科发布采用 2nm 工艺的天玑 9600 Pro"
+    },
+    {
+      "category": "health-society",
+      "confidence": "high",
+      "date": "2026-09-15",
+      "id": "south-sudan-wfp-funding-warning",
+      "regions": [
+        "南苏丹",
+        "非洲"
+      ],
+      "section": "world",
+      "single_source": true,
+      "source_count": 1,
+      "sources": [
+        {
+          "published_at": "2026-09-15",
+          "publisher": "World Food Programme",
+          "source_type": "primary",
+          "title": "As Needs Surge and Funding Collapses, South Sudan Faces Its Most Dangerous Humanitarian Moment in Years",
+          "url": "https://www.wfp.org/news/needs-surge-and-funding-collapses-south-sudan-faces-its-most-dangerous-humanitarian-moment"
+        }
+      ],
+      "title": "WFP 警告南苏丹援助资金锐减，逾百万人面临断援"
+    },
+    {
+      "category": "politics",
+      "confidence": "medium",
+      "date": "2026-09-15",
+      "id": "yemen-displacement-geneva-briefing",
+      "regions": [
+        "中东",
+        "也门",
+        "吉布提",
+        "非洲"
+      ],
+      "section": "world",
+      "single_source": true,
+      "source_count": 1,
+      "sources": [
+        {
+          "published_at": "2026-09-15",
+          "publisher": "UN Geneva / UNHCR",
+          "source_type": "primary",
+          "title": "UN Geneva Press Briefing — Displacement in Yemen",
+          "url": "https://www.ungeneva.org/en/news-media/press-briefing/2026/09/un-geneva-press-briefing-2"
+        }
+      ],
+      "title": "联合国称也门西岸战事引发新增流离失所"
+    },
+    {
+      "category": "technology",
+      "confidence": "medium",
+      "date": "2026-09-14",
+      "id": "realm-reconsolidation-paper-sep13",
+      "regions": [
+        "China",
+        "Global",
+        "Singapore"
+      ],
+      "section": "ai",
+      "single_source": true,
+      "source_count": 1,
+      "sources": [
+        {
+          "published_at": "2026-09-13T05:17:37Z",
+          "publisher": "arXiv",
+          "source_type": "research",
+          "title": "Retrieval-Driven Memory Reconsolidation for Long-Term LLM Agents",
+          "url": "https://arxiv.org/html/2609.16053v1"
+        }
+      ],
+      "title": "REALM将检索反馈用于重整长期记忆"
+    },
+    {
+      "category": "technology",
+      "confidence": "medium",
+      "date": "2026-09-14",
+      "id": "t1-terminal-rl-paper-sep10",
+      "regions": [
+        "China",
+        "Global"
+      ],
+      "section": "ai",
+      "single_source": true,
+      "source_count": 1,
+      "sources": [
+        {
+          "published_at": "2026-09-10",
+          "publisher": "arXiv",
+          "source_type": "research",
+          "title": "T1: Terminal Agent Reinforcement Learning for Long-Horizon Tasks",
+          "url": "https://arxiv.org/html/2609.11042v1"
+        }
+      ],
+      "title": "T1研究长程终端任务的强化学习"
+    },
+    {
+      "category": "health-society",
+      "confidence": "high",
+      "date": "2026-09-14",
+      "id": "chile-dog-rabies-validation-sep14",
+      "regions": [
+        "Chile",
+        "South America"
+      ],
+      "section": "world",
+      "single_source": true,
+      "source_count": 1,
+      "sources": [
+        {
+          "published_at": "2026-09-14",
+          "publisher": "WHO / PAHO",
+          "source_type": "primary",
+          "title": "Chile becomes first country in South America validated for eliminating dog-transmitted rabies as a public health problem",
+          "url": "https://www.who.int/philippines/news/detail-global/14-09-2026-chile-becomes-first-country-in-south-america-validated-for-eliminating-dog-transmitted-rabies-as-a-public-health-problem"
+        }
+      ],
+      "title": "WHO认证智利消除犬传狂犬病公共卫生问题"
+    },
+    {
+      "category": "politics",
+      "confidence": "high",
+      "date": "2026-09-14",
+      "id": "cluster-munitions-review-opens-sep14",
+      "regions": [
+        "Asia",
+        "Global",
+        "Laos"
+      ],
+      "section": "world",
+      "single_source": false,
+      "source_count": 2,
+      "sources": [
+        {
+          "published_at": "2026-09-14",
+          "publisher": "EEAS",
+          "source_type": "primary",
+          "title": "Convention on Cluster Munitions — EU Statement, Third Review Conference",
+          "url": "https://www.eeas.europa.eu/delegations/un-geneva/convention-cluster-munitions-eu-statement-third-review-conference-states-parties-convention-cluster_en"
+        },
+        {
+          "published_at": "2026-09-14",
+          "publisher": "ICRC",
+          "source_type": "primary",
+          "title": "Cluster munitions: The suffering must not continue for another generation",
+          "url": "https://www.icrc.org/en/statement/third-review-conference-convention-cluster-munitions-jurg-lauber"
+        }
+      ],
+      "title": "集束弹药公约第三次审议会在老挝开幕"
+    },
+    {
+      "category": "politics",
+      "confidence": "high",
+      "date": "2026-09-14",
+      "id": "iaea-general-conference-sep14",
+      "regions": [
+        "Austria",
+        "Global",
+        "Iran",
+        "Ukraine"
+      ],
+      "section": "world",
+      "single_source": false,
+      "source_count": 2,
+      "sources": [
+        {
+          "published_at": "2026-09-14",
+          "publisher": "EEAS",
+          "source_type": "primary",
+          "title": "70th General Conference IAEA — EU Statement at the General Debate",
+          "url": "https://www.eeas.europa.eu/delegations/vienna-international-organisations/70th-general-conference-international-atomic-energy-agency-eu-statement-general-debate_en"
+        },
+        {
+          "published_at": "2026-09-14",
+          "publisher": "U.S. Department of Energy",
+          "source_type": "primary",
+          "title": "U.S. Secretary of Energy delivers national statement at IAEA General Conference",
+          "url": "https://www.energy.gov/articles/us-secretary-energy-chris-wright-delivers-us-national-statement-general-conference-0"
+        }
+      ],
+      "title": "IAEA大会讨论核安全与核查合作"
+    },
+    {
+      "category": "politics",
+      "confidence": "medium",
+      "date": "2026-09-14",
+      "id": "israel-lebanon-talks-announcement-sep14",
+      "regions": [
+        "Asia",
+        "Europe",
+        "Israel",
+        "Italy",
+        "Lebanon"
+      ],
+      "section": "world",
+      "single_source": true,
+      "source_count": 1,
+      "sources": [
+        {
+          "published_at": "2026-09-13T13:03:00-04:00",
+          "publisher": "Reuters via MarketScreener",
+          "source_type": "wire",
+          "title": "Israel and Lebanon to meet in Rome in October, US State Department official says",
+          "url": "https://www.marketscreener.com/news/israel-and-lebanon-to-meet-in-rome-in-october-us-state-department-official-says-ce785bdcd98ef623"
+        }
+      ],
+      "title": "美国官员称以黎将于十月在罗马会谈"
+    },
+    {
+      "category": "politics",
+      "confidence": "medium",
+      "date": "2026-09-14",
+      "id": "sweden-preliminary-count-sep14",
+      "regions": [
+        "Europe",
+        "Sweden"
+      ],
+      "section": "world",
+      "single_source": true,
+      "source_count": 1,
+      "sources": [
+        {
+          "published_at": "2026-09-14 (update)",
+          "publisher": "DW with AFP / Reuters",
+          "source_type": "regional-media",
+          "title": "Sweden election very close as left bloc claims tight lead",
+          "url": "https://amp.dw.com/en/sweden-election-very-close-as-left-bloc-claims-tight-lead/a-79248599"
+        }
+      ],
+      "title": "瑞典初步计票显示两大阵营差距很小"
+    },
+    {
+      "category": "culture",
+      "confidence": "high",
+      "date": "2026-09-14",
+      "id": "us-open-men-final-sep14",
+      "regions": [
+        "Germany",
+        "North America",
+        "United States"
+      ],
+      "section": "world",
+      "single_source": true,
+      "source_count": 1,
+      "sources": [
+        {
+          "published_at": "2026-09-13T17:01:00-04:00",
+          "publisher": "USTA / US Open",
+          "source_type": "primary",
+          "title": "Alexander Zverev defeats Ben Shelton to win 2026 US Open",
+          "url": "https://www.usopen.org/amp/en_US/news/articles/2026-09-13/alexander_zverev_defeats_ben_shelton_to_win_2026_us_open.html"
+        }
+      ],
+      "title": "兹维列夫赢得美网男单冠军"
+    },
+    {
+      "category": "technology",
+      "confidence": "medium",
+      "date": "2026-09-13",
+      "id": "actreview-paper-sep08",
+      "regions": [
+        "Global"
+      ],
+      "section": "ai",
+      "single_source": true,
+      "source_count": 1,
+      "sources": [
+        {
+          "published_at": "2026-09-08",
+          "publisher": "arXiv",
+          "source_type": "research",
+          "title": "ActReview: Rebuttal-Guided Training Data and Rubric Rewards for Actionable Peer Review Generation",
+          "url": "https://arxiv.org/html/2609.09076v1"
+        }
+      ],
+      "title": "ActReview将作者答辩转化为可执行修改建议"
+    },
+    {
+      "category": "technology",
+      "confidence": "medium",
+      "date": "2026-09-13",
+      "id": "spatialblock-paper-sep07",
+      "regions": [
+        "Global",
+        "South Korea"
+      ],
+      "section": "ai",
+      "single_source": true,
+      "source_count": 1,
+      "sources": [
+        {
+          "published_at": "2026-09-07",
+          "publisher": "arXiv",
+          "source_type": "research",
+          "title": "SpatialBlock: Enhancing Spatial Intelligence in LVLMs via Synthetic Block-Stacking Problem",
+          "url": "https://arxiv.org/html/2609.07064v1"
+        }
+      ],
+      "title": "SpatialBlock用合成积木题训练空间推理"
+    },
+    {
+      "category": "health-society",
+      "confidence": "high",
+      "date": "2026-09-13",
+      "id": "afghanistan-eu-fao-resilience-sep13",
+      "regions": [
+        "Afghanistan",
+        "Asia",
+        "Europe"
+      ],
+      "section": "world",
+      "single_source": true,
+      "source_count": 1,
+      "sources": [
+        {
+          "published_at": "2026-09-13",
+          "publisher": "EU / FAO via UN Afghanistan",
+          "source_type": "primary",
+          "title": "Joint Press Release: EU and FAO boost climate resilience of agrifood systems",
+          "url": "https://afghanistan.un.org/en/322659-joint-press-release"
+        }
+      ],
+      "title": "欧盟与FAO启动阿富汗农业韧性项目"
+    },
+    {
+      "category": "politics",
+      "confidence": "high",
+      "date": "2026-09-13",
+      "id": "guterres-brics-governance-sep13",
+      "regions": [
+        "Global",
+        "India"
+      ],
+      "section": "world",
+      "single_source": true,
+      "source_count": 1,
+      "sources": [
+        {
+          "published_at": "2026-09-13",
+          "publisher": "United Nations in India",
+          "source_type": "primary",
+          "title": "UN Chief urges reform of global institutions for a multipolar world at BRICS Summit",
+          "url": "https://india.un.org/en/322574-un-chief-urges-reform-global-institutions-multipolar-world-brics-summit"
+        }
+      ],
+      "title": "联合国秘书长在金砖峰会推动治理改革"
+    },
+    {
+      "category": "politics",
+      "confidence": "medium",
+      "date": "2026-09-13",
+      "id": "sweden-election-voting-sep13",
+      "regions": [
+        "Europe",
+        "Sweden"
+      ],
+      "section": "world",
+      "single_source": true,
+      "source_count": 1,
+      "sources": [
+        {
+          "published_at": "2026-09-13 (Reuters dateline)",
+          "publisher": "Reuters via Investing.com",
+          "source_type": "wire",
+          "title": "Swedes vote in election that could usher far right into government",
+          "url": "https://www.investing.com/news/world-news/swedes-vote-in-election-that-could-usher-far-right-into-government-4898696"
+        }
+      ],
+      "title": "瑞典举行竞争接近的议会选举"
+    },
+    {
+      "category": "culture",
+      "confidence": "high",
+      "date": "2026-09-13",
+      "id": "us-open-women-final-sep12",
+      "regions": [
+        "Kazakhstan",
+        "North America",
+        "United States"
+      ],
+      "section": "world",
+      "single_source": true,
+      "source_count": 1,
+      "sources": [
+        {
+          "published_at": "2026-09-12T18:01:00-04:00",
+          "publisher": "USTA / US Open",
+          "source_type": "primary",
+          "title": "Elena Rybakina vs. Aryna Sabalenka, 2026 US Open Women's Singles Final",
+          "url": "https://www.usopen.org/amp/en_US/news/articles/2026-09-12/elena_rybakina_vs_aryna_sabalenka_2026_us_open_womens_singles_final.html"
+        }
+      ],
+      "title": "莱巴金娜赢得美网女单冠军"
+    },
+    {
+      "category": "culture",
+      "confidence": "high",
+      "date": "2026-09-13",
+      "id": "venice-golden-lion-sep12",
+      "regions": [
+        "Denmark",
+        "Europe",
+        "Italy"
+      ],
+      "section": "world",
+      "single_source": true,
+      "source_count": 1,
+      "sources": [
+        {
+          "published_at": "2026-09-12",
+          "publisher": "La Biennale di Venezia",
+          "source_type": "primary",
+          "title": "Official awards of the 83rd Venice International Film Festival",
+          "url": "https://www.labiennale.org/en/news/official-awards-83rd-venice-international-film-festival"
+        }
+      ],
+      "title": "《Woman Unknown》获得威尼斯金狮奖"
+    },
+    {
+      "category": "technology",
+      "confidence": "medium",
+      "date": "2026-09-12",
+      "id": "ncp-archpreview-paper-sep09",
+      "regions": [
+        "China",
+        "Global"
+      ],
+      "section": "ai",
+      "single_source": true,
+      "source_count": 1,
+      "sources": [
+        {
+          "published_at": "2026-09-09",
+          "publisher": "arXiv / Intern-NCP Team",
+          "source_type": "research",
+          "title": "NCP-ArchPreview Technical Report",
+          "url": "https://arxiv.org/abs/2609.10715v1"
+        }
+      ],
+      "title": "NCP-ArchPreview尝试在潜空间预测概念"
+    },
+    {
+      "category": "technology",
+      "confidence": "medium",
+      "date": "2026-09-12",
+      "id": "zgcm1-model-report-sep11",
+      "regions": [
+        "China",
+        "Global"
+      ],
+      "section": "ai",
+      "single_source": true,
+      "source_count": 1,
+      "sources": [
+        {
+          "published_at": "2026-09-11",
+          "publisher": "arXiv",
+          "source_type": "research",
+          "title": "ZGCM-1: A Fully Open and Extremely Efficient Foundation Model for Math and Agentic Search",
+          "url": "https://arxiv.org/abs/2609.13356v1"
+        }
+      ],
+      "title": "ZGCM-1公开紧凑模型训练方案"
+    },
+    {
+      "category": "politics",
+      "confidence": "high",
+      "date": "2026-09-12",
+      "id": "brics-new-delhi-declaration-sep12",
+      "regions": [
+        "Global",
+        "India"
+      ],
+      "section": "world",
+      "single_source": false,
+      "source_count": 2,
+      "sources": [
+        {
+          "published_at": "2026-09-12",
+          "publisher": "AP",
+          "source_type": "wire",
+          "title": "BRICS group voices concern over Middle East and sanctions",
+          "url": "https://apnews.com/article/india-brics-modi-russia-china-iran-wars-5393274f87a16461b195d13f324e747a"
+        },
+        {
+          "published_at": "2026-09-12",
+          "publisher": "Prime Minister of India",
+          "source_type": "primary",
+          "title": "BRICS New Delhi Declaration",
+          "url": "https://www.pmindia.gov.in/en/news_updates/brics-new-delhi-declaration-building-for-resilience-innovation-cooperation-and-sustainability-september-12-2026/?comment=disable"
+        }
+      ],
+      "title": "金砖领导人通过新德里宣言"
+    },
+    {
+      "category": "politics",
+      "confidence": "medium",
+      "date": "2026-09-12",
+      "id": "saudi-east-west-pipeline-sep12",
+      "regions": [
+        "Asia",
+        "Iran",
+        "Saudi Arabia"
+      ],
+      "section": "world",
+      "single_source": true,
+      "source_count": 1,
+      "sources": [
+        {
+          "published_at": "2026-09-12",
+          "publisher": "Reuters / AP via Arab News",
+          "source_type": "wire",
+          "title": "Trump says Iran probably responsible for attack on Saudi oil pipeline",
+          "url": "https://www.arabnews.com/middle-east/trump-says-iran-probably-responsible-for-attack-on-saudi-oil-pipeline-3001439"
+        }
+      ],
+      "title": "沙特主要绕行输油管道遭袭后停运"
+    },
+    {
+      "category": "health-society",
+      "confidence": "high",
+      "date": "2026-09-12",
+      "id": "south-south-global-alliance-sep11",
+      "regions": [
+        "Global"
+      ],
+      "section": "world",
+      "single_source": true,
+      "source_count": 1,
+      "sources": [
+        {
+          "published_at": "2026-09-11",
+          "publisher": "UNOSSC",
+          "source_type": "primary",
+          "title": "United Nations Day for South-South Cooperation 2026",
+          "url": "https://unsouthsouth.org/united-nations-day-for-south-south-cooperation-2026/"
+        }
+      ],
+      "title": "联合国启动南南与三方合作全球联盟"
+    },
+    {
+      "category": "politics",
+      "confidence": "medium",
+      "date": "2026-09-12",
+      "id": "ukraine-civilian-strikes-sep12",
+      "regions": [
+        "Europe",
+        "Ukraine"
+      ],
+      "section": "world",
+      "single_source": true,
+      "source_count": 1,
+      "sources": [
+        {
+          "published_at": "2026-09-12",
+          "publisher": "AP via Local 10",
+          "source_type": "wire",
+          "title": "8 killed in Russian strikes on Ukraine as Putin warns Europe against sending troops",
+          "url": "https://www.local10.com/news/world/2026/09/12/5-killed-in-russian-strikes-on-ukraine-as-putin-warns-europe-against-sending-troops/"
+        }
+      ],
+      "title": "乌克兰地方官员报告袭击造成平民死亡"
+    },
+    {
+      "category": "technology",
+      "confidence": "medium",
+      "date": "2026-09-11",
+      "id": "edge-vlm-species-paper-sep10",
+      "regions": [
+        "Global"
+      ],
+      "section": "ai",
+      "single_source": true,
+      "source_count": 1,
+      "sources": [
+        {
+          "published_at": "2026-09-10",
+          "publisher": "arXiv",
+          "source_type": "research",
+          "title": "Can Edge-Deployable Vision–Language Models Identify Species?",
+          "url": "https://arxiv.org/html/2609.11916v1"
+        }
+      ],
+      "title": "物种识别研究揭示小型通用VLM的领域局限"
+    },
+    {
+      "category": "technology",
+      "confidence": "medium",
+      "date": "2026-09-11",
+      "id": "evosafeharness-paper-sep05",
+      "regions": [
+        "Global"
+      ],
+      "section": "ai",
+      "single_source": true,
+      "source_count": 1,
+      "sources": [
+        {
+          "published_at": "2026-09-05",
+          "publisher": "arXiv",
+          "source_type": "research",
+          "title": "EvoSafeHarness: Evolving Model- and Domain-Specific Harnesses for Securing Agents",
+          "url": "https://arxiv.org/html/2609.05903v1"
+        }
+      ],
+      "title": "EvoSafeHarness研究可进化的智能体安全外壳"
+    },
+    {
+      "category": "health-society",
+      "confidence": "high",
+      "date": "2026-09-11",
+      "id": "brunei-one-health-sep11",
+      "regions": [
+        "Asia",
+        "Brunei"
+      ],
+      "section": "world",
+      "single_source": true,
+      "source_count": 1,
+      "sources": [
+        {
+          "published_at": "2026-09-11",
+          "publisher": "WHO",
+          "source_type": "primary",
+          "title": "Brunei Darussalam charts a national course for One Health with the UN Quadripartite",
+          "url": "https://www.who.int/westernpacific/newsroom/feature-stories/item/brunei-darussalam-charts-a-national-course-for-one-health-with-the-un-quadripartite"
+        }
+      ],
+      "title": "文莱推进国家One Health行动规划"
+    },
+    {
+      "category": "politics",
+      "confidence": "high",
+      "date": "2026-09-11",
+      "id": "india-iran-navigation-sep11",
+      "regions": [
+        "Asia",
+        "India",
+        "Iran"
+      ],
+      "section": "world",
+      "single_source": false,
+      "source_count": 2,
+      "sources": [
+        {
+          "published_at": "2026-09-11",
+          "publisher": "AP",
+          "source_type": "wire",
+          "title": "Modi holds talks with Putin and Iran’s president before the BRICS summit",
+          "url": "https://apnews.com/article/india-russia-putin-modi-brics-summit-delhi-f7735ac233c7e8db8ac021c53a3eef8a"
+        },
+        {
+          "published_at": "2026-09-11",
+          "publisher": "Prime Minister of India",
+          "source_type": "primary",
+          "title": "PM meets with the President of Iran on the sidelines of BRICS Summit",
+          "url": "https://www.pmindia.gov.in/en/news_updates/pm-meets-with-the-president-of-iran-on-the-sidelines-of-brics-summit/?comment=disable"
+        }
+      ],
+      "title": "印度与伊朗领导人讨论航运安全"
+    },
+    {
+      "category": "economy",
+      "confidence": "high",
+      "date": "2026-09-11",
+      "id": "russia-rate-hold-sep11",
+      "regions": [
+        "Europe",
+        "Russia"
+      ],
+      "section": "world",
+      "single_source": false,
+      "source_count": 2,
+      "sources": [
+        {
+          "published_at": "2026-09-11",
+          "publisher": "Bank of Russia",
+          "source_type": "primary",
+          "title": "Bank of Russia keeps the key rate at 14.00% p.a.",
+          "url": "https://www.cbr.ru/eng/press/pr/?file=11092026_133000key_e.htm"
+        },
+        {
+          "published_at": "2026-09-11T14:05:00Z",
+          "publisher": "Reuters via AOL",
+          "source_type": "wire",
+          "title": "Russian central bank holds key rate steady ahead of election",
+          "url": "https://www.aol.com/articles/russian-central-bank-keeps-key-103938000.html"
+        }
+      ],
+      "title": "俄罗斯央行维持14%关键利率"
+    },
+    {
+      "category": "economy",
+      "confidence": "high",
+      "date": "2026-09-11",
+      "id": "us-cpi-august-release-sep11",
+      "regions": [
+        "North America",
+        "United States"
+      ],
+      "section": "world",
+      "single_source": true,
+      "source_count": 1,
+      "sources": [
+        {
+          "published_at": "2026-09-11T08:30:00-04:00",
+          "publisher": "BLS",
+          "source_type": "primary",
+          "title": "Consumer Price Index — August 2026",
+          "url": "https://www.bls.gov/news.release/archives/cpi_09112026.htm"
+        }
+      ],
+      "title": "美国八月CPI环比上涨0.4%"
+    },
+    {
+      "category": "climate-environment",
+      "confidence": "high",
+      "date": "2026-09-11",
+      "id": "wmo-record-august-sep11",
+      "regions": [
+        "Global"
+      ],
+      "section": "world",
+      "single_source": true,
+      "source_count": 1,
+      "sources": [
+        {
+          "published_at": "2026-09-11",
+          "publisher": "WMO",
+          "source_type": "primary",
+          "title": "Earth has hottest August on record",
+          "url": "https://wmo.int/media/news/earth-has-hottest-august-record"
+        }
+      ],
+      "title": "WMO汇总：地球经历有记录以来最热八月"
+    },
+    {
+      "category": "politics",
+      "confidence": "medium",
+      "date": "2026-09-11",
+      "id": "yemen-un-premises-seizure-sep11",
+      "regions": [
+        "Asia",
+        "Yemen"
+      ],
+      "section": "world",
+      "single_source": true,
+      "source_count": 1,
+      "sources": [
+        {
+          "published_at": "2026-09-11",
+          "publisher": "United Nations transcript via The European Times",
+          "source_type": "regional-media",
+          "title": "Daily Press Briefing by the Office of the Spokesperson for the Secretary-General",
+          "url": "https://europeantimes.news/2026/09/daily-press-briefing-by-the-office-of-the-spokesperson-for-the-secretary-general/"
+        }
+      ],
+      "title": "联合国报告穆哈人道设施遭占用"
+    },
+    {
+      "category": "technology",
+      "confidence": "medium",
+      "date": "2026-09-10",
+      "id": "anthropic-conventional-risk-evals-sep10",
+      "regions": [
+        "Global"
+      ],
+      "section": "ai",
+      "single_source": false,
+      "source_count": 2,
+      "sources": [
+        {
+          "published_at": "2026-09-10",
+          "publisher": "Anthropic",
+          "source_type": "primary",
+          "title": "Measuring tactical intelligence targeting and conventional weapons capabilities of AI models",
+          "url": "https://www.anthropic.com/research/intelligence-targeting-conventional-weapons-capabilities"
+        },
+        {
+          "published_at": "2026-09-10; linked by dated research release",
+          "publisher": "Anthropic",
+          "source_type": "primary",
+          "title": "Detecting and countering misuse of AI: September 2026",
+          "url": "https://www.anthropic.com/threat-intelligence-report-september-2026"
+        }
+      ],
+      "title": "Anthropic扩展监视与常规武器风险评测"
+    },
+    {
+      "category": "technology",
+      "confidence": "medium",
+      "date": "2026-09-10",
+      "id": "nasa-ibm-lunar-foundation-model-sep10",
+      "regions": [
+        "Global",
+        "Japan",
+        "United States"
+      ],
+      "section": "ai",
+      "single_source": false,
+      "source_count": 2,
+      "sources": [
+        {
+          "published_at": "2026-09-10",
+          "publisher": "IBM",
+          "source_type": "primary",
+          "title": "IBM and NASA Release Open-Source AI Model to Support Lunar Exploration",
+          "url": "https://newsroom.ibm.com/2026-09-10-ibm-and-nasa-release-open-source-ai-model-to-support-lunar-exploration"
+        },
+        {
+          "published_at": "2026-09-10",
+          "publisher": "IBM Research",
+          "source_type": "primary",
+          "title": "A rough guide for going back to the Moon",
+          "url": "https://research.ibm.com/blog/nasa-ibm-lunar-foundation-model"
+        }
+      ],
+      "title": "IBM与NASA发布月球基础模型"
+    },
+    {
+      "category": "technology",
+      "confidence": "high",
+      "date": "2026-09-10",
+      "id": "apple-iphone-duo-announcement-sep09",
+      "regions": [
+        "Global",
+        "United States"
+      ],
+      "section": "world",
+      "single_source": true,
+      "source_count": 1,
+      "sources": [
+        {
+          "published_at": "2026-09-09",
+          "publisher": "Apple",
+          "source_type": "primary",
+          "title": "Apple unveils iPhone Duo",
+          "url": "https://www.apple.com/newsroom/2026/09/apple-unveils-iphone-duo/"
+        }
+      ],
+      "title": "Apple公布首款折叠iPhone Duo"
+    },
+    {
+      "category": "economy",
+      "confidence": "high",
+      "date": "2026-09-10",
+      "id": "ecb-rate-increase-sep10",
+      "regions": [
+        "Euro area",
+        "Europe"
+      ],
+      "section": "world",
+      "single_source": false,
+      "source_count": 2,
+      "sources": [
+        {
+          "published_at": "2026-09-10",
+          "publisher": "European Central Bank",
+          "source_type": "primary",
+          "title": "Monetary policy decisions",
+          "url": "https://www.ecb.europa.eu/press/pr/date/2026/html/ecb.mp260910~314e508016.en.html"
+        },
+        {
+          "published_at": "2026-09-10T15:54:00Z",
+          "publisher": "Reuters via AOL",
+          "source_type": "wire",
+          "title": "Bond yields hit multi-year highs as traders brace for new ECB rate-hike cycle",
+          "url": "https://www.aol.com/articles/bond-yields-hit-multi-highs-122737000.html"
+        }
+      ],
+      "title": "欧洲央行决定加息25个基点"
+    },
+    {
+      "category": "economy",
+      "confidence": "high",
+      "date": "2026-09-10",
+      "id": "imf-angola-post-financing-sep09",
+      "regions": [
+        "Africa",
+        "Angola"
+      ],
+      "section": "world",
+      "single_source": false,
+      "source_count": 2,
+      "sources": [
+        {
+          "published_at": "2026-09-09",
+          "publisher": "IMF",
+          "source_type": "primary",
+          "title": "IMF Staff Completes Post-Financing Assessment Mission to Angola",
+          "url": "https://www.imf.org/en/news/articles/2026/09/09/pr26286-angola-imf-staff-completes-post-financing-assessment-mission"
+        },
+        {
+          "published_at": "2026-09-09T15:44:00-04:00",
+          "publisher": "Reuters via MarketScreener",
+          "source_type": "wire",
+          "title": "IMF says Angola needs fiscal consolidation to sustain economic stability",
+          "url": "https://www.marketscreener.com/news/imf-says-angola-needs-fiscal-consolidation-to-sustain-economic-stability-ce785bd9d08cf32d"
+        }
+      ],
+      "title": "IMF结束安哥拉融资后评估访问"
+    },
+    {
+      "category": "climate-environment",
+      "confidence": "high",
+      "date": "2026-09-10",
+      "id": "sadc-early-warning-durban-sep10",
+      "regions": [
+        "Africa",
+        "Southern Africa"
+      ],
+      "section": "world",
+      "single_source": true,
+      "source_count": 1,
+      "sources": [
+        {
+          "published_at": "2026-09-10",
+          "publisher": "SADC",
+          "source_type": "primary",
+          "title": "SADC Climate Services Centre and the SHOC strengthen Regional Coordination for Early Warning Systems",
+          "url": "https://sadc.int/latest-news/sadc-climate-services-centre-and-shoc-strengthen-regional-coordination-early-warning"
+        }
+      ],
+      "title": "南部非洲机构推进跨境灾害预警协调"
+    },
+    {
+      "category": "climate-environment",
+      "confidence": "high",
+      "date": "2026-09-10",
+      "id": "unfccc-europe-economic-security-sep10",
+      "regions": [
+        "Europe",
+        "Global"
+      ],
+      "section": "world",
+      "single_source": true,
+      "source_count": 1,
+      "sources": [
+        {
+          "published_at": "2026-09-10",
+          "publisher": "UNFCCC",
+          "source_type": "primary",
+          "title": "UN Climate Chief: the climate crisis is now a continent-wide economic security emergency",
+          "url": "https://unfccc.int/news/un-climate-chief-the-climate-crisis-is-now-a-continent-wide-economic-security-emergency"
+        }
+      ],
+      "title": "联合国气候负责人敦促欧洲强化气候行动"
+    },
+    {
+      "category": "health-society",
+      "confidence": "high",
+      "date": "2026-09-10",
+      "id": "who-western-pacific-surveillance-sep10",
+      "regions": [
+        "Asia",
+        "China",
+        "Oceania"
+      ],
+      "section": "world",
+      "single_source": true,
+      "source_count": 1,
+      "sources": [
+        {
+          "published_at": "2026-09-10",
+          "publisher": "WHO",
+          "source_type": "primary",
+          "title": "Scanning the horizon together: how the Western Pacific collectively strengthens public health intelligence and early warning systems",
+          "url": "https://www.who.int/westernpacific/newsroom/feature-stories/item/how-the-western-pacific-collectively-strengthens-public-health-intelligence-and-early-warning-systems"
+        }
+      ],
+      "title": "西太平洋地区研讨多来源公共卫生监测"
+    },
+    {
+      "category": "technology",
+      "confidence": "medium",
+      "date": "2026-09-09",
+      "id": "anthropic-cyber-alignment-assessment-sep09",
+      "regions": [
+        "Global",
+        "United States"
+      ],
+      "section": "ai",
+      "single_source": true,
+      "source_count": 1,
+      "sources": [
+        {
+          "published_at": "2026-09-09",
+          "publisher": "Anthropic",
+          "source_type": "primary",
+          "title": "An alignment assessment of recent cybersecurity incidents",
+          "url": "https://www.anthropic.com/research/alignment-assessment-cybersecurity-incidents"
+        }
+      ],
+      "title": "Anthropic公开网络评测事故的对齐评估"
+    },
+    {
+      "category": "technology",
+      "confidence": "medium",
+      "date": "2026-09-09",
+      "id": "california-askca-pilot-sep09",
+      "regions": [
+        "California",
+        "North America",
+        "United States"
+      ],
+      "section": "ai",
+      "single_source": true,
+      "source_count": 1,
+      "sources": [
+        {
+          "published_at": "2026-09-09",
+          "publisher": "Governor of California",
+          "source_type": "primary",
+          "title": "Government, made easier. Governor Newsom introduces AskCA, a new AI-powered tool for Californians",
+          "url": "https://www.gov.ca.gov/2026/09/09/government-made-easier-governor-newsom-introduces-askca-a-new-ai-powered-tool-for-californians/"
+        }
+      ],
+      "title": "加州AskCA政务助手开放试点报名"
+    },
+    {
+      "category": "science",
+      "confidence": "high",
+      "date": "2026-09-09",
+      "id": "nasa-terran-r-nls-ii-sep09",
+      "regions": [
+        "Global",
+        "North America",
+        "United States"
+      ],
+      "section": "world",
+      "single_source": true,
+      "source_count": 1,
+      "sources": [
+        {
+          "published_at": "2026-09-09",
+          "publisher": "NASA",
+          "source_type": "primary",
+          "title": "NASA Adds Relativity Space’s Terran R to Launch Services Contract",
+          "url": "https://www.nasa.gov/news-release/nasa-adds-relativity-spaces-terran-r-to-launch-services-contract/"
+        }
+      ],
+      "title": "NASA将Terran R纳入发射服务采购框架"
+    },
+    {
+      "category": "health-society",
+      "confidence": "high",
+      "date": "2026-09-09",
+      "id": "nepal-post-flood-surveillance-sep09",
+      "regions": [
+        "Asia",
+        "Nepal"
+      ],
+      "section": "world",
+      "single_source": true,
+      "source_count": 1,
+      "sources": [
+        {
+          "published_at": "2026-09-09",
+          "publisher": "WHO",
+          "source_type": "primary",
+          "title": "Strengthening post-disaster surveillance after Nepal’s flash floods",
+          "url": "https://www.who.int/nepal/news/detail/09-09-2026-strengthening-post-disaster-surveillance-after-nepal-s-flash-floods"
+        }
+      ],
+      "title": "WHO披露尼泊尔洪灾后的疾病预警部署"
+    },
+    {
+      "category": "politics",
+      "confidence": "medium",
+      "date": "2026-09-09",
+      "id": "taiwan-security-forum-sep09",
+      "regions": [
+        "Asia",
+        "Taiwan",
+        "United States"
+      ],
+      "section": "world",
+      "single_source": true,
+      "source_count": 1,
+      "sources": [
+        {
+          "published_at": "2026-09-09",
+          "publisher": "Reuters",
+          "source_type": "wire",
+          "title": "Taiwan has 'clear responsibility' to strengthen its own defences, VP says",
+          "url": "https://www.reutersconnect.com/item/taiwan-has-clear-responsibility-to-strengthen-its-own-defences-vp-says/dGFnOnJldXRlcnMuY29tLDIwMjY6bmV3c21sX1ZBMTM1NTA5MDkyMDI2UlAx"
+        }
+      ],
+      "title": "台湾安全论坛强调防务与社会韧性"
+    },
+    {
+      "category": "health-society",
+      "confidence": "high",
+      "date": "2026-09-09",
+      "id": "unesco-school-attacks-2025-data",
+      "regions": [
+        "Global"
+      ],
+      "section": "world",
+      "single_source": true,
+      "source_count": 1,
+      "sources": [
+        {
+          "published_at": "2026-09-08; updated 2026-09-09",
+          "publisher": "UNESCO",
+          "source_type": "primary",
+          "title": "As attacks on schools rise by 33% in 2025, UNESCO calls for stronger protection of education",
+          "url": "https://www.unesco.org/en/articles/attacks-schools-rise-33-2025-unesco-calls-stronger-protection-education?hub=72609"
+        }
+      ],
+      "title": "UNESCO警示2025年学校遭袭数量上升"
+    },
+    {
+      "category": "markets",
+      "confidence": "medium",
+      "date": "2026-09-09",
+      "id": "us-equities-oil-rates-sep08",
+      "regions": [
+        "Global",
+        "North America",
+        "United States"
+      ],
+      "section": "world",
+      "single_source": true,
+      "source_count": 1,
+      "sources": [
+        {
+          "published_at": "2026-09-08",
+          "publisher": "Reuters",
+          "source_type": "wire",
+          "title": "S&P 500 falls as AI worries hit software makers",
+          "url": "https://www.reutersconnect.com/item/sp-500-falls-as-ai-worries-hit-software-makers/dGFnOnJldXRlcnMuY29tLDIwMjY6bmV3c21sX1ZBMTI4OTA4MDkyMDI2UlAx"
+        }
+      ],
+      "title": "美国股市面临油价与利率上行压力"
+    },
+    {
+      "category": "technology",
+      "confidence": "medium",
+      "date": "2026-09-08",
+      "id": "diffusion-two-roles-driving-simulation",
+      "regions": [
+        "全球",
+        "瑞典"
+      ],
+      "section": "ai",
+      "single_source": false,
+      "source_count": 2,
+      "sources": [
+        {
+          "published_at": "2026-09-04",
+          "publisher": "arXiv",
+          "source_type": "research",
+          "title": "One Diffusion Model, Two Roles — v1",
+          "url": "https://arxiv.org/abs/2609.04921v1"
+        },
+        {
+          "published_at": "2026-09-04",
+          "publisher": "arXiv",
+          "source_type": "research",
+          "title": "One Diffusion Model, Two Roles全文",
+          "url": "https://arxiv.org/html/2609.04921v1"
+        }
+      ],
+      "title": "同一扩散交通模型兼做规划器与压力测试生成器"
+    },
+    {
+      "category": "technology",
+      "confidence": "medium",
+      "date": "2026-09-08",
+      "id": "uno-lossless-discrete-diffusion",
+      "regions": [
+        "全球"
+      ],
+      "section": "ai",
+      "single_source": false,
+      "source_count": 2,
+      "sources": [
+        {
+          "published_at": "2026-09-03",
+          "publisher": "arXiv",
+          "source_type": "research",
+          "title": "Unlocking Lossless Speedups in LLMs via Discrete Diffusion — v1",
+          "url": "https://arxiv.org/abs/2609.04010v1"
+        },
+        {
+          "published_at": "2026-09-03",
+          "publisher": "arXiv",
+          "source_type": "research",
+          "title": "Uno全文",
+          "url": "https://arxiv.org/pdf/2609.04010"
+        }
+      ],
+      "title": "Uno预印本探索保持自回归分布的并行生成"
+    },
+    {
+      "category": "technology",
+      "confidence": "high",
+      "date": "2026-09-08",
+      "id": "australia-my-feed-my-way-draft",
+      "regions": [
+        "大洋洲",
+        "澳大利亚"
+      ],
+      "section": "world",
+      "single_source": false,
+      "source_count": 2,
+      "sources": [
+        {
+          "published_at": "2026-09-08T09:01:40Z",
+          "publisher": "AP",
+          "source_type": "wire",
+          "title": "Proposed Australian law would let social media users opt out of algorithms",
+          "url": "https://apnews.com/article/australia-social-media-algorithms-digital-duty-care-1eee351b39f22b340ef289c792f7993b"
+        },
+        {
+          "published_at": "2026-09-08",
+          "publisher": "澳大利亚总理办公室",
+          "source_type": "primary",
+          "title": "My Feed, My Way",
+          "url": "https://www.pm.gov.au/media/my-feed-my-way"
+        }
+      ],
+      "title": "澳大利亚公布让用户选择算法信息流的草案"
+    },
+    {
+      "category": "economy",
+      "confidence": "high",
+      "date": "2026-09-08",
+      "id": "canada-us-surtax-september-effective",
+      "regions": [
+        "加拿大",
+        "北美",
+        "美国"
+      ],
+      "section": "world",
+      "single_source": false,
+      "source_count": 2,
+      "sources": [
+        {
+          "published_at": "2026-08-28（生效安排的背景来源）",
+          "publisher": "加拿大政府",
+          "source_type": "primary",
+          "title": "Targeted countermeasures and support in response to U.S. tariffs",
+          "url": "https://www.canada.ca/en/employment-social-development/news/2026/08/canada-announces-targeted-countermeasures-and-substantive-support-for-workers-and-businesses-in-response-to-us-tariffs.html"
+        },
+        {
+          "published_at": "2026-09-07（规定9月8日生效）",
+          "publisher": "加拿大边境服务局",
+          "source_type": "primary",
+          "title": "Customs Notice 26-23: United States Surtax Order (2026)",
+          "url": "https://www.cbsa-asfc.gc.ca/publications/cn-ad/cn26-23-eng.html"
+        }
+      ],
+      "title": "加拿大新一轮对美商品反制关税进入生效日"
+    },
+    {
+      "category": "economy",
+      "confidence": "high",
+      "date": "2026-09-08",
+      "id": "china-august-trade-data-2026",
+      "regions": [
+        "中国",
+        "全球"
+      ],
+      "section": "world",
+      "single_source": false,
+      "source_count": 2,
+      "sources": [
+        {
+          "published_at": "2026-09-08T05:23:00Z",
+          "publisher": "Reuters / AOL",
+          "source_type": "wire",
+          "title": "China exports surge as demand for high-tech, AI help prop up growth",
+          "url": "https://www.aol.ca/articles/chinas-exports-25-y-y-024544000.html"
+        },
+        {
+          "published_at": "2026-09-08T20:43:00+08:00",
+          "publisher": "新华社 / 中国政府网",
+          "source_type": "wire",
+          "title": "China foreign trade gains momentum as overseas demand powers exports",
+          "url": "https://english.www.gov.cn/archive/statistics/202609/08/content_WS6aa002e6c6d00ca5f9a0d112.html"
+        }
+      ],
+      "title": "中国8月美元计出口同比增长25%"
+    },
+    {
+      "category": "politics",
+      "confidence": "high",
+      "date": "2026-09-08",
+      "id": "cluster-munition-monitor-2026-release",
+      "regions": [
+        "乌克兰",
+        "全球"
+      ],
+      "section": "world",
+      "single_source": false,
+      "source_count": 2,
+      "sources": [
+        {
+          "published_at": "2026-09-08T09:00:00-04:00",
+          "publisher": "Human Rights Watch",
+          "source_type": "primary",
+          "title": "Cluster Munitions: Ban Treaty Under Pressure",
+          "url": "https://www.hrw.org/news/2026/09/08/cluster-munitions-ban-treaty-under-pressure"
+        },
+        {
+          "published_at": "2026-09-08T09:07:00-04:00",
+          "publisher": "Reuters / MarketScreener",
+          "source_type": "wire",
+          "title": "Cluster bomb casualties near record, driven by war in Ukraine",
+          "url": "https://www.marketscreener.com/news/cluster-bomb-casualties-near-record-driven-by-ukraine-ce785bd8dc80f12d"
+        }
+      ],
+      "title": "年度报告记录2025年至少1,063名集束弹药伤亡者"
+    },
+    {
+      "category": "economy",
+      "confidence": "high",
+      "date": "2026-09-08",
+      "id": "japan-q2-gdp-second-estimate",
+      "regions": [
+        "亚洲",
+        "日本"
+      ],
+      "section": "world",
+      "single_source": false,
+      "source_count": 2,
+      "sources": [
+        {
+          "published_at": "2026-09-08T00:20:00Z",
+          "publisher": "Reuters / AOL",
+          "source_type": "wire",
+          "title": "Japan upgrades Q2 GDP on slight capex improvement",
+          "url": "https://www.aol.com/articles/japan-revises-q2-gdp-annualised-235949000.html"
+        },
+        {
+          "published_at": "2026-09-08",
+          "publisher": "日本内阁府ESRI",
+          "source_type": "primary",
+          "title": "2026年4–6月期GDP第二次初步估计",
+          "url": "https://www.esri.cao.go.jp/jp/sna/data/data_list/sokuhou/gaiyou/pdf/main_1.pdf"
+        }
+      ],
+      "title": "日本第二季GDP增速上修，企业投资仍收缩"
+    },
+    {
+      "category": "health-society",
+      "confidence": "high",
+      "date": "2026-09-08",
+      "id": "who-dili-declaration-specialized-care",
+      "regions": [
+        "东南亚",
+        "东帝汶"
+      ],
+      "section": "world",
+      "single_source": true,
+      "source_count": 1,
+      "sources": [
+        {
+          "published_at": "2026-09-08",
+          "publisher": "WHO",
+          "source_type": "primary",
+          "title": "Health Ministers adopt Dili Declaration to advance equity in specialized care",
+          "url": "https://www.who.int/southeastasia/news/detail/08-09-2026-health-ministers-of-who-south-east-asia-region-adopt-dili-declaration-to-advance-equity-in-specialized-care"
+        }
+      ],
+      "title": "WHO东南亚卫生部长通过专科医疗公平宣言"
+    },
+    {
+      "category": "technology",
+      "confidence": "medium",
+      "date": "2026-09-07",
+      "id": "bilevel-coordinated-reflection-srma",
+      "regions": [
+        "全球"
+      ],
+      "section": "ai",
+      "single_source": true,
+      "source_count": 1,
+      "sources": [
+        {
+          "published_at": "2026-09-02",
+          "publisher": "arXiv",
+          "source_type": "research",
+          "title": "Bilevel Coordinated Reflection: A Game-Theoretic Approach to Multi-Agent LLM Systems",
+          "url": "https://arxiv.org/abs/2609.02750"
+        }
+      ],
+      "title": "双层协调研究为多代理反思加入环境验证门槛"
+    },
+    {
+      "category": "technology",
+      "confidence": "medium",
+      "date": "2026-09-07",
+      "id": "iris-search-frontier-v1",
+      "regions": [
+        "中国",
+        "全球"
+      ],
+      "section": "ai",
+      "single_source": true,
+      "source_count": 1,
+      "sources": [
+        {
+          "published_at": "2026-09-03",
+          "publisher": "arXiv",
+          "source_type": "research",
+          "title": "Iris: Climbing to the Search Frontier — v1",
+          "url": "https://arxiv.org/abs/2609.04304v1"
+        }
+      ],
+      "title": "Iris v1公布搜索代理的数据构造与交替训练方案"
+    },
+    {
+      "category": "culture",
+      "confidence": "high",
+      "date": "2026-09-07",
+      "id": "cambodia-literacy-ratanakiri-event",
+      "regions": [
+        "柬埔寨"
+      ],
+      "section": "world",
+      "single_source": true,
+      "source_count": 1,
+      "sources": [
+        {
+          "published_at": "2026-09-07",
+          "publisher": "UNESCO",
+          "source_type": "primary",
+          "title": "MoEYS and UNESCO Highlight the Role of Literacy in Building an Inclusive and Equitable Cambodia",
+          "url": "https://www.unesco.org/en/articles/press-release-moeys-and-unesco-highlight-role-literacy-building-inclusive-and-equitable-cambodia"
+        }
+      ],
+      "title": "柬埔寨识字日活动聚焦多语言与教育公平"
+    },
+    {
+      "category": "markets",
+      "confidence": "medium",
+      "date": "2026-09-07",
+      "id": "oil-asian-trading-september-seven",
+      "regions": [
+        "中东",
+        "全球"
+      ],
+      "section": "world",
+      "single_source": true,
+      "source_count": 1,
+      "sources": [
+        {
+          "published_at": "2026-09-07",
+          "publisher": "Reuters / Arab News",
+          "source_type": "wire",
+          "title": "Oil extends gains after US and Iran strike ships",
+          "url": "https://www.arabnews.com/business/oil-extends-gains-after-us-and-iran-strike-ships-3000758"
+        }
+      ],
+      "title": "海上供应担忧推动亚洲时段油价续涨"
+    },
+    {
+      "category": "politics",
+      "confidence": "high",
+      "date": "2026-09-07",
+      "id": "saxony-anhalt-preliminary-election-result",
+      "regions": [
+        "德国",
+        "欧洲"
+      ],
+      "section": "world",
+      "single_source": false,
+      "source_count": 2,
+      "sources": [
+        {
+          "published_at": "2026-09-07",
+          "publisher": "AP",
+          "source_type": "wire",
+          "title": "AfD party's landslide win tests Germany's firewall",
+          "url": "https://apnews.com/article/902f5d0f4e3181e6565ba29f4320417c"
+        },
+        {
+          "published_at": "2026-09-07",
+          "publisher": "Reuters / onvista",
+          "source_type": "wire",
+          "title": "Vorläufiges Ergebnis: AfD gewinnt in Sachsen-Anhalt deutlich",
+          "url": "https://www.onvista.de/news/2026/09-07-vorlaeufiges-ergebnis-afd-gewinnt-in-sachsen-anhalt-deutlich-absolute-mehrheit-verfehlt-0-20-26550602"
+        }
+      ],
+      "title": "德国AfD赢得州选举最多选票，但未获单独执政多数"
+    },
+    {
+      "category": "politics",
+      "confidence": "medium",
+      "date": "2026-09-07",
+      "id": "serbia-government-dissolution-request",
+      "regions": [
+        "塞尔维亚",
+        "欧洲"
+      ],
+      "section": "world",
+      "single_source": true,
+      "source_count": 1,
+      "sources": [
+        {
+          "published_at": "2026-09-07",
+          "publisher": "Reuters / Quews",
+          "source_type": "wire",
+          "title": "Serbia’s government asks president to dissolve parliament and call snap vote",
+          "url": "https://quews.news/serbias-government-asks-president-2/"
+        }
+      ],
+      "title": "塞尔维亚政府请求解散议会并提前选举"
+    },
+    {
+      "category": "health-society",
+      "confidence": "high",
+      "date": "2026-09-07",
+      "id": "who-searo-dili-regional-meeting-opens",
+      "regions": [
+        "东南亚",
+        "东帝汶",
+        "南亚"
+      ],
+      "section": "world",
+      "single_source": true,
+      "source_count": 1,
+      "sources": [
+        {
+          "published_at": "2026-09-07",
+          "publisher": "WHO",
+          "source_type": "primary",
+          "title": "South-East Asia Region annual governing body meeting begins in Timor-Leste",
+          "url": "https://www.who.int/southeastasia/news/detail/07-09-2026-who-south-east-asia-region-annual-governing-body-meeting-begins-in-timor-leste"
+        }
+      ],
+      "title": "WHO东南亚区域委员会在帝力开幕"
+    },
+    {
+      "category": "climate-environment",
+      "confidence": "high",
+      "date": "2026-09-07",
+      "id": "wmo-air-quality-climate-bulletin-2026",
+      "regions": [
+        "全球"
+      ],
+      "section": "world",
+      "single_source": true,
+      "source_count": 1,
+      "sources": [
+        {
+          "published_at": "2026-09-07",
+          "publisher": "WMO",
+          "source_type": "primary",
+          "title": "WMO bulletin shows air quality and climate interlinkages",
+          "url": "https://wmo.int/media/news/wmo-bulletin-shows-air-quality-and-climate-interlinkages"
+        }
+      ],
+      "title": "WMO新公报提醒野火与热浪可能削弱空气质量改善"
+    },
+    {
+      "category": "technology",
+      "confidence": "medium",
+      "date": "2026-09-06",
+      "id": "activation-monitoring-evaluation-awareness",
+      "regions": [
+        "全球"
+      ],
+      "section": "ai",
+      "single_source": true,
+      "source_count": 1,
+      "sources": [
+        {
+          "published_at": "2026-09-02",
+          "publisher": "arXiv",
+          "source_type": "research",
+          "title": "You Can't Escape Your Own Activations: Evaluation Awareness and Multi-Agent Monitoring",
+          "url": "https://arxiv.org/abs/2609.03035"
+        }
+      ],
+      "title": "新预印本测试知晓监控后的多代理串谋检测"
+    },
+    {
+      "category": "technology",
+      "confidence": "medium",
+      "date": "2026-09-06",
+      "id": "persistent-skills-computer-use-evolution",
+      "regions": [
+        "中国",
+        "全球"
+      ],
+      "section": "ai",
+      "single_source": true,
+      "source_count": 1,
+      "sources": [
+        {
+          "published_at": "2026-09-04",
+          "publisher": "arXiv",
+          "source_type": "research",
+          "title": "From Interaction Traces to Persistent Skills: Online Evolution for Computer-Use Agents",
+          "url": "https://arxiv.org/abs/2609.04869"
+        }
+      ],
+      "title": "计算机操作代理将交互轨迹积累为可版本化技能"
+    },
+    {
+      "category": "health-society",
+      "confidence": "medium",
+      "date": "2026-09-06",
+      "id": "ers-child-lung-genetics-pollution",
+      "regions": [
+        "全球",
+        "欧洲"
+      ],
+      "section": "world",
+      "single_source": true,
+      "source_count": 1,
+      "sources": [
+        {
+          "published_at": "2026-09-06",
+          "publisher": "欧洲呼吸学会",
+          "source_type": "primary",
+          "title": "Origins of COPD may lie in how some children’s lungs develop",
+          "url": "https://www.ersnet.org/news-and-features/news/origins-of-copd-may-lie-in-how-some-childrens-lungs-develop-but-only-when-they-are-exposed-to-polluted-air/"
+        }
+      ],
+      "title": "ERS会议研究关注儿童肺发育与遗传、空气污染的交互"
+    },
+    {
+      "category": "economy",
+      "confidence": "high",
+      "date": "2026-09-06",
+      "id": "opec-seven-october-quotas-unchanged",
+      "regions": [
+        "中东",
+        "俄罗斯",
+        "全球"
+      ],
+      "section": "world",
+      "single_source": false,
+      "source_count": 2,
+      "sources": [
+        {
+          "published_at": "2026-09-06",
+          "publisher": "OPEC",
+          "source_type": "primary",
+          "title": "Seven countries reaffirm commitment to market stability",
+          "url": "https://www.opec.org/pr-detail/613-6-september-2026.html"
+        },
+        {
+          "published_at": "2026-09-06",
+          "publisher": "Reuters / The Star",
+          "source_type": "wire",
+          "title": "OPEC+ keeps oil output policy unchanged for October",
+          "url": "https://www.thestar.com.my/aseanplus/aseanplus-news/2026/09/06/opec-keeps-oil-output-policy-unchanged-for-october"
+        }
+      ],
+      "title": "OPEC+七国决定10月维持9月产量要求"
+    },
+    {
+      "category": "politics",
+      "confidence": "high",
+      "date": "2026-09-06",
+      "id": "sara-duterte-bail-september-five",
+      "regions": [
+        "菲律宾"
+      ],
+      "section": "world",
+      "single_source": false,
+      "source_count": 2,
+      "sources": [
+        {
+          "published_at": "2026-09-05",
+          "publisher": "AP",
+          "source_type": "wire",
+          "title": "Philippines Vice President Duterte posts bail after arrest order",
+          "url": "https://apnews.com/article/253a1caa41ef2b831d307fbe2b0489df"
+        },
+        {
+          "published_at": "2026-09-05",
+          "publisher": "GMA News",
+          "source_type": "regional-media",
+          "title": "Arrest warrant vs. Sara Duterte — September 5 updates",
+          "url": "https://www.gmanetwork.com/news/topstories/nation/1001151/live-updates-arrest-warrant-vs-sara-duterte-september-4-2026/story/?order=1&top_picks="
+        }
+      ],
+      "title": "萨拉·杜特尔特就威胁案缴纳保释金"
+    },
+    {
+      "category": "politics",
+      "confidence": "high",
+      "date": "2026-09-06",
+      "id": "saxony-anhalt-polls-open",
+      "regions": [
+        "德国",
+        "欧洲"
+      ],
+      "section": "world",
+      "single_source": false,
+      "source_count": 2,
+      "sources": [
+        {
+          "published_at": "2026-09-06",
+          "publisher": "AFP",
+          "source_type": "wire",
+          "title": "Polls open in crucial eastern German state vote",
+          "url": "https://www-pp.afp.com/en/polls-open-crucial-eastern-german-state-vote"
+        },
+        {
+          "published_at": "2026-09-06",
+          "publisher": "Agencies / Times of Israel",
+          "source_type": "wire",
+          "title": "Polls open in German vote that could bring first far-right state government since WWII",
+          "url": "https://www.timesofisrael.com/polls-open-in-german-vote-that-could-bring-first-far-right-state-government-since-wwii/"
+        }
+      ],
+      "title": "德国萨克森-安哈尔特州开始投票，结果尚未到本期截点"
+    },
+    {
+      "category": "technology",
+      "confidence": "high",
+      "date": "2026-09-06",
+      "id": "tcs-hypervault-hyderabad-campus",
+      "regions": [
+        "印度"
+      ],
+      "section": "world",
+      "single_source": true,
+      "source_count": 1,
+      "sources": [
+        {
+          "published_at": "2026-09-05",
+          "publisher": "TCS",
+          "source_type": "primary",
+          "title": "HyperVault to establish large-scale AI data center campus in Telangana",
+          "url": "https://www.tcs.com/who-we-are/newsroom/press-release/tcs-hypervault-establish-large-scale-ai-data-center-campus-telangana"
+        }
+      ],
+      "title": "TCS宣布取得海得拉巴AI数据中心用地"
+    },
+    {
+      "category": "politics",
+      "confidence": "high",
+      "date": "2026-09-06",
+      "id": "us-envoys-first-kyiv-visit",
+      "regions": [
+        "乌克兰",
+        "俄罗斯",
+        "美国"
+      ],
+      "section": "world",
+      "single_source": true,
+      "source_count": 1,
+      "sources": [
+        {
+          "published_at": "2026-09-06",
+          "publisher": "Reuters Connect",
+          "source_type": "wire",
+          "title": "Witkoff feels good about peace talks as US envoys make first Kyiv visit",
+          "url": "https://www.reutersconnect.com/item/witkoff-feels-good-about-peace-talks-as-us-envoys-make-first-kyiv-visit/dGFnOnJldXRlcnMuY29tLDIwMjY6bmV3c21sX1ZBMDcwMzA2MDkyMDI2UlAx"
+        }
+      ],
+      "title": "美方特使首次到访基辅，继续推动俄乌谈判"
+    },
+    {
+      "category": "technology",
+      "confidence": "medium",
+      "date": "2026-09-05",
+      "id": "environment-evolution-terminal-agents",
+      "regions": [
+        "中国",
+        "全球"
+      ],
+      "section": "ai",
+      "single_source": true,
+      "source_count": 1,
+      "sources": [
+        {
+          "published_at": "2026-09-03",
+          "publisher": "arXiv",
+          "source_type": "research",
+          "title": "Environment Evolution for Terminal Agents",
+          "url": "https://arxiv.org/abs/2609.04128"
+        }
+      ],
+      "title": "Environment Evolution 通过离策略增难训练终端代理"
+    },
+    {
+      "category": "technology",
+      "confidence": "medium",
+      "date": "2026-09-05",
+      "id": "research-swarms-cheating-whistleblowing",
+      "regions": [
+        "全球"
+      ],
+      "section": "ai",
+      "single_source": true,
+      "source_count": 1,
+      "sources": [
+        {
+          "published_at": "2026-09-03",
+          "publisher": "arXiv",
+          "source_type": "research",
+          "title": "A Case Study on Emergent Cheating and Whistleblowing in Autonomous Research Swarms",
+          "url": "https://arxiv.org/abs/2609.04170"
+        }
+      ],
+      "title": "研究代理群案例观察到作弊传播，也出现自主举报"
+    },
+    {
+      "category": "health-society",
+      "confidence": "medium",
+      "date": "2026-09-05",
+      "id": "bolivia-viacha-barracks-explosion",
+      "regions": [
+        "玻利维亚"
+      ],
+      "section": "world",
+      "single_source": false,
+      "source_count": 2,
+      "sources": [
+        {
+          "published_at": "2026-09-05",
+          "publisher": "AP / Local10",
+          "source_type": "wire",
+          "title": "Buscan a 14 militares en Bolivia desaparecidos tras explosión",
+          "url": "https://www.local10.com/espanol/2026/09/05/buscan-a-14-militares-en-bolivia-desaparecidos-tras-explosion-en-cuartel-que-dejo-2-muertos/"
+        },
+        {
+          "published_at": "2026-09-05",
+          "publisher": "Reuters / MarketScreener",
+          "source_type": "wire",
+          "title": "Explosion at Bolivia military base kills at least 2, 14 missing, ministry says",
+          "url": "https://www.marketscreener.com/news/explosion-at-bolivia-military-base-kills-at-least-10-official-says-ce785bdbdb8cf527"
+        }
+      ],
+      "title": "玻利维亚军营爆炸，至少两人死亡、失踪人员仍在搜寻"
+    },
+    {
+      "category": "politics",
+      "confidence": "medium",
+      "date": "2026-09-05",
+      "id": "cambodia-us-drills-resumption-announced",
+      "regions": [
+        "东南亚",
+        "柬埔寨",
+        "美国"
+      ],
+      "section": "world",
+      "single_source": true,
+      "source_count": 1,
+      "sources": [
+        {
+          "published_at": "2026-09-04",
+          "publisher": "AP / ABC News",
+          "source_type": "wire",
+          "title": "Cambodia’s army to resume joint military exercises with the US next year",
+          "url": "https://abcnews.com/International/wireStory/cambodias-army-resume-joint-military-exercises-us-year-136202268"
+        }
+      ],
+      "title": "柬埔寨宣布拟于2027年恢复与美国联合军演"
+    },
+    {
+      "category": "politics",
+      "confidence": "medium",
+      "date": "2026-09-05",
+      "id": "ecuador-sunk-vessels-crew-return",
+      "regions": [
+        "厄瓜多尔",
+        "美国"
+      ],
+      "section": "world",
+      "single_source": true,
+      "source_count": 1,
+      "sources": [
+        {
+          "published_at": "2026-09-04",
+          "publisher": "Reuters / MarketScreener",
+          "source_type": "wire",
+          "title": "Ecuador says US sinkings of vessels were part of joint anti-drug probe",
+          "url": "https://www.marketscreener.com/news/ecuador-says-vessel-sinkings-part-of-joint-us-drug-trafficking-probe-ce785bdbd981f426"
+        }
+      ],
+      "title": "厄瓜多尔称沉船行动属联合缉毒，船员家属提出异议"
+    },
+    {
+      "category": "health-society",
+      "confidence": "high",
+      "date": "2026-09-05",
+      "id": "nepal-un-flash-appeal-september",
+      "regions": [
+        "尼泊尔"
+      ],
+      "section": "world",
+      "single_source": true,
+      "source_count": 1,
+      "sources": [
+        {
+          "published_at": "2026-09-04",
+          "publisher": "联合国驻尼泊尔机构",
+          "source_type": "primary",
+          "title": "Nepal floods: UN and partners launch $49.6 million emergency appeal",
+          "url": "https://nepal.un.org/en/322156-nepal-floods-un-and-partners-launch-496-million-emergency-appeal"
+        }
+      ],
+      "title": "联合国启动4,960万美元尼泊尔洪灾紧急呼吁"
+    },
+    {
+      "category": "economy",
+      "confidence": "high",
+      "date": "2026-09-05",
+      "id": "us-august-payrolls-first-release",
+      "regions": [
+        "全球",
+        "美国"
+      ],
+      "section": "world",
+      "single_source": false,
+      "source_count": 2,
+      "sources": [
+        {
+          "published_at": "2026-09-04",
+          "publisher": "BLS",
+          "source_type": "primary",
+          "title": "Employment Situation — August 2026",
+          "url": "https://www.bls.gov/news.release/archives/empsit_09042026.htm"
+        },
+        {
+          "published_at": "2026-09-04",
+          "publisher": "Reuters / MarketScreener",
+          "source_type": "wire",
+          "title": "Wall Street dips after strong jobs data fuels hawkish Fed bets",
+          "url": "https://www.marketscreener.com/news/wall-street-dips-after-strong-jobs-data-fuels-hawkish-fed-bets-ce785bdbd981f72c"
+        }
+      ],
+      "title": "美国8月新增非农就业16.2万，劳动力市场强于预期"
+    },
+    {
+      "category": "politics",
+      "confidence": "medium",
+      "date": "2026-09-05",
+      "id": "us-iran-three-tankers-september-five",
+      "regions": [
+        "伊朗",
+        "海湾",
+        "美国"
+      ],
+      "section": "world",
+      "single_source": false,
+      "source_count": 2,
+      "sources": [
+        {
+          "published_at": "2026-09-05",
+          "publisher": "AP",
+          "source_type": "wire",
+          "title": "US hits Iranian oil tankers, and other key Mideast developments",
+          "url": "https://apnews.com/article/4972c370161bccbaf67f8de131095158"
+        },
+        {
+          "published_at": "2026-09-05",
+          "publisher": "Stars and Stripes",
+          "source_type": "regional-media",
+          "title": "US strikes 3 Iranian oil tankers after Navy warships evaded missiles, CENTCOM says",
+          "url": "https://www.stripes.com/theaters/middle_east/2026-09-05/us-strikes-iran-oil-carriers-22761207.html"
+        }
+      ],
+      "title": "美军称袭击三艘伊朗油轮，海上对抗再升级"
+    },
+    {
+      "category": "technology",
+      "confidence": "medium",
+      "date": "2026-09-04",
+      "id": "gpt-6-astra-staged-release",
+      "regions": [
+        "Global"
+      ],
+      "section": "ai",
+      "single_source": false,
+      "source_count": 2,
+      "sources": [
+        {
+          "published_at": "2026-09-03（美国发布日）",
+          "publisher": "OpenAI",
+          "source_type": "primary",
+          "title": "GPT-6 Astra: A new generation of intelligence",
+          "url": "https://openai.com/index/gpt-6-astra/"
+        },
+        {
+          "published_at": "2026-09-03",
+          "publisher": "OpenAI",
+          "source_type": "primary",
+          "title": "Safety overview: GPT-6 Astra",
+          "url": "https://openai.com/index/safety-overview-gpt-6-astra/"
+        }
+      ],
+      "title": "GPT-6 Astra 开始分阶段发布，增加越权监测"
+    },
+    {
+      "category": "technology",
+      "confidence": "medium",
+      "date": "2026-09-04",
+      "id": "runway-gwm-worlds-2",
+      "regions": [
+        "Global"
+      ],
+      "section": "ai",
+      "single_source": true,
+      "source_count": 1,
+      "sources": [
+        {
+          "published_at": "2026-09-03",
+          "publisher": "Runway",
+          "source_type": "primary",
+          "title": "Introducing GWM Worlds 2",
+          "url": "https://runway.com/research/introducing-gwm-worlds-2"
+        }
+      ],
+      "title": "Runway 展示带实时音频的 GWM Worlds 2"
+    },
+    {
+      "category": "health-society",
+      "confidence": "medium",
+      "date": "2026-09-04",
+      "id": "indonesia-school-meal-poisoning-probe-call",
+      "regions": [
+        "Asia",
+        "Indonesia"
+      ],
+      "section": "world",
+      "single_source": true,
+      "source_count": 1,
+      "sources": [
+        {
+          "published_at": "2026-09-04T07:50:00Z",
+          "publisher": "Reuters via AOL",
+          "source_type": "wire",
+          "title": "Indonesia’s top rights body calls for police to probe poisoning",
+          "url": "https://www.aol.com/articles/indonesias-top-rights-body-calls-042536000.html"
+        }
+      ],
+      "title": "印尼人权委员会呼吁调查学校供餐中毒"
+    },
+    {
+      "category": "health-society",
+      "confidence": "high",
+      "date": "2026-09-04",
+      "id": "nepal-two-workers-tunnel-rescue",
+      "regions": [
+        "Asia",
+        "Nepal"
+      ],
+      "section": "world",
+      "single_source": false,
+      "source_count": 2,
+      "sources": [
+        {
+          "published_at": "2026-09-04",
+          "publisher": "AFP via Channels Television",
+          "source_type": "wire",
+          "title": "Two Trapped Tunnel Workers Rescued In Nepal",
+          "url": "https://www.channelstv.com/2026/09/04/two-trapped-tunnel-workers-rescued-in-nepal-miracle/"
+        },
+        {
+          "published_at": "2026-09-04T11:31:00+05:45",
+          "publisher": "The Kathmandu Post",
+          "source_type": "regional-media",
+          "title": "Nepal flood survivors pulled alive from hydropower tunnel nine days later",
+          "url": "https://kathmandupost.com/national/2026/09/04/voices-heard-from-inside-trishuli-3a-hydropower-tunnel-says-lawmaker"
+        }
+      ],
+      "title": "尼泊尔洪灾九天后两名工人从水电隧道获救"
+    },
+    {
+      "category": "climate-environment",
+      "confidence": "medium",
+      "date": "2026-09-04",
+      "id": "pif-2026-ocean-communique",
+      "regions": [
+        "Oceania",
+        "Pacific Islands"
+      ],
+      "section": "world",
+      "single_source": true,
+      "source_count": 1,
+      "sources": [
+        {
+          "published_at": "2026-09-04",
+          "publisher": "PACNEWS via Islands Business",
+          "source_type": "wire",
+          "title": "Forum leaders tighten Pacific position on oceans, fisheries and deep sea minerals",
+          "url": "https://islandsbusiness.com/pacnews/pacnews-two-04-september-2026/"
+        }
+      ],
+      "title": "太平洋岛国论坛强化海洋主权与共同立场"
+    },
+    {
+      "category": "politics",
+      "confidence": "medium",
+      "date": "2026-09-04",
+      "id": "trump-ukraine-aid-repayment-statement",
+      "regions": [
+        "Europe",
+        "Ukraine",
+        "United States"
+      ],
+      "section": "world",
+      "single_source": true,
+      "source_count": 1,
+      "sources": [
+        {
+          "published_at": "2026-09-03（9月4日更新）",
+          "publisher": "Reuters via Investing.com",
+          "source_type": "wire",
+          "title": "US to seek back payment from Europe for Ukraine aid, Trump says",
+          "url": "https://www.investing.com/news/economy-news/us-to-seek-back-payment-from-europe-for-ukraine-aid-trump-says-4888267"
+        }
+      ],
+      "title": "特朗普称将向欧洲追索过往援乌支出"
+    },
+    {
+      "category": "politics",
+      "confidence": "high",
+      "date": "2026-09-04",
+      "id": "us-cuba-ofac-september-three-designations",
+      "regions": [
+        "Cuba",
+        "United States"
+      ],
+      "section": "world",
+      "single_source": true,
+      "source_count": 1,
+      "sources": [
+        {
+          "published_at": "2026-09-03",
+          "publisher": "U.S. Treasury OFAC",
+          "source_type": "primary",
+          "title": "Cuba Designations; Issuance of Amended Cuba General License",
+          "url": "https://ofac.treasury.gov/recent-actions/20260903"
+        }
+      ],
+      "title": "美国新增古巴银行、能源和矿业相关制裁"
+    },
+    {
+      "category": "politics",
+      "confidence": "medium",
+      "date": "2026-09-04",
+      "id": "us-house-university-israel-boycott-bill",
+      "regions": [
+        "United States"
+      ],
+      "section": "world",
+      "single_source": true,
+      "source_count": 1,
+      "sources": [
+        {
+          "published_at": "2026-09-03T22:30:00+05:30",
+          "publisher": "Reuters via ThePrint",
+          "source_type": "wire",
+          "title": "US House passes bill to crack down on university boycotts of Israel",
+          "url": "https://theprint.in/world/us-house-passes-bill-to-crack-down-on-university-boycotts-of-israel/3033217/"
+        }
+      ],
+      "title": "美国众议院通过限制抵制以色列高校资助的法案"
+    },
+    {
+      "category": "technology",
+      "confidence": "medium",
+      "date": "2026-09-03",
+      "id": "meta-muse-spark-1-3",
+      "regions": [
+        "Global"
+      ],
+      "section": "ai",
+      "single_source": true,
+      "source_count": 1,
+      "sources": [
+        {
+          "published_at": "2026-09-02",
+          "publisher": "Meta AI Research",
+          "source_type": "primary",
+          "title": "Introducing Muse Spark 1.3",
+          "url": "https://research.meta.ai/blog/introducing-muse-spark-1-3"
+        }
+      ],
+      "title": "Meta 更新 Muse Spark 1.3，聚焦长时协作与编码"
+    },
+    {
+      "category": "technology",
+      "confidence": "medium",
+      "date": "2026-09-03",
+      "id": "qwen3-8-max-0902-snapshot",
+      "regions": [
+        "China",
+        "Global"
+      ],
+      "section": "ai",
+      "single_source": false,
+      "source_count": 2,
+      "sources": [
+        {
+          "published_at": "2026-09-02",
+          "publisher": "Alibaba Cloud Model Studio",
+          "source_type": "primary",
+          "title": "模型上下架与更新：2026-09-02 qwen3.8-max-0902",
+          "url": "https://www.alibabacloud.com/help/tc/model-studio/newly-released-models"
+        },
+        {
+          "published_at": "2026-09-02（上架日期另见官方更新表）",
+          "publisher": "QwenCloud",
+          "source_type": "model-card",
+          "title": "Qwen3.8-Max-0902",
+          "url": "https://www.qwencloud.com/models/qwen3.8-max-0902"
+        }
+      ],
+      "title": "Qwen3.8-Max 推出 0902 日期固定快照"
+    },
+    {
+      "category": "culture",
+      "confidence": "high",
+      "date": "2026-09-03",
+      "id": "bayeux-tapestry-london-opening",
+      "regions": [
+        "Europe",
+        "France",
+        "United Kingdom"
+      ],
+      "section": "world",
+      "single_source": true,
+      "source_count": 1,
+      "sources": [
+        {
+          "published_at": "2026-09-02",
+          "publisher": "UK Prime Minister’s Office",
+          "source_type": "primary",
+          "title": "Story of the Bayeux Tapestry to be brought to communities across the country",
+          "url": "https://www.gov.uk/government/news/story-of-the-bayeux-tapestry-to-be-brought-to-communities-across-the-country-as-prime-minister-joins-the-king-and-queen-and-president-macron-at-exhibi"
+        }
+      ],
+      "title": "巴约挂毯伦敦展览开幕并宣布全国教育活动"
+    },
+    {
+      "category": "economy",
+      "confidence": "high",
+      "date": "2026-09-03",
+      "id": "boe-pill-inflation-rate-remarks",
+      "regions": [
+        "Europe",
+        "United Kingdom"
+      ],
+      "section": "world",
+      "single_source": true,
+      "source_count": 1,
+      "sources": [
+        {
+          "published_at": "2026-09-03",
+          "publisher": "Bank of England",
+          "source_type": "primary",
+          "title": "Homophones – Remarks by Huw Pill",
+          "url": "https://www.bankofengland.co.uk/speech/2026/september/remarks-at-the-edinburgh-chamber-of-commerce"
+        }
+      ],
+      "title": "英国央行首席经济学家重申及时加息主张"
+    },
+    {
+      "category": "climate-environment",
+      "confidence": "high",
+      "date": "2026-09-03",
+      "id": "indonesia-peatland-fire-satellite-update",
+      "regions": [
+        "Asia",
+        "Indonesia"
+      ],
+      "section": "world",
+      "single_source": true,
+      "source_count": 1,
+      "sources": [
+        {
+          "published_at": "2026-09-03",
+          "publisher": "NASA Earth Observatory",
+          "source_type": "primary",
+          "title": "Peatland Fires Darken Skies in Indonesia",
+          "url": "https://science.nasa.gov/missions/aqua/peatland-fires-darken-skies-in-indonesia/"
+        }
+      ],
+      "title": "卫星显示印尼泥炭火灾烟霾扩散"
+    },
+    {
+      "category": "politics",
+      "confidence": "medium",
+      "date": "2026-09-03",
+      "id": "kyiv-strike-september-three-correction",
+      "regions": [
+        "Europe",
+        "Ukraine"
+      ],
+      "section": "world",
+      "single_source": true,
+      "source_count": 1,
+      "sources": [
+        {
+          "published_at": "2026-09-03",
+          "publisher": "Reuters via Internazionale",
+          "source_type": "wire",
+          "title": "Russian attack on Kyiv injures 10, starts fire and damages high-rise building",
+          "url": "https://www.internazionale.it/ultime-notizie-reuters/2026/09/03/russian-attack-on-kyiv-kills-one-triggers-fire-damages-high-rise-building"
+        }
+      ],
+      "title": "基辅住宅楼遇袭，早期死亡报告被撤回"
+    },
+    {
+      "category": "politics",
+      "confidence": "medium",
+      "date": "2026-09-03",
+      "id": "uk-france-burnham-macron-talks",
+      "regions": [
+        "Europe",
+        "France",
+        "United Kingdom"
+      ],
+      "section": "world",
+      "single_source": true,
+      "source_count": 1,
+      "sources": [
+        {
+          "published_at": "2026-09-03T11:01:00-04:00",
+          "publisher": "Reuters via MarketScreener",
+          "source_type": "wire",
+          "title": "Burnham and Macron discuss drive to get UK closer to Europe",
+          "url": "https://www.marketscreener.com/news/burnham-and-macron-discuss-drive-to-get-uk-closer-to-europe-ce785bdad980f026"
+        }
+      ],
+      "title": "英法领导人在伦敦讨论英国与欧洲关系"
+    },
+    {
+      "category": "politics",
+      "confidence": "medium",
+      "date": "2026-09-03",
+      "id": "weimar-triangle-germany-drone-solidarity",
+      "regions": [
+        "Europe",
+        "France",
+        "Germany",
+        "Poland"
+      ],
+      "section": "world",
+      "single_source": true,
+      "source_count": 1,
+      "sources": [
+        {
+          "published_at": "2026-09-03",
+          "publisher": "Reuters Connect",
+          "source_type": "wire",
+          "title": "France and Poland show solidarity with Germany on Russian drone spat",
+          "url": "https://www.reutersconnect.com/item/france-and-poland-show-solidarity-with-germany-on-russian-drone-spat/dGFnOnJldXRlcnMuY29tLDIwMjY6bmV3c21sX1ZBOTk3NjAzMDkyMDI2UlAx"
+        }
+      ],
+      "title": "法国与波兰支持德国对机场无人机事件的回应"
+    },
+    {
+      "category": "technology",
+      "confidence": "medium",
+      "date": "2026-09-02",
+      "id": "claude-fable-mythos-5-1",
+      "regions": [
+        "Global"
+      ],
+      "section": "ai",
+      "single_source": false,
+      "source_count": 2,
+      "sources": [
+        {
+          "published_at": "2026-09-01",
+          "publisher": "Anthropic",
+          "source_type": "primary",
+          "title": "Introducing Claude Fable 5.1 and Claude Mythos 5.1",
+          "url": "https://www.anthropic.com/claude-fable-and-mythos-5-1"
+        },
+        {
+          "published_at": "2026-09-01",
+          "publisher": "Anthropic",
+          "source_type": "primary",
+          "title": "Claude Fable release announcement index",
+          "url": "https://www.anthropic.com/claude/fable"
+        }
+      ],
+      "title": "Anthropic 发布 Fable 5.1 与受限访问的 Mythos 5.1"
+    },
+    {
+      "category": "technology",
+      "confidence": "medium",
+      "date": "2026-09-02",
+      "id": "gemini-3-8-flash-cyber",
+      "regions": [
+        "Global"
+      ],
+      "section": "ai",
+      "single_source": true,
+      "source_count": 1,
+      "sources": [
+        {
+          "published_at": "2026-09-02",
+          "publisher": "Google",
+          "source_type": "primary",
+          "title": "Introducing Gemini 3.8 Flash and 3.8 Flash Cyber",
+          "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/3-8-flash-and-3-8-flash-cyber/"
+        }
+      ],
+      "title": "Google 发布 Gemini 3.8 Flash 与 Flash Cyber"
+    },
+    {
+      "category": "markets",
+      "confidence": "medium",
+      "date": "2026-09-02",
+      "id": "global-bond-selloff-september-two",
+      "regions": [
+        "Europe",
+        "Global",
+        "Japan",
+        "United States"
+      ],
+      "section": "world",
+      "single_source": true,
+      "source_count": 1,
+      "sources": [
+        {
+          "published_at": "2026-09-02T16:30:00+05:30",
+          "publisher": "Reuters via ThePrint",
+          "source_type": "wire",
+          "title": "Bond selloff deepens as oil prices and public debt fears jolt markets",
+          "url": "https://theprint.in/world/bond-selloff-deepens-as-oil-prices-and-public-debt-fears-jolt-markets/3031842/"
+        }
+      ],
+      "title": "能源和债务担忧推动全球债券收益率上升"
+    },
+    {
+      "category": "technology",
+      "confidence": "high",
+      "date": "2026-09-02",
+      "id": "google-adx-remedies-no-divestiture",
+      "regions": [
+        "Global",
+        "United States"
+      ],
+      "section": "world",
+      "single_source": false,
+      "source_count": 2,
+      "sources": [
+        {
+          "published_at": "2026-09-02",
+          "publisher": "News/Media Alliance",
+          "source_type": "primary",
+          "title": "Statement on Google Ad Tech Remedies Ruling",
+          "url": "https://www.newsmediaalliance.org/google-ad-tech-remedies-ruling/"
+        },
+        {
+          "published_at": "2026-09-02T11:16:00-04:00",
+          "publisher": "Reuters via MarketScreener",
+          "source_type": "wire",
+          "title": "Google defeats US bid to force ad tech sale",
+          "url": "https://www.marketscreener.com/news/google-defeats-us-bid-to-force-ad-tech-sale-ce7858d3d980f425"
+        }
+      ],
+      "title": "美国法院拒绝强制 Google 出售 AdX"
+    },
+    {
+      "category": "science",
+      "confidence": "high",
+      "date": "2026-09-02",
+      "id": "hubble-saturn-south-decagon",
+      "regions": [
+        "Global"
+      ],
+      "section": "world",
+      "single_source": true,
+      "source_count": 1,
+      "sources": [
+        {
+          "published_at": "2026-09-02",
+          "publisher": "NASA",
+          "source_type": "primary",
+          "title": "Hubble Tracks New Decagon Encircling Saturn’s South Pole",
+          "url": "https://science.nasa.gov/missions/hubble/nasas-hubble-tracks-new-decagon-encircling-saturns-south-pole/"
+        }
+      ],
+      "title": "哈勃研究报告土星南极十边形大气波"
+    },
+    {
+      "category": "science",
+      "confidence": "high",
+      "date": "2026-09-02",
+      "id": "nasa-speed-demon-multipoint-results",
+      "regions": [
+        "Global",
+        "United States"
+      ],
+      "section": "world",
+      "single_source": true,
+      "source_count": 1,
+      "sources": [
+        {
+          "published_at": "2026-09-02",
+          "publisher": "NASA",
+          "source_type": "primary",
+          "title": "Rocket Takes First Multi-Point Look Inside Radio-Disrupting Clouds",
+          "url": "https://science.nasa.gov/science-research/heliophysics/nasa-rocket-takes-first-multi-point-look-inside-radio-disrupting-clouds/"
+        }
+      ],
+      "title": "NASA公布偶发E层多点探测结果"
+    },
+    {
+      "category": "politics",
+      "confidence": "medium",
+      "date": "2026-09-02",
+      "id": "turkey-sco-membership-comments",
+      "regions": [
+        "Asia",
+        "Europe",
+        "Turkey"
+      ],
+      "section": "world",
+      "single_source": true,
+      "source_count": 1,
+      "sources": [
+        {
+          "published_at": "2026-09-02",
+          "publisher": "Turkish Minute",
+          "source_type": "regional-media",
+          "title": "Erdoğan says closer ties with SCO would not mean break with the West",
+          "url": "https://www.turkishminute.com/2026/09/02/erdogan-says-closer-ties-with-sco-would-not-mean-break-with-the-west/"
+        }
+      ],
+      "title": "埃尔多安称可提升上合关系，但不意味着背离西方"
+    },
+    {
+      "category": "politics",
+      "confidence": "medium",
+      "date": "2026-09-02",
+      "id": "us-iran-september-two-strikes",
+      "regions": [
+        "Middle East",
+        "United States"
+      ],
+      "section": "world",
+      "single_source": false,
+      "source_count": 2,
+      "sources": [
+        {
+          "published_at": "2026-09-02T10:18:00-05:00",
+          "publisher": "Associated Press via KOSU",
+          "source_type": "wire",
+          "title": "Iran fires on its Gulf neighbors",
+          "url": "https://www.kosu.org/news/2026-09-02/iran-fires-on-its-gulf-neighbors-retaliating-for-u-s-strikes-after-a-monthlong-lull"
+        },
+        {
+          "published_at": "2026-09-02",
+          "publisher": "Reuters via Onvista",
+          "source_type": "wire",
+          "title": "USA und Iran greifen sich gegenseitig an",
+          "url": "https://www.onvista.de/news/2026/09-02-usa-und-iran-greifen-sich-gegenseitig-an-teheran-meldet-zivile-opfer-0-20-26548906"
+        }
+      ],
+      "title": "美伊发生数周来最严重交火"
+    },
     {
       "category": "technology",
       "confidence": "medium",
@@ -7083,22 +10910,22 @@
       "title": "降级预期推动油价早盘回落约 4 美元"
     }
   ],
-  "latest_digest_generated_at": "2026-09-01T10:47:34+08:00",
+  "latest_digest_generated_at": "2026-09-20T16:24:07+08:00",
   "publishers": [
     {
-      "event_count": 132,
+      "event_count": 135,
       "name": "Associated Press",
-      "source_links": 139
+      "source_links": 142
     },
     {
-      "event_count": 26,
+      "event_count": 47,
       "name": "arXiv",
-      "source_links": 33
+      "source_links": 56
     },
     {
-      "event_count": 17,
+      "event_count": 19,
       "name": "Reuters",
-      "source_links": 19
+      "source_links": 21
     },
     {
       "event_count": 13,
@@ -7106,9 +10933,29 @@
       "source_links": 15
     },
     {
-      "event_count": 3,
+      "event_count": 6,
+      "name": "Anthropic",
+      "source_links": 11
+    },
+    {
+      "event_count": 4,
       "name": "OpenAI",
-      "source_links": 9
+      "source_links": 11
+    },
+    {
+      "event_count": 8,
+      "name": "WHO",
+      "source_links": 8
+    },
+    {
+      "event_count": 7,
+      "name": "AP",
+      "source_links": 7
+    },
+    {
+      "event_count": 6,
+      "name": "NASA",
+      "source_links": 7
     },
     {
       "event_count": 2,
@@ -7116,13 +10963,18 @@
       "source_links": 7
     },
     {
-      "event_count": 3,
-      "name": "Anthropic",
-      "source_links": 6
+      "event_count": 7,
+      "name": "Reuters via MarketScreener",
+      "source_links": 7
     },
     {
       "event_count": 3,
       "name": "GitHub",
+      "source_links": 6
+    },
+    {
+      "event_count": 6,
+      "name": "The White House",
       "source_links": 6
     },
     {
@@ -7133,6 +10985,16 @@
     {
       "event_count": 5,
       "name": "Hugging Face Daily Papers",
+      "source_links": 5
+    },
+    {
+      "event_count": 5,
+      "name": "Reuters / MarketScreener",
+      "source_links": 5
+    },
+    {
+      "event_count": 5,
+      "name": "WMO",
       "source_links": 5
     },
     {
@@ -7152,12 +11014,17 @@
     },
     {
       "event_count": 3,
-      "name": "NASA",
+      "name": "NVIDIA",
       "source_links": 4
     },
     {
-      "event_count": 3,
-      "name": "NVIDIA",
+      "event_count": 4,
+      "name": "Reuters / AOL",
+      "source_links": 4
+    },
+    {
+      "event_count": 4,
+      "name": "Reuters via AOL",
       "source_links": 4
     },
     {
@@ -7168,11 +11035,6 @@
     {
       "event_count": 2,
       "name": "Tencent",
-      "source_links": 4
-    },
-    {
-      "event_count": 4,
-      "name": "The White House",
       "source_links": 4
     },
     {
@@ -7207,6 +11069,11 @@
     },
     {
       "event_count": 2,
+      "name": "Reserve Bank of Australia",
+      "source_links": 3
+    },
+    {
+      "event_count": 2,
       "name": "U.S. Bureau of Reclamation",
       "source_links": 3
     },
@@ -7221,6 +11088,11 @@
       "source_links": 3
     },
     {
+      "event_count": 2,
+      "name": "AFP",
+      "source_links": 2
+    },
+    {
       "event_count": 1,
       "name": "Apodex",
       "source_links": 2
@@ -7233,6 +11105,16 @@
     {
       "event_count": 1,
       "name": "Banco Central do Brasil",
+      "source_links": 2
+    },
+    {
+      "event_count": 2,
+      "name": "Bank of England",
+      "source_links": 2
+    },
+    {
+      "event_count": 2,
+      "name": "BLS",
       "source_links": 2
     },
     {
@@ -7252,7 +11134,17 @@
     },
     {
       "event_count": 2,
+      "name": "EEAS",
+      "source_links": 2
+    },
+    {
+      "event_count": 2,
       "name": "El País",
+      "source_links": 2
+    },
+    {
+      "event_count": 2,
+      "name": "European Commission",
       "source_links": 2
     },
     {
@@ -7263,6 +11155,11 @@
     {
       "event_count": 1,
       "name": "FlashML",
+      "source_links": 2
+    },
+    {
+      "event_count": 2,
+      "name": "Google AI for Developers",
       "source_links": 2
     },
     {
@@ -7306,6 +11203,16 @@
       "source_links": 2
     },
     {
+      "event_count": 2,
+      "name": "Meta AI Research",
+      "source_links": 2
+    },
+    {
+      "event_count": 2,
+      "name": "NASA Earth Observatory",
+      "source_links": 2
+    },
+    {
       "event_count": 1,
       "name": "NVIDIA / Hugging Face",
       "source_links": 2
@@ -7332,12 +11239,37 @@
     },
     {
       "event_count": 2,
+      "name": "Prime Minister of Canada",
+      "source_links": 2
+    },
+    {
+      "event_count": 2,
+      "name": "Prime Minister of India",
+      "source_links": 2
+    },
+    {
+      "event_count": 2,
       "name": "PyPI Stats",
       "source_links": 2
     },
     {
-      "event_count": 1,
-      "name": "Reserve Bank of Australia",
+      "event_count": 2,
+      "name": "Reuters / Quews",
+      "source_links": 2
+    },
+    {
+      "event_count": 2,
+      "name": "Reuters Connect",
+      "source_links": 2
+    },
+    {
+      "event_count": 2,
+      "name": "Reuters via Investing.com",
+      "source_links": 2
+    },
+    {
+      "event_count": 2,
+      "name": "Reuters via ThePrint",
       "source_links": 2
     },
     {
@@ -7348,6 +11280,11 @@
     {
       "event_count": 1,
       "name": "SGLang / GitHub",
+      "source_links": 2
+    },
+    {
+      "event_count": 2,
+      "name": "SpaceXAI",
       "source_links": 2
     },
     {
@@ -7376,13 +11313,58 @@
       "source_links": 2
     },
     {
+      "event_count": 2,
+      "name": "UNESCO",
+      "source_links": 2
+    },
+    {
+      "event_count": 2,
+      "name": "USTA / US Open",
+      "source_links": 2
+    },
+    {
       "event_count": 1,
       "name": "vLLM / GitHub",
       "source_links": 2
     },
     {
+      "event_count": 2,
+      "name": "中国外交部",
+      "source_links": 2
+    },
+    {
+      "event_count": 2,
+      "name": "国家统计局",
+      "source_links": 2
+    },
+    {
       "event_count": 1,
       "name": "Aargau Cantonal Police",
+      "source_links": 1
+    },
+    {
+      "event_count": 1,
+      "name": "AFP via Channels Television",
+      "source_links": 1
+    },
+    {
+      "event_count": 1,
+      "name": "Agencies / Times of Israel",
+      "source_links": 1
+    },
+    {
+      "event_count": 1,
+      "name": "Aju Press",
+      "source_links": 1
+    },
+    {
+      "event_count": 1,
+      "name": "Alibaba Cloud",
+      "source_links": 1
+    },
+    {
+      "event_count": 1,
+      "name": "Alibaba Cloud Model Studio",
       "source_links": 1
     },
     {
@@ -7407,12 +11389,57 @@
     },
     {
       "event_count": 1,
+      "name": "AP / ABC News",
+      "source_links": 1
+    },
+    {
+      "event_count": 1,
+      "name": "AP / AOL Canada",
+      "source_links": 1
+    },
+    {
+      "event_count": 1,
+      "name": "AP / Local10",
+      "source_links": 1
+    },
+    {
+      "event_count": 1,
+      "name": "AP via Local 10",
+      "source_links": 1
+    },
+    {
+      "event_count": 1,
+      "name": "Apple",
+      "source_links": 1
+    },
+    {
+      "event_count": 1,
+      "name": "arXiv / Intern-NCP Team",
+      "source_links": 1
+    },
+    {
+      "event_count": 1,
       "name": "Assam State Disaster Management Authority",
       "source_links": 1
     },
     {
       "event_count": 1,
+      "name": "Associated Press via CityNews",
+      "source_links": 1
+    },
+    {
+      "event_count": 1,
+      "name": "Associated Press via KOSU",
+      "source_links": 1
+    },
+    {
+      "event_count": 1,
       "name": "Australian Bureau of Statistics",
+      "source_links": 1
+    },
+    {
+      "event_count": 1,
+      "name": "Bank of Russia",
       "source_links": 1
     },
     {
@@ -7467,6 +11494,11 @@
     },
     {
       "event_count": 1,
+      "name": "DW with AFP / Reuters",
+      "source_links": 1
+    },
+    {
+      "event_count": 1,
       "name": "Electoral Commission of Zambia",
       "source_links": 1
     },
@@ -7487,7 +11519,12 @@
     },
     {
       "event_count": 1,
-      "name": "European Commission",
+      "name": "EU / FAO via UN Afghanistan",
+      "source_links": 1
+    },
+    {
+      "event_count": 1,
+      "name": "European Central Bank",
       "source_links": 1
     },
     {
@@ -7498,6 +11535,11 @@
     {
       "event_count": 1,
       "name": "Federal Aviation Administration",
+      "source_links": 1
+    },
+    {
+      "event_count": 1,
+      "name": "Federal Reserve",
       "source_links": 1
     },
     {
@@ -7522,7 +11564,22 @@
     },
     {
       "event_count": 1,
+      "name": "GMA News",
+      "source_links": 1
+    },
+    {
+      "event_count": 1,
+      "name": "Google",
+      "source_links": 1
+    },
+    {
+      "event_count": 1,
       "name": "Government of British Columbia",
+      "source_links": 1
+    },
+    {
+      "event_count": 1,
+      "name": "Governor of California",
       "source_links": 1
     },
     {
@@ -7537,12 +11594,37 @@
     },
     {
       "event_count": 1,
+      "name": "Human Rights Watch",
+      "source_links": 1
+    },
+    {
+      "event_count": 1,
+      "name": "IBM",
+      "source_links": 1
+    },
+    {
+      "event_count": 1,
+      "name": "IBM Research",
+      "source_links": 1
+    },
+    {
+      "event_count": 1,
       "name": "ICIMOD",
       "source_links": 1
     },
     {
       "event_count": 1,
+      "name": "ICRC",
+      "source_links": 1
+    },
+    {
+      "event_count": 1,
       "name": "ifo Institute",
+      "source_links": 1
+    },
+    {
+      "event_count": 1,
+      "name": "IMF",
       "source_links": 1
     },
     {
@@ -7572,6 +11654,11 @@
     },
     {
       "event_count": 1,
+      "name": "La Biennale di Venezia",
+      "source_links": 1
+    },
+    {
+      "event_count": 1,
       "name": "LangChain",
       "source_links": 1
     },
@@ -7592,12 +11679,12 @@
     },
     {
       "event_count": 1,
-      "name": "Meta AI Developers",
+      "name": "MediaTek",
       "source_links": 1
     },
     {
       "event_count": 1,
-      "name": "Meta AI Research",
+      "name": "Meta AI Developers",
       "source_links": 1
     },
     {
@@ -7687,6 +11774,11 @@
     },
     {
       "event_count": 1,
+      "name": "News/Media Alliance",
+      "source_links": 1
+    },
+    {
+      "event_count": 1,
       "name": "NOAA National Centers for Environmental Information",
       "source_links": 1
     },
@@ -7702,12 +11794,27 @@
     },
     {
       "event_count": 1,
+      "name": "Office for National Statistics",
+      "source_links": 1
+    },
+    {
+      "event_count": 1,
       "name": "Office of U.S. Senator Katie Britt",
       "source_links": 1
     },
     {
       "event_count": 1,
       "name": "Ollama / GitHub",
+      "source_links": 1
+    },
+    {
+      "event_count": 1,
+      "name": "OPEC",
+      "source_links": 1
+    },
+    {
+      "event_count": 1,
+      "name": "PACNEWS via Islands Business",
       "source_links": 1
     },
     {
@@ -7722,7 +11829,12 @@
     },
     {
       "event_count": 1,
-      "name": "Prime Minister of Canada",
+      "name": "President of Ukraine",
+      "source_links": 1
+    },
+    {
+      "event_count": 1,
+      "name": "PrismML",
       "source_links": 1
     },
     {
@@ -7733,6 +11845,16 @@
     {
       "event_count": 1,
       "name": "PyPI",
+      "source_links": 1
+    },
+    {
+      "event_count": 1,
+      "name": "QwenCloud",
+      "source_links": 1
+    },
+    {
+      "event_count": 1,
+      "name": "RBC-Ukraine",
       "source_links": 1
     },
     {
@@ -7752,17 +11874,67 @@
     },
     {
       "event_count": 1,
+      "name": "Reuters / AP via Arab News",
+      "source_links": 1
+    },
+    {
+      "event_count": 1,
+      "name": "Reuters / Arab News",
+      "source_links": 1
+    },
+    {
+      "event_count": 1,
+      "name": "Reuters / onvista",
+      "source_links": 1
+    },
+    {
+      "event_count": 1,
+      "name": "Reuters / The Star",
+      "source_links": 1
+    },
+    {
+      "event_count": 1,
+      "name": "Reuters / Yahoo Finance",
+      "source_links": 1
+    },
+    {
+      "event_count": 1,
+      "name": "Reuters via Internazionale",
+      "source_links": 1
+    },
+    {
+      "event_count": 1,
       "name": "Reuters via KSL",
       "source_links": 1
     },
     {
       "event_count": 1,
-      "name": "Reuters via MarketScreener",
+      "name": "Reuters via Onvista",
+      "source_links": 1
+    },
+    {
+      "event_count": 1,
+      "name": "Reuters via Yahoo",
+      "source_links": 1
+    },
+    {
+      "event_count": 1,
+      "name": "RTHK",
       "source_links": 1
     },
     {
       "event_count": 1,
       "name": "RTÉ",
+      "source_links": 1
+    },
+    {
+      "event_count": 1,
+      "name": "Runway",
+      "source_links": 1
+    },
+    {
+      "event_count": 1,
+      "name": "SADC",
       "source_links": 1
     },
     {
@@ -7778,6 +11950,16 @@
     {
       "event_count": 1,
       "name": "South African Government",
+      "source_links": 1
+    },
+    {
+      "event_count": 1,
+      "name": "Stars and Stripes",
+      "source_links": 1
+    },
+    {
+      "event_count": 1,
+      "name": "Statistics Canada",
       "source_links": 1
     },
     {
@@ -7817,7 +11999,17 @@
     },
     {
       "event_count": 1,
+      "name": "TCS",
+      "source_links": 1
+    },
+    {
+      "event_count": 1,
       "name": "The Guardian",
+      "source_links": 1
+    },
+    {
+      "event_count": 1,
+      "name": "The Kathmandu Post",
       "source_links": 1
     },
     {
@@ -7832,6 +12024,11 @@
     },
     {
       "event_count": 1,
+      "name": "Turkish Minute",
+      "source_links": 1
+    },
+    {
+      "event_count": 1,
       "name": "U.S. Bureau of Economic Analysis",
       "source_links": 1
     },
@@ -7842,7 +12039,37 @@
     },
     {
       "event_count": 1,
+      "name": "U.S. Department of Energy",
+      "source_links": 1
+    },
+    {
+      "event_count": 1,
       "name": "U.S. National Park Service",
+      "source_links": 1
+    },
+    {
+      "event_count": 1,
+      "name": "U.S. Treasury OFAC",
+      "source_links": 1
+    },
+    {
+      "event_count": 1,
+      "name": "UK Prime Minister’s Office",
+      "source_links": 1
+    },
+    {
+      "event_count": 1,
+      "name": "UN Geneva / UNHCR",
+      "source_links": 1
+    },
+    {
+      "event_count": 1,
+      "name": "UN Human Rights Monitoring Mission in Ukraine",
+      "source_links": 1
+    },
+    {
+      "event_count": 1,
+      "name": "UNFCCC",
       "source_links": 1
     },
     {
@@ -7852,7 +12079,17 @@
     },
     {
       "event_count": 1,
+      "name": "United Nations in India",
+      "source_links": 1
+    },
+    {
+      "event_count": 1,
       "name": "United Nations Mission in South Sudan",
+      "source_links": 1
+    },
+    {
+      "event_count": 1,
+      "name": "United Nations transcript via The European Times",
       "source_links": 1
     },
     {
@@ -7867,12 +12104,27 @@
     },
     {
       "event_count": 1,
+      "name": "UNOSSC",
+      "source_links": 1
+    },
+    {
+      "event_count": 1,
       "name": "Unsloth",
       "source_links": 1
     },
     {
       "event_count": 1,
       "name": "Vie publique",
+      "source_links": 1
+    },
+    {
+      "event_count": 1,
+      "name": "WHO / PAHO",
+      "source_links": 1
+    },
+    {
+      "event_count": 1,
+      "name": "World Food Programme",
       "source_links": 1
     },
     {
@@ -7897,62 +12149,129 @@
     },
     {
       "event_count": 1,
-      "name": "国家统计局",
+      "name": "加拿大政府",
+      "source_links": 1
+    },
+    {
+      "event_count": 1,
+      "name": "加拿大边境服务局",
+      "source_links": 1
+    },
+    {
+      "event_count": 1,
+      "name": "新华社",
+      "source_links": 1
+    },
+    {
+      "event_count": 1,
+      "name": "新华社 / 中国政府网",
+      "source_links": 1
+    },
+    {
+      "event_count": 1,
+      "name": "日本内阁府ESRI",
+      "source_links": 1
+    },
+    {
+      "event_count": 1,
+      "name": "欧洲呼吸学会",
+      "source_links": 1
+    },
+    {
+      "event_count": 1,
+      "name": "澳大利亚总理办公室",
+      "source_links": 1
+    },
+    {
+      "event_count": 1,
+      "name": "联合国驻尼泊尔机构",
       "source_links": 1
     }
   ],
   "regions": [
     {
-      "event_count": 87,
+      "event_count": 126,
       "name": "Global"
     },
     {
-      "event_count": 61,
+      "event_count": 73,
       "name": "North America"
     },
     {
-      "event_count": 53,
+      "event_count": 71,
       "name": "Asia"
     },
     {
-      "event_count": 52,
+      "event_count": 71,
       "name": "United States"
     },
     {
-      "event_count": 36,
+      "event_count": 58,
       "name": "Europe"
     },
     {
-      "event_count": 25,
-      "name": "Middle East"
-    },
-    {
-      "event_count": 22,
+      "event_count": 31,
       "name": "China"
     },
     {
-      "event_count": 21,
+      "event_count": 29,
+      "name": "全球"
+    },
+    {
+      "event_count": 26,
+      "name": "Middle East"
+    },
+    {
+      "event_count": 23,
       "name": "Africa"
     },
     {
-      "event_count": 10,
-      "name": "Latin America"
-    },
-    {
-      "event_count": 9,
-      "name": "Russia"
-    },
-    {
-      "event_count": 8,
+      "event_count": 15,
       "name": "Ukraine"
     },
     {
-      "event_count": 7,
+      "event_count": 12,
+      "name": "Russia"
+    },
+    {
+      "event_count": 11,
+      "name": "Latin America"
+    },
+    {
+      "event_count": 10,
       "name": "Iran"
     },
     {
-      "event_count": 7,
+      "event_count": 10,
+      "name": "美国"
+    },
+    {
+      "event_count": 8,
       "name": "Israel"
+    },
+    {
+      "event_count": 8,
+      "name": "Japan"
+    },
+    {
+      "event_count": 8,
+      "name": "欧洲"
+    },
+    {
+      "event_count": 7,
+      "name": "中国"
+    },
+    {
+      "event_count": 6,
+      "name": "France"
+    },
+    {
+      "event_count": 6,
+      "name": "India"
+    },
+    {
+      "event_count": 6,
+      "name": "Oceania"
     },
     {
       "event_count": 6,
@@ -7968,7 +12287,7 @@
     },
     {
       "event_count": 5,
-      "name": "Japan"
+      "name": "Indonesia"
     },
     {
       "event_count": 5,
@@ -7984,19 +12303,39 @@
     },
     {
       "event_count": 4,
+      "name": "Italy"
+    },
+    {
+      "event_count": 4,
+      "name": "Nepal"
+    },
+    {
+      "event_count": 4,
+      "name": "Taiwan"
+    },
+    {
+      "event_count": 4,
       "name": "Türkiye"
     },
     {
-      "event_count": 3,
-      "name": "France"
+      "event_count": 4,
+      "name": "United Kingdom"
+    },
+    {
+      "event_count": 4,
+      "name": "东南亚"
+    },
+    {
+      "event_count": 4,
+      "name": "中东"
     },
     {
       "event_count": 3,
-      "name": "India"
+      "name": "Germany"
     },
     {
       "event_count": 3,
-      "name": "Indonesia"
+      "name": "Lebanon"
     },
     {
       "event_count": 3,
@@ -8004,7 +12343,7 @@
     },
     {
       "event_count": 3,
-      "name": "Oceania"
+      "name": "Pacific Islands"
     },
     {
       "event_count": 3,
@@ -8012,11 +12351,39 @@
     },
     {
       "event_count": 3,
+      "name": "South America"
+    },
+    {
+      "event_count": 3,
+      "name": "South Korea"
+    },
+    {
+      "event_count": 3,
       "name": "Space"
     },
     {
       "event_count": 3,
-      "name": "Taiwan"
+      "name": "乌克兰"
+    },
+    {
+      "event_count": 3,
+      "name": "俄罗斯"
+    },
+    {
+      "event_count": 3,
+      "name": "加拿大"
+    },
+    {
+      "event_count": 3,
+      "name": "北美"
+    },
+    {
+      "event_count": 3,
+      "name": "非洲"
+    },
+    {
+      "event_count": 2,
+      "name": "Afghanistan"
     },
     {
       "event_count": 2,
@@ -8024,7 +12391,15 @@
     },
     {
       "event_count": 2,
+      "name": "Caribbean"
+    },
+    {
+      "event_count": 2,
       "name": "Cyprus"
+    },
+    {
+      "event_count": 2,
+      "name": "Denmark"
     },
     {
       "event_count": 2,
@@ -8052,23 +12427,11 @@
     },
     {
       "event_count": 2,
-      "name": "Italy"
-    },
-    {
-      "event_count": 2,
-      "name": "Lebanon"
-    },
-    {
-      "event_count": 2,
       "name": "Morocco"
     },
     {
       "event_count": 2,
       "name": "Myanmar"
-    },
-    {
-      "event_count": 2,
-      "name": "Nepal"
     },
     {
       "event_count": 2,
@@ -8084,19 +12447,31 @@
     },
     {
       "event_count": 2,
+      "name": "Poland"
+    },
+    {
+      "event_count": 2,
+      "name": "Saudi Arabia"
+    },
+    {
+      "event_count": 2,
       "name": "Somalia"
     },
     {
       "event_count": 2,
-      "name": "South America"
+      "name": "Southern Africa"
     },
     {
       "event_count": 2,
-      "name": "South Korea"
+      "name": "Sweden"
     },
     {
       "event_count": 2,
       "name": "Tibet"
+    },
+    {
+      "event_count": 2,
+      "name": "Turkey"
     },
     {
       "event_count": 2,
@@ -8112,6 +12487,10 @@
     },
     {
       "event_count": 2,
+      "name": "Yemen"
+    },
+    {
+      "event_count": 2,
       "name": "Zambia"
     },
     {
@@ -8119,16 +12498,64 @@
       "name": "Zimbabwe"
     },
     {
+      "event_count": 2,
+      "name": "东亚"
+    },
+    {
+      "event_count": 2,
+      "name": "东帝汶"
+    },
+    {
+      "event_count": 2,
+      "name": "伊朗"
+    },
+    {
+      "event_count": 2,
+      "name": "南亚"
+    },
+    {
+      "event_count": 2,
+      "name": "大洋洲"
+    },
+    {
+      "event_count": 2,
+      "name": "德国"
+    },
+    {
+      "event_count": 2,
+      "name": "日本"
+    },
+    {
+      "event_count": 2,
+      "name": "柬埔寨"
+    },
+    {
+      "event_count": 2,
+      "name": "欧洲联盟"
+    },
+    {
+      "event_count": 2,
+      "name": "澳大利亚"
+    },
+    {
+      "event_count": 2,
+      "name": "英国"
+    },
+    {
+      "event_count": 2,
+      "name": "菲律宾"
+    },
+    {
       "event_count": 1,
       "name": "Aarau"
     },
     {
       "event_count": 1,
-      "name": "Afghanistan"
+      "name": "Amboseli"
     },
     {
       "event_count": 1,
-      "name": "Amboseli"
+      "name": "Angola"
     },
     {
       "event_count": 1,
@@ -8148,6 +12575,10 @@
     },
     {
       "event_count": 1,
+      "name": "Austria"
+    },
+    {
+      "event_count": 1,
       "name": "Belgium"
     },
     {
@@ -8160,11 +12591,15 @@
     },
     {
       "event_count": 1,
+      "name": "Brunei"
+    },
+    {
+      "event_count": 1,
       "name": "Bulgaria"
     },
     {
       "event_count": 1,
-      "name": "Caribbean"
+      "name": "California"
     },
     {
       "event_count": 1,
@@ -8180,7 +12615,19 @@
     },
     {
       "event_count": 1,
+      "name": "Central Europe"
+    },
+    {
+      "event_count": 1,
+      "name": "Chile"
+    },
+    {
+      "event_count": 1,
       "name": "Colorado River Basin"
+    },
+    {
+      "event_count": 1,
+      "name": "Cuba"
     },
     {
       "event_count": 1,
@@ -8204,6 +12651,10 @@
     },
     {
       "event_count": 1,
+      "name": "Euro area"
+    },
+    {
+      "event_count": 1,
       "name": "Flores"
     },
     {
@@ -8212,11 +12663,11 @@
     },
     {
       "event_count": 1,
-      "name": "Germany"
+      "name": "Greece"
     },
     {
       "event_count": 1,
-      "name": "Greece"
+      "name": "Greenland"
     },
     {
       "event_count": 1,
@@ -8252,6 +12703,10 @@
     },
     {
       "event_count": 1,
+      "name": "Kazakhstan"
+    },
+    {
+      "event_count": 1,
       "name": "Kenscoff"
     },
     {
@@ -8261,6 +12716,10 @@
     {
       "event_count": 1,
       "name": "Korean Peninsula"
+    },
+    {
+      "event_count": 1,
+      "name": "Laos"
     },
     {
       "event_count": 1,
@@ -8292,10 +12751,6 @@
     },
     {
       "event_count": 1,
-      "name": "Pacific Islands"
-    },
-    {
-      "event_count": 1,
       "name": "Palau"
     },
     {
@@ -8308,10 +12763,6 @@
     },
     {
       "event_count": 1,
-      "name": "Poland"
-    },
-    {
-      "event_count": 1,
       "name": "Reno"
     },
     {
@@ -8320,11 +12771,11 @@
     },
     {
       "event_count": 1,
-      "name": "Saudi Arabia"
+      "name": "Serbia"
     },
     {
       "event_count": 1,
-      "name": "Serbia"
+      "name": "Singapore"
     },
     {
       "event_count": 1,
@@ -8337,10 +12788,6 @@
     {
       "event_count": 1,
       "name": "Southeast Asia"
-    },
-    {
-      "event_count": 1,
-      "name": "Southern Africa"
     },
     {
       "event_count": 1,
@@ -8360,15 +12807,11 @@
     },
     {
       "event_count": 1,
-      "name": "Turkey"
+      "name": "Tonga"
     },
     {
       "event_count": 1,
       "name": "Turkmenistan"
-    },
-    {
-      "event_count": 1,
-      "name": "United Kingdom"
     },
     {
       "event_count": 1,
@@ -8380,24 +12823,88 @@
     },
     {
       "event_count": 1,
-      "name": "Yemen"
+      "name": "Zamfara State"
     },
     {
       "event_count": 1,
-      "name": "Zamfara State"
+      "name": "不丹"
+    },
+    {
+      "event_count": 1,
+      "name": "也门"
+    },
+    {
+      "event_count": 1,
+      "name": "亚洲"
+    },
+    {
+      "event_count": 1,
+      "name": "刚果民主共和国"
+    },
+    {
+      "event_count": 1,
+      "name": "南极"
+    },
+    {
+      "event_count": 1,
+      "name": "南苏丹"
+    },
+    {
+      "event_count": 1,
+      "name": "印度"
+    },
+    {
+      "event_count": 1,
+      "name": "厄瓜多尔"
+    },
+    {
+      "event_count": 1,
+      "name": "台湾"
+    },
+    {
+      "event_count": 1,
+      "name": "吉布提"
+    },
+    {
+      "event_count": 1,
+      "name": "塞尔维亚"
+    },
+    {
+      "event_count": 1,
+      "name": "委内瑞拉"
+    },
+    {
+      "event_count": 1,
+      "name": "尼泊尔"
+    },
+    {
+      "event_count": 1,
+      "name": "拉丁美洲"
+    },
+    {
+      "event_count": 1,
+      "name": "海湾"
+    },
+    {
+      "event_count": 1,
+      "name": "玻利维亚"
+    },
+    {
+      "event_count": 1,
+      "name": "瑞典"
     }
   ],
   "schema_version": 1,
   "source_types": [
     {
-      "event_count": 144,
+      "event_count": 197,
       "name": "wire",
-      "source_links": 165
+      "source_links": 225
     },
     {
-      "event_count": 105,
+      "event_count": 189,
       "name": "primary",
-      "source_links": 121
+      "source_links": 212
     },
     {
       "event_count": 41,
@@ -8405,24 +12912,24 @@
       "source_links": 70
     },
     {
-      "event_count": 32,
+      "event_count": 54,
       "name": "research",
-      "source_links": 46
+      "source_links": 70
     },
     {
-      "event_count": 23,
+      "event_count": 24,
       "name": "model-card",
-      "source_links": 35
+      "source_links": 36
+    },
+    {
+      "event_count": 22,
+      "name": "regional-media",
+      "source_links": 23
     },
     {
       "event_count": 21,
       "name": "community-index",
       "source_links": 21
-    },
-    {
-      "event_count": 13,
-      "name": "regional-media",
-      "source_links": 14
     }
   ]
 }

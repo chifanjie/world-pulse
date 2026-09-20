@@ -2,6 +2,523 @@
   "version": 1,
   "entries": [
     {
+      "date": "2026-09-20",
+      "digest_path": "digests/2026/09/2026-09-20.md",
+      "data_path": "data/2026/09/2026-09-20.json",
+      "generated_at": "2026-09-20T16:05:47.000+08:00",
+      "item_count": 8,
+      "ai_radar_count": 2,
+      "categories": [
+        "culture",
+        "economy",
+        "politics",
+        "technology"
+      ],
+      "regions": [
+        "Asia",
+        "Caribbean",
+        "Central Europe",
+        "China",
+        "Europe",
+        "Global",
+        "Japan",
+        "Latin America",
+        "North America",
+        "Russia",
+        "Ukraine",
+        "United States"
+      ]
+    },
+    {
+      "date": "2026-09-19",
+      "digest_path": "digests/2026/09/2026-09-19.md",
+      "data_path": "data/2026/09/2026-09-19.json",
+      "generated_at": "2026-09-20T16:10:14.000+08:00",
+      "item_count": 8,
+      "ai_radar_count": 2,
+      "categories": [
+        "climate-environment",
+        "health-society",
+        "markets",
+        "politics",
+        "technology"
+      ],
+      "regions": [
+        "Denmark",
+        "Europe",
+        "Global",
+        "Greenland",
+        "North America",
+        "Oceania",
+        "Pacific Islands",
+        "Russia",
+        "Tonga",
+        "Ukraine",
+        "United States"
+      ]
+    },
+    {
+      "date": "2026-09-18",
+      "digest_path": "digests/2026/09/2026-09-18.md",
+      "data_path": "data/2026/09/2026-09-18.json",
+      "generated_at": "2026-09-20T16:14:09.000+08:00",
+      "item_count": 8,
+      "ai_radar_count": 2,
+      "categories": [
+        "climate-environment",
+        "economy",
+        "health-society",
+        "science",
+        "technology"
+      ],
+      "regions": [
+        "东亚",
+        "东南亚",
+        "全球",
+        "北美",
+        "大洋洲",
+        "日本",
+        "澳大利亚",
+        "美国",
+        "菲律宾"
+      ]
+    },
+    {
+      "date": "2026-09-17",
+      "digest_path": "digests/2026/09/2026-09-17.md",
+      "data_path": "data/2026/09/2026-09-17.json",
+      "generated_at": "2026-09-20T16:16:33.000+08:00",
+      "item_count": 8,
+      "ai_radar_count": 2,
+      "categories": [
+        "climate-environment",
+        "economy",
+        "politics",
+        "science",
+        "technology"
+      ],
+      "regions": [
+        "中国",
+        "乌克兰",
+        "俄罗斯",
+        "全球",
+        "加拿大",
+        "南极",
+        "欧洲",
+        "欧洲联盟",
+        "美国",
+        "英国"
+      ]
+    },
+    {
+      "date": "2026-09-16",
+      "digest_path": "digests/2026/09/2026-09-16.md",
+      "data_path": "data/2026/09/2026-09-16.json",
+      "generated_at": "2026-09-20T16:19:04.000+08:00",
+      "item_count": 8,
+      "ai_radar_count": 2,
+      "categories": [
+        "economy",
+        "health-society",
+        "politics",
+        "science",
+        "technology"
+      ],
+      "regions": [
+        "不丹",
+        "中东",
+        "中国",
+        "伊朗",
+        "全球",
+        "刚果民主共和国",
+        "南亚",
+        "委内瑞拉",
+        "拉丁美洲",
+        "欧洲",
+        "欧洲联盟",
+        "英国",
+        "非洲"
+      ]
+    },
+    {
+      "date": "2026-09-15",
+      "digest_path": "digests/2026/09/2026-09-15.md",
+      "data_path": "data/2026/09/2026-09-15.json",
+      "generated_at": "2026-09-20T16:22:10.000+08:00",
+      "item_count": 8,
+      "ai_radar_count": 2,
+      "categories": [
+        "culture",
+        "economy",
+        "health-society",
+        "politics",
+        "science",
+        "technology"
+      ],
+      "regions": [
+        "东亚",
+        "中东",
+        "中国",
+        "也门",
+        "全球",
+        "加拿大",
+        "北美",
+        "南苏丹",
+        "台湾",
+        "吉布提",
+        "美国",
+        "非洲"
+      ]
+    },
+    {
+      "date": "2026-09-14",
+      "digest_path": "digests/2026/09/2026-09-14.md",
+      "data_path": "data/2026/09/2026-09-14.json",
+      "generated_at": "2026-09-20T08:21:44+00:00",
+      "item_count": 8,
+      "ai_radar_count": 2,
+      "categories": [
+        "culture",
+        "health-society",
+        "politics",
+        "technology"
+      ],
+      "regions": [
+        "Asia",
+        "Austria",
+        "Chile",
+        "China",
+        "Europe",
+        "Germany",
+        "Global",
+        "Iran",
+        "Israel",
+        "Italy",
+        "Laos",
+        "Lebanon",
+        "North America",
+        "Singapore",
+        "South America",
+        "Sweden",
+        "Ukraine",
+        "United States"
+      ]
+    },
+    {
+      "date": "2026-09-13",
+      "digest_path": "digests/2026/09/2026-09-13.md",
+      "data_path": "data/2026/09/2026-09-13.json",
+      "generated_at": "2026-09-20T08:21:01+00:00",
+      "item_count": 7,
+      "ai_radar_count": 2,
+      "categories": [
+        "culture",
+        "health-society",
+        "politics",
+        "technology"
+      ],
+      "regions": [
+        "Afghanistan",
+        "Asia",
+        "Denmark",
+        "Europe",
+        "Global",
+        "India",
+        "Italy",
+        "Kazakhstan",
+        "North America",
+        "South Korea",
+        "Sweden",
+        "United States"
+      ]
+    },
+    {
+      "date": "2026-09-12",
+      "digest_path": "digests/2026/09/2026-09-12.md",
+      "data_path": "data/2026/09/2026-09-12.json",
+      "generated_at": "2026-09-20T08:15:54+00:00",
+      "item_count": 6,
+      "ai_radar_count": 2,
+      "categories": [
+        "health-society",
+        "politics",
+        "technology"
+      ],
+      "regions": [
+        "Asia",
+        "China",
+        "Europe",
+        "Global",
+        "India",
+        "Iran",
+        "Saudi Arabia",
+        "Ukraine"
+      ]
+    },
+    {
+      "date": "2026-09-11",
+      "digest_path": "digests/2026/09/2026-09-11.md",
+      "data_path": "data/2026/09/2026-09-11.json",
+      "generated_at": "2026-09-20T08:14:21+00:00",
+      "item_count": 8,
+      "ai_radar_count": 2,
+      "categories": [
+        "climate-environment",
+        "economy",
+        "health-society",
+        "politics",
+        "technology"
+      ],
+      "regions": [
+        "Asia",
+        "Brunei",
+        "Europe",
+        "Global",
+        "India",
+        "Iran",
+        "North America",
+        "Russia",
+        "United States",
+        "Yemen"
+      ]
+    },
+    {
+      "date": "2026-09-10",
+      "digest_path": "digests/2026/09/2026-09-10.md",
+      "data_path": "data/2026/09/2026-09-10.json",
+      "generated_at": "2026-09-20T08:08:14+00:00",
+      "item_count": 8,
+      "ai_radar_count": 2,
+      "categories": [
+        "climate-environment",
+        "economy",
+        "health-society",
+        "technology"
+      ],
+      "regions": [
+        "Africa",
+        "Angola",
+        "Asia",
+        "China",
+        "Euro area",
+        "Europe",
+        "Global",
+        "Japan",
+        "Oceania",
+        "Southern Africa",
+        "United States"
+      ]
+    },
+    {
+      "date": "2026-09-09",
+      "digest_path": "digests/2026/09/2026-09-09.md",
+      "data_path": "data/2026/09/2026-09-09.json",
+      "generated_at": "2026-09-20T16:05:14+08:00",
+      "item_count": 7,
+      "ai_radar_count": 2,
+      "categories": [
+        "health-society",
+        "markets",
+        "politics",
+        "science",
+        "technology"
+      ],
+      "regions": [
+        "Asia",
+        "California",
+        "Global",
+        "Nepal",
+        "North America",
+        "Taiwan",
+        "United States"
+      ]
+    },
+    {
+      "date": "2026-09-08",
+      "digest_path": "digests/2026/09/2026-09-08.md",
+      "data_path": "data/2026/09/2026-09-08.json",
+      "generated_at": "2026-09-20T16:24:07+08:00",
+      "item_count": 8,
+      "ai_radar_count": 2,
+      "categories": [
+        "economy",
+        "health-society",
+        "politics",
+        "technology"
+      ],
+      "regions": [
+        "东南亚",
+        "东帝汶",
+        "中国",
+        "乌克兰",
+        "亚洲",
+        "全球",
+        "加拿大",
+        "北美",
+        "大洋洲",
+        "日本",
+        "澳大利亚",
+        "瑞典",
+        "美国"
+      ]
+    },
+    {
+      "date": "2026-09-07",
+      "digest_path": "digests/2026/09/2026-09-07.md",
+      "data_path": "data/2026/09/2026-09-07.json",
+      "generated_at": "2026-09-20T16:19:15+08:00",
+      "item_count": 8,
+      "ai_radar_count": 2,
+      "categories": [
+        "climate-environment",
+        "culture",
+        "health-society",
+        "markets",
+        "politics",
+        "technology"
+      ],
+      "regions": [
+        "东南亚",
+        "东帝汶",
+        "中东",
+        "中国",
+        "全球",
+        "南亚",
+        "塞尔维亚",
+        "德国",
+        "柬埔寨",
+        "欧洲"
+      ]
+    },
+    {
+      "date": "2026-09-06",
+      "digest_path": "digests/2026/09/2026-09-06.md",
+      "data_path": "data/2026/09/2026-09-06.json",
+      "generated_at": "2026-09-20T16:16:04+08:00",
+      "item_count": 8,
+      "ai_radar_count": 2,
+      "categories": [
+        "economy",
+        "health-society",
+        "politics",
+        "technology"
+      ],
+      "regions": [
+        "中东",
+        "中国",
+        "乌克兰",
+        "俄罗斯",
+        "全球",
+        "印度",
+        "德国",
+        "欧洲",
+        "美国",
+        "菲律宾"
+      ]
+    },
+    {
+      "date": "2026-09-05",
+      "digest_path": "digests/2026/09/2026-09-05.md",
+      "data_path": "data/2026/09/2026-09-05.json",
+      "generated_at": "2026-09-20T16:13:51+08:00",
+      "item_count": 8,
+      "ai_radar_count": 2,
+      "categories": [
+        "economy",
+        "health-society",
+        "politics",
+        "technology"
+      ],
+      "regions": [
+        "东南亚",
+        "中国",
+        "伊朗",
+        "全球",
+        "厄瓜多尔",
+        "尼泊尔",
+        "柬埔寨",
+        "海湾",
+        "玻利维亚",
+        "美国"
+      ]
+    },
+    {
+      "date": "2026-09-04",
+      "digest_path": "digests/2026/09/2026-09-04.md",
+      "data_path": "data/2026/09/2026-09-04.json",
+      "generated_at": "2026-09-20T16:09:30+08:00",
+      "item_count": 8,
+      "ai_radar_count": 2,
+      "categories": [
+        "climate-environment",
+        "health-society",
+        "politics",
+        "technology"
+      ],
+      "regions": [
+        "Asia",
+        "Cuba",
+        "Europe",
+        "Global",
+        "Indonesia",
+        "Nepal",
+        "Oceania",
+        "Pacific Islands",
+        "Ukraine",
+        "United States"
+      ]
+    },
+    {
+      "date": "2026-09-03",
+      "digest_path": "digests/2026/09/2026-09-03.md",
+      "data_path": "data/2026/09/2026-09-03.json",
+      "generated_at": "2026-09-20T16:08:01+08:00",
+      "item_count": 8,
+      "ai_radar_count": 2,
+      "categories": [
+        "climate-environment",
+        "culture",
+        "economy",
+        "politics",
+        "technology"
+      ],
+      "regions": [
+        "Asia",
+        "China",
+        "Europe",
+        "France",
+        "Germany",
+        "Global",
+        "Indonesia",
+        "Poland",
+        "Ukraine",
+        "United Kingdom"
+      ]
+    },
+    {
+      "date": "2026-09-02",
+      "digest_path": "digests/2026/09/2026-09-02.md",
+      "data_path": "data/2026/09/2026-09-02.json",
+      "generated_at": "2026-09-20T16:05:39+08:00",
+      "item_count": 8,
+      "ai_radar_count": 2,
+      "categories": [
+        "markets",
+        "politics",
+        "science",
+        "technology"
+      ],
+      "regions": [
+        "Asia",
+        "Europe",
+        "Global",
+        "Japan",
+        "Middle East",
+        "Turkey",
+        "United States"
+      ]
+    },
+    {
       "date": "2026-09-01",
       "digest_path": "digests/2026/09/2026-09-01.md",
       "data_path": "data/2026/09/2026-09-01.json",
