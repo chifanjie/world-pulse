@@ -2,6 +2,36 @@
   "version": 1,
   "entries": [
     {
+      "date": "2026-09-21",
+      "digest_path": "digests/2026/09/2026-09-21.md",
+      "data_path": "data/2026/09/2026-09-21.json",
+      "generated_at": "2026-09-21T09:15:34+08:00",
+      "item_count": 8,
+      "ai_radar_count": 2,
+      "categories": [
+        "economy",
+        "politics",
+        "science",
+        "technology"
+      ],
+      "regions": [
+        "Asia",
+        "Australia",
+        "Canada",
+        "China",
+        "Europe",
+        "France",
+        "Germany",
+        "Global",
+        "Japan",
+        "North America",
+        "North Korea",
+        "Oceania",
+        "Russia",
+        "South Korea"
+      ]
+    },
+    {
       "date": "2026-09-20",
       "digest_path": "digests/2026/09/2026-09-20.md",
       "data_path": "data/2026/09/2026-09-20.json",

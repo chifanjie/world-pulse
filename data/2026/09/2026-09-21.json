@@ -1,0 +1,242 @@
+{
+  "date": "2026-09-21",
+  "timezone": "Asia/Shanghai",
+  "generated_at": "2026-09-21T09:15:34+08:00",
+  "publication_status": "current",
+  "observation_cutoff": "2026-09-21T09:15:34+08:00",
+  "overview": "德国两场州选举出现新的领先格局；俄罗斯国家杜马选举公布部分计票；朝鲜发射导弹；澳大利亚启动联合国安理会竞选；加法推进航天与能源合作；进步96号货运飞船对接空间站。AI雷达关注verl强化学习工程更新与服务端token膨胀审计预印本。",
+  "digest_path": "digests/2026/09/2026-09-21.md",
+  "ai_radar": {
+    "selection_as_of": "2026-09-21T09:15:34+08:00",
+    "item_ids": ["verl-v091-distributed-rl-release", "ptia-token-inflation-blackbox-audit"]
+  },
+  "items": [
+    {
+      "id": "germany-berlin-mecklenburg-election-results",
+      "category": "politics",
+      "regions": ["Europe", "Germany"],
+      "title": "德国州选举初步结果：左翼党在柏林领先，AfD在梅前州领先",
+      "summary": "9月20日投票结束后的初步结果显示，左翼党在柏林州议会选举中领先，德国选择党在梅克伦堡—前波美拉尼亚州领先。路透社与美联社均报道了这一格局。",
+      "why_it_matters": "两场选举将影响州政府组阁、住房等地方政策，也给联邦执政联盟带来新的政治压力。",
+      "uncertainty": "这里记录初步结果，不混用不同更新时间的票数。得票领先不等于已经组成政府；住房国有化等竞选主张也不等于已获立法通过。",
+      "confidence": "high",
+      "sources": [
+        {
+          "publisher": "Reuters via Internazionale",
+          "title": "Far-left party wins Berlin election, pledging to nationalise housing",
+          "url": "https://www.internazionale.it/ultime-notizie-reuters/2026/09/20/far-left-party-wins-berlin-election-pledging-to-nationalise-housing",
+          "published_at": "2026-09-20",
+          "source_type": "wire"
+        },
+        {
+          "publisher": "Associated Press via Local 10",
+          "title": "Merz vows to press ahead with reforms after historic German state election defeat",
+          "url": "https://www.local10.com/business/2026/09/20/merz-vows-to-press-ahead-with-reforms-after-historic-german-state-election-defeat/",
+          "published_at": "2026-09-20",
+          "source_type": "wire"
+        }
+      ]
+    },
+    {
+      "id": "russia-duma-partial-results-2026",
+      "category": "politics",
+      "regions": ["Europe", "Russia"],
+      "title": "俄罗斯杜马选举部分计票显示统一俄罗斯党领先",
+      "summary": "俄罗斯9月18日至20日举行议会选举。路透社20日19:34 UTC更新的报道援引官方部分计票称，统一俄罗斯党暂获57.5%的选票；美联社随后报道的部分结果也显示该党领先。",
+      "why_it_matters": "选举决定国家杜马席位分配及执政党的立法控制力，是对此前投票开始消息的实质更新。",
+      "uncertainty": "57.5%是当时的部分官方计票，不是最终结果或席位比例；主要反战反对派被排除，不能把这一数字当作对战争支持度的自由民意测量。",
+      "confidence": "high",
+      "sources": [
+        {
+          "publisher": "Reuters via AOL",
+          "title": "Russia's ruling pro-Putin party on track to win wartime election after drones strike Moscow",
+          "url": "https://www.aol.com/articles/russian-election-cast-test-support-040259000.html",
+          "published_at": "2026-09-20T19:34:00Z",
+          "source_type": "wire"
+        },
+        {
+          "publisher": "Associated Press via Local 10",
+          "title": "Early results of Russia's tightly controlled parliamentary vote show the main Kremlin party leads",
+          "url": "https://www.local10.com/news/world/2026/09/20/early-results-of-russias-tightly-controlled-parliamentary-vote-show-the-main-kremlin-party-leads/",
+          "published_at": "2026-09-20",
+          "source_type": "wire"
+        }
+      ]
+    },
+    {
+      "id": "north-korea-two-missiles-september20",
+      "category": "politics",
+      "regions": ["Asia", "North Korea", "South Korea", "Japan"],
+      "title": "韩方称朝鲜发射两枚短程弹道导弹，日方确认至少一枚",
+      "summary": "据美联社援引韩国军方，朝鲜9月20日从元山地区先后发射两枚短程弹道导弹，两次发射相隔约三小时。日本防卫省另行确认，当地15时左右至少有一枚发射，估计落在日本专属经济区外。",
+      "why_it_matters": "新的发射增加东北亚安全议程的不确定性，也要求区分各国监测范围和对武器类型的判断。",
+      "uncertainty": "两枚及其类型来自韩国军方判断；日本通报仅确认至少一枚，不能据此声称日方独立证实了全部两次发射。弹头类型和具体意图尚未独立确认。",
+      "confidence": "high",
+      "sources": [
+        {
+          "publisher": "Japan Ministry of Defense",
+          "title": "北朝鮮のミサイル等関連情報",
+          "url": "https://www.mod.go.jp/j/press/news/2026/09/20e.html",
+          "published_at": "2026-09-20",
+          "source_type": "primary"
+        },
+        {
+          "publisher": "Associated Press via Local 10",
+          "title": "North Korea launches 2 ballistic missiles toward the sea and dials up pressure on the US",
+          "url": "https://www.local10.com/news/2026/09/20/south-korea-says-north-korea-launched-a-ballistic-missile-and-another-projectile-toward-the-sea/",
+          "published_at": "2026-09-20",
+          "source_type": "wire"
+        }
+      ]
+    },
+    {
+      "id": "australia-unsc-campaign-launched",
+      "category": "politics",
+      "regions": ["Oceania", "Australia", "Global"],
+      "title": "澳大利亚启动2029—2030年联合国安理会席位竞选",
+      "summary": "阿尔巴尼斯在纽约正式启动澳大利亚竞选2029—2030年联合国安理会非常任理事国席位的活动。澳总理办公室9月21日刊出的记者会实录将气候行动、AI与网络安全等列为其多边议程。",
+      "why_it_matters": "这场竞选关系到大洋洲国家在国际安全议题中的代表性，以及中等强国如何推动多边规则。",
+      "uncertainty": "启动竞选不等于已经当选；投票预计于2028年举行，需要联合国大会三分之二多数支持。",
+      "confidence": "high",
+      "sources": [
+        {
+          "publisher": "Prime Minister of Australia",
+          "title": "Press conference - United Nations, New York",
+          "url": "https://www.pm.gov.au/media/press-conference-united-nations-new-york",
+          "published_at": "2026-09-21",
+          "source_type": "primary"
+        },
+        {
+          "publisher": "SBS News",
+          "title": "Australia launches bid for UN Security Council seat | Morning News Bulletin 21 September 2026",
+          "url": "https://www.sbs.com.au/news/podcast-episode/australia-launches-bid-for-un-security-council-seat-morning-news-bulletin-21-september-2026/4e8vb3mh6",
+          "published_at": "2026-09-21",
+          "source_type": "regional-media"
+        }
+      ]
+    },
+    {
+      "id": "canada-france-space-energy-cooperation",
+      "category": "economy",
+      "regions": ["North America", "Canada", "Europe", "France"],
+      "title": "加拿大与法国推进航天基础设施和能源合作",
+      "summary": "卡尼和马克龙9月20日在圣皮埃尔和密克隆会晤。加拿大官方通报称，双方要求航天机构及国防部门推进发射与地面航天基础设施共享，并加强能源安全合作。",
+      "why_it_matters": "航天和能源合作可帮助两国分散战略依赖，为跨大西洋产业联系提供新的方向。",
+      "uncertainty": "通报确认的是合作部署，不是设施已建成、资金已到位或商业合同已履行；不能将相关欧盟合作提议写成加拿大已经获得成员资格。",
+      "confidence": "high",
+      "sources": [
+        {
+          "publisher": "Prime Minister of Canada",
+          "title": "Prime Minister Carney meets with President of France Emmanuel Macron",
+          "url": "https://www.pm.gc.ca/en/news/readouts/2026/09/20/prime-minister-carney-meets-president-france-emmanuel-macron",
+          "published_at": "2026-09-20",
+          "source_type": "primary"
+        },
+        {
+          "publisher": "Associated Press via CityNews",
+          "title": "Macron backs Canada as EU associate member as Carney turns toward Europe",
+          "url": "https://toronto.citynews.ca/2026/09/20/macron-and-carney-to-hold-talks-on-strengthening-canada-france-economic-and-defense-ties/",
+          "published_at": "2026-09-20",
+          "source_type": "wire"
+        }
+      ]
+    },
+    {
+      "id": "progress96-station-docking",
+      "category": "science",
+      "regions": ["Global"],
+      "title": "进步96号货运飞船对接国际空间站",
+      "summary": "NASA确认，进步96号于9月19日13:44 UTC、即北京时间21:44，对接国际空间站探索号模块朝太空一侧端口，运送约三吨食品、燃料和其他补给。",
+      "why_it_matters": "货运补给维持空间站乘组生活与科学任务的连续运行，是已完成的航天运营节点。",
+      "uncertainty": "约五个月的停靠期是计划，并非已经完成；货物抵达本身不意味着产生了新的科学发现。",
+      "confidence": "high",
+      "sources": [
+        {
+          "publisher": "NASA",
+          "title": "Progress 96 Cargo Spacecraft Docks to Station to Resupply Crew",
+          "url": "https://www.nasa.gov/blogs/spacestation/2026/09/19/progress-96-cargo-spacecraft-docks-to-station-to-resupply-crew/",
+          "published_at": "2026-09-19T09:48:00-04:00",
+          "source_type": "primary"
+        }
+      ]
+    },
+    {
+      "id": "verl-v091-distributed-rl-release",
+      "category": "technology",
+      "regions": ["Global", "Asia", "China"],
+      "title": "verl v0.9.1更新异步强化学习训练与权重同步",
+      "summary": "verl项目9月20日发布v0.9.1：异步训练器可选择把闲置训练GPU借给生成阶段，vLLM生成后端支持外部路由器，delta_sharded权重同步扩展了后端及并行配置支持。",
+      "why_it_matters": "这些工程选项针对强化学习后训练中的资源失衡、路由耦合及权重传输瓶颈，有望减少系统集成成本。",
+      "uncertainty": "GPU借用默认不启用；性能增益来自项目方特定配置的自测，尚无独立复现。版本迁移到uv并调整部分旧配置，升级需要检查兼容性。",
+      "confidence": "high",
+      "sources": [
+        {
+          "publisher": "verl Project",
+          "title": "verl v0.9.1",
+          "url": "https://github.com/verl-project/verl/releases/tag/v0.9.1",
+          "published_at": "2026-09-20T07:24:43Z",
+          "source_type": "code"
+        }
+      ],
+      "section": "ai-frontier",
+      "ai": {
+        "kind": "open-source-training-framework-release",
+        "topics": ["reinforcement-learning", "post-training", "distributed-systems"],
+        "artifact_date": "2026-09-20",
+        "artifact_status": "v0.9.1正式版；代码与版本说明公开",
+        "technical_takeaway": "以可选GPU借用、外部路由插件和更广的增量权重同步支持，降低生成、训练与参数传输之间的固定耦合。",
+        "evidence_level": "官方版本说明与代码可核查；效果为项目方自测，未独立复现",
+        "heat": {
+          "label": "可核查的新版本发布；不声称独立热度排名",
+          "as_of": "2026-09-21T09:15:34+08:00",
+          "signals": [
+            {
+              "platform": "GitHub",
+              "observation": "官方release及API确认9月20日07:24:43 UTC发布v0.9.1；该信号仅表示新工件公开，不代表效果已获独立认可。",
+              "url": "https://github.com/verl-project/verl/releases/tag/v0.9.1"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "ptia-token-inflation-blackbox-audit",
+      "category": "science",
+      "regions": ["Global", "Asia", "China"],
+      "title": "PTIA预印本提出服务端token膨胀的黑盒审计方法",
+      "summary": "9月17日公开的PTIA论文研究服务商通过隐藏生成干预延长输出的风险。作者比较原始请求与加入受控扩写探针的请求，利用额外长度增幅的差异筛查与token膨胀一致的行为。",
+      "why_it_matters": "即使模型身份和token计数正确，生成过程的干预仍可能改变使用成本；该方法尝试在不依赖本地参考模型或历史干净响应的条件下进行审计。",
+      "uncertainty": "这是尚未同行评审的预印本，没有公开复现代码或独立验证。服务级告警只是统计筛查信号，不能证明服务商故意操纵；重复调用本身也会增加审计费用。",
+      "confidence": "medium",
+      "sources": [
+        {
+          "publisher": "arXiv",
+          "title": "The More It Says, the More You Pay: A Black-Box Audit of Provider-Side Token Inflation in LLM Services",
+          "url": "https://arxiv.org/abs/2609.20370",
+          "published_at": "2026-09-17T13:28:06Z",
+          "source_type": "research"
+        }
+      ],
+      "section": "ai-frontier",
+      "ai": {
+        "kind": "research-preprint",
+        "topics": ["llm-security", "api-auditing", "token-billing"],
+        "artifact_date": "2026-09-17",
+        "artifact_status": "arXiv v1预印本，尚未同行评审；防御性复现工件仍为计划状态",
+        "technical_takeaway": "利用输出长度对追加扩写干预的边际响应，构造无需可信本地模型的服务级黑盒筛查。",
+        "evidence_level": "一手论文和实验配置可读；无同行评审、公开代码或独立复现",
+        "heat": {
+          "label": "仅确认新近arXiv发布；未核实独立热度信号",
+          "as_of": "2026-09-21T09:15:34+08:00",
+          "signals": [
+            {
+              "platform": "arXiv",
+              "observation": "v1于9月17日13:28:06 UTC提交，采用论文七天观察窗口；新近公开不等于社区认可或独立验证。",
+              "url": "https://arxiv.org/abs/2609.20370"
+            }
+          ]
+        }
+      }
+    }
+  ]
+}

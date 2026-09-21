@@ -1,20 +1,28 @@
 {
   "built_from": "data/index.json",
   "counts": {
-    "ai_events": 98,
-    "digests": 39,
-    "events": 364,
-    "single_source_events": 157,
-    "source_links": 657,
-    "unique_source_urls": 647,
-    "world_events": 266,
+    "ai_events": 100,
+    "digests": 40,
+    "events": 372,
+    "single_source_events": 160,
+    "source_links": 670,
+    "unique_source_urls": 660,
+    "world_events": 272,
     "zero_source_events": 0
   },
   "date_range": {
-    "end": "2026-09-20",
+    "end": "2026-09-21",
     "start": "2026-08-03"
   },
   "dates": [
+    {
+      "ai_event_count": 2,
+      "date": "2026-09-21",
+      "event_count": 8,
+      "single_source_events": 3,
+      "source_links": 13,
+      "world_event_count": 6
+    },
     {
       "ai_event_count": 2,
       "date": "2026-09-20",
@@ -329,6 +337,231 @@
     }
   ],
   "events": [
+    {
+      "category": "science",
+      "confidence": "medium",
+      "date": "2026-09-21",
+      "id": "ptia-token-inflation-blackbox-audit",
+      "regions": [
+        "Asia",
+        "China",
+        "Global"
+      ],
+      "section": "ai",
+      "single_source": true,
+      "source_count": 1,
+      "sources": [
+        {
+          "published_at": "2026-09-17T13:28:06Z",
+          "publisher": "arXiv",
+          "source_type": "research",
+          "title": "The More It Says, the More You Pay: A Black-Box Audit of Provider-Side Token Inflation in LLM Services",
+          "url": "https://arxiv.org/abs/2609.20370"
+        }
+      ],
+      "title": "PTIA预印本提出服务端token膨胀的黑盒审计方法"
+    },
+    {
+      "category": "technology",
+      "confidence": "high",
+      "date": "2026-09-21",
+      "id": "verl-v091-distributed-rl-release",
+      "regions": [
+        "Asia",
+        "China",
+        "Global"
+      ],
+      "section": "ai",
+      "single_source": true,
+      "source_count": 1,
+      "sources": [
+        {
+          "published_at": "2026-09-20T07:24:43Z",
+          "publisher": "verl Project",
+          "source_type": "code",
+          "title": "verl v0.9.1",
+          "url": "https://github.com/verl-project/verl/releases/tag/v0.9.1"
+        }
+      ],
+      "title": "verl v0.9.1更新异步强化学习训练与权重同步"
+    },
+    {
+      "category": "politics",
+      "confidence": "high",
+      "date": "2026-09-21",
+      "id": "australia-unsc-campaign-launched",
+      "regions": [
+        "Australia",
+        "Global",
+        "Oceania"
+      ],
+      "section": "world",
+      "single_source": false,
+      "source_count": 2,
+      "sources": [
+        {
+          "published_at": "2026-09-21",
+          "publisher": "Prime Minister of Australia",
+          "source_type": "primary",
+          "title": "Press conference - United Nations, New York",
+          "url": "https://www.pm.gov.au/media/press-conference-united-nations-new-york"
+        },
+        {
+          "published_at": "2026-09-21",
+          "publisher": "SBS News",
+          "source_type": "regional-media",
+          "title": "Australia launches bid for UN Security Council seat | Morning News Bulletin 21 September 2026",
+          "url": "https://www.sbs.com.au/news/podcast-episode/australia-launches-bid-for-un-security-council-seat-morning-news-bulletin-21-september-2026/4e8vb3mh6"
+        }
+      ],
+      "title": "澳大利亚启动2029—2030年联合国安理会席位竞选"
+    },
+    {
+      "category": "economy",
+      "confidence": "high",
+      "date": "2026-09-21",
+      "id": "canada-france-space-energy-cooperation",
+      "regions": [
+        "Canada",
+        "Europe",
+        "France",
+        "North America"
+      ],
+      "section": "world",
+      "single_source": false,
+      "source_count": 2,
+      "sources": [
+        {
+          "published_at": "2026-09-20",
+          "publisher": "Associated Press via CityNews",
+          "source_type": "wire",
+          "title": "Macron backs Canada as EU associate member as Carney turns toward Europe",
+          "url": "https://toronto.citynews.ca/2026/09/20/macron-and-carney-to-hold-talks-on-strengthening-canada-france-economic-and-defense-ties/"
+        },
+        {
+          "published_at": "2026-09-20",
+          "publisher": "Prime Minister of Canada",
+          "source_type": "primary",
+          "title": "Prime Minister Carney meets with President of France Emmanuel Macron",
+          "url": "https://www.pm.gc.ca/en/news/readouts/2026/09/20/prime-minister-carney-meets-president-france-emmanuel-macron"
+        }
+      ],
+      "title": "加拿大与法国推进航天基础设施和能源合作"
+    },
+    {
+      "category": "politics",
+      "confidence": "high",
+      "date": "2026-09-21",
+      "id": "germany-berlin-mecklenburg-election-results",
+      "regions": [
+        "Europe",
+        "Germany"
+      ],
+      "section": "world",
+      "single_source": false,
+      "source_count": 2,
+      "sources": [
+        {
+          "published_at": "2026-09-20",
+          "publisher": "Associated Press via Local 10",
+          "source_type": "wire",
+          "title": "Merz vows to press ahead with reforms after historic German state election defeat",
+          "url": "https://www.local10.com/business/2026/09/20/merz-vows-to-press-ahead-with-reforms-after-historic-german-state-election-defeat/"
+        },
+        {
+          "published_at": "2026-09-20",
+          "publisher": "Reuters via Internazionale",
+          "source_type": "wire",
+          "title": "Far-left party wins Berlin election, pledging to nationalise housing",
+          "url": "https://www.internazionale.it/ultime-notizie-reuters/2026/09/20/far-left-party-wins-berlin-election-pledging-to-nationalise-housing"
+        }
+      ],
+      "title": "德国州选举初步结果：左翼党在柏林领先，AfD在梅前州领先"
+    },
+    {
+      "category": "politics",
+      "confidence": "high",
+      "date": "2026-09-21",
+      "id": "north-korea-two-missiles-september20",
+      "regions": [
+        "Asia",
+        "Japan",
+        "North Korea",
+        "South Korea"
+      ],
+      "section": "world",
+      "single_source": false,
+      "source_count": 2,
+      "sources": [
+        {
+          "published_at": "2026-09-20",
+          "publisher": "Associated Press via Local 10",
+          "source_type": "wire",
+          "title": "North Korea launches 2 ballistic missiles toward the sea and dials up pressure on the US",
+          "url": "https://www.local10.com/news/2026/09/20/south-korea-says-north-korea-launched-a-ballistic-missile-and-another-projectile-toward-the-sea/"
+        },
+        {
+          "published_at": "2026-09-20",
+          "publisher": "Japan Ministry of Defense",
+          "source_type": "primary",
+          "title": "北朝鮮のミサイル等関連情報",
+          "url": "https://www.mod.go.jp/j/press/news/2026/09/20e.html"
+        }
+      ],
+      "title": "韩方称朝鲜发射两枚短程弹道导弹，日方确认至少一枚"
+    },
+    {
+      "category": "science",
+      "confidence": "high",
+      "date": "2026-09-21",
+      "id": "progress96-station-docking",
+      "regions": [
+        "Global"
+      ],
+      "section": "world",
+      "single_source": true,
+      "source_count": 1,
+      "sources": [
+        {
+          "published_at": "2026-09-19T09:48:00-04:00",
+          "publisher": "NASA",
+          "source_type": "primary",
+          "title": "Progress 96 Cargo Spacecraft Docks to Station to Resupply Crew",
+          "url": "https://www.nasa.gov/blogs/spacestation/2026/09/19/progress-96-cargo-spacecraft-docks-to-station-to-resupply-crew/"
+        }
+      ],
+      "title": "进步96号货运飞船对接国际空间站"
+    },
+    {
+      "category": "politics",
+      "confidence": "high",
+      "date": "2026-09-21",
+      "id": "russia-duma-partial-results-2026",
+      "regions": [
+        "Europe",
+        "Russia"
+      ],
+      "section": "world",
+      "single_source": false,
+      "source_count": 2,
+      "sources": [
+        {
+          "published_at": "2026-09-20",
+          "publisher": "Associated Press via Local 10",
+          "source_type": "wire",
+          "title": "Early results of Russia's tightly controlled parliamentary vote show the main Kremlin party leads",
+          "url": "https://www.local10.com/news/world/2026/09/20/early-results-of-russias-tightly-controlled-parliamentary-vote-show-the-main-kremlin-party-leads/"
+        },
+        {
+          "published_at": "2026-09-20T19:34:00Z",
+          "publisher": "Reuters via AOL",
+          "source_type": "wire",
+          "title": "Russia's ruling pro-Putin party on track to win wartime election after drones strike Moscow",
+          "url": "https://www.aol.com/articles/russian-election-cast-test-support-040259000.html"
+        }
+      ],
+      "title": "俄罗斯杜马选举部分计票显示统一俄罗斯党领先"
+    },
     {
       "category": "technology",
       "confidence": "medium",
@@ -10910,7 +11143,7 @@
       "title": "降级预期推动油价早盘回落约 4 美元"
     }
   ],
-  "latest_digest_generated_at": "2026-09-20T16:24:07+08:00",
+  "latest_digest_generated_at": "2026-09-21T09:15:34+08:00",
   "publishers": [
     {
       "event_count": 135,
@@ -10918,9 +11151,9 @@
       "source_links": 142
     },
     {
-      "event_count": 47,
+      "event_count": 48,
       "name": "arXiv",
-      "source_links": 56
+      "source_links": 57
     },
     {
       "event_count": 19,
@@ -10943,6 +11176,11 @@
       "source_links": 11
     },
     {
+      "event_count": 7,
+      "name": "NASA",
+      "source_links": 8
+    },
+    {
       "event_count": 8,
       "name": "WHO",
       "source_links": 8
@@ -10950,11 +11188,6 @@
     {
       "event_count": 7,
       "name": "AP",
-      "source_links": 7
-    },
-    {
-      "event_count": 6,
-      "name": "NASA",
       "source_links": 7
     },
     {
@@ -10994,6 +11227,11 @@
     },
     {
       "event_count": 5,
+      "name": "Reuters via AOL",
+      "source_links": 5
+    },
+    {
+      "event_count": 5,
       "name": "WMO",
       "source_links": 5
     },
@@ -11024,11 +11262,6 @@
     },
     {
       "event_count": 4,
-      "name": "Reuters via AOL",
-      "source_links": 4
-    },
-    {
-      "event_count": 4,
       "name": "Reuters via Devdiscourse",
       "source_links": 4
     },
@@ -11040,6 +11273,11 @@
     {
       "event_count": 1,
       "name": "AlayaLab",
+      "source_links": 3
+    },
+    {
+      "event_count": 3,
+      "name": "Associated Press via Local 10",
       "source_links": 3
     },
     {
@@ -11060,6 +11298,11 @@
     {
       "event_count": 1,
       "name": "OpenHands",
+      "source_links": 3
+    },
+    {
+      "event_count": 3,
+      "name": "Prime Minister of Canada",
       "source_links": 3
     },
     {
@@ -11095,6 +11338,11 @@
     {
       "event_count": 1,
       "name": "Apodex",
+      "source_links": 2
+    },
+    {
+      "event_count": 2,
+      "name": "Associated Press via CityNews",
       "source_links": 2
     },
     {
@@ -11239,11 +11487,6 @@
     },
     {
       "event_count": 2,
-      "name": "Prime Minister of Canada",
-      "source_links": 2
-    },
-    {
-      "event_count": 2,
       "name": "Prime Minister of India",
       "source_links": 2
     },
@@ -11260,6 +11503,11 @@
     {
       "event_count": 2,
       "name": "Reuters Connect",
+      "source_links": 2
+    },
+    {
+      "event_count": 2,
+      "name": "Reuters via Internazionale",
       "source_links": 2
     },
     {
@@ -11420,11 +11668,6 @@
     {
       "event_count": 1,
       "name": "Assam State Disaster Management Authority",
-      "source_links": 1
-    },
-    {
-      "event_count": 1,
-      "name": "Associated Press via CityNews",
       "source_links": 1
     },
     {
@@ -11634,6 +11877,11 @@
     },
     {
       "event_count": 1,
+      "name": "Japan Ministry of Defense",
+      "source_links": 1
+    },
+    {
+      "event_count": 1,
       "name": "Just Security",
       "source_links": 1
     },
@@ -11834,6 +12082,11 @@
     },
     {
       "event_count": 1,
+      "name": "Prime Minister of Australia",
+      "source_links": 1
+    },
+    {
+      "event_count": 1,
       "name": "PrismML",
       "source_links": 1
     },
@@ -11899,11 +12152,6 @@
     },
     {
       "event_count": 1,
-      "name": "Reuters via Internazionale",
-      "source_links": 1
-    },
-    {
-      "event_count": 1,
       "name": "Reuters via KSL",
       "source_links": 1
     },
@@ -11935,6 +12183,11 @@
     {
       "event_count": 1,
       "name": "SADC",
+      "source_links": 1
+    },
+    {
+      "event_count": 1,
+      "name": "SBS News",
       "source_links": 1
     },
     {
@@ -12114,6 +12367,11 @@
     },
     {
       "event_count": 1,
+      "name": "verl Project",
+      "source_links": 1
+    },
+    {
+      "event_count": 1,
       "name": "Vie publique",
       "source_links": 1
     },
@@ -12190,27 +12448,27 @@
   ],
   "regions": [
     {
-      "event_count": 126,
+      "event_count": 130,
       "name": "Global"
     },
     {
-      "event_count": 73,
-      "name": "North America"
+      "event_count": 74,
+      "name": "Asia"
     },
     {
-      "event_count": 71,
-      "name": "Asia"
+      "event_count": 74,
+      "name": "North America"
     },
     {
       "event_count": 71,
       "name": "United States"
     },
     {
-      "event_count": 58,
+      "event_count": 61,
       "name": "Europe"
     },
     {
-      "event_count": 31,
+      "event_count": 33,
       "name": "China"
     },
     {
@@ -12230,7 +12488,7 @@
       "name": "Ukraine"
     },
     {
-      "event_count": 12,
+      "event_count": 13,
       "name": "Russia"
     },
     {
@@ -12246,12 +12504,12 @@
       "name": "美国"
     },
     {
-      "event_count": 8,
-      "name": "Israel"
+      "event_count": 9,
+      "name": "Japan"
     },
     {
       "event_count": 8,
-      "name": "Japan"
+      "name": "Israel"
     },
     {
       "event_count": 8,
@@ -12259,11 +12517,19 @@
     },
     {
       "event_count": 7,
+      "name": "France"
+    },
+    {
+      "event_count": 7,
+      "name": "Oceania"
+    },
+    {
+      "event_count": 7,
       "name": "中国"
     },
     {
       "event_count": 6,
-      "name": "France"
+      "name": "Canada"
     },
     {
       "event_count": 6,
@@ -12271,15 +12537,7 @@
     },
     {
       "event_count": 6,
-      "name": "Oceania"
-    },
-    {
-      "event_count": 6,
       "name": "Syria"
-    },
-    {
-      "event_count": 5,
-      "name": "Canada"
     },
     {
       "event_count": 5,
@@ -12303,11 +12561,19 @@
     },
     {
       "event_count": 4,
+      "name": "Germany"
+    },
+    {
+      "event_count": 4,
       "name": "Italy"
     },
     {
       "event_count": 4,
       "name": "Nepal"
+    },
+    {
+      "event_count": 4,
+      "name": "South Korea"
     },
     {
       "event_count": 4,
@@ -12331,7 +12597,7 @@
     },
     {
       "event_count": 3,
-      "name": "Germany"
+      "name": "Australia"
     },
     {
       "event_count": 3,
@@ -12352,10 +12618,6 @@
     {
       "event_count": 3,
       "name": "South America"
-    },
-    {
-      "event_count": 3,
-      "name": "South Korea"
     },
     {
       "event_count": 3,
@@ -12384,10 +12646,6 @@
     {
       "event_count": 2,
       "name": "Afghanistan"
-    },
-    {
-      "event_count": 2,
-      "name": "Australia"
     },
     {
       "event_count": 2,
@@ -12440,6 +12698,10 @@
     {
       "event_count": 2,
       "name": "North Atlantic"
+    },
+    {
+      "event_count": 2,
+      "name": "North Korea"
     },
     {
       "event_count": 2,
@@ -12743,10 +13005,6 @@
     },
     {
       "event_count": 1,
-      "name": "North Korea"
-    },
-    {
-      "event_count": 1,
       "name": "Okinawa"
     },
     {
@@ -12897,24 +13155,24 @@
   "schema_version": 1,
   "source_types": [
     {
-      "event_count": 197,
+      "event_count": 201,
       "name": "wire",
-      "source_links": 225
+      "source_links": 231
     },
     {
-      "event_count": 189,
+      "event_count": 193,
       "name": "primary",
-      "source_links": 212
+      "source_links": 216
     },
     {
-      "event_count": 41,
+      "event_count": 42,
       "name": "code",
-      "source_links": 70
+      "source_links": 71
     },
     {
-      "event_count": 54,
+      "event_count": 55,
       "name": "research",
-      "source_links": 70
+      "source_links": 71
     },
     {
       "event_count": 24,
@@ -12922,9 +13180,9 @@
       "source_links": 36
     },
     {
-      "event_count": 22,
+      "event_count": 23,
       "name": "regional-media",
-      "source_links": 23
+      "source_links": 24
     },
     {
       "event_count": 21,
