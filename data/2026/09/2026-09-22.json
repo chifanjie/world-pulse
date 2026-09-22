@@ -1,0 +1,268 @@
+{
+  "date": "2026-09-22",
+  "timezone": "Asia/Shanghai",
+  "generated_at": "2026-09-22T09:13:03+08:00",
+  "publication_status": "current",
+  "observation_cutoff": "2026-09-22T09:13:03+08:00",
+  "overview": "气候周开幕强调清洁能源转型；扎波罗热遭夜间袭击；智利与摩洛哥推进自贸谈判；穆萨莱姆讨论加息必要性；WHO发布AI研究伦理建议；毅力号研究揭示多阶段水活动。AI雷达关注MiMo‑V2.6与RecreationWorld。",
+  "digest_path": "digests/2026/09/2026-09-22.md",
+  "ai_radar": {
+    "selection_as_of": "2026-09-22T09:13:03+08:00",
+    "item_ids": [
+      "mimo-v26-pro-rl-open-weights",
+      "recreationworld-hybrid-computer-use-benchmark"
+    ]
+  },
+  "items": [
+    {
+      "id": "climate-week-2026-opening",
+      "category": "climate-environment",
+      "regions": [
+        "Global",
+        "Oceania",
+        "Australia",
+        "Pacific"
+      ],
+      "title": "纽约气候周开幕，澳大利亚呼吁加快清洁能源转型",
+      "summary": "阿尔巴尼斯9月21日在纽约气候周开幕演讲中呼吁加快电气化和清洁能源转型，并强调太平洋岛国主导的气候融资与适应行动。",
+      "why_it_matters": "气候周为政府、企业和投资者在COP31前讨论能源与适应资金提供平台。",
+      "uncertainty": "本条记录已发表的演讲，不把重申既有减排目标或资助安排写成新承诺，也不将会议讨论等同于实际减排。",
+      "confidence": "high",
+      "sources": [
+        {
+          "publisher": "Prime Minister of Australia",
+          "title": "Climate Week Keynote Address",
+          "url": "https://www.pm.gov.au/media/climate-week-keynote-address",
+          "published_at": "2026-09-21",
+          "source_type": "primary"
+        }
+      ]
+    },
+    {
+      "id": "zaporizhzhia-september21-drone-strikes",
+      "category": "politics",
+      "regions": [
+        "Europe",
+        "Ukraine",
+        "Russia"
+      ],
+      "title": "扎波罗热夜间遭袭，乌方通报住宅及商场等建筑受损",
+      "summary": "据美联社，俄军无人机在当地时间9月20日深夜至21日凌晨袭击扎波罗热。泽连斯基21日称住宅、大学和商场受损，5人受伤；路透社现场图片说明确认商场遇袭后的消防作业。",
+      "why_it_matters": "联合国大会高级别周开始之际，城市仍遭攻击，凸显停火外交与地面安全之间的距离。",
+      "uncertainty": "5名伤者是乌方当时通报，不是独立核实的最终数字；现场图片仅交叉支持商场受袭及日期。俄方称攻击军事相关设施，其目标性质主张未获独立证实。",
+      "confidence": "high",
+      "sources": [
+        {
+          "publisher": "Associated Press via CompuServe",
+          "title": "Russia targets Zaporizhzhia after Ukraine launches 1,000-drone weekend barrage",
+          "url": "https://www.compuserve.com/news/world/story/0001/20260921/445b619fc9b2d002df1edaac8b320d09",
+          "published_at": "2026-09-21T09:52:00-04:00",
+          "source_type": "wire"
+        },
+        {
+          "publisher": "Reuters",
+          "title": "Aftermath of a Russian drone attack in Zaporizhzhia",
+          "url": "https://www.reutersconnect.com/item/aftermath-of-a-russian-drone-attack-in-zaporizhzhia/dGFnOnJldXRlcnMuY29tLDIwMjY6bmV3c21sX1JDMkVOTkFCNUxDWQ",
+          "published_at": "2026-09-21",
+          "source_type": "wire"
+        }
+      ]
+    },
+    {
+      "id": "chile-morocco-fta-negotiating-terms",
+      "category": "economy",
+      "regions": [
+        "South America",
+        "Chile",
+        "Africa",
+        "Morocco"
+      ],
+      "title": "智利与摩洛哥签署自贸谈判工作条款",
+      "summary": "两国外长9月21日在纽约签署自贸谈判工作条款。智利外交部联合声明和路透社均确认这一进展；声明同时表达了智利对摩洛哥西撒哈拉主张的支持。",
+      "why_it_matters": "谈判连接南美与北非市场，也与区域外交立场调整相伴。",
+      "uncertainty": "签署谈判基础文件不等于自贸协定已谈成或生效。西撒哈拉地位仍有争议，双边支持不等于争议已获各方解决。",
+      "confidence": "high",
+      "sources": [
+        {
+          "publisher": "Ministerio de Relaciones Exteriores de Chile",
+          "title": "Comunicado conjunto Chile - Marruecos",
+          "url": "https://www.minrel.gob.cl/sala-de-prensa/comunicado-conjunto-chile-marruecos",
+          "published_at": "2026-09-21",
+          "source_type": "primary"
+        },
+        {
+          "publisher": "Reuters via Devdiscourse",
+          "title": "Morocco, Chile to begin negotiating a free-trade agreement",
+          "url": "https://www.devdiscourse.com/article/international/3980200-morocco-chile-to-begin-negotiating-a-free-trade-agreement",
+          "published_at": "2026-09-22T05:19:00+05:30",
+          "source_type": "wire"
+        }
+      ]
+    },
+    {
+      "id": "musalem-september21-inflation-interview",
+      "category": "economy",
+      "regions": [
+        "North America",
+        "United States"
+      ],
+      "title": "穆萨莱姆称美联储可能需要进一步加息",
+      "summary": "圣路易斯联储主席穆萨莱姆9月21日接受路透社采访时表示，强劲需求与反复的供给冲击共同推高通胀风险，可能需要进一步收紧政策，并倾向较早、渐进地行动。",
+      "why_it_matters": "这番意见反映部分决策者对价格压力持续性的担忧，可能影响市场对利率路径的判断。",
+      "uncertainty": "这是个人政策观点，不是新的联邦公开市场委员会决定；穆萨莱姆今年没有投票权，也未给出下一次会议的具体行动。",
+      "confidence": "high",
+      "sources": [
+        {
+          "publisher": "Reuters via MarketScreener",
+          "title": "Fed's Musalem says more rate hikes likely needed to quell inflation",
+          "url": "https://www.marketscreener.com/news/fed-s-musalem-says-more-rate-hikes-likely-needed-to-quell-inflation-ce785adbde80f621",
+          "published_at": "2026-09-21T14:27:00-04:00",
+          "source_type": "wire"
+        }
+      ]
+    },
+    {
+      "id": "who-ai-health-research-ethics-report",
+      "category": "health-society",
+      "regions": [
+        "Global"
+      ],
+      "title": "WHO报告呼吁加强AI健康研究的伦理监督",
+      "summary": "WHO9月21日介绍新报告，建议把AI健康研究伦理监督贯穿设计、评审、发表及实施阶段，并为伦理委员会补充专业知识、培训和资源。",
+      "why_it_matters": "研究使用AI时，偏见、隐私和责任风险不能只靠逐项技术性能测试解决。",
+      "uncertainty": "这是研究治理建议，不是新生效的强制法规，也不证明任何具体医疗AI已经安全有效；各地实施仍需资源和制度配合。",
+      "confidence": "high",
+      "sources": [
+        {
+          "publisher": "World Health Organization",
+          "title": "New WHO report calls for stronger ethics oversight of AI-related health research",
+          "url": "https://www.who.int/philippines/news/detail-global/21-09-2026-new-who-report-calls-for-stronger-ethics-oversight-of-ai-related-health-research",
+          "published_at": "2026-09-21",
+          "source_type": "primary"
+        }
+      ]
+    },
+    {
+      "id": "perseverance-margin-unit-water-history",
+      "category": "science",
+      "regions": [
+        "Global"
+      ],
+      "title": "毅力号岩石分析揭示火星多阶段水活动",
+      "summary": "NASA/JPL9月21日介绍新研究：杰泽罗陨坑Margin Unit的火成岩记录了至少三次水作用，而非简单的湖岸沉积历史；分析利用毅力号SuperCam观测。",
+      "why_it_matters": "矿物变化为重建早期火星的地下水、湖泊与宜居环境提供线索。",
+      "uncertainty": "研究能推断事件先后，但不能确定其具体年代；水作用与潜在宜居性不等于已经发现生命。",
+      "confidence": "high",
+      "sources": [
+        {
+          "publisher": "NASA Jet Propulsion Laboratory",
+          "title": "NASA Discovery Reveals Complex Water Systems on Early Mars",
+          "url": "https://www.jpl.nasa.gov/news/nasa-discovery-reveals-complex-water-systems-on-early-mars/",
+          "published_at": "2026-09-21",
+          "source_type": "primary"
+        }
+      ]
+    },
+    {
+      "id": "mimo-v26-pro-rl-open-weights",
+      "category": "technology",
+      "regions": [
+        "Global",
+        "Asia",
+        "China"
+      ],
+      "title": "MiMo‑V2.6公开模型工件，强化混合任务后训练",
+      "summary": "小米MiMo公开V2.6系列模型卡与权重。Pro‑RL卡片描述了多模态、百万token上下文，以及把编码、通用智能体等任务混合进行异步强化学习的方案。",
+      "why_it_matters": "公开工件使研究者能够检查混合任务训练和智能体评分设计。",
+      "uncertainty": "能力及基准成绩为团队自报，尚无本期可核实的独立复现；长上下文支持不等于在所有长任务中都可靠。",
+      "confidence": "high",
+      "sources": [
+        {
+          "publisher": "Xiaomi MiMo",
+          "title": "MiMo-V2.6-Pro-RL model card",
+          "url": "https://huggingface.co/XiaomiMiMo/MiMo-V2.6-Pro-RL",
+          "published_at": "2026-09-21",
+          "source_type": "model-card"
+        }
+      ],
+      "section": "ai-frontier",
+      "ai": {
+        "kind": "open-weight-model-release",
+        "topics": [
+          "multimodal-models",
+          "reinforcement-learning",
+          "agents"
+        ],
+        "artifact_date": "2026-09-21",
+        "artifact_status": "模型卡与权重公开；本期未运行模型",
+        "technical_takeaway": "在同一次异步强化学习中混合不同任务，并以组内智能体评分区分通过测试的轨迹。",
+        "evidence_level": "官方模型卡可读，训练效果为作者自报；未独立复现",
+        "heat": {
+          "label": "仅确认近期公开工件，不声称热度排名",
+          "as_of": "2026-09-22T09:13:03+08:00",
+          "signals": [
+            {
+              "platform": "Hugging Face",
+              "observation": "官方仓库元数据记录9月21日创建，本轮已读取完整模型卡并确认权重公开；创建时间不等于独立测得的首次公开时刻，不据此声称热度排名。",
+              "url": "https://huggingface.co/XiaomiMiMo/MiMo-V2.6-Pro-RL"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "recreationworld-hybrid-computer-use-benchmark",
+      "category": "science",
+      "regions": [
+        "Global",
+        "Asia",
+        "China"
+      ],
+      "title": "RecreationWorld预印本评测界面探索与软件重建",
+      "summary": "9月18日提交的RecreationWorld预印本提出跨Ubuntu、macOS、Windows、Android和Web的评测框架：智能体探索运行中的参考应用，编写实现并验证行为；RecreationBench包含250项任务。",
+      "why_it_matters": "评测把界面操作与编码放在同一工作流中，检验外观相似之外的交互与计算行为。",
+      "uncertainty": "这是预印本，结果来自作者评测；有限且冻结的测试不能证明所有状态完全等价，也不能替代真实部署验证。",
+      "confidence": "medium",
+      "sources": [
+        {
+          "publisher": "arXiv",
+          "title": "RecreationWorld: Scalable and Verifiable Environments for Hybrid Computer-Use Agents",
+          "url": "https://arxiv.org/abs/2609.22000",
+          "published_at": "2026-09-18T17:00:56Z",
+          "source_type": "research"
+        },
+        {
+          "publisher": "Qwen",
+          "title": "RecreationWorld official repository",
+          "url": "https://github.com/QwenLM/RecreationWorld",
+          "published_at": "2026-09-21",
+          "source_type": "code"
+        }
+      ],
+      "section": "ai-frontier",
+      "ai": {
+        "kind": "research-preprint-and-benchmark",
+        "topics": [
+          "computer-use-agents",
+          "software-recreation",
+          "behavioral-evaluation"
+        ],
+        "artifact_date": "2026-09-18",
+        "artifact_status": "arXiv v1预印本，未见同行评审记录；官方项目公开评测工件，本期未运行",
+        "technical_takeaway": "以运行中的参考应用为行为基准，结合程序断言和视觉检查评测重建结果。",
+        "evidence_level": "论文及官方项目可核查；按未同行评审的预印本处理，本期未独立复现",
+        "heat": {
+          "label": "按七天论文窗口纳入；公开工件不是独立认可",
+          "as_of": "2026-09-22T09:13:03+08:00",
+          "signals": [
+            {
+              "platform": "arXiv",
+              "observation": "v1于9月18日17:00:56 UTC提交；无可核实的独立热度排名。",
+              "url": "https://arxiv.org/abs/2609.22000"
+            }
+          ]
+        }
+      }
+    }
+  ]
+}
