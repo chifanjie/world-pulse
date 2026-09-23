@@ -1,20 +1,28 @@
 {
   "built_from": "data/index.json",
   "counts": {
-    "ai_events": 102,
-    "digests": 41,
-    "events": 380,
-    "single_source_events": 165,
-    "source_links": 681,
-    "unique_source_urls": 671,
-    "world_events": 278,
+    "ai_events": 104,
+    "digests": 42,
+    "events": 389,
+    "single_source_events": 170,
+    "source_links": 695,
+    "unique_source_urls": 685,
+    "world_events": 285,
     "zero_source_events": 0
   },
   "date_range": {
-    "end": "2026-09-22",
+    "end": "2026-09-23",
     "start": "2026-08-03"
   },
   "dates": [
+    {
+      "ai_event_count": 2,
+      "date": "2026-09-23",
+      "event_count": 9,
+      "single_source_events": 5,
+      "source_links": 14,
+      "world_event_count": 7
+    },
     {
       "ai_event_count": 2,
       "date": "2026-09-22",
@@ -345,6 +353,263 @@
     }
   ],
   "events": [
+    {
+      "category": "technology",
+      "confidence": "high",
+      "date": "2026-09-23",
+      "id": "claude-opus-55-release",
+      "regions": [
+        "Global",
+        "North America",
+        "United States"
+      ],
+      "section": "ai",
+      "single_source": true,
+      "source_count": 1,
+      "sources": [
+        {
+          "published_at": "2026-09-22",
+          "publisher": "Anthropic",
+          "source_type": "primary",
+          "title": "Introducing Claude Opus 5.5",
+          "url": "https://www.anthropic.com/claude-opus-5-5"
+        }
+      ],
+      "title": "Claude Opus 5.5发布，聚焦长程智能体效率"
+    },
+    {
+      "category": "technology",
+      "confidence": "high",
+      "date": "2026-09-23",
+      "id": "openai-gpt6-sol-luna-release",
+      "regions": [
+        "Global",
+        "North America",
+        "United States"
+      ],
+      "section": "ai",
+      "single_source": false,
+      "source_count": 3,
+      "sources": [
+        {
+          "published_at": "2026-09-22（模型发布日；文档未单列发布日期）",
+          "publisher": "OpenAI",
+          "source_type": "model-card",
+          "title": "GPT-6 Luna model documentation",
+          "url": "https://developers.openai.com/api/docs/models/gpt-6-luna"
+        },
+        {
+          "published_at": "2026-09-22（模型发布日；文档未单列发布日期）",
+          "publisher": "OpenAI",
+          "source_type": "model-card",
+          "title": "GPT-6 Sol model documentation",
+          "url": "https://developers.openai.com/api/docs/models/gpt-6-sol"
+        },
+        {
+          "published_at": "2026-09-22",
+          "publisher": "OpenAI",
+          "source_type": "primary",
+          "title": "OpenAI API changelog — GPT-6 Sol and GPT-6 Luna",
+          "url": "https://developers.openai.com/api/docs/changelog"
+        }
+      ],
+      "title": "OpenAI发布GPT-6 Sol与Luna"
+    },
+    {
+      "category": "climate-environment",
+      "confidence": "high",
+      "date": "2026-09-23",
+      "id": "canada-2025-vehicle-registration-release",
+      "regions": [
+        "Canada",
+        "North America"
+      ],
+      "section": "world",
+      "single_source": true,
+      "source_count": 1,
+      "sources": [
+        {
+          "published_at": "2026-09-22",
+          "publisher": "Statistics Canada",
+          "source_type": "primary",
+          "title": "Vehicle registrations, 2025",
+          "url": "https://www150.statcan.gc.ca/n1/daily-quotidien/260922/dq260922c-eng.htm"
+        }
+      ],
+      "title": "加拿大2025年车辆登记数据呈现车队电气化进度"
+    },
+    {
+      "category": "economy",
+      "confidence": "high",
+      "date": "2026-09-23",
+      "id": "eu-philippines-fta-substantial-agreement",
+      "regions": [
+        "Asia",
+        "Europe",
+        "European Union",
+        "Philippines"
+      ],
+      "section": "world",
+      "single_source": false,
+      "source_count": 2,
+      "sources": [
+        {
+          "published_at": "2026-09-22",
+          "publisher": "Associated Press",
+          "source_type": "wire",
+          "title": "The EU moves closer to free trade deal with Philippines amid global tensions",
+          "url": "https://apnews.com/article/eu-philippines-free-trade-deal-european-union-85e74be2f192e180614a4b763ccfeae9"
+        },
+        {
+          "published_at": "2026-09-22",
+          "publisher": "European External Action Service / EU Delegation to the Philippines",
+          "source_type": "primary",
+          "title": "EU and Philippines reach substantial agreement on Free Trade Agreement",
+          "url": "https://www.eeas.europa.eu/delegations/philippines/eu-and-philippines-reach-substantial-agreement-free-trade-agreement_en"
+        }
+      ],
+      "title": "欧盟与菲律宾就自贸协定达成实质性一致"
+    },
+    {
+      "category": "politics",
+      "confidence": "high",
+      "date": "2026-09-23",
+      "id": "eu-russia-individual-sanctions-three-year-renewal",
+      "regions": [
+        "Europe",
+        "European Union",
+        "Russia",
+        "Ukraine"
+      ],
+      "section": "world",
+      "single_source": false,
+      "source_count": 2,
+      "sources": [
+        {
+          "published_at": "2026-09-22",
+          "publisher": "Council of the European Union",
+          "source_type": "primary",
+          "title": "Ukraine's territorial integrity: EU extends individual listings for three years",
+          "url": "https://www.consilium.europa.eu/en/press/press-releases/2026/09/22/ukraine-s-territorial-integrity-eu-extends-individual-listings-for-further-three-years/"
+        },
+        {
+          "published_at": "2026-09-22",
+          "publisher": "Reuters via MarketScreener",
+          "source_type": "wire",
+          "title": "EU renews Russia sanctions, drops Russian billionaires Usmanov and Fridman",
+          "url": "https://www.marketscreener.com/news/eu-renews-russia-sanctions-drops-russian-billionaires-usmanov-and-fridman-ce785ad8df8df226"
+        }
+      ],
+      "title": "欧盟将对俄个人及实体制裁延长三年"
+    },
+    {
+      "category": "science",
+      "confidence": "high",
+      "date": "2026-09-23",
+      "id": "fire-amoeba-eukaryote-heat-record-cell",
+      "regions": [
+        "Global",
+        "North America",
+        "United States"
+      ],
+      "section": "world",
+      "single_source": true,
+      "source_count": 1,
+      "sources": [
+        {
+          "published_at": "2026-09-22",
+          "publisher": "NASA Science",
+          "source_type": "primary",
+          "title": "NASA-Funded Research Finds Complex Life Defying Record Heat",
+          "url": "https://science.nasa.gov/science-research/planetary-science/nasa-funded-research-finds-complex-life-defying-record-heat/"
+        }
+      ],
+      "title": "新发表研究报告真核生物在63°C仍能分裂"
+    },
+    {
+      "category": "health-society",
+      "confidence": "high",
+      "date": "2026-09-23",
+      "id": "lake-chad-cholera-who-ksrelief-agreement",
+      "regions": [
+        "Africa",
+        "Cameroon",
+        "Chad",
+        "Mali",
+        "Niger",
+        "Nigeria"
+      ],
+      "section": "world",
+      "single_source": true,
+      "source_count": 1,
+      "sources": [
+        {
+          "published_at": "2026-09-22",
+          "publisher": "WHO Regional Office for Africa",
+          "source_type": "primary",
+          "title": "KSrelief and WHO Sign US$ 5.3 million agreement to combat cholera in the Lake Chad Basin",
+          "url": "https://www.afro.who.int/news/ksrelief-and-who-sign-us-53-million-agreement-combat-cholera-lake-chad-basin"
+        }
+      ],
+      "title": "WHO与KSrelief签署约533万美元霍乱应对协议"
+    },
+    {
+      "category": "economy",
+      "confidence": "high",
+      "date": "2026-09-23",
+      "id": "rba-bullock-supply-shocks-september22",
+      "regions": [
+        "Australia",
+        "Oceania"
+      ],
+      "section": "world",
+      "single_source": true,
+      "source_count": 1,
+      "sources": [
+        {
+          "published_at": "2026-09-22",
+          "publisher": "Reserve Bank of Australia",
+          "source_type": "primary",
+          "title": "Fireside Chat at the Committee for Economic Development of Australia (CEDA)",
+          "url": "https://www.rba.gov.au/speeches/2026/sp-gov-2026-09-22.html"
+        }
+      ],
+      "title": "澳洲联储行长强调遏制供给冲击的二轮通胀效应"
+    },
+    {
+      "category": "politics",
+      "confidence": "high",
+      "date": "2026-09-23",
+      "id": "us-denmark-greenland-arctic-security-accord",
+      "regions": [
+        "Arctic",
+        "Denmark",
+        "Europe",
+        "Greenland",
+        "North America",
+        "United States"
+      ],
+      "section": "world",
+      "single_source": false,
+      "source_count": 2,
+      "sources": [
+        {
+          "published_at": "2026-09-22",
+          "publisher": "Associated Press",
+          "source_type": "wire",
+          "title": "Trump signs US-Denmark-Greenland agreement to bolster Arctic security after prolonged tensions",
+          "url": "https://apnews.com/article/trump-greenland-denmark-security-agreement-084ac2a82952c2dff403c48bd3564113"
+        },
+        {
+          "published_at": "2026-09-22",
+          "publisher": "The White House",
+          "source_type": "primary",
+          "title": "Agreement supplementing the 1951 Defense Agreement concerning Greenland",
+          "url": "https://www.whitehouse.gov/briefings-statements/2026/09/agreement-between-the-government-of-the-united-states-of-america-and-the-government-of-the-kingdom-of-denmark-together-with-the-government-of-greenland-to-amend-and-supplement-the-agreement-of-27-apri/"
+        }
+      ],
+      "title": "美国、丹麦与格陵兰签署北极安全协议"
+    },
     {
       "category": "technology",
       "confidence": "high",
@@ -11361,12 +11626,12 @@
       "title": "降级预期推动油价早盘回落约 4 美元"
     }
   ],
-  "latest_digest_generated_at": "2026-09-22T09:13:03+08:00",
+  "latest_digest_generated_at": "2026-09-23T10:47:46+08:00",
   "publishers": [
     {
-      "event_count": 135,
+      "event_count": 137,
       "name": "Associated Press",
-      "source_links": 142
+      "source_links": 144
     },
     {
       "event_count": 49,
@@ -11384,14 +11649,19 @@
       "source_links": 15
     },
     {
-      "event_count": 6,
-      "name": "Anthropic",
-      "source_links": 11
+      "event_count": 5,
+      "name": "OpenAI",
+      "source_links": 14
     },
     {
-      "event_count": 4,
-      "name": "OpenAI",
-      "source_links": 11
+      "event_count": 7,
+      "name": "Anthropic",
+      "source_links": 12
+    },
+    {
+      "event_count": 9,
+      "name": "Reuters via MarketScreener",
+      "source_links": 9
     },
     {
       "event_count": 7,
@@ -11405,17 +11675,17 @@
     },
     {
       "event_count": 8,
-      "name": "Reuters via MarketScreener",
-      "source_links": 8
-    },
-    {
-      "event_count": 8,
       "name": "WHO",
       "source_links": 8
     },
     {
       "event_count": 7,
       "name": "AP",
+      "source_links": 7
+    },
+    {
+      "event_count": 7,
+      "name": "The White House",
       "source_links": 7
     },
     {
@@ -11426,11 +11696,6 @@
     {
       "event_count": 3,
       "name": "GitHub",
-      "source_links": 6
-    },
-    {
-      "event_count": 6,
-      "name": "The White House",
       "source_links": 6
     },
     {
@@ -11476,6 +11741,11 @@
     {
       "event_count": 3,
       "name": "NVIDIA",
+      "source_links": 4
+    },
+    {
+      "event_count": 3,
+      "name": "Reserve Bank of Australia",
       "source_links": 4
     },
     {
@@ -11526,11 +11796,6 @@
     {
       "event_count": 1,
       "name": "Pydantic / GitHub",
-      "source_links": 3
-    },
-    {
-      "event_count": 2,
-      "name": "Reserve Bank of Australia",
       "source_links": 3
     },
     {
@@ -11765,6 +12030,11 @@
     },
     {
       "event_count": 2,
+      "name": "Statistics Canada",
+      "source_links": 2
+    },
+    {
+      "event_count": 2,
       "name": "U.S. Bureau of Labor Statistics",
       "source_links": 2
     },
@@ -11955,6 +12225,11 @@
     },
     {
       "event_count": 1,
+      "name": "Council of the European Union",
+      "source_links": 1
+    },
+    {
+      "event_count": 1,
       "name": "DeepGlint",
       "source_links": 1
     },
@@ -11996,6 +12271,11 @@
     {
       "event_count": 1,
       "name": "European Central Bank",
+      "source_links": 1
+    },
+    {
+      "event_count": 1,
+      "name": "European External Action Service / EU Delegation to the Philippines",
       "source_links": 1
     },
     {
@@ -12235,6 +12515,11 @@
     },
     {
       "event_count": 1,
+      "name": "NASA Science",
+      "source_links": 1
+    },
+    {
+      "event_count": 1,
       "name": "National Hurricane Center and Central Pacific Hurricane Center",
       "source_links": 1
     },
@@ -12445,11 +12730,6 @@
     },
     {
       "event_count": 1,
-      "name": "Statistics Canada",
-      "source_links": 1
-    },
-    {
-      "event_count": 1,
       "name": "StepGuard authors",
       "source_links": 1
     },
@@ -12615,6 +12895,11 @@
     },
     {
       "event_count": 1,
+      "name": "WHO Regional Office for Africa",
+      "source_links": 1
+    },
+    {
+      "event_count": 1,
       "name": "World Food Programme",
       "source_links": 1
     },
@@ -12686,23 +12971,23 @@
   ],
   "regions": [
     {
-      "event_count": 135,
+      "event_count": 138,
       "name": "Global"
     },
     {
-      "event_count": 76,
-      "name": "Asia"
-    },
-    {
-      "event_count": 75,
+      "event_count": 80,
       "name": "North America"
     },
     {
-      "event_count": 72,
+      "event_count": 77,
+      "name": "Asia"
+    },
+    {
+      "event_count": 76,
       "name": "United States"
     },
     {
-      "event_count": 62,
+      "event_count": 65,
       "name": "Europe"
     },
     {
@@ -12718,15 +13003,15 @@
       "name": "Middle East"
     },
     {
-      "event_count": 24,
+      "event_count": 25,
       "name": "Africa"
     },
     {
-      "event_count": 16,
+      "event_count": 17,
       "name": "Ukraine"
     },
     {
-      "event_count": 14,
+      "event_count": 15,
       "name": "Russia"
     },
     {
@@ -12746,16 +13031,20 @@
       "name": "Japan"
     },
     {
+      "event_count": 9,
+      "name": "Oceania"
+    },
+    {
       "event_count": 8,
       "name": "Israel"
     },
     {
       "event_count": 8,
-      "name": "Oceania"
+      "name": "欧洲"
     },
     {
-      "event_count": 8,
-      "name": "欧洲"
+      "event_count": 7,
+      "name": "Canada"
     },
     {
       "event_count": 7,
@@ -12767,15 +13056,15 @@
     },
     {
       "event_count": 6,
-      "name": "Canada"
-    },
-    {
-      "event_count": 6,
       "name": "India"
     },
     {
       "event_count": 6,
       "name": "Syria"
+    },
+    {
+      "event_count": 5,
+      "name": "Australia"
     },
     {
       "event_count": 5,
@@ -12791,15 +13080,15 @@
     },
     {
       "event_count": 4,
-      "name": "Australia"
-    },
-    {
-      "event_count": 4,
       "name": "Brazil"
     },
     {
       "event_count": 4,
       "name": "Colombia"
+    },
+    {
+      "event_count": 4,
+      "name": "European Union"
     },
     {
       "event_count": 4,
@@ -12843,6 +13132,10 @@
     },
     {
       "event_count": 3,
+      "name": "Denmark"
+    },
+    {
+      "event_count": 3,
       "name": "Lebanon"
     },
     {
@@ -12852,6 +13145,10 @@
     {
       "event_count": 3,
       "name": "Morocco"
+    },
+    {
+      "event_count": 3,
+      "name": "Nigeria"
     },
     {
       "event_count": 3,
@@ -12903,10 +13200,6 @@
     },
     {
       "event_count": 2,
-      "name": "Denmark"
-    },
-    {
-      "event_count": 2,
       "name": "East Asia"
     },
     {
@@ -12919,11 +13212,11 @@
     },
     {
       "event_count": 2,
-      "name": "European Union"
+      "name": "Gaza"
     },
     {
       "event_count": 2,
-      "name": "Gaza"
+      "name": "Greenland"
     },
     {
       "event_count": 2,
@@ -12932,10 +13225,6 @@
     {
       "event_count": 2,
       "name": "Myanmar"
-    },
-    {
-      "event_count": 2,
-      "name": "Nigeria"
     },
     {
       "event_count": 2,
@@ -13063,6 +13352,10 @@
     },
     {
       "event_count": 1,
+      "name": "Arctic"
+    },
+    {
+      "event_count": 1,
       "name": "Arizona"
     },
     {
@@ -13107,6 +13400,10 @@
     },
     {
       "event_count": 1,
+      "name": "Cameroon"
+    },
+    {
+      "event_count": 1,
       "name": "Central Africa"
     },
     {
@@ -13120,6 +13417,10 @@
     {
       "event_count": 1,
       "name": "Central Europe"
+    },
+    {
+      "event_count": 1,
+      "name": "Chad"
     },
     {
       "event_count": 1,
@@ -13164,10 +13465,6 @@
     {
       "event_count": 1,
       "name": "Greece"
-    },
-    {
-      "event_count": 1,
-      "name": "Greenland"
     },
     {
       "event_count": 1,
@@ -13231,6 +13528,10 @@
     },
     {
       "event_count": 1,
+      "name": "Mali"
+    },
+    {
+      "event_count": 1,
       "name": "Mediterranean"
     },
     {
@@ -13240,6 +13541,10 @@
     {
       "event_count": 1,
       "name": "Nevada"
+    },
+    {
+      "event_count": 1,
+      "name": "Niger"
     },
     {
       "event_count": 1,
@@ -13260,6 +13565,10 @@
     {
       "event_count": 1,
       "name": "Panama"
+    },
+    {
+      "event_count": 1,
+      "name": "Philippines"
     },
     {
       "event_count": 1,
@@ -13397,14 +13706,14 @@
   "schema_version": 1,
   "source_types": [
     {
-      "event_count": 204,
+      "event_count": 207,
       "name": "wire",
-      "source_links": 235
+      "source_links": 238
     },
     {
-      "event_count": 197,
+      "event_count": 206,
       "name": "primary",
-      "source_links": 220
+      "source_links": 229
     },
     {
       "event_count": 43,
@@ -13417,9 +13726,9 @@
       "source_links": 72
     },
     {
-      "event_count": 25,
+      "event_count": 26,
       "name": "model-card",
-      "source_links": 37
+      "source_links": 39
     },
     {
       "event_count": 23,
