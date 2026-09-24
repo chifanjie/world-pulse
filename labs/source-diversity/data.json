@@ -1,20 +1,28 @@
 {
   "built_from": "data/index.json",
   "counts": {
-    "ai_events": 104,
-    "digests": 42,
-    "events": 389,
-    "single_source_events": 170,
-    "source_links": 695,
-    "unique_source_urls": 685,
-    "world_events": 285,
+    "ai_events": 107,
+    "digests": 43,
+    "events": 400,
+    "single_source_events": 171,
+    "source_links": 718,
+    "unique_source_urls": 708,
+    "world_events": 293,
     "zero_source_events": 0
   },
   "date_range": {
-    "end": "2026-09-23",
+    "end": "2026-09-24",
     "start": "2026-08-03"
   },
   "dates": [
+    {
+      "ai_event_count": 3,
+      "date": "2026-09-24",
+      "event_count": 11,
+      "single_source_events": 1,
+      "source_links": 23,
+      "world_event_count": 8
+    },
     {
       "ai_event_count": 2,
       "date": "2026-09-23",
@@ -353,6 +361,343 @@
     }
   ],
   "events": [
+    {
+      "category": "technology",
+      "confidence": "high",
+      "date": "2026-09-24",
+      "id": "ruler-instance-aware-svg-rewards",
+      "regions": [
+        "Global"
+      ],
+      "section": "ai",
+      "single_source": false,
+      "source_count": 2,
+      "sources": [
+        {
+          "published_at": "2026-09-21T18:16:40Z",
+          "publisher": "arXiv / Hangyu Ran et al.",
+          "source_type": "research",
+          "title": "RULER: Instance-aware Rubric Rewards for SVG Generation",
+          "url": "https://arxiv.org/abs/2609.25270"
+        },
+        {
+          "published_at": "2026-09-21",
+          "publisher": "arXiv / Hangyu Ran et al.",
+          "source_type": "research",
+          "title": "RULER — full text v1",
+          "url": "https://arxiv.org/html/2609.25270v1"
+        }
+      ],
+      "title": "RULER：用逐项评分规则训练SVG生成"
+    },
+    {
+      "category": "technology",
+      "confidence": "high",
+      "date": "2026-09-24",
+      "id": "tastebench-long-horizon-decisions",
+      "regions": [
+        "Global"
+      ],
+      "section": "ai",
+      "single_source": false,
+      "source_count": 4,
+      "sources": [
+        {
+          "published_at": "2026-09-23T03:47:11Z（v2；v1为9月22日）",
+          "publisher": "arXiv / Wenbo Pan et al.",
+          "source_type": "research",
+          "title": "The Tasteful Agent: Measuring and Improving Taste in Long-Horizon Tasks",
+          "url": "https://arxiv.org/abs/2609.25804"
+        },
+        {
+          "published_at": "2026-09-23",
+          "publisher": "arXiv / Wenbo Pan et al.",
+          "source_type": "research",
+          "title": "The Tasteful Agent — full text v2",
+          "url": "https://arxiv.org/html/2609.25804v2"
+        },
+        {
+          "published_at": "未单列发布日期；2026-09-24核验可访问",
+          "publisher": "Wenbo Pan / GitHub",
+          "source_type": "code",
+          "title": "Taste-Bench author repository",
+          "url": "https://github.com/wbopan/tastebench"
+        },
+        {
+          "published_at": "未单列发布日期；2026-09-24核验可访问",
+          "publisher": "Wenbo Pan / Hugging Face",
+          "source_type": "primary",
+          "title": "Taste-Bench dataset card",
+          "url": "https://huggingface.co/datasets/wenbopan/taste-bench"
+        }
+      ],
+      "title": "Taste-Bench：把长程代理的方向选择单独拿出来评测"
+    },
+    {
+      "category": "technology",
+      "confidence": "high",
+      "date": "2026-09-24",
+      "id": "xyeval-misleading-user-advice",
+      "regions": [
+        "Global"
+      ],
+      "section": "ai",
+      "single_source": false,
+      "source_count": 2,
+      "sources": [
+        {
+          "published_at": "2026-09-20T23:31:29Z",
+          "publisher": "arXiv / Zhengxuan Wu et al.",
+          "source_type": "research",
+          "title": "XYEval: Agents say yes to bad advice",
+          "url": "https://arxiv.org/abs/2609.23939"
+        },
+        {
+          "published_at": "2026-09-20",
+          "publisher": "arXiv / Zhengxuan Wu et al.",
+          "source_type": "research",
+          "title": "XYEval — full text v1",
+          "url": "https://arxiv.org/html/2609.23939v1"
+        }
+      ],
+      "title": "XYEval：测试代理能否识别误导性用户建议"
+    },
+    {
+      "category": "climate-environment",
+      "confidence": "high",
+      "date": "2026-09-24",
+      "id": "arctic-sea-ice-2026-minimum-preliminary",
+      "regions": [
+        "Arctic",
+        "Global"
+      ],
+      "section": "world",
+      "single_source": false,
+      "source_count": 2,
+      "sources": [
+        {
+          "published_at": "2026-09-23",
+          "publisher": "NASA Science",
+          "source_type": "primary",
+          "title": "Arctic Sea Ice Reaches 2026 Annual Minimum Extent",
+          "url": "https://science.nasa.gov/science-research/earth-science/climate-science/sea-ice/arctic-sea-ice-2026-min/"
+        },
+        {
+          "published_at": "2026-09-23",
+          "publisher": "National Snow and Ice Data Center",
+          "source_type": "primary",
+          "title": "Arctic sea ice minimum ties for tenth lowest",
+          "url": "https://nsidc.org/sea-ice-today/analyses/arctic-sea-ice-minimum-ties-tenth-lowest-0"
+        }
+      ],
+      "title": "北极海冰年度最低范围初报：并列记录第十低"
+    },
+    {
+      "category": "politics",
+      "confidence": "high",
+      "date": "2026-09-24",
+      "id": "australia-ukraine-long-term-support-agreement",
+      "regions": [
+        "Australia",
+        "Europe",
+        "Oceania",
+        "Ukraine"
+      ],
+      "section": "world",
+      "single_source": false,
+      "source_count": 2,
+      "sources": [
+        {
+          "published_at": "2026-09-24",
+          "publisher": "Australian Associated Press via The Queenslander",
+          "source_type": "wire",
+          "title": "‘My friend’: Albanese emotional as he praises Zelenskiy",
+          "url": "https://theqldr.com.au/politics/2026/09/24/ukraine_aust-117/"
+        },
+        {
+          "published_at": "2026-09-24",
+          "publisher": "Prime Minister of Australia",
+          "source_type": "primary",
+          "title": "Agreement on long-term support and cooperation between Australia and Ukraine",
+          "url": "https://www.pm.gov.au/media/agreement-long-term-support-and-cooperation-between-australia-and-ukraine"
+        }
+      ],
+      "title": "澳大利亚与乌克兰签署长期支持合作协议"
+    },
+    {
+      "category": "politics",
+      "confidence": "high",
+      "date": "2026-09-24",
+      "id": "eu-lebanon-505-million-support-2026-2027",
+      "regions": [
+        "Asia",
+        "Europe",
+        "European Union",
+        "Lebanon"
+      ],
+      "section": "world",
+      "single_source": false,
+      "source_count": 2,
+      "sources": [
+        {
+          "published_at": "2026-09-23",
+          "publisher": "Europa Press via Teleprensa",
+          "source_type": "wire",
+          "title": "Bruselas completa una ayuda de 1.000 millones para apoyar la recuperación y acelerar reformas en Líbano",
+          "url": "https://www.teleprensa.com/internacional/bruselas-completa-ayuda-1000-millones-apoyar-recuperacion-acelerar-reformas-libano/202609231457252514935.amp.html"
+        },
+        {
+          "published_at": "2026-09-23",
+          "publisher": "European Commission / DG MENA",
+          "source_type": "primary",
+          "title": "EU adopts €505 million package to support Lebanon's stability, recovery and reforms",
+          "url": "https://north-africa-middle-east-gulf.ec.europa.eu/news/eu-adopts-eur505-million-package-support-lebanons-stability-recovery-and-reforms-2026-09-23_en"
+        }
+      ],
+      "title": "欧盟通过5.05亿欧元黎巴嫩支持方案"
+    },
+    {
+      "category": "culture",
+      "confidence": "high",
+      "date": "2026-09-24",
+      "id": "ghana-cultural-heritage-restitution-unga81",
+      "regions": [
+        "Africa",
+        "Ghana",
+        "Global"
+      ],
+      "section": "world",
+      "single_source": false,
+      "source_count": 2,
+      "sources": [
+        {
+          "published_at": "2026-09-23",
+          "publisher": "Ghana Information Services Department",
+          "source_type": "primary",
+          "title": "Africa Rejects ‘Capacity’ Argument Against Artifact Restitution, Presdient Mahama Declares",
+          "url": "https://www.isd.gov.gh/africa-rejects-capacity-argument-against-artifact-restitution-presdient-mahama-declares/"
+        },
+        {
+          "published_at": "2026-09-23",
+          "publisher": "MyJoyOnline",
+          "source_type": "regional-media",
+          "title": "Mahama unveils 3 pillars to advance global reparatory justice agenda",
+          "url": "https://www.myjoyonline.com/mahama-unveils-3-pillars-to-advance-global-reparatory-justice-agenda/"
+        }
+      ],
+      "title": "加纳倡议以常设制度推进非洲文化遗产返还"
+    },
+    {
+      "category": "economy",
+      "confidence": "high",
+      "date": "2026-09-24",
+      "id": "oecd-september-2026-interim-outlook",
+      "regions": [
+        "Global"
+      ],
+      "section": "world",
+      "single_source": true,
+      "source_count": 1,
+      "sources": [
+        {
+          "published_at": "2026-09-23",
+          "publisher": "OECD",
+          "source_type": "primary",
+          "title": "Global growth holds up despite successive shocks but risks persist",
+          "url": "https://www.oecd.org/en/about/news/press-releases/2026/09/global-growth-holds-up-despite-successive-shocks-but-risks-persist.html"
+        }
+      ],
+      "title": "OECD中期展望：增长仍具韧性，通胀与下行风险持续"
+    },
+    {
+      "category": "economy",
+      "confidence": "high",
+      "date": "2026-09-24",
+      "id": "sarb-september-2026-rate-increase",
+      "regions": [
+        "Africa",
+        "South Africa"
+      ],
+      "section": "world",
+      "single_source": false,
+      "source_count": 2,
+      "sources": [
+        {
+          "published_at": "2026-09-23",
+          "publisher": "SAnews",
+          "source_type": "primary",
+          "title": "MPC raises repo rate to 7.25%",
+          "url": "https://www.sanews.gov.za/south-africa/mpc-raises-repo-rate-725"
+        },
+        {
+          "published_at": "2026-09-23",
+          "publisher": "South African Reserve Bank",
+          "source_type": "primary",
+          "title": "September 2026 Monetary Policy Committee statement",
+          "url": "https://www.resbank.co.za/en/home/publications/publication-detail-pages/statements/monetary-policy-statements/2026/september"
+        }
+      ],
+      "title": "南非央行宣布加息25个基点，9月25日生效"
+    },
+    {
+      "category": "economy",
+      "confidence": "high",
+      "date": "2026-09-24",
+      "id": "singapore-august-2026-cpi",
+      "regions": [
+        "Asia",
+        "Singapore"
+      ],
+      "section": "world",
+      "single_source": false,
+      "source_count": 2,
+      "sources": [
+        {
+          "published_at": "2026-09-23",
+          "publisher": "Reuters via Business Recorder",
+          "source_type": "wire",
+          "title": "Singapore’s core inflation rate rises to 2.2% in August, above forecast",
+          "url": "https://www.brecorder.com/news/40440833/singapores-core-inflation-rate-rises-to-22-in-august-above-forecast"
+        },
+        {
+          "published_at": "2026-09-23",
+          "publisher": "Singapore Ministry of Trade and Industry",
+          "source_type": "primary",
+          "title": "Consumer Price Developments in August 2026",
+          "url": "https://www.mti.gov.sg/newsroom/consumer-price-developments-in-august-2026-/"
+        }
+      ],
+      "title": "新加坡8月核心通胀升至2.2%"
+    },
+    {
+      "category": "health-society",
+      "confidence": "high",
+      "date": "2026-09-24",
+      "id": "who-expanding-contraceptive-options-guidelines",
+      "regions": [
+        "Global"
+      ],
+      "section": "world",
+      "single_source": false,
+      "source_count": 2,
+      "sources": [
+        {
+          "published_at": "2026-09-23",
+          "publisher": "World Health Organization",
+          "source_type": "primary",
+          "title": "WHO expands safe options for contraception",
+          "url": "https://www.who.int/news/item/23-09-2026-who-expands-safe-options-for-contraception"
+        },
+        {
+          "published_at": "2026-09-23",
+          "publisher": "World Health Organization",
+          "source_type": "primary",
+          "title": "WHO guidelines on expanding contraceptive options",
+          "url": "https://www.who.int/publications/i/item/9789240124578"
+        }
+      ],
+      "title": "WHO发布扩展避孕选择指南"
+    },
     {
       "category": "technology",
       "confidence": "high",
@@ -11626,7 +11971,7 @@
       "title": "降级预期推动油价早盘回落约 4 美元"
     }
   ],
-  "latest_digest_generated_at": "2026-09-23T10:47:46+08:00",
+  "latest_digest_generated_at": "2026-09-24T09:16:28+08:00",
   "publishers": [
     {
       "event_count": 137,
@@ -11665,6 +12010,11 @@
     },
     {
       "event_count": 7,
+      "name": "World Health Organization",
+      "source_links": 9
+    },
+    {
+      "event_count": 7,
       "name": "NASA",
       "source_links": 8
     },
@@ -11686,11 +12036,6 @@
     {
       "event_count": 7,
       "name": "The White House",
-      "source_links": 7
-    },
-    {
-      "event_count": 6,
-      "name": "World Health Organization",
       "source_links": 7
     },
     {
@@ -11790,6 +12135,11 @@
     },
     {
       "event_count": 3,
+      "name": "Prime Minister of Australia",
+      "source_links": 3
+    },
+    {
+      "event_count": 3,
       "name": "Prime Minister of Canada",
       "source_links": 3
     },
@@ -11821,6 +12171,21 @@
     {
       "event_count": 1,
       "name": "Apodex",
+      "source_links": 2
+    },
+    {
+      "event_count": 1,
+      "name": "arXiv / Hangyu Ran et al.",
+      "source_links": 2
+    },
+    {
+      "event_count": 1,
+      "name": "arXiv / Wenbo Pan et al.",
+      "source_links": 2
+    },
+    {
+      "event_count": 1,
+      "name": "arXiv / Zhengxuan Wu et al.",
       "source_links": 2
     },
     {
@@ -11944,6 +12309,11 @@
       "source_links": 2
     },
     {
+      "event_count": 2,
+      "name": "NASA Science",
+      "source_links": 2
+    },
+    {
       "event_count": 1,
       "name": "NVIDIA / Hugging Face",
       "source_links": 2
@@ -11966,11 +12336,6 @@
     {
       "event_count": 1,
       "name": "Prime Intellect / GitHub",
-      "source_links": 2
-    },
-    {
-      "event_count": 2,
-      "name": "Prime Minister of Australia",
       "source_links": 2
     },
     {
@@ -12175,6 +12540,11 @@
     },
     {
       "event_count": 1,
+      "name": "Australian Associated Press via The Queenslander",
+      "source_links": 1
+    },
+    {
+      "event_count": 1,
       "name": "Australian Bureau of Statistics",
       "source_links": 1
     },
@@ -12270,7 +12640,17 @@
     },
     {
       "event_count": 1,
+      "name": "Europa Press via Teleprensa",
+      "source_links": 1
+    },
+    {
+      "event_count": 1,
       "name": "European Central Bank",
+      "source_links": 1
+    },
+    {
+      "event_count": 1,
+      "name": "European Commission / DG MENA",
       "source_links": 1
     },
     {
@@ -12301,6 +12681,11 @@
     {
       "event_count": 1,
       "name": "French Ministry for Ecological Transition",
+      "source_links": 1
+    },
+    {
+      "event_count": 1,
+      "name": "Ghana Information Services Department",
       "source_links": 1
     },
     {
@@ -12505,6 +12890,11 @@
     },
     {
       "event_count": 1,
+      "name": "MyJoyOnline",
+      "source_links": 1
+    },
+    {
+      "event_count": 1,
       "name": "Naftogaz Group",
       "source_links": 1
     },
@@ -12515,17 +12905,17 @@
     },
     {
       "event_count": 1,
-      "name": "NASA Science",
-      "source_links": 1
-    },
-    {
-      "event_count": 1,
       "name": "National Hurricane Center and Central Pacific Hurricane Center",
       "source_links": 1
     },
     {
       "event_count": 1,
       "name": "National Immigration Law Center",
+      "source_links": 1
+    },
+    {
+      "event_count": 1,
+      "name": "National Snow and Ice Data Center",
       "source_links": 1
     },
     {
@@ -12561,6 +12951,11 @@
     {
       "event_count": 1,
       "name": "ODI Global",
+      "source_links": 1
+    },
+    {
+      "event_count": 1,
+      "name": "OECD",
       "source_links": 1
     },
     {
@@ -12670,6 +13065,11 @@
     },
     {
       "event_count": 1,
+      "name": "Reuters via Business Recorder",
+      "source_links": 1
+    },
+    {
+      "event_count": 1,
       "name": "Reuters via KSL",
       "source_links": 1
     },
@@ -12705,6 +13105,11 @@
     },
     {
       "event_count": 1,
+      "name": "SAnews",
+      "source_links": 1
+    },
+    {
+      "event_count": 1,
       "name": "SBS News",
       "source_links": 1
     },
@@ -12715,12 +13120,22 @@
     },
     {
       "event_count": 1,
+      "name": "Singapore Ministry of Trade and Industry",
+      "source_links": 1
+    },
+    {
+      "event_count": 1,
       "name": "South African Department of International Relations and Cooperation",
       "source_links": 1
     },
     {
       "event_count": 1,
       "name": "South African Government",
+      "source_links": 1
+    },
+    {
+      "event_count": 1,
+      "name": "South African Reserve Bank",
       "source_links": 1
     },
     {
@@ -12890,6 +13305,16 @@
     },
     {
       "event_count": 1,
+      "name": "Wenbo Pan / GitHub",
+      "source_links": 1
+    },
+    {
+      "event_count": 1,
+      "name": "Wenbo Pan / Hugging Face",
+      "source_links": 1
+    },
+    {
+      "event_count": 1,
       "name": "WHO / PAHO",
       "source_links": 1
     },
@@ -12971,7 +13396,7 @@
   ],
   "regions": [
     {
-      "event_count": 138,
+      "event_count": 145,
       "name": "Global"
     },
     {
@@ -12979,7 +13404,7 @@
       "name": "North America"
     },
     {
-      "event_count": 77,
+      "event_count": 79,
       "name": "Asia"
     },
     {
@@ -12987,7 +13412,7 @@
       "name": "United States"
     },
     {
-      "event_count": 65,
+      "event_count": 67,
       "name": "Europe"
     },
     {
@@ -12999,15 +13424,15 @@
       "name": "全球"
     },
     {
+      "event_count": 27,
+      "name": "Africa"
+    },
+    {
       "event_count": 26,
       "name": "Middle East"
     },
     {
-      "event_count": 25,
-      "name": "Africa"
-    },
-    {
-      "event_count": 17,
+      "event_count": 18,
       "name": "Ukraine"
     },
     {
@@ -13024,15 +13449,15 @@
     },
     {
       "event_count": 10,
+      "name": "Oceania"
+    },
+    {
+      "event_count": 10,
       "name": "美国"
     },
     {
       "event_count": 9,
       "name": "Japan"
-    },
-    {
-      "event_count": 9,
-      "name": "Oceania"
     },
     {
       "event_count": 8,
@@ -13056,6 +13481,10 @@
     },
     {
       "event_count": 6,
+      "name": "Australia"
+    },
+    {
+      "event_count": 6,
       "name": "India"
     },
     {
@@ -13064,11 +13493,11 @@
     },
     {
       "event_count": 5,
-      "name": "Australia"
+      "name": "Democratic Republic of the Congo"
     },
     {
       "event_count": 5,
-      "name": "Democratic Republic of the Congo"
+      "name": "European Union"
     },
     {
       "event_count": 5,
@@ -13088,10 +13517,6 @@
     },
     {
       "event_count": 4,
-      "name": "European Union"
-    },
-    {
-      "event_count": 4,
       "name": "Germany"
     },
     {
@@ -13100,7 +13525,15 @@
     },
     {
       "event_count": 4,
+      "name": "Lebanon"
+    },
+    {
+      "event_count": 4,
       "name": "Nepal"
+    },
+    {
+      "event_count": 4,
+      "name": "South Africa"
     },
     {
       "event_count": 4,
@@ -13136,10 +13569,6 @@
     },
     {
       "event_count": 3,
-      "name": "Lebanon"
-    },
-    {
-      "event_count": 3,
       "name": "Mexico"
     },
     {
@@ -13153,10 +13582,6 @@
     {
       "event_count": 3,
       "name": "Pacific Islands"
-    },
-    {
-      "event_count": 3,
-      "name": "South Africa"
     },
     {
       "event_count": 3,
@@ -13185,6 +13610,10 @@
     {
       "event_count": 2,
       "name": "Afghanistan"
+    },
+    {
+      "event_count": 2,
+      "name": "Arctic"
     },
     {
       "event_count": 2,
@@ -13245,6 +13674,10 @@
     {
       "event_count": 2,
       "name": "Saudi Arabia"
+    },
+    {
+      "event_count": 2,
+      "name": "Singapore"
     },
     {
       "event_count": 2,
@@ -13349,10 +13782,6 @@
     {
       "event_count": 1,
       "name": "Angola"
-    },
-    {
-      "event_count": 1,
-      "name": "Arctic"
     },
     {
       "event_count": 1,
@@ -13461,6 +13890,10 @@
     {
       "event_count": 1,
       "name": "Florida"
+    },
+    {
+      "event_count": 1,
+      "name": "Ghana"
     },
     {
       "event_count": 1,
@@ -13584,10 +14017,6 @@
     },
     {
       "event_count": 1,
-      "name": "Singapore"
-    },
-    {
-      "event_count": 1,
       "name": "South Asia"
     },
     {
@@ -13706,24 +14135,24 @@
   "schema_version": 1,
   "source_types": [
     {
-      "event_count": 207,
-      "name": "wire",
-      "source_links": 238
-    },
-    {
-      "event_count": 206,
+      "event_count": 215,
       "name": "primary",
-      "source_links": 229
+      "source_links": 241
     },
     {
-      "event_count": 43,
-      "name": "code",
-      "source_links": 72
+      "event_count": 210,
+      "name": "wire",
+      "source_links": 241
     },
     {
-      "event_count": 56,
+      "event_count": 59,
       "name": "research",
-      "source_links": 72
+      "source_links": 78
+    },
+    {
+      "event_count": 44,
+      "name": "code",
+      "source_links": 73
     },
     {
       "event_count": 26,
@@ -13731,9 +14160,9 @@
       "source_links": 39
     },
     {
-      "event_count": 23,
+      "event_count": 24,
       "name": "regional-media",
-      "source_links": 24
+      "source_links": 25
     },
     {
       "event_count": 21,

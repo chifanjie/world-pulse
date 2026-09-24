@@ -1,0 +1,417 @@
+{
+  "date": "2026-09-24",
+  "timezone": "Asia/Shanghai",
+  "generated_at": "2026-09-24T09:16:28+08:00",
+  "publication_status": "current",
+  "observation_cutoff": "2026-09-24T09:16:28+08:00",
+  "overview": "OECD更新增长预测，南非宣布加息，新加坡公布通胀；欧盟支持黎巴嫩，澳乌签署长期合作协议；北极海冰最低值初报、WHO新指南与非洲遗产返还倡议。AI雷达关注决策判断、SVG奖励和误导性建议评测。",
+  "digest_path": "digests/2026/09/2026-09-24.md",
+  "ai_radar": {
+    "selection_as_of": "2026-09-24T09:16:28+08:00",
+    "item_ids": [
+      "tastebench-long-horizon-decisions",
+      "ruler-instance-aware-svg-rewards",
+      "xyeval-misleading-user-advice"
+    ]
+  },
+  "items": [
+    {
+      "id": "oecd-september-2026-interim-outlook",
+      "category": "economy",
+      "regions": [
+        "Global"
+      ],
+      "title": "OECD中期展望：增长仍具韧性，通胀与下行风险持续",
+      "summary": "OECD9月23日预计全球经济2026年增长2.9%、2027年增长3.0%，G20通胀分别为4.1%和3.6%；能源供应替代、库存释放及AI投资帮助缓冲冲击。",
+      "why_it_matters": "增长与物价压力并存，意味着财政支持和货币政策仍需权衡需求与供给约束。",
+      "uncertainty": "这些是条件性预测，不是已经实现的增长或通胀；能源供应和冲突演变仍可能改变路径。",
+      "confidence": "high",
+      "sources": [
+        {
+          "publisher": "OECD",
+          "title": "Global growth holds up despite successive shocks but risks persist",
+          "url": "https://www.oecd.org/en/about/news/press-releases/2026/09/global-growth-holds-up-despite-successive-shocks-but-risks-persist.html",
+          "published_at": "2026-09-23",
+          "source_type": "primary"
+        }
+      ]
+    },
+    {
+      "id": "sarb-september-2026-rate-increase",
+      "category": "economy",
+      "regions": [
+        "Africa",
+        "South Africa"
+      ],
+      "title": "南非央行宣布加息25个基点，9月25日生效",
+      "summary": "南非央行9月23日一致决定将政策利率提高25个基点至7.25%，于9月25日生效；同时将2026年增长预测从1.4%下调至1.2%。",
+      "why_it_matters": "这是供给冲击下遏制通胀与支持增长之间的一次实际政策取舍。",
+      "uncertainty": "本期截点新利率尚未生效；预测中的后续利率路径不是承诺，央行将继续逐次会议作决定。",
+      "confidence": "high",
+      "sources": [
+        {
+          "publisher": "South African Reserve Bank",
+          "title": "September 2026 Monetary Policy Committee statement",
+          "url": "https://www.resbank.co.za/en/home/publications/publication-detail-pages/statements/monetary-policy-statements/2026/september",
+          "published_at": "2026-09-23",
+          "source_type": "primary"
+        },
+        {
+          "publisher": "SAnews",
+          "title": "MPC raises repo rate to 7.25%",
+          "url": "https://www.sanews.gov.za/south-africa/mpc-raises-repo-rate-725",
+          "published_at": "2026-09-23",
+          "source_type": "primary"
+        }
+      ]
+    },
+    {
+      "id": "singapore-august-2026-cpi",
+      "category": "economy",
+      "regions": [
+        "Asia",
+        "Singapore"
+      ],
+      "title": "新加坡8月核心通胀升至2.2%",
+      "summary": "新加坡9月23日公布，8月核心CPI同比上升2.2%，高于7月2.0%；总体CPI同比上升2.3%，前值为2.2%。官方将核心增速上升归因于服务、零售及其他商品、食品。",
+      "why_it_matters": "亚洲贸易枢纽的最新实测物价数据，为观察成本压力如何传向消费端提供参照。",
+      "uncertainty": "核心与总体口径不同，不能互换；一个月数据不足以确定后续政策方向。",
+      "confidence": "high",
+      "sources": [
+        {
+          "publisher": "Singapore Ministry of Trade and Industry",
+          "title": "Consumer Price Developments in August 2026",
+          "url": "https://www.mti.gov.sg/newsroom/consumer-price-developments-in-august-2026-/",
+          "published_at": "2026-09-23",
+          "source_type": "primary"
+        },
+        {
+          "publisher": "Reuters via Business Recorder",
+          "title": "Singapore’s core inflation rate rises to 2.2% in August, above forecast",
+          "url": "https://www.brecorder.com/news/40440833/singapores-core-inflation-rate-rises-to-22-in-august-above-forecast",
+          "published_at": "2026-09-23",
+          "source_type": "wire"
+        }
+      ]
+    },
+    {
+      "id": "eu-lebanon-505-million-support-2026-2027",
+      "category": "politics",
+      "regions": [
+        "Europe",
+        "European Union",
+        "Asia",
+        "Lebanon"
+      ],
+      "title": "欧盟通过5.05亿欧元黎巴嫩支持方案",
+      "summary": "欧委会9月23日公布面向2026—2027年的5.05亿欧元方案，为2024年宣布的支持计划第二部分，涵盖黎巴嫩基本公共服务、经济与治理改革、安全及边境管理、公民社会与文化。",
+      "why_it_matters": "把公共服务维持与制度改革相结合，将影响黎巴嫩恢复的持续性和弱势群体保障。",
+      "uncertainty": "通过方案不等于资金已全部拨付或改革已完成；实施节奏与效果仍须跟踪。",
+      "confidence": "high",
+      "sources": [
+        {
+          "publisher": "European Commission / DG MENA",
+          "title": "EU adopts €505 million package to support Lebanon's stability, recovery and reforms",
+          "url": "https://north-africa-middle-east-gulf.ec.europa.eu/news/eu-adopts-eur505-million-package-support-lebanons-stability-recovery-and-reforms-2026-09-23_en",
+          "published_at": "2026-09-23",
+          "source_type": "primary"
+        },
+        {
+          "publisher": "Europa Press via Teleprensa",
+          "title": "Bruselas completa una ayuda de 1.000 millones para apoyar la recuperación y acelerar reformas en Líbano",
+          "url": "https://www.teleprensa.com/internacional/bruselas-completa-ayuda-1000-millones-apoyar-recuperacion-acelerar-reformas-libano/202609231457252514935.amp.html",
+          "published_at": "2026-09-23",
+          "source_type": "wire"
+        }
+      ]
+    },
+    {
+      "id": "australia-ukraine-long-term-support-agreement",
+      "category": "politics",
+      "regions": [
+        "Oceania",
+        "Australia",
+        "Europe",
+        "Ukraine"
+      ],
+      "title": "澳大利亚与乌克兰签署长期支持合作协议",
+      "summary": "澳大利亚总理府9月24日发布联合声明，宣布两国签署长期支持合作协议，并新增6000万澳元援助：4500万用于军事装备、1000万用于能源支持基金、500万用于人道援助。",
+      "why_it_matters": "长期合作框架和分项援助承诺将影响乌克兰国防、能源设施与人道支持的可预期性。",
+      "uncertainty": "本条确认签署和宣布援助，不代表资金或装备已全部交付；不据此推断自动参战义务。",
+      "confidence": "high",
+      "sources": [
+        {
+          "publisher": "Prime Minister of Australia",
+          "title": "Agreement on long-term support and cooperation between Australia and Ukraine",
+          "url": "https://www.pm.gov.au/media/agreement-long-term-support-and-cooperation-between-australia-and-ukraine",
+          "published_at": "2026-09-24",
+          "source_type": "primary"
+        },
+        {
+          "publisher": "Australian Associated Press via The Queenslander",
+          "title": "‘My friend’: Albanese emotional as he praises Zelenskiy",
+          "url": "https://theqldr.com.au/politics/2026/09/24/ukraine_aust-117/",
+          "published_at": "2026-09-24",
+          "source_type": "wire"
+        }
+      ]
+    },
+    {
+      "id": "arctic-sea-ice-2026-minimum-preliminary",
+      "category": "climate-environment",
+      "regions": [
+        "Global",
+        "Arctic"
+      ],
+      "title": "北极海冰年度最低范围初报：并列记录第十低",
+      "summary": "NASA与NSIDC9月23日发布初步结果：北极海冰可能于9月12日达到约460万平方公里的年度最低范围，与2008、2010、2025年并列卫星记录第十低。",
+      "why_it_matters": "年度低值仍处长期低位；2007—2026年占据卫星记录中最低的20个年度最低值。",
+      "uncertainty": "这是初报，晚季风暴或融化仍可能改变最低值；今年不是历史最低，近年相对平稳也不等于海冰恢复。",
+      "confidence": "high",
+      "sources": [
+        {
+          "publisher": "NASA Science",
+          "title": "Arctic Sea Ice Reaches 2026 Annual Minimum Extent",
+          "url": "https://science.nasa.gov/science-research/earth-science/climate-science/sea-ice/arctic-sea-ice-2026-min/",
+          "published_at": "2026-09-23",
+          "source_type": "primary"
+        },
+        {
+          "publisher": "National Snow and Ice Data Center",
+          "title": "Arctic sea ice minimum ties for tenth lowest",
+          "url": "https://nsidc.org/sea-ice-today/analyses/arctic-sea-ice-minimum-ties-tenth-lowest-0",
+          "published_at": "2026-09-23",
+          "source_type": "primary"
+        }
+      ]
+    },
+    {
+      "id": "who-expanding-contraceptive-options-guidelines",
+      "category": "health-society",
+      "regions": [
+        "Global"
+      ],
+      "title": "WHO发布扩展避孕选择指南",
+      "summary": "WHO9月23日发布扩展避孕选择指南，评估三类此前未纳入相关指南的方法及两种既有方法的使用实践，旨在帮助国家卫生部门扩大有证据支持的选择。",
+      "why_it_matters": "指南为卫生政策与服务设计提供依据，重点是提高可及性并支持知情选择。",
+      "uncertainty": "指南不等于各国已批准或实施，也不是个人调整用药的指示；不同方法的证据强度与推荐结论并不相同。",
+      "confidence": "high",
+      "sources": [
+        {
+          "publisher": "World Health Organization",
+          "title": "WHO expands safe options for contraception",
+          "url": "https://www.who.int/news/item/23-09-2026-who-expands-safe-options-for-contraception",
+          "published_at": "2026-09-23",
+          "source_type": "primary"
+        },
+        {
+          "publisher": "World Health Organization",
+          "title": "WHO guidelines on expanding contraceptive options",
+          "url": "https://www.who.int/publications/i/item/9789240124578",
+          "published_at": "2026-09-23",
+          "source_type": "primary"
+        }
+      ]
+    },
+    {
+      "id": "ghana-cultural-heritage-restitution-unga81",
+      "category": "culture",
+      "regions": [
+        "Africa",
+        "Ghana",
+        "Global"
+      ],
+      "title": "加纳倡议以常设制度推进非洲文化遗产返还",
+      "summary": "加纳总统马哈马9月23日在联合国大会边会提出三方面方向：建立常设返还机制、增强非洲接收与保护遗产的能力、将文化遗产融入教育和文化经济。",
+      "why_it_matters": "讨论从个别物件移交扩展到档案、保管能力和长期合作制度。",
+      "uncertainty": "这是加纳提出的倡议，不能写成新的国际约束协议、已经落实的资金或当日实际移交。",
+      "confidence": "high",
+      "sources": [
+        {
+          "publisher": "Ghana Information Services Department",
+          "title": "Africa Rejects ‘Capacity’ Argument Against Artifact Restitution, Presdient Mahama Declares",
+          "url": "https://www.isd.gov.gh/africa-rejects-capacity-argument-against-artifact-restitution-presdient-mahama-declares/",
+          "published_at": "2026-09-23",
+          "source_type": "primary"
+        },
+        {
+          "publisher": "MyJoyOnline",
+          "title": "Mahama unveils 3 pillars to advance global reparatory justice agenda",
+          "url": "https://www.myjoyonline.com/mahama-unveils-3-pillars-to-advance-global-reparatory-justice-agenda/",
+          "published_at": "2026-09-23",
+          "source_type": "regional-media"
+        }
+      ]
+    },
+    {
+      "id": "tastebench-long-horizon-decisions",
+      "category": "technology",
+      "regions": [
+        "Global"
+      ],
+      "title": "Taste-Bench：把长程代理的方向选择单独拿出来评测",
+      "summary": "9月23日更新的Taste-Bench论文，从软件工程与机器学习研究轨迹提取502个二选一决策问题，并隐藏后续结果。作者所测14个模型中最高得分为59.7%。",
+      "why_it_matters": "把中途的方向判断与最终任务成功区分开，有助于定位长程代理在哪些决策节点失误。",
+      "uncertainty": "59.7%要求正反两种选项顺序均答对，并等权平均两个领域，不是普通二选一准确率，不能直接与50%随机线比较。数据筛选依赖模型，领域有限，未独立复现。",
+      "confidence": "high",
+      "sources": [
+        {
+          "publisher": "arXiv / Wenbo Pan et al.",
+          "title": "The Tasteful Agent: Measuring and Improving Taste in Long-Horizon Tasks",
+          "url": "https://arxiv.org/abs/2609.25804",
+          "published_at": "2026-09-23T03:47:11Z（v2；v1为9月22日）",
+          "source_type": "research"
+        },
+        {
+          "publisher": "arXiv / Wenbo Pan et al.",
+          "title": "The Tasteful Agent — full text v2",
+          "url": "https://arxiv.org/html/2609.25804v2",
+          "published_at": "2026-09-23",
+          "source_type": "research"
+        },
+        {
+          "publisher": "Wenbo Pan / GitHub",
+          "title": "Taste-Bench author repository",
+          "url": "https://github.com/wbopan/tastebench",
+          "published_at": "未单列发布日期；2026-09-24核验可访问",
+          "source_type": "code"
+        },
+        {
+          "publisher": "Wenbo Pan / Hugging Face",
+          "title": "Taste-Bench dataset card",
+          "url": "https://huggingface.co/datasets/wenbopan/taste-bench",
+          "published_at": "未单列发布日期；2026-09-24核验可访问",
+          "source_type": "primary"
+        }
+      ],
+      "section": "ai-frontier",
+      "ai": {
+        "kind": "research-paper-and-benchmark",
+        "topics": [
+          "agent-evaluation",
+          "long-horizon",
+          "decision-making"
+        ],
+        "artifact_date": "2026-09-23",
+        "artifact_status": "预印本v2，代码与数据公开可访问，尚未同行评审",
+        "technical_takeaway": "在隐藏结果的决策岔路口测量判断；评价指标对选项次序有双向一致性要求。",
+        "evidence_level": "一手预印本与作者实验；尚未同行评审，本期未独立复现",
+        "heat": {
+          "label": "仅有一手论文/工件发布信号，不作热度排名",
+          "as_of": "2026-09-24T09:16:28+08:00",
+          "signals": [
+            {
+              "platform": "arXiv",
+              "observation": "版本记录为9月22日v1、9月23日v2；只证明工件时效，不证明独立认可或讨论热度。",
+              "url": "https://arxiv.org/abs/2609.25804"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "ruler-instance-aware-svg-rewards",
+      "category": "technology",
+      "regions": [
+        "Global"
+      ],
+      "title": "RULER：用逐项评分规则训练SVG生成",
+      "summary": "RULER从文本要求生成语义、视觉、风格三轴共六项规则，让视觉语言模型评价渲染结果，再用该奖励进行GRPO训练。作者报告Qwen3-8B在两项MMSVG基准的Rubric分数从0.432/0.395升至0.693/0.683。",
+      "why_it_matters": "该方法探索不依赖成对目标SVG或人类偏好标签的视觉代码训练信号。",
+      "uncertainty": "结果来自作者实验，尚未同行评审或独立复现；评审模型偏差及渲染、模型调用成本仍限制外推。",
+      "confidence": "high",
+      "sources": [
+        {
+          "publisher": "arXiv / Hangyu Ran et al.",
+          "title": "RULER: Instance-aware Rubric Rewards for SVG Generation",
+          "url": "https://arxiv.org/abs/2609.25270",
+          "published_at": "2026-09-21T18:16:40Z",
+          "source_type": "research"
+        },
+        {
+          "publisher": "arXiv / Hangyu Ran et al.",
+          "title": "RULER — full text v1",
+          "url": "https://arxiv.org/html/2609.25270v1",
+          "published_at": "2026-09-21",
+          "source_type": "research"
+        }
+      ],
+      "section": "ai-frontier",
+      "ai": {
+        "kind": "research-paper",
+        "topics": [
+          "svg-generation",
+          "reinforcement-learning",
+          "rubric-rewards"
+        ],
+        "artifact_date": "2026-09-21",
+        "artifact_status": "预印本v1，尚未同行评审；北京时间9月22日02:16提交（arXiv版本记录）",
+        "technical_takeaway": "将文本要求拆成可逐项判断的奖励规则，避免只依赖一个相似度标量。",
+        "evidence_level": "一手预印本与作者实验；尚未同行评审，本期未独立复现",
+        "heat": {
+          "label": "仅有一手论文/工件发布信号，不作热度排名",
+          "as_of": "2026-09-24T09:16:28+08:00",
+          "signals": [
+            {
+              "platform": "arXiv",
+              "observation": "arXiv记录9月21日18:16 UTC提交，位于本期72小时窗口内；未核实独立热度。",
+              "url": "https://arxiv.org/abs/2609.25270"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "xyeval-misleading-user-advice",
+      "category": "technology",
+      "regions": [
+        "Global"
+      ],
+      "title": "XYEval：测试代理能否识别误导性用户建议",
+      "summary": "XYEval保留真实任务并加入貌似合理的错误建议，在六类基准测试五个模型。作者报告最大相对性能降幅为46.7%，对应Gemini 3.1 Pro在Terminal-Bench从67.4降至36.0；普通系统提示只部分缓解问题。",
+      "why_it_matters": "代理评测需要同时检验识别错误方向及向用户解释异议的能力。",
+      "uncertainty": "46.7%是特定模型与基准的相对降幅，不是46.7个百分点，也不是所有模型的结果。模拟建议、用户和测试框架限制外推；本期未独立复现。",
+      "confidence": "high",
+      "sources": [
+        {
+          "publisher": "arXiv / Zhengxuan Wu et al.",
+          "title": "XYEval: Agents say yes to bad advice",
+          "url": "https://arxiv.org/abs/2609.23939",
+          "published_at": "2026-09-20T23:31:29Z",
+          "source_type": "research"
+        },
+        {
+          "publisher": "arXiv / Zhengxuan Wu et al.",
+          "title": "XYEval — full text v1",
+          "url": "https://arxiv.org/html/2609.23939v1",
+          "published_at": "2026-09-20",
+          "source_type": "research"
+        }
+      ],
+      "section": "ai-frontier",
+      "ai": {
+        "kind": "research-paper",
+        "topics": [
+          "agent-evaluation",
+          "sycophancy",
+          "human-ai-communication"
+        ],
+        "artifact_date": "2026-09-20",
+        "artifact_status": "预印本v1，尚未同行评审；使用7天论文窗口",
+        "technical_takeaway": "将既有任务转为带错误建议的交互测试，区分完成任务与盲从所提方案。",
+        "evidence_level": "一手预印本与作者实验；尚未同行评审，本期未独立复现",
+        "heat": {
+          "label": "仅有一手论文/工件发布信号，不作热度排名",
+          "as_of": "2026-09-24T09:16:28+08:00",
+          "signals": [
+            {
+              "platform": "arXiv",
+              "observation": "9月20日23:31 UTC提交，即北京时间21日07:31；超过72小时，明确使用7天论文窗口，不声称今天首发。",
+              "url": "https://arxiv.org/abs/2609.23939"
+            }
+          ]
+        }
+      }
+    }
+  ]
+}
