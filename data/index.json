@@ -2,6 +2,39 @@
   "version": 1,
   "entries": [
     {
+      "date": "2026-09-25",
+      "digest_path": "digests/2026/09/2026-09-25.md",
+      "data_path": "data/2026/09/2026-09-25.json",
+      "generated_at": "2026-09-25T09:10:17+08:00",
+      "item_count": 10,
+      "ai_radar_count": 3,
+      "categories": [
+        "economy",
+        "health-society",
+        "politics",
+        "technology"
+      ],
+      "regions": [
+        "Africa",
+        "Asia",
+        "Canada",
+        "Caspian Sea",
+        "China",
+        "Democratic Republic of the Congo",
+        "Europe",
+        "Germany",
+        "Global",
+        "Kazakhstan",
+        "Lake Tanganyika",
+        "North America",
+        "Norway",
+        "Space",
+        "Tanzania",
+        "United Kingdom",
+        "United States"
+      ]
+    },
+    {
       "date": "2026-09-24",
       "digest_path": "digests/2026/09/2026-09-24.md",
       "data_path": "data/2026/09/2026-09-24.json",

@@ -1,20 +1,28 @@
 {
   "built_from": "data/index.json",
   "counts": {
-    "ai_events": 107,
-    "digests": 43,
-    "events": 400,
-    "single_source_events": 171,
-    "source_links": 718,
-    "unique_source_urls": 708,
-    "world_events": 293,
+    "ai_events": 110,
+    "digests": 44,
+    "events": 410,
+    "single_source_events": 176,
+    "source_links": 733,
+    "unique_source_urls": 723,
+    "world_events": 300,
     "zero_source_events": 0
   },
   "date_range": {
-    "end": "2026-09-24",
+    "end": "2026-09-25",
     "start": "2026-08-03"
   },
   "dates": [
+    {
+      "ai_event_count": 3,
+      "date": "2026-09-25",
+      "event_count": 10,
+      "single_source_events": 5,
+      "source_links": 15,
+      "world_event_count": 7
+    },
     {
       "ai_event_count": 3,
       "date": "2026-09-24",
@@ -361,6 +369,284 @@
     }
   ],
   "events": [
+    {
+      "category": "technology",
+      "confidence": "medium",
+      "date": "2026-09-25",
+      "id": "fde-bench-agent-deployment-evaluation",
+      "regions": [
+        "Asia",
+        "China",
+        "Europe",
+        "North America",
+        "United Kingdom",
+        "United States"
+      ],
+      "section": "ai",
+      "single_source": false,
+      "source_count": 2,
+      "sources": [
+        {
+          "published_at": "2026-09-23",
+          "publisher": "arXiv",
+          "source_type": "research",
+          "title": "FDE-Bench full text",
+          "url": "https://arxiv.org/html/2609.27571"
+        },
+        {
+          "published_at": "2026-09-23T08:51:01Z",
+          "publisher": "arXiv / UC Berkeley, Imperial College London, HKUST (Guangzhou)",
+          "source_type": "research",
+          "title": "FDE-Bench: Evaluating LLM Agents for Deployment Environment Configuration",
+          "url": "https://arxiv.org/abs/2609.27571"
+        }
+      ],
+      "title": "FDE-Bench评估智能体配置与修复部署环境的能力"
+    },
+    {
+      "category": "technology",
+      "confidence": "high",
+      "date": "2026-09-25",
+      "id": "google-suncatcher-orbital-tpu-test",
+      "regions": [
+        "Global",
+        "Space",
+        "United States"
+      ],
+      "section": "ai",
+      "single_source": true,
+      "source_count": 1,
+      "sources": [
+        {
+          "published_at": "2026-09-24",
+          "publisher": "Google Research",
+          "source_type": "primary",
+          "title": "Google's Project Suncatcher: Facts about our moonshot research project",
+          "url": "https://blog.google/innovation-and-ai/models-and-research/google-research/google-project-suncatcher-facts/"
+        }
+      ],
+      "title": "Google公布Suncatcher轨道TPU验证计划"
+    },
+    {
+      "category": "technology",
+      "confidence": "medium",
+      "date": "2026-09-25",
+      "id": "mvcap-motion-captcha-gui-agents",
+      "regions": [
+        "Asia",
+        "China"
+      ],
+      "section": "ai",
+      "single_source": false,
+      "source_count": 2,
+      "sources": [
+        {
+          "published_at": "2026-09-23",
+          "publisher": "arXiv",
+          "source_type": "research",
+          "title": "Motion Vision CAPTCHA full text",
+          "url": "https://arxiv.org/html/2609.27461"
+        },
+        {
+          "published_at": "2026-09-23T07:27:23Z",
+          "publisher": "arXiv / Shanghai AI Laboratory, Shanghai Jiao Tong University, Renmin University of China",
+          "source_type": "research",
+          "title": "Invisible in Space, Visible in Time: Motion Vision CAPTCHA against GUI Agents",
+          "url": "https://arxiv.org/abs/2609.27461"
+        }
+      ],
+      "title": "Motion Vision CAPTCHA研究测试GUI智能体的动态视觉识别"
+    },
+    {
+      "category": "economy",
+      "confidence": "high",
+      "date": "2026-09-25",
+      "id": "canada-july-2026-retail-sales",
+      "regions": [
+        "Canada",
+        "North America"
+      ],
+      "section": "world",
+      "single_source": true,
+      "source_count": 1,
+      "sources": [
+        {
+          "published_at": "2026-09-24",
+          "publisher": "Statistics Canada",
+          "source_type": "primary",
+          "title": "Retail trade, July 2026",
+          "url": "https://www150.statcan.gc.ca/n1/daily-quotidien/260924/dq260924a-eng.htm?indgeo=13&indid=3660-1"
+        }
+      ],
+      "title": "加拿大7月零售销售额下降0.7%，8月初值预计反弹"
+    },
+    {
+      "category": "technology",
+      "confidence": "high",
+      "date": "2026-09-25",
+      "id": "federal-reserve-proposes-genius-act-stablecoin-rules",
+      "regions": [
+        "Global",
+        "North America",
+        "United States"
+      ],
+      "section": "world",
+      "single_source": true,
+      "source_count": 1,
+      "sources": [
+        {
+          "published_at": "2026-09-24",
+          "publisher": "Board of Governors of the Federal Reserve System",
+          "source_type": "primary",
+          "title": "Agencies request comment on two proposed rules to implement the GENIUS Act",
+          "url": "https://www.federalreserve.gov/newsevents/pressreleases/bcreg20260924a.htm"
+        }
+      ],
+      "title": "美联储提出GENIUS Act稳定币储备与监管规则"
+    },
+    {
+      "category": "economy",
+      "confidence": "high",
+      "date": "2026-09-25",
+      "id": "ifo-germany-business-climate-september-2026",
+      "regions": [
+        "Europe",
+        "Germany"
+      ],
+      "section": "world",
+      "single_source": true,
+      "source_count": 1,
+      "sources": [
+        {
+          "published_at": "2026-09-24",
+          "publisher": "ifo Institute",
+          "source_type": "primary",
+          "title": "ifo Business Climate Index Rises",
+          "url": "https://www.ifo.de/en/survey-results"
+        }
+      ],
+      "title": "德国ifo商业景气指数回升至89.9"
+    },
+    {
+      "category": "health-society",
+      "confidence": "medium",
+      "date": "2026-09-25",
+      "id": "kazakhstan-caspian-exercise-drowning-2026-09-24",
+      "regions": [
+        "Asia",
+        "Caspian Sea",
+        "Kazakhstan"
+      ],
+      "section": "world",
+      "single_source": false,
+      "source_count": 2,
+      "sources": [
+        {
+          "published_at": "2026-09-24",
+          "publisher": "APA",
+          "source_type": "regional-media",
+          "title": "Death toll among Kazakh servicemen in Caspian Sea rises to 12",
+          "url": "https://en.apa.az/cis-countries/death-toll-among-kazakh-servicemen-in-caspian-sea-rises-to-12-updated-525978"
+        },
+        {
+          "published_at": "2026-09-24",
+          "publisher": "Reuters via StreetInsider",
+          "source_type": "wire",
+          "title": "Nine Kazakh military personnel dead after being washed out to sea during exercises",
+          "url": "https://www.streetinsider.com/Reuters/Nine%2BKazakh%2Bmilitary%2Bpersonnel%2Bdead%2Bafter%2Bbeing%2Bwashed%2Bout%2Bto%2Bsea%2Bduring%2Bexercises/27098165.html"
+        }
+      ],
+      "title": "哈萨克斯坦军演人员被海浪卷入里海，官方称12人死亡"
+    },
+    {
+      "category": "health-society",
+      "confidence": "medium",
+      "date": "2026-09-25",
+      "id": "lake-tanganyika-capsize-kabimba-september-2026",
+      "regions": [
+        "Africa",
+        "Democratic Republic of the Congo",
+        "Lake Tanganyika",
+        "Tanzania"
+      ],
+      "section": "world",
+      "single_source": false,
+      "source_count": 2,
+      "sources": [
+        {
+          "published_at": "2026-09-24",
+          "publisher": "Actualite.cd",
+          "source_type": "regional-media",
+          "title": "Tanganyika: le naufrage du MJP au large de Kabimba fait 41 disparus",
+          "url": "https://actualite.cd/index.php/2026/09/24/tanganyika-le-naufrage-du-mjp-au-large-de-kabimba-fait-41-disparus"
+        },
+        {
+          "published_at": "2026-09-24",
+          "publisher": "Associated Press via SFGate",
+          "source_type": "wire",
+          "title": "Boat heading from Tanzania to Congo on Lake Tanganyika capsizes, killing at least 41",
+          "url": "https://www.sfgate.com/news/world/article/boat-heading-from-tanzania-to-congo-on-lake-22447506.php"
+        }
+      ],
+      "title": "坦噶尼喀湖沉船事故至少41人死亡，搜救仍在继续"
+    },
+    {
+      "category": "economy",
+      "confidence": "high",
+      "date": "2026-09-25",
+      "id": "norges-bank-september-2026-rate-hike",
+      "regions": [
+        "Europe",
+        "Global",
+        "Norway"
+      ],
+      "section": "world",
+      "single_source": true,
+      "source_count": 1,
+      "sources": [
+        {
+          "published_at": "2026-09-24",
+          "publisher": "Norges Bank",
+          "source_type": "primary",
+          "title": "Policy rate raised to 4.50 percent",
+          "url": "https://www.norges-bank.no/en/news-events/news/Press-releases/2026/2026-09-24-rate/"
+        }
+      ],
+      "title": "挪威央行加息至4.50%，警告能源冲击推高通胀风险"
+    },
+    {
+      "category": "politics",
+      "confidence": "medium",
+      "date": "2026-09-25",
+      "id": "trump-xi-white-house-meeting-ai-trade-september-2026",
+      "regions": [
+        "Asia",
+        "China",
+        "Global",
+        "North America",
+        "United States"
+      ],
+      "section": "world",
+      "single_source": false,
+      "source_count": 2,
+      "sources": [
+        {
+          "published_at": "2026-09-24",
+          "publisher": "Associated Press via Yahoo News",
+          "source_type": "wire",
+          "title": "Xi says China and US have responsibility to ensure AI remains under human control",
+          "url": "https://nz.news.yahoo.com/xi-says-china-us-responsibility-144305623.html"
+        },
+        {
+          "published_at": "2026-09-25T07:50+08:00",
+          "publisher": "Ministry of Foreign Affairs of the People's Republic of China",
+          "source_type": "primary",
+          "title": "President Xi Jinping Meets with U.S. President Donald J. Trump",
+          "url": "https://www.mfa.gov.cn/eng/xw/zyxw/202609/t20260925_12031181.html"
+        }
+      ],
+      "title": "特朗普与习近平在白宫会晤，谈及贸易与人工智能治理"
+    },
     {
       "category": "technology",
       "confidence": "high",
@@ -11971,7 +12257,7 @@
       "title": "降级预期推动油价早盘回落约 4 美元"
     }
   ],
-  "latest_digest_generated_at": "2026-09-24T09:16:28+08:00",
+  "latest_digest_generated_at": "2026-09-25T09:10:17+08:00",
   "publishers": [
     {
       "event_count": 137,
@@ -11979,9 +12265,9 @@
       "source_links": 144
     },
     {
-      "event_count": 49,
+      "event_count": 51,
       "name": "arXiv",
-      "source_links": 58
+      "source_links": 60
     },
     {
       "event_count": 20,
@@ -12114,6 +12400,11 @@
       "source_links": 3
     },
     {
+      "event_count": 2,
+      "name": "Google Research",
+      "source_links": 3
+    },
+    {
       "event_count": 1,
       "name": "inclusionAI / Hugging Face",
       "source_links": 3
@@ -12146,6 +12437,11 @@
     {
       "event_count": 1,
       "name": "Pydantic / GitHub",
+      "source_links": 3
+    },
+    {
+      "event_count": 3,
+      "name": "Statistics Canada",
       "source_links": 3
     },
     {
@@ -12259,11 +12555,6 @@
       "source_links": 2
     },
     {
-      "event_count": 1,
-      "name": "Google Research",
-      "source_links": 2
-    },
-    {
       "event_count": 2,
       "name": "Hugging Face Papers",
       "source_links": 2
@@ -12271,6 +12562,11 @@
     {
       "event_count": 2,
       "name": "HuggingNews",
+      "source_links": 2
+    },
+    {
+      "event_count": 2,
+      "name": "ifo Institute",
       "source_links": 2
     },
     {
@@ -12395,11 +12691,6 @@
     },
     {
       "event_count": 2,
-      "name": "Statistics Canada",
-      "source_links": 2
-    },
-    {
-      "event_count": 2,
       "name": "U.S. Bureau of Labor Statistics",
       "source_links": 2
     },
@@ -12446,6 +12737,11 @@
     {
       "event_count": 1,
       "name": "Aargau Cantonal Police",
+      "source_links": 1
+    },
+    {
+      "event_count": 1,
+      "name": "Actualite.cd",
       "source_links": 1
     },
     {
@@ -12515,12 +12811,27 @@
     },
     {
       "event_count": 1,
+      "name": "APA",
+      "source_links": 1
+    },
+    {
+      "event_count": 1,
       "name": "Apple",
       "source_links": 1
     },
     {
       "event_count": 1,
       "name": "arXiv / Intern-NCP Team",
+      "source_links": 1
+    },
+    {
+      "event_count": 1,
+      "name": "arXiv / Shanghai AI Laboratory, Shanghai Jiao Tong University, Renmin University of China",
+      "source_links": 1
+    },
+    {
+      "event_count": 1,
+      "name": "arXiv / UC Berkeley, Imperial College London, HKUST (Guangzhou)",
       "source_links": 1
     },
     {
@@ -12536,6 +12847,16 @@
     {
       "event_count": 1,
       "name": "Associated Press via KOSU",
+      "source_links": 1
+    },
+    {
+      "event_count": 1,
+      "name": "Associated Press via SFGate",
+      "source_links": 1
+    },
+    {
+      "event_count": 1,
+      "name": "Associated Press via Yahoo News",
       "source_links": 1
     },
     {
@@ -12556,6 +12877,11 @@
     {
       "event_count": 1,
       "name": "BC Wildfire Service",
+      "source_links": 1
+    },
+    {
+      "event_count": 1,
+      "name": "Board of Governors of the Federal Reserve System",
       "source_links": 1
     },
     {
@@ -12755,11 +13081,6 @@
     },
     {
       "event_count": 1,
-      "name": "ifo Institute",
-      "source_links": 1
-    },
-    {
-      "event_count": 1,
       "name": "IMF",
       "source_links": 1
     },
@@ -12865,6 +13186,11 @@
     },
     {
       "event_count": 1,
+      "name": "Ministry of Foreign Affairs of the People's Republic of China",
+      "source_links": 1
+    },
+    {
+      "event_count": 1,
       "name": "Ministry of Public Health, Hygiene and Social Welfare of the Democratic Republic of the Congo",
       "source_links": 1
     },
@@ -12941,6 +13267,11 @@
     {
       "event_count": 1,
       "name": "NOAA National Centers for Environmental Information",
+      "source_links": 1
+    },
+    {
+      "event_count": 1,
+      "name": "Norges Bank",
       "source_links": 1
     },
     {
@@ -13076,6 +13407,11 @@
     {
       "event_count": 1,
       "name": "Reuters via Onvista",
+      "source_links": 1
+    },
+    {
+      "event_count": 1,
+      "name": "Reuters via StreetInsider",
       "source_links": 1
     },
     {
@@ -13396,27 +13732,27 @@
   ],
   "regions": [
     {
-      "event_count": 145,
+      "event_count": 149,
       "name": "Global"
     },
     {
-      "event_count": 80,
+      "event_count": 84,
       "name": "North America"
     },
     {
-      "event_count": 79,
+      "event_count": 83,
       "name": "Asia"
     },
     {
-      "event_count": 76,
+      "event_count": 80,
       "name": "United States"
     },
     {
-      "event_count": 67,
+      "event_count": 70,
       "name": "Europe"
     },
     {
-      "event_count": 35,
+      "event_count": 38,
       "name": "China"
     },
     {
@@ -13424,7 +13760,7 @@
       "name": "全球"
     },
     {
-      "event_count": 27,
+      "event_count": 28,
       "name": "Africa"
     },
     {
@@ -13461,15 +13797,15 @@
     },
     {
       "event_count": 8,
+      "name": "Canada"
+    },
+    {
+      "event_count": 8,
       "name": "Israel"
     },
     {
       "event_count": 8,
       "name": "欧洲"
-    },
-    {
-      "event_count": 7,
-      "name": "Canada"
     },
     {
       "event_count": 7,
@@ -13485,6 +13821,10 @@
     },
     {
       "event_count": 6,
+      "name": "Democratic Republic of the Congo"
+    },
+    {
+      "event_count": 6,
       "name": "India"
     },
     {
@@ -13493,11 +13833,11 @@
     },
     {
       "event_count": 5,
-      "name": "Democratic Republic of the Congo"
+      "name": "European Union"
     },
     {
       "event_count": 5,
-      "name": "European Union"
+      "name": "Germany"
     },
     {
       "event_count": 5,
@@ -13508,16 +13848,16 @@
       "name": "Oman"
     },
     {
+      "event_count": 5,
+      "name": "United Kingdom"
+    },
+    {
       "event_count": 4,
       "name": "Brazil"
     },
     {
       "event_count": 4,
       "name": "Colombia"
-    },
-    {
-      "event_count": 4,
-      "name": "Germany"
     },
     {
       "event_count": 4,
@@ -13545,15 +13885,15 @@
     },
     {
       "event_count": 4,
+      "name": "Space"
+    },
+    {
+      "event_count": 4,
       "name": "Taiwan"
     },
     {
       "event_count": 4,
       "name": "Türkiye"
-    },
-    {
-      "event_count": 4,
-      "name": "United Kingdom"
     },
     {
       "event_count": 4,
@@ -13582,10 +13922,6 @@
     {
       "event_count": 3,
       "name": "Pacific Islands"
-    },
-    {
-      "event_count": 3,
-      "name": "Space"
     },
     {
       "event_count": 3,
@@ -13650,6 +13986,10 @@
     {
       "event_count": 2,
       "name": "Hawaii"
+    },
+    {
+      "event_count": 2,
+      "name": "Kazakhstan"
     },
     {
       "event_count": 2,
@@ -13833,6 +14173,10 @@
     },
     {
       "event_count": 1,
+      "name": "Caspian Sea"
+    },
+    {
+      "event_count": 1,
       "name": "Central Africa"
     },
     {
@@ -13933,10 +14277,6 @@
     },
     {
       "event_count": 1,
-      "name": "Kazakhstan"
-    },
-    {
-      "event_count": 1,
       "name": "Kenscoff"
     },
     {
@@ -13946,6 +14286,10 @@
     {
       "event_count": 1,
       "name": "Korean Peninsula"
+    },
+    {
+      "event_count": 1,
+      "name": "Lake Tanganyika"
     },
     {
       "event_count": 1,
@@ -13978,6 +14322,10 @@
     {
       "event_count": 1,
       "name": "Niger"
+    },
+    {
+      "event_count": 1,
+      "name": "Norway"
     },
     {
       "event_count": 1,
@@ -14034,6 +14382,10 @@
     {
       "event_count": 1,
       "name": "Switzerland"
+    },
+    {
+      "event_count": 1,
+      "name": "Tanzania"
     },
     {
       "event_count": 1,
@@ -14135,19 +14487,19 @@
   "schema_version": 1,
   "source_types": [
     {
-      "event_count": 215,
+      "event_count": 221,
       "name": "primary",
-      "source_links": 241
+      "source_links": 247
     },
     {
-      "event_count": 210,
+      "event_count": 213,
       "name": "wire",
-      "source_links": 241
+      "source_links": 244
     },
     {
-      "event_count": 59,
+      "event_count": 61,
       "name": "research",
-      "source_links": 78
+      "source_links": 82
     },
     {
       "event_count": 44,
@@ -14160,9 +14512,9 @@
       "source_links": 39
     },
     {
-      "event_count": 24,
+      "event_count": 26,
       "name": "regional-media",
-      "source_links": 25
+      "source_links": 27
     },
     {
       "event_count": 21,

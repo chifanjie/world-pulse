@@ -1,0 +1,196 @@
+{
+  "date": "2026-09-25",
+  "timezone": "Asia/Shanghai",
+  "generated_at": "2026-09-25T09:10:17+08:00",
+  "publication_status": "current",
+  "observation_cutoff": "2026-09-25T09:10:17+08:00",
+  "overview": "挪威央行加息应对能源与通胀压力，加拿大零售走弱、德国企业信心回升；美监管机构提出稳定币规则。里海与坦噶尼喀湖事故仍在搜救，特朗普与习近平会谈提及AI治理。AI雷达关注卫星TPU验证、部署环境评测与动态验证码。",
+  "digest_path": "digests/2026/09/2026-09-25.md",
+  "ai_radar": {
+    "selection_as_of": "2026-09-25T09:10:17+08:00",
+    "item_ids": [
+      "google-suncatcher-orbital-tpu-test",
+      "fde-bench-agent-deployment-evaluation",
+      "mvcap-motion-captcha-gui-agents"
+    ]
+  },
+  "items": [
+    {
+      "id": "norges-bank-september-2026-rate-hike",
+      "category": "economy",
+      "regions": ["Europe", "Norway", "Global"],
+      "title": "挪威央行加息至4.50%，警告能源冲击推高通胀风险",
+      "summary": "挪威央行9月24日将政策利率从4.25%提高至4.50%。央行称通胀持续高于目标，霍尔木兹海峡航运低迷、红海袭击也压低石油出口；未来利率仍取决于通胀与经济数据。",
+      "why_it_matters": "能源供应冲击正传导至欧洲货币政策，可能同时影响融资成本、需求与能源投资。",
+      "uncertainty": "央行对通胀和利率的展望是条件性判断；能源运输和冲突形势仍可能改变路径。",
+      "confidence": "high",
+      "sources": [
+        {"publisher": "Norges Bank", "title": "Policy rate raised to 4.50 percent", "url": "https://www.norges-bank.no/en/news-events/news/Press-releases/2026/2026-09-24-rate/", "published_at": "2026-09-24", "source_type": "primary"}
+      ]
+    },
+    {
+      "id": "canada-july-2026-retail-sales",
+      "category": "economy",
+      "regions": ["North America", "Canada"],
+      "title": "加拿大7月零售销售额下降0.7%，8月初值预计反弹",
+      "summary": "加拿大统计局9月24日公布，7月零售销售额环比下降0.7%至737亿加元，销量下降1.1%；基于企业初步回复的8月预估为增长1.3%。",
+      "why_it_matters": "实测消费转弱与下一月初步反弹并存，显示月度零售动能不宜只凭单一读数判断。",
+      "uncertainty": "8月是可能修订的提前估计；销售额与实际销量口径不同，不能把名义变化等同于消费量变化。",
+      "confidence": "high",
+      "sources": [
+        {"publisher": "Statistics Canada", "title": "Retail trade, July 2026", "url": "https://www150.statcan.gc.ca/n1/daily-quotidien/260924/dq260924a-eng.htm?indgeo=13&indid=3660-1", "published_at": "2026-09-24", "source_type": "primary"}
+      ]
+    },
+    {
+      "id": "ifo-germany-business-climate-september-2026",
+      "category": "economy",
+      "regions": ["Europe", "Germany"],
+      "title": "德国ifo商业景气指数回升至89.9",
+      "summary": "ifo研究所9月24日称，德国商业景气指数由8月的88.8升至9月的89.9，企业对当前状况与未来预期的评价均有所改善。",
+      "why_it_matters": "该调查提供制造、服务等企业情绪的及时信号，可与零售、产出等硬数据对照观察。",
+      "uncertainty": "调查情绪不是实际GDP或产量；单月改善尚不能证明经济持续复苏。",
+      "confidence": "high",
+      "sources": [
+        {"publisher": "ifo Institute", "title": "ifo Business Climate Index Rises", "url": "https://www.ifo.de/en/survey-results", "published_at": "2026-09-24", "source_type": "primary"}
+      ]
+    },
+    {
+      "id": "federal-reserve-proposes-genius-act-stablecoin-rules",
+      "category": "technology",
+      "regions": ["North America", "United States", "Global"],
+      "title": "美联储提出GENIUS Act稳定币储备与监管规则",
+      "summary": "美联储9月24日提出两项规则，涉及支付稳定币发行者的许可、储备资产支持、资本与风险管理、资产保管，以及银行发行稳定币的审批路径；公众意见期拟为《联邦公报》刊载后60天。",
+      "why_it_matters": "若最终采纳，储备流动性、资本约束和托管要求将影响银行与非银行发行者进入支付稳定币市场的方式。",
+      "uncertainty": "这是征求意见中的拟议规则，不是最终监管要求；意见期及最终文本以《联邦公报》发布为准。",
+      "confidence": "high",
+      "sources": [
+        {"publisher": "Board of Governors of the Federal Reserve System", "title": "Agencies request comment on two proposed rules to implement the GENIUS Act", "url": "https://www.federalreserve.gov/newsevents/pressreleases/bcreg20260924a.htm", "published_at": "2026-09-24", "source_type": "primary"}
+      ]
+    },
+    {
+      "id": "kazakhstan-caspian-exercise-drowning-2026-09-24",
+      "category": "health-society",
+      "regions": ["Asia", "Kazakhstan", "Caspian Sea"],
+      "title": "哈萨克斯坦军演人员被海浪卷入里海，官方称12人死亡",
+      "summary": "哈萨克斯坦芒格斯套州政府称，军演期间17名人员被卷入海中，12人死亡、3人获救，另2人仍在搜寻；总统宣布全国哀悼日。",
+      "why_it_matters": "事件促使外界关注海上演训的风险控制、人员搜救和官方调查后续。",
+      "uncertainty": "数字来自地区政府且搜救仍在进行；人员身份、事故经过与责任须等待调查确认。",
+      "confidence": "medium",
+      "sources": [
+        {"publisher": "Reuters via StreetInsider", "title": "Nine Kazakh military personnel dead after being washed out to sea during exercises", "url": "https://www.streetinsider.com/Reuters/Nine%2BKazakh%2Bmilitary%2Bpersonnel%2Bdead%2Bafter%2Bbeing%2Bwashed%2Bout%2Bto%2Bsea%2Bduring%2Bexercises/27098165.html", "published_at": "2026-09-24", "source_type": "wire"},
+        {"publisher": "APA", "title": "Death toll among Kazakh servicemen in Caspian Sea rises to 12", "url": "https://en.apa.az/cis-countries/death-toll-among-kazakh-servicemen-in-caspian-sea-rises-to-12-updated-525978", "published_at": "2026-09-24", "source_type": "regional-media"}
+      ]
+    },
+    {
+      "id": "lake-tanganyika-capsize-kabimba-september-2026",
+      "category": "health-society",
+      "regions": ["Africa", "Tanzania", "Democratic Republic of the Congo", "Lake Tanganyika"],
+      "title": "坦噶尼喀湖沉船事故至少41人死亡，搜救仍在继续",
+      "summary": "美联社援引刚果（金）南基伍省交通部门负责人报道，一艘从坦桑尼亚驶往刚果（金）、载有乘客和货物的船只倾覆，至少41人死亡、49人获救，搜救仍在进行。",
+      "why_it_matters": "事故凸显跨湖交通安全、载客与货物管理以及偏远水域搜救能力的重要性。",
+      "uncertainty": "地方较早通报的船上人数和失踪/获救统计并不一致，伤亡仍可能变化；本条采用AP所引官员当时报数，不视为最终清点。",
+      "confidence": "medium",
+      "sources": [
+        {"publisher": "Associated Press via SFGate", "title": "Boat heading from Tanzania to Congo on Lake Tanganyika capsizes, killing at least 41", "url": "https://www.sfgate.com/news/world/article/boat-heading-from-tanzania-to-congo-on-lake-22447506.php", "published_at": "2026-09-24", "source_type": "wire"},
+        {"publisher": "Actualite.cd", "title": "Tanganyika: le naufrage du MJP au large de Kabimba fait 41 disparus", "url": "https://actualite.cd/index.php/2026/09/24/tanganyika-le-naufrage-du-mjp-au-large-de-kabimba-fait-41-disparus", "published_at": "2026-09-24", "source_type": "regional-media"}
+      ]
+    },
+    {
+      "id": "trump-xi-white-house-meeting-ai-trade-september-2026",
+      "category": "politics",
+      "regions": ["North America", "United States", "Asia", "China", "Global"],
+      "title": "特朗普与习近平在白宫会晤，谈及贸易与人工智能治理",
+      "summary": "中国外交部9月25日早间发布会晤通报称，习近平与特朗普9月24日在白宫会面，双方欢迎经贸磋商的新成果并就中东、乌克兰等议题交换意见。习近平提出开展人工智能对话，并称应坚持以人为本、确保AI由人类控制。",
+      "why_it_matters": "美中高层对话把贸易关系与AI治理纳入同一议程，后续仍需观察其是否转化为具体机制和政策。",
+      "uncertainty": "中方通报反映中方表述；目前不应将会谈中的原则性表态写成新协议、已建立的AI治理机制或具体贸易条款。",
+      "confidence": "medium",
+      "sources": [
+        {"publisher": "Ministry of Foreign Affairs of the People's Republic of China", "title": "President Xi Jinping Meets with U.S. President Donald J. Trump", "url": "https://www.mfa.gov.cn/eng/xw/zyxw/202609/t20260925_12031181.html", "published_at": "2026-09-25T07:50+08:00", "source_type": "primary"},
+        {"publisher": "Associated Press via Yahoo News", "title": "Xi says China and US have responsibility to ensure AI remains under human control", "url": "https://nz.news.yahoo.com/xi-says-china-us-responsibility-144305623.html", "published_at": "2026-09-24", "source_type": "wire"}
+      ]
+    },
+    {
+      "id": "google-suncatcher-orbital-tpu-test",
+      "category": "technology",
+      "regions": ["Global", "United States", "Space"],
+      "title": "Google公布Suncatcher轨道TPU验证计划",
+      "summary": "Google Research称，计划与Planet合作，让首批原型卫星搭乘SpaceX Transporter-18进入轨道，测试TPU在发射应力、辐射与热环境下的表现。",
+      "why_it_matters": "若长期可行，轨道计算可能改变AI算力基础设施与能源约束的讨论；当前首先是验证芯片及系统能否承受太空环境。",
+      "uncertainty": "这是尚待发射的早期研究原型，不是已运行的数据中心，也未证明轨道计算的经济性、维护能力或规模化可行性。",
+      "confidence": "high",
+      "sources": [
+        {"publisher": "Google Research", "title": "Google's Project Suncatcher: Facts about our moonshot research project", "url": "https://blog.google/innovation-and-ai/models-and-research/google-research/google-project-suncatcher-facts/", "published_at": "2026-09-24", "source_type": "primary"}
+      ],
+      "section": "ai-frontier",
+      "ai": {
+        "kind": "infrastructure-research",
+        "topics": ["AI-infrastructure", "space-computing", "hardware-reliability"],
+        "artifact_date": "2026-09-24",
+        "artifact_status": "Google Research公布的探索性原型计划，尚待轨道测试",
+        "technical_takeaway": "把TPU和卫星平台结合，先验证芯片对发射、辐射和热循环等在轨环境的耐受性。",
+        "evidence_level": "一手机构公告；测试尚未完成，本期无独立验证",
+        "heat": {
+          "label": "仅有官方计划发布信号，不作热度排名",
+          "as_of": "2026-09-25T09:10:17+08:00",
+          "signals": [{"platform": "Google Research", "observation": "官方于9月24日公布首批原型卫星测试计划；这是工件时效信号，不代表独立关注或技术成功。", "url": "https://blog.google/innovation-and-ai/models-and-research/google-research/google-project-suncatcher-facts/"}]
+        }
+      }
+    },
+    {
+      "id": "fde-bench-agent-deployment-evaluation",
+      "category": "technology",
+      "regions": ["North America", "United States", "Europe", "United Kingdom", "Asia", "China"],
+      "title": "FDE-Bench评估智能体配置与修复部署环境的能力",
+      "summary": "arXiv新论文构建136项部署任务，覆盖Docker镜像、多服务Compose、Kubernetes以及从零配置和故障修复；作者以构建、就绪、行为和规范一致性四层程序化检查任务结果。",
+      "why_it_matters": "部署任务要求代理处理配置、服务依赖和运行时行为，能补足只在单文件代码或静态基准上评估代理的不足。",
+      "uncertainty": "论文为尚未同行评审的预印本；作者报告不同模型完成率约52.9%至75%，任务集覆盖有限且本期未独立复现，不能直接推断生产可靠性。",
+      "confidence": "medium",
+      "sources": [
+        {"publisher": "arXiv / UC Berkeley, Imperial College London, HKUST (Guangzhou)", "title": "FDE-Bench: Evaluating LLM Agents for Deployment Environment Configuration", "url": "https://arxiv.org/abs/2609.27571", "published_at": "2026-09-23T08:51:01Z", "source_type": "research"},
+        {"publisher": "arXiv", "title": "FDE-Bench full text", "url": "https://arxiv.org/html/2609.27571", "published_at": "2026-09-23", "source_type": "research"}
+      ],
+      "section": "ai-frontier",
+      "ai": {
+        "kind": "research-paper-and-benchmark",
+        "topics": ["agent-evaluation", "deployment", "software-engineering"],
+        "artifact_date": "2026-09-23",
+        "artifact_status": "预印本，尚未同行评审；任务与检查说明公开",
+        "technical_takeaway": "以多层程序化验收检查部署任务的构建、就绪、行为与配置符合性，而不只验证语法。",
+        "evidence_level": "一手预印本与作者实验；未独立复现",
+        "heat": {
+          "label": "仅有一手论文发布信号，不作热度排名",
+          "as_of": "2026-09-25T09:10:17+08:00",
+          "signals": [{"platform": "arXiv", "observation": "论文于9月23日提交，处于本期七日论文窗口；未核实独立关注度。", "url": "https://arxiv.org/abs/2609.27571"}]
+        }
+      }
+    },
+    {
+      "id": "mvcap-motion-captcha-gui-agents",
+      "category": "technology",
+      "regions": ["Asia", "China"],
+      "title": "Motion Vision CAPTCHA研究测试GUI智能体的动态视觉识别",
+      "summary": "上海人工智能实验室、上海交通大学与中国人民大学研究者提出MVCAP，以连续变化背景中的运动前景掩码检验GUI智能体对动态视觉线索的识别；作者在600个在线验证码上报告人类成功率99.6%，最佳受测代理为16.8%。",
+      "why_it_matters": "研究指出静态截图评测可能遗漏时间变化视觉任务，可用于探查多模态代理的感知边界。",
+      "uncertainty": "这些是作者在特定验证码集上的结果，论文尚未同行评审或独立复现；验证码也可能对部分用户造成可访问性负担，实际部署需权衡安全与可用性。",
+      "confidence": "medium",
+      "sources": [
+        {"publisher": "arXiv / Shanghai AI Laboratory, Shanghai Jiao Tong University, Renmin University of China", "title": "Invisible in Space, Visible in Time: Motion Vision CAPTCHA against GUI Agents", "url": "https://arxiv.org/abs/2609.27461", "published_at": "2026-09-23T07:27:23Z", "source_type": "research"},
+        {"publisher": "arXiv", "title": "Motion Vision CAPTCHA full text", "url": "https://arxiv.org/html/2609.27461", "published_at": "2026-09-23", "source_type": "research"}
+      ],
+      "section": "ai-frontier",
+      "ai": {
+        "kind": "research-paper-and-evaluation",
+        "topics": ["GUI-agents", "multimodal-perception", "captcha"],
+        "artifact_date": "2026-09-23",
+        "artifact_status": "arXiv预印本；作者称已被ACM Multimedia 2026接收，仍标记研究结论未独立复现",
+        "technical_takeaway": "通过时序变化而非单帧图像，测试代理能否分辨运动前景线索。",
+        "evidence_level": "一手预印本和作者评测；实验范围有限，未独立复现",
+        "heat": {
+          "label": "仅有论文发布与录用说明信号，不作热度排名",
+          "as_of": "2026-09-25T09:10:17+08:00",
+          "signals": [{"platform": "arXiv", "observation": "9月23日提交；论文摘要注明录用信息，但未核实独立讨论或复现。", "url": "https://arxiv.org/abs/2609.27461"}]
+        }
+      }
+    }
+  ]
+}
