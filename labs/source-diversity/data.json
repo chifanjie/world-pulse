@@ -1,20 +1,28 @@
 {
   "built_from": "data/index.json",
   "counts": {
-    "ai_events": 110,
-    "digests": 44,
-    "events": 410,
-    "single_source_events": 176,
-    "source_links": 733,
-    "unique_source_urls": 723,
-    "world_events": 300,
+    "ai_events": 112,
+    "digests": 45,
+    "events": 418,
+    "single_source_events": 180,
+    "source_links": 745,
+    "unique_source_urls": 734,
+    "world_events": 306,
     "zero_source_events": 0
   },
   "date_range": {
-    "end": "2026-09-25",
+    "end": "2026-09-26",
     "start": "2026-08-03"
   },
   "dates": [
+    {
+      "ai_event_count": 2,
+      "date": "2026-09-26",
+      "event_count": 8,
+      "single_source_events": 4,
+      "source_links": 12,
+      "world_event_count": 6
+    },
     {
       "ai_event_count": 3,
       "date": "2026-09-25",
@@ -369,6 +377,226 @@
     }
   ],
   "events": [
+    {
+      "category": "technology",
+      "confidence": "medium",
+      "date": "2026-09-26",
+      "id": "basecamp-agentic-dna-sequencing",
+      "regions": [
+        "Global",
+        "Health",
+        "Science"
+      ],
+      "section": "ai",
+      "single_source": true,
+      "source_count": 1,
+      "sources": [
+        {
+          "published_at": "2026-09-23T08:55:17Z",
+          "publisher": "arXiv",
+          "source_type": "research",
+          "title": "BaseCamp --- An Agentic AI Framework for Automating DNA Sequencing Data Pipelines",
+          "url": "https://arxiv.org/abs/2609.28557"
+        }
+      ],
+      "title": "BaseCamp论文提出用于DNA测序流程决策层的多智能体框架"
+    },
+    {
+      "category": "technology",
+      "confidence": "medium",
+      "date": "2026-09-26",
+      "id": "pistis-multimodal-model-report",
+      "regions": [
+        "Asia",
+        "China",
+        "Global"
+      ],
+      "section": "ai",
+      "single_source": true,
+      "source_count": 1,
+      "sources": [
+        {
+          "published_at": "2026-09-23T08:03:45Z",
+          "publisher": "arXiv",
+          "source_type": "research",
+          "title": "Pistis Technical Report",
+          "url": "https://arxiv.org/abs/2609.28554"
+        }
+      ],
+      "title": "Pistis技术报告介绍多模态模型与交替蒸馏强化学习方案"
+    },
+    {
+      "category": "health-society",
+      "confidence": "medium",
+      "date": "2026-09-26",
+      "id": "athens-plaka-explosion-building-collapse-sept25",
+      "regions": [
+        "Athens",
+        "Europe",
+        "Greece"
+      ],
+      "section": "world",
+      "single_source": false,
+      "source_count": 2,
+      "sources": [
+        {
+          "published_at": "2026-09-25",
+          "publisher": "Euronews",
+          "source_type": "regional-media",
+          "title": "Five missing after building collapses in central Athens due to suspected gas explosion",
+          "url": "https://www.euronews.com/2026/09/25/building-in-central-athens-collapses-after-explosion-two-women-rescued"
+        },
+        {
+          "published_at": "2026-09-25",
+          "publisher": "Reuters via MarketScreener",
+          "source_type": "wire",
+          "title": "Building partially collapses after explosion in central Athens, one person reportedly injured",
+          "url": "https://www.marketscreener.com/news/building-partially-collapses-after-explosion-in-central-athens-one-person-reportedly-injured-ce785adfda8cf423"
+        }
+      ],
+      "title": "雅典Plaka街区建筑爆炸坍塌，消防部门报告多人失联"
+    },
+    {
+      "category": "technology",
+      "confidence": "medium",
+      "date": "2026-09-26",
+      "id": "australia-openai-agent-statistics-portal-disclosure-sept24",
+      "regions": [
+        "Australia",
+        "Global",
+        "Oceania"
+      ],
+      "section": "world",
+      "single_source": false,
+      "source_count": 2,
+      "sources": [
+        {
+          "published_at": "2026-09-24",
+          "publisher": "ABC News",
+          "source_type": "regional-media",
+          "title": "AI agent accessed Australian government site, PM says",
+          "url": "https://www.abc.net.au/news/2026-09-24/ai-agent-accessed-australian-government-site-pm-says/107189078"
+        },
+        {
+          "published_at": "2026-09-24",
+          "publisher": "Australian Department of Defence",
+          "source_type": "primary",
+          "title": "Press Conference, Sydney",
+          "url": "https://www.minister.defence.gov.au/transcripts/2026-09-24/press-conference-sydney"
+        }
+      ],
+      "title": "澳大利亚披露OpenAI内部代理曾越过统计门户限制访问文件"
+    },
+    {
+      "category": "markets",
+      "confidence": "high",
+      "date": "2026-09-26",
+      "id": "european-shares-weekly-gain-oil-eases-sept25",
+      "regions": [
+        "Europe",
+        "Global"
+      ],
+      "section": "world",
+      "single_source": true,
+      "source_count": 1,
+      "sources": [
+        {
+          "published_at": "2026-09-25",
+          "publisher": "Reuters via MarketScreener",
+          "source_type": "wire",
+          "title": "European shares log weekly gains as oil prices ease, Mideast tensions linger",
+          "url": "https://www.marketscreener.com/news/european-shares-log-weekly-gains-as-oil-prices-ease-mideast-tensions-linger-ce785adfd18bf127"
+        }
+      ],
+      "title": "油价回落助欧洲股市结束三周连跌，但债券收益率仍受关注"
+    },
+    {
+      "category": "health-society",
+      "confidence": "medium",
+      "date": "2026-09-26",
+      "id": "kazakhstan-caspian-exercise-casualties-sept24",
+      "regions": [
+        "Asia",
+        "Caspian Sea",
+        "Kazakhstan"
+      ],
+      "section": "world",
+      "single_source": false,
+      "source_count": 2,
+      "sources": [
+        {
+          "published_at": "2026-09-24",
+          "publisher": "APA",
+          "source_type": "regional-media",
+          "title": "Death toll among Kazakh servicemen in Caspian Sea rises to 12",
+          "url": "https://en.apa.az/cis-countries/death-toll-among-kazakh-servicemen-in-caspian-sea-rises-to-12-updated-525978"
+        },
+        {
+          "published_at": "2026-09-24",
+          "publisher": "Reuters via Al Jazeera",
+          "source_type": "wire",
+          "title": "Twelve Kazakh soldiers die in Caspian Sea training incident",
+          "url": "https://www.aljazeera.com/news/2026/9/24/nine-kazakh-soldiers-die-in-caspian-sea-training-incident"
+        }
+      ],
+      "title": "哈萨克斯坦军演人员被海浪卷入里海，地区政府报12人死亡"
+    },
+    {
+      "category": "politics",
+      "confidence": "medium",
+      "date": "2026-09-26",
+      "id": "philippines-china-resupply-ayungin-sept25",
+      "regions": [
+        "Asia",
+        "China",
+        "Philippines",
+        "South China Sea"
+      ],
+      "section": "world",
+      "single_source": false,
+      "source_count": 2,
+      "sources": [
+        {
+          "published_at": "2026-09-25",
+          "publisher": "GMA News",
+          "source_type": "regional-media",
+          "title": "Chinese vessels hindered PH resupply mission to Ayungin Shoal — NTF-WPS",
+          "url": "https://www.gmanetwork.com/news/topstories/nation/1003676/chinese-vessels-hindered-ph-resupply-mission-to-ayungin-shoal-ntf-wps/story/"
+        },
+        {
+          "published_at": "2026-09-25",
+          "publisher": "Reuters via MarketScreener",
+          "source_type": "wire",
+          "title": "Philippines accuses China of obstructing resupply mission in South China Sea",
+          "url": "https://www.marketscreener.com/news/philippines-accuses-china-of-obstructing-resupply-mission-in-south-china-sea-ce785adfda8cf325"
+        }
+      ],
+      "title": "菲律宾称中国船只阻挠仁爱礁补给任务"
+    },
+    {
+      "category": "politics",
+      "confidence": "medium",
+      "date": "2026-09-26",
+      "id": "russia-strikes-ukraine-steelmaker-kyiv-sept25",
+      "regions": [
+        "Europe",
+        "Russia",
+        "Ukraine"
+      ],
+      "section": "world",
+      "single_source": true,
+      "source_count": 1,
+      "sources": [
+        {
+          "published_at": "2026-09-25",
+          "publisher": "Reuters via StreetInsider",
+          "source_type": "wire",
+          "title": "Russian strikes shut Ukraine's biggest steelmaker, kill seven in Kyiv",
+          "url": "https://www.streetinsider.com/Reuters/Russian%2Bstrikes%2Bshut%2BUkraine%27s%2Bbiggest%2Bsteelmaker%2C%2Bkill%2Bseven%2Bin%2BKyiv/27103405.html"
+        }
+      ],
+      "title": "俄军空袭致基辅7人死亡，乌克兰最大钢厂暂停生产"
+    },
     {
       "category": "technology",
       "confidence": "medium",
@@ -12257,7 +12485,7 @@
       "title": "降级预期推动油价早盘回落约 4 美元"
     }
   ],
-  "latest_digest_generated_at": "2026-09-25T09:10:17+08:00",
+  "latest_digest_generated_at": "2026-09-26T09:05:29+08:00",
   "publishers": [
     {
       "event_count": 137,
@@ -12265,9 +12493,9 @@
       "source_links": 144
     },
     {
-      "event_count": 51,
+      "event_count": 53,
       "name": "arXiv",
-      "source_links": 60
+      "source_links": 62
     },
     {
       "event_count": 20,
@@ -12290,9 +12518,9 @@
       "source_links": 12
     },
     {
-      "event_count": 9,
+      "event_count": 12,
       "name": "Reuters via MarketScreener",
-      "source_links": 9
+      "source_links": 12
     },
     {
       "event_count": 7,
@@ -12465,6 +12693,11 @@
       "source_links": 2
     },
     {
+      "event_count": 2,
+      "name": "APA",
+      "source_links": 2
+    },
+    {
       "event_count": 1,
       "name": "Apodex",
       "source_links": 2
@@ -12547,6 +12780,11 @@
     {
       "event_count": 1,
       "name": "FlashML",
+      "source_links": 2
+    },
+    {
+      "event_count": 2,
+      "name": "GMA News",
       "source_links": 2
     },
     {
@@ -12666,6 +12904,11 @@
     },
     {
       "event_count": 2,
+      "name": "Reuters via StreetInsider",
+      "source_links": 2
+    },
+    {
+      "event_count": 2,
       "name": "Reuters via ThePrint",
       "source_links": 2
     },
@@ -12741,6 +12984,11 @@
     },
     {
       "event_count": 1,
+      "name": "ABC News",
+      "source_links": 1
+    },
+    {
+      "event_count": 1,
       "name": "Actualite.cd",
       "source_links": 1
     },
@@ -12811,11 +13059,6 @@
     },
     {
       "event_count": 1,
-      "name": "APA",
-      "source_links": 1
-    },
-    {
-      "event_count": 1,
       "name": "Apple",
       "source_links": 1
     },
@@ -12867,6 +13110,11 @@
     {
       "event_count": 1,
       "name": "Australian Bureau of Statistics",
+      "source_links": 1
+    },
+    {
+      "event_count": 1,
+      "name": "Australian Department of Defence",
       "source_links": 1
     },
     {
@@ -12966,6 +13214,11 @@
     },
     {
       "event_count": 1,
+      "name": "Euronews",
+      "source_links": 1
+    },
+    {
+      "event_count": 1,
       "name": "Europa Press via Teleprensa",
       "source_links": 1
     },
@@ -13022,11 +13275,6 @@
     {
       "event_count": 1,
       "name": "GitHub Agentic Workflows",
-      "source_links": 1
-    },
-    {
-      "event_count": 1,
-      "name": "GMA News",
       "source_links": 1
     },
     {
@@ -13396,6 +13644,11 @@
     },
     {
       "event_count": 1,
+      "name": "Reuters via Al Jazeera",
+      "source_links": 1
+    },
+    {
+      "event_count": 1,
       "name": "Reuters via Business Recorder",
       "source_links": 1
     },
@@ -13407,11 +13660,6 @@
     {
       "event_count": 1,
       "name": "Reuters via Onvista",
-      "source_links": 1
-    },
-    {
-      "event_count": 1,
-      "name": "Reuters via StreetInsider",
       "source_links": 1
     },
     {
@@ -13732,27 +13980,27 @@
   ],
   "regions": [
     {
-      "event_count": 149,
+      "event_count": 153,
       "name": "Global"
+    },
+    {
+      "event_count": 86,
+      "name": "Asia"
     },
     {
       "event_count": 84,
       "name": "North America"
     },
     {
-      "event_count": 83,
-      "name": "Asia"
-    },
-    {
       "event_count": 80,
       "name": "United States"
     },
     {
-      "event_count": 70,
+      "event_count": 73,
       "name": "Europe"
     },
     {
-      "event_count": 38,
+      "event_count": 40,
       "name": "China"
     },
     {
@@ -13768,11 +14016,11 @@
       "name": "Middle East"
     },
     {
-      "event_count": 18,
+      "event_count": 19,
       "name": "Ukraine"
     },
     {
-      "event_count": 15,
+      "event_count": 16,
       "name": "Russia"
     },
     {
@@ -13780,12 +14028,12 @@
       "name": "Latin America"
     },
     {
-      "event_count": 10,
-      "name": "Iran"
+      "event_count": 11,
+      "name": "Oceania"
     },
     {
       "event_count": 10,
-      "name": "Oceania"
+      "name": "Iran"
     },
     {
       "event_count": 10,
@@ -13809,15 +14057,15 @@
     },
     {
       "event_count": 7,
+      "name": "Australia"
+    },
+    {
+      "event_count": 7,
       "name": "France"
     },
     {
       "event_count": 7,
       "name": "中国"
-    },
-    {
-      "event_count": 6,
-      "name": "Australia"
     },
     {
       "event_count": 6,
@@ -13909,6 +14157,10 @@
     },
     {
       "event_count": 3,
+      "name": "Kazakhstan"
+    },
+    {
+      "event_count": 3,
       "name": "Mexico"
     },
     {
@@ -13957,6 +14209,10 @@
     },
     {
       "event_count": 2,
+      "name": "Caspian Sea"
+    },
+    {
+      "event_count": 2,
       "name": "Chile"
     },
     {
@@ -13981,15 +14237,15 @@
     },
     {
       "event_count": 2,
+      "name": "Greece"
+    },
+    {
+      "event_count": 2,
       "name": "Greenland"
     },
     {
       "event_count": 2,
       "name": "Hawaii"
-    },
-    {
-      "event_count": 2,
-      "name": "Kazakhstan"
     },
     {
       "event_count": 2,
@@ -14006,6 +14262,10 @@
     {
       "event_count": 2,
       "name": "Pakistan"
+    },
+    {
+      "event_count": 2,
+      "name": "Philippines"
     },
     {
       "event_count": 2,
@@ -14141,6 +14401,10 @@
     },
     {
       "event_count": 1,
+      "name": "Athens"
+    },
+    {
+      "event_count": 1,
       "name": "Austria"
     },
     {
@@ -14170,10 +14434,6 @@
     {
       "event_count": 1,
       "name": "Cameroon"
-    },
-    {
-      "event_count": 1,
-      "name": "Caspian Sea"
     },
     {
       "event_count": 1,
@@ -14241,10 +14501,6 @@
     },
     {
       "event_count": 1,
-      "name": "Greece"
-    },
-    {
-      "event_count": 1,
       "name": "Guangxi"
     },
     {
@@ -14254,6 +14510,10 @@
     {
       "event_count": 1,
       "name": "Haiti"
+    },
+    {
+      "event_count": 1,
+      "name": "Health"
     },
     {
       "event_count": 1,
@@ -14349,10 +14609,6 @@
     },
     {
       "event_count": 1,
-      "name": "Philippines"
-    },
-    {
-      "event_count": 1,
       "name": "Reno"
     },
     {
@@ -14361,11 +14617,19 @@
     },
     {
       "event_count": 1,
+      "name": "Science"
+    },
+    {
+      "event_count": 1,
       "name": "Serbia"
     },
     {
       "event_count": 1,
       "name": "South Asia"
+    },
+    {
+      "event_count": 1,
+      "name": "South China Sea"
     },
     {
       "event_count": 1,
@@ -14487,19 +14751,19 @@
   "schema_version": 1,
   "source_types": [
     {
-      "event_count": 221,
-      "name": "primary",
-      "source_links": 247
-    },
-    {
-      "event_count": 213,
+      "event_count": 218,
       "name": "wire",
-      "source_links": 244
+      "source_links": 249
     },
     {
-      "event_count": 61,
+      "event_count": 222,
+      "name": "primary",
+      "source_links": 248
+    },
+    {
+      "event_count": 63,
       "name": "research",
-      "source_links": 82
+      "source_links": 84
     },
     {
       "event_count": 44,
@@ -14512,9 +14776,9 @@
       "source_links": 39
     },
     {
-      "event_count": 26,
+      "event_count": 30,
       "name": "regional-media",
-      "source_links": 27
+      "source_links": 31
     },
     {
       "event_count": 21,

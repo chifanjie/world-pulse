@@ -2,6 +2,38 @@
   "version": 1,
   "entries": [
     {
+      "date": "2026-09-26",
+      "digest_path": "digests/2026/09/2026-09-26.md",
+      "data_path": "data/2026/09/2026-09-26.json",
+      "generated_at": "2026-09-26T09:05:29+08:00",
+      "item_count": 8,
+      "ai_radar_count": 2,
+      "categories": [
+        "health-society",
+        "markets",
+        "politics",
+        "technology"
+      ],
+      "regions": [
+        "Asia",
+        "Athens",
+        "Australia",
+        "Caspian Sea",
+        "China",
+        "Europe",
+        "Global",
+        "Greece",
+        "Health",
+        "Kazakhstan",
+        "Oceania",
+        "Philippines",
+        "Russia",
+        "Science",
+        "South China Sea",
+        "Ukraine"
+      ]
+    },
+    {
       "date": "2026-09-25",
       "digest_path": "digests/2026/09/2026-09-25.md",
       "data_path": "data/2026/09/2026-09-25.json",
