@@ -18,7 +18,7 @@ python labs/digest_search/digest_search.py data/2026/09 --category economy --reg
 
 ```powershell
 python -m unittest tests.test_digest_search -v
-python labs/digest-search/digest_search.py data/2026/09 --query 代理 --section ai-frontier
+python labs/digest_search/digest_search.py data/2026/09 --query 代理 --section ai-frontier
 ```
 
 ## 无障碍与限制
