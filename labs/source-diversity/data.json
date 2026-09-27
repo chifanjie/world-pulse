@@ -1,20 +1,28 @@
 {
   "built_from": "data/index.json",
   "counts": {
-    "ai_events": 112,
-    "digests": 45,
-    "events": 418,
-    "single_source_events": 180,
-    "source_links": 745,
-    "unique_source_urls": 734,
-    "world_events": 306,
+    "ai_events": 114,
+    "digests": 46,
+    "events": 428,
+    "single_source_events": 188,
+    "source_links": 757,
+    "unique_source_urls": 746,
+    "world_events": 314,
     "zero_source_events": 0
   },
   "date_range": {
-    "end": "2026-09-26",
+    "end": "2026-09-27",
     "start": "2026-08-03"
   },
   "dates": [
+    {
+      "ai_event_count": 2,
+      "date": "2026-09-27",
+      "event_count": 10,
+      "single_source_events": 8,
+      "source_links": 12,
+      "world_event_count": 8
+    },
     {
       "ai_event_count": 2,
       "date": "2026-09-26",
@@ -377,6 +385,263 @@
     }
   ],
   "events": [
+    {
+      "category": "technology",
+      "confidence": "medium",
+      "date": "2026-09-27",
+      "id": "qwen-planner-agent-mobile-closed-loop",
+      "regions": [
+        "Asia",
+        "China",
+        "Global"
+      ],
+      "section": "ai",
+      "single_source": true,
+      "source_count": 1,
+      "sources": [
+        {
+          "published_at": "2026-09-24T14:38:08Z",
+          "publisher": "arXiv",
+          "source_type": "research",
+          "title": "Qwen-Planner-Agent: A Closed-Loop AI-for-AI Framework for Real-World Mobile Planner Agents",
+          "url": "https://arxiv.org/abs/2609.29892"
+        }
+      ],
+      "title": "Qwen-Planner-Agent预印本提出移动端代理的数据、训练与部署闭环"
+    },
+    {
+      "category": "technology",
+      "confidence": "medium",
+      "date": "2026-09-27",
+      "id": "research-agent-reward-hacking-oversight",
+      "regions": [
+        "AI research",
+        "Global",
+        "Safety"
+      ],
+      "section": "ai",
+      "single_source": true,
+      "source_count": 1,
+      "sources": [
+        {
+          "published_at": "2026-09-23T17:54:01Z",
+          "publisher": "arXiv",
+          "source_type": "research",
+          "title": "Reward Hacking Challenges Oversight of Autonomous Research Agents",
+          "url": "https://arxiv.org/abs/2609.28614"
+        }
+      ],
+      "title": "预印本测试科研代理奖励投机，指出仅审查代码与分数可能漏检"
+    },
+    {
+      "category": "climate-environment",
+      "confidence": "medium",
+      "date": "2026-09-27",
+      "id": "bangkok-flood-emergency-september-2026",
+      "regions": [
+        "Asia",
+        "Bangkok",
+        "Thailand"
+      ],
+      "section": "world",
+      "single_source": true,
+      "source_count": 1,
+      "sources": [
+        {
+          "published_at": "2026-09-26",
+          "publisher": "Associated Press via Spectrum News NY1",
+          "source_type": "wire",
+          "title": "Heavy rain and flooding in Bangkok disrupts traffic and prompts evacuations",
+          "url": "https://ny1.com/nyc/all-boroughs/ap-top-news/2026/09/26/heavy-rain-and-flooding-in-bangkok-disrupts-traffic-and-prompts-evacuations"
+        }
+      ],
+      "title": "曼谷持续暴雨致全市进入洪灾应急，数千人转入避难所"
+    },
+    {
+      "category": "politics",
+      "confidence": "medium",
+      "date": "2026-09-27",
+      "id": "brazil-fixed-odds-betting-provisional-ban-sept25",
+      "regions": [
+        "Brazil",
+        "South America"
+      ],
+      "section": "world",
+      "single_source": true,
+      "source_count": 1,
+      "sources": [
+        {
+          "published_at": "2026-09-26",
+          "publisher": "Associated Press via The Guardian",
+          "source_type": "wire",
+          "title": "Lula bans fixed-odds sports betting a week before Brazilian elections",
+          "url": "https://www.theguardian.com/world/2026/sep/26/lula-bans-fixed-odds-sports-betting-a-week-before-brazilian-elections"
+        }
+      ],
+      "title": "巴西总统签署固定赔率体育博彩临时禁令，效力仍待国会确认"
+    },
+    {
+      "category": "politics",
+      "confidence": "medium",
+      "date": "2026-09-27",
+      "id": "dera-ismail-khan-checkpost-blast-sept26",
+      "regions": [
+        "Asia",
+        "Khyber Pakhtunkhwa",
+        "Pakistan"
+      ],
+      "section": "world",
+      "single_source": false,
+      "source_count": 2,
+      "sources": [
+        {
+          "published_at": "2026-09-26",
+          "publisher": "Radio Pakistan",
+          "source_type": "primary",
+          "title": "11 martyred, over 30 injured in Dera Ismail Khan blast",
+          "url": "https://www.radio.gov.pk/26-09-2026/11-martyred-over-30-injured-in-dera-ismail-khan-blast"
+        },
+        {
+          "published_at": "2026-09-26",
+          "publisher": "Reuters via MarketScreener",
+          "source_type": "wire",
+          "title": "Blast in Pakistan's Dera Ismail Khan kills 11, injures 30",
+          "url": "https://www.marketscreener.com/news/blast-in-pakistan-s-dera-ismail-khan-kills-11-injures-30-ce785adcd981f223"
+        }
+      ],
+      "title": "巴基斯坦Dera Ismail Khan检查站爆炸，Reuters报11死30伤"
+    },
+    {
+      "category": "health-society",
+      "confidence": "medium",
+      "date": "2026-09-27",
+      "id": "dr-congo-aircraft-crash-kenge-sept25",
+      "regions": [
+        "Africa",
+        "Democratic Republic of the Congo",
+        "Kwango"
+      ],
+      "section": "world",
+      "single_source": true,
+      "source_count": 1,
+      "sources": [
+        {
+          "published_at": "2026-09-26",
+          "publisher": "Al Jazeera（综合AP、Reuters与地方官员）",
+          "source_type": "regional-media",
+          "title": "Plane crash in DR Congo kills at least 17",
+          "url": "https://www.aljazeera.com/news/2026/9/26/plane-crash-in-dr-congo-kills-more-than-a-dozen"
+        }
+      ],
+      "title": "刚果（金）军机在居民区坠毁，死亡人数升至17人"
+    },
+    {
+      "category": "politics",
+      "confidence": "medium",
+      "date": "2026-09-27",
+      "id": "russia-ukraine-strikes-seven-dead-sept26",
+      "regions": [
+        "Europe",
+        "Russia",
+        "Ukraine"
+      ],
+      "section": "world",
+      "single_source": true,
+      "source_count": 1,
+      "sources": [
+        {
+          "published_at": "2026-09-26",
+          "publisher": "Associated Press via KSAT",
+          "source_type": "wire",
+          "title": "7 dead as Russia, Ukraine exchange strikes and aerial war intensifies",
+          "url": "https://www.ksat.com/gallery/news/2026/09/26/7-dead-as-russia-ukraine-exchange-strikes-and-aerial-war-intensifies/"
+        }
+      ],
+      "title": "俄乌互袭造成至少7人死亡，攻击波及居民区与工业设施"
+    },
+    {
+      "category": "economy",
+      "confidence": "medium",
+      "date": "2026-09-27",
+      "id": "us-china-tariff-ai-dialogue-sept26",
+      "regions": [
+        "Asia",
+        "China",
+        "Global",
+        "North America",
+        "United States"
+      ],
+      "section": "world",
+      "single_source": false,
+      "source_count": 2,
+      "sources": [
+        {
+          "published_at": "2026-09-26",
+          "publisher": "The Economic Times",
+          "source_type": "regional-media",
+          "title": "China, US agree to $30 billion tariff cut, AI dialogue during Xi visit",
+          "url": "https://economictimes.indiatimes.com/news/international/world-news/china-us-agree-to-30-billion-tariff-cut-ai-dialogue-during-xi-visit/articleshow/134500841.cms?from=mdr"
+        },
+        {
+          "published_at": "2026-09-25",
+          "publisher": "The White House",
+          "source_type": "primary",
+          "title": "Fact Sheet: President Donald J. Trump Advances a Fair and Reciprocal Relationship with China While Hosting Historic State Visit",
+          "url": "https://www.whitehouse.gov/fact-sheets/2026/09/fact-sheet-president-donald-j-trump-advances-a-fair-and-reciprocal-relationship-with-china-while-hosting-historic-state-visit/"
+        }
+      ],
+      "title": "美中宣布非敏感商品关税安排，并设立人工智能对话渠道"
+    },
+    {
+      "category": "politics",
+      "confidence": "medium",
+      "date": "2026-09-27",
+      "id": "us-iran-hormuz-seven-day-proposal-sept26",
+      "regions": [
+        "Iran",
+        "Middle East",
+        "Strait of Hormuz",
+        "United States"
+      ],
+      "section": "world",
+      "single_source": true,
+      "source_count": 1,
+      "sources": [
+        {
+          "published_at": "2026-09-26",
+          "publisher": "Reuters via MarketScreener",
+          "source_type": "wire",
+          "title": "Trump rejects Iranian proposal to open Hormuz and end fighting",
+          "url": "https://uk.marketscreener.com/news/iran-awaits-us-move-after-wsj-report-says-trump-rejects-peace-plan-ce785adcd98df625"
+        }
+      ],
+      "title": "美伊围绕霍尔木兹海峡提出停火路径，协议仍未达成"
+    },
+    {
+      "category": "politics",
+      "confidence": "medium",
+      "date": "2026-09-27",
+      "id": "us-ukraine-assistance-deadline-400m-sept25",
+      "regions": [
+        "Europe",
+        "North America",
+        "Ukraine",
+        "United States"
+      ],
+      "section": "world",
+      "single_source": true,
+      "source_count": 1,
+      "sources": [
+        {
+          "published_at": "2026-09-26",
+          "publisher": "Reuters via The Japan Times",
+          "source_type": "wire",
+          "title": "Trump administration to meet Ukraine assistance deadline",
+          "url": "https://www.japantimes.co.jp/news/2026/09/26/world/politics/trump-meet-ukraine-assistance-deadline/"
+        }
+      ],
+      "title": "Reuters称美国承诺在财政年度结束前锁定近4亿美元对乌军援"
+    },
     {
       "category": "technology",
       "confidence": "medium",
@@ -12485,7 +12750,7 @@
       "title": "降级预期推动油价早盘回落约 4 美元"
     }
   ],
-  "latest_digest_generated_at": "2026-09-26T09:05:29+08:00",
+  "latest_digest_generated_at": "2026-09-27T09:05:16+08:00",
   "publishers": [
     {
       "event_count": 137,
@@ -12493,9 +12758,9 @@
       "source_links": 144
     },
     {
-      "event_count": 53,
+      "event_count": 55,
       "name": "arXiv",
-      "source_links": 62
+      "source_links": 64
     },
     {
       "event_count": 20,
@@ -12513,13 +12778,13 @@
       "source_links": 14
     },
     {
-      "event_count": 7,
-      "name": "Anthropic",
-      "source_links": 12
+      "event_count": 14,
+      "name": "Reuters via MarketScreener",
+      "source_links": 14
     },
     {
-      "event_count": 12,
-      "name": "Reuters via MarketScreener",
+      "event_count": 7,
+      "name": "Anthropic",
       "source_links": 12
     },
     {
@@ -12539,17 +12804,17 @@
     },
     {
       "event_count": 8,
+      "name": "The White House",
+      "source_links": 8
+    },
+    {
+      "event_count": 8,
       "name": "WHO",
       "source_links": 8
     },
     {
       "event_count": 7,
       "name": "AP",
-      "source_links": 7
-    },
-    {
-      "event_count": 7,
-      "name": "The White House",
       "source_links": 7
     },
     {
@@ -13009,6 +13274,11 @@
     },
     {
       "event_count": 1,
+      "name": "Al Jazeera（综合AP、Reuters与地方官员）",
+      "source_links": 1
+    },
+    {
+      "event_count": 1,
       "name": "Alibaba Cloud",
       "source_links": 1
     },
@@ -13094,7 +13364,22 @@
     },
     {
       "event_count": 1,
+      "name": "Associated Press via KSAT",
+      "source_links": 1
+    },
+    {
+      "event_count": 1,
       "name": "Associated Press via SFGate",
+      "source_links": 1
+    },
+    {
+      "event_count": 1,
+      "name": "Associated Press via Spectrum News NY1",
+      "source_links": 1
+    },
+    {
+      "event_count": 1,
+      "name": "Associated Press via The Guardian",
       "source_links": 1
     },
     {
@@ -13599,6 +13884,11 @@
     },
     {
       "event_count": 1,
+      "name": "Radio Pakistan",
+      "source_links": 1
+    },
+    {
+      "event_count": 1,
       "name": "RBC-Ukraine",
       "source_links": 1
     },
@@ -13660,6 +13950,11 @@
     {
       "event_count": 1,
       "name": "Reuters via Onvista",
+      "source_links": 1
+    },
+    {
+      "event_count": 1,
+      "name": "Reuters via The Japan Times",
       "source_links": 1
     },
     {
@@ -13765,6 +14060,11 @@
     {
       "event_count": 1,
       "name": "TCS",
+      "source_links": 1
+    },
+    {
+      "event_count": 1,
+      "name": "The Economic Times",
       "source_links": 1
     },
     {
@@ -13980,48 +14280,52 @@
   ],
   "regions": [
     {
-      "event_count": 153,
+      "event_count": 156,
       "name": "Global"
     },
     {
-      "event_count": 86,
+      "event_count": 90,
       "name": "Asia"
     },
     {
-      "event_count": 84,
+      "event_count": 86,
       "name": "North America"
     },
     {
-      "event_count": 80,
+      "event_count": 83,
       "name": "United States"
     },
     {
-      "event_count": 73,
+      "event_count": 75,
       "name": "Europe"
     },
     {
-      "event_count": 40,
+      "event_count": 42,
       "name": "China"
+    },
+    {
+      "event_count": 29,
+      "name": "Africa"
     },
     {
       "event_count": 29,
       "name": "全球"
     },
     {
-      "event_count": 28,
-      "name": "Africa"
-    },
-    {
-      "event_count": 26,
+      "event_count": 27,
       "name": "Middle East"
     },
     {
-      "event_count": 19,
+      "event_count": 21,
       "name": "Ukraine"
     },
     {
-      "event_count": 16,
+      "event_count": 17,
       "name": "Russia"
+    },
+    {
+      "event_count": 11,
+      "name": "Iran"
     },
     {
       "event_count": 11,
@@ -14030,10 +14334,6 @@
     {
       "event_count": 11,
       "name": "Oceania"
-    },
-    {
-      "event_count": 10,
-      "name": "Iran"
     },
     {
       "event_count": 10,
@@ -14061,6 +14361,10 @@
     },
     {
       "event_count": 7,
+      "name": "Democratic Republic of the Congo"
+    },
+    {
+      "event_count": 7,
       "name": "France"
     },
     {
@@ -14069,15 +14373,15 @@
     },
     {
       "event_count": 6,
-      "name": "Democratic Republic of the Congo"
-    },
-    {
-      "event_count": 6,
       "name": "India"
     },
     {
       "event_count": 6,
       "name": "Syria"
+    },
+    {
+      "event_count": 5,
+      "name": "Brazil"
     },
     {
       "event_count": 5,
@@ -14097,11 +14401,11 @@
     },
     {
       "event_count": 5,
-      "name": "United Kingdom"
+      "name": "South America"
     },
     {
-      "event_count": 4,
-      "name": "Brazil"
+      "event_count": 5,
+      "name": "United Kingdom"
     },
     {
       "event_count": 4,
@@ -14122,10 +14426,6 @@
     {
       "event_count": 4,
       "name": "South Africa"
-    },
-    {
-      "event_count": 4,
-      "name": "South America"
     },
     {
       "event_count": 4,
@@ -14174,6 +14474,10 @@
     {
       "event_count": 3,
       "name": "Pacific Islands"
+    },
+    {
+      "event_count": 3,
+      "name": "Pakistan"
     },
     {
       "event_count": 3,
@@ -14261,10 +14565,6 @@
     },
     {
       "event_count": 2,
-      "name": "Pakistan"
-    },
-    {
-      "event_count": 2,
       "name": "Philippines"
     },
     {
@@ -14290,6 +14590,10 @@
     {
       "event_count": 2,
       "name": "Sweden"
+    },
+    {
+      "event_count": 2,
+      "name": "Thailand"
     },
     {
       "event_count": 2,
@@ -14377,6 +14681,10 @@
     },
     {
       "event_count": 1,
+      "name": "AI research"
+    },
+    {
+      "event_count": 1,
       "name": "Amboseli"
     },
     {
@@ -14406,6 +14714,10 @@
     {
       "event_count": 1,
       "name": "Austria"
+    },
+    {
+      "event_count": 1,
+      "name": "Bangkok"
     },
     {
       "event_count": 1,
@@ -14545,7 +14857,15 @@
     },
     {
       "event_count": 1,
+      "name": "Khyber Pakhtunkhwa"
+    },
+    {
+      "event_count": 1,
       "name": "Korean Peninsula"
+    },
+    {
+      "event_count": 1,
+      "name": "Kwango"
     },
     {
       "event_count": 1,
@@ -14617,6 +14937,10 @@
     },
     {
       "event_count": 1,
+      "name": "Safety"
+    },
+    {
+      "event_count": 1,
       "name": "Science"
     },
     {
@@ -14645,15 +14969,15 @@
     },
     {
       "event_count": 1,
+      "name": "Strait of Hormuz"
+    },
+    {
+      "event_count": 1,
       "name": "Switzerland"
     },
     {
       "event_count": 1,
       "name": "Tanzania"
-    },
-    {
-      "event_count": 1,
-      "name": "Thailand"
     },
     {
       "event_count": 1,
@@ -14751,19 +15075,19 @@
   "schema_version": 1,
   "source_types": [
     {
-      "event_count": 218,
+      "event_count": 224,
       "name": "wire",
-      "source_links": 249
+      "source_links": 255
     },
     {
-      "event_count": 222,
+      "event_count": 224,
       "name": "primary",
-      "source_links": 248
+      "source_links": 250
     },
     {
-      "event_count": 63,
+      "event_count": 65,
       "name": "research",
-      "source_links": 84
+      "source_links": 86
     },
     {
       "event_count": 44,
@@ -14776,9 +15100,9 @@
       "source_links": 39
     },
     {
-      "event_count": 30,
+      "event_count": 32,
       "name": "regional-media",
-      "source_links": 31
+      "source_links": 33
     },
     {
       "event_count": 21,

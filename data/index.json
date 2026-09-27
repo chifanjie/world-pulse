@@ -2,6 +2,45 @@
   "version": 1,
   "entries": [
     {
+      "date": "2026-09-27",
+      "digest_path": "digests/2026/09/2026-09-27.md",
+      "data_path": "data/2026/09/2026-09-27.json",
+      "generated_at": "2026-09-27T09:05:16+08:00",
+      "item_count": 10,
+      "ai_radar_count": 2,
+      "categories": [
+        "climate-environment",
+        "economy",
+        "health-society",
+        "politics",
+        "technology"
+      ],
+      "regions": [
+        "AI research",
+        "Africa",
+        "Asia",
+        "Bangkok",
+        "Brazil",
+        "China",
+        "Democratic Republic of the Congo",
+        "Europe",
+        "Global",
+        "Iran",
+        "Khyber Pakhtunkhwa",
+        "Kwango",
+        "Middle East",
+        "North America",
+        "Pakistan",
+        "Russia",
+        "Safety",
+        "South America",
+        "Strait of Hormuz",
+        "Thailand",
+        "Ukraine",
+        "United States"
+      ]
+    },
+    {
       "date": "2026-09-26",
       "digest_path": "digests/2026/09/2026-09-26.md",
       "data_path": "data/2026/09/2026-09-26.json",
